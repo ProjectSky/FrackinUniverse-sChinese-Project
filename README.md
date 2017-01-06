@@ -1,3 +1,3 @@
 ### Starbound Frackin' Universe Simplified Chinese Translation Project
-* Translation By：Sky_Orc_Mm
-* Special Thanks：TODO
+* Project：Sky_Orc_Mm
+* Credit：TODO
