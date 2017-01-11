@@ -54,6 +54,7 @@
 
 ###### 链接信息
 * [Steam Workshop](http://steamcommunity.com/sharedfiles/filedetails/?id=754350883)
+* [发布版本](https://github.com/ProjectSky/FrackinUniverse-sChinese-Project/releases)
 
 ###### 版本备注
 * v0.1.5 版本更新（2017/1/11）
