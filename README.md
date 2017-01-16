@@ -48,13 +48,13 @@
 * ~~目前大量文本尚未完成，尚无准确的编译版本发布时间。~~
 
 ###### 翻译进度
-* 文本量：**7938**
-* 已完成：**6988**
-* 总进度：**88.03%**
+* 文本量：**7985**
+* 已完成：**7488**
+* 总进度：**93.75%**
 
 ###### 链接信息
 * [Steam Workshop](http://steamcommunity.com/sharedfiles/filedetails/?id=754350883)
 * [发布版本](https://github.com/ProjectSky/FrackinUniverse-sChinese-Project/releases)
 
 ###### 版本备注
-* v0.1.5 版本更新（2017/1/11）
+* v0.1.6 版本更新（2017/1/16）
