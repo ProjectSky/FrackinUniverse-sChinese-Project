@@ -1625,8 +1625,14 @@
   "items/generic/petfood/petfood2.consumable": {
     "/description": "texts/items/generic/petfood/shared_.consumable.json"
   },
+  "items/generic/produce/bolbohn.consumable": {
+    "/shortdescription": "texts/items/generic/produce/shared_bolbohn.consumable.json"
+  },
   "items/generic/produce/erithianalgae.item": {
     "/shortdescription": "texts/shared_erithianalgae.json"
+  },
+  "items/generic/produce/fubolbohn.consumable": {
+    "/shortdescription": "texts/items/generic/produce/shared_bolbohn.consumable.json"
   },
   "items/generic/produce/fusnowberry.consumable": {
     "/shortdescription": "texts/shared_fusnowberry.json"
@@ -2806,6 +2812,7 @@
     "/scriptConfig/flee/dialog/safe/glitch/4/glitchEmotedText": "texts/npcs/beekeeper.npctype.json"
   },
   "npcs/crew/crewmemberarctic.npctype": {
+    "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/combatBenefit/default/default/2": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3": "texts/npcs/crew/shared_crewmember.json",
@@ -3552,6 +3559,41 @@
   },
   "npcs/crew/crewmemberscience.npctype": {
     "/scriptConfig/crew/role/name": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/default/default/2": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/0": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/1": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/2": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/0/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/0/glitchEmotedText": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/1/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/1/glitchEmotedText": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/2/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/2/glitchEmotedText": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/3/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/3/glitchEmotedText": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/roleDescription/default/default/0": "texts/npcs/crew/shared_crewmember.json"
+  },
+  "npcs/crew/crewmemberscuba.npctype": {
+    "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/default/default/2": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/0": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/1": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/2": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/0/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/0/glitchEmotedText": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/1/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/1/glitchEmotedText": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/2/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/2/glitchEmotedText": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/3/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/3/glitchEmotedText": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/roleDescription/default/default/0": "texts/npcs/crew/shared_crewmember.json"
+  },
+  "npcs/crew/crewmembershadow.npctype": {
     "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/combatBenefit/default/default/2": "texts/npcs/crew/shared_crewmember.json",
