@@ -8,7 +8,7 @@
 
 ###### 查询API
 * 此接口用来查询独立翻译进度和未翻译文件，由于GITHUB对未登录用户的API调用频率进行了限制，请登录自己的GITHUB再使用！
-* [VZ WEB API](https://zomboid.cn/api/) 
+* [VZ WEB API](https://github.zomboid.cn/) 
 
 ###### 翻译格式
 * 翻译源文件为Json格式，Eng表示原文，Chs表示中文。
