@@ -19,6 +19,7 @@
       ]
     },
     "Texts": {
+      "Chs": "傻瓜式传输物品指南",
       "Eng": "Networking for Dummies"
     }
   },
@@ -30,7 +31,7 @@
       ]
     },
     "Texts": {
-      "Chs": "你怎么还在翻页？最后一页可没有什么内容！午睡时间到了...",
+      "Chs": "你怎么还在翻页？最后一页可没有什么内容！好了，我的午睡时间到了...",
       "Eng": "What you reading back here for? Last page not have stuff yet! Naptime. Myaaaaaaawn."
     }
   },
@@ -42,6 +43,7 @@
       ]
     },
     "Texts": {
+      "Chs": "^green;储存容器^white;：和FU中的设备不同，顾名思义，它们只负责储存，所以不要指望它们拥有^red;输入节点^white;和^blue;输出节点^white;。如何连接到传输网络？其实很简单，把一个^green;传输网络连接器(自动)^white;放在它旁边，它就会把距离最近拥有储存功能的设备/容器连接到传输网络上了。",
       "Eng": "^green;Container Links:^white; these are uberuseful little noms. They're also self-centered, so don't expect them to care about their ^red;inputs^white; or ^blue;outputs^white;. They won't. Same with much of the FU machinery. It does its job, ignores everything else. Plug them into ^green;repeaters^white; or ^green;routers^white;, their job is to relay stuff. Oh, right, how they work: they look for the nearest container, measured from center to center. Then they just squawk about it all day."
     }
   },
@@ -53,6 +55,7 @@
       ]
     },
     "Texts": {
+      "Chs": "^green;抽水机和开采机^white;：它们都是自动化设备，一旦你把它们放置后，它们就会开始运作，你看它们的名字就知道它们是做什么的了，你只需要记住左边的^blue;输入节点^white;永远是连接开关的，其实不连接也没关系，当然连接后更利于你操作。而^red;输出节点^white;呢，开采机就不必说了，因为只有一个嘛，所以肯定是连接传输网络，但是抽水机却有两个，左边的是连接传输网络，而右边的则可以配合各类液体释放装置，例如喷头，就可以让液体自动化的喷出来。",
       "Eng": "^green;Pumps and quarries^white;:\n Pretty toys. bring shiny tasty noms to you with minimal effort. Cat won't teach finer points. Just remember that ^blue;left inputs are for power switch, right for alternate mode,^white; and ^red;outputs are for items, optionally liquids.^white; Alternate modes...nya...pump will just dump liquids through its liquid outfit, if connected. Well, more like trickle. Kinda both. Quarry alternate mode just makes it also hit background blocks.\n-scribbles including a doodle of a pump and a quarry smooshed together- pretty..."
     }
   },
@@ -64,6 +67,7 @@
       ]
     },
     "Texts": {
+      "Chs": "^green;传输网络连接器^white;：它与它的兄弟相比就是笨了一点，但是你可以把它用作于中继传输网络。把所有的设备连上它再连上你的设备终端，或许会让你的电线显得不那么密密麻麻。",
       "Eng": "^green;Repeaters^white;: Parrots. PARROTS! Noisy little birds that talk all day to each other. They just pass along the who-is-who. Never try to give them items, they just eat them or use them as nesting material."
     }
   },
@@ -75,6 +79,7 @@
       ]
     },
     "Texts": {
+      "Chs": "^green;物质传输器^white; 说明一：它是传输网络最核心的部分，它用于处理物品的传输。^blue;输入节点^white;：开关接左边，传输网络则接到右边。^red;输出节点^white;：接到传输网络。右上角的界面是你需要输入或者输出的第几格内的物品，如果不填任何数字的话，就是默认的所有格子内的物品。右上角是物品过滤格，你可以根据多种类型来传输你指定的物品。啊~~我有点想睡觉了。",
       "Eng": "^green;Routers^white; part 1: Important part of all item networks. It handles all the item movement. Current interface includes ^red;input^white; slot filters, which umm...let you pick which slots to take from. Router inputs are very explicit. Power on left, network on right. Interface also includes ^blue;output^white; slot filtering. choose what slots to put stuff into. Very useful. Sometimes you only want to load a centrifuge or arc smelter with the tasty noms that you want melted or swirled...and want them to come out melty or swirly. That's what this is for. Plan to make slot filters accept input ranges. will be using (-) sign. Maybe after a nap. Also want to add invert button to input and output slot lists."
     }
   },
@@ -86,6 +91,7 @@
       ]
     },
     "Texts": {
+      "Chs": "^green;物质传输器^white; 说明二：下方的确有很多选项，但千万不要紧张，我会一个一个地介绍，^green;只限^white;：指的是物品名称，每个物品都有各自的名称，这是独一无二的。^green;类别^white;：指的是物品是哪一类的，通常显示与物品名称的下方，例如水则是液体，土块则是块，^green;分类^white;：指的是物品放在你的背包内的哪一个分类里，对，就是你打开背包栏后看到的五大分类，例如水与土块的类别虽然不同，但它们则在同一个背包分类内。^green;反向^white;：顾名思义则是除了把你放在物品过滤格内的物品不传输之外，剩余的都传输，它是搭配前面三个按钮的。",
       "Eng": "^green;Routers^white; part 2: UI has many options on it. don't look like previous models, but still simple to understand. ^green;Inv. Logic^white; is...umm...well, it takes the condition out, inverts it, and makes it a logical AND. Great if you don't want grapefruit in your fruitbowl, but want all the other fruits. There's also filtering for ^green;Exact Match, Type Match (Item Category), and Category Match (Groups of Categories)^white;."
     }
   },
