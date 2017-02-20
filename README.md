@@ -58,14 +58,14 @@
 * 每周跟进 Frackin' Universe 的最新版本（不含翻译，仅文本跟进更新）。
 * ~~目前大量文本尚未完成，尚无准确的编译版本发布时间。~~
 
-###### [2017/2/13|v0.1.9]翻译进度
-* 文本量：**8407**
-* 已完成：**8148**
-* 总进度：**96.91%**
+###### [2017/2/20|v0.1.9b]翻译进度
+* 文本量：**8620**
+* 已完成：**7400**
+* 总进度：**85.84%**
 
 ###### 链接信息
 * [Steam Workshop](http://steamcommunity.com/sharedfiles/filedetails/?id=754350883)
 * [发布版本](https://github.com/ProjectSky/FrackinUniverse-sChinese-Project/releases)
 
 ###### 版本备注
-* v0.1.9 版本更新（2017/2/13）
+* v0.1.9b 版本更新（2017/2/20）
