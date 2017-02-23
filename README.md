@@ -7,4 +7,4 @@
 * 测试中。
 
 ###### 链接信息
-* [每日构建版本下载](https://zomboid.cn/fast/)
+* [每日构建版本下载](https://zomboid.cn/fast)
