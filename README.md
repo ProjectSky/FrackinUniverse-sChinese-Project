@@ -1,5 +1,5 @@
 [![](https://img.shields.io/badge/IRC%20CHAT-Run-green.svg)](https://irc.zomboid.cn) 
-[![](https://img.shields.io/badge/release-V0.1.9-blue.svg)](https://github.com/ProjectSky/FrackinUniverse-sChinese-Project/releases)
+[![](https://img.shields.io/badge/release-V0.2.0-blue.svg)](https://github.com/ProjectSky/FrackinUniverse-sChinese-Project/releases)
 
 ### Starbound Frackin' Universe Simplified Chinese Translation Project
 * Project：Sky_Orc_Mm
@@ -11,10 +11,10 @@
 
 ###### 查询API
 * 此接口用来查询独立翻译进度和未翻译文件，由于GITHUB对未登录用户的API调用频率进行了限制，请登录自己的GITHUB再使用！
-* [VZ WEB API](https://zomboid.cn/api/) 
+* [VZ WEB API](https://zomboid.cn/api/)
 
 ###### IRC Chat
-* [IRC聊天频道](https://irc.zomboid.cn) 
+* [IRC聊天频道](https://irc.zomboid.cn)
 * 没事就挂着，基本全天在线。
 
 ###### 翻译格式
@@ -55,17 +55,17 @@
 * 以上为一个已翻译源文件示例，遵循Json格式即可。
  
 ###### 更新周期
-* 每周跟进 Frackin' Universe 的最新版本（不含翻译，仅文本跟进更新）。
+* 每周跟进 Frackin' Universe 最新版本（不含翻译，仅文本跟进更新）。
 * ~~目前大量文本尚未完成，尚无准确的编译版本发布时间。~~
 
-###### [2017/2/20|v0.1.9b]翻译进度
-* 文本量：**8620**
-* 已完成：**7400**
-* 总进度：**85.84%**
+###### [2017/2/26|v0.2.0]翻译进度
+* 文本量：**8840**
+* 已完成：**8203**
+* 总进度：**92.79%**
 
 ###### 链接信息
 * [Steam Workshop](http://steamcommunity.com/sharedfiles/filedetails/?id=754350883)
 * [发布版本](https://github.com/ProjectSky/FrackinUniverse-sChinese-Project/releases)
 
 ###### 版本备注
-* v0.1.9b 版本更新（2017/2/20）
+* v0.2.0 版本更新（2017/2/26）
