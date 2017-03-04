@@ -1915,6 +1915,9 @@
   "items/generic/crafting/blooddiamond.item": {
     "/shortdescription": "texts/wide_spread_fields.json"
   },
+  "items/generic/crafting/cinnabarore.item": {
+    "/shortdescription": "texts/wide_spread_fields.json"
+  },
   "items/generic/crafting/densiniumore.item": {
     "/description": "texts/items/generic/crafting.json"
   },
@@ -2012,20 +2015,50 @@
   "items/generic/petfood/petfood2.consumable": {
     "/description": "texts/items/generic/petfood/shared_.consumable.json"
   },
+  "items/generic/produce/blisterbushplantfood.consumable": {
+    "/description": "texts/items/generic/produce/shared_.consumable.json"
+  },
   "items/generic/produce/erithianalgae.item": {
     "/shortdescription": "texts/shared_erithianalgae.json"
+  },
+  "items/generic/produce/floralytcandy.consumable": {
+    "/description": "texts/items/generic/produce/shared_y.consumable.json"
   },
   "items/generic/produce/fusnowberry.consumable": {
     "/shortdescription": "texts/shared_fusnowberry.json"
   },
+  "items/generic/produce/garpberry.consumable": {
+    "/description": "texts/items/generic/produce/shared_.consumable.json"
+  },
+  "items/generic/produce/genesiberry.consumable": {
+    "/description": "texts/items/generic/produce/shared_y.consumable.json"
+  },
   "items/generic/produce/ghostmushroom.consumable": {
     "/shortdescription": "texts/shared_ghostmushroom.json"
+  },
+  "items/generic/produce/goldshroom.consumable": {
+    "/description": "texts/items/generic/produce/shared_.consumable.json"
+  },
+  "items/generic/produce/jillyroot.consumable": {
+    "/description": "texts/items/generic/produce/shared_t.consumable.json"
   },
   "items/generic/produce/onion.consumable": {
     "/shortdescription": "texts/shared_onion.json"
   },
+  "items/generic/produce/pasaka.consumable": {
+    "/description": "texts/items/generic/produce/shared_.consumable.json"
+  },
   "items/generic/produce/pekkit.consumable": {
     "/shortdescription": "texts/shared_pekkit.json"
+  },
+  "items/generic/produce/stranglevineroot.consumable": {
+    "/description": "texts/items/generic/produce/shared_.consumable.json"
+  },
+  "items/generic/produce/tearnut.consumable": {
+    "/description": "texts/items/generic/produce/shared_t.consumable.json"
+  },
+  "items/generic/produce/tentacleproduce.consumable": {
+    "/description": "texts/items/generic/produce/shared_.consumable.json"
   },
   "items/liquids/ff_mercury.liqitem": {
     "/shortdescription": "texts/wide_spread_fields.json"
@@ -2777,6 +2810,9 @@
     "/description": "texts/monsters/boss/warbot/shared_.monstertype.json",
     "/shortdescription": "texts/monsters/boss/warbot/shared_.monstertype.json"
   },
+  "monsters/crawlers/triplod/triplodpet.monstertype": {
+    "/description": "texts/monsters/crawlers/shared_triplod.json"
+  },
   "monsters/crawlers/triplodish/spiderwalker/spiderwalker.monstertype": {
     "/description": "texts/monsters/crawlers/triplodish/spiderwalker/shared_spiderwalker.json",
     "/shortdescription": "texts/monsters/crawlers/triplodish/spiderwalker/shared_spiderwalker.json"
@@ -2784,6 +2820,12 @@
   "monsters/crawlers/triplodish/spiderwalker/spiderwalker2.monstertype": {
     "/description": "texts/monsters/crawlers/triplodish/spiderwalker/shared_spiderwalker.json",
     "/shortdescription": "texts/monsters/crawlers/triplodish/spiderwalker/shared_spiderwalker.json"
+  },
+  "monsters/crawlers/triplodish/spiderwalker/spiderwalker2pet.monstertype": {
+    "/description": "texts/monsters/crawlers/shared_triplod.json"
+  },
+  "monsters/crawlers/triplodish/spiderwalker/spiderwalkerpet.monstertype": {
+    "/description": "texts/monsters/crawlers/shared_triplod.json"
   },
   "monsters/critter/mcm/fudesertdactylcritter/fudesertdactylcritter.monstertype": {
     "/description": "texts/monsters/critter/mcm/shared_ter/shared_critter.monstertype.json"
@@ -3167,6 +3209,14 @@
   "monsters/walkers/tentaclecometspore/tentaclecometspore.monstertype": {
     "/description": "texts/monsters/tentaclecometspore/shared_tentaclecometspore.json",
     "/shortdescription": "texts/monsters/tentaclecometspore/shared_tentaclecometspore.json"
+  },
+  "monsters/walkers/waterbot/waterbot.monstertype": {
+    "/description": "texts/monsters/walkers/waterbot/shared_t.monstertype.json",
+    "/shortdescription": "texts/shared_ers/shared_waterbot.json"
+  },
+  "monsters/walkers/waterbot/waterbotpet.monstertype": {
+    "/description": "texts/monsters/walkers/waterbot/shared_t.monstertype.json",
+    "/shortdescription": "texts/shared_ers/shared_waterbot.json"
   },
   "npcs/avianchef.npctype": {
     "/scriptConfig/dialog/merchant/end/apex/default/0": "texts/npcs/shared_.npctype.json",
@@ -4521,6 +4571,12 @@
     "/scriptConfig/dialog/converse/novakid/default/0": "texts/npcs/scienceoutpost/shared_fuoutpostcivilian.json",
     "/scriptConfig/dialog/converse/novakid/default/1": "texts/npcs/scienceoutpost/shared_fuoutpostcivilian.json",
     "/scriptConfig/dialog/converse/novakid/default/2": "texts/npcs/scienceoutpost/shared_fuoutpostcivilian.json"
+  },
+  "objects/ItemGenerator/ItemGenerator.config": {
+    "/gui/scanButton/caption": "texts/objects/shared_Item/shared_r.config.json"
+  },
+  "objects/ItemScanner/ItemScanner.config": {
+    "/gui/scanButton/caption": "texts/objects/shared_Item/shared_r.config.json"
   },
   "objects/augmentextractor/aex.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -9776,6 +9832,18 @@
     "/description": "texts/spawners/sentrybotservitor/shared_sentrybotcraft.json",
     "/shortdescription": "texts/shared_ers.json"
   },
+  "spawners/sentrybottriplod/sentrybottriplod.object": {
+    "/description": "texts/spawners/sentrybottriplod/shared_sentrybottriplod.json"
+  },
+  "spawners/sentrybottriplod/sentrybottriplod2.object": {
+    "/description": "texts/spawners/sentrybottriplod/shared_sentrybottriplod.json"
+  },
+  "spawners/sentrybottriplod/sentrybottriplod3.object": {
+    "/description": "texts/spawners/sentrybottriplod/shared_sentrybottriplod.json"
+  },
+  "spawners/sentrybotwaterbot/sentrybotwaterbot.object": {
+    "/shortdescription": "texts/shared_ers/shared_waterbot.json"
+  },
   "stats/effects/beesting/fubeesting.statuseffect": {
     "/label": "texts/stats/effects/beesting/shared_.statuseffect.json"
   },
@@ -11439,6 +11507,9 @@
   },
   "tiles/mods/algaeore.matmod": {
     "/description": "texts/tiles/mods/shared_.matmod.json"
+  },
+  "tiles/mods/cinnabar.matmod": {
+    "/description": "texts/wide_spread_fields.json"
   },
   "tiles/mods/cloud.matmod": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
