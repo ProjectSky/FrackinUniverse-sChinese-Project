@@ -1,6 +1,7 @@
 ### Starbound Frackin' Universe Simplified Chinese Translation Project
 * Project：Sky_Orc_Mm
 * Credit：TODO
+
 #### 停止维护
 * 很遗憾，由于 Frackin' Universe 更新频繁，两个人并没有足够的精力维护这个项目的频繁更新，现项目停止维护并转交自动构建系统。
 
