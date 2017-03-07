@@ -293,7 +293,7 @@
       },
       "kheAA": {
         "kheAA_router": {
-          "kheAA_routerGui.config.json": 13
+          "kheAA_routerGui.config.json": 14
         },
         "kheAA_terminal": {
           "kheAA_terminalGui.config.json": 4
@@ -3512,14 +3512,31 @@
         }
       },
       "flyers": {
-        "eyejelly": {
-          "eyejelly.monstertype.json": 1
-        },
-        "eyejellyking": {
-          "eyejellyking.monstertype.json": 2
-        },
-        "eyejellykingspawn": {
-          "eyejellykingspawn.monstertype.json": 2
+        "eyejellies": {
+          "eyejelly": {
+            "eyejelly.monstertype.json": 2
+          },
+          "eyejellyking": {
+            "eyejellyking.monstertype.json": 2
+          },
+          "eyejellykingspawn": {
+            "eyejellykingspawn.monstertype.json": 1
+          },
+          "eyejellyspinner": {
+            "eyejellyspinner.monstertype.json": 1
+          },
+          "eyeslime": {
+            "eyeslime.monstertype.json": 1
+          },
+          "eyeslimeking": {
+            "eyeslimeking.monstertype.json": 2
+          },
+          "eyeslimekingspawn": {
+            "eyeslimekingspawn.monstertype.json": 1
+          },
+          "shared_kingspawn": {
+            "shared_kingspawn.monstertype.json": 1
+          }
         },
         "fearmoth": {
           "fearmoth.monstertype.json": 2
@@ -3714,8 +3731,9 @@
       "ground": {
         "shared_skill.json": 1
       },
-      "shared_eyejelly": {
-        "shared_.monstertype.json": 1
+      "shared_ers.json": 1,
+      "shared_eyejell": {
+        "shared_eye.json": 1
       },
       "shared_skill.json": 2,
       "shared_ttack.monsterskill.json": 6,
@@ -4028,6 +4046,9 @@
           "snaunt2": {
             "snaunt2.monstertype.json": 2
           }
+        },
+        "spheretest": {
+          "spheretest.monstertype.json": 1
         },
         "sporgusish": {
           "sporgus2": {
@@ -6042,7 +6063,7 @@
           "shared_gravzone.json": 2
         },
         "liquidsensor": {
-          "advancedliquidsensor.object.json": 2
+          "advancedliquidsensor.object.json": 3
         },
         "logic": {
           "actransformer.object.json": 2,
@@ -6560,6 +6581,11 @@
     },
     "stats": {
       "effects": {
+        "1_new_environmental": {
+          "coldnew": {
+            "coldweathernew.statuseffect.json": 1
+          }
+        },
         "beesting": {
           "beesting.statuseffect.json": 1,
           "fubeesting.animation.json": 1,
@@ -6817,6 +6843,10 @@
           "poisongas": {
             "poisongas.animation.json": 1
           },
+          "protoworld": {
+            "protoweather.animation.json": 1,
+            "protoweather.statuseffect.json": 1
+          },
           "weakenworld": {
             "shared_weakenweather.json": 1,
             "weakenweather.animation.json": 1
@@ -6942,10 +6972,6 @@
           }
         },
         "shared_lightregen.json": 1,
-        "shared_protoworld": {
-          "shared_.statuseffect.json": 1,
-          "shared_protoweather.json": 1
-        },
         "shared_slow.json": 1,
         "swimboost": {
           "shared_.statuseffect.json": 1

@@ -219,15 +219,15 @@
     },
     "codex": {
       "documents": {
-        "ffguide.codex.json": 22,
+        "ffguide.codex.json": 24,
         "ffguide2.codex.json": 22,
         "ffguide3.codex.json": 14,
         "ffguide4.codex.json": 2,
         "ffguide5.codex.json": 15,
-        "networkguide.codex.json": 0,
-        "networkguide2.codex.json": 0,
+        "networkguide.codex.json": 11,
+        "networkguide2.codex.json": 4,
         "shared_ffguide.json": 1,
-        "shared_networkguide.json": 0
+        "shared_networkguide.json": 1
       },
       "elder": {
         "blackbook1.codex.json": 1,
@@ -467,7 +467,7 @@
           },
           "bow": {
             "bonebow": {
-              "bonebow.activeitem.json": 0
+              "bonebow.activeitem.json": 2
             },
             "carbonbow": {
               "carbonbow.activeitem.json": 2
@@ -1072,7 +1072,7 @@
           "staff": {
             "Khe": {
               "kluexstaff": {
-                "kluexstaff.activeitem.json": 0
+                "kluexstaff.activeitem.json": 3
               }
             },
             "cultiststaff": {
@@ -1180,7 +1180,7 @@
             "fuicaruswings.back.json": 2
           },
           "fusurvivorpack": {
-            "fusurvivorback.back.json": 1
+            "fusurvivorback.back.json": 2
           },
           "guardianwings": {
             "shared_guardian": {
@@ -2947,8 +2947,8 @@
         "redhoneyplatform.matitem.json": 1,
         "retexaetherdust.matitem.json": 1,
         "retexaetherdustpillar.matitem.json": 3,
-        "retexcobblestone.matitem.json": 0,
-        "retexdirt.matitem.json": 0,
+        "retexcobblestone.matitem.json": 2,
+        "retexdirt.matitem.json": 2,
         "retexgreenhouse.matitem.json": 1,
         "retexironblock.matitem.json": 1,
         "retexredsandstone.matitem.json": 1,
@@ -3512,14 +3512,31 @@
         }
       },
       "flyers": {
-        "eyejelly": {
-          "eyejelly.monstertype.json": 0
-        },
-        "eyejellyking": {
-          "eyejellyking.monstertype.json": 0
-        },
-        "eyejellykingspawn": {
-          "eyejellykingspawn.monstertype.json": 0
+        "eyejellies": {
+          "eyejelly": {
+            "eyejelly.monstertype.json": 0
+          },
+          "eyejellyking": {
+            "eyejellyking.monstertype.json": 0
+          },
+          "eyejellykingspawn": {
+            "eyejellykingspawn.monstertype.json": 0
+          },
+          "eyejellyspinner": {
+            "eyejellyspinner.monstertype.json": 0
+          },
+          "eyeslime": {
+            "eyeslime.monstertype.json": 0
+          },
+          "eyeslimeking": {
+            "eyeslimeking.monstertype.json": 0
+          },
+          "eyeslimekingspawn": {
+            "eyeslimekingspawn.monstertype.json": 0
+          },
+          "shared_kingspawn": {
+            "shared_kingspawn.monstertype.json": 0
+          }
         },
         "fearmoth": {
           "fearmoth.monstertype.json": 0
@@ -3714,8 +3731,9 @@
       "ground": {
         "shared_skill.json": 0
       },
-      "shared_eyejelly": {
-        "shared_.monstertype.json": 0
+      "shared_ers.json": 0,
+      "shared_eyejell": {
+        "shared_eye.json": 0
       },
       "shared_skill.json": 0,
       "shared_ttack.monsterskill.json": 0,
@@ -4028,6 +4046,9 @@
           "snaunt2": {
             "snaunt2.monstertype.json": 0
           }
+        },
+        "spheretest": {
+          "spheretest.monstertype.json": 0
         },
         "sporgusish": {
           "sporgus2": {
@@ -6401,7 +6422,7 @@
           "fuquest_oonforta.questtemplate.json": 3
         },
         "extractor": {
-          "fuquest_extractor.questtemplate.json": 3,
+          "fuquest_extractor.questtemplate.json": 2,
           "fuquest_geneticmaterial.questtemplate.json": 3,
           "fuquest_methanol.questtemplate.json": 3,
           "fuquest_rawminerals.questtemplate.json": 3,
@@ -6412,10 +6433,10 @@
         "fission": {
           "fuquest_fission.questtemplate.json": 3
         },
-        "fuquest_farming1.questtemplate.json": 3,
+        "fuquest_farming1.questtemplate.json": 2,
         "fuquest_farming2.questtemplate.json": 3,
         "fuquest_farming3.questtemplate.json": 3,
-        "fuquest_farming4.questtemplate.json": 3,
+        "fuquest_farming4.questtemplate.json": 2,
         "fuquest_powergeneration1.questtemplate.json": 3,
         "fuquest_powergeneration2.questtemplate.json": 3,
         "nano": {
@@ -6560,6 +6581,11 @@
     },
     "stats": {
       "effects": {
+        "1_new_environmental": {
+          "coldnew": {
+            "coldweathernew.statuseffect.json": 0
+          }
+        },
         "beesting": {
           "beesting.statuseffect.json": 1,
           "fubeesting.animation.json": 1,
@@ -6658,7 +6684,7 @@
           "slimesetbonuseffect.statuseffect.json": 1,
           "spacefarerimmunity.statuseffect.json": 1,
           "stalwartsetbonuseffect.statuseffect.json": 1,
-          "swashbucklersetbonuseffect.statuseffect.json": 0,
+          "swashbucklersetbonuseffect.statuseffect.json": 1,
           "tw_spacesuitsetbonus.statuseffect.json": 1,
           "underworldsetbonuseffect.statuseffect.json": 1,
           "vagabondsetbonuseffect.statuseffect.json": 1,
@@ -6817,6 +6843,10 @@
           "poisongas": {
             "poisongas.animation.json": 1
           },
+          "protoworld": {
+            "protoweather.animation.json": 1,
+            "protoweather.statuseffect.json": 1
+          },
           "weakenworld": {
             "shared_weakenweather.json": 1,
             "weakenweather.animation.json": 1
@@ -6942,10 +6972,6 @@
           }
         },
         "shared_lightregen.json": 1,
-        "shared_protoworld": {
-          "shared_.statuseffect.json": 1,
-          "shared_protoweather.json": 1
-        },
         "shared_slow.json": 1,
         "swimboost": {
           "shared_.statuseffect.json": 1
@@ -7048,7 +7074,7 @@
         "shared_fuwalljump.json": 1
       },
       "other": {
-        "phaseattack.tech.json": 1,
+        "phaseattack.tech.json": 2,
         "physicsfield2.tech.json": 2,
         "physicsfield3.tech.json": 2,
         "shared_physicsfield.json": 2
