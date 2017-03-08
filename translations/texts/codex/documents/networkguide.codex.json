@@ -7,7 +7,7 @@
       ]
     },
     "Texts": {
-      "Chs": "制作组：Kherae (对，就是我！)\nTP制作的Steambound Reloaded\nCratesmith的VesselBound项目中的设备链接代码",
+      "Chs": "制作组：\nKherae (对，就是我！)\nTP制作的Steambound Reloaded\nCratesmith的VesselBound项目中的设备链接代码",
       "Eng": "Credits: Kherae (Me!)\nTP for Steambound Reloaded\nCratesmith for VesselBound's container link code\n"
     }
   },
@@ -19,7 +19,7 @@
       ]
     },
     "Texts": {
-      "Chs": "教你如何使用物品传输网络",
+      "Chs": "如何使用(C)ustomizable_(A)utomatic_(T)ransmit网络",
       "Eng": "How to work CAT Network Equipment"
     }
   },
@@ -31,7 +31,7 @@
       ]
     },
     "Texts": {
-      "Chs": "物品类别：\n通用类：垃圾、任何不属于其他类别的杂物\n珍宝类：任何稀有或罕见的物品\n材料类：块、液体、平台、破损物\n轨道类：轨道、轨道平台、任何有关轨道的物品\n消耗品类：与食物有关的物品\n书籍类：制作图、书\n试剂类：试剂、反应物、燃料\n建筑类：箱子、家具、门、制作物、电子设备\n农场繁殖的动物、树苗\n武器\n护甲",
+      "Chs": "物品类别：\n通用类：垃圾、任何不属于其他类别的杂物\n珍宝类：任何稀有或罕见的物品\n材料类：块、液体、平台、破损物\n轨道类：轨道、轨道平台、任何有关轨道的物品\n消耗品类：与食物有关的物品\n书籍类：制作图、书\n试剂类：试剂、反应物、燃料\n建筑类：箱子、家具、门、制作物、电子设备\n农场繁殖的动物、树苗\n武器类\n护甲类",
       "Eng": "Item Categories: \nGeneric: junk, anything that doesn't fit a category. \nTreasure: Anything shiny or rare. \nMaterials: block, liquid, platform, breakables! \nRail stuff: rail, railplatform, railpoint \nconsumable: the food category. \nbooks: blueprint, codex \nReagents: materials, ingredients, fuel \nbuilding: storage, crafting, electronics, furniture, doors. \nFarm beast and tree stuff \nWeapons \nArmor"
     }
   },
@@ -43,7 +43,7 @@
       ]
     },
     "Texts": {
-      "Chs": "抽水机与开采机放置即可自动收集材料。开采机在无阻碍时向右延伸至多20格距离，然后向下挖掘(按照最基本设置，它的开采深度为200格)。抽水机则是直接往下延伸，直到它在200格距离内接触到液体为止。当它们的储存格装满后，它们会把满溢的物品卸到附近的储存设备中。",
+      "Chs": "抽水机与开采机放置即可自动收集材料。开采机在无阻碍时向右延伸至多20格距离，然后向下挖掘(按照最基本设置，它的开采深度为200格)。抽水机则是直接往下延伸，直到它在200格距离内接触到液体为止。当它们的储存格装满后，它们会把满溢的物品卸到附近的容器中。",
       "Eng": "Pump and quarry work out of the box and automatically collect. A Quarry extends up to 20 blocks to the right, then mines in that area downwards (amount based on tier, current depth limit is about 200 tiles). Pumps automatically go down until they find a fluid, up to the same distance. When full, they just offload near the device."
     }
   },
@@ -67,7 +67,7 @@
       ]
     },
     "Texts": {
-      "Chs": "猫的物品传输网络指南",
+      "Chs": "CAT网络指南",
       "Eng": "The Cat's Network Guide"
     }
   },
@@ -79,7 +79,7 @@
       ]
     },
     "Texts": {
-      "Chs": "The ^red;I^reset;tem ^red;T^reset;ransferrence ^red;D^reset;evice(物品传输装置)只有在部件连接成功后才会开始工作，ITD可以处理简单的物品传输，指定设备间物品的往返传输。你可以选择接入物品传输装置，它可以帮你省下很多工夫。",
+      "Chs": "The_(I)tem_(T)ransferrence_(D)evice(物品传输装置)只有在部件连接成功后才会开始工作，ITD可以处理简单的物品传输，指定设备间物品的往返传输。你可以接入一个物品传输装置，它可以帮你省下很多工夫。",
       "Eng": "The I(tem) T(ransferrence) D(evice) sets CAT apart from Startech, which only moves items when inserted. CAT Net ITDs handle item movement while turned on, across storage and other connected devices.\nSet your filters before wiring in and outputs. Choose your In- and Outputs carefully."
     }
   },
@@ -91,7 +91,7 @@
       ]
     },
     "Texts": {
-      "Chs": "储存桥接器类似于StarTech中的储存总线，它总是可以自动搜寻距离自身最近的储存设备，你只需简单地把它连入任何物品传输设备即可。",
+      "Chs": "储存桥接器类似于StarTech中的储存总线，它总是可以自动搜寻距离自身最近的容器，你只需简单地把它连入任何物品传输设备即可。",
       "Eng": "The Storage Bridge resembles a Startech Storage Bus. Looks for the container nearest to itself, measured between bottom-left corners. They only relay info about their container. Just plug them into any CAT Network devices."
     }
   },
@@ -115,7 +115,7 @@
       ]
     },
     "Texts": {
-      "Chs": "ITD由两种过滤方法组成：格数与物品过滤。格数过滤，可以让你允许第几格内的物品传输。\n要使用该过滤功能，你需要连接上物品传输装置。在默认情况下，它会传输任何格内的任何物品。物品过滤则有完全匹配，类别匹配(物品名称下方灰色文字作为匹配依据)，分类匹配(物品介面的五大类作为匹配依据)。反选则是除开该过滤条件物品之外的所有物品。",
+      "Chs": "ITD由两种过滤方法组成：格数过滤与物品过滤。\n格数过滤，可以让你允许第几格内的物品传输。要使用该过滤功能，你需要连接上物品传输装置。在默认情况下，它会传输任何格内的任何物品。物品过滤则有完全匹配，类别匹配(第七页内容作为匹配依据)，分类匹配(物品介面的五大分类作为匹配依据)。反选则是除开该过滤条件物品之外的所有物品。",
       "Eng": "The current ITD interface has 2 functions, the slot filter and the item filter. The input slot filter, let you pick which slots to take from. Output slot filtering is included. \nTo filter items you need one to base the filter on. On default, only that item is transmitted Inv. Logic takes the condition out, inverts it, and makes it a logical AND. In other words, it excludes that item from transmit. There's also filtering for Exact Match, Type Match (Item Category), and Category Match (Groups of Categories)."
     }
   },
@@ -127,7 +127,7 @@
       ]
     },
     "Texts": {
-      "Chs": "你可以在加工台中制作物品传输网络所需的部件，然后类似于StarTech(MOD)可以把各部件连接起来，但本喵制作的物质传输网络是分散式管理。如果部件说明上提到可接开关，那么你可以使用开关来控制该部件。温馨提示：请认真阅读每个部件的说明！",
+      "Chs": "你可以在加工台中制作物品传输网络所需的部件，然后类似于StarTech可以把各部件连接起来，但CAT_Net属于分散式管理。如果部件说明上提到可接开关，那么你可以使用开关来控制该部件。温馨提示：请认真阅读每个部件的说明！",
       "Eng": "You will find Customizable Automatic Transmit Network devices primarily at the Machining Table. The parts are connected by wiring, like Startech, but Cat Net is decentralized. If there is a power input mentioned on the label, you can toggle it with a switch. Most important: If cat left labeling on it, read the label!"
     }
   }
