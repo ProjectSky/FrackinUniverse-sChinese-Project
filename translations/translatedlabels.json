@@ -225,7 +225,7 @@
         "ffguide4.codex.json": 2,
         "ffguide5.codex.json": 15,
         "networkguide.codex.json": 11,
-        "networkguide2.codex.json": 4,
+        "networkguide2.codex.json": 14,
         "shared_ffguide.json": 1,
         "shared_networkguide.json": 1
       },
@@ -279,7 +279,7 @@
       "greg.config.json": 6
     },
     "generic.json": 1,
-    "glitchEmotes.json": 128,
+    "glitchEmotes.json": 124,
     "interface": {
       "chests": {
         "genechest128.config.json": 1
@@ -293,7 +293,7 @@
       },
       "kheAA": {
         "kheAA_router": {
-          "kheAA_routerGui.config.json": 13
+          "kheAA_routerGui.config.json": 14
         },
         "kheAA_terminal": {
           "kheAA_terminalGui.config.json": 4
@@ -2121,6 +2121,12 @@
             "radImmunity.augment.json": 2,
             "radImmunity2.augment.json": 2,
             "shadowimmunity1.augment.json": 1,
+            "shared_.augment.json": 0,
+            "test_cold.augment.json": 0,
+            "test_heat.augment.json": 0,
+            "test_insanity.augment.json": 0,
+            "test_poison.augment.json": 0,
+            "test_radiation.augment.json": 0,
             "totalImmunity.augment.json": 2,
             "totalImmunity2.augment.json": 2
           },
@@ -2479,7 +2485,7 @@
           "methanol.item.json": 2,
           "methyliodide.item.json": 2,
           "mineralsample.item.json": 2,
-          "moltencore.item.json": 2,
+          "moltencore.item.json": 1,
           "mutavisksilk.item.json": 2,
           "mutaviskthread.item.json": 2,
           "mythos": {
@@ -4341,10 +4347,10 @@
           "honeyjarrer.object.json": 3
         },
         "industrialcentrifuge": {
-          "industrialcentrifuge.object.json": 2
+          "industrialcentrifuge.object.json": 1
         },
         "ironcentrifuge": {
-          "ironcentrifuge.object.json": 2
+          "ironcentrifuge.object.json": 1
         },
         "scentedapiary": {
           "scentedapiary.object.json": 2
@@ -4356,7 +4362,7 @@
           "shared_centrifuge.object.json": 1
         },
         "woodencentrifuge": {
-          "woodencentrifuge.object.json": 2
+          "woodencentrifuge.object.json": 1
         }
       },
       "biome": {
@@ -5179,25 +5185,24 @@
       },
       "kheAA": {
         "kheAA_autoBeamer": {
-          "fu_harvestTurret.object.json": 1,
-          "fu_harvestTurret2.object.json": 1,
-          "fu_harvestTurret3.object.json": 1,
+          "fu_harvestTurret.object.json": 0,
+          "fu_harvestTurret2.object.json": 0,
+          "fu_harvestTurret3.object.json": 0,
           "shared_fu_harvestTurret.json": 2
         },
         "kheAA_containerLink": {
-          "kheAA_containerLink.object.json": 2
+          "kheAA_containerLink.object.json": 0
         },
         "kheAA_grabber": {
-          "kheAA_grabber.object.json": 1,
-          "kheAA_grabber2.object.json": 1,
-          "kheAA_grabber3.object.json": 1,
-          "shared_kheAA_grabber.json": 1
+          "kheAA_grabber.object.json": 0,
+          "kheAA_grabber2.object.json": 0,
+          "kheAA_grabber3.object.json": 0
         },
         "kheAA_pump": {
-          "kheAA_pump.object.json": 2
+          "kheAA_pump.object.json": 1
         },
         "kheAA_quarry": {
-          "kheAA_quarry.object.json": 2
+          "kheAA_quarry.object.json": 1
         },
         "kheAA_quarryAdmin": {
           "kheAA_quarryAdmin.object.json": 2
@@ -5206,14 +5211,14 @@
           "kheAA_repeater.object.json": 2
         },
         "kheAA_router": {
-          "kheAA_router.object.json": 2
+          "kheAA_router.object.json": 1
         },
         "kheAA_spout": {
           "kheAA_spout.config.json": 2,
-          "kheAA_spout.object.json": 2
+          "kheAA_spout.object.json": 1
         },
         "kheAA_terminal": {
-          "kheAA_terminal.object.json": 2
+          "kheAA_terminal.object.json": 1
         }
       },
       "microformer": {
@@ -5479,7 +5484,7 @@
               "elderlightsensor.object.json": 2
             },
             "wallswitch": {
-              "elderwallswitch.object.json": 1
+              "elderwallswitch.object.json": 2
             }
           },
           "eldertable.object.json": 1,
@@ -5868,7 +5873,6 @@
         "shared_generator.config.json": 1
       },
       "shared_nest.json": 2,
-      "shared_switch.json": 1,
       "teleporter": {
         "crossteleporter": {
           "crossteleporter.object.json": 1
@@ -6003,35 +6007,35 @@
       },
       "wired": {
         "advancedlogic": {
-          "advancedand.object.json": 2,
-          "advancedand3i.object.json": 2,
-          "advancedor.object.json": 2,
-          "advancedor3i.object.json": 2,
-          "advancedxor.object.json": 2,
-          "advancedxor3i.object.json": 2,
-          "advancedxor3i12h.object.json": 2,
-          "advancedxor3i1h.object.json": 2,
-          "advancedxor3i2h.object.json": 2,
-          "masterlogic.object.json": 4,
-          "nolatch": {
-            "advancedand_nolatch.object.json": 4,
-            "advancedor_nolatch.object.json": 4,
-            "advancedxor_nolatch.object.json": 4
+          "no latch": {
+            "swtjc_wp_advancedand_nolatch.object.json": 0,
+            "swtjc_wp_advancedor_nolatch.object.json": 0,
+            "swtjc_wp_advancedxor_nolatch.object.json": 0
           },
-          "shared_advanced.json": 2
+          "shared_swtjc_wp_advanced.json": 0,
+          "swtjc_wp_advancedand.object.json": 0,
+          "swtjc_wp_advancedand3i.object.json": 0,
+          "swtjc_wp_advancedor.object.json": 0,
+          "swtjc_wp_advancedor3i.object.json": 0,
+          "swtjc_wp_advancedxor.object.json": 0,
+          "swtjc_wp_advancedxor3i.object.json": 0,
+          "swtjc_wp_advancedxor3i12h.object.json": 0,
+          "swtjc_wp_advancedxor3i1h.object.json": 0,
+          "swtjc_wp_advancedxor3i2h.object.json": 0,
+          "swtjc_wp_masterlogic.object.json": 0
         },
         "advancedswitch": {
-          "advancedswitch.object.json": 1,
-          "advancedswitch_nolatch.object.json": 2,
-          "advancedswitch_noninteractive.object.json": 3,
-          "shared_advancedswitch.json": 3
+          "shared_swtjc_wp_advancedswitch.json": 0,
+          "swtjc_wp_advancedswitch.object.json": 0,
+          "swtjc_wp_advancedswitch_nolatch.object.json": 0,
+          "swtjc_wp_advancedswitch_noninteractive.object.json": 0
         },
         "elderliquidsensor": {
           "elderliquidsensor.object.json": 4
         },
         "emitter": {
-          "brokenemitter.object.json": 4,
-          "emitter.object.json": 4
+          "swtjc_wp_brokenemitter.object.json": 0,
+          "swtjc_wp_emitter.object.json": 0
         },
         "fu_turrets": {
           "fu_flameturret": {
@@ -6062,58 +6066,79 @@
         "gravzone": {
           "shared_gravzone.json": 2
         },
+        "lightsensor": {
+          "advancedlightsensor.object.json": 0
+        },
         "liquidsensor": {
-          "advancedliquidsensor.object.json": 2
+          "swtjc_wp_advancedliquidsensor.object.json": 0
         },
         "logic": {
-          "actransformer.object.json": 2,
-          "and.object.json": 1,
-          "and3i.object.json": 1,
-          "countdowndelay.object.json": 2,
-          "delay.object.json": 1,
-          "delay1s.object.json": 1,
-          "delay2s.object.json": 1,
-          "delay3s.object.json": 1,
-          "delay4s.object.json": 1,
-          "delay5s.object.json": 1,
-          "delayqs.object.json": 1,
-          "dlatch.object.json": 2,
+          "compact logic horizontal": {
+            "swtjc_wp_compacthdlatch.object.json": 0
+          },
+          "compact logic vertical": {
+            "swtjc_wp_compactvdlatch.object.json": 0
+          },
           "fu_gated": {
             "fu_gated.object.json": 2
           },
-          "invertedpulser.object.json": 2,
-          "invertedpulsetimer.object.json": 2,
-          "invertedpulsetimer1s.object.json": 2,
-          "invertedpulsetimer2s.object.json": 2,
-          "invertedpulsetimer3s.object.json": 2,
-          "invertedpulsetimer4s.object.json": 2,
-          "invertedpulsetimer5s.object.json": 2,
-          "invertedpulsetimerqs.object.json": 2,
-          "nand.object.json": 2,
-          "nor.object.json": 2,
-          "not.object.json": 2,
-          "nxor.object.json": 2,
-          "or.object.json": 1,
-          "or3i.object.json": 1,
-          "pulser.object.json": 2,
-          "pulsetimer.object.json": 2,
-          "pulsetimer1s.object.json": 2,
-          "pulsetimer2s.object.json": 2,
-          "pulsetimer3s.object.json": 2,
-          "pulsetimer4s.object.json": 2,
-          "pulsetimer5s.object.json": 2,
-          "pulsetimerqs.object.json": 2,
-          "relay.object.json": 2,
-          "shared_.object.json": 3,
-          "xor.object.json": 2,
-          "xor3i.object.json": 2,
-          "xor3i12h.object.json": 2,
-          "xor3i1h.object.json": 2,
-          "xor3i2h.object.json": 2
+          "relay.object.json": 1,
+          "shared_compact logic ": {
+            "shared_swtjc_wp_compact.json": 0
+          },
+          "shared_relay.object.json": 1,
+          "shared_swtjc_wp_delay.json": 0,
+          "shared_swtjc_wp_nxor3i1.json": 0,
+          "swtjc_wp_actransformer.object.json": 0,
+          "swtjc_wp_and3i.object.json": 0,
+          "swtjc_wp_countdowndelay.object.json": 0,
+          "swtjc_wp_delay1s.object.json": 0,
+          "swtjc_wp_delay2s.object.json": 0,
+          "swtjc_wp_delay3s.object.json": 0,
+          "swtjc_wp_delay4s.object.json": 0,
+          "swtjc_wp_delay5s.object.json": 0,
+          "swtjc_wp_delayqs.object.json": 0,
+          "swtjc_wp_invertedpulser.object.json": 0,
+          "swtjc_wp_invertedpulsetimer.object.json": 0,
+          "swtjc_wp_invertedpulsetimer1s.object.json": 0,
+          "swtjc_wp_invertedpulsetimer2s.object.json": 0,
+          "swtjc_wp_invertedpulsetimer3s.object.json": 0,
+          "swtjc_wp_invertedpulsetimer4s.object.json": 0,
+          "swtjc_wp_invertedpulsetimer5s.object.json": 0,
+          "swtjc_wp_invertedpulsetimerqs.object.json": 0,
+          "swtjc_wp_nand.object.json": 0,
+          "swtjc_wp_nand3i.object.json": 0,
+          "swtjc_wp_nor.object.json": 0,
+          "swtjc_wp_nor3i.object.json": 0,
+          "swtjc_wp_nxor.object.json": 0,
+          "swtjc_wp_nxor3i.object.json": 0,
+          "swtjc_wp_nxor3i12h.object.json": 0,
+          "swtjc_wp_nxor3i1h.object.json": 0,
+          "swtjc_wp_nxor3i2h.object.json": 0,
+          "swtjc_wp_or3i.object.json": 0,
+          "swtjc_wp_pulser.object.json": 0,
+          "swtjc_wp_pulsetimer.object.json": 0,
+          "swtjc_wp_pulsetimer1s.object.json": 0,
+          "swtjc_wp_pulsetimer2s.object.json": 0,
+          "swtjc_wp_pulsetimer3s.object.json": 0,
+          "swtjc_wp_pulsetimer4s.object.json": 0,
+          "swtjc_wp_pulsetimer5s.object.json": 0,
+          "swtjc_wp_pulsetimerqs.object.json": 0,
+          "swtjc_wp_xor3i.object.json": 0,
+          "swtjc_wp_xor3i12h.object.json": 0,
+          "swtjc_wp_xor3i1h.object.json": 0,
+          "swtjc_wp_xor3i2h.object.json": 0
         },
+        "logic.json": 0,
         "persistentswitch": {
-          "persistentswitch.object.json": 2,
-          "persistentswitchinteractive.object.json": 2
+          "shared_compact switch ": {
+            "shared_persistentswitch.object.json": 0,
+            "shared_persistentswitchinteractive.object.json": 0
+          },
+          "shared_switch.json": 0,
+          "swtjc_wp_persistentswitch_withnot.object.json": 0,
+          "swtjc_wp_persistentswitchinteractive.object.json": 0,
+          "swtjc_wp_persistentswitchinteractive_withnot.object.json": 0
         },
         "pumpin": {
           "pumpinfu.object.json": 1
@@ -6134,9 +6159,9 @@
           "pumpoutpressurefuelder.object.json": 1
         },
         "sequencer": {
-          "shared_sequencer2bit.json": 4,
-          "shared_sequencer3bit.json": 4,
-          "shared_sequencer4bit.json": 4
+          "shared_swtjc_wp_sequencer2bit.json": 0,
+          "shared_swtjc_wp_sequencer3bit.json": 0,
+          "shared_swtjc_wp_sequencer4bit.json": 0
         },
         "shared_pumpin": {
           "shared_pumpinfu.json": 1
@@ -6148,10 +6173,9 @@
           "shared_pumpoutpressurefu.json": 1
         },
         "smallwallswitch": {
-          "brokenwallswitch.object.json": 4,
-          "shared_smallwallswitch.json": 3,
-          "smallwallswitch.object.json": 1,
-          "smallwallswitchlighttoggle.object.json": 1
+          "shared_swtjc_wp_brokencompact.json": 0,
+          "shared_wallswitch.object.json": 0,
+          "swtjc_wp_brokenwallswitch.object.json": 0
         }
       }
     },
@@ -6422,7 +6446,7 @@
           "fuquest_oonforta.questtemplate.json": 3
         },
         "extractor": {
-          "fuquest_extractor.questtemplate.json": 2,
+          "fuquest_extractor.questtemplate.json": 3,
           "fuquest_geneticmaterial.questtemplate.json": 3,
           "fuquest_methanol.questtemplate.json": 3,
           "fuquest_rawminerals.questtemplate.json": 3,
@@ -6433,10 +6457,10 @@
         "fission": {
           "fuquest_fission.questtemplate.json": 3
         },
-        "fuquest_farming1.questtemplate.json": 2,
+        "fuquest_farming1.questtemplate.json": 3,
         "fuquest_farming2.questtemplate.json": 3,
         "fuquest_farming3.questtemplate.json": 3,
-        "fuquest_farming4.questtemplate.json": 2,
+        "fuquest_farming4.questtemplate.json": 3,
         "fuquest_powergeneration1.questtemplate.json": 3,
         "fuquest_powergeneration2.questtemplate.json": 3,
         "nano": {
@@ -6516,7 +6540,6 @@
       "fu_ore.radiomessages.json": 19,
       "fu_resources.radiomessages.json": 48,
       "fu_stations.radiomessages.json": 2,
-      "fu_statuseffect.radiomessages.json": 1,
       "shared_.radiomessages.json": 1,
       "shared_es.radiomessages.json": 1
     },
@@ -6583,7 +6606,7 @@
       "effects": {
         "1_new_environmental": {
           "coldnew": {
-            "coldweathernew.statuseffect.json": 0
+            "coldweathernew.statuseffect.json": 1
           }
         },
         "beesting": {
@@ -7189,7 +7212,7 @@
           "whitewaxplatform.matitem.json": 2
         },
         "honey.json": 1,
-        "hydrotube.material.json": 1,
+        "hydrotube.material.json": 0,
         "icewaste": {
           "iceblock3.material.json": 1,
           "shared_.material.json": 1
