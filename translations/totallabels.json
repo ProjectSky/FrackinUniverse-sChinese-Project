@@ -2126,6 +2126,7 @@
             "test_heat.augment.json": 1,
             "test_insanity.augment.json": 1,
             "test_poison.augment.json": 1,
+            "test_proto.augment.json": 1,
             "test_radiation.augment.json": 1,
             "totalImmunity.augment.json": 2,
             "totalImmunity2.augment.json": 2
@@ -6535,7 +6536,7 @@
       "exploration.radiomessages.json": 9,
       "fu_chemlab.radiomessages.json": 9,
       "fu_elder.radiomessages.json": 26,
-      "fu_exploration.radiomessages.json": 14,
+      "fu_exploration.radiomessages.json": 16,
       "fu_isotopes.radiomessages.json": 6,
       "fu_ore.radiomessages.json": 19,
       "fu_resources.radiomessages.json": 48,
@@ -6606,7 +6607,14 @@
       "effects": {
         "1_new_environmental": {
           "coldnew": {
-            "coldweathernew.statuseffect.json": 1
+            "coldweathernew.animation.json": 1,
+            "shared_.statuseffect.json": 1
+          },
+          "insanitynew": {
+            "insanitynew.animation.json": 1
+          },
+          "poisonnew": {
+            "poisonweathernew.animation.json": 1
           }
         },
         "beesting": {

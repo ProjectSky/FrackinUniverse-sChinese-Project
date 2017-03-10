@@ -1380,31 +1380,31 @@
             "fubone.chest.json": 1,
             "fubone.head.json": 1,
             "fubone.legs.json": 1,
-            "shared_fubone..json": 1
+            "shared_fubone..json": 0
           },
           "leatherarmor": {
             "leatherarmor.chest.json": 1,
             "leatherarmor.head.json": 1,
             "leatherarmor.legs.json": 1,
-            "shared_leatherarmor..json": 1
+            "shared_leatherarmor..json": 0
           },
           "missionary": {
             "missionaryrobe.chest.json": 1,
             "missionaryrobe.head.json": 1,
             "missionaryrobe.legs.json": 1,
-            "shared_missionaryrobe..json": 1
+            "shared_missionaryrobe..json": 0
           },
           "plebian": {
             "mantizitier1.chest.json": 1,
             "mantizitier1.head.json": 1,
             "mantizitier1.legs.json": 1,
-            "shared_mantizitier1..json": 1
+            "shared_mantizitier1..json": 0
           },
           "underworld": {
             "kirhostier1.chest.json": 1,
             "kirhostier1.head.json": 1,
             "kirhostier1.legs.json": 1,
-            "shared_kirhostier1..json": 1
+            "shared_kirhostier1..json": 0
           }
         },
         "tier2": {
@@ -2126,6 +2126,7 @@
             "test_heat.augment.json": 0,
             "test_insanity.augment.json": 0,
             "test_poison.augment.json": 0,
+            "test_proto.augment.json": 0,
             "test_radiation.augment.json": 0,
             "totalImmunity.augment.json": 2,
             "totalImmunity2.augment.json": 2
@@ -6606,7 +6607,14 @@
       "effects": {
         "1_new_environmental": {
           "coldnew": {
-            "coldweathernew.statuseffect.json": 1
+            "coldweathernew.animation.json": 0,
+            "shared_.statuseffect.json": 1
+          },
+          "insanitynew": {
+            "insanitynew.animation.json": 0
+          },
+          "poisonnew": {
+            "poisonweathernew.animation.json": 0
           }
         },
         "beesting": {
@@ -6659,7 +6667,7 @@
           "bearsetbonuseffect.statuseffect.json": 1,
           "blistersetbonuseffect.statuseffect.json": 1,
           "bonesetbonus2.statuseffect.json": 1,
-          "bonesetbonuseffect.statuseffect.json": 1,
+          "bonesetbonuseffect.statuseffect.json": 0,
           "bonesteelsetbonuseffect.statuseffect.json": 1,
           "brainslug.animation.json": 1,
           "chitinsetbonus.statuseffect.json": 1,
@@ -6677,18 +6685,18 @@
           "infernosuiteffects.statuseffect.json": 1,
           "intersecsetbonus.statuseffect.json": 1,
           "isogensetbonus.statuseffect.json": 1,
-          "leathersetbonuseffect.statuseffect.json": 1,
+          "leathersetbonuseffect.statuseffect.json": 0,
           "lightpriestsetbonuseffect.statuseffect.json": 1,
           "lunarisetbonuseffect.statuseffect.json": 1,
           "militiasetbonuseffect.statuseffect.json": 1,
-          "missionarysetbonuseffect.statuseffect.json": 1,
+          "missionarysetbonuseffect.statuseffect.json": 0,
           "movementprotection.statuseffect.json": 1,
           "mutavisksetbonus.statuseffect.json": 1,
           "nautilussetbonuseffect.statuseffect.json": 1,
           "nomadsetbonuseffect.statuseffect.json": 1,
           "operativesetbonuseffect.statuseffect.json": 1,
           "phasesetbonuseffect.statuseffect.json": 1,
-          "plebiansetbonuseffect.statuseffect.json": 1,
+          "plebiansetbonuseffect.statuseffect.json": 0,
           "pyreitesetbonus.statuseffect.json": 1,
           "quietuseffects.statuseffect.json": 1,
           "raidersetbonuseffect.statuseffect.json": 1,
@@ -6709,7 +6717,7 @@
           "stalwartsetbonuseffect.statuseffect.json": 1,
           "swashbucklersetbonuseffect.statuseffect.json": 1,
           "tw_spacesuitsetbonus.statuseffect.json": 1,
-          "underworldsetbonuseffect.statuseffect.json": 1,
+          "underworldsetbonuseffect.statuseffect.json": 0,
           "vagabondsetbonuseffect.statuseffect.json": 1,
           "valkyriesetbonus.statuseffect.json": 1,
           "wanderersetbonuseffect.statuseffect.json": 1,
@@ -6867,8 +6875,8 @@
             "poisongas.animation.json": 1
           },
           "protoworld": {
-            "protoweather.animation.json": 1,
-            "protoweather.statuseffect.json": 1
+            "protoweather.animation.json": 0,
+            "protoweather.statuseffect.json": 0
           },
           "weakenworld": {
             "shared_weakenweather.json": 1,
