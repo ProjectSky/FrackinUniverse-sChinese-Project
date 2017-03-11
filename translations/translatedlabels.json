@@ -1469,8 +1469,10 @@
             "shared_mantizitier2..json": 1
           },
           "nomad": {
+            "fudesertwalker.chest.json": 1,
             "fudesertwalker.head.json": 1,
-            "shared_fudesertwalker..json": 2
+            "fudesertwalker.legs.json": 0,
+            "shared_fudesertwalker..json": 1
           },
           "operative": {
             "fuoperative.head.json": 1,
@@ -1503,7 +1505,7 @@
           },
           "vagabond": {
             "deckardchest.chest.json": 1,
-            "deckardhead.head.json": 1,
+            "deckardhead.head.json": 0,
             "deckardpants.legs.json": 1,
             "shared_deckard.json": 1
           },
@@ -1580,8 +1582,10 @@
             "fujunker.legs.json": 2
           },
           "fulightpriest": {
+            "fulightpriest.chest.json": 1,
             "fulightpriest.head.json": 1,
-            "shared_fulightpriest..json": 2
+            "fulightpriest.legs.json": 0,
+            "shared_fulightpriest..json": 1
           },
           "furaider": {
             "furaider.chest.json": 1,
@@ -1704,14 +1708,12 @@
             "fieldscientist.legs.json": 1,
             "fieldscientisthead2.head.json": 1,
             "fieldscientisthead3.head.json": 1,
-            "fieldscientisthead4.head.json": 1,
-            "shared_fieldscientist..json": 1,
-            "shared_fieldscientist.json": 1
+            "fieldscientisthead4.head.json": 1
           },
           "fleshexosuit": {
-            "fu_exosuit.chest.json": 2,
-            "fu_exosuit.head.json": 2,
-            "fu_exosuit.legs.json": 2
+            "fu_exosuit.chest.json": 1,
+            "fu_exosuit.head.json": 1,
+            "fu_exosuit.legs.json": 1
           },
           "fuarmoredcultist": {
             "fuarmoredcultist.back.json": 2,
@@ -1855,8 +1857,10 @@
             "kirhostier5manipulator.legs.json": 2
           },
           "eldercultist": {
+            "cultarmor.chest.json": 1,
             "cultarmor.head.json": 2,
-            "shared_cultarmor..json": 2
+            "cultarmor.legs.json": 0,
+            "shared_cultarmor..json": 1
           },
           "ff_diamondarmor": {
             "ff_diamondarmor.chest.json": 2,
@@ -1929,9 +1933,9 @@
             "fuquantum.legs.json": 2
           },
           "operator": {
-            "mantizitier5accelerator.chest.json": 2,
-            "mantizitier5accelerator.head.json": 2,
-            "mantizitier5accelerator.legs.json": 2
+            "mantizitier5accelerator.chest.json": 1,
+            "mantizitier5accelerator.head.json": 1,
+            "mantizitier5accelerator.legs.json": 0
           },
           "rifter": {
             "kirhostier5separator.chest.json": 2,
@@ -2128,6 +2132,7 @@
             "test_poison.augment.json": 0,
             "test_proto.augment.json": 0,
             "test_radiation.augment.json": 0,
+            "test_sulphuric.augment.json": 0,
             "totalImmunity.augment.json": 2,
             "totalImmunity2.augment.json": 2
           },
@@ -6615,6 +6620,13 @@
           },
           "poisonnew": {
             "poisonweathernew.animation.json": 0
+          },
+          "radiationnew": {
+            "radioactiveweathernew.animation.json": 0
+          },
+          "sulphuricnew": {
+            "sulphuricweathernew.animation.json": 0,
+            "sulphuricweathernew.statuseffect.json": 0
           }
         },
         "beesting": {
@@ -6666,11 +6678,10 @@
           "arcticparkasetbonus.statuseffect.json": 1,
           "bearsetbonuseffect.statuseffect.json": 1,
           "blistersetbonuseffect.statuseffect.json": 1,
-          "bonesetbonus2.statuseffect.json": 1,
           "bonesetbonuseffect.statuseffect.json": 0,
           "bonesteelsetbonuseffect.statuseffect.json": 1,
           "brainslug.animation.json": 1,
-          "chitinsetbonus.statuseffect.json": 1,
+          "chitinsetbonuseffect.statuseffect.json": 0,
           "cultfleshsetbonus.statuseffect.json": 1,
           "densiniumsetbonuseffect.statuseffect.json": 1,
           "dwellersetbonuseffect.statuseffect.json": 1,
@@ -6722,7 +6733,7 @@
           "valkyriesetbonus.statuseffect.json": 1,
           "wanderersetbonuseffect.statuseffect.json": 1,
           "warangelsetbonuseffect.statuseffect.json": 1,
-          "warriorrobessetbonus.statuseffect.json": 1,
+          "warriorrobessetbonuseffect.statuseffect.json": 0,
           "wolfsetbonuseffect.statuseffect.json": 1,
           "xenosetbonuseffect.statuseffect.json": 1,
           "xithricitesetbonuseffect.statuseffect.json": 1
