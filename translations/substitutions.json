@@ -1223,13 +1223,13 @@
     "/shortdescription": "texts/items/armors/shared_fuinferno/shared_fuinferno.json"
   },
   "items/armors/crew/scienceparkanpc/sciencefunpc.chest": {
-    "/shortdescription": "texts/items/armors/shared_scienceparka/shared_sciencefu.json"
+    "/shortdescription": "texts/items/armors/shared_sciencefu.json"
   },
   "items/armors/crew/scienceparkanpc/sciencefunpc.head": {
-    "/shortdescription": "texts/items/armors/shared_scienceparka/shared_sciencefu.json"
+    "/shortdescription": "texts/items/armors/shared_sciencefu.json"
   },
   "items/armors/crew/scienceparkanpc/sciencefunpc.legs": {
-    "/shortdescription": "texts/items/armors/shared_scienceparka/shared_sciencefu.json"
+    "/shortdescription": "texts/items/armors/shared_sciencefu.json"
   },
   "items/armors/tier0/goggles1/goggles1.head": {
     "/description": "texts/items/armors/tier0/shared_goggles/shared_goggles.json",
@@ -1920,6 +1920,18 @@
   "items/armors/tier4/x10/xeno.legs": {
     "/description": "texts/items/armors/tier4/x10/shared_xeno..json"
   },
+  "items/armors/tier5/arctic/sciencefu.chest": {
+    "/description": "texts/items/armors/tier5/arctic/shared_sciencefu..json",
+    "/shortdescription": "texts/items/armors/shared_sciencefu.json"
+  },
+  "items/armors/tier5/arctic/sciencefu.head": {
+    "/description": "texts/items/armors/tier5/arctic/shared_sciencefu..json",
+    "/shortdescription": "texts/items/armors/shared_sciencefu.json"
+  },
+  "items/armors/tier5/arctic/sciencefu.legs": {
+    "/description": "texts/items/armors/tier5/arctic/shared_sciencefu..json",
+    "/shortdescription": "texts/items/armors/shared_sciencefu.json"
+  },
   "items/armors/tier5/darkmatter/fubonusarmor.chest": {
     "/description": "texts/items/armors/tier5/darkmatter/shared_fubonusarmor..json"
   },
@@ -2029,15 +2041,6 @@
   "items/armors/tier5/morphite/fuquantum.legs": {
     "/description": "texts/items/armors/tier5/morphite/shared_fuquantum..json"
   },
-  "items/armors/tier5/operator/mantizitier5accelerator.chest": {
-    "/description": "texts/items/armors/tier5/operator/shared_mantizitier5accelerator..json"
-  },
-  "items/armors/tier5/operator/mantizitier5accelerator.head": {
-    "/description": "texts/items/armors/tier5/operator/shared_mantizitier5accelerator..json"
-  },
-  "items/armors/tier5/operator/mantizitier5accelerator.legs": {
-    "/description": "texts/items/armors/tier5/operator/shared_mantizitier5accelerator..json"
-  },
   "items/armors/tier5/rifter/kirhostier5separator.chest": {
     "/description": "texts/items/armors/tier5/rifter/shared_kirhostier5separator..json"
   },
@@ -2046,18 +2049,6 @@
   },
   "items/armors/tier5/rifter/kirhostier5separator.legs": {
     "/description": "texts/items/armors/tier5/rifter/shared_kirhostier5separator..json"
-  },
-  "items/armors/tier5/scienceparka/sciencefu.chest": {
-    "/description": "texts/items/armors/tier5/scienceparka/shared_sciencefu..json",
-    "/shortdescription": "texts/items/armors/shared_scienceparka/shared_sciencefu.json"
-  },
-  "items/armors/tier5/scienceparka/sciencefu.head": {
-    "/description": "texts/items/armors/tier5/scienceparka/shared_sciencefu..json",
-    "/shortdescription": "texts/items/armors/shared_scienceparka/shared_sciencefu.json"
-  },
-  "items/armors/tier5/scienceparka/sciencefu.legs": {
-    "/description": "texts/items/armors/tier5/scienceparka/shared_sciencefu..json",
-    "/shortdescription": "texts/items/armors/shared_scienceparka/shared_sciencefu.json"
   },
   "items/armors/tier5/sentryarmor/mobiusarmor.chest": {
     "/description": "texts/items/armors/tier5/sentryarmor/shared_mobiusarmor..json"
@@ -2076,6 +2067,15 @@
   },
   "items/armors/tier5/valkyrie/kirhostier5accelerator.legs": {
     "/description": "texts/items/armors/tier5/valkyrie/shared_kirhostier5accelerator..json"
+  },
+  "items/armors/tier5/warframe/mantizitier5accelerator.chest": {
+    "/description": "texts/items/armors/tier5/warframe/shared_mantizitier5accelerator..json"
+  },
+  "items/armors/tier5/warframe/mantizitier5accelerator.head": {
+    "/description": "texts/items/armors/tier5/warframe/shared_mantizitier5accelerator..json"
+  },
+  "items/armors/tier5/warframe/mantizitier5accelerator.legs": {
+    "/description": "texts/items/armors/tier5/warframe/shared_mantizitier5accelerator..json"
   },
   "items/armors/tier5/wolfenhanced/wolf2.chest": {
     "/description": "texts/items/armors/tier5/wolfenhanced/shared_wolf2..json"
@@ -7325,9 +7325,11 @@
     "/shortdescription": "texts/objects/farmables/oonfortaseed/shared_oonfortaseed.object.json"
   },
   "objects/farmables/pasakavine/pasakavineseed.object": {
+    "/description": "texts/objects/farmables/pasakavine/shared_pasakavineseed.object.json",
     "/shortdescription": "texts/objects/farmables/pasakavine/shared_pasakavineseed.object.json"
   },
   "objects/farmables/pasakavine/wildpasakavineseed.object": {
+    "/description": "texts/objects/farmables/pasakavine/shared_pasakavineseed.object.json",
     "/shortdescription": "texts/objects/farmables/pasakavine/shared_pasakavineseed.object.json"
   },
   "objects/farmables/pekkit/pekkitseed.object": {
@@ -10801,6 +10803,9 @@
   "stats/effects/defenseboost/defenseboostgreg.statuseffect": {
     "/label": "texts/stats/effects/defenseboost/shared_.statuseffect.json"
   },
+  "stats/effects/defenseboost/defenseghostweave.statuseffect": {
+    "/label": "texts/stats/effects/defenseboost/shared_.statuseffect.json"
+  },
   "stats/effects/electricblock/electricblock1.statuseffect": {
     "/label": "texts/stats/effects/electricblock/shared_electricblock.json"
   },
@@ -11231,6 +11236,15 @@
   },
   "stats/effects/fu_weathereffects/new/sulphuric/sulphuricweathernew4.statuseffect": {
     "/label": "texts/stats/effects/fu_weathereffects/new/shared_.statuseffect.json"
+  },
+  "stats/effects/fu_weathereffects/new/sulphuric/sulphuricweatherstorm.statuseffect": {
+    "/label": "texts/stats/effects/fu_weathereffects/new/sulphuric/shared_sulphuricweatherstorm.json"
+  },
+  "stats/effects/fu_weathereffects/new/sulphuric/sulphuricweatherstorm2.statuseffect": {
+    "/label": "texts/stats/effects/fu_weathereffects/new/sulphuric/shared_sulphuricweatherstorm.json"
+  },
+  "stats/effects/fu_weathereffects/new/sulphuric/sulphuricweatherstorm3.statuseffect": {
+    "/label": "texts/stats/effects/fu_weathereffects/new/sulphuric/shared_sulphuricweatherstorm.json"
   },
   "stats/effects/fu_weathereffects/poisongas/poisongas.statuseffect": {
     "/label": "texts/stats/effects/shared_effects/shared_.statuseffect.json"
