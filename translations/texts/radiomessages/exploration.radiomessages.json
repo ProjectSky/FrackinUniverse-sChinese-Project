@@ -1,110 +1,270 @@
-[
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "radiomessages/exploration.radiomessages": [
-        "/biomeradiation/text"
-      ]
-    },
-    "Texts": {
-      "Chs": "^red;危险警告：在该星球上检测到辐射效应！^reset;\n我建议你先返回飞船，等您获得了相对应的防护措施再进行探索！",
-      "Eng": "^red;WARNING! RADIATION DETECTED ^reset;! \nYou should not attempt further exploration without proper protective equipment!"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "radiomessages/exploration.radiomessages": [
-        "/biomecold/text"
-      ]
-    },
-    "Texts": {
-      "Chs": "^red;危险警告：在该星球上检测到寒冷效应！^reset;\n我建议你先返回飞船，等您获得了相对应的防护措施再进行探索！",
-      "Eng": "^red;WARNING! EXTREME COLD DETECTED ^reset;! \nYou should not attempt further exploration without proper protective equipment!"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "radiomessages/exploration.radiomessages": [
-        "/biomeheat/text"
-      ]
-    },
-    "Texts": {
-      "Chs": "^red;危险警告：在该星球上检测到炎热效应！^reset;\n我建议你先返回飞船，等您获得了相对应的防护措施再进行探索！",
-      "Eng": "^red;WARNING! EXTREME HEAT DETECTED ^reset;! \nYou should not attempt further exploration without proper protective equipment!"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "radiomessages/exploration.radiomessages": [
-        "/biomeairless/text"
-      ]
-    },
-    "Texts": {
-      "Chs": "该星球没有氧气，如果强行停留，你将有可能窒息而亡！",
-      "Eng": "It may be worth noting that this celestial body has no atmosphere and you will die without some sort of oxygen source."
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "radiomessages/exploration.radiomessages": [
-        "/ffbiomeradiation/text"
-      ]
-    },
-    "Texts": {
-      "Chs": "^red;危险警告：在该星球上检测到致命辐射效应！^reset;\n我建议你先返回飞船，等您获得了相对应的防护措施再进行探索！",
-      "Eng": "^red;WARNING! RADIATION DETECTED ^reset;! \nYou should not attempt further exploration without proper protective equipment!"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "radiomessages/exploration.radiomessages": [
-        "/ffbiomecold/text"
-      ]
-    },
-    "Texts": {
-      "Chs": "^red;危险警告：在该星球上检测到致命严寒效应！^reset;\n我建议你先返回飞船，等您获得了相对应的防护措施再进行探索！",
-      "Eng": "^red;WARNING! EXTREME COLD DETECTED ^reset;! \nYou should not attempt further exploration without proper protective equipment!"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "radiomessages/exploration.radiomessages": [
-        "/ffbiomeheat/text"
-      ]
-    },
-    "Texts": {
-      "Chs": "^red;危险警告：在该星球上检测到致命高温效应！^reset;\n我建议你先返回飞船，等您获得了相对应的防护措施再进行探索！",
-      "Eng": "^red;WARNING! EXTREME HEAT DETECTED ^reset;! \nYou should not attempt further exploration without proper protective equipment!"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "radiomessages/exploration.radiomessages": [
-        "/ffbiomeproto/text"
-      ]
-    },
-    "Texts": {
-      "Chs": "^red;危险警告：在该星球上检测到原液效应！^reset;\n我建议你先返回飞船，等您获得了相对应的防护措施再进行探索！",
-      "Eng": "^red;WARNING! PROTO-POISON DETECTED ^reset;! \nYou should not attempt further exploration without proper protective equipment!"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "radiomessages/exploration.radiomessages": [
-        "/ffbiomesulphuric/text"
-      ]
-    },
-    "Texts": {
-      "Chs": "^red;危险警告：在该星球上检测到硫酸效应！^reset;\n我建议你先返回飞船，等您获得了相对应的防护措施再进行探索！",
-      "Eng": "^red;WARNING! SULPHURIC ATMOSPHERE DETECTED ^reset;! \nYou should not attempt further exploration without proper protective equipment!"
-    }
-  }
-]
+[{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/ffbiomegenericheat/text"]
+	},
+	"Texts": {
+		"Eng": "^red;WARNING: HEAT WAVE ^reset;! The climate is spiking in temperature, resulting in extra exertion from movement. You'll be hungry a bit faster, and gradually lose health."
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/ffbiomegenericcold/text"]
+	},
+	"Texts": {
+		"Eng": "^red;WARNING: FREEZING ^reset;! It suddenly got exceptionally cold! Be careful, and keep warm!"
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/ffbiomegenericpoison/text"]
+	},
+	"Texts": {
+		"Eng": "^red;WARNING: POISONOUS CLOUDS ^reset;! Poisonous clouds are blowing in the wind, which will weaken and eventually kill you. Seek shelter or find some measure of protection."
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/ffbiomegenericelectric/text"]
+	},
+	"Texts": {
+		"Eng": "^red;WARNING: ELECTRICAL STORM ^reset;! A sudden electrical storm has broken out, which will affect your energy supply. There's also the threat of being struck by a blast. Take shelter underground."
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/ffbiomegenericradiation/text"]
+	},
+	"Texts": {
+		"Eng": "^red;WARNING: RADIATION STORM ^reset;! Sudden winds have blown in a radiation cloud from somewhere else on this world. Take precautions."
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/ffbiomegenericmildcold/text"]
+	},
+	"Texts": {
+		"Eng": "^red;WARNING: COLD ^reset;! While not absolutely freezing, this world is chilly and brisk. Nights are colder, and water could be dangerous to swim in. Wear cold protection."
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/ffbiomeelectric/text"]
+	},
+	"Texts": {
+		"Eng": "^red;WARNING: ELECTRICAL STORM ^reset;! The climate here is currently affected by a nasty Electric Storm! Watch your energy supply, as nearby static charge can affect it negatively. Head underground for shelter!"
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/ffbiomeelectricsurface/text"]
+	},
+	"Texts": {
+		"Eng": "Lightning storms are significantly stronger when you are outside. Perhaps head underground where you are grounded and cannot be struck by lightning."
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/ffbiomeelectricwater/text"]
+	},
+	"Texts": {
+		"Eng": "I must advise you against swimming in liquid during a lightning storm. The end result is not highly likely to result in fun and merriment."
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/ffbiomedesert/text"]
+	},
+	"Texts": {
+		"Eng": "^red;WARNING: DESERT HEAT ^reset;! The climate here is exceptionally warm during the day. Water will help you cool off, if you can find it. Fire Resistance will help a great deal. Night is cool but tolerable."
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/ffbiomedesertwater/text"]
+	},
+	"Texts": {
+		"Eng": "You've managed to cool off in this wonderful pool of liquid. You feel much less uncomfortable now!"
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/ffbiomedesertnight/text"]
+	},
+	"Texts": {
+		"Eng": "The sun has set, and the temperature has blissfully dropped to tolerable levels. You should be relatively comfortable until daybreak."
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/ffbiomejungle/text"]
+	},
+	"Texts": {
+		"Eng": "^red;WARNING: TROPICAL HEAT ^reset;! The climate here is exceptionally warm, which could lead to discomfort if care is not taken. Water will help you cool off, if you can find it. Physical Resistance will help, too."
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/ffbiomejunglewater/text"]
+	},
+	"Texts": {
+		"Eng": "Ah, a soothing spring. This should help lower your temperature and give you a brief moment of respite."
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/ffbiomeradiationwind/text"]
+	},
+	"Texts": {
+		"Eng": "I suggest taking care, as a nasty wind is blowing radioactive fallout right to your position. Good times!"
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/ffbiomepoison/text"]
+	},
+	"Texts": {
+		"Eng": "^red;WARNING! POISONOUS ATMOSPHERE DETECTED ^reset;! You're breathing in deadly air that will very soon kill you. You are getting weaker. This will get worse the more sick you become."
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/ffbiomepoisonwind/text"]
+	},
+	"Texts": {
+		"Eng": "This breeze is really stirring up poisonous vapour. Threat level increased."
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/ffbiomeheatcavern/text"]
+	},
+	"Texts": {
+		"Eng": "You'll find it much warmer in caverns, thanks to heat being trapped within. Stay cool, or you'll stay dead.^reset;!"
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/ffbiomeaether/text"]
+	},
+	"Texts": {
+		"Eng": "^red;WARNING! COSMIC ENERGY DETECTED ^reset;! Some sort of protection from cosmic damage would help a great deal. This energy appears to decrease energy regeneration rates."
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/ffbiomeaethernight/text"]
+	},
+	"Texts": {
+		"Eng": "As night falls, the effects of the cosmic energy permeating this planet seem to increase in severity. Somehow, the sun holds the worst of these effects at bay."
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/biomeradiation/text"]
+	},
+	"Texts": {
+		"Chs": "^red;危险警告：在该星球上检测到辐射效应！^reset;\n我建议你先返回飞船，等您获得了相对应的防护措施再进行探索！",
+		"Eng": "^red;WARNING! RADIATION DETECTED ^reset;! \nYou should not attempt further exploration without proper protective equipment!"
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/biomecold/text"]
+	},
+	"Texts": {
+		"Chs": "^red;危险警告：在该星球上检测到寒冷效应！^reset;\n我建议你先返回飞船，等您获得了相对应的防护措施再进行探索！",
+		"Eng": "^red;WARNING! EXTREME COLD DETECTED ^reset;! \nYou should not attempt further exploration without proper protective equipment!"
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/biomeheat/text"]
+	},
+	"Texts": {
+		"Chs": "^red;危险警告：在该星球上检测到炎热效应！^reset;\n我建议你先返回飞船，等您获得了相对应的防护措施再进行探索！",
+		"Eng": "^red;WARNING! EXTREME HEAT DETECTED ^reset;! \nYou should not attempt further exploration without proper protective equipment!"
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/biomeairless/text"]
+	},
+	"Texts": {
+		"Chs": "该星球没有氧气，如果强行停留，你将有可能窒息而亡！",
+		"Eng": "It may be worth noting that this celestial body has no atmosphere and you will die without some sort of oxygen source."
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/ffbiomeradiation/text"]
+	},
+	"Texts": {
+		"Chs": "^red;危险警告：在该星球上检测到致命辐射效应！^reset;\n我建议你先返回飞船，等您获得了相对应的防护措施再进行探索！",
+		"Eng": "^red;WARNING! RADIATION DETECTED ^reset;! \nYou should not attempt further exploration without proper protective equipment!"
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/ffbiomecold/text"]
+	},
+	"Texts": {
+		"Chs": "^red;危险警告：在该星球上检测到致命严寒效应！^reset;\n我建议你先返回飞船，等您获得了相对应的防护措施再进行探索！",
+		"Eng": "^red;WARNING! EXTREME COLD DETECTED ^reset;! \nYou should not attempt further exploration without proper protective equipment!"
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/ffbiomeheat/text"]
+	},
+	"Texts": {
+		"Chs": "^red;危险警告：在该星球上检测到致命高温效应！^reset;\n我建议你先返回飞船，等您获得了相对应的防护措施再进行探索！",
+		"Eng": "^red;WARNING! EXTREME HEAT DETECTED ^reset;! \nYou should not attempt further exploration without proper protective equipment!"
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/ffbiomeproto/text"]
+	},
+	"Texts": {
+		"Chs": "^red;危险警告：在该星球上检测到原液效应！^reset;\n我建议你先返回飞船，等您获得了相对应的防护措施再进行探索！",
+		"Eng": "^red;WARNING! PROTO-POISON DETECTED ^reset;! \nYou should not attempt further exploration without proper protective equipment!"
+	}
+},
+{
+	"DeniedAlternatives": [],
+	"Files": {
+		"radiomessages/exploration.radiomessages": ["/ffbiomesulphuric/text"]
+	},
+	"Texts": {
+		"Chs": "^red;危险警告：在该星球上检测到硫酸效应！^reset;\n我建议你先返回飞船，等您获得了相对应的防护措施再进行探索！",
+		"Eng": "^red;WARNING! SULPHURIC ATMOSPHERE DETECTED ^reset;! \nYou should not attempt further exploration without proper protective equipment!"
+	}
+}]
