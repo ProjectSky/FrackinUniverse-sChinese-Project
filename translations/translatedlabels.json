@@ -1294,9 +1294,7 @@
           "shared_fuinferno.json": 3
         },
         "shared_fuoperative.json": 2,
-        "shared_scienceparka": {
-          "shared_sciencefu.json": 3
-        },
+        "shared_sciencefu.json": 3,
         "tier0": {
           "celestaruniform1": {
             "celestaruniform1.chest.json": 2,
@@ -1386,7 +1384,6 @@
           "missionary": {
             "missionaryrobe.chest.json": 1,
             "missionaryrobe.head.json": 1,
-            "missionaryrobe.legs.json": 1,
             "shared_missionaryrobe..json": 1
           },
           "plebeian": {
@@ -1547,7 +1544,7 @@
             "eva.chest.json": 1,
             "eva.head.json": 1,
             "eva.legs.json": 1,
-            "shared_eva..json": 1
+            "shared_eva..json": 0
           },
           "evader": {
             "fuplatinumarmor.chest.json": 1,
@@ -1658,7 +1655,7 @@
           },
           "steampunk": {
             "fusteampunk.head.json": 1,
-            "shared_fusteampunk..json": 2
+            "shared_fusteampunk..json": 1
           },
           "wanderer": {
             "fupioneer.chest.json": 2,
@@ -1768,7 +1765,7 @@
             "fuprotector.chest.json": 1,
             "fuprotector.head.json": 1,
             "fuprotector.legs.json": 1,
-            "shared_fuprotector..json": 1
+            "shared_fuprotector..json": 0
           },
           "furavager": {
             "furavager.chest.json": 1,
@@ -1783,7 +1780,7 @@
             "shared_fustarkiller..json": 1
           },
           "ghostweave": {
-            "shared_tactical..json": 1,
+            "shared_tactical..json": 0,
             "tactical.chest.json": 1,
             "tactical.head.json": 1,
             "tactical.legs.json": 1
@@ -1862,6 +1859,9 @@
           }
         },
         "tier5": {
+          "arctic": {
+            "shared_sciencefu..json": 0
+          },
           "darkmatter": {
             "fubonusarmor.chest.json": 1,
             "fubonusarmor.head.json": 1,
@@ -1938,20 +1938,11 @@
             "fuquantum.legs.json": 1,
             "shared_fuquantum..json": 1
           },
-          "operator": {
-            "mantizitier5accelerator.chest.json": 1,
-            "mantizitier5accelerator.head.json": 1,
-            "mantizitier5accelerator.legs.json": 1,
-            "shared_mantizitier5accelerator..json": 1
-          },
           "rifter": {
             "kirhostier5separator.chest.json": 1,
             "kirhostier5separator.head.json": 1,
             "kirhostier5separator.legs.json": 1,
             "shared_kirhostier5separator..json": 1
-          },
-          "scienceparka": {
-            "shared_sciencefu..json": 1
           },
           "sentryarmor": {
             "mobiusarmor.chest.json": 1,
@@ -1963,7 +1954,13 @@
             "kirhostier5accelerator.chest.json": 1,
             "kirhostier5accelerator.head.json": 1,
             "kirhostier5accelerator.legs.json": 1,
-            "shared_kirhostier5accelerator..json": 1
+            "shared_kirhostier5accelerator..json": 0
+          },
+          "warframe": {
+            "mantizitier5accelerator.chest.json": 0,
+            "mantizitier5accelerator.head.json": 0,
+            "mantizitier5accelerator.legs.json": 0,
+            "shared_mantizitier5accelerator..json": 0
           },
           "wolfenhanced": {
             "shared_wolf2..json": 1,
@@ -4878,9 +4875,7 @@
           "shared_oonfortaseed.object.json": 2
         },
         "pasakavine": {
-          "pasakavineseed.object.json": 1,
-          "shared_pasakavineseed.object.json": 1,
-          "wildpasakavineseed.object.json": 1
+          "shared_pasakavineseed.object.json": 1
         },
         "pekkit": {
           "shared_pekkitseed.object.json": 1
@@ -6962,7 +6957,8 @@
               "shared_.statuseffect.json": 1
             },
             "desert": {
-              "desertweathernew.statuseffect.json": 1
+              "desertweathernew.statuseffect.json": 1,
+              "desertweathernewdeadly.statuseffect.json": 0
             },
             "insanity": {
               "insanitynew.animation.json": 1
