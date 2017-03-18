@@ -285,7 +285,7 @@
         "genechest128.config.json": 1
       },
       "cockpit": {
-        "cockpit.config.json": 213
+        "cockpit.config.json": 210
       },
       "itemdescriptions": {
         "armornew.itemdescription.json": 1,
@@ -443,7 +443,7 @@
               "oredetector3.activeitem.json": 1
             },
             "t3Khe": {
-              "oredetector3.activeitem.json": 0
+              "oredetector3.activeitem.json": 2
             }
           },
           "shared_translocator": {
@@ -1384,6 +1384,7 @@
           "missionary": {
             "missionaryrobe.chest.json": 1,
             "missionaryrobe.head.json": 1,
+            "missionaryrobe.legs.json": 0,
             "shared_missionaryrobe..json": 1
           },
           "plebeian": {
@@ -1544,7 +1545,7 @@
             "eva.chest.json": 1,
             "eva.head.json": 1,
             "eva.legs.json": 1,
-            "shared_eva..json": 0
+            "shared_eva..json": 1
           },
           "evader": {
             "fuplatinumarmor.chest.json": 1,
@@ -1655,7 +1656,7 @@
           },
           "steampunk": {
             "fusteampunk.head.json": 1,
-            "shared_fusteampunk..json": 1
+            "shared_fusteampunk..json": 2
           },
           "wanderer": {
             "fupioneer.chest.json": 2,
@@ -1747,7 +1748,7 @@
             "shared_fuguardian..json": 1
           },
           "fuinferno": {
-            "shared_fuinferno..json": 0
+            "shared_fuinferno..json": 1
           },
           "fuinvader": {
             "fuinvader.chest.json": 1,
@@ -1765,7 +1766,7 @@
             "fuprotector.chest.json": 1,
             "fuprotector.head.json": 1,
             "fuprotector.legs.json": 1,
-            "shared_fuprotector..json": 0
+            "shared_fuprotector..json": 1
           },
           "furavager": {
             "furavager.chest.json": 1,
@@ -1780,7 +1781,7 @@
             "shared_fustarkiller..json": 1
           },
           "ghostweave": {
-            "shared_tactical..json": 0,
+            "shared_tactical..json": 1,
             "tactical.chest.json": 1,
             "tactical.head.json": 1,
             "tactical.legs.json": 1
@@ -1860,7 +1861,7 @@
         },
         "tier5": {
           "arctic": {
-            "shared_sciencefu..json": 0
+            "shared_sciencefu..json": 1
           },
           "darkmatter": {
             "fubonusarmor.chest.json": 1,
@@ -1918,7 +1919,7 @@
           "hellfire": {
             "hellfire.legs.json": 1,
             "hellfirehelm.head.json": 1,
-            "shared_hellfire.json": 0
+            "shared_hellfire.json": 1
           },
           "legionii": {
             "mantizitier5manipulator.chest.json": 1,
@@ -1952,15 +1953,14 @@
           },
           "valkyrie": {
             "kirhostier5accelerator.chest.json": 1,
-            "kirhostier5accelerator.head.json": 1,
-            "kirhostier5accelerator.legs.json": 1,
-            "shared_kirhostier5accelerator..json": 0
+            "kirhostier5accelerator.legs.json": 1
           },
+          "valkyrie.json": 2,
           "warframe": {
-            "mantizitier5accelerator.chest.json": 0,
-            "mantizitier5accelerator.head.json": 0,
-            "mantizitier5accelerator.legs.json": 0,
-            "shared_mantizitier5accelerator..json": 0
+            "mantizitier5accelerator.chest.json": 1,
+            "mantizitier5accelerator.head.json": 1,
+            "mantizitier5accelerator.legs.json": 1,
+            "shared_mantizitier5accelerator..json": 1
           },
           "wolfenhanced": {
             "shared_wolf2..json": 1,
@@ -1980,7 +1980,7 @@
             "mantizitier6accelerator.chest.json": 1,
             "mantizitier6accelerator.head.json": 1,
             "mantizitier6accelerator.legs.json": 1,
-            "shared_mantizitier6accelerator..json": 1
+            "shared_mantizitier6accelerator..json": 0
           },
           "champion": {
             "mantizitier6separator.chest.json": 1,
@@ -2034,7 +2034,7 @@
             "fuxithricite.chest.json": 1,
             "fuxithricite.head.json": 1,
             "fuxithricite.legs.json": 1,
-            "shared_fuxithricite..json": 1
+            "shared_fuxithricite..json": 0
           },
           "gladiator": {
             "kirhostier6separator.chest.json": 1,
@@ -2064,7 +2064,7 @@
             "hytalisarmor.chest.json": 1,
             "hytalisarmor.head.json": 1,
             "hytalisarmor.legs.json": 1,
-            "shared_hytalisarmor..json": 1
+            "shared_hytalisarmor..json": 0
           }
         },
         "tier7": {
@@ -2100,7 +2100,7 @@
             "shared_beammasterhelm.json": 1
           },
           "brainslug": {
-            "brainslug.head.json": 1
+            "brainslug.head.json": 0
           },
           "duncecap": {
             "duncecap.head.json": 2
@@ -2163,25 +2163,24 @@
         "back": {
           "environment": {
             "acidimmunity.augment.json": 2,
+            "aether.augment.json": 0,
             "breathprotection.augment.json": 2,
             "coldImmunity.augment.json": 2,
             "coldImmunity2.augment.json": 2,
+            "cosmic.augment.json": 0,
+            "electric.augment.json": 0,
+            "fire.augment.json": 0,
             "heatImmunity.augment.json": 2,
             "heatImmunity2.augment.json": 2,
+            "ice.augment.json": 0,
             "insanityimmunityaug.augment.json": 2,
+            "poison.augment.json": 0,
             "poisonimmunity.augment.json": 2,
             "radImmunity.augment.json": 2,
             "radImmunity2.augment.json": 2,
+            "radioactive.augment.json": 0,
+            "shadow.augment.json": 0,
             "shadowimmunity1.augment.json": 1,
-            "shared_.augment.json": 1,
-            "test_aether.augment.json": 1,
-            "test_cold.augment.json": 1,
-            "test_heat.augment.json": 1,
-            "test_insanity.augment.json": 1,
-            "test_poison.augment.json": 1,
-            "test_proto.augment.json": 1,
-            "test_radiation.augment.json": 1,
-            "test_sulphuric.augment.json": 1,
             "totalImmunity.augment.json": 2,
             "totalImmunity2.augment.json": 2
           },
@@ -2469,7 +2468,7 @@
           "ff_spareparts.item.json": 2,
           "fissionfurnace": {
             "advancealloy.item.json": 2,
-            "aetheriumalloy.item.json": 0,
+            "aetheriumalloy.item.json": 2,
             "carbonplate.item.json": 2,
             "densealloy.item.json": 2,
             "densiniumbar.item.json": 1,
@@ -2911,7 +2910,7 @@
         "aegisaltcrystal.matitem.json": 1,
         "aliensoil.matitem.json": 1,
         "andesite.matitem.json": 1,
-        "avaliaeroponics.matitem.json": 0,
+        "avaliaeroponics.matitem.json": 2,
         "avalicable.matitem.json": 4,
         "avalichits.matitem.json": 1,
         "avalidarkmetal.matitem.json": 1,
@@ -3408,7 +3407,8 @@
           "fubat.monstertype.json": 2
         },
         "fudrone": {
-          "fudrone.monstertype.json": 2
+          "fudrone.monstertype.json": 2,
+          "fuminingscandrone.monstertype.json": 0
         },
         "fufireball": {
           "fufireball.monstertype.json": 2
@@ -4875,7 +4875,7 @@
           "shared_oonfortaseed.object.json": 2
         },
         "pasakavine": {
-          "shared_pasakavineseed.object.json": 1
+          "shared_pasakavineseed.object.json": 2
         },
         "pekkit": {
           "shared_pekkitseed.object.json": 1
@@ -6061,34 +6061,34 @@
       "wired": {
         "advancedlogic": {
           "no latch": {
-            "swtjc_wp_advancedand_nolatch.object.json": 1,
-            "swtjc_wp_advancedor_nolatch.object.json": 1,
+            "swtjc_wp_advancedand_nolatch.object.json": 4,
+            "swtjc_wp_advancedor_nolatch.object.json": 4,
             "swtjc_wp_advancedxor_nolatch.object.json": 4
           },
-          "shared_swtjc_wp_advanced.json": 0,
-          "swtjc_wp_advancedand.object.json": 1,
-          "swtjc_wp_advancedand3i.object.json": 1,
-          "swtjc_wp_advancedor.object.json": 1,
-          "swtjc_wp_advancedor3i.object.json": 1,
+          "shared_swtjc_wp_advanced.json": 2,
+          "swtjc_wp_advancedand.object.json": 2,
+          "swtjc_wp_advancedand3i.object.json": 2,
+          "swtjc_wp_advancedor.object.json": 2,
+          "swtjc_wp_advancedor3i.object.json": 2,
           "swtjc_wp_advancedxor.object.json": 2,
           "swtjc_wp_advancedxor3i.object.json": 2,
           "swtjc_wp_advancedxor3i12h.object.json": 2,
           "swtjc_wp_advancedxor3i1h.object.json": 2,
           "swtjc_wp_advancedxor3i2h.object.json": 2,
-          "swtjc_wp_masterlogic.object.json": 1
+          "swtjc_wp_masterlogic.object.json": 4
         },
         "advancedswitch": {
           "shared_swtjc_wp_advancedswitch.json": 3,
           "swtjc_wp_advancedswitch.object.json": 1,
-          "swtjc_wp_advancedswitch_nolatch.object.json": 1,
-          "swtjc_wp_advancedswitch_noninteractive.object.json": 1
+          "swtjc_wp_advancedswitch_nolatch.object.json": 2,
+          "swtjc_wp_advancedswitch_noninteractive.object.json": 3
         },
         "elderliquidsensor": {
           "elderliquidsensor.object.json": 4
         },
         "emitter": {
           "swtjc_wp_brokenemitter.object.json": 4,
-          "swtjc_wp_emitter.object.json": 1
+          "swtjc_wp_emitter.object.json": 4
         },
         "fu_turrets": {
           "fu_flameturret": {
@@ -6123,14 +6123,14 @@
           "advancedlightsensor.object.json": 3
         },
         "liquidsensor": {
-          "swtjc_wp_advancedliquidsensor.object.json": 1
+          "swtjc_wp_advancedliquidsensor.object.json": 3
         },
         "logic": {
           "compact logic horizontal": {
-            "swtjc_wp_compacthdlatch.object.json": 0
+            "swtjc_wp_compacthdlatch.object.json": 2
           },
           "compact logic vertical": {
-            "swtjc_wp_compactvdlatch.object.json": 0
+            "swtjc_wp_compactvdlatch.object.json": 2
           },
           "fu_gated": {
             "fu_gated.object.json": 2
@@ -6140,49 +6140,49 @@
             "shared_swtjc_wp_compact.json": 0
           },
           "shared_relay.object.json": 1,
-          "shared_swtjc_wp_delay.json": 0,
+          "shared_swtjc_wp_delay.json": 2,
           "shared_swtjc_wp_nxor3i1.json": 1,
-          "swtjc_wp_actransformer.object.json": 0,
+          "swtjc_wp_actransformer.object.json": 2,
           "swtjc_wp_and3i.object.json": 1,
-          "swtjc_wp_countdowndelay.object.json": 1,
+          "swtjc_wp_countdowndelay.object.json": 3,
           "swtjc_wp_delay1s.object.json": 1,
           "swtjc_wp_delay2s.object.json": 1,
           "swtjc_wp_delay3s.object.json": 1,
           "swtjc_wp_delay4s.object.json": 1,
           "swtjc_wp_delay5s.object.json": 1,
           "swtjc_wp_delayqs.object.json": 1,
-          "swtjc_wp_invertedpulser.object.json": 1,
-          "swtjc_wp_invertedpulsetimer.object.json": 1,
-          "swtjc_wp_invertedpulsetimer1s.object.json": 1,
-          "swtjc_wp_invertedpulsetimer2s.object.json": 1,
-          "swtjc_wp_invertedpulsetimer3s.object.json": 1,
-          "swtjc_wp_invertedpulsetimer4s.object.json": 1,
-          "swtjc_wp_invertedpulsetimer5s.object.json": 1,
-          "swtjc_wp_invertedpulsetimerqs.object.json": 1,
+          "swtjc_wp_invertedpulser.object.json": 3,
+          "swtjc_wp_invertedpulsetimer.object.json": 3,
+          "swtjc_wp_invertedpulsetimer1s.object.json": 3,
+          "swtjc_wp_invertedpulsetimer2s.object.json": 3,
+          "swtjc_wp_invertedpulsetimer3s.object.json": 3,
+          "swtjc_wp_invertedpulsetimer4s.object.json": 3,
+          "swtjc_wp_invertedpulsetimer5s.object.json": 3,
+          "swtjc_wp_invertedpulsetimerqs.object.json": 3,
           "swtjc_wp_nand.object.json": 1,
           "swtjc_wp_nand3i.object.json": 1,
           "swtjc_wp_nor.object.json": 1,
           "swtjc_wp_nor3i.object.json": 1,
-          "swtjc_wp_nxor.object.json": 0,
-          "swtjc_wp_nxor3i.object.json": 0,
-          "swtjc_wp_nxor3i12h.object.json": 0,
-          "swtjc_wp_nxor3i1h.object.json": 0,
-          "swtjc_wp_nxor3i2h.object.json": 0,
+          "swtjc_wp_nxor.object.json": 1,
+          "swtjc_wp_nxor3i.object.json": 3,
+          "swtjc_wp_nxor3i12h.object.json": 2,
+          "swtjc_wp_nxor3i1h.object.json": 3,
+          "swtjc_wp_nxor3i2h.object.json": 4,
           "swtjc_wp_or3i.object.json": 1,
-          "swtjc_wp_pulser.object.json": 1,
-          "swtjc_wp_pulsetimer.object.json": 1,
-          "swtjc_wp_pulsetimer1s.object.json": 1,
-          "swtjc_wp_pulsetimer2s.object.json": 1,
-          "swtjc_wp_pulsetimer3s.object.json": 1,
-          "swtjc_wp_pulsetimer4s.object.json": 1,
-          "swtjc_wp_pulsetimer5s.object.json": 1,
-          "swtjc_wp_pulsetimerqs.object.json": 1,
+          "swtjc_wp_pulser.object.json": 3,
+          "swtjc_wp_pulsetimer.object.json": 3,
+          "swtjc_wp_pulsetimer1s.object.json": 3,
+          "swtjc_wp_pulsetimer2s.object.json": 3,
+          "swtjc_wp_pulsetimer3s.object.json": 3,
+          "swtjc_wp_pulsetimer4s.object.json": 3,
+          "swtjc_wp_pulsetimer5s.object.json": 3,
+          "swtjc_wp_pulsetimerqs.object.json": 3,
           "swtjc_wp_xor3i.object.json": 1,
-          "swtjc_wp_xor3i12h.object.json": 1,
-          "swtjc_wp_xor3i1h.object.json": 1,
-          "swtjc_wp_xor3i2h.object.json": 1
+          "swtjc_wp_xor3i12h.object.json": 3,
+          "swtjc_wp_xor3i1h.object.json": 3,
+          "swtjc_wp_xor3i2h.object.json": 3
         },
-        "logic.json": 1,
+        "logic.json": 13,
         "persistentswitch": {
           "shared_compact switch ": {
             "shared_persistentswitch.object.json": 0,
@@ -6191,7 +6191,7 @@
           "shared_switch.json": 2,
           "swtjc_wp_persistentswitch_withnot.object.json": 3,
           "swtjc_wp_persistentswitchinteractive.object.json": 1,
-          "swtjc_wp_persistentswitchinteractive_withnot.object.json": 1
+          "swtjc_wp_persistentswitchinteractive_withnot.object.json": 3
         },
         "pumpin": {
           "pumpinfu.object.json": 1
@@ -6212,9 +6212,9 @@
           "pumpoutpressurefuelder.object.json": 1
         },
         "sequencer": {
-          "shared_swtjc_wp_sequencer2bit.json": 2,
-          "shared_swtjc_wp_sequencer3bit.json": 2,
-          "shared_swtjc_wp_sequencer4bit.json": 2
+          "shared_swtjc_wp_sequencer2bit.json": 6,
+          "shared_swtjc_wp_sequencer3bit.json": 6,
+          "shared_swtjc_wp_sequencer4bit.json": 6
         },
         "shared_pumpin": {
           "shared_pumpinfu.json": 1
@@ -6227,7 +6227,7 @@
         },
         "smallwallswitch": {
           "shared_swtjc_wp_brokencompact.json": 1,
-          "shared_wallswitch.object.json": 1,
+          "shared_wallswitch.object.json": 12,
           "swtjc_wp_brokenwallswitch.object.json": 1
         }
       }
@@ -6713,42 +6713,57 @@
             "ambersetbonuseffect.statuseffect.json": 1,
             "arcticsetbonuseffect.statuseffect.json": 1,
             "assassinisetbonuseffect.statuseffect.json": 1,
+            "assaultsetbonuseffect.statuseffect.json": 0,
             "bearsetbonuseffect.statuseffect.json": 1,
             "bearsetbonuseffect2.statuseffect.json": 1,
             "biofleshsetbonuseffect.statuseffect.json": 1,
             "blistersetbonuseffect.statuseffect.json": 1,
             "blistersetbonuseffect2.statuseffect.json": 1,
             "bonesetbonuseffect.statuseffect.json": 1,
-            "cellularsetbonuseffect.statuseffect.json": 1,
+            "bonesteelsetbonuseffect.statuseffect.json": 0,
+            "bountyhuntersetbonuseffect.statuseffect.json": 0,
+            "cellularsetbonuseffect.statuseffect.json": 0,
             "championsetbonuseffect.statuseffect.json": 1,
+            "chitinsetbonuseffect.statuseffect.json": 0,
             "chordatasetbonuseffect.statuseffect.json": 1,
-            "corruptsetbonuseffect.statuseffect.json": 1,
+            "corruptsetbonuseffect.statuseffect.json": 0,
+            "corsairsetbonuseffect.statuseffect.json": 1,
             "cultistsetbonuseffect.statuseffect.json": 1,
             "darkmattersetbonuseffect.statuseffect.json": 1,
             "densiniumsetbonuseffect.statuseffect.json": 1,
             "diamondsetbonuseffect.statuseffect.json": 1,
+            "dwellersetbonuseffect.statuseffect.json": 0,
             "eldersetbonuseffect.statuseffect.json": 1,
             "enforcersetbonuseffect.statuseffect.json": 1,
             "evadersetbonuseffect.statuseffect.json": 1,
+            "evasetbonuseffect.statuseffect.json": 1,
             "fleshsetbonuseffect.statuseffect.json": 1,
             "footmansetbonuseffect.statuseffect.json": 1,
             "gendarmesetbonuseffect.statuseffect.json": 1,
             "geologistsetbonuseffect.statuseffect.json": 1,
+            "ghostweavesetbonuseffect.statuseffect.json": 0,
             "gladiatorsetbonuseffect.statuseffect.json": 1,
             "graphenesetbonuseffect.statuseffect.json": 1,
             "guardiansetbonuseffect.statuseffect.json": 1,
             "hackersetbonuseffect.statuseffect.json": 1,
             "hellfiresetbonuseffect.statuseffect.json": 1,
+            "hoplitesetbonuseffect.statuseffect.json": 0,
             "huntersetbonuseffect.statuseffect.json": 1,
             "infernosetbonuseffect.statuseffect.json": 1,
+            "intersecsetbonuseffect.statuseffect.json": 1,
+            "intrepidsetbonuseffect.statuseffect.json": 0,
+            "invadersetbonuseffect.statuseffect.json": 0,
             "isogensetbonuseffect.statuseffect.json": 1,
+            "junkersetbonuseffect.statuseffect.json": 1,
             "krakensetbonuseffect.statuseffect.json": 1,
+            "leathersetbonuseffect.statuseffect.json": 1,
             "legioniisetbonuseffect.statuseffect.json": 1,
             "leviathansetbonuseffect.statuseffect.json": 1,
             "lightpriestsetbonuseffect.statuseffect.json": 1,
             "lunarisetbonuseffect.statuseffect.json": 1,
-            "millenionsetbonuseffect.statuseffect.json": 1,
+            "millenionsetbonuseffect.statuseffect.json": 0,
             "missionarysetbonuseffect.statuseffect.json": 1,
+            "monsterplatesetbonuseffect.statuseffect.json": 0,
             "morphitesetbonuseffect.statuseffect.json": 1,
             "morphitesetbonuseffect2.statuseffect.json": 1,
             "mutavisksetbonuseffect.statuseffect.json": 1,
@@ -6767,22 +6782,27 @@
             "ravagersetbonuseffect.statuseffect.json": 1,
             "reconsetbonuseffect.statuseffect.json": 1,
             "reconsetbonuseffect2.statuseffect.json": 1,
-            "reconsetbonuseffect3.statuseffect.json": 1,
+            "reconsetbonuseffect3.statuseffect.json": 0,
             "replicantsetbonuseffect.statuseffect.json": 1,
+            "reptilesetbonuseffect.statuseffect.json": 0,
             "riftersetbonuseffect.statuseffect.json": 1,
             "samuraisetbonuseffect.statuseffect.json": 1,
             "sanguinesetbonuseffect.statuseffect.json": 1,
+            "scoutsetbonuseffect.statuseffect.json": 0,
             "sentrysetbonuseffect.statuseffect.json": 1,
             "shadowbonesetbonuseffect.statuseffect.json": 1,
             "shared_rsetbonuseffect.statuseffect.json": 1,
-            "shared_setbonuseffect.json": 1,
-            "shared_setbonuseffect.statuseffect.json": 8,
-            "shared_slimesetbonuseffect.json": 1,
-            "shieldedsetbonuseffect.statuseffect.json": 1,
+            "shared_setbonuseffect.statuseffect.json": 2,
+            "shared_slimesetbonuseffect.json": 0,
+            "shieldedsetbonuseffect.statuseffect.json": 0,
             "shoggothsetbonuseffect.statuseffect.json": 1,
-            "sirensetbonuseffect.statuseffect.json": 1,
-            "slayersetbonuseffect.statuseffect.json": 1,
+            "sirensetbonuseffect.statuseffect.json": 0,
+            "slayersetbonuseffect.statuseffect.json": 0,
+            "spacefarersetbonuseffect.statuseffect.json": 0,
+            "spacefarersetbonuseffect2.statuseffect.json": 0,
+            "stalkersetbonuseffect.statuseffect.json": 0,
             "stalwartsetbonuseffect.statuseffect.json": 1,
+            "starkillersetbonuseffect.statuseffect.json": 0,
             "steampunksetbonuseffect.statuseffect.json": 1,
             "sunwalkersetbonuseffect.statuseffect.json": 1,
             "survivorsetbonuseffect.statuseffect.json": 1,
@@ -6791,20 +6811,21 @@
             "ultrameshsetbonuseffect.statuseffect.json": 1,
             "underworldsetbonuseffect.statuseffect.json": 1,
             "vagabondsetbonuseffect.statuseffect.json": 1,
-            "valkyriesetbonuseffect.statuseffect.json": 1,
+            "valkyriesetbonuseffect.statuseffect.json": 0,
             "wanderersetbonuseffect.statuseffect.json": 1,
             "warangelsetbonuseffect.statuseffect.json": 1,
             "warframesetbonuseffect.statuseffect.json": 1,
-            "warphuntersetbonuseffect.statuseffect.json": 1,
-            "warriorrobessetbonuseffect.statuseffect.json": 1,
+            "warphuntersetbonuseffect.statuseffect.json": 0,
+            "warriorrobessetbonuseffect.statuseffect.json": 0,
             "warriorsetbonuseffect.statuseffect.json": 1,
             "wolfsetbonuseffect.statuseffect.json": 1,
             "wolfsetbonuseffect2.statuseffect.json": 1,
             "wretchelsetbonuseffect.statuseffect.json": 1,
             "x10setbonuseffect.statuseffect.json": 1,
-            "xenosetbonuseffect.statuseffect.json": 1,
-            "xithricitesetbonuseffect.statuseffect.json": 1
-          }
+            "xenosetbonuseffect.statuseffect.json": 0,
+            "xithricitesetbonuseffect.statuseffect.json": 0
+          },
+          "spacefarerimmunity.statuseffect.json": 0
         },
         "fu_effects": {
           "brainreboot": {
@@ -6958,7 +6979,7 @@
             },
             "desert": {
               "desertweathernew.statuseffect.json": 1,
-              "desertweathernewdeadly.statuseffect.json": 0
+              "desertweathernewdeadly.statuseffect.json": 1
             },
             "insanity": {
               "insanitynew.animation.json": 1
@@ -6975,7 +6996,7 @@
             },
             "shared_.statuseffect.json": 1,
             "sulphuric": {
-              "shared_sulphuricweatherstorm.json": 0,
+              "shared_sulphuricweatherstorm.json": 1,
               "sulphuricweathernew.animation.json": 1
             },
             "tropical": {
