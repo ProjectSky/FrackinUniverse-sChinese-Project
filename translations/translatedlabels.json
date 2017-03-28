@@ -437,7 +437,7 @@
             "bugnet2.activeitem.json": 2
           },
           "fusuperrewardbag": {
-            "fusuperrewardbag.activeitem.json": 0
+            "fusuperrewardbag.activeitem.json": 2
           },
           "oredetector": {
             "shared_oredetector.json": 1,
@@ -738,6 +738,12 @@
             "swtjc_ewg_npcsubmachinegun.activeitem.json": 1
           },
           "other": {
+            "angryrocket": {
+              "angryrocket.activeitem.json": 0
+            },
+            "khetastrophae": {
+              "khetastrophae.activeitem.json": 0
+            },
             "magnorbs": {
               "magnorbatropus": {
                 "magnorbatropus.activeitem.json": 2
@@ -1204,7 +1210,7 @@
             "halogenpack.back.json": 2
           },
           "heatprotection": {
-            "heatprotection.back.json": 0
+            "heatprotection.back.json": 2
           },
           "isn_heatshell": {
             "isn_heatshell.back.json": 2
@@ -1792,7 +1798,7 @@
             "shared_fustarkiller..json": 1
           },
           "ghostweave": {
-            "shared_tactical..json": 0,
+            "shared_tactical..json": 1,
             "tactical.chest.json": 1,
             "tactical.head.json": 1,
             "tactical.legs.json": 1
@@ -2843,7 +2849,7 @@
           "minkocoapod.consumable.json": 2,
           "mint.consumable.json": 2,
           "miraclegrass.consumable.json": 2,
-          "mireurchin.consumable.json": 0,
+          "mireurchin.consumable.json": 2,
           "nailery.consumable.json": 2,
           "neuropod.consumable.json": 2,
           "nisscap.consumable.json": 2,
@@ -2954,8 +2960,8 @@
         "camppole.matitem.json": 2,
         "camptapestry1.matitem.json": 2,
         "camptapestry2.matitem.json": 2,
-        "charredbonematerial.matitem.json": 0,
-        "charredflesh.matitem.json": 0,
+        "charredbonematerial.matitem.json": 1,
+        "charredflesh.matitem.json": 1,
         "chromadirtmaterial.matitem.json": 1,
         "coral2material.matitem.json": 1,
         "coralmaterial.matitem.json": 1,
@@ -2973,13 +2979,13 @@
         "elderroof.matitem.json": 1,
         "elderstone2material.matitem.json": 1,
         "eldertile.matitem.json": 1,
-        "erchiuspillar.matitem.json": 0,
+        "erchiuspillar.matitem.json": 1,
         "frozensandmaterial.matitem.json": 1,
         "fualiengrass.matitem.json": 2,
         "fujellyblock.matitem.json": 1,
-        "fulabpipe.matitem.json": 0,
-        "fulabscreen.matitem.json": 0,
-        "fulabsupport.matitem.json": 0,
+        "fulabpipe.matitem.json": 1,
+        "fulabscreen.matitem.json": 1,
+        "fulabsupport.matitem.json": 2,
         "fumonasterybeam.matitem.json": 2,
         "fumonasteryflooring.matitem.json": 1,
         "fumonasteryroofing.matitem.json": 1,
@@ -3028,7 +3034,7 @@
         "raincloudmat.matitem.json": 2,
         "rainforestfloor.matitem.json": 2,
         "redhoneyplatform.matitem.json": 1,
-        "redslate2.matitem.json": 0,
+        "redslate2.matitem.json": 1,
         "retexaetherdust.matitem.json": 1,
         "retexaetherdustpillar.matitem.json": 3,
         "retexcobblestone.matitem.json": 2,
@@ -3042,7 +3048,7 @@
         "shared_cable.matitem.json": 2,
         "shared_coral.matitem.json": 1,
         "shared_crystal.matitem.json": 2,
-        "shared_edbonematerial.matitem.json": 0,
+        "shared_edbonematerial.matitem.json": 2,
         "shared_fumossyrock.json": 2,
         "shared_honeycombmaterial.matitem.json": 1,
         "shared_irradiatedwall.json": 1,
@@ -3269,6 +3275,7 @@
       "shared_stone.mat.json": 1,
       "shared_swampdirtff.json": 1,
       "shared_tarstone.json": 1,
+      "shared_vinewall.mat.json": 0,
       "shared_violiumcrystal.mat.json": 1,
       "shared_wastestone.mat.json": 2
     },
@@ -3448,8 +3455,7 @@
           "fubat.monstertype.json": 2
         },
         "fudrone": {
-          "fudrone.monstertype.json": 2,
-          "fuminingscandrone.monstertype.json": 0
+          "fudrone.monstertype.json": 2
         },
         "fufireball": {
           "fufireball.monstertype.json": 2
@@ -3666,6 +3672,9 @@
           "futoxicfly.monstertype.json": 0,
           "futoxicflylarge.monstertype.json": 0
         },
+        "gasbag": {
+          "gasbag.monstertype.json": 0
+        },
         "horrors": {
           "horror": {
             "horror.monstertype.json": 0
@@ -3707,8 +3716,14 @@
           "servitor.monstertype.json": 0
         },
         "servitors": {
+          "miningdrone": {
+            "minindrone1.monstertype.json": 0,
+            "shared_.monstertype.json": 0
+          },
+          "servitorcomboscan3.monstertype.json": 0,
           "shared_.monstertype.json": 0
         },
+        "servitors.json": 0,
         "shadowbat": {
           "shadowbat.monstertype.json": 0
         },
@@ -4495,6 +4510,9 @@
       "crafting": {
         "armory": {
           "armory.object.json": 12
+        },
+        "bothealingstation": {
+          "pethealingstation.object.json": 0
         },
         "chemlab": {
           "chemlab.object.json": 13
@@ -6701,9 +6719,6 @@
       "sentrybotlightbot": {
         "sentrybotlightbot.object.json": 2
       },
-      "sentrybotservitor": {
-        "shared_sentrybotcraft.json": 1
-      },
       "sentrybotshieldbot": {
         "sentrybotshieldbot.object.json": 2
       },
@@ -6715,6 +6730,12 @@
       },
       "sentrybotwaterbot": {
         "sentrybotwaterbot.object.json": 1
+      },
+      "servitorscanners": {
+        "scannercombo3.object.json": 0
+      },
+      "shared_servitor": {
+        "shared_.object.json": 1
       }
     },
     "stats": {

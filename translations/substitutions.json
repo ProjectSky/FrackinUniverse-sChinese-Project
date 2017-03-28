@@ -1475,9 +1475,6 @@
   "items/armors/tier3/corsair/kirhostier3.legs": {
     "/description": "texts/items/armors/tier3/corsair/shared_kirhostier3..json"
   },
-  "items/armors/tier3/dweller/hooded.chest": {
-    "/description": "texts/items/armors/tier3/dweller/shared_hooded..json"
-  },
   "items/armors/tier3/dweller/hooded.head": {
     "/description": "texts/items/armors/tier3/dweller/shared_hooded..json"
   },
@@ -1531,9 +1528,6 @@
   },
   "items/armors/tier3/fuintrepid/fuintrepid.head": {
     "/description": "texts/items/armors/tier3/fuintrepid/shared_fuintrepid..json"
-  },
-  "items/armors/tier3/fujunker/fujunker.chest": {
-    "/description": "texts/items/armors/tier3/fujunker/shared_fujunker..json"
   },
   "items/armors/tier3/fujunker/fujunker.head": {
     "/description": "texts/items/armors/tier3/fujunker/shared_fujunker..json"
@@ -1730,9 +1724,6 @@
   },
   "items/armors/tier4/enforcerarmor/enforcerarmor.legs": {
     "/description": "texts/items/armors/tier4/enforcerarmor/shared_enforcerarmor..json"
-  },
-  "items/armors/tier4/fieldscience/fieldscientist.chest": {
-    "/description": "texts/items/armors/tier4/fieldscience/shared_fieldscientist..json"
   },
   "items/armors/tier4/fieldscience/fieldscientist.head": {
     "/description": "texts/items/armors/tier4/fieldscience/shared_fieldscientist..json"
@@ -2186,9 +2177,6 @@
   },
   "items/armors/tier6/furecon3/furecon3.legs": {
     "/description": "texts/items/armors/tier6/furecon3/shared_furecon3..json"
-  },
-  "items/armors/tier6/fusunwalker/fusunwalker.chest": {
-    "/description": "texts/items/armors/tier6/fusunwalker/shared_fusunwalker..json"
   },
   "items/armors/tier6/fusunwalker/fusunwalker.head": {
     "/description": "texts/items/armors/tier6/fusunwalker/shared_fusunwalker..json"
@@ -3253,6 +3241,10 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/items/materials/unrefinedmudstone.matitem.json"
   },
+  "items/materials/vinewall.matitem": {
+    "/description": "texts/materials/shared_vinewall.mat.json",
+    "/shortdescription": "texts/materials/shared_vinewall.mat.json"
+  },
   "items/materials/violiumcrystal.matitem": {
     "/description": "texts/items/materials/shared_crystal.matitem.json",
     "/florandescription": "texts/items/materials/shared_crystal.matitem.json",
@@ -3456,6 +3448,17 @@
   "monsters/flyers/pteropodish/pyropod/pyropod.monstertype": {
     "/description": "texts/monsters/flyers/pteropodish/shared_pod/shared_.monstertype.json"
   },
+  "monsters/flyers/servitors/miningdrone/minindrone1.monstertype": {
+    "/shortdescription": "texts/monsters/flyers/servitors/miningdrone/shared_.monstertype.json"
+  },
+  "monsters/flyers/servitors/miningdrone/minindrone2.monstertype": {
+    "/description": "texts/monsters/flyers/servitors.json",
+    "/shortdescription": "texts/monsters/flyers/servitors/miningdrone/shared_.monstertype.json"
+  },
+  "monsters/flyers/servitors/miningdrone/minindrone3.monstertype": {
+    "/description": "texts/monsters/flyers/servitors.json",
+    "/shortdescription": "texts/monsters/flyers/servitors/miningdrone/shared_.monstertype.json"
+  },
   "monsters/flyers/servitors/servitor2.monstertype": {
     "/description": "texts/monsters/flyers/servitors/shared_.monstertype.json",
     "/shortdescription": "texts/shared_ers.json"
@@ -3467,6 +3470,9 @@
   "monsters/flyers/servitors/servitor4.monstertype": {
     "/description": "texts/monsters/flyers/servitors/shared_.monstertype.json",
     "/shortdescription": "texts/shared_ers.json"
+  },
+  "monsters/flyers/servitors/servitorcomboscan3.monstertype": {
+    "/description": "texts/monsters/flyers/servitors.json"
   },
   "monsters/fulegacyscripts/ground/skills/blinkattack.monsterskill": {
     "/label": "texts/monsters/shared_skill.json"
@@ -10741,15 +10747,15 @@
     "/pickupmatterassembler/text": "texts/radiomessages/shared_.radiomessages.json"
   },
   "spawners/sentrybotservitor/sentrybotcraft.object": {
-    "/description": "texts/spawners/sentrybotservitor/shared_sentrybotcraft.json",
+    "/description": "texts/spawners/shared_servitor/shared_.object.json",
     "/shortdescription": "texts/shared_ers.json"
   },
   "spawners/sentrybotservitor/sentrybotcraft2.object": {
-    "/description": "texts/spawners/sentrybotservitor/shared_sentrybotcraft.json",
+    "/description": "texts/spawners/shared_servitor/shared_.object.json",
     "/shortdescription": "texts/shared_ers.json"
   },
   "spawners/sentrybotservitor/sentrybotcraft3.object": {
-    "/description": "texts/spawners/sentrybotservitor/shared_sentrybotcraft.json",
+    "/description": "texts/spawners/shared_servitor/shared_.object.json",
     "/shortdescription": "texts/shared_ers.json"
   },
   "spawners/sentrybottriplod/sentrybottriplod.object": {
@@ -10763,6 +10769,9 @@
   },
   "spawners/sentrybotwaterbot/sentrybotwaterbot.object": {
     "/shortdescription": "texts/shared_ers/shared_waterbot.json"
+  },
+  "spawners/servitorscanners/scannercombo3.object": {
+    "/description": "texts/spawners/shared_servitor/shared_.object.json"
   },
   "stats/effects/beesting/fubeesting.statuseffect": {
     "/label": "texts/stats/effects/beesting/shared_.statuseffect.json"
@@ -11903,6 +11912,10 @@
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_fustomachblock.mat.json",
     "/novakidDescription": "texts/materials/shared_fustomachblock.mat.json",
     "/shortdescription": "texts/materials/shared_fustomachblock.mat.json"
+  },
+  "tiles/materials/fuvinewall.material": {
+    "/description": "texts/materials/shared_vinewall.mat.json",
+    "/shortdescription": "texts/materials/shared_vinewall.mat.json"
   },
   "tiles/materials/genetile.material": {
     "/description": "texts/materials/shared_genetile.mat.json",
