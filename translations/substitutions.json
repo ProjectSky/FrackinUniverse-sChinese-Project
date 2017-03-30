@@ -1167,15 +1167,6 @@
   "items/active/weapons/wand/orewands/xithricitewand.activeitem": {
     "/description": "texts/items/active/weapons/wand/orewands/shared_wand.activeitem.json"
   },
-  "items/armors/backitems/coldprotection/coldprotection.back": {
-    "/description": "texts/items/armors/backitems/coldprotection/shared_coldprotection.json"
-  },
-  "items/armors/backitems/coldprotection/coldprotection2.back": {
-    "/description": "texts/items/armors/backitems/coldprotection/shared_coldprotection.json"
-  },
-  "items/armors/backitems/coldprotection/coldprotection3.back": {
-    "/description": "texts/items/armors/backitems/coldprotection/shared_coldprotection.json"
-  },
   "items/armors/backitems/guardianwings/blueguardian/blueguardian.back": {
     "/description": "texts/items/armors/backitems/guardianwings/shared_guardian/shared_guardian.back.json",
     "/shortdescription": "texts/items/armors/backitems/guardianwings/shared_guardian/shared_guardian.back.json"
@@ -2359,9 +2350,6 @@
   "items/augments/back/health/feedaugment2.augment": {
     "/description": "texts/items/augments/back/health/shared_feedaugment.json"
   },
-  "items/augments/back/health/feedaugment3.augment": {
-    "/description": "texts/items/augments/back/health/shared_feedaugment.json"
-  },
   "items/augments/back/mobility/fuwaterwalk.augment": {
     "/shortdescription": "texts/wide_spread_fields.json"
   },
@@ -3443,6 +3431,14 @@
   },
   "monsters/flyers/futinybee/futinybee2.monstertype": {
     "/shortdescription": "texts/monsters/flyers/shared_bee/shared_bee.json"
+  },
+  "monsters/flyers/gasbag/gasbag.monstertype": {
+    "/description": "texts/monsters/flyers/gasbag/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/flyers/gasbag/shared_.monstertype.json"
+  },
+  "monsters/flyers/gasbag/gasbag2.monstertype": {
+    "/description": "texts/monsters/flyers/gasbag/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/flyers/gasbag/shared_.monstertype.json"
   },
   "monsters/flyers/horrors/horror/horror.monstertype": {
     "/shortdescription": "texts/monsters/flyers/horrors/shared_horror/shared_.monstertype.json"
@@ -10599,6 +10595,10 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/plants/bushes/ground/buglike/buglike.bush.json"
   },
+  "plants/bushes/ground/chromaticgrass/chromaticgrass.bush": {
+    "/description": "texts/plants/bushes/ground/shared_grass/shared_grass.bush.json",
+    "/shortdescription": "texts/plants/bushes/ground/shared_grass/shared_grass.bush.json"
+  },
   "plants/bushes/ground/cloudbush/cloudbush.bush": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/plants/bushes/ground/cloudbush/cloudbush.bush.json"
@@ -10625,6 +10625,10 @@
   "plants/bushes/ground/swampplant/swampplant.bush": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/plants/bushes/ground/swampplant/swampplant.bush.json"
+  },
+  "plants/bushes/ground/tallgrass/tallgrass.bush": {
+    "/description": "texts/plants/bushes/ground/shared_grass/shared_grass.bush.json",
+    "/shortdescription": "texts/plants/bushes/ground/shared_grass/shared_grass.bush.json"
   },
   "plants/bushes/ground/thorns/thorns.bush": {
     "/description": "texts/plants/bushes/ground/shared_thorns/shared_thorns.json",
@@ -10915,13 +10919,13 @@
     "/label": "texts/stats/effects/fireblock/shared_.statuseffect.json"
   },
   "stats/effects/freeze/freeze.statuseffect": {
-    "/label": "texts/stats/effects.json"
+    "/label": "texts/stats/effects/freeze/shared_.statuseffect.json"
   },
   "stats/effects/freeze/freezefu.statuseffect": {
-    "/label": "texts/stats/effects.json"
+    "/label": "texts/stats/effects/freeze/shared_.statuseffect.json"
   },
   "stats/effects/freeze/freezefu2.statuseffect": {
-    "/label": "texts/stats/effects.json"
+    "/label": "texts/stats/effects/freeze/shared_.statuseffect.json"
   },
   "stats/effects/fu_armoreffects/brainslug.statuseffect": {
     "/label": "texts/shared_brainslug.json"
@@ -11217,10 +11221,10 @@
     "/label": "texts/stats/effects/fu_weathereffects.json"
   },
   "stats/effects/fu_weathereffects/ffextremeheat/cultistblastfx.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/ffextremeheat/shared_.statuseffect.json"
+    "/label": "texts/stats/effects/fu_weathereffects.json"
   },
   "stats/effects/fu_weathereffects/ffextremeheat/ffextremeheat.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/ffextremeheat/shared_.statuseffect.json"
+    "/label": "texts/stats/effects/fu_weathereffects.json"
   },
   "stats/effects/fu_weathereffects/ffextremesulphuric/ffextremesulphuric.statuseffect": {
     "/label": "texts/stats/effects/shared_effects/shared_sulphuric/shared_.statuseffect.json"
@@ -11228,53 +11232,17 @@
   "stats/effects/fu_weathereffects/metallichydrogengas/metallichydrogengas.statuseffect": {
     "/label": "texts/stats/effects/shared_effects/shared_.statuseffect.json"
   },
-  "stats/effects/fu_weathereffects/new/aether/aetherweathernew.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/new/aether/shared_aetherweathernew.json"
-  },
-  "stats/effects/fu_weathereffects/new/aether/aetherweathernew2.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/new/aether/shared_aetherweathernew.json"
-  },
-  "stats/effects/fu_weathereffects/new/aether/aetherweathernew3.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/new/aether/shared_aetherweathernew.json"
-  },
-  "stats/effects/fu_weathereffects/new/cold/coldweathernew.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/new/cold/shared_.statuseffect.json"
-  },
   "stats/effects/fu_weathereffects/new/cold/ffbiomecold0.statuseffect": {
     "/label": "texts/stats/effects/fu_weathereffects.json"
   },
-  "stats/effects/fu_weathereffects/new/cold/ffbiomecold2.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/new/cold/shared_.statuseffect.json"
+  "stats/effects/fu_weathereffects/new/heat/ffbiomeheat3.statuseffect": {
+    "/label": "texts/stats/effects/fu_weathereffects.json"
   },
-  "stats/effects/fu_weathereffects/new/cold/ffbiomecold3.statuseffect": {
-    "/label": "texts/stats/effects.json"
+  "stats/effects/fu_weathereffects/new/poison/poisonweathernew.statuseffect": {
+    "/label": "texts/stats/effects/fu_weathereffects/new/poison/shared_poisonweathernew.json"
   },
-  "stats/effects/fu_weathereffects/new/protoworld/protoweather.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/new/protoworld/shared_.statuseffect.json"
-  },
-  "stats/effects/fu_weathereffects/new/protoworld/protoweather2.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/new/protoworld/shared_.statuseffect.json"
-  },
-  "stats/effects/fu_weathereffects/new/sulphuric/sulphuricweathernew.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/new/sulphuric/shared_sulphuricweathernew.json"
-  },
-  "stats/effects/fu_weathereffects/new/sulphuric/sulphuricweathernew2.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/new/sulphuric/shared_sulphuricweathernew.json"
-  },
-  "stats/effects/fu_weathereffects/new/sulphuric/sulphuricweathernew3.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/new/sulphuric/shared_sulphuricweathernew.json"
-  },
-  "stats/effects/fu_weathereffects/new/sulphuric/sulphuricweathernew4.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/new/sulphuric/shared_sulphuricweathernew.json"
-  },
-  "stats/effects/fu_weathereffects/new/sulphuric/sulphuricweatherstorm.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/new/sulphuric/shared_sulphuricweatherstorm.json"
-  },
-  "stats/effects/fu_weathereffects/new/sulphuric/sulphuricweatherstorm2.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/new/sulphuric/shared_sulphuricweatherstorm.json"
-  },
-  "stats/effects/fu_weathereffects/new/sulphuric/sulphuricweatherstorm3.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/new/sulphuric/shared_sulphuricweatherstorm.json"
+  "stats/effects/fu_weathereffects/new/poison/poisonweathernewbiome.statuseffect": {
+    "/label": "texts/stats/effects/fu_weathereffects/new/poison/shared_poisonweathernew.json"
   },
   "stats/effects/fu_weathereffects/poisongas/poisongas.statuseffect": {
     "/label": "texts/stats/effects/shared_effects/shared_.statuseffect.json"
