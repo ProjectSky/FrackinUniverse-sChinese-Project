@@ -636,7 +636,7 @@
               }
             },
             "shortspear": {
-              "advalloyshortspear.activeitem.json": 0,
+              "advalloyshortspear.activeitem.json": 1,
               "commonshortspear.activeitem.json": 1,
               "durasteelshortspear.activeitem.json": 1,
               "ironshortspear.activeitem.json": 1,
@@ -1175,12 +1175,12 @@
       "armors": {
         "backitems": {
           "acidprotectionback": {
-            "acidprotection.back.json": 0
+            "acidprotection.back.json": 2
           },
           "coldprotection": {
-            "coldprotection.back.json": 1,
-            "coldprotection2.back.json": 0,
-            "coldprotection3.back.json": 0
+            "coldprotection.back.json": 2,
+            "coldprotection2.back.json": 2,
+            "coldprotection3.back.json": 2
           },
           "diamondlantern": {
             "diamondlantern.back.json": 2
@@ -1198,13 +1198,13 @@
             "fufallenangelwings.back.json": 2
           },
           "fufireangelwings": {
-            "fufireangelwings.back.json": 1
+            "fufireangelwings.back.json": 2
           },
           "fuicaruswings": {
-            "fuicaruswings.back.json": 1
+            "fuicaruswings.back.json": 2
           },
           "fusurvivorpack": {
-            "fusurvivorback.back.json": 1
+            "fusurvivorback.back.json": 2
           },
           "guardianwings": {
             "shared_guardian": {
@@ -1215,9 +1215,9 @@
             "halogenpack.back.json": 2
           },
           "heatprotection": {
-            "heatprotection.back.json": 1,
-            "heatprotection2.back.json": 0,
-            "heatprotection3.back.json": 0
+            "heatprotection.back.json": 2,
+            "heatprotection2.back.json": 2,
+            "heatprotection3.back.json": 2
           },
           "isn_heatshell": {
             "isn_heatshell.back.json": 2
@@ -1232,9 +1232,9 @@
             "batterypack_morphite.back.json": 2
           },
           "poisonprotection": {
-            "poisonprotection.back.json": 0,
-            "poisonprotection2.back.json": 0,
-            "poisonprotection3.back.json": 0
+            "poisonprotection.back.json": 2,
+            "poisonprotection2.back.json": 2,
+            "poisonprotection3.back.json": 2
           },
           "protocytepack": {
             "batterypack_protocyte.back.json": 2
@@ -1243,9 +1243,9 @@
             "batterypack_quantum.back.json": 2
           },
           "radiationprotection": {
-            "radiationprotection.back.json": 0,
-            "radiationprotection2.back.json": 0,
-            "radiationprotection3.back.json": 0
+            "radiationprotection.back.json": 2,
+            "radiationprotection2.back.json": 2,
+            "radiationprotection3.back.json": 2
           },
           "shadowbonecape": {
             "shadowbonecape.back.json": 2
@@ -1567,7 +1567,7 @@
             "cultcrown.head.json": 2
           },
           "dweller": {
-            "hooded.chest.json": 1,
+            "hooded.chest.json": 2,
             "hooded.head.json": 1,
             "hooded.legs.json": 1,
             "shared_hooded..json": 1
@@ -1609,7 +1609,7 @@
             "shared_fuintrepid..json": 1
           },
           "fujunker": {
-            "fujunker.chest.json": 1,
+            "fujunker.chest.json": 2,
             "fujunker.head.json": 1,
             "fujunker.legs.json": 1,
             "shared_fujunker..json": 1
@@ -1745,7 +1745,7 @@
             "shared_enforcerarmor..json": 1
           },
           "fieldscience": {
-            "fieldscientist.chest.json": 1,
+            "fieldscientist.chest.json": 2,
             "fieldscientist.head.json": 1,
             "fieldscientist.legs.json": 1,
             "fieldscientisthead2.head.json": 2,
@@ -2011,7 +2011,7 @@
             "mantizitier6accelerator.chest.json": 1,
             "mantizitier6accelerator.head.json": 1,
             "mantizitier6accelerator.legs.json": 1,
-            "shared_mantizitier6accelerator..json": 0
+            "shared_mantizitier6accelerator..json": 1
           },
           "champion": {
             "mantizitier6separator.chest.json": 1,
@@ -2056,7 +2056,7 @@
             "shared_furecon3..json": 1
           },
           "fusunwalker": {
-            "fusunwalker.chest.json": 1,
+            "fusunwalker.chest.json": 2,
             "fusunwalker.head.json": 1,
             "fusunwalker.legs.json": 1,
             "shared_fusunwalker..json": 1
@@ -2194,7 +2194,7 @@
         "back": {
           "environment": {
             "acidimmunity.augment.json": 2,
-            "aether.augment.json": 1,
+            "aether.augment.json": 2,
             "breathprotection.augment.json": 2,
             "coldImmunity.augment.json": 2,
             "coldImmunity2.augment.json": 2,
@@ -2218,11 +2218,11 @@
           "health": {
             "feedaugment1.augment.json": 1,
             "feedaugment2.augment.json": 1,
-            "feedaugment3.augment.json": 1,
+            "feedaugment3.augment.json": 2,
             "regenaugment1.augment.json": 2,
             "regenaugment2.augment.json": 2,
             "regenaugment3.augment.json": 2,
-            "shared_feedaugment.json": 0
+            "shared_feedaugment.json": 1
           },
           "mobility": {
             "fumobility1.augment.json": 2,
@@ -2782,8 +2782,11 @@
           "waterstim.consumable.json": 2
         },
         "meat": {
+          "deliciousmeat.consumable.json": 0,
           "honeyham.consumable.json": 2,
-          "meatchunk.consumable.json": 2
+          "humaneyeball.consumable.json": 0,
+          "meatchunk.consumable.json": 2,
+          "severedear.consumable.json": 0
         },
         "mission": {
           "wagneridcard.item.json": 2
@@ -3878,7 +3881,7 @@
           "pusvomitattack.monsterskill.json": 0,
           "raptorstrikeattack.monsterskill.json": 0,
           "robotRocketAttack.monsterskill.json": 0,
-          "robotgaussAttack.monsterskill.json": 0,
+          "robotgaussAttack.monsterskill.json": 1,
           "shared_Attack.monsterskill.json": 0,
           "shared_PoisonBlastAttack.monsterskill.json": 0,
           "shared_attack.monsterskill.json": 0,
@@ -4526,7 +4529,7 @@
           "armory.object.json": 12
         },
         "bothealingstation": {
-          "pethealingstation.object.json": 0
+          "pethealingstation.object.json": 3
         },
         "chemlab": {
           "chemlab.object.json": 13
@@ -5301,7 +5304,7 @@
           "survivaltent.object.json": 2
         },
         "timeobelisk": {
-          "spacetimeobelisk.object.json": 0
+          "spacetimeobelisk.object.json": 2
         },
         "traps": {
           "lavarooftrap": {
@@ -6325,7 +6328,7 @@
             "ceilingbuglike.bush.json": 3
           },
           "ceilingrainforestplant": {
-            "ceilingrainforestplant.bush.json": 0
+            "ceilingrainforestplant.bush.json": 1
           },
           "ceilingrainforeststone": {
             "ceilingrainforeststone.bush.json": 2
@@ -6374,7 +6377,7 @@
             "shared_atropusbush.json": 2
           },
           "shared_grass": {
-            "shared_grass.bush.json": 0
+            "shared_grass.bush.json": 2
           },
           "shared_thorns": {
             "shared_thorns.json": 2
@@ -6749,7 +6752,7 @@
         "sentrybotwaterbot.object.json": 1
       },
       "servitorscanners": {
-        "scannercombo3.object.json": 0
+        "scannercombo3.object.json": 1
       },
       "shared_servitor": {
         "shared_.object.json": 1
@@ -6853,7 +6856,7 @@
             "infernosetbonuseffect.statuseffect.json": 1,
             "intersecsetbonuseffect.statuseffect.json": 1,
             "intrepidsetbonuseffect.statuseffect.json": 1,
-            "invadersetbonuseffect.statuseffect.json": 0,
+            "invadersetbonuseffect.statuseffect.json": 1,
             "isogensetbonuseffect.statuseffect.json": 1,
             "junkersetbonuseffect.statuseffect.json": 1,
             "krakensetbonuseffect.statuseffect.json": 1,
@@ -6908,7 +6911,7 @@
             "sunwalkersetbonuseffect.statuseffect.json": 1,
             "survivorsetbonuseffect.statuseffect.json": 1,
             "swashbucklersetbonuseffect.statuseffect.json": 1,
-            "tw_spacesuitsetbonuseffect.statuseffect.json": 0,
+            "tw_spacesuitsetbonuseffect.statuseffect.json": 1,
             "ultrameshsetbonuseffect.statuseffect.json": 1,
             "underworldsetbonuseffect.statuseffect.json": 1,
             "vagabondsetbonuseffect.statuseffect.json": 1,
@@ -6934,6 +6937,9 @@
           },
           "corvexputty": {
             "corvexputty.statuseffect.json": 1
+          },
+          "eatself": {
+            "eatself.statuseffect.json": 0
           },
           "energyregenfu": {
             "energyregenfu_armor20.statuseffect.json": 1,
@@ -7033,6 +7039,7 @@
         "fu_tileeffects.json": 1,
         "fu_weaponeffects": {
           "bleeding": {
+            "bleedinglong2.statuseffect.json": 0,
             "shared_.statuseffect.json": 1
           },
           "burningnapalm": {
@@ -7070,60 +7077,60 @@
             "aether": {
               "aetherweathernew.animation.json": 1,
               "aetherweathernew.statuseffect.json": 1,
-              "aetherweathernew2.statuseffect.json": 0,
-              "aetherweathernew3.statuseffect.json": 0
+              "aetherweathernew2.statuseffect.json": 1,
+              "aetherweathernew3.statuseffect.json": 1
             },
             "cold": {
               "coldweathernew.animation.json": 1,
               "coldweathernew.statuseffect.json": 1,
-              "ffbiomecold1.statuseffect.json": 0,
-              "ffbiomecold2.statuseffect.json": 0,
-              "ffbiomecold3.statuseffect.json": 0
+              "ffbiomecold1.statuseffect.json": 1,
+              "ffbiomecold2.statuseffect.json": 1,
+              "ffbiomecold3.statuseffect.json": 1
             },
             "desert": {
               "desertweathernew.statuseffect.json": 1,
               "desertweathernewdeadly.statuseffect.json": 1
             },
             "electric": {
-              "ffbiomeelectric1.statuseffect.json": 0,
-              "ffbiomeelectric2.statuseffect.json": 0,
-              "ffbiomeelectric3.statuseffect.json": 0
+              "ffbiomeelectric1.statuseffect.json": 1,
+              "ffbiomeelectric2.statuseffect.json": 1,
+              "ffbiomeelectric3.statuseffect.json": 1
             },
             "heat": {
-              "ffbiomeheat1.statuseffect.json": 0,
-              "ffbiomeheat2.statuseffect.json": 0
+              "ffbiomeheat1.statuseffect.json": 1,
+              "ffbiomeheat2.statuseffect.json": 1
             },
             "insanity": {
               "insanitynew.animation.json": 1
             },
             "poison": {
-              "biomepoison1.statuseffect.json": 0,
-              "biomepoison2.statuseffect.json": 0,
-              "biomepoison3.statuseffect.json": 0,
-              "biomepoisongas.statuseffect.json": 0,
+              "biomepoison1.statuseffect.json": 1,
+              "biomepoison2.statuseffect.json": 1,
+              "biomepoison3.statuseffect.json": 1,
+              "biomepoisongas.statuseffect.json": 1,
               "poisonweathernew.animation.json": 1,
-              "shared_poisonweathernew.json": 0
+              "shared_poisonweathernew.json": 1
             },
             "protoworld": {
               "protoweather.animation.json": 1,
               "protoweather.statuseffect.json": 1,
-              "protoweather2.statuseffect.json": 0
+              "protoweather2.statuseffect.json": 1
             },
             "radiation": {
               "radioactiveweathernew.animation.json": 1,
-              "radioactiveweathernew.statuseffect.json": 0,
-              "radioactiveweathernew2.statuseffect.json": 0,
-              "radioactiveweathernew3.statuseffect.json": 0
+              "radioactiveweathernew.statuseffect.json": 1,
+              "radioactiveweathernew2.statuseffect.json": 1,
+              "radioactiveweathernew3.statuseffect.json": 1
             },
             "sulphuric": {
               "sulphuricweathernew.animation.json": 1,
-              "sulphuricweathernew.statuseffect.json": 0,
-              "sulphuricweathernew2.statuseffect.json": 0,
-              "sulphuricweathernew3.statuseffect.json": 0,
-              "sulphuricweathernew4.statuseffect.json": 0,
+              "sulphuricweathernew.statuseffect.json": 1,
+              "sulphuricweathernew2.statuseffect.json": 1,
+              "sulphuricweathernew3.statuseffect.json": 1,
+              "sulphuricweathernew4.statuseffect.json": 1,
               "sulphuricweatherstorm.statuseffect.json": 1,
-              "sulphuricweatherstorm2.statuseffect.json": 0,
-              "sulphuricweatherstorm3.statuseffect.json": 0
+              "sulphuricweatherstorm2.statuseffect.json": 1,
+              "sulphuricweatherstorm3.statuseffect.json": 1
             },
             "tropical": {
               "jungleheatweather.statuseffect.json": 1
@@ -7261,7 +7268,11 @@
         "shared_lightregen.json": 1,
         "shared_slow.json": 1,
         "swimboost": {
-          "shared_.statuseffect.json": 1
+          "swimboost1.statuseffect.json": 0,
+          "swimboost2.statuseffect.json": 0,
+          "swimboost3.statuseffect.json": 0,
+          "swimboost4.statuseffect.json": 0,
+          "swimboostaquapod.statuseffect.json": 1
         },
         "thorns": {
           "novax10.statuseffect.json": 1,
