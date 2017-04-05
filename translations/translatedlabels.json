@@ -1,8 +1,22 @@
 {
   "texts": {
     "ai": {
+      "alienjungle.aimission.json": 0,
+      "ancienttemple.aimission.json": 0,
+      "evernight.aimission.json": 0,
+      "forestoffae.aimission.json": 0,
+      "grandarena.aimission.json": 0,
+      "infiltration.aimission.json": 0,
+      "lethialabs.aimission.json": 0,
+      "magickaforest.aimission.json": 0,
+      "pavillion.aimission.json": 0,
       "scienceoutpostfu.aimission.json": 2,
-      "shoggothmission.aimission.json": 2
+      "shoggothmission.aimission.json": 2,
+      "skytemple.aimission.json": 0,
+      "snowcrash.aimission.json": 0,
+      "sunsetriders.aimission.json": 0,
+      "towerinvincible.aimission.json": 0,
+      "verdantruins.aimission.json": 0
     },
     "bees": {
       "shared_.config.json": 1,
@@ -55,6 +69,11 @@
         "chromatic.biome.json": 1,
         "crystalmoon.biome.json": 1,
         "eden.biome.json": 1,
+        "extraalienjungle.biome.json": 0,
+        "extraalpinemission.biome.json": 0,
+        "extraoceanfloormission.biome.json": 0,
+        "extraskymission.biome.json": 0,
+        "extraswampmission.biome.json": 0,
         "frozenvolcanic.biome.json": 1,
         "fugasgiant.biome.json": 1,
         "fungus.biome.json": 1,
@@ -234,6 +253,12 @@
         "shared_ffguide.json": 1,
         "shared_networkguide.json": 1
       },
+      "dungeons": {
+        "apexunderwaterlabs1.codex.json": 0,
+        "apexunderwaterlabs2.codex.json": 0,
+        "apexunderwaterlabs3.codex.json": 0,
+        "shared_apexunderwaterlabs.json": 0
+      },
       "elder": {
         "blackbook1.codex.json": 5,
         "blackbook1k.codex.json": 4,
@@ -261,6 +286,11 @@
         "elderstaff3book.codex.json": 0,
         "shared_blackbook.json": 1,
         "shared_book.codex.json": 3
+      },
+      "missions": {
+        "extraalienjungle1.codex.json": 0,
+        "extraalienjungle2.codex.json": 0,
+        "extraalienjungle3.codex.json": 0
       },
       "shoggothdungeon": {
         "elder_research1.codex.json": 8,
@@ -2248,6 +2278,9 @@
             "shared_.augment.json": 2
           }
         },
+        "extraenergisingaugment.augment.json": 0,
+        "extragravityaugment.augment.json": 0,
+        "extraspringaugment.augment.json": 0,
         "pet": {
           "lowgravcollar.augment.json": 2,
           "shadowcollar.augment.json": 2,
@@ -3157,6 +3190,12 @@
         "mmgravgun2.beamaxe.json": 2,
         "mmgravgun3.beamaxe.json": 2,
         "wiretoolfu.wiretool.json": 2
+      },
+      "weapons": {
+        "extrabeams": {
+          "extrachargebeam.activeitem.json": 0,
+          "extralightbeam.activeitem.json": 0
+        }
       }
     },
     "items.json": 1,
@@ -3342,6 +3381,9 @@
         "junglebee": {
           "junglebee.monstertype.json": 0
         },
+        "magmabee": {
+          "magmabee.monstertype.json": 0
+        },
         "mcm": {
           "futinycockroach": {
             "futinycockroach.monstertype.json": 0
@@ -3432,6 +3474,11 @@
         }
       },
       "crawlers": {
+        "eyejellies": {
+          "eyejellyroller": {
+            "eyejellyroller.monstertype.json": 0
+          }
+        },
         "fuallergen": {
           "fuallergen.monstertype.json": 0
         },
@@ -3648,9 +3695,6 @@
           "eyejellykingspawn": {
             "eyejellykingspawn.monstertype.json": 0
           },
-          "eyejellyspinner": {
-            "eyejellyspinner.monstertype.json": 0
-          },
           "eyeslime": {
             "eyeslime.monstertype.json": 0
           },
@@ -3703,6 +3747,9 @@
           "shared_horror": {
             "shared_.monstertype.json": 0
           }
+        },
+        "nanoswarm": {
+          "nanoswarm.monstertype.json": 0
         },
         "pteropodish": {
           "cryopod": {
@@ -3844,9 +3891,6 @@
         }
       },
       "ghosts": {
-        "crisper": {
-          "crisper.monstertype.json": 0
-        },
         "doomspirit": {
           "doomspirit.monstertype.json": 0
         },
@@ -3859,11 +3903,16 @@
         "tideworm": {
           "tideworm.monstertype.json": 0
         },
-        "wattsper": {
-          "wattsper.monstertype.json": 0
-        },
-        "wisper7": {
-          "wisper7.monstertype.json": 2
+        "wisperish": {
+          "crisper": {
+            "crisper.monstertype.json": 0
+          },
+          "wattsper": {
+            "wattsper.monstertype.json": 0
+          },
+          "wisper7": {
+            "wisper7.monstertype.json": 0
+          }
         }
       },
       "ground": {
@@ -4145,6 +4194,9 @@
         "poptopish": {
           "shadowtop": {
             "shadowtop.monstertype.json": 0
+          },
+          "slimetop": {
+            "slimetop.monstertype.json": 0
           }
         },
         "reptar": {
@@ -4243,6 +4295,15 @@
     },
     "monsters.json": 1,
     "npcs": {
+      "alienjungle": {
+        "alienjunglesavage.npctype.json": 0,
+        "alienjunglethornhide.npctype.json": 0
+      },
+      "ancienttemple": {
+        "firebird.npctype.json": 0,
+        "shared_priest.npctype.json": 0,
+        "templefollower.npctype.json": 0
+      },
       "apexslave.npctype.json": 15,
       "apexslaver.npctype.json": 23,
       "beekeeper.npctype.json": 36,
@@ -4278,6 +4339,27 @@
         "pyramidguard.npctype.json": 19
       },
       "dungeon.json": 1,
+      "evernight": {
+        "shared_er.npctype.json": 0
+      },
+      "forestoffae": {
+        "shared_grimdarkcultist.npctype.json": 0
+      },
+      "grandarena": {
+        "grandarenacompetitor.npctype.json": 0,
+        "grandarenausher.npctype.json": 0
+      },
+      "infiltration": {
+        "infiltrationelite.npctype.json": 0,
+        "infiltrationleader.npctype.json": 0,
+        "infiltrationrebel.npctype.json": 0,
+        "infiltrationtavish.npctype.json": 0
+      },
+      "magickaforest": {
+        "magickaguard.npctype.json": 0,
+        "magickajarl.npctype.json": 0,
+        "shared_.npctype.json": 0
+      },
       "microdungeons": {
         "hydroquestgiver.npctype.json": 3
       },
@@ -4285,12 +4367,50 @@
         "shared_castleguard.json": 11
       },
       "oremerchant.npctype.json": 2,
+      "pavillion": {
+        "pavillionprincess.npctype.json": 0,
+        "pavillionsamurai.npctype.json": 0,
+        "pavillionshogun.npctype.json": 0,
+        "shared_pavillion.json": 0
+      },
       "scienceoutpost": {
         "fuoutpostcivilian.npctype.json": 7,
         "shared_fuoutpostcivilian.json": 25
       },
       "shared_.npctype.json": 51,
-      "shared_nge.json": 3
+      "shared_nge.json": 3,
+      "skytemple": {
+        "shared_skytemple.json": 0,
+        "shared_skytemples.json": 0,
+        "skytemplegrower.npctype.json": 0,
+        "skytemplestargazer.npctype.json": 0,
+        "skytemplestarshot.npctype.json": 0,
+        "skytemplesunsword.npctype.json": 0
+      },
+      "snowcrash": {
+        "shared_snowcrash.json": 0,
+        "snowcrashcomissar.npctype.json": 0,
+        "snowcrashhostage.npctype.json": 0,
+        "snowcrashrebel.npctype.json": 0
+      },
+      "sunsetriders": {
+        "shared_.npctype.json": 0,
+        "sunsetdagger.npctype.json": 0,
+        "sunsethank.npctype.json": 0,
+        "sunsetsheriff.npctype.json": 0,
+        "sunsetvillager.npctype.json": 0
+      },
+      "svetlana.npctype.json": 0,
+      "volcanobase": {
+        "shared_volcanobase.json": 0,
+        "volcanobasebrute.npctype.json": 0,
+        "volcanobasedagger.npctype.json": 0,
+        "volcanobasefollower.npctype.json": 0,
+        "volcanobasehostage.npctype.json": 0,
+        "volcanobasehunter.npctype.json": 0,
+        "volcanobaselord.npctype.json": 0,
+        "volcanobasesentinel.npctype.json": 0
+      }
     },
     "npcs.json": 2,
     "objects": {
@@ -4566,6 +4686,9 @@
           },
           "shared_.object.json": 2
         },
+        "extraavianaugments": {
+          "extraavianaugments.object.json": 0
+        },
         "extractionlab": {
           "extractionlab.object.json": 2
         },
@@ -4653,6 +4776,9 @@
         "xenostationadvnew": {
           "xenostationadvnew.object.json": 2
         }
+      },
+      "dispensers": {
+        "pixeldispenser.object.json": 0
       },
       "explosives": {
         "blastingdynamite.object.json": 2,
@@ -5308,7 +5434,8 @@
           "survivaltent.object.json": 2
         },
         "timeobelisk": {
-          "spacetimeobelisk.object.json": 2
+          "spacetimeobelisk.object.json": 2,
+          "timeobelisk.object.json": 0
         },
         "traps": {
           "lavarooftrap": {
@@ -5500,6 +5627,9 @@
           "microformerwartfield.object.json": 2
         }
       },
+      "mines": {
+        "poisonmine.object.json": 0
+      },
       "minibiome": {
         "arboreal": {
           "carcass1.object.json": 2,
@@ -5630,7 +5760,7 @@
           "elderthingstatue2.object.json": 2,
           "eldertraps": {
             "shared_elder": {
-              "shared_.object.json": 7
+              "shared_.object.json": 5
             },
             "shared_elderceilingspike": {
               "shared_elderceilingspike.json": 1
@@ -5812,6 +5942,12 @@
         "shared_fuokeamagmadoor.json": 2,
         "tv2.object.json": 2
       },
+      "portals": {
+        "extrateleportradar": {
+          "extrateleportradarreturn.object.json": 0,
+          "shared_extrateleportradar.json": 0
+        }
+      },
       "power": {
         "centrifuge": {
           "centrifuge.object.json": 2
@@ -5875,6 +6011,12 @@
         "isn_battery_t4_fero": {
           "isn_battery_t4_fero.object.json": 2
         },
+        "isn_fissionreactor": {
+          "isn_fissionreactor.object.json": 1
+        },
+        "isn_fissionreactornew": {
+          "isn_fissionreactornew.object.json": 0
+        },
         "isn_hydroponicstray": {
           "isn_hydroponicstray.object.json": 8
         },
@@ -5915,9 +6057,13 @@
           "shared_condenser.config.json": 1
         },
         "shared_isn_fissionreactor": {
-          "shared_isn_fissionreactor.json": 10
+          "shared_isn_fissionreactor.json": 9
         }
       },
+      "questmaps": {
+        "shared_map.object.json": 0
+      },
+      "questturnins.json": 0,
       "scenery": {
         "a_biomespecific": {
           "arboreal": {
@@ -6009,6 +6155,7 @@
         "shared_generator.config.json": 1
       },
       "shared_nest.json": 2,
+      "shared_tra.json": 2,
       "teleporter": {
         "crossteleporter": {
           "crossteleporter.object.json": 1
@@ -6047,6 +6194,11 @@
       },
       "throwawayteleporter": {
         "fuonewayteleporter.object.json": 2
+      },
+      "traps": {
+        "extrabonespike": {
+          "extrabonespike.object.json": 0
+        }
       },
       "vanity": {
         "amber": {
@@ -6172,6 +6324,17 @@
         "emitter": {
           "swtjc_wp_brokenemitter.object.json": 4,
           "swtjc_wp_emitter.object.json": 4
+        },
+        "extraforcepad": {
+          "extrajumppad.object.json": 0
+        },
+        "extranpcspawner": {
+          "extrainvisiblenpcspawner.object.json": 0,
+          "extranpcspawner.object.json": 0,
+          "shared_npcspawner.object.json": 0
+        },
+        "extrasmashablepersistentswitch": {
+          "extrasmashablepersistentswitch.object.json": 0
         },
         "fu_turrets": {
           "fu_flameturret": {
@@ -6487,6 +6650,8 @@
       }
     },
     "quests": {
+      "alienjungle.questtemplate.json": 0,
+      "ancienttemple.questtemplate.json": 0,
       "base": {
         "create_advxeno.questtemplate.json": 4,
         "create_aichip.questtemplate.json": 4,
@@ -6569,15 +6734,24 @@
         "8spirits.questtemplate.json": 4,
         "9merrymead.questtemplate.json": 4
       },
+      "evernight.questtemplate.json": 0,
+      "forestoffae.questtemplate.json": 0,
       "fu_scienceoutpost.questtemplate.json": 5,
+      "grandarena.questtemplate.json": 0,
+      "infiltration.questtemplate.json": 0,
+      "lethialabs.questtemplate.json": 0,
+      "magickaforest.questtemplate.json": 0,
       "missions": {
         "shoggoth_defeat.questtemplate.json": 3,
         "shoggoth_unlock.questtemplate.json": 4,
         "shoggoth_wagner.questtemplate.json": 4
       },
+      "pavillion.questtemplate.json": 0,
       "shared_base": {
         "shared_.questtemplate.json": 1
       },
+      "skytemple.questtemplate.json": 0,
+      "snowcrash.questtemplate.json": 0,
       "stations": {
         "armory": {
           "bonespear.questtemplate.json": 3,
@@ -6643,6 +6817,7 @@
         "scienceoutpost_boss1.questtemplate.json": 7,
         "scienceoutpost_scan1.questtemplate.json": 24
       },
+      "sunsetriders.questtemplate.json": 0,
       "tech": {
         "dash": {
           "airdash2.questtemplate.json": 1,
@@ -6686,7 +6861,9 @@
           "physicsfield2.questtemplate.json": 3,
           "physicsfield3.questtemplate.json": 3
         }
-      }
+      },
+      "towerinvincible.questtemplate.json": 0,
+      "verdantruins.questtemplate.json": 0
     },
     "radiomessages": {
       "fu_chemlab.radiomessages.json": 9,
@@ -6792,6 +6969,9 @@
           "defenseboostneg20.statuseffect.json": 1,
           "shared_.statuseffect.json": 1
         },
+        "directivetest": {
+          "directivetest.statuseffect.json": 0
+        },
         "electricblock": {
           "shared_electricblock.json": 1
         },
@@ -6801,6 +6981,7 @@
         "erchiussickness2": {
           "erchiussickness2.statuseffect.json": 1
         },
+        "extramodvulnerability.statuseffect.json": 0,
         "fireblock": {
           "shared_.statuseffect.json": 1
         },
