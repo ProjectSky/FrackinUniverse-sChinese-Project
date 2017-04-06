@@ -319,6 +319,9 @@
       "chests": {
         "genechest128.config.json": 1
       },
+      "cockpit": {
+        "cockpit.config.json": 225
+      },
       "itemdescriptions": {
         "armornew.itemdescription.json": 1,
         "shared_.itemdescription.json": 1
@@ -1305,9 +1308,7 @@
           "fuearphones": {
             "fuearphones.head.json": 2
           },
-          "jokeglasses": {
-            "jokeglasses.head.json": 2
-          },
+          "shared_.head.json": 2,
           "shared_colourful": {
             "shared_colourful.json": 1
           },
@@ -5008,7 +5009,7 @@
           "shared_ighantseed.object.json": 2
         },
         "ignuschili": {
-          "shared_ignuschiliseed.json": 2
+          "shared_ignuschiliseed.object.json": 2
         },
         "ignuschili2": {
           "ignuschili2seed.object.json": 4
@@ -6069,8 +6070,8 @@
           "atropus": {
             "shared_atropus.json": 2
           },
-          "bioluminescent fungus": {
-            "shared_bioshroom.json": 2
+          "bioluminescent_fungus": {
+            "shared_bioshroom.json": 0
           },
           "bioworld": {
             "shared_bioplant.json": 1
@@ -6292,10 +6293,10 @@
       },
       "wired": {
         "advancedlogic": {
-          "no latch": {
-            "swtjc_wp_advancedand_nolatch.object.json": 4,
-            "swtjc_wp_advancedor_nolatch.object.json": 4,
-            "swtjc_wp_advancedxor_nolatch.object.json": 4
+          "no_latch": {
+            "swtjc_wp_advancedand_nolatch.object.json": 0,
+            "swtjc_wp_advancedor_nolatch.object.json": 0,
+            "swtjc_wp_advancedxor_nolatch.object.json": 0
           },
           "shared_swtjc_wp_advanced.json": 2,
           "swtjc_wp_advancedand.object.json": 2,
@@ -6427,9 +6428,9 @@
         },
         "logic.json": 13,
         "persistentswitch": {
-          "shared_compact switch ": {
-            "shared_persistentswitch.object.json": 3,
-            "shared_persistentswitchinteractive.object.json": 1
+          "shared_compact_switch_": {
+            "shared_persistentswitch.object.json": 0,
+            "shared_persistentswitchinteractive.object.json": 0
           },
           "shared_switch.json": 2,
           "swtjc_wp_persistentswitch_withnot.object.json": 3,
@@ -7449,7 +7450,6 @@
             "shared_.statuseffect.json": 1
           }
         },
-        "shared_lightregen.json": 1,
         "shared_slow.json": 1,
         "swimboost": {
           "swimboost1.statuseffect.json": 0,
@@ -7481,7 +7481,7 @@
           "wet.statuseffect.json": 1
         }
       },
-      "effects.json": 1
+      "effects.json": 2
     },
     "tech": {
       "dash": {
