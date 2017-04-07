@@ -1,22 +1,22 @@
 {
   "texts": {
     "ai": {
-      "alienjungle.aimission.json": 0,
-      "ancienttemple.aimission.json": 0,
-      "evernight.aimission.json": 0,
-      "forestoffae.aimission.json": 0,
-      "grandarena.aimission.json": 0,
-      "infiltration.aimission.json": 0,
-      "lethialabs.aimission.json": 0,
-      "magickaforest.aimission.json": 0,
-      "pavillion.aimission.json": 0,
+      "alienjungle.aimission.json": 3,
+      "ancienttemple.aimission.json": 3,
+      "evernight.aimission.json": 3,
+      "forestoffae.aimission.json": 3,
+      "grandarena.aimission.json": 3,
+      "infiltration.aimission.json": 3,
+      "lethialabs.aimission.json": 3,
+      "magickaforest.aimission.json": 3,
+      "pavillion.aimission.json": 3,
       "scienceoutpostfu.aimission.json": 2,
       "shoggothmission.aimission.json": 2,
-      "skytemple.aimission.json": 0,
-      "snowcrash.aimission.json": 0,
-      "sunsetriders.aimission.json": 0,
-      "towerinvincible.aimission.json": 0,
-      "verdantruins.aimission.json": 0
+      "skytemple.aimission.json": 3,
+      "snowcrash.aimission.json": 3,
+      "sunsetriders.aimission.json": 3,
+      "towerinvincible.aimission.json": 3,
+      "verdantruins.aimission.json": 3
     },
     "bees": {
       "shared_.config.json": 1,
@@ -320,7 +320,7 @@
         "genechest128.config.json": 1
       },
       "cockpit": {
-        "cockpit.config.json": 225
+        "cockpit.config.json": 214
       },
       "itemdescriptions": {
         "armornew.itemdescription.json": 1,
@@ -2338,7 +2338,7 @@
           },
           "metal": {
             "metaldrone.item.json": 1,
-            "metalqueen.item.json": 2
+            "metalqueen.item.json": 1
           },
           "miner": {
             "minerdrone.item.json": 1,
@@ -3131,6 +3131,7 @@
         "unrefinedgritstone.matitem.json": 3,
         "unrefinedlimestone.matitem.json": 3,
         "unrefinedmudstone.matitem.json": 3,
+        "vinewall.matitem.json": 0,
         "violiumcrystal.matitem.json": 1,
         "warttile.matitem.json": 4,
         "wastestone.matitem.json": 2,
@@ -3236,7 +3237,7 @@
       "shared_al.mat.json": 1,
       "shared_aliensoil.mat.json": 1,
       "shared_andesite.mat.json": 1,
-      "shared_avali.json": 2,
+      "shared_avali.json": 1,
       "shared_avalidark.json": 1,
       "shared_avalidarkmetal2.mat.json": 1,
       "shared_avalidarkmetal3.mat.json": 1,
@@ -3387,9 +3388,6 @@
             "futinycockroach.monstertype.json": 0
           }
         },
-        "metalbee": {
-          "metalbee.monstertype.json": 0
-        },
         "minerbee": {
           "minerbee.monstertype.json": 0
         },
@@ -3472,6 +3470,9 @@
         }
       },
       "crawlers": {
+        "crustoiseish": {
+          "crustoiseish.monstertype.json": 0
+        },
         "eyejellies": {
           "eyejellyroller": {
             "eyejellyroller.monstertype.json": 0
@@ -3717,16 +3718,16 @@
           "fucorruptflylarge.monstertype.json": 0
         },
         "fugiantbees": {
+          "fugiantbee": {
+            "fugiantbee2.monstertype.json": 0
+          },
           "fugiantmetalbee": {
-            "shared_fugiantmetalbee.json": 0
+            "fugiantmetalbee.monstertype.json": 0
           },
           "fugiantredbee": {
-            "shared_fugiantredbee.json": 0
+            "fugiantredbee.monstertype.json": 0,
+            "fugiantredbee2.monstertype.json": 0
           }
-        },
-        "futinybee": {
-          "futinybee.monstertype.json": 0,
-          "futinybee2.monstertype.json": 0
         },
         "futoxicfly": {
           "futoxicfly.monstertype.json": 0,
@@ -3798,6 +3799,10 @@
         },
         "shared_fleshreaper": {
           "shared_fleshreaper.json": 0
+        },
+        "shared_futinybee": {
+          "shared_.monstertype.json": 0,
+          "shared_2.monstertype.json": 0
         },
         "squidbeast": {
           "squidbeast.monstertype.json": 0
@@ -3920,6 +3925,9 @@
       "shared_eyejell": {
         "shared_eye.json": 0
       },
+      "shared_metal": {
+        "shared_.monstertype.json": 0
+      },
       "shared_skill.json": 0,
       "shared_ttack.monsterskill.json": 0,
       "skills": {
@@ -3987,6 +3995,11 @@
           },
           "anglure6": {
             "anglure6.monstertype.json": 0
+          }
+        },
+        "bobotish": {
+          "chromabot": {
+            "chromabot.monstertype.json": 0
           }
         },
         "bulbopish": {
@@ -6864,6 +6877,7 @@
       "verdantruins.questtemplate.json": 0
     },
     "radiomessages": {
+      "exploration.radiomessages.json": 33,
       "fu_chemlab.radiomessages.json": 9,
       "fu_elder.radiomessages.json": 26,
       "fu_exploration.radiomessages.json": 16,
@@ -6877,6 +6891,11 @@
     "shared_amberplatform.mat.json": 2,
     "shared_avalistairs.mat.json": 1,
     "shared_bamboo.json": 1,
+    "shared_bees": {
+      "shared_metal": {
+        "shared_metal.json": 1
+      }
+    },
     "shared_boozekit.json": 1,
     "shared_brainslug.json": 1,
     "shared_cloud.json": 1,
@@ -7570,7 +7589,7 @@
         "aegisaltcrystal.material.json": 1,
         "aliensoil.material.json": 1,
         "andesite.material.json": 1,
-        "avaliaeroponics.material.json": 1,
+        "avaliaeroponics.material.json": 2,
         "avalichits.material.json": 1,
         "avalihexagons1.material.json": 2,
         "avaliplain.material.json": 1,

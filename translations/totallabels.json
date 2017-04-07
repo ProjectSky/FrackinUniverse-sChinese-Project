@@ -320,7 +320,7 @@
         "genechest128.config.json": 1
       },
       "cockpit": {
-        "cockpit.config.json": 225
+        "cockpit.config.json": 240
       },
       "itemdescriptions": {
         "armornew.itemdescription.json": 1,
@@ -2338,7 +2338,7 @@
           },
           "metal": {
             "metaldrone.item.json": 1,
-            "metalqueen.item.json": 2
+            "metalqueen.item.json": 1
           },
           "miner": {
             "minerdrone.item.json": 1,
@@ -2984,7 +2984,7 @@
         "avalidarkmetal3.matitem.json": 1,
         "avalidarkplatform.matitem.json": 1,
         "avalidisplay.matitem.json": 1,
-        "avaliglass.matitem.json": 1,
+        "avaliglass.matitem.json": 2,
         "avalihexagons1.matitem.json": 2,
         "avaliplain.matitem.json": 1,
         "avaliplatform.matitem.json": 3,
@@ -3131,6 +3131,7 @@
         "unrefinedgritstone.matitem.json": 3,
         "unrefinedlimestone.matitem.json": 3,
         "unrefinedmudstone.matitem.json": 3,
+        "vinewall.matitem.json": 1,
         "violiumcrystal.matitem.json": 1,
         "warttile.matitem.json": 4,
         "wastestone.matitem.json": 2,
@@ -3236,7 +3237,7 @@
       "shared_al.mat.json": 1,
       "shared_aliensoil.mat.json": 1,
       "shared_andesite.mat.json": 1,
-      "shared_avali.json": 2,
+      "shared_avali.json": 1,
       "shared_avalidark.json": 1,
       "shared_avalidarkmetal2.mat.json": 1,
       "shared_avalidarkmetal3.mat.json": 1,
@@ -3330,7 +3331,7 @@
       "shared_stone.mat.json": 1,
       "shared_swampdirtff.json": 1,
       "shared_tarstone.json": 1,
-      "shared_vinewall.mat.json": 2,
+      "shared_vinewall.mat.json": 1,
       "shared_violiumcrystal.mat.json": 1,
       "shared_wastestone.mat.json": 2
     },
@@ -3386,9 +3387,6 @@
           "futinycockroach": {
             "futinycockroach.monstertype.json": 2
           }
-        },
-        "metalbee": {
-          "metalbee.monstertype.json": 1
         },
         "minerbee": {
           "minerbee.monstertype.json": 1
@@ -3472,6 +3470,9 @@
         }
       },
       "crawlers": {
+        "crustoiseish": {
+          "crustoiseish.monstertype.json": 2
+        },
         "eyejellies": {
           "eyejellyroller": {
             "eyejellyroller.monstertype.json": 1
@@ -3717,16 +3718,16 @@
           "fucorruptflylarge.monstertype.json": 2
         },
         "fugiantbees": {
+          "fugiantbee": {
+            "fugiantbee2.monstertype.json": 1
+          },
           "fugiantmetalbee": {
-            "shared_fugiantmetalbee.json": 1
+            "fugiantmetalbee.monstertype.json": 1
           },
           "fugiantredbee": {
-            "shared_fugiantredbee.json": 1
+            "fugiantredbee.monstertype.json": 1,
+            "fugiantredbee2.monstertype.json": 1
           }
-        },
-        "futinybee": {
-          "futinybee.monstertype.json": 1,
-          "futinybee2.monstertype.json": 1
         },
         "futoxicfly": {
           "futoxicfly.monstertype.json": 2,
@@ -3798,6 +3799,10 @@
         },
         "shared_fleshreaper": {
           "shared_fleshreaper.json": 2
+        },
+        "shared_futinybee": {
+          "shared_.monstertype.json": 1,
+          "shared_2.monstertype.json": 1
         },
         "squidbeast": {
           "squidbeast.monstertype.json": 2
@@ -3920,6 +3925,9 @@
       "shared_eyejell": {
         "shared_eye.json": 1
       },
+      "shared_metal": {
+        "shared_.monstertype.json": 1
+      },
       "shared_skill.json": 2,
       "shared_ttack.monsterskill.json": 6,
       "skills": {
@@ -3987,6 +3995,11 @@
           },
           "anglure6": {
             "anglure6.monstertype.json": 2
+          }
+        },
+        "bobotish": {
+          "chromabot": {
+            "chromabot.monstertype.json": 2
           }
         },
         "bulbopish": {
@@ -6864,6 +6877,7 @@
       "verdantruins.questtemplate.json": 4
     },
     "radiomessages": {
+      "exploration.radiomessages.json": 33,
       "fu_chemlab.radiomessages.json": 9,
       "fu_elder.radiomessages.json": 27,
       "fu_exploration.radiomessages.json": 16,
@@ -6877,6 +6891,11 @@
     "shared_amberplatform.mat.json": 2,
     "shared_avalistairs.mat.json": 1,
     "shared_bamboo.json": 1,
+    "shared_bees": {
+      "shared_metal": {
+        "shared_metal.json": 1
+      }
+    },
     "shared_boozekit.json": 1,
     "shared_brainslug.json": 1,
     "shared_cloud.json": 1,
@@ -7570,7 +7589,7 @@
         "aegisaltcrystal.material.json": 1,
         "aliensoil.material.json": 1,
         "andesite.material.json": 1,
-        "avaliaeroponics.material.json": 1,
+        "avaliaeroponics.material.json": 2,
         "avalichits.material.json": 1,
         "avalihexagons1.material.json": 2,
         "avaliplain.material.json": 1,

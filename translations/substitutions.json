@@ -2384,6 +2384,9 @@
   "items/bees/bees/metal/metaldrone.item": {
     "/description": "texts/bees/shared_bee/shared_metal.json"
   },
+  "items/bees/bees/metal/metalqueen.item": {
+    "/shortdescription": "texts/shared_bees/shared_metal/shared_metal.json"
+  },
   "items/bees/bees/miner/minerdrone.item": {
     "/description": "texts/bees/shared_bee/shared_miner.json"
   },
@@ -2603,9 +2606,6 @@
   },
   "items/materials/avalidisplay.matitem": {
     "/shortdescription": "texts/materials/shared_avali.json"
-  },
-  "items/materials/avaliglass.matitem": {
-    "/description": "texts/materials/shared_avali.json"
   },
   "items/materials/avalipaneling.matitem": {
     "/description": "texts/materials/shared_avalipaneling.json",
@@ -3264,7 +3264,6 @@
     "/glitchDescription/glitchEmotedText": "texts/items/materials/unrefinedmudstone.matitem.json"
   },
   "items/materials/vinewall.matitem": {
-    "/description": "texts/materials/shared_vinewall.mat.json",
     "/shortdescription": "texts/materials/shared_vinewall.mat.json"
   },
   "items/materials/violiumcrystal.matitem": {
@@ -3315,7 +3314,8 @@
     "/description": "texts/bees/shared_bee/shared_aggressive.json"
   },
   "monsters/bees/metalbee/metalbee.monstertype": {
-    "/description": "texts/bees/shared_bee/shared_metal.json"
+    "/description": "texts/bees/shared_bee/shared_metal.json",
+    "/shortdescription": "texts/monsters/shared_metal/shared_.monstertype.json"
   },
   "monsters/bees/minerbee/minerbee.monstertype": {
     "/description": "texts/bees/shared_bee/shared_miner.json"
@@ -3432,29 +3432,39 @@
     "/shortdescription": "texts/monsters/flyers/shared_bee/shared_bee.json"
   },
   "monsters/flyers/fugiantbees/fugiantbee/fugiantbee2.monstertype": {
-    "/description": "texts/monsters/flyers/shared_bee/shared_bee.json",
-    "/shortdescription": "texts/monsters/flyers/shared_bee/shared_bee.json"
+    "/description": "texts/monsters/flyers/shared_bee/shared_bee.json"
   },
   "monsters/flyers/fugiantbees/fugiantmetalbee/fugiantmetalbee.monstertype": {
-    "/description": "texts/monsters/flyers/shared_bee/shared_bee.json",
-    "/shortdescription": "texts/monsters/flyers/fugiantbees/fugiantmetalbee/shared_fugiantmetalbee.json"
+    "/description": "texts/monsters/flyers/shared_bee/shared_bee.json"
   },
   "monsters/flyers/fugiantbees/fugiantmetalbee/fugiantmetalbee2.monstertype": {
     "/description": "texts/monsters/flyers/shared_bee/shared_bee.json",
-    "/shortdescription": "texts/monsters/flyers/fugiantbees/fugiantmetalbee/shared_fugiantmetalbee.json"
+    "/shortdescription": "texts/shared_bees/shared_metal/shared_metal.json"
   },
   "monsters/flyers/fugiantbees/fugiantredbee/fugiantredbee.monstertype": {
-    "/description": "texts/monsters/flyers/shared_bee/shared_bee.json",
-    "/shortdescription": "texts/monsters/flyers/fugiantbees/fugiantredbee/shared_fugiantredbee.json"
-  },
-  "monsters/flyers/fugiantbees/fugiantredbee/fugiantredbee2.monstertype": {
-    "/description": "texts/monsters/flyers/shared_bee/shared_bee.json",
-    "/shortdescription": "texts/monsters/flyers/fugiantbees/fugiantredbee/shared_fugiantredbee.json"
-  },
-  "monsters/flyers/futinybee/futinybee.monstertype": {
     "/description": "texts/monsters/flyers/shared_bee/shared_bee.json"
   },
+  "monsters/flyers/fugiantbees/fugiantredbee/fugiantredbee2.monstertype": {
+    "/description": "texts/monsters/flyers/shared_bee/shared_bee.json"
+  },
+  "monsters/flyers/futinybee/futinybee.monstertype": {
+    "/description": "texts/monsters/flyers/shared_bee/shared_bee.json",
+    "/shortdescription": "texts/monsters/flyers/shared_futinybee/shared_.monstertype.json"
+  },
   "monsters/flyers/futinybee/futinybee2.monstertype": {
+    "/description": "texts/monsters/flyers/shared_futinybee/shared_2.monstertype.json",
+    "/shortdescription": "texts/monsters/flyers/shared_bee/shared_bee.json"
+  },
+  "monsters/flyers/futinybeemetal/futinybeemetal.monstertype": {
+    "/description": "texts/monsters/flyers/shared_bee/shared_bee.json",
+    "/shortdescription": "texts/monsters/shared_metal/shared_.monstertype.json"
+  },
+  "monsters/flyers/futinybeered/futinybeered.monstertype": {
+    "/description": "texts/monsters/flyers/shared_bee/shared_bee.json",
+    "/shortdescription": "texts/monsters/flyers/shared_futinybee/shared_.monstertype.json"
+  },
+  "monsters/flyers/futinybeered/futinybeered2.monstertype": {
+    "/description": "texts/monsters/flyers/shared_futinybee/shared_2.monstertype.json",
     "/shortdescription": "texts/monsters/flyers/shared_bee/shared_bee.json"
   },
   "monsters/flyers/gasbag/gasbag.monstertype": {
@@ -12328,9 +12338,6 @@
   "tiles/materials/andesite.material": {
     "/shortdescription": "texts/materials/shared_andesite.mat.json"
   },
-  "tiles/materials/avaliaeroponics.material": {
-    "/description": "texts/materials/shared_avali.json"
-  },
   "tiles/materials/avalichits.material": {
     "/shortdescription": "texts/shared_lic.json"
   },
@@ -12598,10 +12605,6 @@
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_fustomachblock.mat.json",
     "/novakidDescription": "texts/materials/shared_fustomachblock.mat.json",
     "/shortdescription": "texts/materials/shared_fustomachblock.mat.json"
-  },
-  "tiles/materials/fuvinewall.material": {
-    "/description": "texts/materials/shared_vinewall.mat.json",
-    "/shortdescription": "texts/materials/shared_vinewall.mat.json"
   },
   "tiles/materials/genetile.material": {
     "/description": "texts/materials/shared_genetile.mat.json",
@@ -13273,6 +13276,10 @@
   "tiles/materials/titaniumwallblock.material": {
     "/description": "texts/tiles/materials/shared_block.material.json",
     "/shortdescription": "texts/materials/shared_material.json"
+  },
+  "tiles/materials/vinewall.material": {
+    "/description": "texts/materials/shared_vinewall.mat.json",
+    "/shortdescription": "texts/materials/shared_vinewall.mat.json"
   },
   "tiles/materials/violiumcrystal.material": {
     "/description": "texts/tiles/materials/shared_.material.json",
