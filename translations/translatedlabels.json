@@ -3,6 +3,7 @@
     "ai": {
       "alienjungle.aimission.json": 3,
       "ancienttemple.aimission.json": 3,
+      "avianhydro.aimission.json": 0,
       "evernight.aimission.json": 3,
       "forestoffae.aimission.json": 3,
       "grandarena.aimission.json": 3,
@@ -290,7 +291,11 @@
       "missions": {
         "extraalienjungle1.codex.json": 0,
         "extraalienjungle2.codex.json": 0,
-        "extraalienjungle3.codex.json": 0
+        "extraalienjungle3.codex.json": 0,
+        "extraavianhydro1.codex.json": 0,
+        "extraavianhydro2.codex.json": 0,
+        "extraavianhydro3.codex.json": 0,
+        "shared_extraavianhydro.json": 0
       },
       "shoggothdungeon": {
         "elder_research1.codex.json": 8,
@@ -355,11 +360,11 @@
       },
       "shared_boomerang..json": 1,
       "shared_chakram..json": 1,
+      "shared_gun2..json": 0,
       "shared_magnorb..json": 1,
       "shared_shieldnew..json": 4,
       "tooltips": {
-        "magnorb.tooltip.json": 1,
-        "shared_.tooltip.json": 1
+        "magnorb.tooltip.json": 1
       },
       "warping": {
         "fu_outpostteleporter.config.json": 2
@@ -393,7 +398,7 @@
         "xenostation.config.json": 2
       }
     },
-    "interface.json": 6,
+    "interface.json": 7,
     "items": {
       "active": {
         "fishingrod": {
@@ -717,7 +722,7 @@
             },
             "spear": {
               "advalloyspear.activeitem.json": 1,
-              "banespear.activeitem.json": 1,
+              "banespear.activeitem.json": 2,
               "bonespear.activeitem.json": 2,
               "coralspear.activeitem.json": 2,
               "corruptspear.activeitem.json": 2,
@@ -734,7 +739,7 @@
               "pincerspear.activeitem.json": 2,
               "pyreitespear.activeitem.json": 2,
               "quietusspear.activeitem.json": 1,
-              "shared_.activeitem.json": 2,
+              "shared_.activeitem.json": 1,
               "shared_spear.activeitem.json": 3,
               "siliconspear.activeitem.json": 2,
               "solarispear.activeitem.json": 2,
@@ -914,6 +919,7 @@
               "gravgun.activeitem.json": 2,
               "gravitongun.activeitem.json": 1,
               "gravitonpistol.activeitem.json": 1,
+              "gravitonpistolunique.activeitem.json": 0,
               "hellfiregun.activeitem.json": 1,
               "ionrifle.activeitem.json": 2,
               "irradiumrifle.activeitem.json": 2,
@@ -1008,7 +1014,7 @@
                   "chargepistol.activeitem.json": 2
                 },
                 "imperius": {
-                  "chargemachinegun.activeitem.json": 2
+                  "shared_chargemachinegun.json": 2
                 },
                 "irradiumpistol": {
                   "irradiumpistol.activeitem.json": 2
@@ -1038,6 +1044,7 @@
                   "isn_irradiator.activeitem.json": 2
                 },
                 "isn_flintlock": {
+                  "fugoldengun.activeitem.json": 0,
                   "isn_flintlock.activeitem.json": 2
                 },
                 "microwavegun": {
@@ -2254,6 +2261,7 @@
             "shared_feedaugment.json": 1
           },
           "mobility": {
+            "fuglideaugment.augment.json": 0,
             "fumobility1.augment.json": 2,
             "fumobility2.augment.json": 2,
             "fumobility3.augment.json": 2,
@@ -3759,6 +3767,9 @@
         "nanoswarm": {
           "nanoswarm.monstertype.json": 0
         },
+        "ocumera": {
+          "ocumera.monstertype.json": 0
+        },
         "pteropodish": {
           "cryopod": {
             "cryopod.monstertype.json": 0
@@ -3815,6 +3826,9 @@
         },
         "squidbeast": {
           "squidbeast.monstertype.json": 0
+        },
+        "tentaclespawnerish": {
+          "tentaclespawner2.monstertype.json": 0
         }
       },
       "fuheckblob": {
@@ -4320,6 +4334,11 @@
         },
         "wormmass": {
           "wormmass.monstertype.json": 2
+        },
+        "yokatish": {
+          "shadowyokat": {
+            "shadowyokat.monstertype.json": 0
+          }
         },
         "zombot": {
           "zombot.monstertype.json": 2
@@ -6688,6 +6707,7 @@
     "quests": {
       "alienjungle.questtemplate.json": 0,
       "ancienttemple.questtemplate.json": 0,
+      "avianhydro.questtemplate.json": 0,
       "base": {
         "create_advxeno.questtemplate.json": 4,
         "create_aichip.questtemplate.json": 4,

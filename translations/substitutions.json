@@ -252,6 +252,15 @@
     "/description": "texts/codex/elder/shared_book.codex.json",
     "/title": "texts/codex/elder/shared_book.codex.json"
   },
+  "codex/missions/extraavianhydro1.codex": {
+    "/description": "texts/codex/missions/shared_extraavianhydro.json"
+  },
+  "codex/missions/extraavianhydro2.codex": {
+    "/description": "texts/codex/missions/shared_extraavianhydro.json"
+  },
+  "codex/missions/extraavianhydro3.codex": {
+    "/description": "texts/codex/missions/shared_extraavianhydro.json"
+  },
   "dialog/greg.config": {
     "/accuse/default/default/0": "texts/wide_spread_fields.json",
     "/accuse/default/default/4": "texts/wide_spread_fields.json",
@@ -380,6 +389,12 @@
     "/maxDamageTitleLabel/value": "texts/interface/itemdescriptions/shared_.itemdescription.json",
     "/priceLabel/value": "texts/wide_spread_fields.json"
   },
+  "interface/itemdescriptions/gun2.itemdescription": {
+    "/damagePerShotTitleLabel/value": "texts/interface.json",
+    "/energyPerShotTitleLabel/value": "texts/interface/shared_gun2..json",
+    "/priceLabel/value": "texts/wide_spread_fields.json",
+    "/speedTitleLabel/value": "texts/interface/shared_gun2..json"
+  },
   "interface/itemdescriptions/magnorb.itemdescription": {
     "/critBonusTitleLabel/value": "texts/interface.json",
     "/critChanceTitleLabel/value": "texts/interface.json",
@@ -430,7 +445,7 @@
     "/critChanceTitleLabel/value": "texts/interface.json",
     "/forceTitleLabel/value": "texts/interface/shared_boomerang..json",
     "/knockbackTitleLabel/value": "texts/interface.json",
-    "/maxDamageTitleLabel/value": "texts/interface/tooltips/shared_.tooltip.json",
+    "/maxDamageTitleLabel/value": "texts/interface.json",
     "/priceLabel/value": "texts/wide_spread_fields.json"
   },
   "interface/tooltips/chakram.tooltip": {
@@ -438,13 +453,19 @@
     "/critChanceTitleLabel/value": "texts/interface.json",
     "/distanceTitleLabel/value": "texts/interface/shared_chakram..json",
     "/knockbackTitleLabel/value": "texts/interface.json",
-    "/maxDamageTitleLabel/value": "texts/interface/tooltips/shared_.tooltip.json",
+    "/maxDamageTitleLabel/value": "texts/interface.json",
     "/priceLabel/value": "texts/wide_spread_fields.json"
+  },
+  "interface/tooltips/gun2.tooltip": {
+    "/damagePerShotTitleLabel/value": "texts/interface.json",
+    "/energyPerShotTitleLabel/value": "texts/interface/shared_gun2..json",
+    "/priceLabel/value": "texts/wide_spread_fields.json",
+    "/speedTitleLabel/value": "texts/interface/shared_gun2..json"
   },
   "interface/tooltips/magnorb.tooltip": {
     "/critBonusTitleLabel/value": "texts/interface.json",
     "/critChanceTitleLabel/value": "texts/interface.json",
-    "/maxDamageTitleLabel/value": "texts/interface/tooltips/shared_.tooltip.json",
+    "/maxDamageTitleLabel/value": "texts/interface.json",
     "/priceLabel/value": "texts/wide_spread_fields.json",
     "/shieldHealthTitleLabel/value": "texts/interface.json",
     "/shieldPowerTitleLabel/value": "texts/interface/shared_magnorb..json"
@@ -855,15 +876,9 @@
   "items/active/weapons/melee/spear/advalloyspear.activeitem": {
     "/description": "texts/items/active/weapons/melee/spear/shared_spear.activeitem.json"
   },
-  "items/active/weapons/melee/spear/banespear.activeitem": {
-    "/shortdescription": "texts/items/active/weapons/melee/spear/shared_.activeitem.json"
-  },
   "items/active/weapons/melee/spear/carbonspear.activeitem": {
     "/description": "texts/items/active/weapons/melee/spear/shared_spear.activeitem.json",
     "/shortdescription": "texts/items/active/weapons/melee/spear/shared_spear.activeitem.json"
-  },
-  "items/active/weapons/melee/spear/cultiststaffmelee.activeitem": {
-    "/shortdescription": "texts/items/active/weapons/melee/spear/shared_.activeitem.json"
   },
   "items/active/weapons/melee/spear/effigiumspear.activeitem": {
     "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
@@ -1055,6 +1070,9 @@
   "items/active/weapons/ranged/unique/gravitonpistol.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
   },
+  "items/active/weapons/ranged/unique/gravitonpistolunique.activeitem": {
+    "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
+  },
   "items/active/weapons/ranged/unique/hellfirecannon.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_n.activeitem.json",
     "/shortdescription": "texts/items/active/weapons/shared_hellfire.json"
@@ -1084,6 +1102,14 @@
   "items/active/weapons/ranged/unique/npclongarm.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json",
     "/shortdescription": "texts/items/active/weapons/ranged/unique/shared_longarm.activeitem.json"
+  },
+  "items/active/weapons/ranged/unique/peglaci/imperius/chargemachinegun.activeitem": {
+    "/description": "texts/items/active/weapons/ranged/unique/peglaci/imperius/shared_chargemachinegun.json",
+    "/shortdescription": "texts/items/active/weapons/ranged/unique/peglaci/imperius/shared_chargemachinegun.json"
+  },
+  "items/active/weapons/ranged/unique/peglaci/imperius/chargemachinegunnpc.activeitem": {
+    "/description": "texts/items/active/weapons/ranged/unique/peglaci/imperius/shared_chargemachinegun.json",
+    "/shortdescription": "texts/items/active/weapons/ranged/unique/peglaci/imperius/shared_chargemachinegun.json"
   },
   "items/active/weapons/ranged/unique/science/flamecannon/isn_flamethrower4.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/science/shared_.activeitem.json"
@@ -9401,6 +9427,18 @@
     "/novakidDescription": "texts/objects/questmaps/shared_map.object.json",
     "/shortdescription": "texts/objects/questmaps/shared_map.object.json"
   },
+  "objects/questmaps/avianhydromap.object": {
+    "/apexDescription": "texts/objects/questmaps/shared_map.object.json",
+    "/avianDescription": "texts/objects/questmaps/shared_map.object.json",
+    "/description": "texts/objects/questmaps/shared_map.object.json",
+    "/floranDescription": "texts/objects/questmaps/shared_map.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/questmaps/shared_map.object.json",
+    "/humanDescription": "texts/objects/questmaps/shared_map.object.json",
+    "/hylotlDescription": "texts/objects/questmaps/shared_map.object.json",
+    "/novakidDescription": "texts/objects/questmaps/shared_map.object.json",
+    "/shortdescription": "texts/objects/questmaps/shared_map.object.json"
+  },
   "objects/questmaps/evernightmap.object": {
     "/apexDescription": "texts/objects/questmaps/shared_map.object.json",
     "/avianDescription": "texts/objects/questmaps/shared_map.object.json",
@@ -9558,6 +9596,18 @@
     "/shortdescription": "texts/objects/questturnins.json"
   },
   "objects/questturnins/ancienttempleturnin.object": {
+    "/apexDescription": "texts/objects/questturnins.json",
+    "/avianDescription": "texts/objects/questturnins.json",
+    "/description": "texts/objects/questturnins.json",
+    "/floranDescription": "texts/objects/questturnins.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/questturnins.json",
+    "/humanDescription": "texts/objects/questturnins.json",
+    "/hylotlDescription": "texts/objects/questturnins.json",
+    "/novakidDescription": "texts/objects/questturnins.json",
+    "/shortdescription": "texts/objects/questturnins.json"
+  },
+  "objects/questturnins/avianhydroturnin.object": {
     "/apexDescription": "texts/objects/questturnins.json",
     "/avianDescription": "texts/objects/questturnins.json",
     "/description": "texts/objects/questturnins.json",
@@ -11531,6 +11581,9 @@
   },
   "stats/effects/beesting/fubeesting4.statuseffect": {
     "/label": "texts/stats/effects/beesting/shared_.statuseffect.json"
+  },
+  "stats/effects/camouflage/camouflage05.statuseffect": {
+    "/label": "texts/stats/effects/camouflage/shared_.statuseffect.json"
   },
   "stats/effects/camouflage/camouflage55.statuseffect": {
     "/label": "texts/stats/effects/camouflage/shared_.statuseffect.json"
