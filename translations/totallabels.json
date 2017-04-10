@@ -360,7 +360,7 @@
       },
       "shared_boomerang..json": 1,
       "shared_chakram..json": 1,
-      "shared_gun2..json": 2,
+      "shared_gun2..json": 3,
       "shared_magnorb..json": 1,
       "shared_shieldnew..json": 4,
       "tooltips": {
@@ -475,14 +475,18 @@
             "fusuperrewardbag.activeitem.json": 2
           },
           "oredetector": {
+            "shared_cavedetector.json": 1,
             "shared_oredetector.json": 1,
             "t1": {
+              "cavedetector1.activeitem.json": 1,
               "oredetector1.activeitem.json": 1
             },
             "t2": {
+              "cavedetector2.activeitem.json": 1,
               "oredetector2.activeitem.json": 1
             },
             "t3": {
+              "cavedetector3.activeitem.json": 1,
               "oredetector3.activeitem.json": 1
             },
             "t3Khe": {
@@ -882,7 +886,7 @@
               },
               "biogun.activeitem.json": 2,
               "biopistol.activeitem.json": 2,
-              "blistergun.activeitem.json": 2,
+              "blistergun.activeitem.json": 1,
               "blisterpistol.activeitem.json": 1,
               "crystalgun.activeitem.json": 2,
               "densiniumrifle.activeitem.json": 2,
@@ -890,7 +894,7 @@
               "elderpistol.activeitem.json": 2,
               "elderrepeater.activeitem.json": 2,
               "elderripper.activeitem.json": 2,
-              "energyassault.activeitem.json": 1,
+              "energyassault.activeitem.json": 2,
               "eyecannon.activeitem.json": 2,
               "ff_bubblegun.activeitem.json": 2,
               "ff_icechucker.activeitem.json": 2,
@@ -903,33 +907,35 @@
                 "liquidpoisongun.activeitem.json": 2
               },
               "fucellgun.activeitem.json": 2,
-              "fuforcegun.activeitem.json": 1,
+              "fuforcegun.activeitem.json": 2,
               "fugaussmachinegun.activeitem.json": 1,
-              "fugausspistol.activeitem.json": 2,
+              "fugausspistol.activeitem.json": 1,
               "fugaussrifle.activeitem.json": 1,
               "fuhuntingrifle.activeitem.json": 2,
-              "fuplasmacannon.activeitem.json": 2,
-              "fuplasmagun.activeitem.json": 2,
+              "fuplasmacannon.activeitem.json": 1,
+              "fuplasmagun.activeitem.json": 1,
               "furainbowgun.activeitem.json": 2,
               "fusteampunkgun.activeitem.json": 2,
-              "fustingergun.activeitem.json": 1,
+              "fustingergun.activeitem.json": 2,
               "fustingergun2.activeitem.json": 2,
               "fuvaporizer.activeitem.json": 2,
               "goregun.activeitem.json": 2,
               "gravgun.activeitem.json": 2,
               "gravitongun.activeitem.json": 1,
               "gravitonpistol.activeitem.json": 1,
-              "gravitonpistolunique.activeitem.json": 1,
-              "hellfiregun.activeitem.json": 1,
+              "gravitonpistolunique.activeitem.json": 2,
+              "hellfirecannon.activeitem.json": 1,
+              "hellfiregun.activeitem.json": 2,
               "ionrifle.activeitem.json": 2,
               "irradiumrifle.activeitem.json": 2,
               "isn_magmavulcan.activeitem.json": 2,
               "k3rifle.activeitem.json": 2,
               "laspistol.activeitem.json": 2,
               "lasrifle.activeitem.json": 2,
-              "longarmpistol.activeitem.json": 1,
+              "longarm.activeitem.json": 1,
+              "longarmpistol.activeitem.json": 2,
               "lunaripistol.activeitem.json": 1,
-              "lunaririfle.activeitem.json": 2,
+              "lunaririfle.activeitem.json": 1,
               "mechgun.activeitem.json": 2,
               "mechpistol.activeitem.json": 2,
               "mineralcannon.activeitem.json": 2,
@@ -938,7 +944,7 @@
               "mineralpistol.activeitem.json": 2,
               "miners": {
                 "basicminer": {
-                  "basicminer.activeitem.json": 1
+                  "basicminer.activeitem.json": 2
                 },
                 "hybridminer": {
                   "hybridminer.activeitem.json": 2
@@ -968,8 +974,9 @@
               "murdermanipulator2.activeitem.json": 1,
               "mushroomgun.activeitem.json": 2,
               "napalmcannon.activeitem.json": 2,
-              "nitrogengun.activeitem.json": 2,
-              "nitrogenpistol.activeitem.json": 2,
+              "nitrogengun.activeitem.json": 1,
+              "nitrogenpistol.activeitem.json": 1,
+              "npclongarm.activeitem.json": 1,
               "peglaci": {
                 "burstgun": {
                   "chargeshotgun.activeitem.json": 2
@@ -1014,7 +1021,9 @@
                   "chargepistol.activeitem.json": 2
                 },
                 "imperius": {
-                  "shared_chargemachinegun.json": 2
+                  "chargemachinegun.activeitem.json": 1,
+                  "chargemachinegunnpc.activeitem.json": 1,
+                  "shared_chargemachinegun.json": 1
                 },
                 "irradiumpistol": {
                   "irradiumpistol.activeitem.json": 2
@@ -1035,7 +1044,10 @@
                   "isn_annihilator.activeitem.json": 2
                 },
                 "flamecannon": {
-                  "isn_flamethrower4.activeitem.json": 1
+                  "isn_flamethrower4.activeitem.json": 2
+                },
+                "flamepistol": {
+                  "isn_flamethrower.activeitem.json": 1
                 },
                 "fusioncannon": {
                   "isn_fusioncannon.activeitem.json": 2
@@ -1051,17 +1063,13 @@
                   "isn_microwaveray.activeitem.json": 2
                 },
                 "napalmsprayer": {
-                  "isn_napalmsprayer.activeitem.json": 1
+                  "isn_napalmsprayer.activeitem.json": 2
                 },
                 "plasmabeam": {
                   "isn_plasmabeam.activeitem.json": 2
                 },
                 "plasmapistol": {
-                  "isn_plasmapistol.activeitem.json": 1
-                },
-                "shared_.activeitem.json": 1,
-                "shared_pistol": {
-                  "shared_.activeitem.json": 1
+                  "isn_plasmapistol.activeitem.json": 2
                 },
                 "sunstream": {
                   "isn_sunstream.activeitem.json": 2
@@ -1070,22 +1078,22 @@
                   "isn_terawattlaser.activeitem.json": 2
                 }
               },
-              "shared_.activeitem.json": 6,
+              "shared_.activeitem.json": 5,
               "shared_longarm.activeitem.json": 1,
               "shared_murdermanipulator.json": 1,
               "shared_n.activeitem.json": 1,
               "shoggothgun.activeitem.json": 2,
               "slimelauncher.activeitem.json": 2,
               "spawngun.activeitem.json": 2,
-              "swarmgun.activeitem.json": 1,
-              "swarmgun2.activeitem.json": 1,
+              "swarmgun.activeitem.json": 2,
+              "swarmgun2.activeitem.json": 2,
               "tentabane.activeitem.json": 2,
               "teslagun.activeitem.json": 2,
               "theblackmarket": {
                 "armcannon": {
                   "armcannon.activeitem.json": 2,
                   "armcannonbroken.activeitem.json": 2,
-                  "armcannonexplosive.activeitem.json": 1,
+                  "armcannonexplosive.activeitem.json": 2,
                   "armcannonfire.activeitem.json": 2,
                   "armcannonice.activeitem.json": 2,
                   "armcannonproto.activeitem.json": 2,
@@ -1096,7 +1104,7 @@
                 },
                 "razorneedler": {
                   "razorneedler.activeitem.json": 2,
-                  "scorchneedler.activeitem.json": 1,
+                  "scorchneedler.activeitem.json": 2,
                   "shockneedler.activeitem.json": 2,
                   "toxicneedler.activeitem.json": 2
                 },
@@ -1108,16 +1116,14 @@
                   "railgun": {
                     "mobiusrailgun.activeitem.json": 2
                   }
-                },
-                "shared_.activeitem.json": 1
+                }
               },
               "thornrifle.activeitem.json": 2,
               "thornslinger.activeitem.json": 2,
               "vashtagun.activeitem.json": 2,
               "verdantcarbine.activeitem.json": 2,
               "verdantrailgun.activeitem.json": 2
-            },
-            "unique.json": 1
+            }
           },
           "shared_grenadelauncher.json": 1,
           "shared_hellfire.json": 1,
@@ -4272,6 +4278,11 @@
           },
           "slimemagma": {
             "magmaslime.monstertype.json": 2
+          }
+        },
+        "smoglinish": {
+          "rimeling": {
+            "rimeling.monstertype.json": 2
           }
         },
         "snauntish": {

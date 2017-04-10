@@ -390,8 +390,11 @@
     "/priceLabel/value": "texts/wide_spread_fields.json"
   },
   "interface/itemdescriptions/gun2.itemdescription": {
+    "/critBonusTitleLabel/value": "texts/interface.json",
+    "/critChanceTitleLabel/value": "texts/interface.json",
     "/damagePerShotTitleLabel/value": "texts/interface.json",
     "/energyPerShotTitleLabel/value": "texts/interface/shared_gun2..json",
+    "/levelTitleLabel/value": "texts/interface/shared_gun2..json",
     "/priceLabel/value": "texts/wide_spread_fields.json",
     "/speedTitleLabel/value": "texts/interface/shared_gun2..json"
   },
@@ -457,8 +460,11 @@
     "/priceLabel/value": "texts/wide_spread_fields.json"
   },
   "interface/tooltips/gun2.tooltip": {
+    "/critBonusTitleLabel/value": "texts/interface.json",
+    "/critChanceTitleLabel/value": "texts/interface.json",
     "/damagePerShotTitleLabel/value": "texts/interface.json",
     "/energyPerShotTitleLabel/value": "texts/interface/shared_gun2..json",
+    "/levelTitleLabel/value": "texts/interface/shared_gun2..json",
     "/priceLabel/value": "texts/wide_spread_fields.json",
     "/speedTitleLabel/value": "texts/interface/shared_gun2..json"
   },
@@ -756,11 +762,20 @@
   "items/active/shields/tungstenshield.activeitem": {
     "/description": "texts/items/active/shields/shared_shield.activeitem.json"
   },
+  "items/active/unsorted/oredetector/t1/cavedetector1.activeitem": {
+    "/description": "texts/items/active/unsorted/oredetector/shared_cavedetector.json"
+  },
   "items/active/unsorted/oredetector/t1/oredetector1.activeitem": {
     "/description": "texts/items/active/unsorted/oredetector/shared_oredetector.json"
   },
+  "items/active/unsorted/oredetector/t2/cavedetector2.activeitem": {
+    "/description": "texts/items/active/unsorted/oredetector/shared_cavedetector.json"
+  },
   "items/active/unsorted/oredetector/t2/oredetector2.activeitem": {
     "/description": "texts/items/active/unsorted/oredetector/shared_oredetector.json"
+  },
+  "items/active/unsorted/oredetector/t3/cavedetector3.activeitem": {
+    "/description": "texts/items/active/unsorted/oredetector/shared_cavedetector.json"
   },
   "items/active/unsorted/oredetector/t3/oredetector3.activeitem": {
     "/description": "texts/items/active/unsorted/oredetector/shared_oredetector.json"
@@ -1046,23 +1061,26 @@
   "items/active/weapons/ranged/sniperrifle/swtjc_ewg_uncommonbeamrifle.activeitem": {
     "/description": "texts/items/active/weapons/shared_rifle.json"
   },
+  "items/active/weapons/ranged/unique/blistergun.activeitem": {
+    "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
+  },
   "items/active/weapons/ranged/unique/blisterpistol.activeitem": {
-    "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
-  },
-  "items/active/weapons/ranged/unique/energyassault.activeitem": {
-    "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
-  },
-  "items/active/weapons/ranged/unique/fuforcegun.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
   },
   "items/active/weapons/ranged/unique/fugaussmachinegun.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
   },
+  "items/active/weapons/ranged/unique/fugausspistol.activeitem": {
+    "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
+  },
   "items/active/weapons/ranged/unique/fugaussrifle.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
   },
-  "items/active/weapons/ranged/unique/fustingergun.activeitem": {
-    "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
+  "items/active/weapons/ranged/unique/fuplasmacannon.activeitem": {
+    "/description": "texts/items/active/weapons/ranged/unique/shared_n.activeitem.json"
+  },
+  "items/active/weapons/ranged/unique/fuplasmagun.activeitem": {
+    "/description": "texts/items/active/weapons/ranged/unique/shared_n.activeitem.json"
   },
   "items/active/weapons/ranged/unique/gravitongun.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
@@ -1070,28 +1088,17 @@
   "items/active/weapons/ranged/unique/gravitonpistol.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
   },
-  "items/active/weapons/ranged/unique/gravitonpistolunique.activeitem": {
-    "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
-  },
   "items/active/weapons/ranged/unique/hellfirecannon.activeitem": {
-    "/description": "texts/items/active/weapons/ranged/unique/shared_n.activeitem.json",
     "/shortdescription": "texts/items/active/weapons/shared_hellfire.json"
   },
-  "items/active/weapons/ranged/unique/hellfiregun.activeitem": {
-    "/description": "texts/items/active/weapons/ranged/unique/shared_n.activeitem.json"
-  },
   "items/active/weapons/ranged/unique/longarm.activeitem": {
-    "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json",
     "/shortdescription": "texts/items/active/weapons/ranged/unique/shared_longarm.activeitem.json"
   },
-  "items/active/weapons/ranged/unique/longarmpistol.activeitem": {
+  "items/active/weapons/ranged/unique/lunaripistol.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
   },
-  "items/active/weapons/ranged/unique/lunaripistol.activeitem": {
-    "/description": "texts/items/active/weapons/ranged/unique.json"
-  },
-  "items/active/weapons/ranged/unique/miners/basicminer/basicminer.activeitem": {
-    "/description": "texts/items/active/weapons/ranged/unique.json"
+  "items/active/weapons/ranged/unique/lunaririfle.activeitem": {
+    "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
   },
   "items/active/weapons/ranged/unique/murdermanipulator.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_murdermanipulator.json"
@@ -1099,42 +1106,23 @@
   "items/active/weapons/ranged/unique/murdermanipulator2.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_murdermanipulator.json"
   },
+  "items/active/weapons/ranged/unique/nitrogengun.activeitem": {
+    "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
+  },
+  "items/active/weapons/ranged/unique/nitrogenpistol.activeitem": {
+    "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
+  },
   "items/active/weapons/ranged/unique/npclongarm.activeitem": {
-    "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json",
     "/shortdescription": "texts/items/active/weapons/ranged/unique/shared_longarm.activeitem.json"
   },
   "items/active/weapons/ranged/unique/peglaci/imperius/chargemachinegun.activeitem": {
-    "/description": "texts/items/active/weapons/ranged/unique/peglaci/imperius/shared_chargemachinegun.json",
     "/shortdescription": "texts/items/active/weapons/ranged/unique/peglaci/imperius/shared_chargemachinegun.json"
   },
   "items/active/weapons/ranged/unique/peglaci/imperius/chargemachinegunnpc.activeitem": {
-    "/description": "texts/items/active/weapons/ranged/unique/peglaci/imperius/shared_chargemachinegun.json",
     "/shortdescription": "texts/items/active/weapons/ranged/unique/peglaci/imperius/shared_chargemachinegun.json"
   },
-  "items/active/weapons/ranged/unique/science/flamecannon/isn_flamethrower4.activeitem": {
-    "/description": "texts/items/active/weapons/ranged/unique/science/shared_.activeitem.json"
-  },
   "items/active/weapons/ranged/unique/science/flamepistol/isn_flamethrower.activeitem": {
-    "/description": "texts/items/active/weapons/ranged/unique/science/shared_pistol/shared_.activeitem.json",
     "/shortdescription": "texts/wide_spread_fields.json"
-  },
-  "items/active/weapons/ranged/unique/science/napalmsprayer/isn_napalmsprayer.activeitem": {
-    "/description": "texts/items/active/weapons/ranged/unique/science/shared_.activeitem.json"
-  },
-  "items/active/weapons/ranged/unique/science/plasmapistol/isn_plasmapistol.activeitem": {
-    "/description": "texts/items/active/weapons/ranged/unique/science/shared_pistol/shared_.activeitem.json"
-  },
-  "items/active/weapons/ranged/unique/swarmgun.activeitem": {
-    "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
-  },
-  "items/active/weapons/ranged/unique/swarmgun2.activeitem": {
-    "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
-  },
-  "items/active/weapons/ranged/unique/theblackmarket/armcannon/armcannonexplosive.activeitem": {
-    "/description": "texts/items/active/weapons/ranged/unique/theblackmarket/shared_.activeitem.json"
-  },
-  "items/active/weapons/ranged/unique/theblackmarket/razorneedler/scorchneedler.activeitem": {
-    "/description": "texts/items/active/weapons/ranged/unique/theblackmarket/shared_.activeitem.json"
   },
   "items/active/weapons/staff/cultiststaff/cultiststaff1.activeitem": {
     "/description": "texts/items/active/weapons/staff/shared_staff/shared_.activeitem.json"
