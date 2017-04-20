@@ -252,6 +252,18 @@
     "/description": "texts/codex/elder/shared_book.codex.json",
     "/title": "texts/codex/elder/shared_book.codex.json"
   },
+  "codex/legacy_codex/fuavianafterlife.codex": {
+    "/description": "texts/codex/legacy_codex/shared_fuavian.json"
+  },
+  "codex/legacy_codex/fuavianburials.codex": {
+    "/description": "texts/codex/legacy_codex/shared_fuavian.json"
+  },
+  "codex/legacy_codex/fuaviantombkeeper.codex": {
+    "/description": "texts/codex/legacy_codex/shared_fuaviant.json"
+  },
+  "codex/legacy_codex/fuaviantraditions.codex": {
+    "/description": "texts/codex/legacy_codex/shared_fuaviant.json"
+  },
   "codex/missions/extraavianhydro1.codex": {
     "/description": "texts/codex/missions/shared_extraavianhydro.json"
   },
@@ -361,7 +373,11 @@
     "/gui/dragDrop/value": "texts/wide_spread_fields.json"
   },
   "interface/chests/genechest128.config": {
+    "/gui/clear/caption": "texts/shared_con.json",
     "/gui/dragDrop/value": "texts/wide_spread_fields.json"
+  },
+  "interface/chests/voidchest200.config": {
+    "/gui/clear/caption": "texts/shared_con.json"
   },
   "interface/extractor/elderaltar.config": {
     "/gui/count/value": "texts/interface.json",
@@ -490,7 +506,6 @@
     "/paneLayout/btnStopCraft/caption": "texts/interface/windowconfig/shared_.config.json",
     "/paneLayout/filter/hint": "texts/wide_spread_fields.json",
     "/paneLayout/lblProduct/value": "texts/wide_spread_fields.json",
-    "/paneLayout/lblProducttitle/value": "texts/interface/windowconfig/shared_.config.json",
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value": "texts/wide_spread_fields.json"
   },
@@ -1126,6 +1141,14 @@
   },
   "items/active/weapons/ranged/unique/science/flamepistol/isn_flamethrower.activeitem": {
     "/shortdescription": "texts/wide_spread_fields.json"
+  },
+  "items/active/weapons/ranged/unique/theblackmarket/sentryguns/mobiusrifle.activeitem": {
+    "/description": "texts/items/active/weapons/ranged/unique/theblackmarket/sentryguns/shared_mobiusrifle.json",
+    "/shortdescription": "texts/items/active/weapons/ranged/unique/theblackmarket/sentryguns/shared_mobiusrifle.json"
+  },
+  "items/active/weapons/ranged/unique/theblackmarket/sentryguns/mobiusrifle2.activeitem": {
+    "/description": "texts/items/active/weapons/ranged/unique/theblackmarket/sentryguns/shared_mobiusrifle.json",
+    "/shortdescription": "texts/items/active/weapons/ranged/unique/theblackmarket/sentryguns/shared_mobiusrifle.json"
   },
   "items/active/weapons/staff/cultiststaff/cultiststaff1.activeitem": {
     "/description": "texts/items/active/weapons/staff/shared_staff/shared_.activeitem.json"
@@ -2533,6 +2556,9 @@
   "items/generic/produce/blisterbushplantfood.consumable": {
     "/description": "texts/items/generic/produce/shared_.consumable.json"
   },
+  "items/generic/produce/bolbohn.consumable": {
+    "/description": "texts/items/generic/produce/shared_.consumable.json"
+  },
   "items/generic/produce/erithianalgae.item": {
     "/shortdescription": "texts/shared_erithianalgae.json"
   },
@@ -2542,7 +2568,7 @@
   "items/generic/produce/fusnowberry.consumable": {
     "/shortdescription": "texts/shared_fusnowberry.json"
   },
-  "items/generic/produce/garpberry.consumable": {
+  "items/generic/produce/gemglow.consumable": {
     "/description": "texts/items/generic/produce/shared_.consumable.json"
   },
   "items/generic/produce/genesiberry.consumable": {
@@ -2560,13 +2586,16 @@
   "items/generic/produce/onion.consumable": {
     "/shortdescription": "texts/shared_onion.json"
   },
-  "items/generic/produce/pasaka.consumable": {
-    "/description": "texts/items/generic/produce/shared_.consumable.json"
-  },
   "items/generic/produce/pekkit.consumable": {
     "/shortdescription": "texts/shared_pekkit.json"
   },
+  "items/generic/produce/shadowroot.consumable": {
+    "/description": "texts/items/generic/produce/shared_.consumable.json"
+  },
   "items/generic/produce/stranglevineroot.consumable": {
+    "/description": "texts/items/generic/produce/shared_.consumable.json"
+  },
+  "items/generic/produce/sweetscoop.consumable": {
     "/description": "texts/items/generic/produce/shared_.consumable.json"
   },
   "items/generic/produce/tearnut.consumable": {
@@ -3431,14 +3460,18 @@
     "/description": "texts/monsters/farming/shared_baby/shared_baby.monstertype.json",
     "/shortdescription": "texts/monsters/farming/shared_baby/shared_baby.monstertype.json"
   },
+  "monsters/flyers/eyejellies/eyejelly/eyejelly.monstertype": {
+    "/shortdescription": "texts/monsters/flyers/eyejellies/shared_eyejelly/shared_.monstertype.json"
+  },
   "monsters/flyers/eyejellies/eyejellykingspawn/eyejellykingspawn.monstertype": {
-    "/description": "texts/monsters/flyers/eyejellies/shared_kingspawn/shared_kingspawn.monstertype.json"
+    "/shortdescription": "texts/monsters/flyers/eyejellies/shared_eyejelly/shared_.monstertype.json"
   },
   "monsters/flyers/eyejellies/eyeslime/eyeslime.monstertype": {
-    "/description": "texts/monsters/shared_eyejell/shared_eye.json"
+    "/description": "texts/monsters/shared_eyejell/shared_eye.json",
+    "/shortdescription": "texts/monsters/flyers/eyejellies/shared_eyeslime/shared_.monstertype.json"
   },
   "monsters/flyers/eyejellies/eyeslimekingspawn/eyeslimekingspawn.monstertype": {
-    "/description": "texts/monsters/flyers/eyejellies/shared_kingspawn/shared_kingspawn.monstertype.json"
+    "/shortdescription": "texts/monsters/flyers/eyejellies/shared_eyeslime/shared_.monstertype.json"
   },
   "monsters/flyers/fleshreaper/fleshreaper.monstertype": {
     "/description": "texts/monsters/flyers/shared_fleshreaper/shared_fleshreaper.json",
@@ -4227,7 +4260,6 @@
     "/scriptConfig/dialog/crewmember/unfollow/penguin/default/3": "texts/npcs/crew/shared_crewmember.json"
   },
   "npcs/crew/crewmembercultist.npctype": {
-    "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/combatBenefit/default/default/2": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3": "texts/npcs/crew/shared_crewmember.json",
@@ -4801,7 +4833,6 @@
     "/scriptConfig/dialog/crewmember/roleDescription/default/default/0": "texts/npcs/crew/shared_crewmember.json"
   },
   "npcs/crew/crewmemberstealth.npctype": {
-    "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/combatBenefit/default/default/2": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3": "texts/npcs/crew/shared_crewmember.json",
@@ -5501,10 +5532,19 @@
     "/scriptConfig/dialog/attack/default/default/5": "texts/npcs/volcanobase/shared_volcanobase.json"
   },
   "objects/ItemGenerator/ItemGenerator.config": {
-    "/gui/scanButton/caption": "texts/objects/shared_Item/shared_r.config.json"
+    "/gui/scanButton/caption": "texts/objects/shared_Item/shared_.config.json"
   },
   "objects/ItemScanner/ItemScanner.config": {
-    "/gui/scanButton/caption": "texts/objects/shared_Item/shared_r.config.json"
+    "/gui/scanButton/caption": "texts/objects/shared_Item/shared_.config.json"
+  },
+  "objects/ItemScanner/ItemScanner.object": {
+    "/description": "texts/objects/ItemScanner/shared_ItemScanner.json"
+  },
+  "objects/ItemScanner/ItemScannerTransferLib.config": {
+    "/gui/scanButton/caption": "texts/objects/shared_Item/shared_.config.json"
+  },
+  "objects/ItemScanner/ItemScannerTransferLib.object": {
+    "/description": "texts/objects/ItemScanner/shared_ItemScanner.json"
   },
   "objects/augmentextractor/aex.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -9266,13 +9306,13 @@
     "/subtitle": "texts/objects/power/shared_centrifuge/shared_centrifuge.json"
   },
   "objects/power/fu_liquidcondenser/fu_liquidcondenser.config": {
-    "/gui/clear/caption": "texts/objects/power/shared_condenser/shared_condenser.config.json"
+    "/gui/clear/caption": "texts/shared_con.json"
   },
   "objects/power/fu_quantumgenerator/fu_quantumgenerator.config": {
     "/gui/count/value": "texts/objects/shared_generator/shared_generator.config.json"
   },
   "objects/power/isn_atmoscondenser/isn_atmoscondenser.config": {
-    "/gui/clear/caption": "texts/objects/power/shared_condenser/shared_condenser.config.json"
+    "/gui/clear/caption": "texts/shared_con.json"
   },
   "objects/power/isn_atmoscondenser/isn_atmoscondenser.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -12718,7 +12758,6 @@
     "/shortdescription": "texts/tiles/materials/honey/shared_frozenwaxblock.mat.json"
   },
   "tiles/materials/honey/frozenwaxplatform.material": {
-    "/description": "texts/tiles/materials/honey/shared_waxplatform.material.json",
     "/shortdescription": "texts/tiles/materials/honey/shared_frozenwaxplatform.mat.json"
   },
   "tiles/materials/honey/frozenwaxplatform.matitem": {
@@ -12817,9 +12856,6 @@
     "/description": "texts/tiles/materials/honey/shared_redwaxblock.mat.json",
     "/shortdescription": "texts/tiles/materials/honey/shared_redwaxblock.mat.json"
   },
-  "tiles/materials/honey/redwaxplatform.material": {
-    "/description": "texts/tiles/materials/honey/shared_waxplatform.material.json"
-  },
   "tiles/materials/honey/waxblock1.material": {
     "/description": "texts/tiles/materials/honey/shared_waxblock1.mat.json",
     "/shortdescription": "texts/tiles/materials/honey/shared_waxblock1.mat.json"
@@ -12829,7 +12865,6 @@
     "/shortdescription": "texts/tiles/materials/honey/shared_waxblock1.mat.json"
   },
   "tiles/materials/honey/waxplatform.material": {
-    "/description": "texts/tiles/materials/honey/shared_waxplatform.material.json",
     "/shortdescription": "texts/tiles/materials/honey/shared_waxplatform.mat.json"
   },
   "tiles/materials/honey/waxplatform.matitem": {
@@ -12840,9 +12875,6 @@
   },
   "tiles/materials/honey/whitewaxblock.matitem": {
     "/description": "texts/tiles/materials/honey/shared_whitewaxblock.mat.json"
-  },
-  "tiles/materials/honey/whitewaxplatform.material": {
-    "/description": "texts/tiles/materials/honey/shared_waxplatform.material.json"
   },
   "tiles/materials/honeycombmaterial.material": {
     "/description": "texts/tiles/materials/shared_honeycombmaterial.material.json",
