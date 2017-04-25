@@ -43,6 +43,7 @@
       "shared__detached": {
         "shared_hellhive.json": 1
       },
+      "shared_shadow.json": 1,
       "shared_surface": {
         "shared_.biome.json": 1
       },
@@ -83,7 +84,6 @@
         "irradiated.biome.json": 1,
         "lightless.biome.json": 1,
         "magmadark.biome.json": 1,
-        "moon_shadow.biome.json": 1,
         "nitrogensea.biome.json": 1,
         "nitrogenseafloor.biome.json": 1,
         "penumbra.biome.json": 1,
@@ -234,11 +234,11 @@
         "ffshadow.biome.json": 1,
         "ffspidernest.biome.json": 1,
         "ffsupermatter.biome.json": 1,
-        "fftarpit.biome.json": 1,
         "ffvolcanic.biome.json": 1,
         "furuinsunderground.biome.json": 1,
         "futentacleunderground.biome.json": 1,
         "shared_.biome.json": 1,
+        "shared_fftarpit.json": 1,
         "shared_metalworksunderground.json": 1
       }
     },
@@ -939,7 +939,9 @@
               "fugaussmachinegun.activeitem.json": 1,
               "fugausspistol.activeitem.json": 1,
               "fugaussrifle.activeitem.json": 1,
-              "fuhuntingrifle.activeitem.json": 2,
+              "fuhuntingrifle.activeitem.json": 1,
+              "fuhuntingrifle2.activeitem.json": 0,
+              "fuhuntingrifle3.activeitem.json": 0,
               "fuplasmacannon.activeitem.json": 1,
               "fuplasmagun.activeitem.json": 1,
               "furainbowgun.activeitem.json": 2,
@@ -952,7 +954,7 @@
               "gravitongun.activeitem.json": 1,
               "gravitonpistol.activeitem.json": 1,
               "gravitonpistolunique.activeitem.json": 2,
-              "hellfirecannon.activeitem.json": 1,
+              "hellfirecannon.activeitem.json": 2,
               "hellfiregun.activeitem.json": 2,
               "ionrifle.activeitem.json": 2,
               "irradiumrifle.activeitem.json": 2,
@@ -1107,6 +1109,7 @@
                 }
               },
               "shared_.activeitem.json": 5,
+              "shared_fuhuntingrifle.json": 1,
               "shared_longarm.activeitem.json": 1,
               "shared_murdermanipulator.json": 1,
               "shared_n.activeitem.json": 1,
@@ -1154,7 +1157,6 @@
             }
           },
           "shared_grenadelauncher.json": 1,
-          "shared_hellfire.json": 1,
           "shared_machine.json": 1,
           "shared_pistol.json": 1,
           "shared_rifle.json": 3,
@@ -2776,6 +2778,7 @@
         "crafting.json": 1,
         "desserts": {
           "applehoneystraw.consumable.json": 2,
+          "fuchocolatebar.consumable.json": 0,
           "grapehoneystraw.consumable.json": 2,
           "honeystraw.consumable.json": 2,
           "neonhoneystraw.consumable.json": 2,
@@ -2938,7 +2941,7 @@
             "kramilspine.consumable.json": 2,
             "quellstembud.consumable.json": 2,
             "victorleafbud.consumable.json": 2,
-            "whitespineshell.consumable.json": 2
+            "whitespineshell.consumable.json": 1
           },
           "itahead.consumable.json": 2,
           "jillyroot.consumable.json": 1,
@@ -3165,6 +3168,7 @@
         "shared_unrefined.json": 1,
         "shojilattice.matitem.json": 2,
         "shroomblockglow.matitem.json": 1,
+        "shroomblockmaterial.matitem.json": 0,
         "slime2material.matitem.json": 1,
         "slimedirtmaterial.matitem.json": 1,
         "speedblockmaterial.matitem.json": 1,
@@ -3384,6 +3388,7 @@
       "shared_sand.mat.json": 1,
       "shared_sandpillar.json": 2,
       "shared_sandstone.json": 3,
+      "shared_shroomblock.json": 0,
       "shared_slimedirt.json": 1,
       "shared_speedblock.json": 1,
       "shared_steelhive.json": 2,
@@ -4345,6 +4350,9 @@
           "snaunt2": {
             "snaunt2.monstertype.json": 0
           }
+        },
+        "spheresnaketest": {
+          "shared_spheresnaketest.json": 0
         },
         "spheretest": {
           "spheretest.monstertype.json": 0
@@ -5581,6 +5589,7 @@
           "fu_harvestTurret.object.json": 1,
           "fu_harvestTurret2.object.json": 1,
           "fu_harvestTurret3.object.json": 1,
+          "fu_harvestTurretBugs.object.json": 0,
           "shared_fu_harvestTurret.json": 2
         },
         "kheAA_containerLink": {
@@ -6107,7 +6116,7 @@
           "fu_solararrayscienceoutpost.object.json": 2
         },
         "fu_upgrade": {
-          "fu_upgrade.object.json": 2
+          "fu_upgrade.object.json": 0
         },
         "fu_windarray": {
           "isn_windarray.object.json": 2
@@ -7894,6 +7903,7 @@
         "shared_slimedirt.material.json": 1,
         "shared_wall.json": 1,
         "shroomblockglow.material.json": 1,
+        "shroomblockwall.material.json": 0,
         "slime2.material.json": 1,
         "speedblock.material.json": 1,
         "springvines.material.json": 4,

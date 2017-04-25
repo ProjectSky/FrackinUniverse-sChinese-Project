@@ -35,6 +35,9 @@
   "biomes/surface/moon_desert.biome": {
     "/friendlyName": "texts/biomes/surface/shared_.biome.json"
   },
+  "biomes/surface/moon_shadow.biome": {
+    "/friendlyName": "texts/biomes/shared_shadow.json"
+  },
   "biomes/surface/moon_stone.biome": {
     "/friendlyName": "texts/biomes/surface/shared_.biome.json"
   },
@@ -173,8 +176,17 @@
   "biomes/underground_detached/ffhiveunderground.biome": {
     "/friendlyName": "texts/wide_spread_fields.json"
   },
+  "biomes/underground_detached/ffshadowmoon.biome": {
+    "/friendlyName": "texts/biomes/shared_shadow.json"
+  },
   "biomes/underground_detached/ffsilvermine.biome": {
     "/friendlyName": "texts/biomes/underground_detached/shared_.biome.json"
+  },
+  "biomes/underground_detached/fftarpit.biome": {
+    "/friendlyName": "texts/biomes/underground_detached/shared_fftarpit.json"
+  },
+  "biomes/underground_detached/fftarpitmoon.biome": {
+    "/friendlyName": "texts/biomes/underground_detached/shared_fftarpit.json"
   },
   "biomes/underground_detached/ffzen.biome": {
     "/friendlyName": "texts/biomes/underground_detached/shared_.biome.json"
@@ -189,6 +201,9 @@
     "/friendlyName": "texts/biomes/underground_detached/shared_metalworksunderground.json"
   },
   "biomes/underground_detached/metalworksunderground4.biome": {
+    "/friendlyName": "texts/biomes/underground_detached/shared_metalworksunderground.json"
+  },
+  "biomes/underground_detached/metalworksundergroundmoon.biome": {
     "/friendlyName": "texts/biomes/underground_detached/shared_metalworksunderground.json"
   },
   "codex/documents/ffguide.codex": {
@@ -972,9 +987,6 @@
   "items/active/weapons/npc/swtjc_ewg_npcsubmachinegun.activeitem": {
     "/description": "texts/items/active/weapons/shared_machine.json"
   },
-  "items/active/weapons/other/magnorbs/magnorbhellfire/magnorbhellfire.activeitem": {
-    "/shortdescription": "texts/items/active/weapons/shared_hellfire.json"
-  },
   "items/active/weapons/ranged/assaultrifle/swtjc_ewg_commonbattlerifle.activeitem": {
     "/description": "texts/items/active/weapons/shared_rifle.json"
   },
@@ -1098,6 +1110,15 @@
   "items/active/weapons/ranged/unique/fugaussrifle.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
   },
+  "items/active/weapons/ranged/unique/fuhuntingrifle.activeitem": {
+    "/description": "texts/items/active/weapons/ranged/unique/shared_fuhuntingrifle.json"
+  },
+  "items/active/weapons/ranged/unique/fuhuntingrifle2.activeitem": {
+    "/description": "texts/items/active/weapons/ranged/unique/shared_fuhuntingrifle.json"
+  },
+  "items/active/weapons/ranged/unique/fuhuntingrifle3.activeitem": {
+    "/description": "texts/items/active/weapons/ranged/unique/shared_fuhuntingrifle.json"
+  },
   "items/active/weapons/ranged/unique/fuplasmacannon.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_n.activeitem.json"
   },
@@ -1109,9 +1130,6 @@
   },
   "items/active/weapons/ranged/unique/gravitonpistol.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
-  },
-  "items/active/weapons/ranged/unique/hellfirecannon.activeitem": {
-    "/shortdescription": "texts/items/active/weapons/shared_hellfire.json"
   },
   "items/active/weapons/ranged/unique/longarm.activeitem": {
     "/shortdescription": "texts/items/active/weapons/ranged/unique/shared_longarm.activeitem.json"
@@ -3232,6 +3250,9 @@
   "items/materials/shroomblockglow.matitem": {
     "/shortdescription": "texts/shared_shroom.json"
   },
+  "items/materials/shroomblockmaterial.matitem": {
+    "/shortdescription": "texts/materials/shared_shroomblock.json"
+  },
   "items/materials/slime2material.matitem": {
     "/description": "texts/materials/shared_material.json",
     "/florandescription": "texts/materials/shared_material.json",
@@ -3872,6 +3893,14 @@
   "monsters/walkers/slimes/slimetar/tarslime.monstertype": {
     "/description": "texts/monsters/walkers/slimes/shared_slime/shared_slime.json",
     "/shortdescription": "texts/monsters/walkers/slimes/shared_slime/shared_slime.json"
+  },
+  "monsters/walkers/spheresnaketest/spheresnaketesthead.monstertype": {
+    "/description": "texts/monsters/shared_ers.json",
+    "/shortdescription": "texts/monsters/walkers/spheresnaketest/shared_spheresnaketest.json"
+  },
+  "monsters/walkers/spheresnaketest/spheresnaketestsegment.monstertype": {
+    "/description": "texts/monsters/shared_ers.json",
+    "/shortdescription": "texts/monsters/walkers/spheresnaketest/shared_spheresnaketest.json"
   },
   "monsters/walkers/spheretest/spheretest.monstertype": {
     "/description": "texts/monsters/shared_ers.json"
@@ -8367,6 +8396,9 @@
     "/description": "texts/objects/kheAA/kheAA_autoBeamer/shared_fu_harvestTurret.json",
     "/subtitle": "texts/objects/kheAA/kheAA_autoBeamer/shared_fu_harvestTurret.json"
   },
+  "objects/kheAA/kheAA_autoBeamer/fu_harvestTurretBugs.object": {
+    "/subtitle": "texts/objects/kheAA/kheAA_autoBeamer/shared_fu_harvestTurret.json"
+  },
   "objects/mines/poisonmine.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/mines/poisonmine.object.json"
@@ -9381,7 +9413,6 @@
     "/paneLayout/lblProducttitle/value": "texts/objects/power/isn_radiostation/configs/shared_vendor.config.json",
     "/paneLayout/lblSchematics/value": "texts/objects/power/isn_radiostation/configs/shared_vendor.config.json",
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
-    "/paneLayout/scrollArea/children/itemList/schema/listTemplate/level/value": "texts/wide_spread_fields.json",
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value": "texts/wide_spread_fields.json",
     "/tooltip/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json"
   },
@@ -9391,7 +9422,6 @@
     "/paneLayout/lblProducttitle/value": "texts/objects/power/isn_radiostation/configs/shared_vendor.config.json",
     "/paneLayout/lblSchematics/value": "texts/objects/power/isn_radiostation/configs/shared_vendor.config.json",
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
-    "/paneLayout/scrollArea/children/itemList/schema/listTemplate/level/value": "texts/wide_spread_fields.json",
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value": "texts/wide_spread_fields.json",
     "/tooltip/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json"
   },
@@ -9401,7 +9431,6 @@
     "/paneLayout/lblProducttitle/value": "texts/objects/power/isn_radiostation/configs/shared_vendor.config.json",
     "/paneLayout/lblSchematics/value": "texts/objects/power/isn_radiostation/configs/shared_vendor.config.json",
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
-    "/paneLayout/scrollArea/children/itemList/schema/listTemplate/level/value": "texts/wide_spread_fields.json",
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value": "texts/wide_spread_fields.json",
     "/tooltip/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json"
   },
@@ -13203,6 +13232,9 @@
   },
   "tiles/materials/shroomblockglow.material": {
     "/shortdescription": "texts/shared_shroom.json"
+  },
+  "tiles/materials/shroomblockwall.material": {
+    "/shortdescription": "texts/materials/shared_shroomblock.json"
   },
   "tiles/materials/slime2.material": {
     "/description": "texts/materials/shared_material.json",
