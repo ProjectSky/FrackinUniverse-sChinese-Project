@@ -595,6 +595,7 @@
             },
             "broadsword": {
               "advalloybroadsword.activeitem.json": 2,
+              "aetheriumbroadsword.activeitem.json": 0,
               "coraldullblade.activeitem.json": 1,
               "coralstinger.activeitem.json": 2,
               "coralsword.activeitem.json": 2,
@@ -4545,15 +4546,6 @@
     },
     "npcs.json": 2,
     "objects": {
-      "ItemGenerator": {
-        "ItemGenerator.config.json": 1,
-        "ItemGenerator.object.json": 2
-      },
-      "ItemScanner": {
-        "ItemScanner.object.json": 1,
-        "ItemScannerTransferLib.object.json": 1,
-        "shared_ItemScanner.json": 1
-      },
       "augmentextractor": {
         "aex.object.json": 10
       },
@@ -4908,6 +4900,20 @@
         },
         "xenostationadvnew": {
           "xenostationadvnew.object.json": 2
+        }
+      },
+      "devtools": {
+        "ItemGenerator": {
+          "ItemGenerator.config.json": 0,
+          "ItemGenerator.object.json": 0
+        },
+        "ItemScanner": {
+          "ItemScanner.object.json": 0,
+          "ItemScannerTransferLib.object.json": 0,
+          "shared_ItemScanner.json": 0
+        },
+        "shared_Item": {
+          "shared_.config.json": 0
         }
       },
       "dispensers": {
@@ -6285,9 +6291,6 @@
         }
       },
       "shared_.object.json": 1,
-      "shared_Item": {
-        "shared_.config.json": 1
-      },
       "shared_avali.json": 7,
       "shared_generator": {
         "shared_generator.config.json": 1
