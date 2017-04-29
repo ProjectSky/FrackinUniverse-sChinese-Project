@@ -1646,7 +1646,7 @@
             "cultcrown.head.json": 2
           },
           "dweller": {
-            "hooded.chest.json": 2,
+            "hooded.chest.json": 1,
             "hooded.head.json": 1,
             "hooded.legs.json": 1,
             "shared_hooded..json": 1
@@ -1688,7 +1688,7 @@
             "shared_fuintrepid..json": 1
           },
           "fujunker": {
-            "fujunker.chest.json": 2,
+            "fujunker.chest.json": 1,
             "fujunker.head.json": 1,
             "fujunker.legs.json": 1,
             "shared_fujunker..json": 1
@@ -1824,7 +1824,7 @@
             "shared_enforcerarmor..json": 1
           },
           "fieldscience": {
-            "fieldscientist.chest.json": 2,
+            "fieldscientist.chest.json": 1,
             "fieldscientist.head.json": 1,
             "fieldscientist.legs.json": 1,
             "fieldscientisthead2.head.json": 2,
@@ -2135,7 +2135,7 @@
             "shared_furecon3..json": 1
           },
           "fusunwalker": {
-            "fusunwalker.chest.json": 2,
+            "fusunwalker.chest.json": 1,
             "fusunwalker.head.json": 1,
             "fusunwalker.legs.json": 1,
             "shared_fusunwalker..json": 1
@@ -3138,6 +3138,12 @@
         "penumbradirtmaterial.matitem.json": 2,
         "penumbrastonematerial.matitem.json": 2,
         "penumbriteblock.matitem.json": 2,
+        "precursorchain.matitem.json": 0,
+        "precursordecorative.matitem.json": 0,
+        "precursordetail.matitem.json": 0,
+        "precursorgirdir.matitem.json": 0,
+        "precursorglasswall.matitem.json": 0,
+        "precursorpillar.matitem.json": 0,
         "protoblock.matitem.json": 2,
         "protorockmaterial.matitem.json": 1,
         "raincloudmat.matitem.json": 2,
@@ -3368,6 +3374,9 @@
       "shared_material.json": 12,
       "shared_peglaci.json": 15,
       "shared_precursor.json": 1,
+      "shared_precursorchain.mat.json": 0,
+      "shared_precursorfloor.mat.json": 0,
+      "shared_precursorpillar.mat.json": 0,
       "shared_protorock.json": 1,
       "shared_purpleconsole.json": 2,
       "shared_pykrete.json": 9,
@@ -6039,6 +6048,17 @@
         "penum": {
           "penumbrachest.object.json": 2
         },
+        "precursor": {
+          "precursorchest": {
+            "precursorchest.object.json": 0
+          },
+          "precursordoor": {
+            "precursordoor.object.json": 0
+          },
+          "precursorlight": {
+            "precursorlight.object.json": 0
+          }
+        },
         "proto": {
           "protochest.object.json": 2
         },
@@ -7895,6 +7915,12 @@
           "shared_fuokeamagmabrick.mat.json": 2,
           "shared_fuokeamagmastone.mat.json": 2
         },
+        "precursorchain.material.json": 0,
+        "precursordecorative.material.json": 0,
+        "precursordetail.material.json": 0,
+        "precursorgirdir.material.json": 0,
+        "precursorglasswall.material.json": 0,
+        "precursorpillar.material.json": 0,
         "protoblock.material.json": 2,
         "protorock.material.json": 1,
         "purplecrystal.material.json": 2,
@@ -7924,7 +7950,7 @@
         "shared_elderstone.json": 1,
         "shared_fumossyrock.json": 1,
         "shared_honeycombmaterial.material.json": 1,
-        "shared_l.material.json": 1,
+        "shared_precursor.json": 1,
         "shared_retexrock1.json": 3,
         "shared_sand.material.json": 1,
         "shared_sand2.material.json": 1,
@@ -7970,6 +7996,7 @@
       },
       "materials.json": 3,
       "mods": {
+        "algaeore.matmod.json": 1,
         "avalitilled.matmod.json": 1,
         "berlinite.matmod.json": 1,
         "biotilled.matmod.json": 1,
@@ -7993,6 +8020,7 @@
         "greenslimegrass.matmod.json": 1,
         "irradium.matmod.json": 1,
         "isogen.matmod.json": 1,
+        "junkmod.matmod.json": 0,
         "lazulite.matmod.json": 1,
         "lunariore.matmod.json": 1,
         "magnesium.matmod.json": 1,
@@ -8009,7 +8037,6 @@
         "quietus.matmod.json": 1,
         "rainbowgrass.matmod.json": 1,
         "redsand.matmod.json": 1,
-        "shared_.matmod.json": 1,
         "shared_fualiengrass.json": 1,
         "shared_grass.matmod.json": 1,
         "shared_hydrotilled.json": 1,
