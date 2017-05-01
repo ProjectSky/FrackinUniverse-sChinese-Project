@@ -295,6 +295,8 @@
         "fuapexplea.codex.json": 4,
         "fuavianafterlife.codex.json": 2,
         "fuavianburials.codex.json": 4,
+        "fuavianchildrenofkluex.codex.json": 3,
+        "fuavianclippedcouncil.codex.json": 4,
         "fuavianhistory.codex.json": 5,
         "fuaviannotes.codex.json": 4,
         "fuavianorigins.codex.json": 4,
@@ -303,6 +305,26 @@
         "fubunkerbook.codex.json": 6,
         "fubunkerbusters.codex.json": 4,
         "fubunkerhumans.codex.json": 4,
+        "fubunkerlog1.codex.json": 2,
+        "fubunkerlog2.codex.json": 3,
+        "fubunkerlog3.codex.json": 3,
+        "fubunkerlog4.codex.json": 2,
+        "fubunkerlog5.codex.json": 3,
+        "fubunkerlog6.codex.json": 2,
+        "fubunkerlog7.codex.json": 3,
+        "fubunkerlog8.codex.json": 4,
+        "fucastle1.codex.json": 3,
+        "fucastle10.codex.json": 3,
+        "fucastle11.codex.json": 3,
+        "fucastle12.codex.json": 3,
+        "fucastle2.codex.json": 3,
+        "fucastle3.codex.json": 3,
+        "fucastle4.codex.json": 3,
+        "fucastle5.codex.json": 3,
+        "fucastle6.codex.json": 3,
+        "fucastle7.codex.json": 3,
+        "fucastle8.codex.json": 4,
+        "fucastle9.codex.json": 3,
         "shared_fuavian.json": 1,
         "shared_fuaviant.json": 1
       },
@@ -360,7 +382,6 @@
           "kheAA_toolforgegui.config.json": 3
         },
         "shared_kheAA_": {
-          "shared_Gui.config.json": 1,
           "shared_ui.config.json": 1
         }
       },
@@ -1528,7 +1549,7 @@
             "wolf.legs.json": 2
           },
           "ff_slimearmor": {
-            "ff_slimearmor.chest.json": 2,
+            "ff_slimearmor.chest.json": 1,
             "ff_slimearmor.head.json": 1,
             "ff_slimearmor.legs.json": 1,
             "shared_ff_slimearmor..json": 1
@@ -1554,7 +1575,7 @@
           "lunariarmor": {
             "lunari.chest.json": 1,
             "lunari.head.json": 1,
-            "lunari.legs.json": 2,
+            "lunari.legs.json": 1,
             "shared_lunari..json": 1
           },
           "mantiziroyalguard": {
@@ -1637,7 +1658,7 @@
             "shared_chitin..json": 1
           },
           "corsair": {
-            "kirhostier3.chest.json": 2,
+            "kirhostier3.chest.json": 1,
             "kirhostier3.head.json": 1,
             "kirhostier3.legs.json": 1,
             "shared_kirhostier3..json": 1
@@ -1684,7 +1705,7 @@
           "fuintrepid": {
             "fuintrepid.chest.json": 1,
             "fuintrepid.head.json": 1,
-            "fuintrepid.legs.json": 2,
+            "fuintrepid.legs.json": 1,
             "shared_fuintrepid..json": 1
           },
           "fujunker": {
@@ -1769,9 +1790,10 @@
             "shared_fusteampunk..json": 2
           },
           "wanderer": {
-            "fupioneer.chest.json": 2,
-            "fupioneer.head.json": 2,
-            "fupioneer.legs.json": 2
+            "fupioneer.chest.json": 1,
+            "fupioneer.head.json": 1,
+            "fupioneer.legs.json": 1,
+            "shared_fupioneer..json": 1
           }
         },
         "tier4": {
@@ -1887,7 +1909,7 @@
           "fustarkiller": {
             "fustarkiller.chest.json": 1,
             "fustarkiller.head.json": 1,
-            "fustarkiller.legs.json": 2,
+            "fustarkiller.legs.json": 1,
             "shared_fustarkiller..json": 1
           },
           "ghostweave": {
@@ -2010,9 +2032,10 @@
             "shared_fudiver3..json": 1
           },
           "fugoldenknight": {
-            "fugoldenchest.chest.json": 2,
-            "fugoldenhead.head.json": 2,
-            "fugoldenlegs.legs.json": 2
+            "fugoldenchest.chest.json": 1,
+            "fugoldenhead.head.json": 1,
+            "fugoldenlegs.legs.json": 1,
+            "shared_fugolden.json": 1
           },
           "fuprecursor": {
             "fuprecursor.chest.json": 1,
@@ -2135,7 +2158,7 @@
             "shared_furecon3..json": 1
           },
           "fusunwalker": {
-            "fusunwalker.chest.json": 2,
+            "fusunwalker.chest.json": 1,
             "fusunwalker.head.json": 1,
             "fusunwalker.legs.json": 1,
             "shared_fusunwalker..json": 1
@@ -2200,7 +2223,7 @@
         "tier8": {
           "shoggoth": {
             "shared_shoggoth..json": 1,
-            "shoggoth.chest.json": 1,
+            "shoggoth.chest.json": 2,
             "shoggoth.head.json": 1,
             "shoggoth.legs.json": 1
           }
@@ -4025,7 +4048,7 @@
         "burrowers": {
           "dirtburrower": {
             "dirtburrower.monstertype.json": 1,
-            "dirtburrowersegment.monstertype.json": 2
+            "shared_dirtburrower.json": 2
           }
         },
         "distortionsnakes": {
@@ -6738,6 +6761,9 @@
           "shared_grass": {
             "shared_grass.bush.json": 2
           },
+          "shared_swamp": {
+            "shared_swamp.json": 2
+          },
           "shared_thorns": {
             "shared_thorns.json": 2
           },
@@ -6746,9 +6772,6 @@
           },
           "slimebush": {
             "gelatinousbush.bush.json": 1
-          },
-          "swampplant": {
-            "swampplant.bush.json": 2
           }
         },
         "shared_rainforestplant": {
