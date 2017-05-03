@@ -242,6 +242,11 @@
         "shared_metalworksunderground.json": 1
       }
     },
+    "cinematics": {
+      "respawn": {
+        "respawnhardcore.cinematic.json": 0
+      }
+    },
     "codex": {
       "documents": {
         "ffguide.codex.json": 23,
@@ -336,6 +341,19 @@
         "extraavianhydro2.codex.json": 1,
         "extraavianhydro3.codex.json": 0,
         "shared_extraavianhydro.json": 1
+      },
+      "precursor": {
+        "precursor1.codex.json": 0,
+        "precursor10.codex.json": 0,
+        "precursor2.codex.json": 0,
+        "precursor3.codex.json": 0,
+        "precursor4.codex.json": 0,
+        "precursor5.codex.json": 0,
+        "precursor6.codex.json": 0,
+        "precursor7.codex.json": 0,
+        "precursor8.codex.json": 0,
+        "precursor9.codex.json": 0,
+        "shared_precursor.json": 0
       },
       "shoggothdungeon": {
         "elder_research1.codex.json": 8,
@@ -1043,7 +1061,7 @@
                   "chargemachinegun.activeitem.json": 2
                 },
                 "freezecannon": {
-                  "fufreezecannon.activeitem.json": 2
+                  "fufreezecannon.activeitem.json": 1
                 },
                 "frostcannonarm": {
                   "frostcannonarm.activeitem.json": 2
@@ -1055,25 +1073,25 @@
                   "fucloudgun.activeitem.json": 2
                 },
                 "fuenergyblaster": {
-                  "fuenergyblaster.activeitem.json": 2
+                  "fuenergyblaster.activeitem.json": 1
                 },
                 "fuenergymachinegun": {
-                  "fuenergymachinegun.activeitem.json": 2
+                  "fuenergymachinegun.activeitem.json": 1
                 },
                 "fuminelayer": {
-                  "fuminelayer.activeitem.json": 2
+                  "fuminelayer.activeitem.json": 1
                 },
                 "furailgun": {
-                  "furailgun.activeitem.json": 2
+                  "furailgun.activeitem.json": 1
                 },
                 "fushocklance": {
-                  "fushocklance.activeitem.json": 2
+                  "fushocklance.activeitem.json": 1
                 },
                 "glacialpistol": {
                   "chargepistol.activeitem.json": 2
                 },
                 "imperius": {
-                  "chargemachinegun.activeitem.json": 1,
+                  "chargemachinegun.activeitem.json": 0,
                   "chargemachinegunnpc.activeitem.json": 1,
                   "shared_chargemachinegun.json": 1
                 },
@@ -1081,7 +1099,7 @@
                   "irradiumpistol.activeitem.json": 2
                 },
                 "irradiumshotgun": {
-                  "irradiumshotgun.activeitem.json": 2
+                  "irradiumshotgun.activeitem.json": 1
                 },
                 "splittergun": {
                   "splittergun.activeitem.json": 2
@@ -4046,9 +4064,9 @@
       },
       "segmented": {
         "burrowers": {
-          "dirtburrower": {
-            "dirtburrower.monstertype.json": 0,
-            "shared_dirtburrower.json": 0
+          "shared_burrower": {
+            "shared_.monstertype.json": 0,
+            "shared_burrower.monstertype.json": 0
           }
         },
         "distortionsnakes": {
@@ -6081,11 +6099,20 @@
           "precursorchest": {
             "precursorchest.object.json": 2
           },
+          "precursorcorner": {
+            "precursorcorner.object.json": 0
+          },
           "precursordoor": {
             "precursordoor.object.json": 2
           },
+          "precursordoor2": {
+            "precursordoor2.object.json": 0
+          },
           "precursorlight": {
             "precursorlight.object.json": 2
+          },
+          "precursorswitch": {
+            "precursorswitch.object.json": 0
           }
         },
         "proto": {
@@ -7067,6 +7094,7 @@
           "longjump.questtemplate.json": 2,
           "longjump2.questtemplate.json": 1,
           "longjump3.questtemplate.json": 1,
+          "longjump4.questtemplate.json": 0,
           "quadjump.questtemplate.json": 3,
           "quintjump.questtemplate.json": 2,
           "rocketboots.questtemplate.json": 2,
@@ -7144,6 +7172,11 @@
       },
       "sentrybotlightbot": {
         "sentrybotlightbot.object.json": 2
+      },
+      "sentrybotmining": {
+        "sentrybotcraft.object.json": 0,
+        "sentrybotcraft2.object.json": 0,
+        "sentrybotcraft3.object.json": 0
       },
       "sentrybotshieldbot": {
         "sentrybotshieldbot.object.json": 2
@@ -7244,6 +7277,8 @@
             "corsairsetbonuseffect.statuseffect.json": 1,
             "cultistsetbonuseffect.statuseffect.json": 1,
             "darkmattersetbonuseffect.statuseffect.json": 1,
+            "decimatorsetbonuseffect.statuseffect.json": 0,
+            "deckersetbonuseffect.statuseffect.json": 1,
             "densiniumsetbonuseffect.statuseffect.json": 1,
             "diamondsetbonuseffect.statuseffect.json": 1,
             "dwellersetbonuseffect.statuseffect.json": 1,
@@ -7305,7 +7340,6 @@
             "scoutsetbonuseffect.statuseffect.json": 1,
             "sentrysetbonuseffect.statuseffect.json": 1,
             "shadowbonesetbonuseffect.statuseffect.json": 1,
-            "shared_rsetbonuseffect.statuseffect.json": 1,
             "shared_setbonuseffect.statuseffect.json": 2,
             "shared_slimesetbonuseffect.json": 1,
             "shieldedsetbonuseffect.statuseffect.json": 1,
@@ -7750,7 +7784,8 @@
         "fuwalljump3.item.json": 1,
         "longjump.item.json": 2,
         "longjump2.item.json": 2,
-        "longjump3.item.json": 2,
+        "longjump3.item.json": 1,
+        "longjump4.item.json": 0,
         "phaseattack.item.json": 2,
         "physicsfield.item.json": 2,
         "physicsfield2.item.json": 2,
@@ -7759,6 +7794,7 @@
         "quintjump.item.json": 2,
         "rocketboots.item.json": 2,
         "shared_fuwalljump.json": 1,
+        "shared_longjump.json": 1,
         "speedboots.item.json": 2,
         "speedboots2.item.json": 2,
         "speedboots3.item.json": 2,
