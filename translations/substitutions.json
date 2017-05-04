@@ -353,6 +353,9 @@
   "codex/elder/elderbladebook.codex": {
     "/description": "texts/codex/elder/shared_book.codex.json"
   },
+  "codex/elder/elderbowbook.codex": {
+    "/description": "texts/codex/elder/shared_book.codex.json"
+  },
   "codex/elder/eldercarbinebook.codex": {
     "/description": "texts/codex/elder/shared_book.codex.json"
   },
@@ -967,6 +970,12 @@
   },
   "items/active/vehiclecontroller/fusubcontroller4.activeitem": {
     "/description": "texts/items/active/vehiclecontroller/shared_fusubcontroller.json"
+  },
+  "items/active/weapons/bow/prismaticbow/prismaticbow.activeitem": {
+    "/altAbility/name": "texts/items/active/weapons/bow/shared_bow/shared_bow.activeitem.json"
+  },
+  "items/active/weapons/bow/xithricitebow/xithricitebow.activeitem": {
+    "/altAbility/name": "texts/items/active/weapons/bow/shared_bow/shared_bow.activeitem.json"
   },
   "items/active/weapons/melee/axe/bountyaxe.activeitem": {
     "/description": "texts/items/active/weapons/melee/axe/shared_axe.activeitem.json"
@@ -2522,6 +2531,9 @@
   "items/armors/tier7/warangel/warangel.legs": {
     "/description": "texts/items/armors/tier7/warangel/shared_warangel..json"
   },
+  "items/armors/tier8/shoggoth/shoggoth.chest": {
+    "/description": "texts/items/armors/tier8/shoggoth/shared_shoggoth..json"
+  },
   "items/armors/tier8/shoggoth/shoggoth.head": {
     "/description": "texts/items/armors/tier8/shoggoth/shared_shoggoth..json"
   },
@@ -3904,6 +3916,18 @@
     "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json",
     "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json"
   },
+  "monsters/segmented/burrowers/direstoneburrower/direstoneburrower.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_burrower.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_burrower.monstertype.json"
+  },
+  "monsters/segmented/burrowers/direstoneburrower/direstoneburrowersegment.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json"
+  },
+  "monsters/segmented/burrowers/direstoneburrower/direstoneburrowertail.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json"
+  },
   "monsters/segmented/burrowers/dirtburrower/dirtburrower.monstertype": {
     "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_burrower.monstertype.json",
     "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_burrower.monstertype.json"
@@ -3913,6 +3937,66 @@
     "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json"
   },
   "monsters/segmented/burrowers/dirtburrower/dirtburrowertail.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json"
+  },
+  "monsters/segmented/burrowers/goldburrower/goldburrower.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_burrower.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_burrower.monstertype.json"
+  },
+  "monsters/segmented/burrowers/goldburrower/goldburrowersegment.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json"
+  },
+  "monsters/segmented/burrowers/goldburrower/goldburrowertail.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json"
+  },
+  "monsters/segmented/burrowers/ironburrower/ironburrower.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_burrower.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_burrower.monstertype.json"
+  },
+  "monsters/segmented/burrowers/ironburrower/ironburrowersegment.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json"
+  },
+  "monsters/segmented/burrowers/ironburrower/ironburrowertail.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json"
+  },
+  "monsters/segmented/burrowers/leadburrower/leadburrower.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_burrower.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_burrower.monstertype.json"
+  },
+  "monsters/segmented/burrowers/leadburrower/leadburrowertail.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json"
+  },
+  "monsters/segmented/burrowers/leadburrower/leadburrowesegment.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json"
+  },
+  "monsters/segmented/burrowers/mascagniteburrower/mascagniteburrower.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_burrower.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_burrower.monstertype.json"
+  },
+  "monsters/segmented/burrowers/mascagniteburrower/mascagniteburrowersegment.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json"
+  },
+  "monsters/segmented/burrowers/mascagniteburrower/mascagniteburrowertail.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json"
+  },
+  "monsters/segmented/burrowers/silverburrower/silverburrower.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_burrower.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_burrower.monstertype.json"
+  },
+  "monsters/segmented/burrowers/silverburrower/silverburrowersegment.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json"
+  },
+  "monsters/segmented/burrowers/silverburrower/silverburrowertail.monstertype": {
     "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json",
     "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json"
   },
@@ -3928,20 +4012,36 @@
     "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json",
     "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json"
   },
-  "monsters/segmented/distortionsnakes/aquasnake/aquasnake.monstertype": {
-    "/description": "texts/monsters/segmented/distortionsnakes/aquasnake/shared_.monstertype.json"
+  "monsters/segmented/burrowers/sulphurburrower/sulphuburrowersegment.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json"
   },
-  "monsters/segmented/distortionsnakes/aquasnake/aquasnakesegment.monstertype": {
-    "/description": "texts/monsters/segmented/distortionsnakes/aquasnake/shared_.monstertype.json"
+  "monsters/segmented/burrowers/sulphurburrower/sulphurburrower.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_burrower.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_burrower.monstertype.json"
+  },
+  "monsters/segmented/burrowers/sulphurburrower/sulphurburrowertail.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json"
   },
   "monsters/segmented/distortionsnakes/spheresnake/spheresnake.monstertype": {
-    "/description": "texts/monsters/segmented/distortionsnakes/shared_esnake/shared_.monstertype.json"
+    "/description": "texts/monsters/segmented/distortionsnakes/shared_spheresnake/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/distortionsnakes/shared_spheresnake/shared_.monstertype.json"
   },
   "monsters/segmented/distortionsnakes/spheresnake/spheresnakesegment.monstertype": {
-    "/description": "texts/monsters/segmented/distortionsnakes/shared_esnake/shared_.monstertype.json"
+    "/description": "texts/monsters/segmented/distortionsnakes/shared_esnake/shared_esnakesegment.json",
+    "/shortdescription": "texts/monsters/segmented/distortionsnakes/shared_spheresnake/shared_spheresnakesegment.json"
+  },
+  "monsters/segmented/distortionsnakes/spheresnake2/spheresnake2.monstertype": {
+    "/description": "texts/monsters/segmented/distortionsnakes/shared_spheresnake/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/distortionsnakes/shared_spheresnake/shared_.monstertype.json"
+  },
+  "monsters/segmented/distortionsnakes/spheresnake2/spheresnakesegment2.monstertype": {
+    "/description": "texts/monsters/segmented/distortionsnakes/shared_esnake/shared_esnakesegment.json",
+    "/shortdescription": "texts/monsters/segmented/distortionsnakes/shared_spheresnake/shared_spheresnakesegment.json"
   },
   "monsters/segmented/distortionsnakes/spikesnake/spikesnakesegment.monstertype": {
-    "/description": "texts/monsters/segmented/distortionsnakes/shared_esnake/shared_.monstertype.json"
+    "/description": "texts/monsters/segmented/distortionsnakes/shared_esnake/shared_esnakesegment.json"
   },
   "monsters/skills/crawling/fumechspiderAttack.monsterskill": {
     "/label": "texts/monsters/skills/crawling/shared_ttack.monsterskill.json"

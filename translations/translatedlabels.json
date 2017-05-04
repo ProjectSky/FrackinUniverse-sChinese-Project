@@ -281,6 +281,7 @@
         "cultarmorpants.codex.json": 0,
         "elderarmorbook.codex.json": 0,
         "elderbladebook.codex.json": 0,
+        "elderbowbook.codex.json": 0,
         "eldercarbinebook.codex.json": 0,
         "eldergrapplerbook.codex.json": 0,
         "elderpistolbook.codex.json": 0,
@@ -576,14 +577,38 @@
             "shockarang.activeitem.json": 2
           },
           "bow": {
+            "advalloycrossbow": {
+              "advalloycrossbow.activeitem.json": 0
+            },
+            "aetheriumcrossbow": {
+              "aetheriumcrossbow.activeitem.json": 0
+            },
+            "autocrossbow": {
+              "autocrossbow.activeitem.json": 0
+            },
             "bonebow": {
               "bonebow.activeitem.json": 2
             },
             "carbonbow": {
               "carbonbow.activeitem.json": 2
             },
+            "carnagebow": {
+              "carnagebow.activeitem.json": 0
+            },
+            "corruptionpump": {
+              "corruptionpump.activeitem.json": 0
+            },
+            "elderbow": {
+              "elderbow.activeitem.json": 0
+            },
             "hellfirebow": {
               "hellfirebow.activeitem.json": 2
+            },
+            "irradiumbow": {
+              "irradiumbow.activeitem.json": 0
+            },
+            "lightningcrossbow": {
+              "lightningcrossbow.activeitem.json": 0
             },
             "lunaribow": {
               "lunaribow.activeitem.json": 2
@@ -592,10 +617,25 @@
               "penumbrabow.activeitem.json": 2
             },
             "prismaticbow": {
-              "prismaticbow.activeitem.json": 3
+              "prismaticbow.activeitem.json": 2
             },
             "protobow": {
               "protobow.activeitem.json": 2
+            },
+            "rimewind": {
+              "rimewind.activeitem.json": 0
+            },
+            "shadowstring": {
+              "shadowstring.activeitem.json": 0
+            },
+            "shared_bow": {
+              "shared_bow.activeitem.json": 1
+            },
+            "xithricitebow": {
+              "xithricitebow.activeitem.json": 0
+            },
+            "zerchesiumcrossbow": {
+              "zerchesiumcrossbow.activeitem.json": 0
             }
           },
           "chakram": {
@@ -610,6 +650,7 @@
           "melee": {
             "axe": {
               "advalloyaxe.activeitem.json": 2,
+              "aetheriumaxe.activeitem.json": 0,
               "bountyaxe.activeitem.json": 1,
               "carbonaxe.activeitem.json": 2,
               "deathbringer.activeitem.json": 2,
@@ -665,6 +706,9 @@
                 "negablade.activeitem.json": 2
               },
               "phaseblade.activeitem.json": 2,
+              "precursorblade": {
+                "precursorbroadsword.activeitem.json": 0
+              },
               "pyreitebroadsword.activeitem.json": 2,
               "quietusemperor.activeitem.json": 2,
               "quietusgeneral.activeitem.json": 2,
@@ -678,6 +722,7 @@
             },
             "dagger": {
               "advalloydagger.activeitem.json": 1,
+              "aetheriumdagger.activeitem.json": 0,
               "bloodyknife.activeitem.json": 2,
               "carbondagger.activeitem.json": 1,
               "effigiumdagger.activeitem.json": 1,
@@ -750,6 +795,7 @@
             "shortsword": {
               "advalloykatana.activeitem.json": 1,
               "advalloyshortsword.activeitem.json": 1,
+              "aetheriumshortsword.activeitem.json": 0,
               "boneblade.activeitem.json": 2,
               "carbonblade.activeitem.json": 1,
               "coralsword2.activeitem.json": 2,
@@ -846,6 +892,9 @@
             "angryrocket": {
               "angryrocket.activeitem.json": 3
             },
+            "fuadaptablecrossbow": {
+              "fuadaptablecrossbow.activeitem.json": 0
+            },
             "khetastrophae": {
               "khetastrophae.activeitem.json": 3
             },
@@ -862,6 +911,9 @@
               "magnorblunari": {
                 "magnorblunari.activeitem.json": 2
               },
+              "magnorbmoonstone": {
+                "magnorbmoonstone.activeitem.json": 0
+              },
               "magnorbproto": {
                 "magnorbproto.activeitem.json": 2
               },
@@ -871,6 +923,9 @@
               "magnorbslime": {
                 "magnorbslime.activeitem.json": 2
               }
+            },
+            "precursorpistol": {
+              "precursorpistol.activeitem.json": 0
             },
             "tentaclegun": {
               "shadowtentaclegun.activeitem.json": 3
@@ -4072,19 +4127,18 @@
         "distortionsnakes": {
           "aquasnake": {
             "aquasnake.monstertype.json": 0,
-            "aquasnakesegment.monstertype.json": 0,
-            "shared_.monstertype.json": 0
+            "aquasnakesegment.monstertype.json": 0
           },
           "shared_esnake": {
-            "shared_.monstertype.json": 0
+            "shared_esnakesegment.json": 0
+          },
+          "shared_spheresnake": {
+            "shared_.monstertype.json": 0,
+            "shared_spheresnakesegment.json": 0
           },
           "sonicsnake": {
             "sonicesnakesegment.monstertype.json": 0,
             "sonicsnake.monstertype.json": 0
-          },
-          "spheresnake": {
-            "spheresnake.monstertype.json": 0,
-            "spheresnakesegment.monstertype.json": 0
           },
           "spikesnake": {
             "spikesnake.monstertype.json": 0,
@@ -7231,6 +7285,9 @@
         "electricblock": {
           "shared_electricblock.json": 1
         },
+        "electrified": {
+          "shocked.statuseffect.json": 0
+        },
         "entropicward": {
           "entropicward.statuseffect.json": 1
         },
@@ -7690,6 +7747,7 @@
         },
         "regeneration": {
           "lightregen.statuseffect.json": 1,
+          "precursorregeneration.statuseffect.json": 0,
           "regeneration01.statuseffect.json": 1,
           "regeneration2.statuseffect.json": 1,
           "regeneration3.statuseffect.json": 1,
