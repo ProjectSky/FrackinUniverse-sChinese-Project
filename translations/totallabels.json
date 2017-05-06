@@ -11,6 +11,7 @@
       "lethialabs.aimission.json": 3,
       "magickaforest.aimission.json": 3,
       "pavillion.aimission.json": 3,
+      "penguinhighway.aimission.json": 3,
       "scienceoutpostfu.aimission.json": 2,
       "shoggothmission.aimission.json": 2,
       "skytemple.aimission.json": 3,
@@ -253,7 +254,7 @@
         "ffguide2.codex.json": 22,
         "ffguide3.codex.json": 14,
         "ffguide4.codex.json": 2,
-        "ffguide5.codex.json": 15,
+        "ffguide5.codex.json": 19,
         "networkguide.codex.json": 11,
         "networkguide2.codex.json": 14,
         "shared_ffguide.json": 1,
@@ -341,6 +342,7 @@
         "extraavianhydro1.codex.json": 4,
         "extraavianhydro2.codex.json": 3,
         "extraavianhydro3.codex.json": 4,
+        "extrahighway.codex.json": 5,
         "shared_extraavianhydro.json": 1
       },
       "precursor": {
@@ -895,6 +897,12 @@
             "fuadaptablecrossbow": {
               "fuadaptablecrossbow.activeitem.json": 2
             },
+            "gjallarhorn": {
+              "fugjallarhorn.activeitem.json": 2
+            },
+            "icebreaker": {
+              "fupixelbreaker.activeitem.json": 2
+            },
             "khetastrophae": {
               "khetastrophae.activeitem.json": 3
             },
@@ -1260,7 +1268,7 @@
           "staff": {
             "Khe": {
               "kluexstaff": {
-                "kluexstaff.activeitem.json": 3
+                "kluexstaff.activeitem.json": 2
               }
             },
             "cultiststaff": {
@@ -1298,9 +1306,13 @@
               "tritaniumstaff.activeitem.json": 2,
               "xithricitestaff.activeitem.json": 2
             },
+            "shadowstaff": {
+              "shadowstaff.activeitem.json": 2
+            },
             "shared_staff": {
               "shared_.activeitem.json": 1
-            }
+            },
+            "shared_staff.json": 1
           },
           "wand": {
             "floatwand": {
@@ -3124,7 +3136,7 @@
         "liquidpus.liqitem.json": 2,
         "liquidsulphuricacid.liqitem.json": 2,
         "liquidwastewater.liqitem.json": 2,
-        "shadowgasliquid.liqitem.json": 1,
+        "shadowgasliquid.liqitem.json": 2,
         "shared_gravrain.liqitem.json": 1,
         "vialproto.liqitem.json": 2
       },
@@ -4640,6 +4652,11 @@
         "pavillionshogun.npctype.json": 4,
         "shared_pavillion.json": 6
       },
+      "penguinhighway": {
+        "highwaygirulian.npctype.json": 5,
+        "highwayjinrei.npctype.json": 5,
+        "highwayzeldia.npctype.json": 6
+      },
       "scienceoutpost": {
         "fuoutpostcivilian.npctype.json": 7,
         "shared_fuoutpostcivilian.json": 25
@@ -6002,7 +6019,7 @@
             "shared_.object.json": 2,
             "shared_elderdoor.json": 1
           },
-          "elderidol.object.json": 1,
+          "elderidol.object.json": 2,
           "elderpainting1.object.json": 2,
           "elderpainting10.object.json": 2,
           "elderpainting11.object.json": 2,
@@ -6024,7 +6041,7 @@
           "elderscrolldesk": {
             "elderscrolldesk.object.json": 2
           },
-          "elderstatue.object.json": 1,
+          "elderstatue.object.json": 2,
           "elderswitches": {
             "elderlightsensor": {
               "elderlightsensor.object.json": 2
@@ -6047,7 +6064,7 @@
             }
           },
           "mysteriousmachine1.object.json": 2,
-          "shared_.object.json": 2,
+          "shared_.object.json": 1,
           "shared_catacombs.json": 1,
           "shared_elder.json": 1,
           "shared_elderbookcase.json": 2,
@@ -6630,7 +6647,7 @@
           "shared_npcspawner.object.json": 1
         },
         "extrasmashablepersistentswitch": {
-          "extrasmashablepersistentswitch.object.json": 2
+          "extrasmashablepersistentswitch.object.json": 1
         },
         "fu_turrets": {
           "fu_flameturret": {
@@ -7044,6 +7061,7 @@
         "shoggoth_wagner.questtemplate.json": 4
       },
       "pavillion.questtemplate.json": 4,
+      "penguinhighway.questtemplate.json": 4,
       "shared_base": {
         "shared_.questtemplate.json": 1
       },
@@ -7214,6 +7232,7 @@
     "shared_sand..json": 1,
     "shared_shroom.json": 1,
     "shared_stat.json": 1,
+    "shared_ste.json": 1,
     "shared_sulphur.json": 1,
     "shared_tion.json": 2,
     "shared_weapon.json": 1,
@@ -7512,6 +7531,9 @@
             "shared_.animation.json": 2,
             "shared_.statuseffect.json": 1
           },
+          "mercurypoison": {
+            "mercurypoison.statuseffect.json": 1
+          },
           "moltenmetal": {
             "moltenmetal.statuseffect.json": 1
           },
@@ -7519,13 +7541,18 @@
             "shared_nitrogenfreeze.json": 1
           },
           "pus": {
-            "puseffect.animation.json": 1
+            "puseffect.animation.json": 1,
+            "puseffect.statuseffect.json": 1
           },
           "radiationburn": {
             "radiationburn.statuseffect.json": 1
           },
           "shadowgas": {
-            "shared_.animation.json": 1
+            "shared_.animation.json": 1,
+            "shared_.statuseffect.json": 1
+          },
+          "shared_poison": {
+            "shared_poison.statuseffect.json": 1
           },
           "shoggothburn": {
             "shoggothburn.animation.json": 1,
@@ -7536,6 +7563,9 @@
           },
           "slimestick": {
             "slimestick.statuseffect.json": 1
+          },
+          "sulphuricacideffect": {
+            "sulphuricacideffect.statuseffect.json": 1
           },
           "webstick": {
             "webstick.statuseffect.json": 1
@@ -7568,6 +7598,9 @@
           },
           "ffextremeradiation": {
             "ffextremeradiation.statuseffect.json": 1
+          },
+          "ffextremesulphuric": {
+            "ffextremesulphuric.statuseffect.json": 1
           },
           "gasworld": {
             "gasworld.animation.json": 1,
@@ -7643,6 +7676,9 @@
           },
           "poisongas": {
             "poisongas.animation.json": 1
+          },
+          "shared_ngas": {
+            "shared_.statuseffect.json": 1
           },
           "unknownbiomeeffect.statuseffect.json": 1,
           "weakenworld": {
@@ -7724,6 +7760,7 @@
           "shared_percentenergyboost.json": 1
         },
         "percenthealthboost": {
+          "negativehealth2.statuseffect.json": 1,
           "percenthealthboost.animation.json": 1,
           "percenthealthboost10.statuseffect.json": 1,
           "percenthealthboost15.statuseffect.json": 1,
@@ -7766,12 +7803,6 @@
         "shadowblock": {
           "shared_.statuseffect.json": 1
         },
-        "shared_effects": {
-          "shared_.statuseffect.json": 1,
-          "shared_sulphuric": {
-            "shared_.statuseffect.json": 1
-          }
-        },
         "shared_slow.json": 1,
         "swimboost": {
           "swimboost1.statuseffect.json": 1,
@@ -7803,7 +7834,7 @@
           "wet.statuseffect.json": 1
         }
       },
-      "effects.json": 2
+      "effects.json": 1
     },
     "tech": {
       "dash": {
@@ -8177,6 +8208,6 @@
         "shared_platform.material.json": 1
       }
     },
-    "wide_spread_fields.json": 38
+    "wide_spread_fields.json": 37
   }
 }
