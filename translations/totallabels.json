@@ -36,10 +36,10 @@
       "core": {
         "aethercorelayer.biome.json": 1,
         "fleshcorelayer.biome.json": 1,
-        "gasgiantcorelayer.biome.json": 1,
         "nitrogencorelayer.biome.json": 1,
         "protocorelayer.biome.json": 1,
-        "puscorelayer.biome.json": 1
+        "puscorelayer.biome.json": 1,
+        "shared_gasgiantcorelayer.json": 1
       },
       "shared__detached": {
         "shared_hellhive.json": 1
@@ -78,7 +78,6 @@
         "extraskymission.biome.json": 1,
         "extraswampmission.biome.json": 1,
         "frozenvolcanic.biome.json": 1,
-        "fugasgiant.biome.json": 1,
         "fungus.biome.json": 1,
         "icecloudswastesurface.biome.json": 1,
         "icemoon.biome.json": 1,
@@ -92,6 +91,7 @@
         "shared_arboreal.json": 1,
         "shared_barren.json": 1,
         "shared_desertwastes.json": 1,
+        "shared_fugasgiant.json": 1,
         "shared_infernus.json": 1,
         "shared_mountainous.json": 1,
         "shared_protoworld.json": 1,
@@ -198,7 +198,6 @@
         "crystalmoonunderground.biome.json": 1,
         "frozenvolcanicunderground.biome.json": 1,
         "fucoralcavern.biome.json": 1,
-        "fugasgiantunderground.biome.json": 1,
         "fungusunderground.biome.json": 1,
         "icecloudsmoonunderground.biome.json": 1,
         "icemoonunderground.biome.json": 1,
@@ -212,6 +211,7 @@
         "moonvolcanicunderground.biome.json": 1,
         "mountainousunderground.biome.json": 1,
         "protoworldunderground.biome.json": 1,
+        "shared_fugasgiantunderground.json": 1,
         "shared_underground.biome.json": 3,
         "slimeworldunderground.biome.json": 1,
         "sulphuricunderground.biome.json": 1,
@@ -933,7 +933,10 @@
               }
             },
             "precursorpistol": {
-              "precursorpistol.activeitem.json": 2
+              "precursorpistobeam.activeitem.json": 1,
+              "precursorpistol.activeitem.json": 2,
+              "precursorpistolice.activeitem.json": 1,
+              "shared_precursorpisto.json": 1
             },
             "tentaclegun": {
               "shadowtentaclegun.activeitem.json": 3
@@ -1268,7 +1271,7 @@
           "staff": {
             "Khe": {
               "kluexstaff": {
-                "kluexstaff.activeitem.json": 2
+                "kluexstaff.activeitem.json": 3
               }
             },
             "cultiststaff": {
@@ -1307,12 +1310,11 @@
               "xithricitestaff.activeitem.json": 2
             },
             "shadowstaff": {
-              "shadowstaff.activeitem.json": 2
+              "shadowstaff.activeitem.json": 3
             },
             "shared_staff": {
               "shared_.activeitem.json": 1
-            },
-            "shared_staff.json": 1
+            }
           },
           "wand": {
             "floatwand": {
@@ -4158,6 +4160,20 @@
           }
         }
       },
+      "selectors": {
+        "burrower_depth_selector": {
+          "burrower_depth_selector.monstertype.json": 1
+        },
+        "burrower_selector": {
+          "burrower_selector.monstertype.json": 1
+        },
+        "shared_burrower_": {
+          "shared__selector.monstertype.json": 1
+        },
+        "soft_burrower_selector": {
+          "soft_burrower_selector.monstertype.json": 1
+        }
+      },
       "shared_ers.json": 1,
       "shared_eyejell": {
         "shared_eye.json": 1
@@ -5960,6 +5976,12 @@
           }
         },
         "elder": {
+          "catacombs1.object.json": 1,
+          "catacombs2.object.json": 1,
+          "catacombs3.object.json": 1,
+          "catacombs4.object.json": 1,
+          "catacombs5.object.json": 1,
+          "catacombs6.object.json": 1,
           "dungeondeco": {
             "bloodycar.object.json": 2,
             "body1.object.json": 2,
@@ -6014,6 +6036,12 @@
             "shared_elderbookstand.json": 1
           },
           "eldercabinet.object.json": 2,
+          "eldercarving1.object.json": 1,
+          "eldercarving2.object.json": 1,
+          "eldercarving3.object.json": 1,
+          "eldercarving4.object.json": 1,
+          "eldercarving5.object.json": 1,
+          "eldercarving6.object.json": 1,
           "elderchair.object.json": 2,
           "elderdoors": {
             "shared_.object.json": 2,
@@ -6064,7 +6092,6 @@
             }
           },
           "mysteriousmachine1.object.json": 2,
-          "shared_.object.json": 1,
           "shared_catacombs.json": 1,
           "shared_elder.json": 1,
           "shared_elderbookcase.json": 2,
@@ -6074,7 +6101,10 @@
           "shared_elderurn": {
             "shared_elderurn.json": 2
           },
-          "shared_starspawnstatue.json": 2,
+          "shared_starspawnstatue.json": 1,
+          "starspawnstatue.object.json": 1,
+          "starspawnstatue2.object.json": 1,
+          "starspawnstatue3.object.json": 1,
           "strangedevice1.object.json": 2,
           "tentaclestatue.object.json": 2
         },
@@ -7143,6 +7173,7 @@
           "speedboots.questtemplate.json": 2,
           "speedboots2.questtemplate.json": 2,
           "speedboots3.questtemplate.json": 3,
+          "speedbootsprecursor.questtemplate.json": 3,
           "speedbootsweak.questtemplate.json": 3,
           "teleportdash.questtemplate.json": 2,
           "zeroburst1.questtemplate.json": 2,
@@ -7185,7 +7216,7 @@
       "exploration.radiomessages.json": 33,
       "fu_chemlab.radiomessages.json": 9,
       "fu_elder.radiomessages.json": 27,
-      "fu_exploration.radiomessages.json": 16,
+      "fu_exploration.radiomessages.json": 22,
       "fu_isotopes.radiomessages.json": 6,
       "fu_ore.radiomessages.json": 19,
       "fu_resources.radiomessages.json": 48,
@@ -7604,7 +7635,6 @@
           },
           "gasworld": {
             "gasworld.animation.json": 1,
-            "gasworld.statuseffect.json": 1,
             "gasworldweak.animation.json": 1,
             "gasworldweak.statuseffect.json": 1
           },
@@ -7633,6 +7663,10 @@
               "ffbiomeelectric1.statuseffect.json": 1,
               "ffbiomeelectric2.statuseffect.json": 1,
               "ffbiomeelectric3.statuseffect.json": 1
+            },
+            "gasworldnew": {
+              "gasworld2.statuseffect.json": 1,
+              "shared_gasworld.json": 1
             },
             "heat": {
               "ffbiomeheat1.statuseffect.json": 1,
@@ -7677,6 +7711,7 @@
           "poisongas": {
             "poisongas.animation.json": 1
           },
+          "shared_gasworld.json": 1,
           "shared_ngas": {
             "shared_.statuseffect.json": 1
           },
@@ -7845,6 +7880,7 @@
         "speedboots.tech.json": 2,
         "speedboots2.tech.json": 2,
         "speedboots3.tech.json": 2,
+        "speedbootsprecursor.tech.json": 2,
         "speedbootsweak.tech.json": 2,
         "teleportdash.tech.json": 2,
         "zeroburst.tech.json": 2,
@@ -7887,6 +7923,7 @@
         "speedboots.item.json": 2,
         "speedboots2.item.json": 2,
         "speedboots3.item.json": 2,
+        "speedbootsprecursor.item.json": 2,
         "speedbootsweak.item.json": 2,
         "teleportdash.item.json": 2,
         "zeroburst.item.json": 2,

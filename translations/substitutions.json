@@ -1,4 +1,13 @@
 {
+  "biomes/core/gasgiantcorelayer.biome": {
+    "/friendlyName": "texts/biomes/core/shared_gasgiantcorelayer.json"
+  },
+  "biomes/core/gasgiantcorelayer2.biome": {
+    "/friendlyName": "texts/biomes/core/shared_gasgiantcorelayer.json"
+  },
+  "biomes/core/gasgiantcorelayer3.biome": {
+    "/friendlyName": "texts/biomes/core/shared_gasgiantcorelayer.json"
+  },
   "biomes/surface/arboreal.biome": {
     "/friendlyName": "texts/biomes/surface/shared_arboreal.json"
   },
@@ -16,6 +25,21 @@
   },
   "biomes/surface/desertwastesdark.biome": {
     "/friendlyName": "texts/biomes/surface/shared_desertwastes.json"
+  },
+  "biomes/surface/fugasgiant.biome": {
+    "/friendlyName": "texts/biomes/surface/shared_fugasgiant.json"
+  },
+  "biomes/surface/fugasgiant2.biome": {
+    "/friendlyName": "texts/biomes/surface/shared_fugasgiant.json"
+  },
+  "biomes/surface/fugasgiant3.biome": {
+    "/friendlyName": "texts/biomes/surface/shared_fugasgiant.json"
+  },
+  "biomes/surface/fugasgiant4.biome": {
+    "/friendlyName": "texts/biomes/surface/shared_fugasgiant.json"
+  },
+  "biomes/surface/fugasgiant5.biome": {
+    "/friendlyName": "texts/biomes/surface/shared_fugasgiant.json"
   },
   "biomes/surface/icewaste.biome": {
     "/friendlyName": "texts/biomes/surface/shared_.biome.json"
@@ -157,6 +181,21 @@
   },
   "biomes/underground/corruptmoonunderground.biome": {
     "/friendlyName": "texts/biomes/underground/shared_underground.biome.json"
+  },
+  "biomes/underground/fugasgiantunderground.biome": {
+    "/friendlyName": "texts/biomes/underground/shared_fugasgiantunderground.json"
+  },
+  "biomes/underground/fugasgiantunderground2.biome": {
+    "/friendlyName": "texts/biomes/underground/shared_fugasgiantunderground.json"
+  },
+  "biomes/underground/fugasgiantunderground3.biome": {
+    "/friendlyName": "texts/biomes/underground/shared_fugasgiantunderground.json"
+  },
+  "biomes/underground/fugasgiantunderground4.biome": {
+    "/friendlyName": "texts/biomes/underground/shared_fugasgiantunderground.json"
+  },
+  "biomes/underground/fugasgiantunderground5.biome": {
+    "/friendlyName": "texts/biomes/underground/shared_fugasgiantunderground.json"
   },
   "biomes/underground/icewasteunderground.biome": {
     "/friendlyName": "texts/biomes/underground/shared_underground.biome.json"
@@ -1135,6 +1174,12 @@
   "items/active/weapons/npc/swtjc_ewg_npcsubmachinegun.activeitem": {
     "/description": "texts/items/active/weapons/shared_machine.json"
   },
+  "items/active/weapons/other/precursorpistol/precursorpistobeam.activeitem": {
+    "/description": "texts/items/active/weapons/other/precursorpistol/shared_precursorpisto.json"
+  },
+  "items/active/weapons/other/precursorpistol/precursorpistolice.activeitem": {
+    "/description": "texts/items/active/weapons/other/precursorpistol/shared_precursorpisto.json"
+  },
   "items/active/weapons/ranged/assaultrifle/swtjc_ewg_commonbattlerifle.activeitem": {
     "/description": "texts/items/active/weapons/shared_rifle.json"
   },
@@ -1320,9 +1365,6 @@
     "/description": "texts/items/active/weapons/ranged/unique/theblackmarket/sentryguns/shared_mobiusrifle.json",
     "/shortdescription": "texts/items/active/weapons/ranged/unique/theblackmarket/sentryguns/shared_mobiusrifle.json"
   },
-  "items/active/weapons/staff/Khe/kluexstaff/kluexstaff.activeitem": {
-    "/upgradeParameters/shortdescription": "texts/items/active/weapons/staff/shared_staff.json"
-  },
   "items/active/weapons/staff/cultiststaff/cultiststaff1.activeitem": {
     "/description": "texts/items/active/weapons/staff/shared_staff/shared_.activeitem.json"
   },
@@ -1349,9 +1391,6 @@
   },
   "items/active/weapons/staff/orestaffs/quietusstaff.activeitem": {
     "/description": "texts/items/active/weapons/staff/orestaffs/shared_staff.activeitem.json"
-  },
-  "items/active/weapons/staff/shadowstaff/shadowstaff.activeitem": {
-    "/upgradeParameters/shortdescription": "texts/items/active/weapons/staff/shared_staff.json"
   },
   "items/active/weapons/wand/orewands/corruptwand.activeitem": {
     "/description": "texts/items/active/weapons/wand/orewands/shared_wand.activeitem.json"
@@ -4059,6 +4098,18 @@
     "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json",
     "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json"
   },
+  "monsters/segmented/burrowers/magnesiumburrower/magnesium_burrower.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_burrower.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_burrower.monstertype.json"
+  },
+  "monsters/segmented/burrowers/magnesiumburrower/magnesium_burrower_segment.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json"
+  },
+  "monsters/segmented/burrowers/magnesiumburrower/magnesium_burrower_tail.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json"
+  },
   "monsters/segmented/burrowers/mascagniteburrower/mascagniteburrower.monstertype": {
     "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_burrower.monstertype.json",
     "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_burrower.monstertype.json"
@@ -4159,6 +4210,18 @@
     "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json",
     "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json"
   },
+  "monsters/segmented/burrowers/zerchesiumburrower/zerchesium_burrower.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_burrower.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_burrower.monstertype.json"
+  },
+  "monsters/segmented/burrowers/zerchesiumburrower/zerchesium_burrower_segment.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json"
+  },
+  "monsters/segmented/burrowers/zerchesiumburrower/zerchesium_burrower_tail.monstertype": {
+    "/description": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/segmented/burrowers/shared_burrower/shared_.monstertype.json"
+  },
   "monsters/segmented/distortionsnakes/spheresnake/spheresnake.monstertype": {
     "/description": "texts/monsters/segmented/distortionsnakes/shared_spheresnake/shared_.monstertype.json",
     "/shortdescription": "texts/monsters/segmented/distortionsnakes/shared_spheresnake/shared_.monstertype.json"
@@ -4177,6 +4240,15 @@
   },
   "monsters/segmented/distortionsnakes/spikesnake/spikesnakesegment.monstertype": {
     "/description": "texts/monsters/segmented/distortionsnakes/shared_esnake/shared_esnakesegment.json"
+  },
+  "monsters/selectors/burrower_depth_selector/burrower_depth_selector.monstertype": {
+    "/description": "texts/monsters/selectors/shared_burrower_/shared__selector.monstertype.json"
+  },
+  "monsters/selectors/burrower_selector/burrower_selector.monstertype": {
+    "/description": "texts/monsters/selectors/shared_burrower_/shared__selector.monstertype.json"
+  },
+  "monsters/selectors/soft_burrower_selector/soft_burrower_selector.monstertype": {
+    "/description": "texts/monsters/selectors/shared_burrower_/shared__selector.monstertype.json"
   },
   "monsters/skills/crawling/fumechspiderAttack.monsterskill": {
     "/label": "texts/monsters/skills/crawling/shared_ttack.monsterskill.json"
@@ -9175,27 +9247,21 @@
     "/shortdescription": "texts/objects.json"
   },
   "objects/minibiome/elder/catacombs1.object": {
-    "/description": "texts/objects/minibiome/elder/shared_.object.json",
     "/shortdescription": "texts/objects/minibiome/elder/shared_catacombs.json"
   },
   "objects/minibiome/elder/catacombs2.object": {
-    "/description": "texts/objects/minibiome/elder/shared_.object.json",
     "/shortdescription": "texts/objects/minibiome/elder/shared_catacombs.json"
   },
   "objects/minibiome/elder/catacombs3.object": {
-    "/description": "texts/objects/minibiome/elder/shared_.object.json",
     "/shortdescription": "texts/objects/minibiome/elder/shared_catacombs.json"
   },
   "objects/minibiome/elder/catacombs4.object": {
-    "/description": "texts/objects/minibiome/elder/shared_.object.json",
     "/shortdescription": "texts/objects/minibiome/elder/shared_catacombs.json"
   },
   "objects/minibiome/elder/catacombs5.object": {
-    "/description": "texts/objects/minibiome/elder/shared_.object.json",
     "/shortdescription": "texts/objects/minibiome/elder/shared_catacombs.json"
   },
   "objects/minibiome/elder/catacombs6.object": {
-    "/description": "texts/objects/minibiome/elder/shared_.object.json",
     "/shortdescription": "texts/objects/minibiome/elder/shared_catacombs.json"
   },
   "objects/minibiome/elder/dungeondeco/elderblood1.object": {
@@ -9269,27 +9335,21 @@
     "/shortdescription": "texts/objects/minibiome/elder/elderbookstand/shared_elderbookstand.json"
   },
   "objects/minibiome/elder/eldercarving1.object": {
-    "/description": "texts/objects/minibiome/elder/shared_.object.json",
     "/shortdescription": "texts/objects/minibiome/elder/shared_eldercarving.json"
   },
   "objects/minibiome/elder/eldercarving2.object": {
-    "/description": "texts/objects/minibiome/elder/shared_.object.json",
     "/shortdescription": "texts/objects/minibiome/elder/shared_eldercarving.json"
   },
   "objects/minibiome/elder/eldercarving3.object": {
-    "/description": "texts/objects/minibiome/elder/shared_.object.json",
     "/shortdescription": "texts/objects/minibiome/elder/shared_eldercarving.json"
   },
   "objects/minibiome/elder/eldercarving4.object": {
-    "/description": "texts/objects/minibiome/elder/shared_.object.json",
     "/shortdescription": "texts/objects/minibiome/elder/shared_eldercarving.json"
   },
   "objects/minibiome/elder/eldercarving5.object": {
-    "/description": "texts/objects/minibiome/elder/shared_.object.json",
     "/shortdescription": "texts/objects/minibiome/elder/shared_eldercarving.json"
   },
   "objects/minibiome/elder/eldercarving6.object": {
-    "/description": "texts/objects/minibiome/elder/shared_.object.json",
     "/shortdescription": "texts/objects/minibiome/elder/shared_eldercarving.json"
   },
   "objects/minibiome/elder/elderchest.object": {
@@ -9553,15 +9613,12 @@
     "/shortdescription": "texts/objects/minibiome/elder/shared_elderurn/shared_elderurn.json"
   },
   "objects/minibiome/elder/starspawnstatue.object": {
-    "/description": "texts/objects/minibiome/elder/shared_starspawnstatue.json",
     "/shortdescription": "texts/objects/minibiome/elder/shared_starspawnstatue.json"
   },
   "objects/minibiome/elder/starspawnstatue2.object": {
-    "/description": "texts/objects/minibiome/elder/shared_starspawnstatue.json",
     "/shortdescription": "texts/objects/minibiome/elder/shared_starspawnstatue.json"
   },
   "objects/minibiome/elder/starspawnstatue3.object": {
-    "/description": "texts/objects/minibiome/elder/shared_starspawnstatue.json",
     "/shortdescription": "texts/objects/minibiome/elder/shared_starspawnstatue.json"
   },
   "objects/minibiome/hellfire/hellfirechest1.object": {
@@ -12592,6 +12649,9 @@
   "stats/effects/fu_weathereffects/ffextremeheat/ffextremeheat.statuseffect": {
     "/label": "texts/stats/effects/fu_weathereffects.json"
   },
+  "stats/effects/fu_weathereffects/gasworld/gasworld.statuseffect": {
+    "/label": "texts/stats/effects/fu_weathereffects/shared_gasworld.json"
+  },
   "stats/effects/fu_weathereffects/metallichydrogengas/metallichydrogengas.statuseffect": {
     "/label": "texts/stats/effects/fu_weathereffects/shared_ngas/shared_.statuseffect.json"
   },
@@ -12600,6 +12660,15 @@
   },
   "stats/effects/fu_weathereffects/new/cold/ffbiomecold0.statuseffect": {
     "/label": "texts/stats/effects/fu_weathereffects.json"
+  },
+  "stats/effects/fu_weathereffects/new/gasworldnew/gasworld1.statuseffect": {
+    "/label": "texts/stats/effects/fu_weathereffects/new/gasworldnew/shared_gasworld.json"
+  },
+  "stats/effects/fu_weathereffects/new/gasworldnew/gasworld3.statuseffect": {
+    "/label": "texts/stats/effects/fu_weathereffects/shared_gasworld.json"
+  },
+  "stats/effects/fu_weathereffects/new/gasworldnew/gasworldnew.animation": {
+    "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects/fu_weathereffects/new/gasworldnew/shared_gasworld.json"
   },
   "stats/effects/fu_weathereffects/new/heat/ffbiomeheat3.statuseffect": {
     "/label": "texts/stats/effects/fu_weathereffects.json"
