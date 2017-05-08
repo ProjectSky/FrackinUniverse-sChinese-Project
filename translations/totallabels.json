@@ -36,10 +36,10 @@
       "core": {
         "aethercorelayer.biome.json": 1,
         "fleshcorelayer.biome.json": 1,
-        "gasgiantcorelayer.biome.json": 1,
         "nitrogencorelayer.biome.json": 1,
         "protocorelayer.biome.json": 1,
-        "puscorelayer.biome.json": 1
+        "puscorelayer.biome.json": 1,
+        "shared_gasgiantcorelayer.json": 1
       },
       "shared__detached": {
         "shared_hellhive.json": 1
@@ -198,7 +198,6 @@
         "crystalmoonunderground.biome.json": 1,
         "frozenvolcanicunderground.biome.json": 1,
         "fucoralcavern.biome.json": 1,
-        "fugasgiantunderground.biome.json": 1,
         "fungusunderground.biome.json": 1,
         "icecloudsmoonunderground.biome.json": 1,
         "icemoonunderground.biome.json": 1,
@@ -212,6 +211,7 @@
         "moonvolcanicunderground.biome.json": 1,
         "mountainousunderground.biome.json": 1,
         "protoworldunderground.biome.json": 1,
+        "shared_fugasgiantunderground.json": 1,
         "shared_underground.biome.json": 3,
         "slimeworldunderground.biome.json": 1,
         "sulphuricunderground.biome.json": 1,
@@ -1271,7 +1271,7 @@
           "staff": {
             "Khe": {
               "kluexstaff": {
-                "kluexstaff.activeitem.json": 2
+                "kluexstaff.activeitem.json": 3
               }
             },
             "cultiststaff": {
@@ -1310,12 +1310,11 @@
               "xithricitestaff.activeitem.json": 2
             },
             "shadowstaff": {
-              "shadowstaff.activeitem.json": 2
+              "shadowstaff.activeitem.json": 3
             },
             "shared_staff": {
               "shared_.activeitem.json": 1
-            },
-            "shared_staff.json": 1
+            }
           },
           "wand": {
             "floatwand": {
@@ -4159,6 +4158,20 @@
             "spikesnake.monstertype.json": 2,
             "spikesnakesegment.monstertype.json": 1
           }
+        }
+      },
+      "selectors": {
+        "burrower_depth_selector": {
+          "burrower_depth_selector.monstertype.json": 1
+        },
+        "burrower_selector": {
+          "burrower_selector.monstertype.json": 1
+        },
+        "shared_burrower_": {
+          "shared__selector.monstertype.json": 1
+        },
+        "soft_burrower_selector": {
+          "soft_burrower_selector.monstertype.json": 1
         }
       },
       "shared_ers.json": 1,
@@ -7203,7 +7216,7 @@
       "exploration.radiomessages.json": 33,
       "fu_chemlab.radiomessages.json": 9,
       "fu_elder.radiomessages.json": 27,
-      "fu_exploration.radiomessages.json": 19,
+      "fu_exploration.radiomessages.json": 22,
       "fu_isotopes.radiomessages.json": 6,
       "fu_ore.radiomessages.json": 19,
       "fu_resources.radiomessages.json": 48,

@@ -36,10 +36,10 @@
       "core": {
         "aethercorelayer.biome.json": 1,
         "fleshcorelayer.biome.json": 1,
-        "gasgiantcorelayer.biome.json": 1,
         "nitrogencorelayer.biome.json": 1,
         "protocorelayer.biome.json": 1,
-        "puscorelayer.biome.json": 1
+        "puscorelayer.biome.json": 1,
+        "shared_gasgiantcorelayer.json": 1
       },
       "shared__detached": {
         "shared_hellhive.json": 1
@@ -198,7 +198,6 @@
         "crystalmoonunderground.biome.json": 1,
         "frozenvolcanicunderground.biome.json": 1,
         "fucoralcavern.biome.json": 1,
-        "fugasgiantunderground.biome.json": 1,
         "fungusunderground.biome.json": 1,
         "icecloudsmoonunderground.biome.json": 1,
         "icemoonunderground.biome.json": 1,
@@ -212,6 +211,7 @@
         "moonvolcanicunderground.biome.json": 1,
         "mountainousunderground.biome.json": 1,
         "protoworldunderground.biome.json": 1,
+        "shared_fugasgiantunderground.json": 1,
         "shared_underground.biome.json": 3,
         "slimeworldunderground.biome.json": 1,
         "sulphuricunderground.biome.json": 1,
@@ -1271,7 +1271,7 @@
           "staff": {
             "Khe": {
               "kluexstaff": {
-                "kluexstaff.activeitem.json": 2
+                "kluexstaff.activeitem.json": 3
               }
             },
             "cultiststaff": {
@@ -1314,8 +1314,7 @@
             },
             "shared_staff": {
               "shared_.activeitem.json": 1
-            },
-            "shared_staff.json": 1
+            }
           },
           "wand": {
             "floatwand": {
@@ -4159,6 +4158,20 @@
             "spikesnake.monstertype.json": 0,
             "spikesnakesegment.monstertype.json": 0
           }
+        }
+      },
+      "selectors": {
+        "burrower_depth_selector": {
+          "burrower_depth_selector.monstertype.json": 0
+        },
+        "burrower_selector": {
+          "burrower_selector.monstertype.json": 0
+        },
+        "shared_burrower_": {
+          "shared__selector.monstertype.json": 0
+        },
+        "soft_burrower_selector": {
+          "soft_burrower_selector.monstertype.json": 0
         }
       },
       "shared_ers.json": 0,
@@ -7127,7 +7140,7 @@
         "fuquest_powergeneration1.questtemplate.json": 3,
         "fuquest_powergeneration2.questtemplate.json": 3,
         "nano": {
-          "fuquest_nano.questtemplate.json": 3
+          "fuquest_nano.questtemplate.json": 2
         },
         "powerstation": {
           "fuquest_battery.questtemplate.json": 3,
@@ -7203,7 +7216,7 @@
       "exploration.radiomessages.json": 33,
       "fu_chemlab.radiomessages.json": 9,
       "fu_elder.radiomessages.json": 27,
-      "fu_exploration.radiomessages.json": 16,
+      "fu_exploration.radiomessages.json": 15,
       "fu_isotopes.radiomessages.json": 6,
       "fu_ore.radiomessages.json": 19,
       "fu_resources.radiomessages.json": 48,
