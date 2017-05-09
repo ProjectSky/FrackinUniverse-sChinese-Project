@@ -397,13 +397,10 @@
           "kheAA_routerGui.config.json": 14
         },
         "kheAA_terminal": {
-          "kheAA_terminalGui.config.json": 4
+          "kheAA_terminalGui.config.json": 6
         },
         "kheAA_toolforge": {
-          "kheAA_toolforgegui.config.json": 3
-        },
-        "shared_kheAA_": {
-          "shared_ui.config.json": 1
+          "kheAA_toolforgegui.config.json": 4
         }
       },
       "objectcrafting": {
@@ -764,6 +761,9 @@
               "metallichammer.activeitem.json": 2,
               "mystichammer.activeitem.json": 2,
               "pyreitehammer.activeitem.json": 2,
+              "rockethammer": {
+                "rockethammer.activeitem.json": 2
+              },
               "shared_honeyhammer.activeitem.json": 1,
               "solarihammer.activeitem.json": 2,
               "soulreader.activeitem.json": 2,
@@ -933,10 +933,11 @@
               }
             },
             "precursorpistol": {
-              "precursorpistobeam.activeitem.json": 1,
+              "precursorpistobeam.activeitem.json": 2,
               "precursorpistol.activeitem.json": 2,
-              "precursorpistolice.activeitem.json": 1,
-              "shared_precursorpisto.json": 1
+              "precursorpistolice.activeitem.json": 2,
+              "precursorpistolshock.activeitem.json": 2,
+              "precursorpistolxray.activeitem.json": 2
             },
             "tentaclegun": {
               "shadowtentaclegun.activeitem.json": 3
@@ -5071,6 +5072,9 @@
         }
       },
       "devtools": {
+        "ClockTest": {
+          "ItemScanner.object.json": 2
+        },
         "ItemGenerator": {
           "ItemGenerator.config.json": 1,
           "ItemGenerator.object.json": 2
@@ -5080,9 +5084,7 @@
           "ItemScannerTransferLib.object.json": 1,
           "shared_ItemScanner.json": 1
         },
-        "shared_Item": {
-          "shared_.config.json": 1
-        }
+        "shared_.config.json": 1
       },
       "dispensers": {
         "pixeldispenser.object.json": 8
