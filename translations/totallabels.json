@@ -377,7 +377,8 @@
       "fu_warriorsword2.collection.json": 1
     },
     "dialog": {
-      "greg.config.json": 16
+      "greg.config.json": 16,
+      "macready.config.json": 1
     },
     "generic.json": 1,
     "glitchEmotes.json": 148,
@@ -933,8 +934,8 @@
               }
             },
             "precursorpistol": {
-              "precursorpistobeam.activeitem.json": 2,
               "precursorpistol.activeitem.json": 2,
+              "precursorpistolbeam.activeitem.json": 2,
               "precursorpistolice.activeitem.json": 2,
               "precursorpistolshock.activeitem.json": 2,
               "precursorpistolxray.activeitem.json": 2
@@ -1958,7 +1959,7 @@
           "fudiver2": {
             "fudiver2.chest.json": 1,
             "fudiver2.head.json": 1,
-            "fudiver2.legs.json": 2,
+            "fudiver2.legs.json": 1,
             "shared_fudiver2..json": 1
           },
           "fuguardian": {
@@ -3634,7 +3635,7 @@
             "eyebeamattack.monsterskill.json": 1,
             "fleshbombattack.monsterskill.json": 1,
             "minishoggothspawnattack.monsterskill.json": 1,
-            "shoggothacidattack.monsterskill.json": 1,
+            "shared_shoggothacidattack.json": 1,
             "shoggothchargeattack.monsterskill.json": 1,
             "tentacleswipeattack.monsterskill.json": 1
           }
@@ -4136,7 +4137,7 @@
         "burrowers": {
           "shared_burrower": {
             "shared_.monstertype.json": 2,
-            "shared_burrower.monstertype.json": 1
+            "shared__burrower.monstertype.json": 1
           }
         },
         "distortionsnakes": {
@@ -7323,11 +7324,32 @@
         },
         "damagebonus": {
           "damagebonus.animation.json": 1,
-          "shared_.statuseffect.json": 1
+          "damagebonus.statuseffect.json": 1,
+          "damagebonus01.statuseffect.json": 1,
+          "damagebonus2.statuseffect.json": 1,
+          "damagebonus3.statuseffect.json": 1,
+          "damagebonus4.statuseffect.json": 1,
+          "damagebonus5.statuseffect.json": 1,
+          "damagebonus6.statuseffect.json": 1
         },
         "defenseboost": {
+          "defense1.statuseffect.json": 1,
+          "defense2.statuseffect.json": 1,
+          "defense3.statuseffect.json": 1,
+          "defense4.statuseffect.json": 1,
+          "defense5.statuseffect.json": 1,
+          "defenseboost120.statuseffect.json": 1,
+          "defenseboost15.statuseffect.json": 1,
+          "defenseboost180.statuseffect.json": 1,
+          "defenseboost210.statuseffect.json": 1,
+          "defenseboost240.statuseffect.json": 1,
+          "defenseboost270.statuseffect.json": 1,
+          "defenseboost30.statuseffect.json": 1,
+          "defenseboost300.statuseffect.json": 1,
+          "defenseboost60.statuseffect.json": 1,
+          "defenseboost90.statuseffect.json": 1,
           "defenseboostneg20.statuseffect.json": 1,
-          "shared_.statuseffect.json": 1
+          "shared_.statuseffect.json": 2
         },
         "directivetest": {
           "directivetest.statuseffect.json": 1
@@ -7493,17 +7515,18 @@
             "eatself.statuseffect.json": 1
           },
           "energyregenfu": {
-            "energyregenfu_armor20.statuseffect.json": 1,
-            "energyregenfu_armor30.statuseffect.json": 1,
-            "energyregenfu_armor40.statuseffect.json": 1,
-            "energyregenfu_armor50.statuseffect.json": 1,
-            "energyregenfu_armor60.statuseffect.json": 1,
-            "energyregenfu_armor75.statuseffect.json": 1,
-            "energyregenfu_erithian.statuseffect.json": 1,
-            "energyregenfu_morphite.statuseffect.json": 1,
-            "energyregenfu_proto.statuseffect.json": 1,
-            "energyregenfu_quantum.statuseffect.json": 1,
-            "shared_energyregenfu.json": 1
+            "energyregenfu05.statuseffect.json": 1,
+            "energyregenfu35.statuseffect.json": 1,
+            "shared_20.statuseffect.json": 1,
+            "shared_40.statuseffect.json": 1,
+            "shared_50.statuseffect.json": 1,
+            "shared_60.statuseffect.json": 1,
+            "shared_75.statuseffect.json": 1,
+            "shared_energyregenfu.json": 3,
+            "shared_energyregenfu_.json": 1
+          },
+          "energyrestorepercentage": {
+            "shared_.statuseffect.json": 1
           },
           "glow": {
             "shared_.statuseffect.json": 1
@@ -7729,7 +7752,10 @@
           "shared_booze.json": 1
         },
         "jumpboost": {
-          "shared_.statuseffect.json": 1
+          "jumpboost15.statuseffect.json": 1,
+          "jumpboost25.statuseffect.json": 1,
+          "jumpboost35.statuseffect.json": 1,
+          "jumpboostwarriorrobes.statuseffect.json": 1
         },
         "liquidimmunity": {
           "gasimmunity.statuseffect.json": 1
@@ -7741,13 +7767,30 @@
           "shared_.statuseffect.json": 1
         },
         "maxenergyboost": {
-          "maxenergyboostneg20.statuseffect.json": 1,
-          "shared_maxenergyboost.json": 1
+          "maxenergyboost1.statuseffect.json": 1,
+          "maxenergyboost145.statuseffect.json": 1,
+          "maxenergyboost2.statuseffect.json": 1,
+          "maxenergyboost3.statuseffect.json": 1,
+          "maxenergyboost4.statuseffect.json": 1,
+          "maxenergyboost5.statuseffect.json": 1,
+          "maxenergyboost6.statuseffect.json": 1,
+          "maxenergyboost65.statuseffect.json": 1,
+          "maxenergyboost90.statuseffect.json": 1,
+          "maxenergyboostneg20.statuseffect.json": 1
         },
         "maxhealthboost": {
+          "maxhealthboost1.statuseffect.json": 1,
+          "maxhealthboost120.statuseffect.json": 1,
+          "maxhealthboost2.statuseffect.json": 1,
+          "maxhealthboost3.statuseffect.json": 1,
+          "maxhealthboost4.statuseffect.json": 1,
+          "maxhealthboost5.statuseffect.json": 1,
+          "maxhealthboost6.statuseffect.json": 1,
+          "maxhealthboost70.statuseffect.json": 1,
+          "maxhealthboost80.statuseffect.json": 1,
+          "maxhealthboost90.statuseffect.json": 1,
           "maxhealthboostneg10.statuseffect.json": 1,
           "maxhealthboostneg20.statuseffect.json": 1,
-          "shared_maxhealthboost.json": 1,
           "sulphurattack.statuseffect.json": 1
         },
         "partytime": {
@@ -7815,7 +7858,13 @@
           "shared_radioactiveblock.json": 1
         },
         "rage": {
-          "shared_.statuseffect.json": 1
+          "rage100.statuseffect.json": 1,
+          "rage20fu.statuseffect.json": 1,
+          "rage30.statuseffect.json": 1,
+          "rage40.statuseffect.json": 1,
+          "rage50.statuseffect.json": 1,
+          "rage60.statuseffect.json": 1,
+          "rage75.statuseffect.json": 1
         },
         "regeneration": {
           "lightregen.statuseffect.json": 1,
@@ -7834,8 +7883,12 @@
           "shared_darkregen.json": 1
         },
         "runboost": {
-          "runboostdebuff.statuseffect.json": 1,
-          "shared_.statuseffect.json": 1
+          "runboost10.statuseffect.json": 1,
+          "runboost15.statuseffect.json": 1,
+          "runboost25.statuseffect.json": 1,
+          "runboost35.statuseffect.json": 1,
+          "runboost75.statuseffect.json": 1,
+          "runboostdebuff.statuseffect.json": 1
         },
         "shadowblock": {
           "shared_.statuseffect.json": 1
