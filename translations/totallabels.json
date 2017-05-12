@@ -386,11 +386,10 @@
       "chests": {
         "genechest128.config.json": 1
       },
-      "cockpit": {
-        "cockpit.config.json": 240
-      },
       "itemdescriptions": {
         "armornew.itemdescription.json": 1,
+        "bow2.itemdescription.json": 1,
+        "fist2.itemdescription.json": 2,
         "shared_.itemdescription.json": 1
       },
       "kheAA": {
@@ -418,10 +417,11 @@
       },
       "shared_boomerang..json": 1,
       "shared_chakram..json": 1,
-      "shared_gun2..json": 3,
       "shared_magnorb..json": 1,
       "shared_shieldnew..json": 4,
       "tooltips": {
+        "bow2.tooltip.json": 1,
+        "fist2.tooltip.json": 1,
         "magnorb.tooltip.json": 1
       },
       "warping": {
@@ -456,7 +456,7 @@
         "xenostation.config.json": 2
       }
     },
-    "interface.json": 7,
+    "interface.json": 11,
     "items": {
       "active": {
         "fishingrod": {
@@ -668,7 +668,7 @@
               "pyreiteaxe.activeitem.json": 2,
               "quietusaxe.activeitem.json": 2,
               "shared_axe.activeitem.json": 1,
-              "stoneaxe.activeitem.json": 2,
+              "stoneaxe.activeitem.json": 1,
               "uraniumaxe.activeitem.json": 2,
               "xithriciteaxe.activeitem.json": 2,
               "zerchesiumaxe.activeitem.json": 2
@@ -687,7 +687,7 @@
               "densiniumsword": {
                 "densiniumsword.activeitem.json": 3
               },
-              "effigiumbroadsword.activeitem.json": 1,
+              "effigiumbroadsword.activeitem.json": 2,
               "energyblade.activeitem.json": 2,
               "energyblade2.activeitem.json": 2,
               "fuambersword.activeitem.json": 2,
@@ -735,7 +735,7 @@
               "shared_dagger.activeitem.json": 1,
               "shared_e.activeitem.json": 1,
               "silverseablade.activeitem.json": 2,
-              "stonedagger.activeitem.json": 2,
+              "stonedagger.activeitem.json": 1,
               "uraniumdagger.activeitem.json": 2,
               "xithricitedagger.activeitem.json": 2,
               "zerchesiumknife.activeitem.json": 2
@@ -778,7 +778,7 @@
               "shared_qs.activeitem.json": 1,
               "uncommonqs.activeitem.json": 1
             },
-            "shared_.activeitem.json": 2,
+            "shared_.activeitem.json": 3,
             "shared_sword": {
               "shared_dblade": {
                 "shared_.activeitem.json": 1
@@ -845,6 +845,9 @@
               "coralspear.activeitem.json": 2,
               "corruptspear.activeitem.json": 2,
               "cultiststaffmelee.activeitem.json": 2,
+              "drillspear": {
+                "drillspear.activeitem.json": 2
+              },
               "effigiumspear.activeitem.json": 1,
               "elderspear.activeitem.json": 1,
               "flightfire.activeitem.json": 2,
@@ -3634,7 +3637,7 @@
           "skills": {
             "eyebeamattack.monsterskill.json": 1,
             "fleshbombattack.monsterskill.json": 1,
-            "minishoggothspawnattack.monsterskill.json": 1,
+            "shared_minishoggothspawnattack.json": 1,
             "shared_shoggothacidattack.json": 1,
             "shoggothchargeattack.monsterskill.json": 1,
             "tentacleswipeattack.monsterskill.json": 1
