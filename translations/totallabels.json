@@ -386,6 +386,9 @@
       "chests": {
         "genechest128.config.json": 1
       },
+      "cockpit": {
+        "cockpit.config.json": 267
+      },
       "itemdescriptions": {
         "armornew.itemdescription.json": 1,
         "bow2.itemdescription.json": 1,
@@ -417,12 +420,15 @@
       },
       "shared_boomerang..json": 1,
       "shared_chakram..json": 1,
+      "shared_gun2..json": 1,
       "shared_magnorb..json": 1,
       "shared_shieldnew..json": 4,
+      "shared_sword2..json": 1,
       "tooltips": {
         "bow2.tooltip.json": 1,
         "fist2.tooltip.json": 1,
-        "magnorb.tooltip.json": 1
+        "magnorb.tooltip.json": 1,
+        "sword2.tooltip.json": 1
       },
       "warping": {
         "fu_outpostteleporter.config.json": 2
@@ -456,7 +462,7 @@
         "xenostation.config.json": 2
       }
     },
-    "interface.json": 11,
+    "interface.json": 10,
     "items": {
       "active": {
         "fishingrod": {
@@ -565,10 +571,13 @@
           }
         },
         "vehiclecontroller": {
+          "apexhoverbikecontroller.activeitem.json": 2,
+          "avianhoverbikecontroller.activeitem.json": 2,
           "fusubcontroller.activeitem.json": 2,
           "fusubcontroller2.activeitem.json": 1,
           "fusubcontroller3.activeitem.json": 1,
           "fusubcontroller4.activeitem.json": 1,
+          "hylotlhoverbikecontroller.activeitem.json": 2,
           "shared_fusubcontroller.json": 1
         },
         "weapons": {
@@ -656,7 +665,7 @@
               "deathbringer.activeitem.json": 2,
               "effigiumaxe.activeitem.json": 1,
               "elderaxe.activeitem.json": 2,
-              "fuatropusaxe.activeitem.json": 2,
+              "fuatropusaxe.activeitem.json": 1,
               "fuboneaxe.activeitem.json": 1,
               "fucoralcleaver.activeitem.json": 1,
               "fucultaxe.activeitem.json": 2,
@@ -691,6 +700,7 @@
               "energyblade.activeitem.json": 2,
               "energyblade2.activeitem.json": 2,
               "fuambersword.activeitem.json": 2,
+              "fuatropusbroadsword.activeitem.json": 1,
               "fubonesword.activeitem.json": 2,
               "fucellsword.activeitem.json": 2,
               "fugoldenblade.activeitem.json": 2,
@@ -726,6 +736,7 @@
               "bloodyknife.activeitem.json": 2,
               "carbondagger.activeitem.json": 1,
               "effigiumdagger.activeitem.json": 1,
+              "fuatropusdagger.activeitem.json": 1,
               "fubonepickaxe.activeitem.json": 2,
               "irradiumdagger.activeitem.json": 2,
               "isogendagger.activeitem.json": 2,
@@ -742,6 +753,7 @@
             },
             "greataxe": {
               "durasteelgreataxe.activeitem.json": 2,
+              "fuatropusgreataxe.activeitem.json": 1,
               "irongreataxe.activeitem.json": 2,
               "titaniumgreataxe.activeitem.json": 2,
               "tungstengreataxe.activeitem.json": 2
@@ -751,6 +763,7 @@
               "effigiumhammer.activeitem.json": 1,
               "elderhammer.activeitem.json": 2,
               "fishboneheadbasher.activeitem.json": 2,
+              "fuatropushammer.activeitem.json": 1,
               "fubonehammer.activeitem.json": 2,
               "fucarbonhammer.activeitem.json": 2,
               "fuhoneyhammer.activeitem.json": 1,
@@ -778,7 +791,7 @@
               "shared_qs.activeitem.json": 1,
               "uncommonqs.activeitem.json": 1
             },
-            "shared_.activeitem.json": 3,
+            "shared_.activeitem.json": 4,
             "shared_sword": {
               "shared_dblade": {
                 "shared_.activeitem.json": 1
@@ -788,6 +801,7 @@
               "advalloyshortspear.activeitem.json": 1,
               "commonshortspear.activeitem.json": 1,
               "durasteelshortspear.activeitem.json": 1,
+              "fuatropusshortspear.activeitem.json": 1,
               "ironshortspear.activeitem.json": 1,
               "rareshortspear.activeitem.json": 1,
               "shared_shortspear.activeitem.json": 2,
@@ -810,6 +824,7 @@
               "effigiumshortsword.activeitem.json": 1,
               "elderblade.activeitem.json": 2,
               "frostblade.activeitem.json": 2,
+              "fuatropusshortsword.activeitem.json": 1,
               "fuchainsword": {
                 "fuchainsword.activeitem.json": 2
               },
@@ -842,6 +857,7 @@
               "advalloyspear.activeitem.json": 1,
               "banespear.activeitem.json": 2,
               "bonespear.activeitem.json": 2,
+              "carbonspear.activeitem.json": 1,
               "coralspear.activeitem.json": 2,
               "corruptspear.activeitem.json": 2,
               "cultiststaffmelee.activeitem.json": 2,
@@ -851,6 +867,7 @@
               "effigiumspear.activeitem.json": 1,
               "elderspear.activeitem.json": 1,
               "flightfire.activeitem.json": 2,
+              "fuatropusspear.activeitem.json": 1,
               "fucrystalspear.activeitem.json": 2,
               "fuqueenstinger.activeitem.json": 2,
               "hellfirespear.activeitem.json": 1,
@@ -858,6 +875,9 @@
               "isogenspear.activeitem.json": 2,
               "metallicspear.activeitem.json": 2,
               "pincerspear.activeitem.json": 2,
+              "precursorspear": {
+                "precursorspear.activeitem.json": 2
+              },
               "pyreitespear.activeitem.json": 2,
               "quietusspear.activeitem.json": 1,
               "shared_.activeitem.json": 1,
@@ -1938,7 +1958,7 @@
             "shared_enforcerarmor..json": 1
           },
           "fieldscience": {
-            "fieldscientist.chest.json": 2,
+            "fieldscientist.chest.json": 1,
             "fieldscientist.head.json": 1,
             "fieldscientist.legs.json": 1,
             "fieldscientisthead2.head.json": 2,
@@ -7225,6 +7245,7 @@
       "fu_ore.radiomessages.json": 19,
       "fu_resources.radiomessages.json": 48,
       "fu_stations.radiomessages.json": 2,
+      "missions.radiomessages.json": 229,
       "shared_.radiomessages.json": 1,
       "shared_es.radiomessages.json": 1
     },
@@ -7245,7 +7266,7 @@
     "shared_ers": {
       "shared_waterbot.json": 1
     },
-    "shared_ers.json": 4,
+    "shared_ers.json": 5,
     "shared_fusnowberry.json": 1,
     "shared_ghostmushroom.json": 1,
     "shared_hellfire.json": 1,
@@ -7267,7 +7288,6 @@
     "shared_sand..json": 1,
     "shared_shroom.json": 1,
     "shared_stat.json": 1,
-    "shared_ste.json": 1,
     "shared_sulphur.json": 1,
     "shared_tion.json": 2,
     "shared_weapon.json": 1,
@@ -7434,6 +7454,7 @@
             "intersecsetbonuseffect.statuseffect.json": 1,
             "intrepidsetbonuseffect.statuseffect.json": 1,
             "invadersetbonuseffect.statuseffect.json": 1,
+            "irradiumsetbonuseffect.statuseffect.json": 1,
             "isogensetbonuseffect.statuseffect.json": 1,
             "junkersetbonuseffect.statuseffect.json": 1,
             "krakensetbonuseffect.statuseffect.json": 1,
@@ -7459,6 +7480,7 @@
             "protectorsetbonuseffect.statuseffect.json": 1,
             "pyreitesetbonuseffect.statuseffect.json": 1,
             "queensetbonuseffect.statuseffect.json": 1,
+            "raidersetbonuseffect.statuseffect.json": 1,
             "rangersetbonuseffect.statuseffect.json": 1,
             "ravagersetbonuseffect.statuseffect.json": 1,
             "reconsetbonuseffect.statuseffect.json": 1,
@@ -7472,7 +7494,7 @@
             "scoutsetbonuseffect.statuseffect.json": 1,
             "sentrysetbonuseffect.statuseffect.json": 1,
             "shadowbonesetbonuseffect.statuseffect.json": 1,
-            "shared_setbonuseffect.statuseffect.json": 2,
+            "shared_setbonuseffect.statuseffect.json": 1,
             "shared_slimesetbonuseffect.json": 1,
             "shieldedsetbonuseffect.statuseffect.json": 1,
             "shoggothsetbonuseffect.statuseffect.json": 1,
@@ -7834,6 +7856,7 @@
           "percentenergyboost.animation.json": 1,
           "percentenergyboost10.statuseffect.json": 1,
           "percentenergyboost15.statuseffect.json": 1,
+          "percentenergyboost2.animation.json": 1,
           "percentenergyboost35.statuseffect.json": 1,
           "percentenergyboost40.statuseffect.json": 1,
           "percentenergyboost5.statuseffect.json": 1,
@@ -7895,6 +7918,9 @@
         },
         "shadowblock": {
           "shared_.statuseffect.json": 1
+        },
+        "shared_energyboost": {
+          "shared_energyboostneg100.json": 1
         },
         "shared_slow.json": 1,
         "swimboost": {
