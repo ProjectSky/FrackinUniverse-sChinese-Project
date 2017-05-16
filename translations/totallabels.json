@@ -377,7 +377,8 @@
       "fu_warriorsword2.collection.json": 1
     },
     "dialog": {
-      "greg.config.json": 16
+      "greg.config.json": 16,
+      "macready.config.json": 1
     },
     "generic.json": 1,
     "glitchEmotes.json": 148,
@@ -386,10 +387,12 @@
         "genechest128.config.json": 1
       },
       "cockpit": {
-        "cockpit.config.json": 240
+        "cockpit.config.json": 267
       },
       "itemdescriptions": {
         "armornew.itemdescription.json": 1,
+        "bow2.itemdescription.json": 1,
+        "fist2.itemdescription.json": 2,
         "shared_.itemdescription.json": 1
       },
       "kheAA": {
@@ -397,13 +400,10 @@
           "kheAA_routerGui.config.json": 14
         },
         "kheAA_terminal": {
-          "kheAA_terminalGui.config.json": 4
+          "kheAA_terminalGui.config.json": 6
         },
         "kheAA_toolforge": {
-          "kheAA_toolforgegui.config.json": 3
-        },
-        "shared_kheAA_": {
-          "shared_ui.config.json": 1
+          "kheAA_toolforgegui.config.json": 4
         }
       },
       "objectcrafting": {
@@ -420,11 +420,15 @@
       },
       "shared_boomerang..json": 1,
       "shared_chakram..json": 1,
-      "shared_gun2..json": 3,
+      "shared_gun2..json": 1,
       "shared_magnorb..json": 1,
       "shared_shieldnew..json": 4,
+      "shared_sword2..json": 1,
       "tooltips": {
-        "magnorb.tooltip.json": 1
+        "bow2.tooltip.json": 1,
+        "fist2.tooltip.json": 1,
+        "magnorb.tooltip.json": 1,
+        "sword2.tooltip.json": 1
       },
       "warping": {
         "fu_outpostteleporter.config.json": 2
@@ -458,7 +462,7 @@
         "xenostation.config.json": 2
       }
     },
-    "interface.json": 7,
+    "interface.json": 10,
     "items": {
       "active": {
         "fishingrod": {
@@ -567,10 +571,13 @@
           }
         },
         "vehiclecontroller": {
+          "apexhoverbikecontroller.activeitem.json": 2,
+          "avianhoverbikecontroller.activeitem.json": 2,
           "fusubcontroller.activeitem.json": 2,
           "fusubcontroller2.activeitem.json": 1,
           "fusubcontroller3.activeitem.json": 1,
           "fusubcontroller4.activeitem.json": 1,
+          "hylotlhoverbikecontroller.activeitem.json": 2,
           "shared_fusubcontroller.json": 1
         },
         "weapons": {
@@ -658,7 +665,7 @@
               "deathbringer.activeitem.json": 2,
               "effigiumaxe.activeitem.json": 1,
               "elderaxe.activeitem.json": 2,
-              "fuatropusaxe.activeitem.json": 2,
+              "fuatropusaxe.activeitem.json": 1,
               "fuboneaxe.activeitem.json": 1,
               "fucoralcleaver.activeitem.json": 1,
               "fucultaxe.activeitem.json": 2,
@@ -670,7 +677,7 @@
               "pyreiteaxe.activeitem.json": 2,
               "quietusaxe.activeitem.json": 2,
               "shared_axe.activeitem.json": 1,
-              "stoneaxe.activeitem.json": 2,
+              "stoneaxe.activeitem.json": 1,
               "uraniumaxe.activeitem.json": 2,
               "xithriciteaxe.activeitem.json": 2,
               "zerchesiumaxe.activeitem.json": 2
@@ -689,10 +696,11 @@
               "densiniumsword": {
                 "densiniumsword.activeitem.json": 3
               },
-              "effigiumbroadsword.activeitem.json": 1,
+              "effigiumbroadsword.activeitem.json": 2,
               "energyblade.activeitem.json": 2,
               "energyblade2.activeitem.json": 2,
               "fuambersword.activeitem.json": 2,
+              "fuatropusbroadsword.activeitem.json": 1,
               "fubonesword.activeitem.json": 2,
               "fucellsword.activeitem.json": 2,
               "fugoldenblade.activeitem.json": 2,
@@ -728,6 +736,7 @@
               "bloodyknife.activeitem.json": 2,
               "carbondagger.activeitem.json": 1,
               "effigiumdagger.activeitem.json": 1,
+              "fuatropusdagger.activeitem.json": 1,
               "fubonepickaxe.activeitem.json": 2,
               "irradiumdagger.activeitem.json": 2,
               "isogendagger.activeitem.json": 2,
@@ -737,13 +746,14 @@
               "shared_dagger.activeitem.json": 1,
               "shared_e.activeitem.json": 1,
               "silverseablade.activeitem.json": 2,
-              "stonedagger.activeitem.json": 2,
+              "stonedagger.activeitem.json": 1,
               "uraniumdagger.activeitem.json": 2,
               "xithricitedagger.activeitem.json": 2,
               "zerchesiumknife.activeitem.json": 2
             },
             "greataxe": {
               "durasteelgreataxe.activeitem.json": 2,
+              "fuatropusgreataxe.activeitem.json": 1,
               "irongreataxe.activeitem.json": 2,
               "titaniumgreataxe.activeitem.json": 2,
               "tungstengreataxe.activeitem.json": 2
@@ -753,6 +763,7 @@
               "effigiumhammer.activeitem.json": 1,
               "elderhammer.activeitem.json": 2,
               "fishboneheadbasher.activeitem.json": 2,
+              "fuatropushammer.activeitem.json": 1,
               "fubonehammer.activeitem.json": 2,
               "fucarbonhammer.activeitem.json": 2,
               "fuhoneyhammer.activeitem.json": 1,
@@ -764,6 +775,9 @@
               "metallichammer.activeitem.json": 2,
               "mystichammer.activeitem.json": 2,
               "pyreitehammer.activeitem.json": 2,
+              "rockethammer": {
+                "rockethammer.activeitem.json": 2
+              },
               "shared_honeyhammer.activeitem.json": 1,
               "solarihammer.activeitem.json": 2,
               "soulreader.activeitem.json": 2,
@@ -777,7 +791,7 @@
               "shared_qs.activeitem.json": 1,
               "uncommonqs.activeitem.json": 1
             },
-            "shared_.activeitem.json": 2,
+            "shared_.activeitem.json": 4,
             "shared_sword": {
               "shared_dblade": {
                 "shared_.activeitem.json": 1
@@ -787,6 +801,7 @@
               "advalloyshortspear.activeitem.json": 1,
               "commonshortspear.activeitem.json": 1,
               "durasteelshortspear.activeitem.json": 1,
+              "fuatropusshortspear.activeitem.json": 1,
               "ironshortspear.activeitem.json": 1,
               "rareshortspear.activeitem.json": 1,
               "shared_shortspear.activeitem.json": 2,
@@ -809,6 +824,7 @@
               "effigiumshortsword.activeitem.json": 1,
               "elderblade.activeitem.json": 2,
               "frostblade.activeitem.json": 2,
+              "fuatropusshortsword.activeitem.json": 1,
               "fuchainsword": {
                 "fuchainsword.activeitem.json": 2
               },
@@ -841,12 +857,17 @@
               "advalloyspear.activeitem.json": 1,
               "banespear.activeitem.json": 2,
               "bonespear.activeitem.json": 2,
+              "carbonspear.activeitem.json": 1,
               "coralspear.activeitem.json": 2,
               "corruptspear.activeitem.json": 2,
               "cultiststaffmelee.activeitem.json": 2,
+              "drillspear": {
+                "drillspear.activeitem.json": 2
+              },
               "effigiumspear.activeitem.json": 1,
               "elderspear.activeitem.json": 1,
               "flightfire.activeitem.json": 2,
+              "fuatropusspear.activeitem.json": 1,
               "fucrystalspear.activeitem.json": 2,
               "fuqueenstinger.activeitem.json": 2,
               "hellfirespear.activeitem.json": 1,
@@ -854,6 +875,9 @@
               "isogenspear.activeitem.json": 2,
               "metallicspear.activeitem.json": 2,
               "pincerspear.activeitem.json": 2,
+              "precursorspear": {
+                "precursorspear.activeitem.json": 2
+              },
               "pyreitespear.activeitem.json": 2,
               "quietusspear.activeitem.json": 1,
               "shared_.activeitem.json": 1,
@@ -933,10 +957,11 @@
               }
             },
             "precursorpistol": {
-              "precursorpistobeam.activeitem.json": 1,
               "precursorpistol.activeitem.json": 2,
-              "precursorpistolice.activeitem.json": 1,
-              "shared_precursorpisto.json": 1
+              "precursorpistolbeam.activeitem.json": 2,
+              "precursorpistolice.activeitem.json": 2,
+              "precursorpistolshock.activeitem.json": 2,
+              "precursorpistolxray.activeitem.json": 2
             },
             "tentaclegun": {
               "shadowtentaclegun.activeitem.json": 3
@@ -1288,7 +1313,7 @@
               "druidstaff2.activeitem.json": 1
             },
             "gravitystaff": {
-              "gravitystaff.activeitem.json": 2
+              "gravitystaff.activeitem.json": 3
             },
             "lasereyestaff": {
               "fu_lasereyestaff.activeitem.json": 2
@@ -1933,7 +1958,7 @@
             "shared_enforcerarmor..json": 1
           },
           "fieldscience": {
-            "fieldscientist.chest.json": 2,
+            "fieldscientist.chest.json": 1,
             "fieldscientist.head.json": 1,
             "fieldscientist.legs.json": 1,
             "fieldscientisthead2.head.json": 2,
@@ -1957,7 +1982,7 @@
           "fudiver2": {
             "fudiver2.chest.json": 1,
             "fudiver2.head.json": 1,
-            "fudiver2.legs.json": 2,
+            "fudiver2.legs.json": 1,
             "shared_fudiver2..json": 1
           },
           "fuguardian": {
@@ -3632,8 +3657,8 @@
           "skills": {
             "eyebeamattack.monsterskill.json": 1,
             "fleshbombattack.monsterskill.json": 1,
-            "minishoggothspawnattack.monsterskill.json": 1,
-            "shoggothacidattack.monsterskill.json": 1,
+            "shared_minishoggothspawnattack.json": 1,
+            "shared_shoggothacidattack.json": 1,
             "shoggothchargeattack.monsterskill.json": 1,
             "tentacleswipeattack.monsterskill.json": 1
           }
@@ -4135,7 +4160,7 @@
         "burrowers": {
           "shared_burrower": {
             "shared_.monstertype.json": 2,
-            "shared_burrower.monstertype.json": 1
+            "shared__burrower.monstertype.json": 1
           }
         },
         "distortionsnakes": {
@@ -5071,6 +5096,9 @@
         }
       },
       "devtools": {
+        "ClockTest": {
+          "ItemScanner.object.json": 2
+        },
         "ItemGenerator": {
           "ItemGenerator.config.json": 1,
           "ItemGenerator.object.json": 2
@@ -5080,9 +5108,7 @@
           "ItemScannerTransferLib.object.json": 1,
           "shared_ItemScanner.json": 1
         },
-        "shared_Item": {
-          "shared_.config.json": 1
-        }
+        "shared_.config.json": 1
       },
       "dispensers": {
         "pixeldispenser.object.json": 8
@@ -5509,9 +5535,7 @@
           "shared_wretchelseed.object.json": 2
         },
         "wubstem": {
-          "shared_wubstemseed.object.json": 1,
-          "wildwubstemseed.object.json": 1,
-          "wubstemseed.object.json": 1
+          "shared_wubstemseed.object.json": 2
         },
         "xaxseed": {
           "xaxseed.object.json": 2
@@ -7221,6 +7245,7 @@
       "fu_ore.radiomessages.json": 19,
       "fu_resources.radiomessages.json": 48,
       "fu_stations.radiomessages.json": 2,
+      "missions.radiomessages.json": 229,
       "shared_.radiomessages.json": 1,
       "shared_es.radiomessages.json": 1
     },
@@ -7241,7 +7266,7 @@
     "shared_ers": {
       "shared_waterbot.json": 1
     },
-    "shared_ers.json": 4,
+    "shared_ers.json": 5,
     "shared_fusnowberry.json": 1,
     "shared_ghostmushroom.json": 1,
     "shared_hellfire.json": 1,
@@ -7263,7 +7288,6 @@
     "shared_sand..json": 1,
     "shared_shroom.json": 1,
     "shared_stat.json": 1,
-    "shared_ste.json": 1,
     "shared_sulphur.json": 1,
     "shared_tion.json": 2,
     "shared_weapon.json": 1,
@@ -7323,11 +7347,32 @@
         },
         "damagebonus": {
           "damagebonus.animation.json": 1,
-          "shared_.statuseffect.json": 1
+          "damagebonus.statuseffect.json": 1,
+          "damagebonus01.statuseffect.json": 1,
+          "damagebonus2.statuseffect.json": 1,
+          "damagebonus3.statuseffect.json": 1,
+          "damagebonus4.statuseffect.json": 1,
+          "damagebonus5.statuseffect.json": 1,
+          "damagebonus6.statuseffect.json": 1
         },
         "defenseboost": {
+          "defense1.statuseffect.json": 1,
+          "defense2.statuseffect.json": 1,
+          "defense3.statuseffect.json": 1,
+          "defense4.statuseffect.json": 1,
+          "defense5.statuseffect.json": 1,
+          "defenseboost120.statuseffect.json": 1,
+          "defenseboost15.statuseffect.json": 1,
+          "defenseboost180.statuseffect.json": 1,
+          "defenseboost210.statuseffect.json": 1,
+          "defenseboost240.statuseffect.json": 1,
+          "defenseboost270.statuseffect.json": 1,
+          "defenseboost30.statuseffect.json": 1,
+          "defenseboost300.statuseffect.json": 1,
+          "defenseboost60.statuseffect.json": 1,
+          "defenseboost90.statuseffect.json": 1,
           "defenseboostneg20.statuseffect.json": 1,
-          "shared_.statuseffect.json": 1
+          "shared_.statuseffect.json": 2
         },
         "directivetest": {
           "directivetest.statuseffect.json": 1
@@ -7409,6 +7454,7 @@
             "intersecsetbonuseffect.statuseffect.json": 1,
             "intrepidsetbonuseffect.statuseffect.json": 1,
             "invadersetbonuseffect.statuseffect.json": 1,
+            "irradiumsetbonuseffect.statuseffect.json": 1,
             "isogensetbonuseffect.statuseffect.json": 1,
             "junkersetbonuseffect.statuseffect.json": 1,
             "krakensetbonuseffect.statuseffect.json": 1,
@@ -7434,6 +7480,7 @@
             "protectorsetbonuseffect.statuseffect.json": 1,
             "pyreitesetbonuseffect.statuseffect.json": 1,
             "queensetbonuseffect.statuseffect.json": 1,
+            "raidersetbonuseffect.statuseffect.json": 1,
             "rangersetbonuseffect.statuseffect.json": 1,
             "ravagersetbonuseffect.statuseffect.json": 1,
             "reconsetbonuseffect.statuseffect.json": 1,
@@ -7447,7 +7494,7 @@
             "scoutsetbonuseffect.statuseffect.json": 1,
             "sentrysetbonuseffect.statuseffect.json": 1,
             "shadowbonesetbonuseffect.statuseffect.json": 1,
-            "shared_setbonuseffect.statuseffect.json": 2,
+            "shared_setbonuseffect.statuseffect.json": 1,
             "shared_slimesetbonuseffect.json": 1,
             "shieldedsetbonuseffect.statuseffect.json": 1,
             "shoggothsetbonuseffect.statuseffect.json": 1,
@@ -7493,17 +7540,18 @@
             "eatself.statuseffect.json": 1
           },
           "energyregenfu": {
-            "energyregenfu_armor20.statuseffect.json": 1,
-            "energyregenfu_armor30.statuseffect.json": 1,
-            "energyregenfu_armor40.statuseffect.json": 1,
-            "energyregenfu_armor50.statuseffect.json": 1,
-            "energyregenfu_armor60.statuseffect.json": 1,
-            "energyregenfu_armor75.statuseffect.json": 1,
-            "energyregenfu_erithian.statuseffect.json": 1,
-            "energyregenfu_morphite.statuseffect.json": 1,
-            "energyregenfu_proto.statuseffect.json": 1,
-            "energyregenfu_quantum.statuseffect.json": 1,
-            "shared_energyregenfu.json": 1
+            "energyregenfu05.statuseffect.json": 1,
+            "energyregenfu35.statuseffect.json": 1,
+            "shared_20.statuseffect.json": 1,
+            "shared_40.statuseffect.json": 1,
+            "shared_50.statuseffect.json": 1,
+            "shared_60.statuseffect.json": 1,
+            "shared_75.statuseffect.json": 1,
+            "shared_energyregenfu.json": 3,
+            "shared_energyregenfu_.json": 1
+          },
+          "energyrestorepercentage": {
+            "shared_.statuseffect.json": 1
           },
           "glow": {
             "shared_.statuseffect.json": 1
@@ -7729,7 +7777,10 @@
           "shared_booze.json": 1
         },
         "jumpboost": {
-          "shared_.statuseffect.json": 1
+          "jumpboost15.statuseffect.json": 1,
+          "jumpboost25.statuseffect.json": 1,
+          "jumpboost35.statuseffect.json": 1,
+          "jumpboostwarriorrobes.statuseffect.json": 1
         },
         "liquidimmunity": {
           "gasimmunity.statuseffect.json": 1
@@ -7741,13 +7792,30 @@
           "shared_.statuseffect.json": 1
         },
         "maxenergyboost": {
-          "maxenergyboostneg20.statuseffect.json": 1,
-          "shared_maxenergyboost.json": 1
+          "maxenergyboost1.statuseffect.json": 1,
+          "maxenergyboost145.statuseffect.json": 1,
+          "maxenergyboost2.statuseffect.json": 1,
+          "maxenergyboost3.statuseffect.json": 1,
+          "maxenergyboost4.statuseffect.json": 1,
+          "maxenergyboost5.statuseffect.json": 1,
+          "maxenergyboost6.statuseffect.json": 1,
+          "maxenergyboost65.statuseffect.json": 1,
+          "maxenergyboost90.statuseffect.json": 1,
+          "maxenergyboostneg20.statuseffect.json": 1
         },
         "maxhealthboost": {
+          "maxhealthboost1.statuseffect.json": 1,
+          "maxhealthboost120.statuseffect.json": 1,
+          "maxhealthboost2.statuseffect.json": 1,
+          "maxhealthboost3.statuseffect.json": 1,
+          "maxhealthboost4.statuseffect.json": 1,
+          "maxhealthboost5.statuseffect.json": 1,
+          "maxhealthboost6.statuseffect.json": 1,
+          "maxhealthboost70.statuseffect.json": 1,
+          "maxhealthboost80.statuseffect.json": 1,
+          "maxhealthboost90.statuseffect.json": 1,
           "maxhealthboostneg10.statuseffect.json": 1,
           "maxhealthboostneg20.statuseffect.json": 1,
-          "shared_maxhealthboost.json": 1,
           "sulphurattack.statuseffect.json": 1
         },
         "partytime": {
@@ -7788,6 +7856,7 @@
           "percentenergyboost.animation.json": 1,
           "percentenergyboost10.statuseffect.json": 1,
           "percentenergyboost15.statuseffect.json": 1,
+          "percentenergyboost2.animation.json": 1,
           "percentenergyboost35.statuseffect.json": 1,
           "percentenergyboost40.statuseffect.json": 1,
           "percentenergyboost5.statuseffect.json": 1,
@@ -7815,28 +7884,43 @@
           "shared_radioactiveblock.json": 1
         },
         "rage": {
-          "shared_.statuseffect.json": 1
+          "rage100.statuseffect.json": 1,
+          "rage20fu.statuseffect.json": 1,
+          "rage30.statuseffect.json": 1,
+          "rage40.statuseffect.json": 1,
+          "rage50.statuseffect.json": 1,
+          "rage60.statuseffect.json": 1,
+          "rage75.statuseffect.json": 1
         },
         "regeneration": {
           "lightregen.statuseffect.json": 1,
           "precursorregeneration.statuseffect.json": 1,
-          "regeneration01.statuseffect.json": 1,
           "regeneration2.statuseffect.json": 1,
-          "regeneration3.statuseffect.json": 1,
-          "regeneration4.statuseffect.json": 1,
           "regenerationblock.statuseffect.json": 1,
+          "regenerationminor000.statuseffect.json": 1,
           "regenerationminor2.statuseffect.json": 1,
+          "regenerationminor2augment.statuseffect.json": 1,
           "regenerationminor3.statuseffect.json": 1,
+          "regenerationminor3augment.statuseffect.json": 1,
+          "regenerationminoraugment.statuseffect.json": 1,
+          "regenerationmiraclegrass.statuseffect.json": 1,
           "regenerationsanguine.statuseffect.json": 1,
-          "shared_darkregen.json": 1,
-          "shared_regenerationmi.json": 1
+          "shared_.statuseffect.json": 2,
+          "shared_darkregen.json": 1
         },
         "runboost": {
-          "runboostdebuff.statuseffect.json": 1,
-          "shared_.statuseffect.json": 1
+          "runboost10.statuseffect.json": 1,
+          "runboost15.statuseffect.json": 1,
+          "runboost25.statuseffect.json": 1,
+          "runboost35.statuseffect.json": 1,
+          "runboost75.statuseffect.json": 1,
+          "runboostdebuff.statuseffect.json": 1
         },
         "shadowblock": {
           "shared_.statuseffect.json": 1
+        },
+        "shared_energyboost": {
+          "shared_energyboostneg100.json": 1
         },
         "shared_slow.json": 1,
         "swimboost": {
