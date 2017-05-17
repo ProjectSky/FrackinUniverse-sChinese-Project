@@ -447,6 +447,9 @@
   "codex/precursor/precursor10.codex": {
     "/description": "texts/codex/precursor/shared_precursor.json"
   },
+  "codex/precursor/precursor11.codex": {
+    "/description": "texts/codex/precursor/shared_precursor.json"
+  },
   "codex/precursor/precursor2.codex": {
     "/description": "texts/codex/precursor/shared_precursor.json"
   },
@@ -3960,6 +3963,30 @@
   "monsters/fulegacyscripts/ground/skills/shieldspecial.monsterskill": {
     "/label": "texts/monsters/fulegacyscripts/ground/skills/shared_shieldspecial.monsterskill.json"
   },
+  "monsters/generated/flying/skills/divebombAttack.monsterskill": {
+    "/label": "texts/monsters/generated/flying/skills/shared_Attack.monsterskill.json"
+  },
+  "monsters/generated/flying/skills/megadiveAttack.monsterskill": {
+    "/label": "texts/monsters/generated/flying/skills/shared_Attack.monsterskill.json"
+  },
+  "monsters/generated/skills/new/glowcritterAttack.monsterskill": {
+    "/label": "texts/monsters/generated/skills/new/shared_glowcritterAttack.json"
+  },
+  "monsters/generated/skills/new/glowcritterAttack2.monsterskill": {
+    "/label": "texts/monsters/generated/skills/new/shared_glowcritterAttack.json"
+  },
+  "monsters/generated/skills/new/iceBelchAttack.monsterskill": {
+    "/label": "texts/monsters/generated/skills/shared_BelchAttack.monsterskill.json"
+  },
+  "monsters/generated/skills/new/kluexAuraAttack.monsterskill": {
+    "/label": "texts/monsters/generated/skills/new/shared_AuraAttack.monsterskill.json"
+  },
+  "monsters/generated/skills/new/pullAuraAttack.monsterskill": {
+    "/label": "texts/monsters/generated/skills/new/shared_AuraAttack.monsterskill.json"
+  },
+  "monsters/generated/skills/new/slowAuraAttack.monsterskill": {
+    "/label": "texts/monsters/generated/skills/new/shared_AuraAttack.monsterskill.json"
+  },
   "monsters/generated/skills/ranged/acidicSpitAttack.monsterskill": {
     "/label": "texts/monsters/shared_ttack.monsterskill.json"
   },
@@ -3980,6 +4007,9 @@
   },
   "monsters/generated/skills/ranged/flySwarmAttack.monsterskill": {
     "/label": "texts/monsters/shared_ttack.monsterskill.json"
+  },
+  "monsters/generated/skills/ranged/gasBelchAttack.monsterskill": {
+    "/label": "texts/monsters/generated/skills/shared_BelchAttack.monsterskill.json"
   },
   "monsters/generated/skills/ranged/raptorstrikeattack2.monsterskill": {
     "/label": "texts/monsters/generated/skills/ranged/shared_raptorstrikeattack.json"
@@ -4415,7 +4445,7 @@
     "/label": "texts/monsters/shared_skill.json"
   },
   "monsters/skills/ranged/emptyfu.monsterskill": {
-    "/label": "texts/shared_ers.json"
+    "/label": "texts/shared_ste.json"
   },
   "monsters/skills/ranged/frostPoisonBlastAttack.monsterskill": {
     "/label": "texts/monsters/skills/ranged/shared_PoisonBlastAttack.monsterskill.json"
@@ -10423,6 +10453,18 @@
     "/novakidDescription": "texts/objects/questturnins.json",
     "/shortdescription": "texts/objects/questturnins.json"
   },
+  "objects/questturnins/challengelabs/extrachallengelabs3turnin.object": {
+    "/apexDescription": "texts/objects/questturnins.json",
+    "/avianDescription": "texts/objects/questturnins.json",
+    "/description": "texts/objects/questturnins.json",
+    "/floranDescription": "texts/objects/questturnins.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/questturnins.json",
+    "/humanDescription": "texts/objects/questturnins.json",
+    "/hylotlDescription": "texts/objects/questturnins.json",
+    "/novakidDescription": "texts/objects/questturnins.json",
+    "/shortdescription": "texts/objects/questturnins.json"
+  },
   "objects/questturnins/evernightturnin.object": {
     "/apexDescription": "texts/objects/questturnins.json",
     "/avianDescription": "texts/objects/questturnins.json",
@@ -11533,7 +11575,7 @@
     "/description": "texts/objects/wired/extranpcspawner/shared_npcspawner.object.json"
   },
   "objects/wired/extrasmashablepersistentswitch/extrasmashablepersistentswitch.object": {
-    "/description": "texts/shared_ers.json"
+    "/description": "texts/shared_ste.json"
   },
   "objects/wired/fu_turrets/fu_flameturret/fu_flameturret.object": {
     "/apexDescription": "texts/objects/wired/fu_turrets/shared_turret/shared_turret.object.json",
@@ -12312,6 +12354,24 @@
   },
   "quests/base_new/create_blackglass.questtemplate": {
     "/completionText": "texts/quests/shared_base/shared_.questtemplate.json"
+  },
+  "quests/challengelabs/extrachallengelabs1.questtemplate": {
+    "/completionText": "texts/quests/challengelabs/shared_extrachallengelabs.json",
+    "/scriptConfig/turnInDescription": "texts/quests/challengelabs/shared_extrachallengelabs.json",
+    "/text": "texts/quests/challengelabs/shared_extrachallengelabs.json",
+    "/title": "texts/quests/challengelabs/shared_extrachallengelabs.json"
+  },
+  "quests/challengelabs/extrachallengelabs2.questtemplate": {
+    "/completionText": "texts/quests/challengelabs/shared_extrachallengelabs.json",
+    "/scriptConfig/turnInDescription": "texts/quests/challengelabs/shared_extrachallengelabs.json",
+    "/text": "texts/quests/challengelabs/shared_extrachallengelabs.json",
+    "/title": "texts/quests/challengelabs/shared_extrachallengelabs.json"
+  },
+  "quests/challengelabs/extrachallengelabs3.questtemplate": {
+    "/completionText": "texts/quests/challengelabs/shared_extrachallengelabs.json",
+    "/scriptConfig/turnInDescription": "texts/quests/challengelabs/shared_extrachallengelabs.json",
+    "/text": "texts/quests/challengelabs/shared_extrachallengelabs.json",
+    "/title": "texts/quests/challengelabs/shared_extrachallengelabs.json"
   },
   "quests/tech/dash/airdash2.questtemplate": {
     "/title": "texts/quests/tech/dash/shared_dash2.questtemplate.json"
