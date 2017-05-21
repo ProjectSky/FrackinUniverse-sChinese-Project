@@ -348,6 +348,7 @@
       "precursor": {
         "precursor1.codex.json": 7,
         "precursor10.codex.json": 5,
+        "precursor11.codex.json": 6,
         "precursor2.codex.json": 2,
         "precursor3.codex.json": 2,
         "precursor4.codex.json": 2,
@@ -364,7 +365,8 @@
         "wagner1.codex.json": 4,
         "wagner2.codex.json": 6,
         "wagner3.codex.json": 13,
-        "wagner4.codex.json": 6
+        "wagner4.codex.json": 6,
+        "wagner5.codex.json": 9
       }
     },
     "collections": {
@@ -381,7 +383,7 @@
       "macready.config.json": 1
     },
     "generic.json": 1,
-    "glitchEmotes.json": 148,
+    "glitchEmotes.json": 146,
     "interface": {
       "chests": {
         "genechest128.config.json": 1
@@ -1391,6 +1393,11 @@
           "acidprotectionback": {
             "acidprotection.back.json": 2
           },
+          "battlepack": {
+            "battlepack.back.json": 2,
+            "battlepack2.back.json": 2,
+            "battlepack3.back.json": 2
+          },
           "coldprotection": {
             "coldprotection.back.json": 2,
             "coldprotection2.back.json": 2,
@@ -1402,11 +1409,11 @@
           "erithianalgaepack": {
             "batterypack_erithian.back.json": 2
           },
-          "feedpack": {
-            "feedpack.back.json": 2
-          },
           "fieldgenerator": {
             "fieldgenerator.back.json": 2
+          },
+          "flexcape": {
+            "flexcape.back.json": 2
           },
           "fufallenangelwings": {
             "fufallenangelwings.back.json": 2
@@ -2822,6 +2829,22 @@
           "penumbriteore.item.json": 2,
           "pesticide.item.json": 2,
           "phosphorus.item.json": 2,
+          "precursor": {
+            "cell_advanced.item.json": 2,
+            "cell_mutated.item.json": 2,
+            "exoticmatter.item.json": 2,
+            "experimentalgene.item.json": 2,
+            "precursorbattery.item.json": 2,
+            "precursorcharger.item.json": 2,
+            "precursorchip.item.json": 2,
+            "precursorcore.item.json": 2,
+            "precursordatadrive.item.json": 2,
+            "precursorfluid.item.json": 2,
+            "precursorfuelcell.item.json": 2,
+            "precursorgel.item.json": 2,
+            "precursorgrease.item.json": 2,
+            "precursorram.item.json": 2
+          },
           "protociteore.item.json": 1,
           "pyreiteore.item.json": 2,
           "quietusore.item.json": 2,
@@ -2865,7 +2888,7 @@
             "wartwine.consumable.json": 2,
             "weyene.consumable.json": 2,
             "wheatsprout.item.json": 2,
-            "winebottle.item.json": 2,
+            "winebottle.consumable.json": 2,
             "wineglass.item.json": 2,
             "wort.item.json": 2,
             "yeastwater.item.json": 2
@@ -2935,7 +2958,8 @@
             "applecider.consumable.json": 2,
             "meadbottle.consumable.json": 2,
             "perry.consumable.json": 2,
-            "perrybottle.consumable.json": 2
+            "perrybottle.consumable.json": 2,
+            "premiumcyanider.consumable.json": 2
           },
           "rums": {
             "agedrum.consumable.json": 1,
@@ -3872,6 +3896,10 @@
         }
       },
       "farming": {
+        "fudodofarm": {
+          "fudodofarm.monstertype.json": 1,
+          "shared_.monstertype.json": 1
+        },
         "hen": {
           "fuhen.monstertype.json": 1
         },
@@ -4068,7 +4096,41 @@
         }
       },
       "generated": {
+        "flying": {
+          "skills": {
+            "pigeonSwoopAttack.monsterskill.json": 1,
+            "raptorswoopAttack.monsterskill.json": 1,
+            "shared_Attack.monsterskill.json": 1
+          }
+        },
+        "ground": {
+          "hugebiped": {
+            "hugebiped.monstertype.json": 2
+          },
+          "skills": {
+            "fumeleeAttack.monsterskill.json": 1
+          }
+        },
         "skills": {
+          "new": {
+            "cageWall.monsterskill.json": 1,
+            "crystalAttack.monsterskill.json": 1,
+            "flamingAuraAttack.monsterskill.json": 1,
+            "goopAttack.monsterskill.json": 1,
+            "gravAuraAttack.monsterskill.json": 1,
+            "iceAuraAttack.monsterskill.json": 1,
+            "kluexBlastAttack.monsterskill.json": 1,
+            "poisonAuraAttack.monsterskill.json": 1,
+            "pushAuraAttack.monsterskill.json": 1,
+            "roarAttack.monsterskill.json": 1,
+            "seedAttack.monsterskill.json": 1,
+            "shared_AuraAttack.monsterskill.json": 1,
+            "shared_glowcritterAttack.json": 1,
+            "shitShowerAttack.monsterskill.json": 1,
+            "shockAuraAttack.monsterskill.json": 1,
+            "spinAssaultAttack.monsterskill.json": 1,
+            "steamAttack.monsterskill.json": 1
+          },
           "ranged": {
             "acidSprayAttack.monsterskill.json": 1,
             "beamBurstAttack.monsterskill.json": 1,
@@ -4084,7 +4146,6 @@
             "fireSwirlAttack.monsterskill.json": 1,
             "fireballAttack.monsterskill.json": 1,
             "flameBurstAttack.monsterskill.json": 1,
-            "gasBelchAttack.monsterskill.json": 1,
             "glitterAttack.monsterskill.json": 1,
             "iceBlastAttack.monsterskill.json": 1,
             "iceShotAttack.monsterskill.json": 1,
@@ -4103,6 +4164,7 @@
             "rockRollAttack.monsterskill.json": 1,
             "rockShotAttack.monsterskill.json": 1,
             "seedSpitAttack.monsterskill.json": 1,
+            "shadowbeastAttack.monsterskill.json": 1,
             "shardSprayAttack.monsterskill.json": 1,
             "shared_.monsterskill.json": 1,
             "shared_raptorstrikeattack.json": 1,
@@ -4117,7 +4179,8 @@
             "staticDischarge.monsterskill.json": 1,
             "tentacleShotAttack.monsterskill.json": 1,
             "waterGunAttack.monsterskill.json": 1
-          }
+          },
+          "shared_BelchAttack.monsterskill.json": 1
         }
       },
       "ghosts": {
@@ -4699,8 +4762,8 @@
         "highwayzeldia.npctype.json": 6
       },
       "scienceoutpost": {
-        "fuoutpostcivilian.npctype.json": 7,
-        "shared_fuoutpostcivilian.json": 25
+        "fuoutpostcivilian2.npctype.json": 1,
+        "shared_fuoutpostcivilian.json": 41
       },
       "shared_.npctype.json": 55,
       "shared_nge.json": 3,
@@ -5223,6 +5286,11 @@
         },
         "dunestalk": {
           "shared_dunestalkseed.object.json": 17
+        },
+        "eggs": {
+          "copperbeakegg": {
+            "copperbeakegg.object.json": 2
+          }
         },
         "energiflower": {
           "shared_energiflowerseed.object.json": 2
@@ -6392,7 +6460,7 @@
           "isn_incinerator.object.json": 7
         },
         "isn_powdersifter": {
-          "isn_powdersifter.object.json": 8
+          "isn_powdersifter.object.json": 2
         },
         "isn_powersensor": {
           "isn_powersensor.object.json": 2
@@ -7102,6 +7170,9 @@
         "8spirits.questtemplate.json": 4,
         "9merrymead.questtemplate.json": 4
       },
+      "challengelabs": {
+        "shared_extrachallengelabs.json": 4
+      },
       "evernight.questtemplate.json": 4,
       "forestoffae.questtemplate.json": 4,
       "fu_scienceoutpost.questtemplate.json": 5,
@@ -7324,6 +7395,23 @@
       "shared_servitor": {
         "shared_.object.json": 1
       }
+    },
+    "species": {
+      "fuanodyne.species.json": 8,
+      "fudarkizku.species.json": 2,
+      "fuizku.species.json": 2,
+      "fukirhos.species.json": 4,
+      "fumantis.species.json": 8,
+      "fumantizi.species.json": 7,
+      "kirhosnamegen.config.json": 180,
+      "mantisnamegen.config.json": 37,
+      "mantizifemalenamegen.config.json": 19,
+      "mantizimalenamegen.config.json": 35,
+      "shared_.species.json": 9,
+      "shared_izku.species.json": 5,
+      "shared_malenamegen.config.json": 38,
+      "thelusian.species.json": 6,
+      "thelusiannamegen.config.json": 1
     },
     "stats": {
       "effects": {
