@@ -257,6 +257,7 @@
         "ffguide5.codex.json": 19,
         "networkguide.codex.json": 11,
         "networkguide2.codex.json": 14,
+        "scienceoutpost_kevin.codex.json": 0,
         "shared_ffguide.json": 1,
         "shared_networkguide.json": 1
       },
@@ -364,9 +365,9 @@
         "elder_research2.codex.json": 3,
         "wagner1.codex.json": 4,
         "wagner2.codex.json": 6,
-        "wagner3.codex.json": 12,
+        "wagner3.codex.json": 13,
         "wagner4.codex.json": 6,
-        "wagner5.codex.json": 0
+        "wagner5.codex.json": 9
       }
     },
     "collections": {
@@ -389,7 +390,7 @@
         "genechest128.config.json": 1
       },
       "cockpit": {
-        "cockpit.config.json": 240
+        "cockpit.config.json": 267
       },
       "itemdescriptions": {
         "armornew.itemdescription.json": 1,
@@ -1394,9 +1395,9 @@
             "acidprotection.back.json": 2
           },
           "battlepack": {
-            "battlepack.back.json": 0,
-            "battlepack2.back.json": 0,
-            "battlepack3.back.json": 0
+            "battlepack.back.json": 2,
+            "battlepack2.back.json": 2,
+            "battlepack3.back.json": 2
           },
           "coldprotection": {
             "coldprotection.back.json": 2,
@@ -1413,7 +1414,7 @@
             "fieldgenerator.back.json": 2
           },
           "flexcape": {
-            "flexcape.back.json": 0
+            "flexcape.back.json": 2
           },
           "fufallenangelwings": {
             "fufallenangelwings.back.json": 2
@@ -1522,6 +1523,35 @@
             "sciencefunpc.chest.json": 1,
             "sciencefunpc.head.json": 1,
             "sciencefunpc.legs.json": 1
+          }
+        },
+        "decorative": {
+          "new": {
+            "chaos": {
+              "test1.chest.json": 0,
+              "test1.head.json": 0,
+              "test1.legs.json": 0
+            },
+            "masquerade": {
+              "test1.chest.json": 0,
+              "test1.head.json": 0,
+              "test1.legs.json": 0
+            },
+            "mutachitin": {
+              "test1.chest.json": 0,
+              "test1.head.json": 0,
+              "test1.legs.json": 0
+            },
+            "shellplate": {
+              "test1.chest.json": 0,
+              "test1.head.json": 0,
+              "test1.legs.json": 0
+            },
+            "vile": {
+              "test1.chest.json": 0,
+              "test1.head.json": 0,
+              "test1.legs.json": 0
+            }
           }
         },
         "other": {
@@ -1770,11 +1800,16 @@
             "warriorrobes.head.json": 1,
             "warriorrobes.legs.json": 1
           },
+          "battleborn": {
+            "shared_test1..json": 0,
+            "test1.chest.json": 0,
+            "test1.head.json": 0,
+            "test1.legs.json": 0
+          },
           "chitin": {
             "chitin.chest.json": 1,
             "chitin.head.json": 1,
-            "chitin.legs.json": 1,
-            "shared_chitin..json": 1
+            "chitin.legs.json": 1
           },
           "corsair": {
             "kirhostier3.chest.json": 1,
@@ -2061,6 +2096,12 @@
             "irradiumarmor.legs.json": 1,
             "shared_irradiumarmor..json": 1
           },
+          "kingslayer": {
+            "shared_test1..json": 0,
+            "test1.chest.json": 0,
+            "test1.head.json": 0,
+            "test1.legs.json": 0
+          },
           "monsterplating": {
             "fumonsterplatedarmor.chest.json": 1,
             "fumonsterplatedarmor.head.json": 1,
@@ -2288,6 +2329,12 @@
             "fuxithricite.legs.json": 1,
             "shared_fuxithricite..json": 1
           },
+          "geist": {
+            "shared_test1..json": 0,
+            "test1.chest.json": 0,
+            "test1.head.json": 0,
+            "test1.legs.json": 0
+          },
           "gladiator": {
             "kirhostier6separator.chest.json": 1,
             "kirhostier6separator.head.json": 1,
@@ -2407,10 +2454,11 @@
             "woodenmask.head.json": 2
           },
           "yogsotothhat": {
-            "yogsotothhat.head.json": 1
+            "yogsotothhat.head.json": 2
           }
         }
       },
+      "armors.json": 1,
       "augments": {
         "back": {
           "environment": {
@@ -2830,20 +2878,20 @@
           "pesticide.item.json": 2,
           "phosphorus.item.json": 2,
           "precursor": {
-            "cell_advanced.item.json": 0,
-            "cell_mutated.item.json": 0,
-            "exoticmatter.item.json": 0,
-            "experimentalgene.item.json": 0,
-            "precursorbattery.item.json": 0,
-            "precursorcharger.item.json": 0,
-            "precursorchip.item.json": 0,
-            "precursorcore.item.json": 0,
-            "precursordatadrive.item.json": 0,
-            "precursorfluid.item.json": 0,
-            "precursorfuelcell.item.json": 0,
-            "precursorgel.item.json": 0,
-            "precursorgrease.item.json": 0,
-            "precursorram.item.json": 0
+            "cell_advanced.item.json": 2,
+            "cell_mutated.item.json": 2,
+            "exoticmatter.item.json": 2,
+            "experimentalgene.item.json": 2,
+            "precursorbattery.item.json": 2,
+            "precursorcharger.item.json": 2,
+            "precursorchip.item.json": 2,
+            "precursorcore.item.json": 2,
+            "precursordatadrive.item.json": 2,
+            "precursorfluid.item.json": 2,
+            "precursorfuelcell.item.json": 2,
+            "precursorgel.item.json": 2,
+            "precursorgrease.item.json": 2,
+            "precursorram.item.json": 2
           },
           "protociteore.item.json": 1,
           "pyreiteore.item.json": 2,
@@ -2888,7 +2936,7 @@
             "wartwine.consumable.json": 2,
             "weyene.consumable.json": 2,
             "wheatsprout.item.json": 2,
-            "winebottle.consumable.json": 0,
+            "winebottle.consumable.json": 2,
             "wineglass.item.json": 2,
             "wort.item.json": 2,
             "yeastwater.item.json": 2
@@ -2958,8 +3006,8 @@
             "applecider.consumable.json": 2,
             "meadbottle.consumable.json": 2,
             "perry.consumable.json": 2,
-            "perrybottle.consumable.json": 1,
-            "premiumcyanider.consumable.json": 0
+            "perrybottle.consumable.json": 2,
+            "premiumcyanider.consumable.json": 2
           },
           "rums": {
             "agedrum.consumable.json": 1,
@@ -4762,8 +4810,8 @@
         "highwayzeldia.npctype.json": 6
       },
       "scienceoutpost": {
-        "fuoutpostcivilian2.npctype.json": 0,
-        "shared_fuoutpostcivilian.json": 16
+        "fuoutpostcivilian2.npctype.json": 1,
+        "shared_fuoutpostcivilian.json": 41
       },
       "shared_.npctype.json": 55,
       "shared_nge.json": 3,
@@ -5089,7 +5137,7 @@
           "fu_growingtray.object.json": 2
         },
         "fu_woodensifter": {
-          "fu_woodensifter.object.json": 1
+          "fu_woodensifter.object.json": 2
         },
         "fuincubator": {
           "fuincubator.object.json": 2
@@ -5289,7 +5337,7 @@
         },
         "eggs": {
           "copperbeakegg": {
-            "copperbeakegg.object.json": 0
+            "copperbeakegg.object.json": 2
           }
         },
         "energiflower": {
@@ -6460,7 +6508,7 @@
           "isn_incinerator.object.json": 7
         },
         "isn_powdersifter": {
-          "isn_powdersifter.object.json": 1
+          "isn_powdersifter.object.json": 2
         },
         "isn_powersensor": {
           "isn_powersensor.object.json": 2
@@ -7171,7 +7219,7 @@
         "9merrymead.questtemplate.json": 4
       },
       "challengelabs": {
-        "shared_extrachallengelabs.json": 0
+        "shared_extrachallengelabs.json": 4
       },
       "evernight.questtemplate.json": 4,
       "forestoffae.questtemplate.json": 4,
@@ -7411,7 +7459,7 @@
       "shared_izku.species.json": 0,
       "shared_malenamegen.config.json": 0,
       "thelusian.species.json": 0,
-      "thelusiannamegen.config.json": 0
+      "thelusiannamegen.config.json": 1
     },
     "stats": {
       "effects": {
@@ -7501,6 +7549,7 @@
             "arcticsetbonuseffect.statuseffect.json": 1,
             "assassinisetbonuseffect.statuseffect.json": 1,
             "assaultsetbonuseffect.statuseffect.json": 1,
+            "battlebornsetbonuseffect.statuseffect.json": 0,
             "bearsetbonuseffect.statuseffect.json": 1,
             "bearsetbonuseffect2.statuseffect.json": 1,
             "biofleshsetbonuseffect.statuseffect.json": 1,
