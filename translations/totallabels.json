@@ -921,6 +921,9 @@
             "angryrocket": {
               "angryrocket.activeitem.json": 3
             },
+            "chargegun": {
+              "chargegun2.activeitem.json": 2
+            },
             "fuadaptablecrossbow": {
               "fuadaptablecrossbow.activeitem.json": 2
             },
@@ -1084,7 +1087,7 @@
               "fustingergun2.activeitem.json": 2,
               "fuvaporizer.activeitem.json": 2,
               "goregun.activeitem.json": 2,
-              "gravgun.activeitem.json": 2,
+              "gravgun.activeitem.json": 3,
               "gravitongun.activeitem.json": 1,
               "gravitonpistol.activeitem.json": 1,
               "gravitonpistolunique.activeitem.json": 2,
@@ -1100,7 +1103,7 @@
               "longarmpistol.activeitem.json": 2,
               "lunaripistol.activeitem.json": 1,
               "lunaririfle.activeitem.json": 1,
-              "mechgun.activeitem.json": 2,
+              "mechgun.activeitem.json": 3,
               "mechpistol.activeitem.json": 2,
               "mineralcannon.activeitem.json": 2,
               "mineralcannonadv.activeitem.json": 2,
@@ -1527,16 +1530,6 @@
         },
         "decorative": {
           "new": {
-            "chaos": {
-              "test1.chest.json": 1,
-              "test1.head.json": 1,
-              "test1.legs.json": 1
-            },
-            "masquerade": {
-              "test1.chest.json": 1,
-              "test1.head.json": 1,
-              "test1.legs.json": 1
-            },
             "mutachitin": {
               "test1.chest.json": 1,
               "test1.head.json": 1,
@@ -1806,6 +1799,12 @@
             "test1.head.json": 1,
             "test1.legs.json": 1
           },
+          "chaos": {
+            "shared_test1..json": 1,
+            "test1.chest.json": 1,
+            "test1.head.json": 1,
+            "test1.legs.json": 1
+          },
           "chitin": {
             "chitin.chest.json": 1,
             "chitin.head.json": 1,
@@ -1891,6 +1890,12 @@
             "furusted.head.json": 1,
             "furusted.legs.json": 1,
             "shared_furusted..json": 1
+          },
+          "masquerade": {
+            "shared_test1..json": 1,
+            "test1.chest.json": 1,
+            "test1.head.json": 1,
+            "test1.legs.json": 1
           },
           "mutaviskarmor": {
             "mutavisk.chest.json": 1,
@@ -2331,7 +2336,7 @@
           },
           "geist": {
             "shared_test1..json": 1,
-            "test1.chest.json": 2,
+            "test1.chest.json": 1,
             "test1.head.json": 1,
             "test1.legs.json": 1
           },
@@ -4232,6 +4237,9 @@
         }
       },
       "ghosts": {
+        "debugsphere": {
+          "debugsphere.monstertype.json": 1
+        },
         "doomspirit": {
           "doomspirit.monstertype.json": 2
         },
@@ -4310,7 +4318,6 @@
           "soft_burrower_selector.monstertype.json": 1
         }
       },
-      "shared_ers.json": 1,
       "shared_eyejell": {
         "shared_eye.json": 1
       },
@@ -4722,7 +4729,7 @@
         }
       }
     },
-    "monsters.json": 1,
+    "monsters.json": 2,
     "npcs": {
       "alienjungle": {
         "alienjunglesavage.npctype.json": 5,
@@ -7385,7 +7392,7 @@
     "shared_ers": {
       "shared_waterbot.json": 1
     },
-    "shared_ers.json": 5,
+    "shared_ers.json": 4,
     "shared_fusnowberry.json": 1,
     "shared_ghostmushroom.json": 1,
     "shared_hellfire.json": 1,
@@ -7407,6 +7414,7 @@
     "shared_sand..json": 1,
     "shared_shroom.json": 1,
     "shared_stat.json": 1,
+    "shared_ste.json": 1,
     "shared_sulphur.json": 1,
     "shared_tion.json": 2,
     "shared_weapon.json": 1,
@@ -7445,7 +7453,7 @@
       }
     },
     "species": {
-      "fuanodyne.species.json": 8,
+      "fuanodyne.species.json": 3,
       "fudarkizku.species.json": 2,
       "fuizku.species.json": 2,
       "fukirhos.species.json": 4,
@@ -7455,7 +7463,8 @@
       "mantisnamegen.config.json": 37,
       "mantizifemalenamegen.config.json": 19,
       "mantizimalenamegen.config.json": 35,
-      "shared_.species.json": 9,
+      "radien.species.json": 3,
+      "shared_.species.json": 14,
       "shared_izku.species.json": 5,
       "shared_malenamegen.config.json": 38,
       "thelusian.species.json": 6,
@@ -7560,6 +7569,7 @@
             "bountyhuntersetbonuseffect.statuseffect.json": 1,
             "cellularsetbonuseffect.statuseffect.json": 1,
             "championsetbonuseffect.statuseffect.json": 1,
+            "chaossetbonuseffect.statuseffect.json": 1,
             "chitinsetbonuseffect.statuseffect.json": 1,
             "chordatasetbonuseffect.statuseffect.json": 1,
             "corruptsetbonuseffect.statuseffect.json": 1,
@@ -7577,6 +7587,7 @@
             "evasetbonuseffect.statuseffect.json": 1,
             "fleshsetbonuseffect.statuseffect.json": 1,
             "footmansetbonuseffect.statuseffect.json": 1,
+            "geistsetbonuseffect.statuseffect.json": 1,
             "gendarmesetbonuseffect.statuseffect.json": 1,
             "geologistsetbonuseffect.statuseffect.json": 1,
             "ghostweavesetbonuseffect.statuseffect.json": 1,
@@ -7594,6 +7605,7 @@
             "irradiumsetbonuseffect.statuseffect.json": 1,
             "isogensetbonuseffect.statuseffect.json": 1,
             "junkersetbonuseffect.statuseffect.json": 1,
+            "kingslayersetbonuseffect.statuseffect.json": 1,
             "krakensetbonuseffect.statuseffect.json": 1,
             "leathersetbonuseffect.statuseffect.json": 1,
             "legioniisetbonuseffect.statuseffect.json": 1,
@@ -7631,7 +7643,7 @@
             "scoutsetbonuseffect.statuseffect.json": 1,
             "sentrysetbonuseffect.statuseffect.json": 1,
             "shadowbonesetbonuseffect.statuseffect.json": 1,
-            "shared_setbonuseffect.statuseffect.json": 2,
+            "shared_setbonuseffect.statuseffect.json": 1,
             "shared_slimesetbonuseffect.json": 1,
             "shieldedsetbonuseffect.statuseffect.json": 1,
             "shoggothsetbonuseffect.statuseffect.json": 1,
