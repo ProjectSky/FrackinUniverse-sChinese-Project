@@ -284,6 +284,7 @@
         "elderarmorbook.codex.json": 4,
         "elderbladebook.codex.json": 2,
         "elderbowbook.codex.json": 3,
+        "elderbroadswordbook.codex.json": 2,
         "eldercarbinebook.codex.json": 4,
         "eldergrapplerbook.codex.json": 3,
         "elderpistolbook.codex.json": 2,
@@ -388,6 +389,9 @@
     "interface": {
       "chests": {
         "genechest128.config.json": 1
+      },
+      "cockpit": {
+        "cockpit.config.json": 267
       },
       "itemdescriptions": {
         "armornew.itemdescription.json": 1,
@@ -697,6 +701,7 @@
                 "densiniumsword.activeitem.json": 3
               },
               "effigiumbroadsword.activeitem.json": 2,
+              "elderbroadsword.activeitem.json": 3,
               "energyblade.activeitem.json": 2,
               "energyblade2.activeitem.json": 2,
               "fuambersword.activeitem.json": 2,
@@ -1082,7 +1087,7 @@
               "fusteampunkgun.activeitem.json": 2,
               "fustingergun.activeitem.json": 2,
               "fustingergun2.activeitem.json": 2,
-              "fuvaporizer.activeitem.json": 2,
+              "fuvaporizer.activeitem.json": 3,
               "goregun.activeitem.json": 2,
               "gravgun.activeitem.json": 3,
               "gravitongun.activeitem.json": 1,
@@ -1099,7 +1104,7 @@
               "longarm.activeitem.json": 1,
               "longarmpistol.activeitem.json": 2,
               "lunaripistol.activeitem.json": 1,
-              "lunaririfle.activeitem.json": 1,
+              "lunaririfle.activeitem.json": 2,
               "mechgun.activeitem.json": 3,
               "mechpistol.activeitem.json": 2,
               "mineralcannon.activeitem.json": 2,
@@ -3350,6 +3355,8 @@
         "precursorchain.matitem.json": 1,
         "precursordecorative.matitem.json": 1,
         "precursordetail.matitem.json": 1,
+        "precursorfloor2.matitem.json": 1,
+        "precursorgirder.matitem.json": 2,
         "precursorgirdir.matitem.json": 2,
         "precursorglasswall.matitem.json": 2,
         "precursorpillar.matitem.json": 1,
@@ -3584,7 +3591,7 @@
       "shared_peglaci.json": 15,
       "shared_precursor.json": 1,
       "shared_precursorchain.mat.json": 1,
-      "shared_precursorfloor.mat.json": 1,
+      "shared_precursorfloor.json": 1,
       "shared_precursorpillar.mat.json": 1,
       "shared_protorock.json": 1,
       "shared_purpleconsole.json": 2,
@@ -6344,6 +6351,9 @@
           "precursorchest": {
             "precursorchest.object.json": 2
           },
+          "precursorconverter": {
+            "console.object.json": 2
+          },
           "precursorcorner": {
             "precursorcorner.object.json": 2
           },
@@ -6636,7 +6646,6 @@
           "moonlitcomet.object.json": 4
         }
       },
-      "shared_.object.json": 1,
       "shared_avali.json": 7,
       "shared_generator": {
         "shared_generator.config.json": 1
@@ -6965,7 +6974,7 @@
         }
       }
     },
-    "objects.json": 4,
+    "objects.json": 5,
     "particles": {
       "biooozemessage.particle.json": 1,
       "breathboostmessage.particle.json": 1,
@@ -8338,7 +8347,8 @@
         "precursorchain.material.json": 1,
         "precursordecorative.material.json": 1,
         "precursordetail.material.json": 1,
-        "precursorgirdir.material.json": 2,
+        "precursorgirder.material.json": 1,
+        "precursorgirdir.material.json": 1,
         "precursorglasswall.material.json": 2,
         "precursorpillar.material.json": 1,
         "protoblock.material.json": 2,
@@ -8371,6 +8381,7 @@
         "shared_fumossyrock.json": 1,
         "shared_honeycombmaterial.material.json": 1,
         "shared_precursor.json": 1,
+        "shared_precursorgird.json": 1,
         "shared_retexrock1.json": 3,
         "shared_sand.material.json": 1,
         "shared_sand2.material.json": 1,
