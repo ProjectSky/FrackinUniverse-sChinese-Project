@@ -352,9 +352,12 @@
     },
     "collections": {
       "fu_armorsmith.collection.json": 1,
+      "fu_bees.collection.json": 1,
       "fu_chemist.collection.json": 1,
       "fu_elderrelics.collection.json": 1,
       "fu_geology.collection.json": 1,
+      "fu_monster.collection.json": 1,
+      "fu_plant.collection.json": 4,
       "fu_shoggothart.collection.json": 1,
       "fu_warriorsword.collection.json": 1,
       "fu_warriorsword2.collection.json": 1
@@ -3087,9 +3090,11 @@
         },
         "mechparts": {
           "arm": {
-            "fugaussmecha.item.json": 2,
+            "fugaussmecha.item.json": 1,
             "fumecharmenergyrifle.item.json": 2,
-            "fuultracannon.item.json": 2
+            "fumechdensinium.item.json": 1,
+            "fuultracannon.item.json": 2,
+            "shared_.item.json": 1
           }
         },
         "mission": {
@@ -3111,11 +3116,11 @@
           },
           "avikanspices.item.json": 2,
           "beetlesproutflower.consumable.json": 2,
-          "biscorn.consumable.json": 2,
+          "biscorn.consumable.json": 1,
           "blexsap.consumable.json": 2,
           "blisterbushplantfood.consumable.json": 1,
-          "blizzberry.consumable.json": 2,
-          "bloodroot.consumable.json": 2,
+          "blizzberry.consumable.json": 1,
+          "bloodroot.consumable.json": 1,
           "bluemelon.consumable.json": 2,
           "bolbohn.consumable.json": 1,
           "capriole.consumable.json": 2,
@@ -5269,18 +5274,12 @@
           "shared_nakatiseed.object.json": 2,
           "shared_piruseed.object.json": 2
         },
-        "aenemaflower": {
-          "aenemaflower.object.json": 2
-        },
-        "algaeseed": {
-          "shared_algaeseed.object.json": 2
-        },
         "aquapod": {
-          "aquapodseed.object.json": 2,
+          "aquapodseed.object.json": 1,
           "wildaquapodseed.object.json": 1
         },
         "arkaentree": {
-          "arkaentree.object.json": 2
+          "arkaentree.object.json": 1
         },
         "avikancactus": {
           "shared_avikancactusseed.object.json": 2
@@ -5290,41 +5289,21 @@
           "wildavikanspiceplantseed.object.json": 1
         },
         "bamboo": {
-          "shared_bambooseed.object.json": 5
-        },
-        "batterystem": {
-          "batterystem.object.json": 2
-        },
-        "beetlesproutseed": {
-          "beetlesproutseed.object.json": 2
-        },
-        "bellamorte": {
-          "bellamorte.object.json": 2
-        },
-        "bioshrooms": {
-          "shared_fubioshroom.json": 1
+          "shared_bambooseed.object.json": 3
         },
         "biscorn": {
-          "shared_biscornseed.object.json": 2
-        },
-        "bladetree": {
-          "bladetree.object.json": 2
+          "shared_biscornseed.object.json": 1
         },
         "blexcactus": {
           "blexplantseed.object.json": 1,
-          "shared_blexplantseed.object.json": 1,
           "wildblexplantseed.object.json": 1
         },
-        "blisterbush": {
-          "shared_blisterbushplantseed.object.json": 2
-        },
         "blizzberry": {
-          "blizzberryseed.object.json": 1,
           "shared_blizzberryseed.object.json": 1,
           "wildblizzberryseed.object.json": 1
         },
         "bloodroot": {
-          "shared_bloodrootseed.object.json": 2
+          "shared_bloodrootseed.object.json": 1
         },
         "bluemelon": {
           "shared_bluemelonseed.object.json": 2
@@ -5693,7 +5672,7 @@
           "shared_yellowfootseed.object.json": 2
         },
         "zathiseed": {
-          "zathiseed.object.json": 2
+          "zathiseed.object.json": 1
         }
       },
       "fu_watcher": {
@@ -7427,12 +7406,13 @@
     "shared_brainslug.json": 1,
     "shared_cloud.json": 1,
     "shared_con.json": 1,
+    "shared_ect.json": 24,
     "shared_elderplatform.mat.json": 2,
     "shared_erithianalgae.json": 1,
     "shared_ers": {
       "shared_waterbot.json": 1
     },
-    "shared_ers.json": 4,
+    "shared_ers.json": 5,
     "shared_fig.json": 1,
     "shared_fusnowberry.json": 1,
     "shared_ghostmushroom.json": 1,
@@ -7446,17 +7426,12 @@
     "shared_peglacipykreteplatform.mat.json": 2,
     "shared_pekkit.json": 1,
     "shared_platform.mat.json": 1,
-    "shared_pod": {
-      "shared_aquapod.json": 1
-    },
     "shared_redhoneyplatform.mat.json": 1,
     "shared_reg": {
       "shared_egen.statuseffect.json": 1
     },
     "shared_sand..json": 1,
-    "shared_shroom.json": 1,
     "shared_stat.json": 1,
-    "shared_ste.json": 1,
     "shared_sulphur.json": 1,
     "shared_tion.json": 2,
     "shared_weapon.json": 1,
@@ -8492,6 +8467,7 @@
         "greenslimegrass.matmod.json": 1,
         "junkmod.matmod.json": 1,
         "lazulite.matmod.json": 1,
+        "lead.matmod.json": 1,
         "lunariore.matmod.json": 1,
         "magnesium.matmod.json": 1,
         "mascagnite.matmod.json": 1,
@@ -8508,6 +8484,7 @@
         "shared_grass.matmod.json": 1,
         "shared_hydrotilled.json": 1,
         "shared_icegrass.json": 1,
+        "sulphur.matmod.json": 1,
         "thickjunglegrass.matmod.json": 1,
         "toxicgrass.matmod.json": 1,
         "wagnergrass.matmod.json": 1
@@ -8519,6 +8496,6 @@
         "shared_platform.material.json": 1
       }
     },
-    "wide_spread_fields.json": 77
+    "wide_spread_fields.json": 82
   }
 }
