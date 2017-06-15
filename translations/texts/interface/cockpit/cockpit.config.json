@@ -15,6 +15,17 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
+        "/clusterMoons/plural"
+      ]
+    },
+    "Texts": {
+      "Eng": "%s orbiting bodies"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
         "/visitableTypeDescription/tidewater/2"
       ]
     },
@@ -586,6 +597,28 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
+        "/worldTypeDescription/GasGiant/1"
+      ]
+    },
+    "Texts": {
+      "Eng": "A gas giant. There is no solid substance to this planet, just a collection of swirling gases."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/worldTypeDescription/GasGiant/0"
+      ]
+    },
+    "Texts": {
+      "Eng": "A giant ball of gases intermingling with one another. There is simply nothing here to land on."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
         "/visitableTypeDescription/infernus/1",
         "/visitableTypeDescription/infernusdark/1"
       ]
@@ -697,7 +730,9 @@
     "Files": {
       "interface/cockpit/cockpit.config": [
         "/gui/objectinfo/children/inner/children/bookmark/caption",
-        "/gui/planetinfo/children/inner/children/bookmark/caption"
+        "/gui/planetinfo/children/inner/children/bookmark/caption",
+        "/objectInfoBox/bookmarkButtonCaption/add",
+        "/planetInfoBox/bookmarkButtonCaption/add"
       ]
     },
     "Texts": {
@@ -946,6 +981,29 @@
     "Texts": {
       "Chs": "如果你打算登陆这颗^#c80000;红色沙漠^reset;星球，请注意不要暴露太长时间，因为那样会对你的生命造成致命的影响。^cyan;推荐：致命高温保护^reset;",
       "Eng": "Bring extreme heat protection when exploring this ^#c80000;red desert^reset; as exposure for prolonged periods will prove 100% fatal. ^cyan;Recommend: Deadly Heat protection^reset;"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/objectInfoBox/bookmarkButtonCaption/disabled",
+        "/planetInfoBox/bookmarkButtonCaption/disabled"
+      ]
+    },
+    "Texts": {
+      "Eng": "CANNOT BOOKMARK"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/worldTypeDescription/GasGiant/2"
+      ]
+    },
+    "Texts": {
+      "Eng": "Can't land. The crushing pressure and tearing winds of this gas giant would kill you instantly."
     }
   },
   {
@@ -1384,7 +1442,9 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
-        "/bookmarks/editTitle"
+        "/bookmarks/editTitle",
+        "/objectInfoBox/bookmarkButtonCaption/edit",
+        "/planetInfoBox/bookmarkButtonCaption/edit"
       ]
     },
     "Texts": {
@@ -2238,6 +2298,17 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
+        "/clusterMoons/none"
+      ]
+    },
+    "Texts": {
+      "Eng": "No orbiting bodies"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
         "/objectThreatText/available/0",
         "/objectThreatText/friendly"
       ]
@@ -2269,6 +2340,17 @@
     "Texts": {
       "Chs": "这曾经是一颗繁荣的星球，但是由于这里严重的^#848484;荒漠^reset;化，所以衰败了。这里除了遍地^red;强盗^reset;外，还有^red;极端恶劣的天气^reset;。",
       "Eng": "Once a thriving world, something eradicated most life on this ^#848484;wasteland^reset;. ^red;Bandits and raiders^reset; are commonly found scavenging for resources amid ^red;extremely dangerous weather^reset; patterns."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/clusterMoons/singular"
+      ]
+    },
+    "Texts": {
+      "Eng": "One orbiting body"
     }
   },
   {
@@ -3906,8 +3988,11 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
+        "/clusterInfoBox/viewButtonCaption/disabled",
         "/gui/clusterinfo/children/inner/children/view/caption",
-        "/gui/systeminfo/children/inner/children/view/caption"
+        "/gui/systeminfo/children/inner/children/view/caption",
+        "/objectInfoBox/bookmarkButtonCaption/unexplored",
+        "/systemInfoBox/viewButtonCaption/disabled"
       ]
     },
     "Texts": {
@@ -3950,6 +4035,18 @@
     "Texts": {
       "Chs": "铀",
       "Eng": "Uranium"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/clusterInfoBox/viewButtonCaption/enabled",
+        "/systemInfoBox/viewButtonCaption/enabled"
+      ]
+    },
+    "Texts": {
+      "Eng": "VIEW"
     }
   },
   {
