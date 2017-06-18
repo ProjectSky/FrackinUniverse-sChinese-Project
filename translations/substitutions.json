@@ -952,7 +952,6 @@
     "/gui/clear/caption": "texts/shared_con.json"
   },
   "interface/cockpit/cockpit.config": {
-    "/displayOres/algaeore/displayName": "texts/wide_spread_fields.json",
     "/displayOres/cinnabar/displayName": "texts/wide_spread_fields.json",
     "/displayOres/corruption/displayName": "texts/wide_spread_fields.json",
     "/displayOres/effigium/displayName": "texts/shared_fig.json",
@@ -1500,6 +1499,13 @@
   "items/active/weapons/melee/axe/stoneaxe.activeitem": {
     "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
   },
+  "items/active/weapons/melee/broadsword/aetheriumbroadsword.activeitem": {
+    "/description": "texts/items/active/weapons/melee/broadsword/shared_.activeitem.json"
+  },
+  "items/active/weapons/melee/broadsword/aetheriumcleaver.activeitem": {
+    "/altAbility/name": "texts/items/active/weapons/melee/shared_.activeitem.json",
+    "/description": "texts/items/active/weapons/melee/broadsword/shared_.activeitem.json"
+  },
   "items/active/weapons/melee/broadsword/coraldullblade.activeitem": {
     "/shortdescription": "texts/items/active/weapons/melee/shared_.activeitem.json"
   },
@@ -1631,6 +1637,7 @@
     "/description": "texts/items/active/weapons/melee/spear/shared_.activeitem.json"
   },
   "items/active/weapons/melee/spear/tristab.activeitem": {
+    "/altAbility/name": "texts/items/active/weapons/melee/shared_.activeitem.json",
     "/description": "texts/items/active/weapons/melee/spear/shared_.activeitem.json"
   },
   "items/active/weapons/npc/swtjc_ewg_npcantimaterialrifle.activeitem": {
@@ -3270,9 +3277,6 @@
   },
   "items/bees/combs/solariumcomb.item": {
     "/description": "texts/items/bees/combs/shared_comb.item.json"
-  },
-  "items/generic/crafting/algaegreen.item": {
-    "/shortdescription": "texts/wide_spread_fields.json"
   },
   "items/generic/crafting/blooddiamond.item": {
     "/shortdescription": "texts/wide_spread_fields.json"
@@ -5168,7 +5172,7 @@
     "/label": "texts/monsters/shared_skill.json"
   },
   "monsters/skills/ranged/emptyfu.monsterskill": {
-    "/label": "texts/shared_ers.json"
+    "/label": "texts/shared_ste.json"
   },
   "monsters/skills/ranged/frostPoisonBlastAttack.monsterskill": {
     "/label": "texts/monsters/skills/ranged/shared_PoisonBlastAttack.monsterskill.json"
@@ -12451,7 +12455,7 @@
     "/description": "texts/objects/wired/extranpcspawner/shared_npcspawner.object.json"
   },
   "objects/wired/extrasmashablepersistentswitch/extrasmashablepersistentswitch.object": {
-    "/description": "texts/shared_ers.json"
+    "/description": "texts/shared_ste.json"
   },
   "objects/wired/fu_turrets/fu_flameturret/fu_flameturret.object": {
     "/apexDescription": "texts/objects/wired/fu_turrets/shared_turret/shared_turret.object.json",
@@ -15214,6 +15218,9 @@
     "/description": "texts/tiles/mods/shared_grass.matmod.json"
   },
   "tiles/mods/neptunium.matmod": {
+    "/description": "texts/wide_spread_fields.json"
+  },
+  "tiles/mods/penumbrite.matmod": {
     "/description": "texts/wide_spread_fields.json"
   },
   "tiles/mods/protocite.matmod": {
