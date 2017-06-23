@@ -351,7 +351,9 @@
       }
     },
     "collections": {
-      "fu_armorsmith.collection.json": 1,
+      "fu_armorbalanced.collection.json": 0,
+      "fu_armorexplorer.collection.json": 0,
+      "fu_armorprotection.collection.json": 0,
       "fu_bees.collection.json": 0,
       "fu_chemist.collection.json": 1,
       "fu_elderrelics.collection.json": 1,
@@ -402,6 +404,9 @@
       "scripted": {
         "fu_craftinfo": {
           "fu_craftinfo.config.json": 8
+        },
+        "fugravgen": {
+          "fugravgenui.config.json": 0
         },
         "miningbench": {
           "miningbench.config.json": 4
@@ -549,6 +554,9 @@
           },
           "shared_translocator": {
             "shared_translocator.json": 1
+          },
+          "techtablet": {
+            "techtablet.activeitem.json": 0
           },
           "translocator": {
             "translocator.activeitem.json": 1
@@ -1616,7 +1624,7 @@
             "draped.legs.json": 2
           },
           "mantizihood": {
-            "hood.head.json": 2
+            "hood.head.json": 1
           },
           "mantizimerch": {
             "merch.chest.json": 2,
@@ -7279,6 +7287,9 @@
           "bouncesphere.questtemplate.json": 2,
           "distortionsphere2.questtemplate.json": 3,
           "funball.questtemplate.json": 3,
+          "microsphere.questtemplate.json": 0,
+          "microspherebomb.questtemplate.json": 0,
+          "microspherespider.questtemplate.json": 0,
           "powerboost.questtemplate.json": 3
         },
         "jump": {
@@ -7568,7 +7579,7 @@
             "operativesetbonuseffect.statuseffect.json": 1,
             "phasesetbonuseffect.statuseffect.json": 1,
             "plebiansetbonuseffect.statuseffect.json": 1,
-            "precursorsetbonuseffect.statuseffect.json": 1,
+            "precursorsetbonuseffect.statuseffect.json": 0,
             "prophetsetbonuseffect.statuseffect.json": 1,
             "protectorsetbonuseffect.statuseffect.json": 1,
             "pyreitesetbonuseffect.statuseffect.json": 1,
@@ -8061,7 +8072,10 @@
         "armorsphere.tech.json": 2,
         "bouncesphere.tech.json": 2,
         "distortionsphere2.tech.json": 2,
-        "funball.tech.json": 2
+        "funball.tech.json": 2,
+        "microsphere.tech.json": 0,
+        "microspherebomb.tech.json": 0,
+        "microspherespider.tech.json": 0
       },
       "items": {
         "airdash2.item.json": 2,
@@ -8080,6 +8094,9 @@
         "longjump2.item.json": 2,
         "longjump3.item.json": 1,
         "longjump4.item.json": 1,
+        "microsphere.item.json": 0,
+        "microspherebomb.item.json": 0,
+        "microspherespider.item.json": 0,
         "phaseattack.item.json": 2,
         "physicsfield.item.json": 2,
         "physicsfield2.item.json": 2,
