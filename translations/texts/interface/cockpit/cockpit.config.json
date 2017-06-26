@@ -15,6 +15,18 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
+        "/clusterMoons/plural"
+      ]
+    },
+    "Texts": {
+      "Chs": "%s 在轨卫星",
+      "Eng": "%s orbiting bodies"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
         "/visitableTypeDescription/tidewater/2"
       ]
     },
@@ -241,8 +253,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一颗^#86a8c5;冰冻^reset;卫星。请警惕附近^red;危险的野生动物^reset;，这里被检测有着丰富的^#e43558;格勒贝晶体^reset;。^cyan;推荐：供暖EPP II^reset;",
-      "Eng": "A ^#86a8c5;frozen moon^reset;. Watch your footing, and beware ^red;dangerous wildlife^reset;. Abundant ^#e43558;Moonstone ore^reset; detected. ^cyan;Recommend: Heating EPP II^reset;"
+      "Eng": "A ^#86a8c5;frozen moon^reset;. Watch your footing, and beware ^red;dangerous wildlife^reset;. Abundant ^#e43558;telebrium ore^reset; detected. ^cyan;Recommend: Heating EPP II^reset;"
     }
   },
   {
@@ -578,8 +589,31 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一颗^#86a8c5;寒冷的卫星^reset;。系统检测出蕴含着丰富的^#e43558;格勒贝晶体^reset;资源。^cyan;推荐：供暖EPP II^reset;",
-      "Eng": "A frigid, ^#86a8c5;frozen moon^reset;. Slippery surfaces could prove hazardous. Abundant ^#e43558;Moonstone ore^reset; detected. ^cyan;Recommend: Heating EPP II^reset;"
+      "Eng": "A frigid, ^#86a8c5;frozen moon^reset;. Slippery surfaces could prove hazardous. Abundant ^#e43558;telebrium ore^reset; detected. ^cyan;Recommend: Heating EPP II^reset;"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/worldTypeDescription/GasGiant/1"
+      ]
+    },
+    "Texts": {
+      "Chs": "一颗气体巨星，没有任何固体物质，它只是一团旋转的气体。",
+      "Eng": "A gas giant. There is no solid substance to this planet, just a collection of swirling gases."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/worldTypeDescription/GasGiant/0"
+      ]
+    },
+    "Texts": {
+      "Chs": "一颗彼此交织的的气体巨星，无法登录。",
+      "Eng": "A giant ball of gases intermingling with one another. There is simply nothing here to land on."
     }
   },
   {
@@ -697,7 +731,9 @@
     "Files": {
       "interface/cockpit/cockpit.config": [
         "/gui/objectinfo/children/inner/children/bookmark/caption",
-        "/gui/planetinfo/children/inner/children/bookmark/caption"
+        "/gui/planetinfo/children/inner/children/bookmark/caption",
+        "/objectInfoBox/bookmarkButtonCaption/add",
+        "/planetInfoBox/bookmarkButtonCaption/add"
       ]
     },
     "Texts": {
@@ -891,18 +927,6 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
-        "/displayOres/fossilbone/displayName"
-      ]
-    },
-    "Texts": {
-      "Chs": "骨头",
-      "Eng": "Bone"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "interface/cockpit/cockpit.config": [
         "/gui/bookmarksFrame/children/bookmarkList/children/bookmarkItemList/schema/listTemplate/name/value"
       ]
     },
@@ -946,6 +970,31 @@
     "Texts": {
       "Chs": "如果你打算登陆这颗^#c80000;红色沙漠^reset;星球，请注意不要暴露太长时间，因为那样会对你的生命造成致命的影响。^cyan;推荐：致命高温保护^reset;",
       "Eng": "Bring extreme heat protection when exploring this ^#c80000;red desert^reset; as exposure for prolonged periods will prove 100% fatal. ^cyan;Recommend: Deadly Heat protection^reset;"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/objectInfoBox/bookmarkButtonCaption/disabled",
+        "/planetInfoBox/bookmarkButtonCaption/disabled"
+      ]
+    },
+    "Texts": {
+      "Chs": "无法添加书签",
+      "Eng": "CANNOT BOOKMARK"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/worldTypeDescription/GasGiant/2"
+      ]
+    },
+    "Texts": {
+      "Chs": "无法着陆，这颗气体巨星的巨大压力和毁灭性暴凤能够将你撕裂。",
+      "Eng": "Can't land. The crushing pressure and tearing winds of this gas giant would kill you instantly."
     }
   },
   {
@@ -1006,6 +1055,17 @@
     "Texts": {
       "Chs": "铜",
       "Eng": "Copper"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayOres/crystal/displayName"
+      ]
+    },
+    "Texts": {
+      "Eng": "Crystal"
     }
   },
   {
@@ -1384,7 +1444,9 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
-        "/bookmarks/editTitle"
+        "/bookmarks/editTitle",
+        "/objectInfoBox/bookmarkButtonCaption/edit",
+        "/planetInfoBox/bookmarkButtonCaption/edit"
       ]
     },
     "Texts": {
@@ -1561,7 +1623,9 @@
     }
   },
   {
-    "DeniedAlternatives": [],
+    "DeniedAlternatives": [
+      "GUI位图文字，无需翻译，保持原文即可"
+    ],
     "Files": {
       "interface/cockpit/cockpit.config": [
         "/gui/coordinatesFrame/children/go/caption"
@@ -1604,7 +1668,7 @@
       ]
     },
     "Texts": {
-      "Chs": "检测到以下资源",
+      "Chs": "地质资源分析",
       "Eng": "Geological Analysis"
     }
   },
@@ -2194,7 +2258,7 @@
       ]
     },
     "Texts": {
-      "Chs": "新标签",
+      "Chs": "新书签",
       "Eng": "NEW BOOKMARK"
     }
   },
@@ -2238,6 +2302,18 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
+        "/clusterMoons/none"
+      ]
+    },
+    "Texts": {
+      "Chs": "0 在轨卫星",
+      "Eng": "No orbiting bodies"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
         "/objectThreatText/available/0",
         "/objectThreatText/friendly"
       ]
@@ -2269,6 +2345,18 @@
     "Texts": {
       "Chs": "这曾经是一颗繁荣的星球，但是由于这里严重的^#848484;荒漠^reset;化，所以衰败了。这里除了遍地^red;强盗^reset;外，还有^red;极端恶劣的天气^reset;。",
       "Eng": "Once a thriving world, something eradicated most life on this ^#848484;wasteland^reset;. ^red;Bandits and raiders^reset; are commonly found scavenging for resources amid ^red;extremely dangerous weather^reset; patterns."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/clusterMoons/singular"
+      ]
+    },
+    "Texts": {
+      "Chs": "1 在轨卫星",
+      "Eng": "One orbiting body"
     }
   },
   {
@@ -2323,7 +2411,7 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
-        "/displayOres/plutoniumore/displayName"
+        "/displayOres/plutonium/displayName"
       ]
     },
     "Texts": {
@@ -3790,7 +3878,7 @@
       ]
     },
     "Texts": {
-      "Chs": "威胁度：",
+      "Chs": "威胁：",
       "Eng": "Threat: "
     }
   },
@@ -3906,8 +3994,11 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
+        "/clusterInfoBox/viewButtonCaption/disabled",
         "/gui/clusterinfo/children/inner/children/view/caption",
-        "/gui/systeminfo/children/inner/children/view/caption"
+        "/gui/systeminfo/children/inner/children/view/caption",
+        "/objectInfoBox/bookmarkButtonCaption/unexplored",
+        "/systemInfoBox/viewButtonCaption/disabled"
       ]
     },
     "Texts": {
@@ -3950,6 +4041,19 @@
     "Texts": {
       "Chs": "铀",
       "Eng": "Uranium"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/clusterInfoBox/viewButtonCaption/enabled",
+        "/systemInfoBox/viewButtonCaption/enabled"
+      ]
+    },
+    "Texts": {
+      "Chs": "查看",
+      "Eng": "VIEW"
     }
   },
   {
@@ -4129,7 +4233,9 @@
     }
   },
   {
-    "DeniedAlternatives": [],
+    "DeniedAlternatives": [
+      "GUI位图文字，无需翻译，保持原文即可"
+    ],
     "Files": {
       "interface/cockpit/cockpit.config": [
         "/gui/coordinatesFrame/children/xLabel/value"
@@ -4141,7 +4247,9 @@
     }
   },
   {
-    "DeniedAlternatives": [],
+    "DeniedAlternatives": [
+      "GUI位图文字，无需翻译，保持原文即可"
+    ],
     "Files": {
       "interface/cockpit/cockpit.config": [
         "/gui/coordinatesFrame/children/yLabel/value"
@@ -4316,8 +4424,7 @@
       ]
     },
     "Texts": {
-      "Chs": "经扫描，在这颗^#86a8c5;冰冻卫星^reset;的地层中存在有宝贵的^#e43558;特勒贝晶体碎片^reset;。^cyan;推荐：供暖EPP II^reset;",
-      "Eng": "^#86a8c5;Frozen moons^reset; are cold and dangerous to the unwary. I am detecting valuable ^#e43558;moonstone ore^reset; underground. ^cyan;Recommend: Heating EPP II^reset;"
+      "Eng": "^#86a8c5;Frozen moons^reset; are cold and dangerous to the unwary. I am detecting valuable ^#e43558;telebrium ore^reset; underground. ^cyan;Recommend: Heating EPP II^reset;"
     }
   },
   {
