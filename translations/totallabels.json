@@ -445,6 +445,7 @@
         "beerefuge.config.json": 3,
         "beestation.config.json": 2,
         "boozekit.config.json": 2,
+        "craftingcrewshop.config.json": 3,
         "distill.config.json": 3,
         "ferment.config.json": 3,
         "fissionfurnace.config.json": 3,
@@ -463,6 +464,36 @@
     "interface.json": 11,
     "items": {
       "active": {
+        "crewcontracts": {
+          "crewcontract.activeitem.json": 2,
+          "crewcontract_arctic.activeitem.json": 2,
+          "crewcontract_biohazard.activeitem.json": 2,
+          "crewcontract_bountyhunter.activeitem.json": 2,
+          "crewcontract_chemistblue.activeitem.json": 2,
+          "crewcontract_chemistgreen.activeitem.json": 2,
+          "crewcontract_chemistorange.activeitem.json": 2,
+          "crewcontract_chemistyellow.activeitem.json": 2,
+          "crewcontract_cultist.activeitem.json": 2,
+          "crewcontract_cyborg.activeitem.json": 2,
+          "crewcontract_engineer.activeitem.json": 2,
+          "crewcontract_engineer2.activeitem.json": 2,
+          "crewcontract_fuhunter.activeitem.json": 2,
+          "crewcontract_gas.activeitem.json": 2,
+          "crewcontract_geologist.activeitem.json": 2,
+          "crewcontract_janitor.activeitem.json": 2,
+          "crewcontract_mechanic.activeitem.json": 2,
+          "crewcontract_mechanic2.activeitem.json": 2,
+          "crewcontract_medic.activeitem.json": 2,
+          "crewcontract_outlaw.activeitem.json": 2,
+          "crewcontract_science.activeitem.json": 2,
+          "crewcontract_sciencedrug.activeitem.json": 2,
+          "crewcontract_sciencegas.activeitem.json": 2,
+          "crewcontract_scuba.activeitem.json": 2,
+          "crewcontract_stealth.activeitem.json": 2,
+          "crewcontract_tailor.activeitem.json": 2,
+          "crewcontract_volcanologist.activeitem.json": 2,
+          "crewcontract_warrior.activeitem.json": 2
+        },
         "fishingrod": {
           "profishingrod.activeitem.json": 2
         },
@@ -897,6 +928,23 @@
               "xithricitespear.activeitem.json": 2,
               "zerchesiumspear.activeitem.json": 2
             }
+          },
+          "novakid": {
+            "durasteelmachinepistol.activeitem.json": 1,
+            "durasteelshotgun.activeitem.json": 1,
+            "durasteelsniperrifle.activeitem.json": 1,
+            "ironmachinepistol.activeitem.json": 1,
+            "ironshotgun.activeitem.json": 1,
+            "ironsniperrifle.activeitem.json": 1,
+            "shared_machinepistol.activeitem.json": 1,
+            "shared_shotgun.activeitem.json": 1,
+            "shared_sniperrifle.activeitem.json": 1,
+            "titaniumassaultrifle.activeitem.json": 2,
+            "titaniumrevolver.activeitem.json": 2,
+            "titaniumshotgun.activeitem.json": 1,
+            "tungstenassaultrifle.activeitem.json": 2,
+            "tungstenmachinepistol.activeitem.json": 1,
+            "tungstensniperrifle.activeitem.json": 1
           },
           "npc": {
             "npcassaultrifle.activeitem.json": 2,
@@ -4816,12 +4864,14 @@
         "crewmemberbountyhunter.npctype.json": 27,
         "crewmembercultist.npctype.json": 4,
         "crewmembercyborg.npctype.json": 6,
+        "crewmemberengineer2.npctype.json": 3,
         "crewmemberfubees.npctype.json": 36,
         "crewmemberfuhunter.npctype.json": 19,
         "crewmembergas.npctype.json": 3,
         "crewmembergeologist.npctype.json": 5,
         "crewmembergreg.npctype.json": 12,
         "crewmemberhobo.npctype.json": 6,
+        "crewmembermechanic2.npctype.json": 3,
         "crewmemberscience.npctype.json": 2,
         "crewmemberscuba.npctype.json": 4,
         "crewmembershadow.npctype.json": 4,
@@ -5699,6 +5749,9 @@
           "beerkeg.object.json": 2,
           "champagnebucket.object.json": 1,
           "smallwoodencrate1.object.json": 7
+        },
+        "crewshop": {
+          "crewsign.object.json": 2
         },
         "cryogenicbed": {
           "fucryogenicbed.object.json": 2
@@ -7353,7 +7406,7 @@
     "shared_ers": {
       "shared_waterbot.json": 1
     },
-    "shared_ers.json": 4,
+    "shared_ers.json": 5,
     "shared_fig.json": 1,
     "shared_greg.json": 2,
     "shared_hellfire.json": 1,
@@ -7369,7 +7422,6 @@
     },
     "shared_sand..json": 1,
     "shared_stat.json": 1,
-    "shared_ste.json": 1,
     "shared_sulphur.json": 1,
     "shared_tion.json": 2,
     "shared_weapon.json": 1,

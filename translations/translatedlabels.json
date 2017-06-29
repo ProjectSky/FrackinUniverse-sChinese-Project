@@ -384,7 +384,7 @@
         "genechest128.config.json": 1
       },
       "cockpit": {
-        "cockpit.config.json": 0
+        "cockpit.config.json": 387
       },
       "itemdescriptions": {
         "armornew.itemdescription.json": 1,
@@ -445,6 +445,7 @@
         "beerefuge.config.json": 3,
         "beestation.config.json": 2,
         "boozekit.config.json": 2,
+        "craftingcrewshop.config.json": 0,
         "distill.config.json": 3,
         "ferment.config.json": 3,
         "fissionfurnace.config.json": 3,
@@ -463,6 +464,36 @@
     "interface.json": 11,
     "items": {
       "active": {
+        "crewcontracts": {
+          "crewcontract.activeitem.json": 0,
+          "crewcontract_arctic.activeitem.json": 0,
+          "crewcontract_biohazard.activeitem.json": 0,
+          "crewcontract_bountyhunter.activeitem.json": 0,
+          "crewcontract_chemistblue.activeitem.json": 0,
+          "crewcontract_chemistgreen.activeitem.json": 0,
+          "crewcontract_chemistorange.activeitem.json": 0,
+          "crewcontract_chemistyellow.activeitem.json": 0,
+          "crewcontract_cultist.activeitem.json": 0,
+          "crewcontract_cyborg.activeitem.json": 0,
+          "crewcontract_engineer.activeitem.json": 0,
+          "crewcontract_engineer2.activeitem.json": 0,
+          "crewcontract_fuhunter.activeitem.json": 0,
+          "crewcontract_gas.activeitem.json": 0,
+          "crewcontract_geologist.activeitem.json": 0,
+          "crewcontract_janitor.activeitem.json": 0,
+          "crewcontract_mechanic.activeitem.json": 0,
+          "crewcontract_mechanic2.activeitem.json": 0,
+          "crewcontract_medic.activeitem.json": 0,
+          "crewcontract_outlaw.activeitem.json": 0,
+          "crewcontract_science.activeitem.json": 0,
+          "crewcontract_sciencedrug.activeitem.json": 0,
+          "crewcontract_sciencegas.activeitem.json": 0,
+          "crewcontract_scuba.activeitem.json": 0,
+          "crewcontract_stealth.activeitem.json": 0,
+          "crewcontract_tailor.activeitem.json": 0,
+          "crewcontract_volcanologist.activeitem.json": 0,
+          "crewcontract_warrior.activeitem.json": 0
+        },
         "fishingrod": {
           "profishingrod.activeitem.json": 2
         },
@@ -700,7 +731,7 @@
                 "densiniumsword.activeitem.json": 3
               },
               "effigiumbroadsword.activeitem.json": 2,
-              "elderbroadsword.activeitem.json": 3,
+              "elderbroadsword.activeitem.json": 2,
               "energyblade.activeitem.json": 2,
               "energyblade2.activeitem.json": 2,
               "fuambersword.activeitem.json": 2,
@@ -897,6 +928,23 @@
               "xithricitespear.activeitem.json": 2,
               "zerchesiumspear.activeitem.json": 2
             }
+          },
+          "novakid": {
+            "durasteelmachinepistol.activeitem.json": 0,
+            "durasteelshotgun.activeitem.json": 0,
+            "durasteelsniperrifle.activeitem.json": 0,
+            "ironmachinepistol.activeitem.json": 0,
+            "ironshotgun.activeitem.json": 0,
+            "ironsniperrifle.activeitem.json": 0,
+            "shared_machinepistol.activeitem.json": 0,
+            "shared_shotgun.activeitem.json": 0,
+            "shared_sniperrifle.activeitem.json": 0,
+            "titaniumassaultrifle.activeitem.json": 0,
+            "titaniumrevolver.activeitem.json": 0,
+            "titaniumshotgun.activeitem.json": 0,
+            "tungstenassaultrifle.activeitem.json": 0,
+            "tungstenmachinepistol.activeitem.json": 0,
+            "tungstensniperrifle.activeitem.json": 0
           },
           "npc": {
             "npcassaultrifle.activeitem.json": 2,
@@ -4816,12 +4864,14 @@
         "crewmemberbountyhunter.npctype.json": 27,
         "crewmembercultist.npctype.json": 4,
         "crewmembercyborg.npctype.json": 6,
+        "crewmemberengineer2.npctype.json": 0,
         "crewmemberfubees.npctype.json": 36,
         "crewmemberfuhunter.npctype.json": 19,
         "crewmembergas.npctype.json": 3,
         "crewmembergeologist.npctype.json": 5,
         "crewmembergreg.npctype.json": 12,
         "crewmemberhobo.npctype.json": 6,
+        "crewmembermechanic2.npctype.json": 0,
         "crewmemberscience.npctype.json": 2,
         "crewmemberscuba.npctype.json": 4,
         "crewmembershadow.npctype.json": 4,
@@ -5699,6 +5749,9 @@
           "beerkeg.object.json": 2,
           "champagnebucket.object.json": 1,
           "smallwoodencrate1.object.json": 7
+        },
+        "crewshop": {
+          "crewsign.object.json": 0
         },
         "cryogenicbed": {
           "fucryogenicbed.object.json": 2
@@ -7353,7 +7406,7 @@
     "shared_ers": {
       "shared_waterbot.json": 1
     },
-    "shared_ers.json": 4,
+    "shared_ers.json": 5,
     "shared_fig.json": 1,
     "shared_greg.json": 2,
     "shared_hellfire.json": 1,
@@ -7369,7 +7422,6 @@
     },
     "shared_sand..json": 1,
     "shared_stat.json": 1,
-    "shared_ste.json": 1,
     "shared_sulphur.json": 1,
     "shared_tion.json": 2,
     "shared_weapon.json": 1,
