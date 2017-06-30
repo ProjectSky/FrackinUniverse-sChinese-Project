@@ -478,9 +478,12 @@
           "crewcontract_cyborg.activeitem.json": 0,
           "crewcontract_engineer.activeitem.json": 0,
           "crewcontract_engineer2.activeitem.json": 0,
+          "crewcontract_fubees.activeitem.json": 0,
           "crewcontract_fuhunter.activeitem.json": 0,
+          "crewcontract_fullama.activeitem.json": 0,
           "crewcontract_gas.activeitem.json": 0,
           "crewcontract_geologist.activeitem.json": 0,
+          "crewcontract_hobo.activeitem.json": 0,
           "crewcontract_janitor.activeitem.json": 0,
           "crewcontract_mechanic.activeitem.json": 0,
           "crewcontract_mechanic2.activeitem.json": 0,
@@ -495,7 +498,8 @@
           "crewcontract_volcanologist.activeitem.json": 0,
           "crewcontract_warrior.activeitem.json": 0,
           "crewcontract_warrior2.activeitem.json": 0,
-          "crewcontract_warrior3.activeitem.json": 0
+          "crewcontract_warrior3.activeitem.json": 0,
+          "shared_crewcontract_.json": 0
         },
         "fishingrod": {
           "profishingrod.activeitem.json": 2
@@ -1357,6 +1361,11 @@
               "vashtagun.activeitem.json": 2,
               "verdantcarbine.activeitem.json": 2,
               "verdantrailgun.activeitem.json": 2
+            },
+            "unrand": {
+              "capturegun": {
+                "capturegun.activeitem.json": 0
+              }
             }
           },
           "shared_grenadelauncher.json": 1,
@@ -3141,6 +3150,7 @@
           "artifacts": {
             "shared_artifact.json": 1
           },
+          "bagoffarts.item.json": 0,
           "gravstim.consumable.json": 2,
           "healing": {
             "bouncewrap.consumable.json": 2,
@@ -4862,6 +4872,8 @@
         "shroommerchant.npctype.json": 2
       },
       "crew": {
+        "crewmember.npctype.json": 0,
+        "crewmemberLoveliusSmythe.npctype.json": 0,
         "crewmemberarctic.npctype.json": 3,
         "crewmemberbiohazard.npctype.json": 3,
         "crewmemberbountyhunter.npctype.json": 27,
@@ -4870,7 +4882,8 @@
         "crewmembercyborg.npctype.json": 2,
         "crewmemberengineer2.npctype.json": 0,
         "crewmemberfubees.npctype.json": 36,
-        "crewmemberfuhunter.npctype.json": 19,
+        "crewmemberfuhunter.npctype.json": 6,
+        "crewmemberfullama.npctype.json": 0,
         "crewmembergas.npctype.json": 3,
         "crewmembergeologist.npctype.json": 5,
         "crewmembergreg.npctype.json": 12,
@@ -4879,13 +4892,12 @@
         "crewmemberscience.npctype.json": 2,
         "crewmemberscuba.npctype.json": 4,
         "crewmembershadow.npctype.json": 4,
-        "crewmemberstealth.npctype.json": 4,
+        "crewmemberstealth.npctype.json": 3,
         "crewmembervolcanologist.npctype.json": 3,
         "crewmemberwarrior.npctype.json": 1,
         "crewmemberwarrior2.npctype.json": 0,
         "crewmemberwarrior3.npctype.json": 0,
-        "shared_crewmember.json": 176,
-        "shared_crewmemberfu.json": 7,
+        "shared_crewmember.json": 197,
         "shared_crewmemberwarrior.json": 0
       },
       "crystalminer.npctype.json": 9,
@@ -7169,7 +7181,7 @@
         "create_centrifuge.questtemplate.json": 4,
         "create_clothingfabricator.questtemplate.json": 4,
         "create_clothingfabricator2.questtemplate.json": 4,
-        "create_clothingfabricator3.questtemplate.json": 4,
+        "create_clothingfabricator3.questtemplate.json": 2,
         "create_densinium.questtemplate.json": 4,
         "create_designlab.questtemplate.json": 4,
         "create_elder.questtemplate.json": 4,
@@ -7474,18 +7486,18 @@
       "fukirhos.species.json": 4,
       "fumantis.species.json": 8,
       "fumantizi.species.json": 7,
-      "kirhosnamegen.config.json": 180,
+      "kirhosnamegen.config.json": 90,
       "mantisnamegen.config.json": 37,
       "mantizifemalenamegen.config.json": 19,
-      "mantizimalenamegen.config.json": 35,
+      "mantizimalenamegen.config.json": 29,
       "precursor.species.json": 1,
       "radien.species.json": 3,
       "radiennamegen.config.json": 66,
       "shared_.species.json": 19,
       "shared_izku.species.json": 5,
-      "shared_malenamegen.config.json": 38,
-      "thelusian.species.json": 1,
-      "thelusiannamegen.config.json": 1
+      "shared_malenamegen.config.json": 18,
+      "shared_namegen.config.json": 96,
+      "thelusian.species.json": 1
     },
     "stats": {
       "effects": {
