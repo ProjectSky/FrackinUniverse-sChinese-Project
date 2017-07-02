@@ -2000,6 +2000,15 @@
   "items/armors/bees/fugoldenknight/fugoldenlegs.legs": {
     "/description": "texts/items/armors/bees/fugoldenknight/shared_fugolden.json"
   },
+  "items/armors/bees/fuqueen/fuqueenschest.chest": {
+    "/description": "texts/items/armors/bees/fuqueen/shared_fuqueens.json"
+  },
+  "items/armors/bees/fuqueen/fuqueenshead.head": {
+    "/description": "texts/items/armors/bees/fuqueen/shared_fuqueens.json"
+  },
+  "items/armors/bees/fuqueen/fuqueenslegs.legs": {
+    "/description": "texts/items/armors/bees/fuqueen/shared_fuqueens.json"
+  },
   "items/armors/costumes/colourful/colourful.chest": {
     "/description": "texts/items/armors/costumes/shared_colourful/shared_colourful.json",
     "/shortdescription": "texts/items/armors/costumes/shared_colourful/shared_colourful.json"
@@ -2279,6 +2288,9 @@
   "items/armors/tier2/sanguine/bloodgarb.head": {
     "/description": "texts/items/armors/tier2/sanguine/shared_bloodgarb..json"
   },
+  "items/armors/tier2/sanguine/bloodgarb.legs": {
+    "/description": "texts/items/armors/tier2/sanguine/shared_bloodgarb..json"
+  },
   "items/armors/tier2/swashbuckler/cannoneer.chest": {
     "/description": "texts/items/armors/tier2/swashbuckler/shared_cannoneer..json"
   },
@@ -2357,6 +2369,9 @@
   "items/armors/tier3/corsair/kirhostier3.legs": {
     "/description": "texts/items/armors/tier3/corsair/shared_kirhostier3..json"
   },
+  "items/armors/tier3/dweller/hooded.chest": {
+    "/description": "texts/items/armors/tier3/dweller/shared_hooded..json"
+  },
   "items/armors/tier3/dweller/hooded.head": {
     "/description": "texts/items/armors/tier3/dweller/shared_hooded..json"
   },
@@ -2385,6 +2400,9 @@
     "/description": "texts/items/armors/tier3/ff_slimearmor2/shared_ff_slimearmor2..json"
   },
   "items/armors/tier3/ff_slimearmor2/ff_slimearmor2.head": {
+    "/description": "texts/items/armors/tier3/ff_slimearmor2/shared_ff_slimearmor2..json"
+  },
+  "items/armors/tier3/ff_slimearmor2/ff_slimearmor2.legs": {
     "/description": "texts/items/armors/tier3/ff_slimearmor2/shared_ff_slimearmor2..json"
   },
   "items/armors/tier3/fubountyhunter/fubountyhunter.chest": {
@@ -5320,13 +5338,18 @@
     "/shortdescription": "texts/monsters/walkers/golems/shared_targolem/shared_targolem.monstertype.json"
   },
   "monsters/walkers/golems/magmagolem/magmagolem.monstertype": {
-    "/description": "texts/monsters/walkers/golems/magmagolem/shared_.monstertype.json"
+    "/description": "texts/monsters/walkers/golems/magmagolem/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/walkers/golems/magmagolem/shared_.monstertype.json"
   },
   "monsters/walkers/golems/magmagolem/magmagolem2.monstertype": {
     "/description": "texts/monsters/walkers/golems/magmagolem/shared_.monstertype.json"
   },
   "monsters/walkers/golems/magmagolem/magmagolem3.monstertype": {
     "/description": "texts/monsters/walkers/golems/magmagolem/shared_.monstertype.json"
+  },
+  "monsters/walkers/golems/magmagolem/magmagolempet.monstertype": {
+    "/description": "texts/monsters/walkers/golems/magmagolem/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/walkers/golems/magmagolem/shared_.monstertype.json"
   },
   "monsters/walkers/golems/shadowgolem/shadowgolem.monstertype": {
     "/description": "texts/monsters/walkers/golems/shared_shadowgolem/shared_.monstertype.json"
@@ -5714,6 +5737,57 @@
     "/scriptConfig/dialog/crewmember/penguin/default/1": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/penguin/default/2": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/unfollow/default/default/5": "texts/npcs/crew/shared_crewmember.json"
+  },
+  "npcs/crew/crewmemberchef.npctype": {
+    "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/default/default/2": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/0": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/1": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/2": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/0/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/0/glitchEmotedText": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/1/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/1/glitchEmotedText": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/2/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/2/glitchEmotedText": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/3/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/3/glitchEmotedText": "texts/npcs/crew/shared_crewmemberchef.json"
+  },
+  "npcs/crew/crewmemberchef2.npctype": {
+    "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/default/default/2": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/0": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/1": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/2": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/0/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/0/glitchEmotedText": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/1/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/1/glitchEmotedText": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/2/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/2/glitchEmotedText": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/3/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/3/glitchEmotedText": "texts/npcs/crew/shared_crewmemberchef.json"
+  },
+  "npcs/crew/crewmemberchef3.npctype": {
+    "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/default/default/2": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/0": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/1": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/2": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/0/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/0/glitchEmotedText": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/1/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/1/glitchEmotedText": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/2/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/2/glitchEmotedText": "texts/npcs/crew/shared_crewmemberchef.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/3/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/3/glitchEmotedText": "texts/npcs/crew/shared_crewmemberchef.json"
   },
   "npcs/crew/crewmembercollector.npctype": {
     "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/0": "texts/npcs/crew/shared_crewmember.json",
@@ -7314,6 +7388,12 @@
   },
   "npcs/infiltration/infiltrationtavish.npctype": {
     "/scriptConfig/dialog/converse/default/default/0": "texts/npcs/shared_.npctype.json"
+  },
+  "npcs/letheia/letheiagrunt.npctype": {
+    "/scriptConfig/dialog/attack/default/default/1": "texts/npcs/letheia/shared_t.npctype.json"
+  },
+  "npcs/letheia/letheiascientist.npctype": {
+    "/scriptConfig/dialog/attack/default/default/1": "texts/npcs/letheia/shared_t.npctype.json"
   },
   "npcs/magickaforest/magickaalpaca.npctype": {
     "/scriptConfig/dialog/attack/default/default/0": "texts/npcs/magickaforest/shared_.npctype.json",
@@ -12078,6 +12158,18 @@
     "/novakidDescription": "texts/objects/questturnins.json",
     "/shortdescription": "texts/objects/questturnins.json"
   },
+  "objects/questturnins/letheiafleetturnin.object": {
+    "/apexDescription": "texts/objects/questturnins.json",
+    "/avianDescription": "texts/objects/questturnins.json",
+    "/description": "texts/objects/questturnins.json",
+    "/floranDescription": "texts/objects/questturnins.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/questturnins.json",
+    "/humanDescription": "texts/objects/questturnins.json",
+    "/hylotlDescription": "texts/objects/questturnins.json",
+    "/novakidDescription": "texts/objects/questturnins.json",
+    "/shortdescription": "texts/objects/questturnins.json"
+  },
   "objects/questturnins/lethialabsturnin.object": {
     "/apexDescription": "texts/objects/questturnins.json",
     "/avianDescription": "texts/objects/questturnins.json",
@@ -13922,21 +14014,24 @@
   },
   "quests/challengelabs/extrachallengelabs1.questtemplate": {
     "/completionText": "texts/quests/challengelabs/shared_extrachallengelabs.json",
-    "/scriptConfig/turnInDescription": "texts/quests/challengelabs/shared_extrachallengelabs.json",
+    "/scriptConfig/turnInDescription": "texts/quests.json",
     "/text": "texts/quests/challengelabs/shared_extrachallengelabs.json",
     "/title": "texts/quests/challengelabs/shared_extrachallengelabs.json"
   },
   "quests/challengelabs/extrachallengelabs2.questtemplate": {
     "/completionText": "texts/quests/challengelabs/shared_extrachallengelabs.json",
-    "/scriptConfig/turnInDescription": "texts/quests/challengelabs/shared_extrachallengelabs.json",
+    "/scriptConfig/turnInDescription": "texts/quests.json",
     "/text": "texts/quests/challengelabs/shared_extrachallengelabs.json",
     "/title": "texts/quests/challengelabs/shared_extrachallengelabs.json"
   },
   "quests/challengelabs/extrachallengelabs3.questtemplate": {
     "/completionText": "texts/quests/challengelabs/shared_extrachallengelabs.json",
-    "/scriptConfig/turnInDescription": "texts/quests/challengelabs/shared_extrachallengelabs.json",
+    "/scriptConfig/turnInDescription": "texts/quests.json",
     "/text": "texts/quests/challengelabs/shared_extrachallengelabs.json",
     "/title": "texts/quests/challengelabs/shared_extrachallengelabs.json"
+  },
+  "quests/letheiafleet.questtemplate": {
+    "/scriptConfig/turnInDescription": "texts/quests.json"
   },
   "quests/tech/dash/speedboots.questtemplate": {
     "/title": "texts/quests/tech/dash/shared_.questtemplate.json"
@@ -13945,12 +14040,10 @@
     "/title": "texts/quests/tech/dash/shared_.questtemplate.json"
   },
   "quests/tech/jump/longjump2.questtemplate": {
-    "/completionText": "texts/quests/tech/jump/shared_.questtemplate.json",
-    "/text": "texts/quests/tech/jump/shared_.questtemplate.json"
+    "/completionText": "texts/quests/tech/jump/shared_.questtemplate.json"
   },
   "quests/tech/jump/longjump3.questtemplate": {
-    "/completionText": "texts/quests/tech/jump/shared_.questtemplate.json",
-    "/text": "texts/quests/tech/jump/shared_.questtemplate.json"
+    "/completionText": "texts/quests/tech/jump/shared_.questtemplate.json"
   },
   "radiomessages/fu_genes.radiomessages": {
     "/pickupgene2/text": "texts/radiomessages/shared_es.radiomessages.json"
@@ -13994,7 +14087,16 @@
   "spawners/servitorscanners/scannercombo3.object": {
     "/description": "texts/spawners/shared_servitor/shared_.object.json"
   },
+  "species/falenifemalenamegen.config": {
+    "/names/1/1/1": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/1": "texts/species/shared_malenamegen.config.json"
+  },
+  "species/falenimalenamegen.config": {
+    "/names/1/1/1": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/1": "texts/species/shared_malenamegen.config.json"
+  },
   "species/fuanodyne.species": {
+    "/charCreationTooltip/subTitle": "texts/species/shared_.species.json",
     "/charGenTextLabels/0": "texts/species/shared_.species.json",
     "/charGenTextLabels/1": "texts/species/shared_.species.json",
     "/charGenTextLabels/2": "texts/species/shared_.species.json",
@@ -14052,10 +14154,28 @@
   },
   "species/fumantizi.species": {
     "/charCreationTooltip/subTitle": "texts/species/shared_.species.json",
+    "/charGenTextLabels/0": "texts/species/shared_i.species.json",
+    "/charGenTextLabels/1": "texts/species/shared_i.species.json",
     "/charGenTextLabels/2": "texts/species/shared_.species.json",
     "/charGenTextLabels/3": "texts/species/shared_.species.json",
+    "/charGenTextLabels/4": "texts/species/shared_i.species.json",
+    "/charGenTextLabels/5": "texts/species/shared_i.species.json",
     "/charGenTextLabels/6": "texts/species/shared_.species.json",
     "/charGenTextLabels/7": "texts/species/shared_.species.json",
+    "/charGenTextLabels/8": "texts/species/shared_i.species.json",
+    "/charGenTextLabels/9": "texts/species/shared_.species.json"
+  },
+  "species/fupeglaci.species": {
+    "/charCreationTooltip/subTitle": "texts/species/shared_.species.json",
+    "/charGenTextLabels/0": "texts/species/shared_i.species.json",
+    "/charGenTextLabels/1": "texts/species/shared_i.species.json",
+    "/charGenTextLabels/2": "texts/species/shared_.species.json",
+    "/charGenTextLabels/3": "texts/species/shared_.species.json",
+    "/charGenTextLabels/4": "texts/species/shared_i.species.json",
+    "/charGenTextLabels/5": "texts/species/shared_i.species.json",
+    "/charGenTextLabels/6": "texts/species/shared_.species.json",
+    "/charGenTextLabels/7": "texts/species/shared_.species.json",
+    "/charGenTextLabels/8": "texts/species/shared_i.species.json",
     "/charGenTextLabels/9": "texts/species/shared_.species.json"
   },
   "species/kirhosnamegen.config": {
@@ -14815,8 +14935,17 @@
   "stats/effects/fu_weathereffects/metallichydrogengas/metallichydrogenliquid.statuseffect": {
     "/label": "texts/stats/effects/fu_weathereffects/shared_ngas/shared_.statuseffect.json"
   },
+  "stats/effects/fu_weathereffects/new/cold/coldweathernew.animation": {
+    "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects/fu_weathereffects/new/cold/shared_coldweathernew..json"
+  },
+  "stats/effects/fu_weathereffects/new/cold/coldweathernew.statuseffect": {
+    "/label": "texts/stats/effects/fu_weathereffects/new/cold/shared_coldweathernew..json"
+  },
   "stats/effects/fu_weathereffects/new/cold/ffbiomecold0.statuseffect": {
     "/label": "texts/stats/effects/fu_weathereffects.json"
+  },
+  "stats/effects/fu_weathereffects/new/desert/desertweathernew.animation": {
+    "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects/fu_weathereffects/new/shared_tweathernew.animation.json"
   },
   "stats/effects/fu_weathereffects/new/gasworldnew/gasworld1.statuseffect": {
     "/label": "texts/stats/effects/fu_weathereffects/new/gasworldnew/shared_gasworld.json"
@@ -14829,6 +14958,9 @@
   },
   "stats/effects/fu_weathereffects/new/heat/ffbiomeheat3.statuseffect": {
     "/label": "texts/stats/effects/fu_weathereffects.json"
+  },
+  "stats/effects/fu_weathereffects/new/heat/heatweathernew.animation": {
+    "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects/fu_weathereffects/new/shared_tweathernew.animation.json"
   },
   "stats/effects/fu_weathereffects/new/poison/poisonweathernew.statuseffect": {
     "/label": "texts/stats/effects/fu_weathereffects/new/poison/shared_poisonweathernew.json"
@@ -15084,15 +15216,6 @@
   },
   "tech/jump/fuwalljump3.tech": {
     "/description": "texts/tech/jump/shared_fuwalljump.json"
-  },
-  "tech/jump/gravityjump.tech": {
-    "/description": "texts/tech/jump/shared_.tech.json"
-  },
-  "tech/jump/longjump3.tech": {
-    "/description": "texts/tech/jump/shared_.tech.json"
-  },
-  "tech/jump/longjump4.tech": {
-    "/description": "texts/tech/jump/shared_.tech.json"
   },
   "tech/other/physicsfield.tech": {
     "/description": "texts/tech/other/shared_physicsfield.json",
