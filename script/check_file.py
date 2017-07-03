@@ -14,7 +14,7 @@ import json
 import pathlib
 import traceback
 
-rootdir = "FrackinUniverse-sChinese-Project/translations"
+rootdir = "../translations"
 
 
 def getFileExt(f):
