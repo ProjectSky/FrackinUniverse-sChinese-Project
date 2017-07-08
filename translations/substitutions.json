@@ -817,6 +817,12 @@
     "/collectables/yellowfoot/title": "texts/shared_ect.json",
     "/collectables/zathiseed/description": "texts/shared_ect.json"
   },
+  "collections/fu_weaponaxe.collection": {
+    "/title": "texts/collections/shared_.collection.json"
+  },
+  "collections/fu_weaponfist.collection": {
+    "/title": "texts/collections/shared_.collection.json"
+  },
   "dialog/greg.config": {
     "/accuse/default/default/0": "texts/glitchEmotes.json",
     "/accuse/default/default/2": "texts/shared_greg.json",
@@ -1006,6 +1012,12 @@
     "/gui/countoutput/value": "texts/interface.json",
     "/gui/dragDrop/value": "texts/wide_spread_fields.json"
   },
+  "interface/itemdescriptions/armornew.itemdescription": {
+    "/levelTitleLabel/value": "texts/interface.json"
+  },
+  "interface/itemdescriptions/armornew2.itemdescription": {
+    "/levelTitleLabel/value": "texts/interface.json"
+  },
   "interface/itemdescriptions/boomerang.itemdescription": {
     "/critBonusTitleLabel/value": "texts/interface.json",
     "/critChanceTitleLabel/value": "texts/interface.json",
@@ -1087,9 +1099,11 @@
     "/gui/itemScrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json"
   },
   "interface/tooltips/armornew.tooltip": {
+    "/levelTitleLabel/value": "texts/interface.json",
     "/priceLabel/value": "texts/wide_spread_fields.json"
   },
   "interface/tooltips/armornew2.tooltip": {
+    "/levelTitleLabel/value": "texts/interface.json",
     "/priceLabel/value": "texts/wide_spread_fields.json"
   },
   "interface/tooltips/boomerang.tooltip": {
@@ -1570,6 +1584,9 @@
   "items/active/weapons/melee/hammer/stonehammer.activeitem": {
     "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
   },
+  "items/active/weapons/melee/katana/advalloykatana.activeitem": {
+    "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
+  },
   "items/active/weapons/melee/quarterstaff/commonqs.activeitem": {
     "/description": "texts/items/active/weapons/melee/quarterstaff/shared_qs.activeitem.json"
   },
@@ -1609,14 +1626,11 @@
   "items/active/weapons/melee/shortspear/uncommonshortspear.activeitem": {
     "/description": "texts/items/active/weapons/melee/shortspear/shared_shortspear.activeitem.json"
   },
-  "items/active/weapons/melee/shortsword/advalloykatana.activeitem": {
-    "/description": "texts/items/active/weapons/melee/shortsword/shared_.activeitem.json"
-  },
   "items/active/weapons/melee/shortsword/advalloyshortsword.activeitem": {
-    "/description": "texts/items/active/weapons/melee/shortsword/shared_.activeitem.json"
+    "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
   },
   "items/active/weapons/melee/shortsword/carbonblade.activeitem": {
-    "/description": "texts/items/active/weapons/melee/shortsword/shared_.activeitem.json"
+    "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
   },
   "items/active/weapons/melee/shortsword/dblade/dblade.activeitem": {
     "/shortdescription": "texts/items/active/weapons/melee/shared_sword/shared_dblade/shared_.activeitem.json"
@@ -6595,6 +6609,19 @@
   "npcs/crew/crewmemberhobo.npctype": {
     "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/0/glitchEmote": "texts/glitchEmotes.json",
     "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/0/glitchEmotedText": "texts/npcs/crew/crewmemberhobo.npctype.json"
+  },
+  "npcs/crew/crewmemberradien.npctype": {
+    "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/0": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/1": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/2": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/0/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/0/glitchEmotedText": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/1/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/1/glitchEmotedText": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/2/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/2/glitchEmotedText": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/3/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/3/glitchEmotedText": "texts/npcs/crew/shared_crewmember.json"
   },
   "npcs/crew/crewmemberscience.npctype": {
     "/scriptConfig/crew/role/name": "texts/npcs/crew/shared_crewmember.json",
