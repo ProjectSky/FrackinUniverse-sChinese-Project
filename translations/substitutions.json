@@ -817,12 +817,6 @@
     "/collectables/yellowfoot/title": "texts/shared_ect.json",
     "/collectables/zathiseed/description": "texts/shared_ect.json"
   },
-  "collections/fu_weaponaxe.collection": {
-    "/title": "texts/collections/shared_.collection.json"
-  },
-  "collections/fu_weaponfist.collection": {
-    "/title": "texts/collections/shared_.collection.json"
-  },
   "dialog/greg.config": {
     "/accuse/default/default/0": "texts/glitchEmotes.json",
     "/accuse/default/default/2": "texts/shared_greg.json",
@@ -943,6 +937,9 @@
     "/gui/countoutput/value": "texts/bees/shared_.config.json",
     "/gui/dragDrop/value": "texts/wide_spread_fields.json"
   },
+  "interface/chests/chest3.config": {
+    "/gui/clear/caption": "texts/shared_con.json"
+  },
   "interface/chests/genechest128.config": {
     "/gui/clear/caption": "texts/shared_con.json",
     "/gui/dragDrop/value": "texts/wide_spread_fields.json"
@@ -1011,12 +1008,6 @@
     "/gui/count/value": "texts/interface.json",
     "/gui/countoutput/value": "texts/interface.json",
     "/gui/dragDrop/value": "texts/wide_spread_fields.json"
-  },
-  "interface/itemdescriptions/armornew.itemdescription": {
-    "/levelTitleLabel/value": "texts/interface.json"
-  },
-  "interface/itemdescriptions/armornew2.itemdescription": {
-    "/levelTitleLabel/value": "texts/interface.json"
   },
   "interface/itemdescriptions/boomerang.itemdescription": {
     "/critBonusTitleLabel/value": "texts/interface.json",
@@ -1099,11 +1090,9 @@
     "/gui/itemScrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json"
   },
   "interface/tooltips/armornew.tooltip": {
-    "/levelTitleLabel/value": "texts/interface.json",
     "/priceLabel/value": "texts/wide_spread_fields.json"
   },
   "interface/tooltips/armornew2.tooltip": {
-    "/levelTitleLabel/value": "texts/interface.json",
     "/priceLabel/value": "texts/wide_spread_fields.json"
   },
   "interface/tooltips/boomerang.tooltip": {
@@ -1448,9 +1437,6 @@
   "items/active/shields/durasteelshield.activeitem": {
     "/description": "texts/items/active/shields/shared_shield.activeitem.json"
   },
-  "items/active/shields/ironshield.activeitem": {
-    "/description": "texts/items/active/shields/shared_shield.activeitem.json"
-  },
   "items/active/shields/leathershield.activeitem": {
     "/description": "texts/items/active/shields/shared_shield.activeitem.json"
   },
@@ -1566,6 +1552,9 @@
   "items/active/weapons/melee/greataxe/stonegreataxe.activeitem": {
     "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
   },
+  "items/active/weapons/melee/greataxe/zerchesiumgreataxe.activeitem": {
+    "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
+  },
   "items/active/weapons/melee/hammer/effigiumhammer.activeitem": {
     "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
   },
@@ -1584,8 +1573,8 @@
   "items/active/weapons/melee/hammer/stonehammer.activeitem": {
     "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
   },
-  "items/active/weapons/melee/katana/advalloykatana.activeitem": {
-    "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
+  "items/active/weapons/melee/katana/isogenkatana.activeitem": {
+    "/description": "texts/items/active/weapons.json"
   },
   "items/active/weapons/melee/quarterstaff/commonqs.activeitem": {
     "/description": "texts/items/active/weapons/melee/quarterstaff/shared_qs.activeitem.json"
@@ -1626,11 +1615,14 @@
   "items/active/weapons/melee/shortspear/uncommonshortspear.activeitem": {
     "/description": "texts/items/active/weapons/melee/shortspear/shared_shortspear.activeitem.json"
   },
+  "items/active/weapons/melee/shortspear/zerchesiumshortspear.activeitem": {
+    "/description": "texts/items/active/weapons/melee/shortspear/shared_shortspear.activeitem.json"
+  },
   "items/active/weapons/melee/shortsword/advalloyshortsword.activeitem": {
-    "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
+    "/description": "texts/items/active/weapons/melee/shortsword/shared_.activeitem.json"
   },
   "items/active/weapons/melee/shortsword/carbonblade.activeitem": {
-    "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
+    "/description": "texts/items/active/weapons/melee/shortsword/shared_.activeitem.json"
   },
   "items/active/weapons/melee/shortsword/dblade/dblade.activeitem": {
     "/shortdescription": "texts/items/active/weapons/melee/shared_sword/shared_dblade/shared_.activeitem.json"
@@ -1741,6 +1733,9 @@
   },
   "items/active/weapons/other/drillspear/drillspear.activeitem": {
     "/shortdescription": "texts/items/active/weapons/shared_spear/shared_drillspear.json"
+  },
+  "items/active/weapons/other/magnorbs/magnorbfrost/magnorbfrost.activeitem": {
+    "/description": "texts/items/active/weapons.json"
   },
   "items/active/weapons/ranged/assaultrifle/swtjc_ewg_commonbattlerifle.activeitem": {
     "/description": "texts/items/active/weapons/shared_rifle.json"
@@ -2306,9 +2301,6 @@
     "/description": "texts/items/armors/tier2/samurai/shared_fusamuraiarmor..json"
   },
   "items/armors/tier2/samurai/fusamuraiarmor.head": {
-    "/description": "texts/items/armors/tier2/samurai/shared_fusamuraiarmor..json"
-  },
-  "items/armors/tier2/samurai/fusamuraiarmor.legs": {
     "/description": "texts/items/armors/tier2/samurai/shared_fusamuraiarmor..json"
   },
   "items/armors/tier2/sanguine/bloodgarb.chest": {
@@ -12152,6 +12144,18 @@
     "/novakidDescription": "texts/objects/questturnins.json",
     "/shortdescription": "texts/objects/questturnins.json"
   },
+  "objects/questturnins/challengelabs/extrachallengelabs4turnin.object": {
+    "/apexDescription": "texts/objects/questturnins.json",
+    "/avianDescription": "texts/objects/questturnins.json",
+    "/description": "texts/objects/questturnins.json",
+    "/floranDescription": "texts/objects/questturnins.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/questturnins.json",
+    "/humanDescription": "texts/objects/questturnins.json",
+    "/hylotlDescription": "texts/objects/questturnins.json",
+    "/novakidDescription": "texts/objects/questturnins.json",
+    "/shortdescription": "texts/objects/questturnins.json"
+  },
   "objects/questturnins/evernightturnin.object": {
     "/apexDescription": "texts/objects/questturnins.json",
     "/avianDescription": "texts/objects/questturnins.json",
@@ -14067,6 +14071,12 @@
     "/title": "texts/quests/challengelabs/shared_extrachallengelabs.json"
   },
   "quests/challengelabs/extrachallengelabs3.questtemplate": {
+    "/completionText": "texts/quests/challengelabs/shared_extrachallengelabs.json",
+    "/scriptConfig/turnInDescription": "texts/quests.json",
+    "/text": "texts/quests/challengelabs/shared_extrachallengelabs.json",
+    "/title": "texts/quests/challengelabs/shared_extrachallengelabs.json"
+  },
+  "quests/challengelabs/extrachallengelabs4.questtemplate": {
     "/completionText": "texts/quests/challengelabs/shared_extrachallengelabs.json",
     "/scriptConfig/turnInDescription": "texts/quests.json",
     "/text": "texts/quests/challengelabs/shared_extrachallengelabs.json",
