@@ -751,7 +751,6 @@
               "dbladelong": {
                 "dbladelong.activeitem.json": 1
               },
-              "densiniumscythe.activeitem.json": 2,
               "densiniumsword": {
                 "densiniumsword.activeitem.json": 3
               },
@@ -856,12 +855,14 @@
               "densiniumkatana.activeitem.json": 0,
               "diamondkatana.activeitem.json": 0,
               "durasteelkatana.activeitem.json": 2,
-              "ironkatana.activeitem.json": 2,
+              "ironkatana.activeitem.json": 1,
+              "ironkatana2.activeitem.json": 0,
               "irradiumkatana.activeitem.json": 0,
               "isogenkatana.activeitem.json": 1,
               "lunarikatana.activeitem.json": 2,
               "pyreitekatana.activeitem.json": 0,
               "quietuskatana.activeitem.json": 2,
+              "shared_.activeitem.json": 1,
               "solariumkatana.activeitem.json": 0,
               "titaniumkatana.activeitem.json": 2,
               "tungstenkatana.activeitem.json": 2,
@@ -873,7 +874,20 @@
               "shared_qs.activeitem.json": 1,
               "uncommonqs.activeitem.json": 1
             },
-            "shared_.activeitem.json": 4,
+            "rapier": {
+              "commonrapier.activeitem.json": 0,
+              "energyrapier.activeitem.json": 0,
+              "ironrapier.activeitem.json": 0,
+              "rarerapier.activeitem.json": 0,
+              "silverrapier.activeitem.json": 0,
+              "uncommon.activeitem.json": 0
+            },
+            "scythe": {
+              "densiniumscythe.activeitem.json": 0,
+              "fubonescythe.activeitem.json": 0,
+              "shared_scythe.activeitem.json": 0
+            },
+            "shared_.activeitem.json": 5,
             "shared_sword": {
               "shared_dblade": {
                 "shared_.activeitem.json": 1
@@ -886,7 +900,7 @@
               "fuatropusshortspear.activeitem.json": 1,
               "ironshortspear.activeitem.json": 1,
               "rareshortspear.activeitem.json": 1,
-              "shared_shortspear.activeitem.json": 2,
+              "shared_shortspear.activeitem.json": 1,
               "stoneshortspear.activeitem.json": 1,
               "titaniumshortspear.activeitem.json": 1,
               "tungstenshortspear.activeitem.json": 1,
@@ -1182,6 +1196,7 @@
               "fugaussmachinegun.activeitem.json": 1,
               "fugausspistol.activeitem.json": 1,
               "fugaussrifle.activeitem.json": 1,
+              "fugrinder.activeitem.json": 0,
               "fuhuntingrifle.activeitem.json": 1,
               "fuhuntingrifle2.activeitem.json": 1,
               "fuhuntingrifle3.activeitem.json": 1,
@@ -2432,13 +2447,13 @@
             "fuisogen.chest.json": 1,
             "fuisogen.head.json": 1,
             "fuisogen.legs.json": 1,
-            "shared_fuisogen..json": 1
+            "shared_fuisogen..json": 0
           },
           "fupyreitearmor": {
             "fupyreite.chest.json": 1,
             "fupyreite.head.json": 1,
             "fupyreite.legs.json": 1,
-            "shared_fupyreite..json": 1
+            "shared_fupyreite..json": 0
           },
           "furecon3": {
             "furecon3.chest.json": 1,
@@ -3202,6 +3217,7 @@
             "shared_artifact.json": 1
           },
           "bagoffarts.item.json": 2,
+          "devilsbargain.consumable.json": 0,
           "gravstim.consumable.json": 2,
           "healing": {
             "bouncewrap.consumable.json": 2,
@@ -4809,6 +4825,9 @@
         "rotter": {
           "burntrotter": {
             "burntrotter.monstertype.json": 0
+          },
+          "frostrotter": {
+            "frostrotter.monstertype.json": 0
           }
         },
         "seedspawn": {
@@ -7857,6 +7876,9 @@
         "fu_medicine": {
           "bouncy": {
             "fubouncy.statuseffect.json": 1
+          },
+          "devilsbargain": {
+            "devilsbargain.statuseffect.json": 0
           }
         },
         "fu_tileeffects": {
