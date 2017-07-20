@@ -252,17 +252,20 @@
         "cultarmorchest.codex.json": 3,
         "cultarmorhead.codex.json": 3,
         "cultarmorpants.codex.json": 3,
-        "elderarmorbook.codex.json": 4,
+        "elderarmorbook.codex.json": 2,
+        "elderaxebook.codex.json": 0,
         "elderbladebook.codex.json": 2,
-        "elderbowbook.codex.json": 3,
+        "elderbowbook.codex.json": 1,
         "elderbroadswordbook.codex.json": 2,
         "eldercarbinebook.codex.json": 4,
-        "eldergrapplerbook.codex.json": 3,
+        "eldergrapplerbook.codex.json": 1,
+        "eldermacebook.codex.json": 0,
         "elderpistolbook.codex.json": 2,
-        "elderrepeaterbook.codex.json": 3,
+        "elderrepeaterbook.codex.json": 1,
         "elderripperbook.codex.json": 2,
+        "eldershieldbook.codex.json": 0,
         "elderspearbook.codex.json": 2,
-        "elderstaff1book.codex.json": 3,
+        "elderstaff1book.codex.json": 2,
         "elderstaff2book.codex.json": 2,
         "elderstaff3book.codex.json": 3,
         "elderwhipbook.codex.json": 2,
@@ -385,7 +388,11 @@
         "fu_weapongreataxe.collection.json": 0,
         "fu_weaponhammer.collection.json": 0,
         "fu_weaponkatana.collection.json": 0,
-        "fu_weaponlongsword.collection.json": 0
+        "fu_weaponlongsword.collection.json": 0,
+        "fu_weaponmace.collection.json": 0,
+        "fu_weaponquarterstaff.collection.json": 0,
+        "fu_weaponrapier.collection.json": 0,
+        "shared_.collection.json": 0
       }
     },
     "dialog": {
@@ -853,7 +860,7 @@
               "stonehammer.activeitem.json": 1,
               "uraniumhammer.activeitem.json": 2,
               "xithricitehammer.activeitem.json": 2,
-              "zerchesiumhammer.activeitem.json": 2
+              "zerchesiumhammer.activeitem.json": 1
             },
             "katana": {
               "advalloykatana.activeitem.json": 2,
@@ -893,8 +900,30 @@
               "xithricitelongsword.activeitem.json": 0
             },
             "mace": {
+              "aegisaltmace.activeitem.json": 0,
+              "aetheriummace.activeitem.json": 0,
+              "ballmace.activeitem.json": 0,
+              "bonemace.activeitem.json": 0,
+              "densealloymace.activeitem.json": 0,
+              "densiniummace.activeitem.json": 0,
+              "durasteelmace.activeitem.json": 0,
+              "effigiummace.activeitem.json": 0,
+              "eldermace.activeitem.json": 0,
+              "goldmace.activeitem.json": 0,
+              "hellfiremace.activeitem.json": 0,
+              "honeymace.activeitem.json": 0,
               "ironmace.activeitem.json": 0,
-              "shared_mace.activeitem.json": 0
+              "irradiummace.activeitem.json": 0,
+              "isogenmace.activeitem.json": 0,
+              "pyreitemace.activeitem.json": 0,
+              "quantummace.activeitem.json": 0,
+              "quietusmace.activeitem.json": 0,
+              "shared_mace.activeitem.json": 0,
+              "solariummace.activeitem.json": 0,
+              "stonemace.activeitem.json": 0,
+              "titaniummace.activeitem.json": 0,
+              "tungstenmace.activeitem.json": 0,
+              "uraniummace.activeitem.json": 0
             },
             "quarterstaff": {
               "carbonquarterstaff.activeitem.json": 0,
@@ -924,7 +953,7 @@
               "quietusscythe.activeitem.json": 0,
               "shared_scythe.activeitem.json": 1
             },
-            "shared_.activeitem.json": 4,
+            "shared_.activeitem.json": 5,
             "shared_r.activeitem.json": 1,
             "shared_sword": {
               "shared_dblade": {
@@ -1571,9 +1600,9 @@
             "acidprotection.back.json": 2
           },
           "battlepack": {
-            "battlepack.back.json": 2,
-            "battlepack2.back.json": 2,
-            "battlepack3.back.json": 2
+            "battlepack.back.json": 1,
+            "battlepack2.back.json": 1,
+            "battlepack3.back.json": 1
           },
           "coldprotection": {
             "coldprotection.back.json": 2,
@@ -1908,7 +1937,7 @@
             "royalguard.chest.json": 1,
             "royalguard.head.json": 1,
             "royalguard.legs.json": 1,
-            "shared_royalguard..json": 1
+            "shared_royalguard..json": 0
           },
           "mantiziroyalguardornate": {
             "royalguardornate.chest.json": 1,
@@ -3421,7 +3450,10 @@
           "yellowfoot.consumable.json": 2,
           "zathitails.consumable.json": 2
         },
-        "shared_.item.json": 1
+        "shared_.item.json": 1,
+        "tradegoods": {
+          "illicitgoods.item.json": 0
+        }
       },
       "liquids": {
         "alienjuice.liqitem.json": 2,
@@ -7496,12 +7528,15 @@
         "dash": {
           "airdash2.questtemplate.json": 2,
           "blinkdash2.questtemplate.json": 2,
-          "fadesprint.questtemplate.json": 3,
-          "shared_.questtemplate.json": 1,
+          "dashcombat.questtemplate.json": 0,
+          "fadesprint.questtemplate.json": 2,
+          "fadesprint2.questtemplate.json": 0,
+          "fadesprint3.questtemplate.json": 0,
+          "shared_.questtemplate.json": 2,
           "speedboots.questtemplate.json": 2,
           "speedboots2.questtemplate.json": 2,
           "speedboots3.questtemplate.json": 3,
-          "speedbootsprecursor.questtemplate.json": 3,
+          "speedbootsprecursor.questtemplate.json": 2,
           "speedbootsweak.questtemplate.json": 3,
           "teleportdash.questtemplate.json": 2,
           "zeroburst1.questtemplate.json": 2,
@@ -8294,7 +8329,10 @@
       "dash": {
         "airdash2.tech.json": 2,
         "blinkdash2.tech.json": 2,
+        "dashcombat.tech.json": 0,
         "fadesprint.tech.json": 2,
+        "fadesprint2.tech.json": 0,
+        "fadesprint3.tech.json": 0,
         "fueltank.tech.json": 2,
         "shared_zeroburst.json": 1,
         "speedboots.tech.json": 2,
@@ -8322,8 +8360,11 @@
         "armorsphere.item.json": 2,
         "blinkdash2.item.json": 2,
         "bouncesphere.item.json": 2,
+        "dashcombat.item.json": 0,
         "distortionsphere2.item.json": 2,
-        "fadesprint.item.json": 2,
+        "fadesprint.item.json": 1,
+        "fadesprint2.item.json": 0,
+        "fadesprint3.item.json": 0,
         "funball.item.json": 2,
         "fuwallcling.item.json": 2,
         "fuwallcling2.item.json": 2,
