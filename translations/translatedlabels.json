@@ -836,6 +836,7 @@
             },
             "hammer": {
               "advalloyhammer.activeitem.json": 2,
+              "aetheriumhammer.activeitem.json": 0,
               "effigiumhammer.activeitem.json": 1,
               "elderhammer.activeitem.json": 2,
               "fishboneheadbasher.activeitem.json": 2,
@@ -854,17 +855,19 @@
               "rockethammer": {
                 "rockethammer.activeitem.json": 2
               },
+              "shared_hammer.activeitem.json": 1,
               "shared_honeyhammer.activeitem.json": 1,
               "solarihammer.activeitem.json": 2,
               "soulreader.activeitem.json": 2,
               "stonehammer.activeitem.json": 1,
               "uraniumhammer.activeitem.json": 2,
-              "xithricitehammer.activeitem.json": 2,
+              "xithricitehammer.activeitem.json": 1,
               "zerchesiumhammer.activeitem.json": 1
             },
             "katana": {
               "advalloykatana.activeitem.json": 2,
               "aetheriumkatana.activeitem.json": 0,
+              "carbonkatana.activeitem.json": 0,
               "coralkatana.activeitem.json": 2,
               "densiniumkatana.activeitem.json": 2,
               "diamondkatana.activeitem.json": 2,
@@ -887,10 +890,12 @@
               "coraldullblade.activeitem.json": 0,
               "crystallineblade.activeitem.json": 0,
               "effigiumbroadsword.activeitem.json": 0,
+              "fiendefeller.activeitem.json": 0,
               "fuambersword.activeitem.json": 0,
               "fubonesword.activeitem.json": 0,
               "fucellsword.activeitem.json": 0,
               "fupetalsword.activeitem.json": 0,
+              "klinokrov.activeitem.json": 0,
               "rarelongsword.activeitem.json": 0,
               "shared_longsword.activeitem.json": 0,
               "solarisword.activeitem.json": 0,
@@ -922,8 +927,10 @@
               "solariummace.activeitem.json": 0,
               "stonemace.activeitem.json": 0,
               "titaniummace.activeitem.json": 0,
+              "triangliummace.activeitem.json": 0,
               "tungstenmace.activeitem.json": 0,
-              "uraniummace.activeitem.json": 0
+              "uraniummace.activeitem.json": 0,
+              "woodenmace.activeitem.json": 0
             },
             "quarterstaff": {
               "carbonquarterstaff.activeitem.json": 0,
@@ -935,6 +942,7 @@
               "rareqs.activeitem.json": 1,
               "shared_.activeitem.json": 1,
               "silverquarterstaff.activeitem.json": 0,
+              "solariumquarterstaff.activeitem.json": 0,
               "uncommonqs.activeitem.json": 1
             },
             "rapier": {
@@ -950,6 +958,8 @@
               "densiniumscythe.activeitem.json": 1,
               "fuatropusscythe.activeitem.json": 0,
               "fubonescythe.activeitem.json": 1,
+              "honeyscythe.activeitem.json": 0,
+              "lunariscythe.activeitem.json": 0,
               "quietusscythe.activeitem.json": 0,
               "shared_scythe.activeitem.json": 1
             },
@@ -3267,7 +3277,7 @@
           "emptyhoneyjar.item.json": 2,
           "floralhoneyjar.consumable.json": 2,
           "greenhoneyjar.consumable.json": 2,
-          "honeyjar.consumable.json": 2,
+          "honeyjar.consumable.json": 1,
           "hothoneyjar.consumable.json": 2,
           "mythicalhoneyjar.consumable.json": 2,
           "nocturnalhoneyjar.consumable.json": 2,
@@ -5030,7 +5040,7 @@
         "crewmemberLoveliusSmythe.npctype.json": 14,
         "crewmemberarctic.npctype.json": 3,
         "crewmemberbiohazard.npctype.json": 3,
-        "crewmemberbountyhunter.npctype.json": 27,
+        "crewmemberbountyhunter.npctype.json": 26,
         "crewmemberchef.npctype.json": 3,
         "crewmemberchef2.npctype.json": 3,
         "crewmemberchef3.npctype.json": 3,
@@ -7932,6 +7942,11 @@
           "glow": {
             "shared_.statuseffect.json": 1
           },
+          "honeyheal": {
+            "honeyheal1.statuseffect.json": 0,
+            "honeyheal3.statuseffect.json": 0,
+            "honeyheal5.statuseffect.json": 0
+          },
           "stealthed": {
             "stealthed.animation.json": 1
           }
@@ -8323,7 +8338,7 @@
           "wet.statuseffect.json": 1
         }
       },
-      "effects.json": 1
+      "effects.json": 2
     },
     "tech": {
       "dash": {
@@ -8707,6 +8722,6 @@
         "shared_platform.material.json": 1
       }
     },
-    "wide_spread_fields.json": 117
+    "wide_spread_fields.json": 116
   }
 }
