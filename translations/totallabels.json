@@ -348,7 +348,7 @@
         "elder_research1.codex.json": 8,
         "elder_research2.codex.json": 3,
         "wagner1.codex.json": 4,
-        "wagner2.codex.json": 6,
+        "wagner2.codex.json": 3,
         "wagner3.codex.json": 13,
         "wagner4.codex.json": 6,
         "wagner5.codex.json": 9
@@ -401,7 +401,7 @@
       "macready.config.json": 1
     },
     "generic.json": 1,
-    "glitchEmotes.json": 159,
+    "glitchEmotes.json": 160,
     "interface": {
       "chests": {
         "chest3.config.json": 1,
@@ -409,7 +409,7 @@
         "multitether.config.json": 1
       },
       "cockpit": {
-        "cockpit.config.json": 388
+        "cockpit.config.json": 390
       },
       "itemdescriptions": {
         "armornew.itemdescription.json": 1,
@@ -419,10 +419,10 @@
       },
       "kheAA": {
         "kheAA_router": {
-          "kheAA_routerGui.config.json": 14
+          "kheAA_routerGui.config.json": 15
         },
         "kheAA_terminal": {
-          "kheAA_terminalGui.config.json": 7
+          "kheAA_terminalGui.config.json": 8
         },
         "kheAA_toolforge": {
           "kheAA_toolforgegui.config.json": 4
@@ -441,6 +441,13 @@
         },
         "miningbench": {
           "miningbench.config.json": 4
+        },
+        "sbvn": {
+          "games": {
+            "cthululove": {
+              "deepone.sbvn.json": 165
+            }
+          }
         },
         "shared_.config.json": 2,
         "weaponupgrade2": {
@@ -3271,10 +3278,12 @@
           "avikanmeal.consumable.json": 2,
           "bolbohnjam.consumable.json": 2,
           "dunebun.consumable.json": 2,
+          "fu_toast.consumable.json": 2,
           "kadavancactusjuice.consumable.json": 2,
           "kadavanmeatjuice.consumable.json": 2,
           "spicebol.consumable.json": 2,
-          "stuffeddunebun.consumable.json": 2
+          "stuffeddunebun.consumable.json": 2,
+          "toastburnt.consumable.json": 2
         },
         "honeyextractor": {
           "elderhoneyjar.consumable.json": 2,
@@ -3477,15 +3486,13 @@
         },
         "shared_.item.json": 1,
         "tradegoods": {
-          "illicitgoods.item.json": 2
+          "chemicalgoods.item.json": 2,
+          "contrabandgoods.item.json": 2,
+          "emptygoods.item.json": 2,
+          "illicitgoods.item.json": 2,
+          "luxurygoods.item.json": 2,
+          "mineralgoods.item.json": 2
         }
-      },
-      "goods": {
-        "chemicalgoods.item.json": 2,
-        "contrabandgoods.item.json": 2,
-        "emptygoods.item.json": 2,
-        "luxurygoods.item.json": 2,
-        "mineralgoods.item.json": 2
       },
       "liquids": {
         "alienjuice.liqitem.json": 2,
@@ -5126,7 +5133,7 @@
         "crewmemberwarrior.npctype.json": 1,
         "crewmemberwarrior2.npctype.json": 1,
         "crewmemberwarrior3.npctype.json": 1,
-        "shared_crewmember.json": 178,
+        "shared_crewmember.json": 177,
         "shared_crewmemberchef.json": 11,
         "shared_crewmemberfu.json": 7,
         "shared_crewmemberwarrior.json": 1
@@ -6192,6 +6199,9 @@
         "kheAA_terminal": {
           "kheAA_terminal.object.json": 2
         }
+      },
+      "mechrepair": {
+        "mechrepairpod.object.json": 2
       },
       "microformer": {
         "aliendesert": {
@@ -7673,7 +7683,7 @@
       "fu_resources.radiomessages.json": 48,
       "fu_stations.radiomessages.json": 2,
       "mech.radiomessages.json": 20,
-      "missions.radiomessages.json": 244,
+      "missions.radiomessages.json": 246,
       "shared_.radiomessages.json": 1,
       "shared_es.radiomessages.json": 1
     },
@@ -8796,6 +8806,6 @@
         "shared_platform.material.json": 1
       }
     },
-    "wide_spread_fields.json": 116
+    "wide_spread_fields.json": 122
   }
 }
