@@ -375,8 +375,6 @@
       "fu_plant.collection.json": 55,
       "fu_shoggothart.collection.json": 1,
       "fu_tech.collection.json": 1,
-      "fu_warriorsword.collection.json": 1,
-      "fu_warriorsword2.collection.json": 1,
       "weapons": {
         "fu_weaponaxe.collection.json": 1,
         "fu_weaponbomerang.collection.json": 1,
@@ -403,11 +401,12 @@
       "macready.config.json": 1
     },
     "generic.json": 1,
-    "glitchEmotes.json": 158,
+    "glitchEmotes.json": 159,
     "interface": {
       "chests": {
         "chest3.config.json": 1,
-        "genechest128.config.json": 1
+        "genechest128.config.json": 1,
+        "multitether.config.json": 1
       },
       "cockpit": {
         "cockpit.config.json": 388
@@ -3480,6 +3479,13 @@
         "tradegoods": {
           "illicitgoods.item.json": 2
         }
+      },
+      "goods": {
+        "chemicalgoods.item.json": 2,
+        "contrabandgoods.item.json": 2,
+        "emptygoods.item.json": 2,
+        "luxurygoods.item.json": 2,
+        "mineralgoods.item.json": 2
       },
       "liquids": {
         "alienjuice.liqitem.json": 2,
@@ -6914,6 +6920,23 @@
       },
       "shared_nest.json": 2,
       "shared_tra.json": 2,
+      "smartbox": {
+        "shared_r.object.json": 1,
+        "singular": {
+          "singular.object.json": 2
+        },
+        "splitter": {
+          "splitter.object.json": 2
+        }
+      },
+      "spawner": {
+        "tinytether": {
+          "multitether.object.json": 2,
+          "multitinytether.object.json": 2,
+          "shared_tether.object.json": 7,
+          "tinytether.object.json": 2
+        }
+      },
       "teleporter": {
         "crossteleporter": {
           "crossteleporter.object.json": 1
@@ -6949,10 +6972,6 @@
         "terraformersulphuric.object.json": 2,
         "terraformertarball.object.json": 2,
         "terraformerthickjungle.object.json": 2
-      },
-      "test": {
-        "rainbow.config.json": 5,
-        "rainbow.object.json": 2
       },
       "throwawayteleporter": {
         "fuonewayteleporter.object.json": 2

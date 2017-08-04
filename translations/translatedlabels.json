@@ -375,8 +375,6 @@
       "fu_plant.collection.json": 55,
       "fu_shoggothart.collection.json": 1,
       "fu_tech.collection.json": 1,
-      "fu_warriorsword.collection.json": 1,
-      "fu_warriorsword2.collection.json": 1,
       "weapons": {
         "fu_weaponaxe.collection.json": 1,
         "fu_weaponbomerang.collection.json": 1,
@@ -391,11 +389,11 @@
         "fu_weaponlongsword.collection.json": 1,
         "fu_weaponmace.collection.json": 1,
         "fu_weaponquarterstaff.collection.json": 1,
-        "fu_weaponrapier.collection.json": 0,
+        "fu_weaponrapier.collection.json": 1,
         "fu_weaponscythe.collection.json": 1,
-        "fu_weaponshortspear.collection.json": 0,
-        "fu_weaponshortsword.collection.json": 0,
-        "fu_weaponspear.collection.json": 0
+        "fu_weaponshortspear.collection.json": 1,
+        "fu_weaponshortsword.collection.json": 1,
+        "fu_weaponspear.collection.json": 1
       }
     },
     "dialog": {
@@ -407,10 +405,11 @@
     "interface": {
       "chests": {
         "chest3.config.json": 1,
-        "genechest128.config.json": 1
+        "genechest128.config.json": 1,
+        "multitether.config.json": 0
       },
       "cockpit": {
-        "cockpit.config.json": 387
+        "cockpit.config.json": 388
       },
       "itemdescriptions": {
         "armornew.itemdescription.json": 1,
@@ -1247,7 +1246,7 @@
               "atomsmasher": {
                 "atomsmasher.activeitem.json": 2
               },
-              "bigdaddy.activeitem.json": 0,
+              "bigdaddy.activeitem.json": 2,
               "biogun.activeitem.json": 2,
               "biopistol.activeitem.json": 2,
               "blastcannon.activeitem.json": 2,
@@ -1273,7 +1272,7 @@
                 "liquidacidgun.activeitem.json": 2,
                 "liquidpoisongun.activeitem.json": 2
               },
-              "fualienlaser.activeitem.json": 0,
+              "fualienlaser.activeitem.json": 2,
               "fucellgun.activeitem.json": 2,
               "fuforcegun.activeitem.json": 2,
               "fugaussmachinegun.activeitem.json": 1,
@@ -1662,7 +1661,7 @@
             "heatprotection3.back.json": 2
           },
           "isn_heatshell": {
-            "isn_heatshell.back.json": 1
+            "isn_heatshell.back.json": 2
           },
           "isn_plasmalight": {
             "isn_plasmalight.back.json": 2
@@ -2548,7 +2547,7 @@
             "fusunwalker.chest.json": 1,
             "fusunwalker.head.json": 1,
             "fusunwalker.legs.json": 1,
-            "shared_fusunwalker..json": 0
+            "shared_fusunwalker..json": 1
           },
           "fuxithricitearmor": {
             "fuxithricite.chest.json": 1,
@@ -2709,8 +2708,8 @@
             "radioactive.augment.json": 2,
             "shadow.augment.json": 2,
             "shared_.augment.json": 1,
-            "totalImmunity.augment.json": 1,
-            "totalImmunity2.augment.json": 1
+            "totalImmunity.augment.json": 2,
+            "totalImmunity2.augment.json": 2
           },
           "health": {
             "feedaugment1.augment.json": 1,
@@ -3331,29 +3330,29 @@
         },
         "mechparts": {
           "arm": {
-            "fudualcannon.item.json": 2,
+            "fudualcannon.item.json": 0,
             "fugaussmecha.item.json": 1,
-            "fuheatcannon.item.json": 2,
+            "fuheatcannon.item.json": 1,
             "fumecharmenergyrifle.item.json": 2,
-            "fumecharmirradium.item.json": 0,
+            "fumecharmirradium.item.json": 2,
             "fumechchainsword.item.json": 2,
             "fumechdensinium.item.json": 1,
             "fumechmining0.item.json": 1,
             "fumechmining1.item.json": 1,
             "fumechmining2.item.json": 1,
-            "fumechswordbreaker.item.json": 0,
+            "fumechswordbreaker.item.json": 2,
             "fuultracannon.item.json": 2,
-            "mecharmshielddrone0.item.json": 0,
-            "mecharmshielddrone1.item.json": 0,
-            "mecharmshielddrone2.item.json": 0,
+            "mecharmshielddrone0.item.json": 2,
+            "mecharmshielddrone1.item.json": 2,
+            "mecharmshielddrone2.item.json": 2,
             "shared_.item.json": 1,
             "shared_fumechmining.json": 1
           },
           "body": {
-            "mechbodyfuobserver.item.json": 0
+            "mechbodyfuobserver.item.json": 2
           },
           "booster": {
-            "mechboosterfuobserver.item.json": 0
+            "mechboosterfuobserver.item.json": 2
           },
           "horn": {
             "mechhornnootnoot.item.json": 2
@@ -3480,6 +3479,13 @@
         "tradegoods": {
           "illicitgoods.item.json": 2
         }
+      },
+      "goods": {
+        "chemicalgoods.item.json": 0,
+        "contrabandgoods.item.json": 0,
+        "emptygoods.item.json": 0,
+        "luxurygoods.item.json": 0,
+        "mineralgoods.item.json": 0
       },
       "liquids": {
         "alienjuice.liqitem.json": 2,
@@ -5401,10 +5407,10 @@
           "honeyjarrer.object.json": 3
         },
         "industrialcentrifuge": {
-          "industrialcentrifuge.object.json": 2
+          "industrialcentrifuge.object.json": 1
         },
         "ironcentrifuge": {
-          "ironcentrifuge.object.json": 2
+          "ironcentrifuge.object.json": 1
         },
         "scentedapiary": {
           "scentedapiary.object.json": 2
@@ -5504,13 +5510,13 @@
           "fissionfurnacenew.object.json": 2
         },
         "fu_alternatorgenerator": {
-          "fu_alternatorgenerator.object.json": 2
+          "fu_alternatorgenerator.object.json": 1
         },
         "fu_growingtray": {
           "fu_growingtray.object.json": 2
         },
         "fu_woodensifter": {
-          "fu_woodensifter.object.json": 2
+          "fu_woodensifter.object.json": 1
         },
         "fuincubator": {
           "fuincubator.object.json": 2
@@ -6705,31 +6711,31 @@
       },
       "power": {
         "centrifuge": {
-          "centrifuge.object.json": 2
+          "centrifuge.object.json": 1
         },
         "centrifuge2": {
-          "centrifuge2.object.json": 2
+          "centrifuge2.object.json": 1
         },
         "fu_blastfurnace": {
-          "fu_blastfurnace.object.json": 2
+          "fu_blastfurnace.object.json": 1
         },
         "fu_conduit": {
           "fu_conduit.object.json": 2
         },
         "fu_liquidcondenser": {
-          "fu_liquidcondenser.object.json": 2
+          "fu_liquidcondenser.object.json": 1
         },
         "fu_powersensorlarge": {
           "fu_powersensorlarge.object.json": 2
         },
         "fu_quantumgenerator": {
-          "fu_quantumgenerator.object.json": 2
+          "fu_quantumgenerator.object.json": 1
         },
         "fu_solararray": {
-          "fu_solararray.object.json": 2
+          "fu_solararray.object.json": 1
         },
         "fu_solararrayadv": {
-          "fu_solararrayadv.object.json": 2
+          "fu_solararrayadv.object.json": 1
         },
         "fu_solararrayscienceoutpost": {
           "fu_solararrayscienceoutpost.object.json": 2
@@ -6738,48 +6744,48 @@
           "fu_upgrade.object.json": 2
         },
         "fu_windarray": {
-          "isn_windarray.object.json": 2
+          "isn_windarray.object.json": 1
         },
         "isn_arcsmelter": {
-          "isn_arcsmelter.object.json": 2
+          "isn_arcsmelter.object.json": 1
         },
         "isn_atmoscondenser": {
-          "isn_atmoscondenser.object.json": 8
+          "isn_atmoscondenser.object.json": 7
         },
         "isn_atmosregulator": {
           "isn_atmosprotection.statuseffect.json": 1,
-          "isn_atmosregulator.object.json": 8,
-          "isn_atmosregulatornew.object.json": 2
+          "isn_atmosregulator.object.json": 7,
+          "isn_atmosregulatornew.object.json": 1
         },
         "isn_battery_t1": {
-          "isn_battery_t1.object.json": 2
+          "isn_battery_t1.object.json": 0
         },
         "isn_battery_t2": {
-          "isn_battery_t2.object.json": 2
+          "isn_battery_t2.object.json": 0
         },
         "isn_battery_t3_ceru": {
-          "isn_battery_t3_ceru.object.json": 2
+          "isn_battery_t3_ceru.object.json": 0
         },
         "isn_battery_t3_fero": {
-          "isn_battery_t3_fero.object.json": 2
+          "isn_battery_t3_fero.object.json": 0
         },
         "isn_battery_t4_fero": {
-          "isn_battery_t4_fero.object.json": 2
+          "isn_battery_t4_fero.object.json": 1
         },
         "isn_fissionreactor": {
           "isn_fissionreactor.object.json": 1
         },
         "isn_fissionreactornew": {
-          "isn_fissionreactornew.object.json": 1
+          "isn_fissionreactornew.object.json": 0
         },
         "isn_hydroponicstray": {
-          "isn_hydroponicstray.object.json": 8
+          "isn_hydroponicstray.object.json": 7
         },
         "isn_incinerator": {
           "isn_incinerator.object.json": 7
         },
         "isn_powdersifter": {
-          "isn_powdersifter.object.json": 2
+          "isn_powdersifter.object.json": 1
         },
         "isn_powersensor": {
           "isn_powersensor.object.json": 2
@@ -6792,20 +6798,20 @@
             "shared_vendor.config.json": 2
           },
           "isn_radiostation.animation.json": 1,
-          "isn_radiostation.object.json": 7,
+          "isn_radiostation.object.json": 6,
           "isn_radiostationnew.animation.json": 1,
-          "isn_radiostationnew.object.json": 1,
+          "isn_radiostationnew.object.json": 0,
           "shared_isn_radiostation.json": 6
         },
         "isn_solarpanel": {
-          "isn_solarpanel.object.json": 8
+          "isn_solarpanel.object.json": 7
         },
         "isn_thermalgenerator": {
-          "isn_thermalgenerator.object.json": 8
+          "isn_thermalgenerator.object.json": 7
         },
         "quantumextractor": {
-          "quantumextractor.object.json": 2,
-          "quantumextractor_roof.object.json": 2
+          "quantumextractor.object.json": 1,
+          "quantumextractor_roof.object.json": 1
         },
         "shared_centrifuge": {
           "shared_centrifuge.json": 1
@@ -6914,6 +6920,23 @@
       },
       "shared_nest.json": 2,
       "shared_tra.json": 2,
+      "smartbox": {
+        "shared_r.object.json": 0,
+        "singular": {
+          "singular.object.json": 0
+        },
+        "splitter": {
+          "splitter.object.json": 0
+        }
+      },
+      "spawner": {
+        "tinytether": {
+          "multitether.object.json": 0,
+          "multitinytether.object.json": 0,
+          "shared_tether.object.json": 0,
+          "tinytether.object.json": 0
+        }
+      },
       "teleporter": {
         "crossteleporter": {
           "crossteleporter.object.json": 1
@@ -6949,10 +6972,6 @@
         "terraformersulphuric.object.json": 2,
         "terraformertarball.object.json": 2,
         "terraformerthickjungle.object.json": 2
-      },
-      "test": {
-        "rainbow.config.json": 5,
-        "rainbow.object.json": 2
       },
       "throwawayteleporter": {
         "fuonewayteleporter.object.json": 2
@@ -7436,7 +7455,7 @@
         "create_hydrotray.questtemplate.json": 4,
         "create_ignuschili.questtemplate.json": 4,
         "create_laspistol.questtemplate.json": 3,
-        "create_matterassembler.questtemplate.json": 3,
+        "create_matterassembler.questtemplate.json": 4,
         "create_methanol.questtemplate.json": 3,
         "create_mutavisk.questtemplate.json": 4,
         "create_powdersifter.questtemplate.json": 4,
@@ -7653,7 +7672,7 @@
       "fu_ore.radiomessages.json": 19,
       "fu_resources.radiomessages.json": 48,
       "fu_stations.radiomessages.json": 2,
-      "mech.radiomessages.json": 12,
+      "mech.radiomessages.json": 20,
       "missions.radiomessages.json": 0,
       "shared_.radiomessages.json": 1,
       "shared_es.radiomessages.json": 1
@@ -8444,7 +8463,7 @@
         "longjump.item.json": 2,
         "longjump2.item.json": 2,
         "longjump3.item.json": 1,
-        "longjump4.item.json": 0,
+        "longjump4.item.json": 1,
         "microsphere.item.json": 2,
         "microspherebomb.item.json": 2,
         "microspherespider.item.json": 2,
