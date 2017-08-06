@@ -557,6 +557,20 @@
   "codex/missions/extraavianhydro3.codex": {
     "/description": "texts/codex/missions/shared_extraavianhydro.json"
   },
+  "codex/missions/letheiafacility1.codex": {
+    "/description": "texts/codex/missions/shared_letheiafacility.json"
+  },
+  "codex/missions/letheiafacility2.codex": {
+    "/description": "texts/codex/missions/shared_letheiafacility.json",
+    "/title": "texts/codex/missions/shared_letheiafacility.json"
+  },
+  "codex/missions/letheiafacility3.codex": {
+    "/description": "texts/codex/missions/shared_letheiafacility.json"
+  },
+  "codex/missions/letheiafacility4.codex": {
+    "/description": "texts/codex/missions/shared_letheiafacility.json",
+    "/title": "texts/codex/missions/shared_letheiafacility.json"
+  },
   "codex/precursor/precursor10.codex": {
     "/description": "texts/codex/precursor/shared_precursor.json"
   },
@@ -7666,11 +7680,21 @@
   "npcs/infiltration/infiltrationtavish.npctype": {
     "/scriptConfig/dialog/converse/default/default/0": "texts/npcs/shared_.npctype.json"
   },
+  "npcs/letheia/letheiabiohazardsoldier.npctype": {
+    "/scriptConfig/dialog/attack/default/default/0": "texts/npcs/letheia/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/default/default/1": "texts/npcs/letheia/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/default/default/2": "texts/npcs/letheia/shared_.npctype.json"
+  },
+  "npcs/letheia/letheiaboss.npctype": {
+    "/scriptConfig/dialog/attack/default/default/0": "texts/npcs/shared_.npctype.json"
+  },
   "npcs/letheia/letheiagrunt.npctype": {
-    "/scriptConfig/dialog/attack/default/default/1": "texts/npcs/letheia/shared_t.npctype.json"
+    "/scriptConfig/dialog/attack/default/default/1": "texts/npcs/letheia/shared_.npctype.json"
   },
   "npcs/letheia/letheiascientist.npctype": {
-    "/scriptConfig/dialog/attack/default/default/1": "texts/npcs/letheia/shared_t.npctype.json"
+    "/scriptConfig/dialog/attack/default/default/0": "texts/npcs/letheia/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/default/default/1": "texts/npcs/letheia/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/default/default/2": "texts/npcs/letheia/shared_.npctype.json"
   },
   "npcs/magickaforest/magickaalpaca.npctype": {
     "/scriptConfig/dialog/attack/default/default/0": "texts/npcs/magickaforest/shared_.npctype.json",
@@ -12214,6 +12238,18 @@
     "/novakidDescription": "texts/objects/questmaps/shared_map.object.json",
     "/shortdescription": "texts/objects/questmaps/shared_map.object.json"
   },
+  "objects/questmaps/letheiafacilitymap.object": {
+    "/apexDescription": "texts/objects/questmaps/shared_map.object.json",
+    "/avianDescription": "texts/objects/questmaps/shared_map.object.json",
+    "/description": "texts/objects/questmaps/shared_map.object.json",
+    "/floranDescription": "texts/objects/questmaps/shared_map.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/questmaps/shared_map.object.json",
+    "/humanDescription": "texts/objects/questmaps/shared_map.object.json",
+    "/hylotlDescription": "texts/objects/questmaps/shared_map.object.json",
+    "/novakidDescription": "texts/objects/questmaps/shared_map.object.json",
+    "/shortdescription": "texts/objects/questmaps/shared_map.object.json"
+  },
   "objects/questmaps/lethialabsmap.object": {
     "/apexDescription": "texts/objects/questmaps/shared_map.object.json",
     "/avianDescription": "texts/objects/questmaps/shared_map.object.json",
@@ -12443,6 +12479,18 @@
     "/shortdescription": "texts/objects/questturnins.json"
   },
   "objects/questturnins/infiltrationturnin.object": {
+    "/apexDescription": "texts/objects/questturnins.json",
+    "/avianDescription": "texts/objects/questturnins.json",
+    "/description": "texts/objects/questturnins.json",
+    "/floranDescription": "texts/objects/questturnins.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/questturnins.json",
+    "/humanDescription": "texts/objects/questturnins.json",
+    "/hylotlDescription": "texts/objects/questturnins.json",
+    "/novakidDescription": "texts/objects/questturnins.json",
+    "/shortdescription": "texts/objects/questturnins.json"
+  },
+  "objects/questturnins/letheiafacilityturnin.object": {
     "/apexDescription": "texts/objects/questturnins.json",
     "/avianDescription": "texts/objects/questturnins.json",
     "/description": "texts/objects/questturnins.json",
@@ -13250,6 +13298,10 @@
     "/humanDescription": "texts/objects/spawner/tinytether/shared_tether.object.json",
     "/hylotlDescription": "texts/objects/spawner/tinytether/shared_tether.object.json",
     "/novakidDescription": "texts/objects/spawner/tinytether/shared_tether.object.json"
+  },
+  "objects/spawner/tinytether/statuetether.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/spawner/tinytether/statuetether.object.json"
   },
   "objects/spawner/tinytether/tinytether.object": {
     "/apexDescription": "texts/objects/spawner/tinytether/shared_tether.object.json",
@@ -14988,12 +15040,6 @@
   },
   "stats/effects/fu_armoreffects/set_bonuses/armoreffects.animation": {
     "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects.json"
-  },
-  "stats/effects/fu_armoreffects/set_bonuses/militiasetbonuseffect.statuseffect": {
-    "/label": "texts/stats/effects/fu_armoreffects/set_bonuses/shared_setbonuseffect.statuseffect.json"
-  },
-  "stats/effects/fu_armoreffects/set_bonuses/primussetbonuseffect.statuseffect": {
-    "/label": "texts/stats/effects/fu_armoreffects/set_bonuses/shared_setbonuseffect.statuseffect.json"
   },
   "stats/effects/fu_armoreffects/set_bonuses/slimesetbonuseffect.statuseffect": {
     "/label": "texts/stats/effects/fu_armoreffects/set_bonuses/shared_slimesetbonuseffect.json"
