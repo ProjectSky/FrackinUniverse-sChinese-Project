@@ -19,8 +19,20 @@
       ]
     },
     "Texts": {
-      "Eng": "%s orbiting bodies",
-      "Chs": "%s 在轨卫星"
+      "Chs": "轨道上有%s颗卫星",
+      "Eng": "%s orbiting bodies"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/gui/coordinatesFrame/children/x/regex",
+        "/gui/coordinatesFrame/children/y/regex"
+      ]
+    },
+    "Texts": {
+      "Eng": "-?[0-9]{0,10}"
     }
   },
   {
@@ -229,7 +241,7 @@
       ]
     },
     "Texts": {
-      "Chs": "某个伟大文明的起源就在这个^#848484;荒漠^reset;星球上。远古时由于某种可怕的事导致了那个文明的灭亡，如今在这些废墟之中还残留有各种^#43a43a;古老的宝藏^reset;。探测到^red;极端天气^reset;。",
+      "Chs": "某个伟大文明的起源就在这个^#848484;荒漠^reset;星球上。远古时由于某种可怕的事导致了那个文明的灭亡，如今在这些废墟之中还残留有各种^#43a43a;古老的宝藏^reset;。另外还探测到各种^red;极端天气^reset;。",
       "Eng": "A ^#848484;wasteland^reset; housing the remains of a once great civilization. Something awful happened here, long ago. ^#43a43a;Ancient ruins^reset; hold many lost treasures. ^red;Violent weather detected^reset;."
     }
   },
@@ -253,8 +265,8 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一颗^#86a8c5;冰冻^reset;卫星。请警惕附近^red;危险的野生动物^reset;，这里被检测有着丰富的^#e43558;格勒贝晶体^reset;。^cyan;推荐：供暖EPP II^reset;",
-      "Eng": "A ^#86a8c5;frozen moon^reset;. Watch your footing, and beware ^red;dangerous wildlife^reset;. Abundant ^#e43558;Moonstone ore^reset; detected. ^cyan;Recommend: Heating EPP II^reset;"
+      "Chs": "这是一颗^#86a8c5;冰冻卫星^reset;。请在登陆后小心行事，留意你所发现的任何生物，因为它们都可对你造成生命^red;威胁^reset;。另外，在地层中检测到了^#e43558;特勒贝晶体碎片^reset;。^cyan;推荐：供暖EPP II^reset;",
+      "Eng": "A ^#86a8c5;frozen moon^reset;. Watch your footing, and beware ^red;dangerous wildlife^reset;. Abundant ^#e43558;telebrium ore^reset; detected. ^cyan;Recommend: Heating EPP II^reset;"
     }
   },
   {
@@ -453,7 +465,7 @@
       ]
     },
     "Texts": {
-      "Chs": "我不建议你在没有装备保护的情况下，横渡这个星球的^#ffea00;硫酸海^reset;，因为除了硫酸之外，你还要警惕那^red;严峻的天气^reset;。^cyan;推荐：硫酸保护^reset;",
+      "Chs": "我不建议你在没有装备保护的情况下，横渡这个星球的^#ffea00;硫酸海^reset;，因为除了硫酸之外，你还要警惕那^red;严峻的天气^reset;状况。^cyan;推荐：硫酸保护^reset;",
       "Eng": "A ^#ffea00;sulphuric ocean^reset; ripe with ^red;devastatingly brutal weather^reset;. ^cyan;Recommend: Acid protection^reset;"
     }
   },
@@ -590,8 +602,8 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一颗^#86a8c5;寒冷的卫星^reset;。系统检测出蕴含着丰富的^#e43558;格勒贝晶体^reset;资源。^cyan;推荐：供暖EPP II^reset;",
-      "Eng": "A frigid, ^#86a8c5;frozen moon^reset;. Slippery surfaces could prove hazardous. Abundant ^#e43558;Moonstone ore^reset; detected. ^cyan;Recommend: Heating EPP II^reset;"
+      "Chs": "这是一颗寒冷的^#86a8c5;冰冻卫星^reset;。扫描仪发现上面存在着危险，不过也检测到地层中蕴藏的^#e43558;特勒贝晶体碎片^reset;。^cyan;推荐：供暖EPP II^reset;",
+      "Eng": "A frigid, ^#86a8c5;frozen moon^reset;. Slippery surfaces could prove hazardous. Abundant ^#e43558;telebrium ore^reset; detected. ^cyan;Recommend: Heating EPP II^reset;"
     }
   },
   {
@@ -602,8 +614,8 @@
       ]
     },
     "Texts": {
-      "Eng": "A gas giant. There is no solid substance to this planet, just a collection of swirling gases.",
-      "Chs": "一颗气体巨星，没有任何固体物质，它只是一团旋转的气体。"
+      "Chs": "一颗气体巨星，没有任何固体物质，它只是一团旋转的气体。",
+      "Eng": "A gas giant. There is no solid substance to this planet, just a collection of swirling gases."
     }
   },
   {
@@ -614,8 +626,8 @@
       ]
     },
     "Texts": {
-      "Eng": "A giant ball of gases intermingling with one another. There is simply nothing here to land on.",
-      "Chs": "一颗彼此交织的的气体巨星，无法登录。"
+      "Chs": "一颗彼此交织的的气体巨星，无法登录。",
+      "Eng": "A giant ball of gases intermingling with one another. There is simply nothing here to land on."
     }
   },
   {
@@ -739,7 +751,7 @@
       ]
     },
     "Texts": {
-      "Chs": "添加书签",
+      "Chs": "添加标签",
       "Eng": "ADD BOOKMARK"
     }
   },
@@ -860,7 +872,7 @@
       ]
     },
     "Texts": {
-      "Chs": "生物雨",
+      "Chs": "生物软泥雨",
       "Eng": "Bio Rain"
     }
   },
@@ -929,23 +941,11 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
-        "/displayOres/fossilbone/displayName"
-      ]
-    },
-    "Texts": {
-      "Chs": "骨头",
-      "Eng": "Bone"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "interface/cockpit/cockpit.config": [
         "/gui/bookmarksFrame/children/bookmarkList/children/bookmarkItemList/schema/listTemplate/name/value"
       ]
     },
     "Texts": {
-      "Chs": "书签名称",
+      "Chs": "标签名称",
       "Eng": "Bookmark Name"
     }
   },
@@ -957,7 +957,7 @@
       ]
     },
     "Texts": {
-      "Chs": "标记为书签",
+      "Chs": "标签列表",
       "Eng": "Bookmarks"
     }
   },
@@ -995,8 +995,8 @@
       ]
     },
     "Texts": {
-      "Eng": "CANNOT BOOKMARK",
-      "Chs": "无法添加书签"
+      "Chs": "无法添加标签",
+      "Eng": "CANNOT BOOKMARK"
     }
   },
   {
@@ -1007,8 +1007,8 @@
       ]
     },
     "Texts": {
-      "Eng": "Can't land. The crushing pressure and tearing winds of this gas giant would kill you instantly.",
-      "Chs": "无法着陆，这颗气体巨星的巨大压力和毁灭性暴凤能够将你撕裂。"
+      "Chs": "无法着陆，这颗气体巨星的巨大压力和毁灭性暴凤能够将你撕裂。",
+      "Eng": "Can't land. The crushing pressure and tearing winds of this gas giant would kill you instantly."
     }
   },
   {
@@ -1031,7 +1031,7 @@
       ]
     },
     "Texts": {
-      "Chs": "灰烬雨",
+      "Chs": "小型灰烬雨",
       "Eng": "Cinder Showers"
     }
   },
@@ -1043,7 +1043,7 @@
       ]
     },
     "Texts": {
-      "Chs": "跃迁界面",
+      "Chs": "迁跃界面",
       "Eng": "Confirm FTL"
     }
   },
@@ -1069,6 +1069,18 @@
     "Texts": {
       "Chs": "铜",
       "Eng": "Copper"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayOres/crystal/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "水晶",
+      "Eng": "Crystal"
     }
   },
   {
@@ -1103,7 +1115,7 @@
       ]
     },
     "Texts": {
-      "Chs": "晶体风暴",
+      "Chs": "小型晶体风暴",
       "Eng": "Crystal Storm"
     }
   },
@@ -1307,7 +1319,7 @@
       ]
     },
     "Texts": {
-      "Chs": "致命毒气",
+      "Chs": "大型毒气风暴",
       "Eng": "Deadly Poison Gas"
     }
   },
@@ -1331,7 +1343,7 @@
       ]
     },
     "Texts": {
-      "Chs": "稠密空气",
+      "Chs": "小型重力风暴",
       "Eng": "Dense Gas"
     }
   },
@@ -1343,7 +1355,7 @@
       ]
     },
     "Texts": {
-      "Chs": "重度毒气",
+      "Chs": "中型毒气风暴",
       "Eng": "Dense Poison Gas"
     }
   },
@@ -1453,7 +1465,7 @@
       ]
     },
     "Texts": {
-      "Chs": "编辑书签",
+      "Chs": "编辑标签",
       "Eng": "EDIT BOOKMARK"
     }
   },
@@ -1465,7 +1477,7 @@
       ]
     },
     "Texts": {
-      "Chs": "输入书签名",
+      "Chs": "输入标签名",
       "Eng": "Enter bookmark name"
     }
   },
@@ -1501,7 +1513,7 @@
       ]
     },
     "Texts": {
-      "Chs": "跃迁需要^red;%i^reset;单位燃料。\n当前燃料存量不足以启动FTL引擎。",
+      "Chs": "迁跃需要^red;%i^reset;单位燃料。\n当前燃料存量不足以启动FTL引擎。",
       "Eng": "FTL travel requires ^red;%i fuel^reset;.\n Not enough fuel to proceed."
     }
   },
@@ -1513,7 +1525,7 @@
       ]
     },
     "Texts": {
-      "Chs": "跃迁将消耗^green;%i^reset;单位燃料。\n请再次确认是否进行跃迁。",
+      "Chs": "迁跃将消耗^green;%i^reset;单位燃料。\n请再次确认是否进行迁跃。",
       "Eng": "FTL travel will consume ^green;%i fuel^reset;.\nConfirm to proceed."
     }
   },
@@ -1525,7 +1537,7 @@
       ]
     },
     "Texts": {
-      "Chs": "跃迁将消耗^green;%i^reset;单位燃料。\n请再次确认是否进行跃迁。",
+      "Chs": "迁跃将消耗^green;%i^reset;单位燃料。\n请再次确认是否进行迁跃。",
       "Eng": "FTL travel will consume ^green;%s fuel^reset;.\nConfirm to proceed."
     }
   },
@@ -1549,7 +1561,7 @@
       ]
     },
     "Texts": {
-      "Chs": "焱星",
+      "Chs": "炽热的星",
       "Eng": "Fiery Star"
     }
   },
@@ -1609,7 +1621,7 @@
       ]
     },
     "Texts": {
-      "Chs": "冰冻风暴",
+      "Chs": "小型冰冻风暴",
       "Eng": "Freeze Storm"
     }
   },
@@ -1621,7 +1633,7 @@
       ]
     },
     "Texts": {
-      "Chs": "冻星",
+      "Chs": "寒冷的星",
       "Eng": "Frozen Star"
     }
   },
@@ -1659,7 +1671,7 @@
       ]
     },
     "Texts": {
-      "Chs": "雅星",
+      "Chs": "和平的星",
       "Eng": "Gentle Star"
     }
   },
@@ -1816,7 +1828,7 @@
       ]
     },
     "Texts": {
-      "Chs": "难以置信的超稠密空气",
+      "Chs": "大型重力风暴",
       "Eng": "Impossibly Dense Gas"
     }
   },
@@ -1864,7 +1876,7 @@
       ]
     },
     "Texts": {
-      "Chs": "跃迁",
+      "Chs": "迁跃",
       "Eng": "Jump"
     }
   },
@@ -1900,7 +1912,7 @@
       ]
     },
     "Texts": {
-      "Chs": "巨大陨石雨",
+      "Chs": "大型陨石雨",
       "Eng": "Large Meteorites"
     }
   },
@@ -1936,7 +1948,7 @@
       ]
     },
     "Texts": {
-      "Chs": "轻度冰冻风暴",
+      "Chs": "中型冰冻风暴",
       "Eng": "Lesser Freeze Storm"
     }
   },
@@ -1960,7 +1972,7 @@
       ]
     },
     "Texts": {
-      "Chs": "小型灰烬雨",
+      "Chs": "中型灰烬雨",
       "Eng": "Light Ashfall"
     }
   },
@@ -2009,7 +2021,7 @@
     },
     "Texts": {
       "Chs": "这颗星球是^#cc8d5a;阿托罗斯^reset;地形，这里可不是游乐园，心脏不好的人请止步。^red;警告：会诱发恐惧^reset;",
-      "Eng": "Lovingly called 'worlds born dead', ^#cc8d5a;atropus^reset; plantets are not for the faint of heart or the weak-stomached. ^red;Warning: Psionically disruptive atmosphere^reset;."
+      "Eng": "Lovingly called 'worlds born dead', ^#cc8d5a;atropus^reset; planets are not for the faint of heart or the weak-stomached. ^red;Warning: Psionically disruptive atmosphere^reset;."
     }
   },
   {
@@ -2104,7 +2116,7 @@
       ]
     },
     "Texts": {
-      "Chs": "岩浆风暴",
+      "Chs": "小型岩浆风暴",
       "Eng": "Magma Storm"
     }
   },
@@ -2116,7 +2128,7 @@
       ]
     },
     "Texts": {
-      "Chs": "重度硫酸风暴",
+      "Chs": "大型硫酸风暴",
       "Eng": "Major Sulphuric Storm"
     }
   },
@@ -2140,7 +2152,7 @@
       ]
     },
     "Texts": {
-      "Chs": "轻度硫酸风暴",
+      "Chs": "中型硫酸风暴",
       "Eng": "Mild Sulphuric Storm"
     }
   },
@@ -2152,7 +2164,7 @@
       ]
     },
     "Texts": {
-      "Chs": "小型冰冻风暴",
+      "Chs": "大型冰冻风暴",
       "Eng": "Minor Freeze Storm"
     }
   },
@@ -2261,7 +2273,7 @@
       ]
     },
     "Texts": {
-      "Chs": "新书签",
+      "Chs": "新标签",
       "Eng": "NEW BOOKMARK"
     }
   },
@@ -2285,7 +2297,7 @@
       ]
     },
     "Texts": {
-      "Chs": "新书签",
+      "Chs": "新标签",
       "Eng": "New Bookmark"
     }
   },
@@ -2297,7 +2309,7 @@
       ]
     },
     "Texts": {
-      "Chs": "黑暗阿托罗斯",
+      "Chs": "阿托罗斯(黑夜)",
       "Eng": "Nightmare Atropus"
     }
   },
@@ -2309,8 +2321,8 @@
       ]
     },
     "Texts": {
-      "Eng": "No orbiting bodies",
-      "Chs": "0 在轨卫星"
+      "Chs": "轨道上无卫星",
+      "Eng": "No orbiting bodies"
     }
   },
   {
@@ -2358,8 +2370,8 @@
       ]
     },
     "Texts": {
-      "Eng": "One orbiting body",
-      "Chs": "1 在轨卫星"
+      "Chs": "轨道上有1颗卫星",
+      "Eng": "One orbiting body"
     }
   },
   {
@@ -2414,7 +2426,7 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
-        "/displayOres/plutoniumore/displayName"
+        "/displayOres/plutonium/displayName"
       ]
     },
     "Texts": {
@@ -2430,7 +2442,7 @@
       ]
     },
     "Texts": {
-      "Chs": "毒气",
+      "Chs": "小型毒气风暴",
       "Eng": "Poison Gas"
     }
   },
@@ -2466,7 +2478,7 @@
       ]
     },
     "Texts": {
-      "Chs": "系统远观视图",
+      "Chs": "星图远观界面",
       "Eng": "REMOTE SYSTEM VIEW"
     }
   },
@@ -2491,7 +2503,7 @@
       ]
     },
     "Texts": {
-      "Chs": "辐射星",
+      "Chs": "放射性星",
       "Eng": "Radioactive Star"
     }
   },
@@ -2587,7 +2599,7 @@
       ]
     },
     "Texts": {
-      "Chs": "飞船正在移动中",
+      "Chs": "飞船正在迁跃中",
       "Eng": "SHIP IN TRANSIT"
     }
   },
@@ -2625,6 +2637,18 @@
     "Texts": {
       "Chs": "系统",
       "Eng": "SYSTEM"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/gui/systemName/value"
+      ]
+    },
+    "Texts": {
+      "Chs": "星系名",
+      "Eng": "SYSTEM NAME"
     }
   },
   {
@@ -2805,7 +2829,7 @@
       ]
     },
     "Texts": {
-      "Chs": "重度晶体风暴",
+      "Chs": "大型晶体风暴",
       "Eng": "Severe Crystal Storm"
     }
   },
@@ -2817,7 +2841,7 @@
       ]
     },
     "Texts": {
-      "Chs": "重度雷电风暴",
+      "Chs": "中型雷电风暴",
       "Eng": "Severe Lightning Storm"
     }
   },
@@ -2829,7 +2853,7 @@
       ]
     },
     "Texts": {
-      "Chs": "重度岩浆风暴",
+      "Chs": "大型岩浆风暴",
       "Eng": "Severe Magma Storm"
     }
   },
@@ -2877,7 +2901,7 @@
       ]
     },
     "Texts": {
-      "Chs": "黏液风暴",
+      "Chs": "小型黏液风暴",
       "Eng": "Slime Storm"
     }
   },
@@ -3021,7 +3045,7 @@
       ]
     },
     "Texts": {
-      "Chs": "硫酸风暴",
+      "Chs": "小型硫酸风暴",
       "Eng": "Sulphuric Storm"
     }
   },
@@ -3069,7 +3093,7 @@
       ]
     },
     "Texts": {
-      "Chs": "超稠密空气",
+      "Chs": "中型重力风暴",
       "Eng": "Super Dense Gas"
     }
   },
@@ -3153,7 +3177,7 @@
       ]
     },
     "Texts": {
-      "Chs": "温带星",
+      "Chs": "温和的星",
       "Eng": "Temperate Star"
     }
   },
@@ -3737,7 +3761,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这颗星球相对于普通星球来说有些冷，上面有着厚厚的#69f1fd;雪^white;。",
+      "Chs": "这颗星球相对于普通星球来说有些冷，上面有着厚厚的^#69f1fd;雪^white;。",
       "Eng": "This location is relatively chill, and ^#69f1fd;snow^white; lies thickly on the ground. My sensors indicate that there are critters scampering through the soft blanket of white."
     }
   },
@@ -4017,7 +4041,7 @@
       ]
     },
     "Texts": {
-      "Chs": "该目标无法达到",
+      "Chs": "未探索过的星系无法获取到其资料",
       "Eng": "UNMAPPED CELESTIAL OBJECTS UNAVAILABLE"
     }
   },
@@ -4055,8 +4079,8 @@
       ]
     },
     "Texts": {
-      "Eng": "VIEW",
-      "Chs": "查看"
+      "Chs": "查看",
+      "Eng": "VIEW"
     }
   },
   {
@@ -4151,7 +4175,7 @@
       ]
     },
     "Texts": {
-      "Chs": "轻度黏液风暴",
+      "Chs": "中型黏液风暴",
       "Eng": "Weak Slime Storm"
     }
   },
@@ -4273,6 +4297,17 @@
     "Texts": {
       "Chs": "你在这个星球的登陆点位于^#15ce02;森林^white;中。扫描显示这里充满了静谧，非常适合休憩。",
       "Eng": "Your beam site for this planet is located in a ^#15ce02;forest^white;. Readings indicate that this wooded area is relatively tranquil."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/gui/editBookmarkFrame/children/name/regex"
+      ]
+    },
+    "Texts": {
+      "Eng": "[a-zA-Z0-9 '-?!.]{0,28}"
     }
   },
   {
@@ -4427,8 +4462,8 @@
       ]
     },
     "Texts": {
-      "Chs": "经扫描，在这颗^#86a8c5;冰冻卫星^reset;的地层中存在有宝贵的^#e43558;特勒贝晶体碎片^reset;。^cyan;推荐：供暖EPP II^reset;",
-      "Eng": "^#86a8c5;Frozen moons^reset; are cold and dangerous to the unwary. I am detecting valuable ^#e43558;moonstone ore^reset; underground. ^cyan;Recommend: Heating EPP II^reset;"
+      "Chs": "^#86a8c5;冰冻卫星^reset;对于不了解就盲目登陆的人而言是非常致命的！因为上面又冷又危险。矿石扫描器在这颗冰冻卫星地层中检测到^#e43558;特勒贝晶体碎片^reset;。^cyan;建议：供暖EPP II^reset;",
+      "Eng": "^#86a8c5;Frozen moons^reset; are cold and dangerous to the unwary. I am detecting valuable ^#e43558;telebrium ore^reset; underground. ^cyan;Recommend: Heating EPP II^reset;"
     }
   },
   {
