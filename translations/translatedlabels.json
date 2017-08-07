@@ -8,6 +8,7 @@
       "forestoffae.aimission.json": 3,
       "grandarena.aimission.json": 3,
       "infiltration.aimission.json": 3,
+      "letheiafacility.aimission.json": 0,
       "lethialabs.aimission.json": 3,
       "magickaforest.aimission.json": 3,
       "pavillion.aimission.json": 3,
@@ -328,7 +329,12 @@
         "extraavianhydro2.codex.json": 3,
         "extraavianhydro3.codex.json": 4,
         "extrahighway.codex.json": 5,
-        "shared_extraavianhydro.json": 1
+        "letheiafacility1.codex.json": 0,
+        "letheiafacility2.codex.json": 0,
+        "letheiafacility3.codex.json": 0,
+        "letheiafacility4.codex.json": 0,
+        "shared_extraavianhydro.json": 1,
+        "shared_letheiafacility.json": 0
       },
       "precursor": {
         "precursor1.codex.json": 0,
@@ -348,7 +354,7 @@
         "elder_research1.codex.json": 8,
         "elder_research2.codex.json": 3,
         "wagner1.codex.json": 4,
-        "wagner2.codex.json": 6,
+        "wagner2.codex.json": 3,
         "wagner3.codex.json": 13,
         "wagner4.codex.json": 6,
         "wagner5.codex.json": 9
@@ -401,12 +407,12 @@
       "macready.config.json": 1
     },
     "generic.json": 1,
-    "glitchEmotes.json": 158,
+    "glitchEmotes.json": 159,
     "interface": {
       "chests": {
         "chest3.config.json": 1,
         "genechest128.config.json": 1,
-        "multitether.config.json": 0
+        "multitether.config.json": 1
       },
       "cockpit": {
         "cockpit.config.json": 388
@@ -441,6 +447,13 @@
         },
         "miningbench": {
           "miningbench.config.json": 4
+        },
+        "sbvn": {
+          "games": {
+            "cthululove": {
+              "deepone.sbvn.json": 0
+            }
+          }
         },
         "shared_.config.json": 2,
         "weaponupgrade2": {
@@ -2746,6 +2759,7 @@
         },
         "extraenergisingaugment.augment.json": 2,
         "extragravityaugment.augment.json": 2,
+        "extraresistanceaugment.augment.json": 0,
         "extraspringaugment.augment.json": 2,
         "pet": {
           "lowgravcollar.augment.json": 2,
@@ -3271,10 +3285,12 @@
           "avikanmeal.consumable.json": 2,
           "bolbohnjam.consumable.json": 2,
           "dunebun.consumable.json": 2,
+          "fu_toast.consumable.json": 0,
           "kadavancactusjuice.consumable.json": 2,
           "kadavanmeatjuice.consumable.json": 2,
           "spicebol.consumable.json": 2,
-          "stuffeddunebun.consumable.json": 2
+          "stuffeddunebun.consumable.json": 2,
+          "toastburnt.consumable.json": 0
         },
         "honeyextractor": {
           "elderhoneyjar.consumable.json": 2,
@@ -3330,9 +3346,9 @@
         },
         "mechparts": {
           "arm": {
-            "fudualcannon.item.json": 0,
+            "fudualcannon.item.json": 2,
             "fugaussmecha.item.json": 1,
-            "fuheatcannon.item.json": 1,
+            "fuheatcannon.item.json": 2,
             "fumecharmenergyrifle.item.json": 2,
             "fumecharmirradium.item.json": 2,
             "fumechchainsword.item.json": 2,
@@ -3477,15 +3493,13 @@
         },
         "shared_.item.json": 1,
         "tradegoods": {
-          "illicitgoods.item.json": 2
+          "chemicalgoods.item.json": 0,
+          "contrabandgoods.item.json": 0,
+          "emptygoods.item.json": 0,
+          "illicitgoods.item.json": 2,
+          "luxurygoods.item.json": 0,
+          "mineralgoods.item.json": 0
         }
-      },
-      "goods": {
-        "chemicalgoods.item.json": 0,
-        "contrabandgoods.item.json": 0,
-        "emptygoods.item.json": 0,
-        "luxurygoods.item.json": 0,
-        "mineralgoods.item.json": 0
       },
       "liquids": {
         "alienjuice.liqitem.json": 2,
@@ -5126,12 +5140,12 @@
         "crewmemberwarrior.npctype.json": 1,
         "crewmemberwarrior2.npctype.json": 1,
         "crewmemberwarrior3.npctype.json": 1,
-        "shared_crewmember.json": 178,
+        "shared_crewmember.json": 177,
         "shared_crewmemberchef.json": 11,
         "shared_crewmemberfu.json": 7,
         "shared_crewmemberwarrior.json": 1
       },
-      "crystalminer.npctype.json": 9,
+      "crystalminer.npctype.json": 8,
       "dinerpatron.npctype.json": 6,
       "dungeon": {
         "apexbase": {
@@ -5160,10 +5174,10 @@
         "infiltrationtavish.npctype.json": 5
       },
       "letheia": {
+        "letheiaboss.npctype.json": 0,
         "letheiacaptain.npctype.json": 3,
         "letheiagrunt.npctype.json": 2,
-        "letheiascientist.npctype.json": 2,
-        "shared_t.npctype.json": 1
+        "shared_.npctype.json": 3
       },
       "magickaforest": {
         "magickaguard.npctype.json": 9,
@@ -5407,10 +5421,10 @@
           "honeyjarrer.object.json": 3
         },
         "industrialcentrifuge": {
-          "industrialcentrifuge.object.json": 1
+          "industrialcentrifuge.object.json": 2
         },
         "ironcentrifuge": {
-          "ironcentrifuge.object.json": 1
+          "ironcentrifuge.object.json": 2
         },
         "scentedapiary": {
           "scentedapiary.object.json": 2
@@ -5510,13 +5524,13 @@
           "fissionfurnacenew.object.json": 2
         },
         "fu_alternatorgenerator": {
-          "fu_alternatorgenerator.object.json": 1
+          "fu_alternatorgenerator.object.json": 2
         },
         "fu_growingtray": {
           "fu_growingtray.object.json": 2
         },
         "fu_woodensifter": {
-          "fu_woodensifter.object.json": 1
+          "fu_woodensifter.object.json": 2
         },
         "fuincubator": {
           "fuincubator.object.json": 2
@@ -6193,6 +6207,9 @@
           "kheAA_terminal.object.json": 2
         }
       },
+      "mechrepair": {
+        "mechrepairpod.object.json": 0
+      },
       "microformer": {
         "aliendesert": {
           "microformeraliendesert.object.json": 2
@@ -6711,25 +6728,25 @@
       },
       "power": {
         "centrifuge": {
-          "centrifuge.object.json": 1
+          "centrifuge.object.json": 2
         },
         "centrifuge2": {
-          "centrifuge2.object.json": 1
+          "centrifuge2.object.json": 2
         },
         "fu_blastfurnace": {
-          "fu_blastfurnace.object.json": 1
+          "fu_blastfurnace.object.json": 2
         },
         "fu_conduit": {
           "fu_conduit.object.json": 2
         },
         "fu_liquidcondenser": {
-          "fu_liquidcondenser.object.json": 1
+          "fu_liquidcondenser.object.json": 2
         },
         "fu_powersensorlarge": {
-          "fu_powersensorlarge.object.json": 2
+          "fu_powersensorlarge.object.json": 1
         },
         "fu_quantumgenerator": {
-          "fu_quantumgenerator.object.json": 1
+          "fu_quantumgenerator.object.json": 2
         },
         "fu_solararray": {
           "fu_solararray.object.json": 1
@@ -6744,48 +6761,48 @@
           "fu_upgrade.object.json": 2
         },
         "fu_windarray": {
-          "isn_windarray.object.json": 1
+          "isn_windarray.object.json": 2
         },
         "isn_arcsmelter": {
-          "isn_arcsmelter.object.json": 1
+          "isn_arcsmelter.object.json": 2
         },
         "isn_atmoscondenser": {
-          "isn_atmoscondenser.object.json": 7
+          "isn_atmoscondenser.object.json": 8
         },
         "isn_atmosregulator": {
           "isn_atmosprotection.statuseffect.json": 1,
-          "isn_atmosregulator.object.json": 7,
-          "isn_atmosregulatornew.object.json": 1
+          "isn_atmosregulator.object.json": 8,
+          "isn_atmosregulatornew.object.json": 2
         },
         "isn_battery_t1": {
-          "isn_battery_t1.object.json": 0
+          "isn_battery_t1.object.json": 2
         },
         "isn_battery_t2": {
-          "isn_battery_t2.object.json": 0
+          "isn_battery_t2.object.json": 2
         },
         "isn_battery_t3_ceru": {
-          "isn_battery_t3_ceru.object.json": 0
+          "isn_battery_t3_ceru.object.json": 2
         },
         "isn_battery_t3_fero": {
-          "isn_battery_t3_fero.object.json": 0
+          "isn_battery_t3_fero.object.json": 2
         },
         "isn_battery_t4_fero": {
-          "isn_battery_t4_fero.object.json": 1
+          "isn_battery_t4_fero.object.json": 2
         },
         "isn_fissionreactor": {
           "isn_fissionreactor.object.json": 1
         },
         "isn_fissionreactornew": {
-          "isn_fissionreactornew.object.json": 0
+          "isn_fissionreactornew.object.json": 1
         },
         "isn_hydroponicstray": {
-          "isn_hydroponicstray.object.json": 7
+          "isn_hydroponicstray.object.json": 8
         },
         "isn_incinerator": {
           "isn_incinerator.object.json": 7
         },
         "isn_powdersifter": {
-          "isn_powdersifter.object.json": 1
+          "isn_powdersifter.object.json": 2
         },
         "isn_powersensor": {
           "isn_powersensor.object.json": 2
@@ -6798,20 +6815,20 @@
             "shared_vendor.config.json": 2
           },
           "isn_radiostation.animation.json": 1,
-          "isn_radiostation.object.json": 6,
+          "isn_radiostation.object.json": 7,
           "isn_radiostationnew.animation.json": 1,
-          "isn_radiostationnew.object.json": 0,
+          "isn_radiostationnew.object.json": 1,
           "shared_isn_radiostation.json": 6
         },
         "isn_solarpanel": {
           "isn_solarpanel.object.json": 7
         },
         "isn_thermalgenerator": {
-          "isn_thermalgenerator.object.json": 7
+          "isn_thermalgenerator.object.json": 8
         },
         "quantumextractor": {
-          "quantumextractor.object.json": 1,
-          "quantumextractor_roof.object.json": 1
+          "quantumextractor.object.json": 2,
+          "quantumextractor_roof.object.json": 2
         },
         "shared_centrifuge": {
           "shared_centrifuge.json": 1
@@ -6921,20 +6938,21 @@
       "shared_nest.json": 2,
       "shared_tra.json": 2,
       "smartbox": {
-        "shared_r.object.json": 0,
+        "shared_r.object.json": 1,
         "singular": {
-          "singular.object.json": 0
+          "singular.object.json": 2
         },
         "splitter": {
-          "splitter.object.json": 0
+          "splitter.object.json": 2
         }
       },
       "spawner": {
         "tinytether": {
-          "multitether.object.json": 0,
-          "multitinytether.object.json": 0,
-          "shared_tether.object.json": 0,
-          "tinytether.object.json": 0
+          "multitether.object.json": 2,
+          "multitinytether.object.json": 2,
+          "shared_tether.object.json": 7,
+          "statuetether.object.json": 0,
+          "tinytether.object.json": 2
         }
       },
       "teleporter": {
@@ -7526,6 +7544,7 @@
       "fu_scienceoutpost.questtemplate.json": 5,
       "grandarena.questtemplate.json": 4,
       "infiltration.questtemplate.json": 4,
+      "letheiafacility.questtemplate.json": 0,
       "letheiafleet.questtemplate.json": 3,
       "lethialabs.questtemplate.json": 4,
       "magickaforest.questtemplate.json": 4,
@@ -7923,6 +7942,7 @@
             "leviathansetbonuseffect.statuseffect.json": 1,
             "lightpriestsetbonuseffect.statuseffect.json": 1,
             "lunarisetbonuseffect.statuseffect.json": 1,
+            "militiasetbonuseffect.statuseffect.json": 1,
             "millenionsetbonuseffect.statuseffect.json": 1,
             "missionarysetbonuseffect.statuseffect.json": 1,
             "monsterplatesetbonuseffect.statuseffect.json": 1,
@@ -7936,6 +7956,7 @@
             "phasesetbonuseffect.statuseffect.json": 1,
             "plebiansetbonuseffect.statuseffect.json": 1,
             "precursorsetbonuseffect.statuseffect.json": 1,
+            "primussetbonuseffect.statuseffect.json": 0,
             "prophetsetbonuseffect.statuseffect.json": 1,
             "protectorsetbonuseffect.statuseffect.json": 1,
             "pyreitesetbonuseffect.statuseffect.json": 1,
@@ -7954,7 +7975,6 @@
             "scoutsetbonuseffect.statuseffect.json": 1,
             "sentrysetbonuseffect.statuseffect.json": 1,
             "shadowbonesetbonuseffect.statuseffect.json": 1,
-            "shared_setbonuseffect.statuseffect.json": 1,
             "shared_slimesetbonuseffect.json": 1,
             "shieldedsetbonuseffect.statuseffect.json": 1,
             "shoggothsetbonuseffect.statuseffect.json": 1,
@@ -8796,6 +8816,6 @@
         "shared_platform.material.json": 1
       }
     },
-    "wide_spread_fields.json": 116
+    "wide_spread_fields.json": 120
   }
 }
