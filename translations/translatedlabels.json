@@ -425,7 +425,7 @@
       },
       "kheAA": {
         "kheAA_router": {
-          "kheAA_routerGui.config.json": 15
+          "kheAA_routerGui.config.json": 14
         },
         "kheAA_terminal": {
           "kheAA_terminalGui.config.json": 8
@@ -456,10 +456,14 @@
           }
         },
         "shared_.config.json": 2,
+        "statWindow": {
+          "statWindow.config.json": 0
+        },
         "weaponupgrade2": {
           "weaponupgrade2gui.config.json": 4
         }
       },
+      "shared_.config.json": 1,
       "shared_boomerang..json": 1,
       "shared_chakram..json": 1,
       "shared_gun2..json": 1,
@@ -646,6 +650,9 @@
           "shared_translocator": {
             "shared_translocator.json": 1
           },
+          "statusTablet": {
+            "statustablet.activeitem.json": 0
+          },
           "techtablet": {
             "techtablet.activeitem.json": 2
           },
@@ -821,6 +828,7 @@
               "aetheriumdagger.activeitem.json": 2,
               "bloodyknife.activeitem.json": 2,
               "carbondagger.activeitem.json": 1,
+              "curvedagger.activeitem.json": 0,
               "effigiumdagger.activeitem.json": 1,
               "fuatropusdagger.activeitem.json": 1,
               "fubonepickaxe.activeitem.json": 2,
@@ -902,6 +910,7 @@
               "zerchesiumkatana.activeitem.json": 2
             },
             "longsword": {
+              "ancientlongsword.activeitem.json": 0,
               "commonlongsword.activeitem.json": 1,
               "coraldullblade.activeitem.json": 2,
               "crystallineblade.activeitem.json": 2,
@@ -971,16 +980,20 @@
               "furarerapier.activeitem.json": 1,
               "fuuncommonrapier.activeitem.json": 1,
               "ironrapier.activeitem.json": 2,
-              "silverrapier.activeitem.json": 2
+              "irradiumrapier.activeitem.json": 0,
+              "shared_rapier.activeitem.json": 2
             },
             "scythe": {
-              "densiniumscythe.activeitem.json": 1,
-              "fuatropusscythe.activeitem.json": 2,
+              "aetheriumscythe.activeitem.json": 0,
+              "densiniumscythe.activeitem.json": 2,
+              "fuatropusscythe.activeitem.json": 1,
               "fubonescythe.activeitem.json": 1,
+              "goldscythe.activeitem.json": 0,
               "honeyscythe.activeitem.json": 2,
               "lunariscythe.activeitem.json": 2,
               "quietusscythe.activeitem.json": 2,
-              "shared_scythe.activeitem.json": 1
+              "stonescythe.activeitem.json": 0,
+              "titaniumscythe.activeitem.json": 0
             },
             "shared_.activeitem.json": 5,
             "shared_r.activeitem.json": 1,
@@ -1274,6 +1287,9 @@
               "blisterpistol.activeitem.json": 1,
               "blizzardcannon.activeitem.json": 2,
               "crystalgun.activeitem.json": 2,
+              "curveblaster.activeitem.json": 0,
+              "curvepistol.activeitem.json": 0,
+              "curvesmg.activeitem.json": 0,
               "densiniumrifle.activeitem.json": 2,
               "eldercarbine.activeitem.json": 2,
               "elderpistol.activeitem.json": 2,
@@ -3379,6 +3395,9 @@
           },
           "horn": {
             "mechhornnootnoot.item.json": 2
+          },
+          "legs": {
+            "mechlegsfuobserver.item.json": 0
           }
         },
         "mission": {
@@ -6389,7 +6408,7 @@
             "elderthingstatue.object.json": 1
           },
           "knightstatue": {
-            "knightstatue.object.json": 2
+            "shared_knightstatue.json": 2
           },
           "megastatue": {
             "megastatue.object.json": 2
@@ -6797,11 +6816,9 @@
         "isn_battery_t4_fero": {
           "isn_battery_t4_fero.object.json": 2
         },
-        "isn_fissionreactor": {
-          "isn_fissionreactor.object.json": 1
-        },
         "isn_fissionreactornew": {
-          "isn_fissionreactornew.object.json": 1
+          "isn_fissionreactornew.config.json": 2,
+          "isn_fissionreactornew.object.json": 8
         },
         "isn_hydroponicstray": {
           "isn_hydroponicstray.object.json": 8
@@ -6840,9 +6857,6 @@
         },
         "shared_centrifuge": {
           "shared_centrifuge.json": 1
-        },
-        "shared_isn_fissionreactor": {
-          "shared_isn_fissionreactor.json": 9
         }
       },
       "questmaps": {
@@ -6946,12 +6960,14 @@
       "shared_nest.json": 2,
       "shared_tra.json": 2,
       "smartbox": {
-        "shared_r.object.json": 1,
+        "halver": {
+          "halver.object.json": 0
+        },
+        "shared_r.object.json": 0,
         "singular": {
           "singular.object.json": 2
         },
         "splitter": {
-          "halver.object.json": 0,
           "splitter.object.json": 2
         }
       },
