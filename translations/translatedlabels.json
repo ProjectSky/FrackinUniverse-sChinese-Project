@@ -404,7 +404,8 @@
     },
     "dialog": {
       "greg.config.json": 15,
-      "macready.config.json": 1
+      "macready.config.json": 1,
+      "plurcombat.config.json": 0
     },
     "generic.json": 1,
     "glitchEmotes.json": 160,
@@ -533,7 +534,9 @@
           "crewcontract_mechanic.activeitem.json": 2,
           "crewcontract_mechanic2.activeitem.json": 2,
           "crewcontract_medic.activeitem.json": 2,
+          "crewcontract_metalhead.activeitem.json": 0,
           "crewcontract_outlaw.activeitem.json": 2,
+          "crewcontract_plur.activeitem.json": 0,
           "crewcontract_radien.activeitem.json": 2,
           "crewcontract_science.activeitem.json": 1,
           "crewcontract_sciencedrug.activeitem.json": 2,
@@ -881,6 +884,7 @@
               "effigiumhammer.activeitem.json": 1,
               "elderhammer.activeitem.json": 2,
               "fishboneheadbasher.activeitem.json": 2,
+              "flyingv.activeitem.json": 0,
               "fuatropushammer.activeitem.json": 1,
               "fubonehammer.activeitem.json": 2,
               "fucarbonhammer.activeitem.json": 2,
@@ -1516,6 +1520,7 @@
               "shared_swarmgun.activeitem.json": 2,
               "shoggothgun.activeitem.json": 2,
               "slimelauncher.activeitem.json": 2,
+              "sniperknife.activeitem.json": 0,
               "spawngun.activeitem.json": 2,
               "swarmgun2.activeitem.json": 2,
               "tentabane.activeitem.json": 4,
@@ -1719,7 +1724,7 @@
             "isn_heatshell.back.json": 2
           },
           "isn_plasmalight": {
-            "isn_plasmalight.back.json": 2
+            "isn_plasmalight.back.json": 1
           },
           "lanternstick": {
             "lanternstick.back.json": 2
@@ -1783,12 +1788,15 @@
           "fuearphones": {
             "fuearphones.head.json": 2
           },
-          "shared_.head.json": 2,
+          "metalhair": {
+            "metalhead.head.json": 0
+          },
+          "shared_.head.json": 3,
           "shared_colourful": {
             "shared_colourful.json": 1
           },
           "sharkmask": {
-            "sharkmask.head.json": 2
+            "sharkmask.head.json": 1
           }
         },
         "crew": {
@@ -3808,6 +3816,7 @@
       },
       "tools": {
         "chainsaw.harvestingtool.json": 2,
+        "flashlight_new.flashlight.json": 0,
         "fuflashlight.flashlight.json": 2,
         "handhoe.tillingtool.json": 2,
         "miningtools": {
@@ -5184,7 +5193,7 @@
         "crewmemberchef.npctype.json": 3,
         "crewmemberchef2.npctype.json": 3,
         "crewmemberchef3.npctype.json": 3,
-        "crewmembercollector.npctype.json": 7,
+        "crewmembercollector.npctype.json": 3,
         "crewmembercultist.npctype.json": 5,
         "crewmembercyborg.npctype.json": 13,
         "crewmemberengineer2.npctype.json": 3,
@@ -5196,6 +5205,8 @@
         "crewmembergreg.npctype.json": 12,
         "crewmemberhobo.npctype.json": 8,
         "crewmembermechanic2.npctype.json": 3,
+        "crewmembermetalhead.npctype.json": 0,
+        "crewmemberplur.npctype.json": 0,
         "crewmemberradien.npctype.json": 3,
         "crewmemberscience.npctype.json": 2,
         "crewmemberscuba.npctype.json": 6,
@@ -5206,7 +5217,7 @@
         "crewmemberwarrior2.npctype.json": 1,
         "crewmemberwarrior3.npctype.json": 1,
         "shared_crewmember.json": 177,
-        "shared_crewmemberchef.json": 11,
+        "shared_crewmemberchef.json": 9,
         "shared_crewmemberfu.json": 7,
         "shared_crewmemberwarrior.json": 1
       },
@@ -5271,7 +5282,7 @@
         "fuoutpostcivilian2.npctype.json": 1,
         "shared_fuoutpostcivilian.json": 41
       },
-      "shared_.npctype.json": 55,
+      "shared_.npctype.json": 54,
       "shared_nge.json": 3,
       "skytemple": {
         "shared_skytemple.json": 2,
@@ -7028,10 +7039,11 @@
           "crossteleporter.object.json": 1
         },
         "futeleporter": {
-          "futeleporter.object.json": 1
+          "futeleporter.object.json": 1,
+          "futeleporter2.object.json": 0
         },
         "shared_teleporter": {
-          "shared_teleporter.object.json": 1
+          "shared_teleporter.json": 1
         }
       },
       "terraformer": {
@@ -7529,7 +7541,7 @@
         "create_blastfurnace.questtemplate.json": 3,
         "create_centrifuge.questtemplate.json": 4,
         "create_clothingfabricator.questtemplate.json": 4,
-        "create_clothingfabricator2.questtemplate.json": 4,
+        "create_clothingfabricator2.questtemplate.json": 3,
         "create_clothingfabricator3.questtemplate.json": 4,
         "create_densinium.questtemplate.json": 4,
         "create_designlab.questtemplate.json": 4,
@@ -7778,6 +7790,7 @@
     "shared_brainslug.json": 1,
     "shared_cloud.json": 1,
     "shared_con.json": 1,
+    "shared_crew.json": 0,
     "shared_ect.json": 179,
     "shared_elderplatform.mat.json": 2,
     "shared_ers": {
@@ -8106,6 +8119,9 @@
           "energyrestorepercentage": {
             "shared_.statuseffect.json": 1
           },
+          "feedpack": {
+            "shared_.statuseffect.json": 0
+          },
           "glow": {
             "shared_.statuseffect.json": 1
           },
@@ -8380,7 +8396,9 @@
           "sulphurattack.statuseffect.json": 1
         },
         "partytime": {
-          "partytime2.statuseffect.json": 1
+          "partytime2.statuseffect.json": 1,
+          "partytime3.statuseffect.json": 0,
+          "partytime4.statuseffect.json": 0
         },
         "percentarmorboost": {
           "percentarmorboost.animation.json": 1,
@@ -8601,6 +8619,7 @@
       },
       "other": {
         "emergencybounce.tech.json": 0,
+        "emergencybounce2.tech.json": 0,
         "phaseattack.tech.json": 2,
         "physicsfield2.tech.json": 2,
         "physicsfield3.tech.json": 2,
@@ -8892,6 +8911,6 @@
         "shared_platform.material.json": 1
       }
     },
-    "wide_spread_fields.json": 122
+    "wide_spread_fields.json": 123
   }
 }
