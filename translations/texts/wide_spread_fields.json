@@ -300,6 +300,48 @@
   {
     "DeniedAlternatives": [],
     "Files": {
+      "dialog/plurcombat.config": [
+        "/attack/default/default/0"
+      ],
+      "npcs/alienjungle/alienjunglethornhide.npctype": [
+        "/scriptConfig/dialog/attack/default/default/0"
+      ],
+      "npcs/letheia/letheiaboss.npctype": [
+        "/scriptConfig/dialog/attack/default/default/0"
+      ],
+      "npcs/pavillion/pavillionarcher.npctype": [
+        "/scriptConfig/dialog/attack/default/default/0"
+      ],
+      "npcs/pavillion/pavillionsamurai.npctype": [
+        "/scriptConfig/dialog/attack/default/default/0"
+      ],
+      "npcs/pavillion/pavillionshogun.npctype": [
+        "/scriptConfig/dialog/attack/default/default/0"
+      ],
+      "npcs/skytemple/skytemplegrower.npctype": [
+        "/scriptConfig/dialog/attack/default/default/0"
+      ],
+      "npcs/skytemple/skytemplestargazer.npctype": [
+        "/scriptConfig/dialog/attack/default/default/0"
+      ],
+      "npcs/skytemple/skytemplestarshot.npctype": [
+        "/scriptConfig/dialog/attack/default/default/0"
+      ],
+      "npcs/volcanobase/volcanobasehunter.npctype": [
+        "/scriptConfig/dialog/attack/default/default/0"
+      ],
+      "npcs/volcanobase/volcanobaselord.npctype": [
+        "/scriptConfig/dialog/attack/default/default/0"
+      ]
+    },
+    "Texts": {
+      "Chs": "进攻！",
+      "Eng": "Attack!"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
       "biomes/surface/barren2.biome": [
         "/friendlyName"
       ],
@@ -2106,6 +2148,9 @@
       "interface/kheAA/kheAA_terminal/kheAA_terminalGui.config": [
         "/gui/scrollArea/children/itemList/schema/listTemplate/itemName/value"
       ],
+      "interface/scripted/collections/collectionsgui.config": [
+        "/gui/scrollAreaCustom/children/customCollectionList/schema/listTemplate/collectionName/value"
+      ],
       "interface/scripted/miningbench/miningbench.config": [
         "/gui/itemScrollArea/children/itemList/schema/listTemplate/itemName/value"
       ],
@@ -2931,6 +2976,7 @@
       ]
     },
     "Texts": {
+      "Chs": "x?\\d{0,3}",
       "Eng": "x?\\d{0,3}"
     }
   },
@@ -2999,6 +3045,7 @@
       ]
     },
     "Texts": {
+      "Chs": "x?\\d{0,4}",
       "Eng": "x?\\d{0,4}"
     }
   }

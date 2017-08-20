@@ -929,6 +929,9 @@
     "/tagCriteria/default/default/8": "texts/glitchEmotes.json",
     "/tagCriteria/default/default/9": "texts/wide_spread_fields.json"
   },
+  "dialog/plurcombat.config": {
+    "/attack/default/default/0": "texts/wide_spread_fields.json"
+  },
   "interface/bees/alveary/alveary.config": {
     "/gui/count/value": "texts/interface.json",
     "/gui/countoutput/value": "texts/interface.json",
@@ -1091,8 +1094,15 @@
     "/priceLabel/value": "texts/wide_spread_fields.json",
     "/speedTitleLabel/value": "texts/interface.json"
   },
+  "interface/kheAA/kheAA_router/kheAA_routerGui.config": {
+    "/gui/inputSlotCount/hint": "texts/interface/shared_.config.json",
+    "/gui/outputSlotCount/hint": "texts/interface/shared_.config.json"
+  },
   "interface/kheAA/kheAA_terminal/kheAA_terminalGui.config": {
     "/gui/scrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json"
+  },
+  "interface/scripted/collections/collectionsgui.config": {
+    "/gui/scrollAreaCustom/children/customCollectionList/schema/listTemplate/collectionName/value": "texts/wide_spread_fields.json"
   },
   "interface/scripted/miningbench/miningbench.config": {
     "/gui/btnUpgrade/caption": "texts/interface/scripted/shared_.config.json",
@@ -1108,6 +1118,20 @@
     "/scenes/intro3c/text": "texts/wide_spread_fields.json",
     "/scenes/intro4/text": "texts/wide_spread_fields.json",
     "/scenes/song1/options/0/0": "texts/wide_spread_fields.json"
+  },
+  "interface/scripted/statWindow/statWindow.config": {
+    "/gui/characterName/value": "texts/interface/shared_.config.json",
+    "/gui/cosmicResist/value": "texts/interface/shared_.config.json",
+    "/gui/electricResist/value": "texts/interface/shared_.config.json",
+    "/gui/fireResist/value": "texts/interface/shared_.config.json",
+    "/gui/iceResist/value": "texts/interface/shared_.config.json",
+    "/gui/immunitiesList/children/textList/schema/listTemplate/immunity/value": "texts/interface/shared_.config.json",
+    "/gui/physicalResist/value": "texts/interface/shared_.config.json",
+    "/gui/poisonResist/value": "texts/interface/shared_.config.json",
+    "/gui/racialDesc/children/textList/schema/listTemplate/trait/value": "texts/interface/shared_.config.json",
+    "/gui/racialLabel/value": "texts/interface/shared_.config.json",
+    "/gui/radioactiveResist/value": "texts/interface/shared_.config.json",
+    "/gui/shadowResist/value": "texts/interface/shared_.config.json"
   },
   "interface/scripted/weaponupgrade2/weaponupgrade2gui.config": {
     "/gui/btnUpgrade/caption": "texts/interface/scripted/shared_.config.json",
@@ -1484,6 +1508,9 @@
   "items/active/crewcontracts/crewcontract_hobo.activeitem": {
     "/shortdescription": "texts/items/active/crewcontracts/shared_crewcontract_.json"
   },
+  "items/active/crewcontracts/crewcontract_metalhead.activeitem": {
+    "/description": "texts/shared_crew.json"
+  },
   "items/active/crewcontracts/crewcontract_science.activeitem": {
     "/shortdescription": "texts/items/active/crewcontracts/shared_crewcontract_.json"
   },
@@ -1535,11 +1562,26 @@
   "items/active/vehiclecontroller/fusubcontroller4.activeitem": {
     "/description": "texts/items/active/vehiclecontroller/shared_fusubcontroller.json"
   },
+  "items/active/vehiclecontroller/fusubcontroller5.activeitem": {
+    "/description": "texts/items/active/vehiclecontroller/shared_fusubcontroller.json"
+  },
+  "items/active/weapons/boomerang/bonespur.activeitem": {
+    "/description": "texts/items/active/weapons/boomerang/shared_.activeitem.json"
+  },
+  "items/active/weapons/boomerang/nooberang.activeitem": {
+    "/description": "texts/items/active/weapons/boomerang/shared_.activeitem.json"
+  },
   "items/active/weapons/bow/prismaticbow/prismaticbow.activeitem": {
     "/altAbility/name": "texts/items/active/weapons/bow/shared_bow/shared_bow.activeitem.json"
   },
   "items/active/weapons/bow/xithricitebow/xithricitebow.activeitem": {
     "/altAbility/name": "texts/items/active/weapons/bow/shared_bow/shared_bow.activeitem.json"
+  },
+  "items/active/weapons/chakram/funeochakram.activeitem": {
+    "/description": "texts/items/active/weapons/chakram/shared_chakram.activeitem.json"
+  },
+  "items/active/weapons/chakram/titaniumchakram.activeitem": {
+    "/description": "texts/items/active/weapons/chakram/shared_chakram.activeitem.json"
   },
   "items/active/weapons/melee/axe/bountyaxe.activeitem": {
     "/description": "texts/items/active/weapons/melee/axe/shared_axe.activeitem.json"
@@ -1585,6 +1627,14 @@
   },
   "items/active/weapons/melee/dagger/fuatropusdagger.activeitem": {
     "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
+  },
+  "items/active/weapons/melee/dagger/glowstickgreendagger.activeitem": {
+    "/description": "texts/items/active/weapons/melee/dagger/shared_dagger.activeitem.json",
+    "/shortdescription": "texts/items/active/weapons/melee/dagger/shared_dagger.activeitem.json"
+  },
+  "items/active/weapons/melee/dagger/glowstickyellowdagger.activeitem": {
+    "/description": "texts/items/active/weapons/melee/dagger/shared_dagger.activeitem.json",
+    "/shortdescription": "texts/items/active/weapons/melee/dagger/shared_dagger.activeitem.json"
   },
   "items/active/weapons/melee/dagger/quietusknave.activeitem": {
     "/description": "texts/items/active/weapons/melee/dagger/shared_e.activeitem.json"
@@ -1662,16 +1712,13 @@
     "/description": "texts/items/active/weapons/melee/shared_sword/shared_sword.activeitem.json"
   },
   "items/active/weapons/melee/mace/fucommonmace.activeitem": {
-    "/description": "texts/items/active/weapons/melee/mace/shared_mace.activeitem.json",
-    "/shortdescription": "texts/items/active/weapons/melee/mace/shared_mace.activeitem.json"
+    "/description": "texts/items/active/weapons/melee/mace/shared_mace.activeitem.json"
   },
   "items/active/weapons/melee/mace/furaremace.activeitem": {
-    "/description": "texts/items/active/weapons/melee/mace/shared_mace.activeitem.json",
-    "/shortdescription": "texts/items/active/weapons/melee/mace/shared_mace.activeitem.json"
+    "/description": "texts/items/active/weapons/melee/mace/shared_mace.activeitem.json"
   },
   "items/active/weapons/melee/mace/fuuncommonmace.activeitem": {
-    "/description": "texts/items/active/weapons/melee/mace/shared_mace.activeitem.json",
-    "/shortdescription": "texts/items/active/weapons/melee/mace/shared_mace.activeitem.json"
+    "/description": "texts/items/active/weapons/melee/mace/shared_mace.activeitem.json"
   },
   "items/active/weapons/melee/mace/ironmace.activeitem": {
     "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
@@ -1706,12 +1753,6 @@
   },
   "items/active/weapons/melee/rapier/fuuncommonrapier.activeitem": {
     "/description": "texts/items/active/weapons/melee/shared_r.activeitem.json"
-  },
-  "items/active/weapons/melee/scythe/densiniumscythe.activeitem": {
-    "/description": "texts/items/active/weapons/melee/scythe/shared_scythe.activeitem.json"
-  },
-  "items/active/weapons/melee/scythe/fubonescythe.activeitem": {
-    "/description": "texts/items/active/weapons/melee/scythe/shared_scythe.activeitem.json"
   },
   "items/active/weapons/melee/shortspear/advalloyshortspear.activeitem": {
     "/description": "texts/items/active/weapons/melee/shortspear/shared_shortspear.activeitem.json"
@@ -1821,6 +1862,12 @@
   },
   "items/active/weapons/novakid/tungstensniperrifle.activeitem": {
     "/description": "texts/items/active/weapons/novakid/shared_sniperrifle.activeitem.json"
+  },
+  "items/active/weapons/npc/spiderdriodblast.activeitem": {
+    "/description": "texts/items/active/weapons/npc/shared_.activeitem.json"
+  },
+  "items/active/weapons/npc/spiderdroidbeam.activeitem": {
+    "/description": "texts/items/active/weapons/npc/shared_.activeitem.json"
   },
   "items/active/weapons/npc/swtjc_ewg_npcantimaterialrifle.activeitem": {
     "/description": "texts/items/active/weapons/shared_rifle.json"
@@ -2183,6 +2230,12 @@
   "items/armors/costumes/jokeglasses/jokeglasses.head": {
     "/description": "texts/items/armors/costumes/shared_.head.json",
     "/shortdescription": "texts/items/armors/costumes/shared_.head.json"
+  },
+  "items/armors/costumes/metalhair/metalhead.head": {
+    "/description": "texts/items/armors/costumes/shared_.head.json"
+  },
+  "items/armors/costumes/sharkmask/sharkmask.head": {
+    "/description": "texts/items/armors/costumes/shared_.head.json"
   },
   "items/armors/crew/bountynpc/fuoperativenpc.chest": {
     "/description": "texts/items/armors/crew/bountynpc/shared_fuoperativenpc..json",
@@ -2706,15 +2759,13 @@
     "/shortdescription": "texts/items/armors/shared_fudarkrobespants.json"
   },
   "items/armors/tier3/steampunk/fusteampunk.chest": {
-    "/description": "texts/items/armors/tier3/steampunk/shared_fusteampunk..json",
-    "/shortdescription": "texts/items/armors/tier3/steampunk/shared_fusteampunk..json"
+    "/description": "texts/items/armors/tier3/steampunk/shared_fusteampunk..json"
   },
   "items/armors/tier3/steampunk/fusteampunk.head": {
     "/description": "texts/items/armors/tier3/steampunk/shared_fusteampunk..json"
   },
   "items/armors/tier3/steampunk/fusteampunk.legs": {
-    "/description": "texts/items/armors/tier3/steampunk/shared_fusteampunk..json",
-    "/shortdescription": "texts/items/armors/tier3/steampunk/shared_fusteampunk..json"
+    "/description": "texts/items/armors/tier3/steampunk/shared_fusteampunk..json"
   },
   "items/armors/tier3/wanderer/fupioneer.chest": {
     "/description": "texts/items/armors/tier3/wanderer/shared_fupioneer..json"
@@ -3457,6 +3508,12 @@
     "/description": "texts/items/augments/back/resistances/shared_.augment.json",
     "/shortdescription": "texts/items/augments/back/resistances/shared_.augment.json"
   },
+  "items/augments/pet/partytimecollar.augment": {
+    "/description": "texts/items/augments/pet/shared_.augment.json"
+  },
+  "items/augments/pet/weee.augment": {
+    "/description": "texts/items/augments/pet/shared_.augment.json"
+  },
   "items/bees/bees/aggressive/aggressivedrone.item": {
     "/description": "texts/bees/shared_bee/shared_aggressive.json"
   },
@@ -3738,7 +3795,7 @@
     "/shortdescription": "texts/materials/shared_aliensoil.mat.json"
   },
   "items/materials/amberplatform.matitem": {
-    "/description": "texts/shared_amberplatform.mat.json",
+    "/description": "texts/shared_.mat.json",
     "/shortdescription": "texts/shared_amberplatform.mat.json"
   },
   "items/materials/andesite.matitem": {
@@ -3814,6 +3871,10 @@
   },
   "items/materials/blackslimematerial.matitem": {
     "/shortdescription": "texts/materials/shared_blackslime.json"
+  },
+  "items/materials/blacksteelblock.matitem": {
+    "/description": "texts/materials/shared_blacksteelblock.mat.json",
+    "/shortdescription": "texts/materials/shared_blacksteelblock.mat.json"
   },
   "items/materials/bleachedbonematerial.matitem": {
     "/description": "texts/materials/shared_bleachedbonematerial.mat.json",
@@ -3947,6 +4008,12 @@
   },
   "items/materials/erchiuspillar.matitem": {
     "/shortdescription": "texts/materials/shared_erchiuspillar.mat.json"
+  },
+  "items/materials/fancywoodstairs.matitem": {
+    "/shortdescription": "texts/shared_fancywoodstairs.mat.json"
+  },
+  "items/materials/flowerybars.matitem": {
+    "/shortdescription": "texts/materials/shared_flowerybars.mat.json"
   },
   "items/materials/frozensand2material.matitem": {
     "/description": "texts/materials/shared_material.json",
@@ -5619,7 +5686,7 @@
     "/shortdescription": "texts/shared_ers/shared_waterbot.json"
   },
   "npcs/alienjungle/alienjunglethornhide.npctype": {
-    "/scriptConfig/dialog/attack/default/default/0": "texts/npcs/shared_.npctype.json"
+    "/scriptConfig/dialog/attack/default/default/0": "texts/wide_spread_fields.json"
   },
   "npcs/ancienttemple/battlepriest.npctype": {
     "/scriptConfig/dialog/attack/avian/default/0": "texts/npcs/ancienttemple/shared_priest.npctype.json",
@@ -6859,6 +6926,23 @@
     "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0/glitchEmote": "texts/glitchEmotes.json",
     "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0/glitchEmotedText": "texts/npcs/crew/crewmemberhobo.npctype.json"
   },
+  "npcs/crew/crewmembermetalhead.npctype": {
+    "/scriptConfig/dialog/crewmember/cantreach/default/default/3": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0": "texts/shared_crew.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/unfollow/default/default/0": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/unfollow/default/default/1": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/unfollow/default/default/2": "texts/shared_crew.json"
+  },
+  "npcs/crew/crewmemberplur.npctype": {
+    "/scriptConfig/dialog/crewmember/cantreach/default/default/3": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0": "texts/shared_crew.json",
+    "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/respawned/default/default/6": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/unfollow/default/default/0": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/unfollow/default/default/1": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/unfollow/default/default/2": "texts/shared_crew.json"
+  },
   "npcs/crew/crewmemberradien.npctype": {
     "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/0": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/combatBenefit/floran/default/1": "texts/npcs/crew/shared_crewmember.json",
@@ -7686,7 +7770,7 @@
     "/scriptConfig/dialog/attack/default/default/2": "texts/npcs/letheia/shared_.npctype.json"
   },
   "npcs/letheia/letheiaboss.npctype": {
-    "/scriptConfig/dialog/attack/default/default/0": "texts/npcs/shared_.npctype.json"
+    "/scriptConfig/dialog/attack/default/default/0": "texts/wide_spread_fields.json"
   },
   "npcs/letheia/letheiagrunt.npctype": {
     "/scriptConfig/dialog/attack/default/default/1": "texts/npcs/letheia/shared_.npctype.json"
@@ -7785,7 +7869,7 @@
     "/scriptConfig/dialog/hail/default/default/9": "texts/npcs/mobs/shared_.npctype.json"
   },
   "npcs/pavillion/pavillionarcher.npctype": {
-    "/scriptConfig/dialog/attack/default/default/0": "texts/npcs/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/default/default/0": "texts/wide_spread_fields.json",
     "/scriptConfig/dialog/attack/hylotl/default/0": "texts/npcs/pavillion/shared_pavillion.json",
     "/scriptConfig/dialog/attack/hylotl/default/1": "texts/npcs/pavillion/shared_pavillion.json",
     "/scriptConfig/dialog/attack/hylotl/default/2": "texts/npcs/pavillion/shared_pavillion.json",
@@ -7802,11 +7886,11 @@
     "/scriptConfig/dialog/attack/default/default/5": "texts/npcs/pavillion/shared_pavillion.json"
   },
   "npcs/pavillion/pavillionsamurai.npctype": {
-    "/scriptConfig/dialog/attack/default/default/0": "texts/npcs/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/default/default/0": "texts/wide_spread_fields.json",
     "/scriptConfig/dialog/attack/hylotl/default/3": "texts/npcs/pavillion/shared_pavillion.json"
   },
   "npcs/pavillion/pavillionshogun.npctype": {
-    "/scriptConfig/dialog/attack/default/default/0": "texts/npcs/shared_.npctype.json"
+    "/scriptConfig/dialog/attack/default/default/0": "texts/wide_spread_fields.json"
   },
   "npcs/scienceoutpost/fuoutpostcivilian.npctype": {
     "/scriptConfig/dialog/converse/apex/default/0": "texts/npcs/scienceoutpost/shared_fuoutpostcivilian.json",
@@ -7952,16 +8036,16 @@
   "npcs/skytemple/skytemplegrower.npctype": {
     "/scriptConfig/dialog/attack/avian/default/0": "texts/npcs/skytemple/shared_skytemple.json",
     "/scriptConfig/dialog/attack/avian/default/1": "texts/npcs/skytemple/shared_skytemple.json",
-    "/scriptConfig/dialog/attack/default/default/0": "texts/npcs/shared_.npctype.json"
+    "/scriptConfig/dialog/attack/default/default/0": "texts/wide_spread_fields.json"
   },
   "npcs/skytemple/skytemplestargazer.npctype": {
-    "/scriptConfig/dialog/attack/default/default/0": "texts/npcs/shared_.npctype.json"
+    "/scriptConfig/dialog/attack/default/default/0": "texts/wide_spread_fields.json"
   },
   "npcs/skytemple/skytemplestarshot.npctype": {
     "/scriptConfig/dialog/attack/avian/default/0": "texts/npcs/skytemple/shared_skytemple.json",
     "/scriptConfig/dialog/attack/avian/default/1": "texts/npcs/skytemple/shared_skytemple.json",
     "/scriptConfig/dialog/attack/avian/default/2": "texts/npcs/skytemple/shared_skytemples.json",
-    "/scriptConfig/dialog/attack/default/default/0": "texts/npcs/shared_.npctype.json"
+    "/scriptConfig/dialog/attack/default/default/0": "texts/wide_spread_fields.json"
   },
   "npcs/skytemple/skytemplesunsword.npctype": {
     "/scriptConfig/dialog/attack/default/default/0": "texts/npcs/skytemple/shared_skytemple.json",
@@ -8065,7 +8149,7 @@
     "/scriptConfig/dialog/converse/glitch/default/3/glitchEmotedText": "texts/npcs/volcanobase/volcanobasehostage.npctype.json"
   },
   "npcs/volcanobase/volcanobasehunter.npctype": {
-    "/scriptConfig/dialog/attack/default/default/0": "texts/npcs/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/default/default/0": "texts/wide_spread_fields.json",
     "/scriptConfig/dialog/attack/glitch/default/0/glitchEmote": "texts/glitchEmotes.json",
     "/scriptConfig/dialog/attack/glitch/default/0/glitchEmotedText": "texts/npcs/volcanobase/volcanobasehunter.npctype.json",
     "/scriptConfig/dialog/attack/glitch/default/1/glitchEmote": "texts/glitchEmotes.json",
@@ -8074,7 +8158,7 @@
     "/scriptConfig/dialog/attack/glitch/default/2/glitchEmotedText": "texts/npcs/volcanobase/volcanobasehunter.npctype.json"
   },
   "npcs/volcanobase/volcanobaselord.npctype": {
-    "/scriptConfig/dialog/attack/default/default/0": "texts/npcs/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/default/default/0": "texts/wide_spread_fields.json",
     "/scriptConfig/dialog/attack/glitch/default/0/glitchEmote": "texts/glitchEmotes.json",
     "/scriptConfig/dialog/attack/glitch/default/0/glitchEmotedText": "texts/npcs/volcanobase/volcanobaselord.npctype.json",
     "/scriptConfig/dialog/attack/glitch/default/1/glitchEmote": "texts/glitchEmotes.json",
@@ -9595,6 +9679,10 @@
   "objects/crafting/extractionlabadv/extractionlabadv.object": {
     "/subtitle": "texts/objects.json"
   },
+  "objects/crafting/extraweaponupgradeanvil/extraweaponupgradeanvil.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/crafting/extraweaponupgradeanvil/extraweaponupgradeanvil.object.json"
+  },
   "objects/crafting/fu_alternatorgenerator/fu_alternatorgenerator.config": {
     "/gui/count/value": "texts/objects/shared_generator/shared_generator.config.json"
   },
@@ -11084,6 +11172,12 @@
   "objects/kheAA/kheAA_autoBeamer/fu_harvestTurretBugs.object": {
     "/subtitle": "texts/objects/kheAA/kheAA_autoBeamer/shared_fu_harvestTurret.json"
   },
+  "objects/kheAA/kheAA_quarry/kheAA_quarry.object": {
+    "/description": "texts/objects/kheAA/kheAA_quarry/shared_kheAA_quarry.json"
+  },
+  "objects/kheAA/kheAA_quarry/kheAA_quarry2.object": {
+    "/description": "texts/objects/kheAA/kheAA_quarry/shared_kheAA_quarry.json"
+  },
   "objects/mines/poisonmine.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/mines/poisonmine.object.json"
@@ -11382,6 +11476,14 @@
   },
   "objects/minibiome/cyclopean/elderthingstatue/elderthingstatue.object": {
     "/shortdescription": "texts/objects.json"
+  },
+  "objects/minibiome/cyclopean/knightstatue/knightstatue.object": {
+    "/description": "texts/objects/minibiome/cyclopean/knightstatue/shared_knightstatue.json",
+    "/shortdescription": "texts/objects/minibiome/cyclopean/knightstatue/shared_knightstatue.json"
+  },
+  "objects/minibiome/cyclopean/knightstatue/knightstatue2.object": {
+    "/description": "texts/objects/minibiome/cyclopean/knightstatue/shared_knightstatue.json",
+    "/shortdescription": "texts/objects/minibiome/cyclopean/knightstatue/shared_knightstatue.json"
   },
   "objects/minibiome/elder/catacombs1.object": {
     "/shortdescription": "texts/objects/minibiome/elder/shared_catacombs.json"
@@ -11834,6 +11936,9 @@
   "objects/minibiome/precursor/precursorconverter/console.object": {
     "/subtitle": "texts/objects.json"
   },
+  "objects/minibiome/precursor/precursorconverter/console2.object": {
+    "/subtitle": "texts/objects.json"
+  },
   "objects/minibiome/stone/ff_stonechest.object": {
     "/description": "texts/objects/minibiome/stone/shared_ff_stonechest.json",
     "/shortdescription": "texts/objects/minibiome/stone/shared_ff_stonechest.json"
@@ -11985,6 +12090,10 @@
     "/description": "texts/objects/pixelgoods/shared_fuokeamagmadoor.json",
     "/shortdescription": "texts/objects/pixelgoods/shared_fuokeamagmadoor.json"
   },
+  "objects/pixelgoods/mlitcometsofa.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/pixelgoods/mlitcometsofa.object.json"
+  },
   "objects/playerstation/backgrounds/stationbackgroundreslarge0.object": {
     "/description": "texts/objects/playerstation/backgrounds/shared_stationbackgroundreslarge.json",
     "/shortdescription": "texts/objects/playerstation/backgrounds/shared_stationbackgroundreslarge.json"
@@ -12049,33 +12158,9 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/power/isn_atmosregulator/isn_atmosregulator.object.json"
   },
-  "objects/power/isn_fissionreactor/isn_fissionreactor.config": {
-    "/gui/count/value": "texts/objects/power/shared_isn_fissionreactor/shared_isn_fissionreactor.json",
-    "/gui/countwaste/value": "texts/objects/power/shared_isn_fissionreactor/shared_isn_fissionreactor.json"
-  },
-  "objects/power/isn_fissionreactor/isn_fissionreactor.object": {
-    "/apexDescription": "texts/objects/power/shared_isn_fissionreactor/shared_isn_fissionreactor.json",
-    "/avianDescription": "texts/objects/power/shared_isn_fissionreactor/shared_isn_fissionreactor.json",
-    "/floranDescription": "texts/objects/power/shared_isn_fissionreactor/shared_isn_fissionreactor.json",
-    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/power/shared_isn_fissionreactor/shared_isn_fissionreactor.json",
-    "/humanDescription": "texts/objects/power/shared_isn_fissionreactor/shared_isn_fissionreactor.json",
-    "/hylotlDescription": "texts/objects/power/shared_isn_fissionreactor/shared_isn_fissionreactor.json",
-    "/shortdescription": "texts/objects/power/shared_isn_fissionreactor/shared_isn_fissionreactor.json"
-  },
-  "objects/power/isn_fissionreactornew/isn_fissionreactornew.config": {
-    "/gui/count/value": "texts/objects/power/shared_isn_fissionreactor/shared_isn_fissionreactor.json",
-    "/gui/countwaste/value": "texts/objects/power/shared_isn_fissionreactor/shared_isn_fissionreactor.json"
-  },
   "objects/power/isn_fissionreactornew/isn_fissionreactornew.object": {
-    "/apexDescription": "texts/objects/power/shared_isn_fissionreactor/shared_isn_fissionreactor.json",
-    "/avianDescription": "texts/objects/power/shared_isn_fissionreactor/shared_isn_fissionreactor.json",
-    "/floranDescription": "texts/objects/power/shared_isn_fissionreactor/shared_isn_fissionreactor.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/power/shared_isn_fissionreactor/shared_isn_fissionreactor.json",
-    "/humanDescription": "texts/objects/power/shared_isn_fissionreactor/shared_isn_fissionreactor.json",
-    "/hylotlDescription": "texts/objects/power/shared_isn_fissionreactor/shared_isn_fissionreactor.json",
-    "/shortdescription": "texts/objects/power/shared_isn_fissionreactor/shared_isn_fissionreactor.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/power/isn_fissionreactornew/isn_fissionreactornew.object.json"
   },
   "objects/power/isn_hydroponicstray/isn_hydroponicstray.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -13273,6 +13358,9 @@
     "/description": "texts/objects.json",
     "/shortdescription": "texts/objects.json"
   },
+  "objects/smartbox/halver/halver.object": {
+    "/subtitle": "texts/objects/smartbox/shared_r.object.json"
+  },
   "objects/smartbox/singular/singular.object": {
     "/subtitle": "texts/objects/smartbox/shared_r.object.json"
   },
@@ -13314,10 +13402,13 @@
     "/novakidDescription": "texts/objects/spawner/tinytether/shared_tether.object.json"
   },
   "objects/teleporter/crossteleporter/crossteleporter.object": {
-    "/description": "texts/objects/teleporter/shared_teleporter/shared_teleporter.object.json"
+    "/description": "texts/objects/teleporter/shared_teleporter/shared_teleporter.json"
   },
   "objects/teleporter/futeleporter/futeleporter.object": {
-    "/description": "texts/objects/teleporter/shared_teleporter/shared_teleporter.object.json"
+    "/description": "texts/objects/teleporter/shared_teleporter/shared_teleporter.json"
+  },
+  "objects/teleporter/futeleporter2/futeleporter2.object": {
+    "/description": "texts/objects/teleporter/shared_teleporter/shared_teleporter.json"
   },
   "objects/traps/extrabonespike/extrabonespike.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -14577,6 +14668,19 @@
     "/charGenTextLabels/8": "texts/species/shared_i.species.json",
     "/charGenTextLabels/9": "texts/species/shared_.species.json"
   },
+  "species/fuphotonpoptop.species": {
+    "/charGenTextLabels/0": "texts/species/shared_.species.json",
+    "/charGenTextLabels/1": "texts/species/shared_.species.json",
+    "/charGenTextLabels/10": "texts/species/shared_.species.json",
+    "/charGenTextLabels/11": "texts/species/shared_.species.json",
+    "/charGenTextLabels/2": "texts/species/shared_.species.json",
+    "/charGenTextLabels/3": "texts/species/shared_.species.json",
+    "/charGenTextLabels/4": "texts/species/shared_.species.json",
+    "/charGenTextLabels/5": "texts/species/shared_.species.json",
+    "/charGenTextLabels/7": "texts/species/shared_.species.json",
+    "/charGenTextLabels/8": "texts/species/shared_.species.json",
+    "/charGenTextLabels/9": "texts/species/shared_.species.json"
+  },
   "species/kirhosnamegen.config": {
     "/names/1/1/10": "texts/species/shared_namegen.config.json",
     "/names/1/1/11": "texts/species/shared_namegen.config.json",
@@ -14780,6 +14884,19 @@
     "/charGenTextLabels/4": "texts/species/shared_.species.json",
     "/charGenTextLabels/5": "texts/species/shared_.species.json",
     "/charGenTextLabels/6": "texts/species/shared_.species.json",
+    "/charGenTextLabels/7": "texts/species/shared_.species.json",
+    "/charGenTextLabels/8": "texts/species/shared_.species.json",
+    "/charGenTextLabels/9": "texts/species/shared_.species.json"
+  },
+  "species/spiderdroid.species": {
+    "/charGenTextLabels/0": "texts/species/shared_.species.json",
+    "/charGenTextLabels/1": "texts/species/shared_.species.json",
+    "/charGenTextLabels/10": "texts/species/shared_.species.json",
+    "/charGenTextLabels/11": "texts/species/shared_.species.json",
+    "/charGenTextLabels/2": "texts/species/shared_.species.json",
+    "/charGenTextLabels/3": "texts/species/shared_.species.json",
+    "/charGenTextLabels/4": "texts/species/shared_.species.json",
+    "/charGenTextLabels/5": "texts/species/shared_.species.json",
     "/charGenTextLabels/7": "texts/species/shared_.species.json",
     "/charGenTextLabels/8": "texts/species/shared_.species.json",
     "/charGenTextLabels/9": "texts/species/shared_.species.json"
@@ -15149,6 +15266,15 @@
   "stats/effects/fu_effects/energyrestorepercentage/energy_armor_4.statuseffect": {
     "/label": "texts/stats/effects/fu_effects/energyrestorepercentage/shared_.statuseffect.json"
   },
+  "stats/effects/fu_effects/feedpack/feedpackcrew1.statuseffect": {
+    "/label": "texts/stats/effects/fu_effects/feedpack/shared_.statuseffect.json"
+  },
+  "stats/effects/fu_effects/feedpack/feedpackcrew2.statuseffect": {
+    "/label": "texts/stats/effects/fu_effects/feedpack/shared_.statuseffect.json"
+  },
+  "stats/effects/fu_effects/feedpack/feedpackcrew3.statuseffect": {
+    "/label": "texts/stats/effects/fu_effects/feedpack/shared_.statuseffect.json"
+  },
   "stats/effects/fu_effects/glow/glowblue.statuseffect": {
     "/label": "texts/stats/effects/fu_effects/glow/shared_.statuseffect.json"
   },
@@ -15192,6 +15318,9 @@
     "/label": "texts/stats/effects.json"
   },
   "stats/effects/fu_immunityeffects/poisonimmunity.statuseffect": {
+    "/label": "texts/stats/effects/fu_immunityeffects/shared_poisonimmunity.json"
+  },
+  "stats/effects/fu_immunityeffects/poisonimmunitycrystal.statuseffect": {
     "/label": "texts/stats/effects/fu_immunityeffects/shared_poisonimmunity.json"
   },
   "stats/effects/fu_immunityeffects/poisonimmunityspongeweed.statuseffect": {
@@ -15715,6 +15844,10 @@
   "tiles/materials/blackslime.material": {
     "/shortdescription": "texts/materials/shared_blackslime.json"
   },
+  "tiles/materials/blacksteelblock.material": {
+    "/description": "texts/materials/shared_blacksteelblock.mat.json",
+    "/shortdescription": "texts/materials/shared_blacksteelblock.mat.json"
+  },
   "tiles/materials/bleachedbonematerial.material": {
     "/description": "texts/materials/shared_bleachedbonematerial.mat.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -15844,6 +15977,9 @@
   },
   "tiles/materials/erchiuspillar.material": {
     "/shortdescription": "texts/materials/shared_erchiuspillar.mat.json"
+  },
+  "tiles/materials/flowerybars.material": {
+    "/shortdescription": "texts/materials/shared_flowerybars.mat.json"
   },
   "tiles/materials/frozensand.material": {
     "/shortdescription": "texts/materials/shared_frozensand.json"
@@ -16702,7 +16838,7 @@
     "/description": "texts/wide_spread_fields.json"
   },
   "tiles/platforms/amberplatform.material": {
-    "/description": "texts/shared_amberplatform.mat.json",
+    "/description": "texts/shared_.mat.json",
     "/shortdescription": "texts/shared_amberplatform.mat.json"
   },
   "tiles/platforms/avalidarkplatform.material": {
@@ -16723,6 +16859,10 @@
   "tiles/platforms/elderplatform.material": {
     "/description": "texts/shared_elderplatform.mat.json",
     "/shortdescription": "texts/shared_elderplatform.mat.json"
+  },
+  "tiles/platforms/fancywoodstairs.material": {
+    "/description": "texts/shared_.mat.json",
+    "/shortdescription": "texts/shared_fancywoodstairs.mat.json"
   },
   "tiles/platforms/honeyplatform.material": {
     "/description": "texts/tiles/platforms/shared_honeyplatform.material.json",
