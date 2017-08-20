@@ -120,7 +120,6 @@
         "fieldoftomato.biome.json": 1,
         "fieldofwheat.biome.json": 1,
         "flowerforest.biome.json": 1,
-        "futentacle.biome.json": 1,
         "glacial.biome.json": 1,
         "goreforest.biome.json": 1,
         "hauntedforest.biome.json": 1,
@@ -400,7 +399,7 @@
         "fu_weaponscythe.collection.json": 1,
         "fu_weaponshortspear.collection.json": 1,
         "fu_weaponshortsword.collection.json": 1,
-        "fu_weaponspear.collection.json": 0
+        "fu_weaponspear.collection.json": 1
       }
     },
     "dialog": {
@@ -417,7 +416,7 @@
         "multitether.config.json": 1
       },
       "cockpit": {
-        "cockpit.config.json": 390
+        "cockpit.config.json": 389
       },
       "itemdescriptions": {
         "armornew.itemdescription.json": 1,
@@ -442,7 +441,7 @@
       },
       "scripted": {
         "collections": {
-          "collectionsgui.config.json": 0
+          "collectionsgui.config.json": 5
         },
         "fu_craftinfo": {
           "fu_craftinfo.config.json": 8
@@ -465,7 +464,7 @@
           "statWindow.config.json": 3
         },
         "weaponupgrade2": {
-          "weaponupgrade2gui.config.json": 2
+          "weaponupgrade2gui.config.json": 4
         }
       },
       "shared_.config.json": 1,
@@ -939,6 +938,7 @@
               "commonlongsword.activeitem.json": 1,
               "coraldullblade.activeitem.json": 2,
               "crystallineblade.activeitem.json": 2,
+              "deadbeatlongsword.activeitem.json": 0,
               "effigiumbroadsword.activeitem.json": 2,
               "fiendefeller.activeitem.json": 2,
               "fuambersword.activeitem.json": 2,
@@ -959,6 +959,7 @@
               "aetheriummace.activeitem.json": 2,
               "ballmace.activeitem.json": 2,
               "bonemace.activeitem.json": 2,
+              "deadbeatmace.activeitem.json": 0,
               "densealloymace.activeitem.json": 2,
               "densiniummace.activeitem.json": 2,
               "durasteelmace.activeitem.json": 2,
@@ -1099,6 +1100,7 @@
               "coralspear.activeitem.json": 2,
               "corruptspear.activeitem.json": 2,
               "cultiststaffmelee.activeitem.json": 2,
+              "deadbeatspear.activeitem.json": 0,
               "drillspear": {
                 "fudrillspear.activeitem.json": 1
               },
@@ -1111,7 +1113,7 @@
               "hellfirespear.activeitem.json": 1,
               "irradiumspear.activeitem.json": 2,
               "isogenspear.activeitem.json": 2,
-              "metallicspear.activeitem.json": 2,
+              "metallicspear.activeitem.json": 1,
               "pincerspear.activeitem.json": 2,
               "precursorspear": {
                 "precursorspear.activeitem.json": 2
@@ -1119,7 +1121,7 @@
               "pyreitespear.activeitem.json": 2,
               "quietusspear.activeitem.json": 1,
               "shared_.activeitem.json": 1,
-              "shared_spear.activeitem.json": 3,
+              "shared_spear.activeitem.json": 4,
               "siliconspear.activeitem.json": 2,
               "solarispear.activeitem.json": 2,
               "stonespear.activeitem.json": 2,
@@ -2840,14 +2842,14 @@
           "weee.augment.json": 1
         },
         "quest": {
-          "apexartifact.augment.json": 0,
-          "avianartifact.augment.json": 0,
-          "floranartifact.augment.json": 0,
-          "glitchartifact.augment.json": 0,
-          "humanartifact.augment.json": 0,
-          "hylotlartifact.augment.json": 0,
-          "novakidaugment.augment.json": 0,
-          "roadkill.augment.json": 0
+          "apexartifact.augment.json": 2,
+          "avianartifact.augment.json": 2,
+          "floranartifact.augment.json": 2,
+          "glitchartifact.augment.json": 2,
+          "humanartifact.augment.json": 1,
+          "hylotlartifact.augment.json": 2,
+          "novakidaugment.augment.json": 2,
+          "roadkill.augment.json": 2
         }
       },
       "bees": {
@@ -3643,7 +3645,7 @@
         "bioblock2material.matitem.json": 2,
         "bioblockmaterial.matitem.json": 1,
         "biodirtmaterial.matitem.json": 1,
-        "biogravelmaterial.matitem.json": 1,
+        "biogravelmaterial.matitem.json": 2,
         "biostonematerial.matitem.json": 1,
         "blackslimematerial.matitem.json": 1,
         "bloodstonematerial.matitem.json": 1,
@@ -3839,6 +3841,7 @@
         "chainsaw.harvestingtool.json": 2,
         "flashlight_new.flashlight.json": 2,
         "fuflashlight.flashlight.json": 2,
+        "fumastermanipulator.beamaxe.json": 0,
         "handhoe.tillingtool.json": 2,
         "miningtools": {
           "bloodstonepickaxe.miningtool.json": 2,
@@ -3912,7 +3915,7 @@
       "shared_avalitechpanel.mat.json": 1,
       "shared_avalitiles.mat.json": 2,
       "shared_bamboo.mat.json": 2,
-      "shared_bio.json": 4,
+      "shared_bio.json": 3,
       "shared_blackslime.json": 1,
       "shared_blacksteelblock.mat.json": 2,
       "shared_bleachedbonematerial.mat.json": 2,
@@ -5615,7 +5618,7 @@
           "extractionlabadv.object.json": 2
         },
         "extraweaponupgradeanvil": {
-          "extraweaponupgradeanvil.object.json": 0
+          "extraweaponupgradeanvil.object.json": 9
         },
         "farmwell": {
           "farmwell.object.json": 2
@@ -7066,7 +7069,7 @@
           "futeleporter.object.json": 1
         },
         "futeleporter2": {
-          "futeleporter2.object.json": 0
+          "futeleporter2.object.json": 1
         },
         "shared_teleporter": {
           "shared_teleporter.json": 1
@@ -7568,7 +7571,7 @@
         "create_centrifuge.questtemplate.json": 4,
         "create_clothingfabricator.questtemplate.json": 4,
         "create_clothingfabricator2.questtemplate.json": 4,
-        "create_clothingfabricator3.questtemplate.json": 3,
+        "create_clothingfabricator3.questtemplate.json": 4,
         "create_densinium.questtemplate.json": 4,
         "create_designlab.questtemplate.json": 4,
         "create_elder.questtemplate.json": 4,
@@ -7654,14 +7657,19 @@
       "letheiafleet.questtemplate.json": 3,
       "lethialabs.questtemplate.json": 4,
       "magickaforest.questtemplate.json": 4,
+      "mastermanipulator.questtemplate.json": 0,
       "missions": {
         "shoggoth_defeat.questtemplate.json": 3,
         "shoggoth_unlock.questtemplate.json": 4,
         "shoggoth_unlocknew.questtemplate.json": 3,
         "shoggoth_wagner.questtemplate.json": 4
       },
+      "mmgravgun.questtemplate.json": 0,
+      "mmgravgun2.questtemplate.json": 0,
+      "mmgravgun3.questtemplate.json": 0,
       "pavillion.questtemplate.json": 4,
       "penguinhighway.questtemplate.json": 4,
+      "shared_.questtemplate.json": 0,
       "shared_base": {
         "shared_.questtemplate.json": 1
       },
@@ -8663,11 +8671,11 @@
         "avaliplain.material.json": 1,
         "avalitechpanel.material.json": 1,
         "bioworld": {
-          "bioblock.material.json": 1,
-          "bioblock2.material.json": 1,
-          "biodirt.material.json": 1,
-          "biogravel.material.json": 1,
-          "biostone.material.json": 1
+          "bioblock.material.json": 0,
+          "bioblock2.material.json": 0,
+          "biodirt.material.json": 0,
+          "biogravel.material.json": 0,
+          "biostone.material.json": 0
         },
         "blackslime.material.json": 1,
         "bloodstone": {
@@ -8937,6 +8945,6 @@
         "shared_platform.material.json": 1
       }
     },
-    "wide_spread_fields.json": 123
+    "wide_spread_fields.json": 124
   }
 }
