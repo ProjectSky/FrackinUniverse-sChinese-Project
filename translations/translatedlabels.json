@@ -45,6 +45,7 @@
       "shared__detached": {
         "shared_hellhive.json": 1
       },
+      "shared_shadow.json": 1,
       "shared_surface": {
         "shared_.biome.json": 1
       },
@@ -54,33 +55,60 @@
         "erchiusasteroid.biome.json": 1,
         "fleshasteroid.biome.json": 1,
         "gleamingasteroid.biome.json": 1,
+        "iceasteroids.biome.json": 1,
         "slimeasteroid.biome.json": 1,
         "tentacleasteroid.biome.json": 1
       },
       "surface": {
+        "aethersea.biome.json": 1,
         "aetherseafloor.biome.json": 1,
         "arborealdark.biome.json": 1,
+        "arcticdark.biome.json": 1,
+        "atropus.biome.json": 1,
         "atropusdark.biome.json": 1,
+        "bloodstone.biome.json": 1,
+        "bloodstonesea.biome.json": 1,
         "bloodstoneseafloor.biome.json": 1,
+        "bog.biome.json": 1,
         "chromatic.biome.json": 1,
         "crystalmoon.biome.json": 1,
+        "eden.biome.json": 1,
         "extraalienjungle.biome.json": 1,
         "extraalpinemission.biome.json": 1,
         "extraoceanfloormission.biome.json": 1,
         "extraskymission.biome.json": 1,
         "extraswampmission.biome.json": 1,
+        "frozenvolcanic.biome.json": 1,
+        "fungus.biome.json": 1,
         "icecloudswastesurface.biome.json": 1,
+        "icemoon.biome.json": 1,
+        "irradiated.biome.json": 1,
         "lightless.biome.json": 1,
         "magmadark.biome.json": 1,
         "nitrogensea.biome.json": 1,
+        "nitrogenseafloor.biome.json": 1,
+        "penumbra.biome.json": 1,
         "shared_.biome.json": 2,
+        "shared_arboreal.json": 1,
+        "shared_barren.json": 1,
         "shared_desertwastes.json": 1,
+        "shared_fugasgiant.json": 1,
+        "shared_infernus.json": 1,
+        "shared_mountainous.json": 1,
         "shared_protoworld.json": 1,
+        "shared_sulphuric.json": 1,
+        "shared_urbanwasteland.json": 1,
+        "slimeworld.biome.json": 1,
+        "snowdark.biome.json": 1,
+        "strangesea.biome.json": 1,
         "strangeseafloor.biome.json": 1,
         "sulphuricoceanfloor.biome.json": 1,
+        "tabularasa.biome.json": 1,
         "tarball.biome.json": 1,
+        "thickjungle.biome.json": 1,
         "tidewater.biome.json": 1,
-        "tidewaterfloor.biome.json": 1
+        "tidewaterfloor.biome.json": 1,
+        "tundradark.biome.json": 1
       },
       "surface_detached": {
         "aetherbreakwater.biome.json": 1,
@@ -120,6 +148,7 @@
         "fieldoftomato.biome.json": 1,
         "fieldofwheat.biome.json": 1,
         "flowerforest.biome.json": 1,
+        "futentacle.biome.json": 1,
         "glacial.biome.json": 1,
         "goreforest.biome.json": 1,
         "hauntedforest.biome.json": 1,
@@ -204,6 +233,7 @@
         "fffrostcavern.biome.json": 1,
         "ffgoldmine.biome.json": 1,
         "ffpoopit.biome.json": 1,
+        "ffshadow.biome.json": 1,
         "ffspidernest.biome.json": 1,
         "ffsupermatter.biome.json": 1,
         "ffvolcanic.biome.json": 1,
@@ -459,7 +489,7 @@
             }
           }
         },
-        "shared_.config.json": 2,
+        "shared_.config.json": 3,
         "statWindow": {
           "statWindow.config.json": 3
         },
@@ -507,7 +537,7 @@
         "xenostation.config.json": 2
       }
     },
-    "interface.json": 11,
+    "interface.json": 10,
     "items": {
       "active": {
         "crewcontracts": {
@@ -698,7 +728,7 @@
             "nooberang.activeitem.json": 1,
             "shared_.activeitem.json": 1,
             "shockarang.activeitem.json": 2,
-            "woodenboomerang.activeitem.json": 2
+            "woodenboomerang.activeitem.json": 1
           },
           "bow": {
             "advalloycrossbow": {
@@ -1000,7 +1030,7 @@
               "triangliummace.activeitem.json": 2,
               "tungstenmace.activeitem.json": 2,
               "uraniummace.activeitem.json": 2,
-              "woodenmace.activeitem.json": 2
+              "woodenmace.activeitem.json": 1
             },
             "quarterstaff": {
               "carbonquarterstaff.activeitem.json": 2,
@@ -7983,7 +8013,6 @@
     },
     "shared_ers.json": 4,
     "shared_fancywoodstairs.mat.json": 1,
-    "shared_fig.json": 1,
     "shared_greg.json": 2,
     "shared_hellfire.json": 1,
     "shared_honeyplatform.mat.json": 1,
@@ -8361,6 +8390,7 @@
           },
           "gravrain": {
             "gravrain.animation.json": 1,
+            "gravrain.statuseffect.json": 1,
             "orangegravrain.animation.json": 1,
             "orangegravrain.statuseffect.json": 1
           },
@@ -9068,6 +9098,7 @@
         "darkgrass.matmod.json": 1,
         "deadleaves.matmod.json": 1,
         "densinium.matmod.json": 1,
+        "effigium.matmod.json": 1,
         "erchius.matmod.json": 1,
         "fleshgrass2.matmod.json": 1,
         "fossilbone.matmod.json": 1,
@@ -9075,6 +9106,8 @@
         "fuspringflowers.matmod.json": 1,
         "glowsandgrass.matmod.json": 1,
         "greenslimegrass.matmod.json": 1,
+        "irradium.matmod.json": 1,
+        "isogen.matmod.json": 1,
         "junkmod.matmod.json": 1,
         "lazulite.matmod.json": 1,
         "lead.matmod.json": 1,
@@ -9084,9 +9117,13 @@
         "metalgrass.matmod.json": 1,
         "mossgrass1.matmod.json": 1,
         "mossgrass2.matmod.json": 1,
+        "neptunium.matmod.json": 1,
         "penumbragrass.matmod.json": 1,
+        "penumbrite.matmod.json": 1,
         "protograss.matmod.json": 1,
         "purplecrystalgrass.matmod.json": 1,
+        "pyreite.matmod.json": 1,
+        "quietus.matmod.json": 1,
         "rainbowgrass.matmod.json": 1,
         "redsand.matmod.json": 1,
         "shared_fualiengrass.json": 1,
@@ -9095,8 +9132,10 @@
         "shared_icegrass.json": 1,
         "sulphur.matmod.json": 1,
         "thickjunglegrass.matmod.json": 1,
+        "thorium.matmod.json": 1,
         "toxicgrass.matmod.json": 1,
-        "wagnergrass.matmod.json": 1
+        "wagnergrass.matmod.json": 1,
+        "zerchesium.matmod.json": 1
       },
       "platforms": {
         "avalicable.material.json": 2,
@@ -9106,6 +9145,6 @@
         "shared_platform.material.json": 1
       }
     },
-    "wide_spread_fields.json": 124
+    "wide_spread_fields.json": 85
   }
 }
