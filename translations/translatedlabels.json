@@ -813,6 +813,7 @@
               "dbladelong": {
                 "dbladelong.activeitem.json": 1
               },
+              "deadbeatbroadsword.activeitem.json": 0,
               "densiniumsword": {
                 "densiniumsword.activeitem.json": 3
               },
@@ -1181,7 +1182,7 @@
           },
           "other": {
             "angryrocket": {
-              "angryrocket.activeitem.json": 3
+              "angryrocket.activeitem.json": 2
             },
             "chargegun": {
               "chargegun2.activeitem.json": 2
@@ -1865,6 +1866,9 @@
         },
         "shared_fuoperative.json": 2,
         "shared_sciencefu.json": 3,
+        "shared_tier": {
+          "shared_densiniumarmor.json": 1
+        },
         "tier0": {
           "celestaruniform1": {
             "celestaruniform1.chest.json": 2,
@@ -2595,7 +2599,6 @@
             "densinium.head.json": 1,
             "densinium.legs.json": 1
           },
-          "densiniumarmor.json": 1,
           "fubonearmor3": {
             "fubone3.head.json": 2
           },
@@ -2667,6 +2670,11 @@
           }
         },
         "tier7": {
+          "densiniumarmor_khe": {
+            "densinium_khe.chest.json": 0,
+            "densinium_khe.head.json": 0,
+            "densinium_khe.legs.json": 0
+          },
           "elderarmor": {
             "elderarmor.chest.json": 1,
             "elderarmor.head.json": 1,
@@ -3328,6 +3336,9 @@
             "lambic.consumable.json": 2,
             "lightale.consumable.json": 2,
             "stout.consumable.json": 2
+          },
+          "bloodchalice": {
+            "fubloodchalice.consumable.json": 0
           },
           "ciders": {
             "applecider.consumable.json": 2,
@@ -4105,7 +4116,7 @@
           "shared_.monstertype.json": 0
         },
         "guardianboss": {
-          "shadowguardianboss.monstertype.json": 0
+          "shared_guardianboss.monstertype.json": 0
         },
         "shoggoth": {
           "shoggoth.monstertype.json": 2,
@@ -6033,7 +6044,7 @@
         }
       },
       "fu_watcher": {
-        "fu_watcher.object.json": 2
+        "fu_watcher.object.json": 1
       },
       "gels": {
         "isn_accelgel": {
@@ -7391,6 +7402,8 @@
     },
     "objects.json": 5,
     "particles": {
+      "angryrocketreloaded.particle.json": 0,
+      "angryrocketreloadedfull.particle.json": 0,
       "biooozemessage.particle.json": 1,
       "breathboostmessage.particle.json": 1,
       "freezingwatermessage.particle.json": 1,
@@ -8031,7 +8044,6 @@
             "darkmattersetbonuseffect.statuseffect.json": 1,
             "decimatorsetbonuseffect.statuseffect.json": 1,
             "deckersetbonuseffect.statuseffect.json": 1,
-            "densiniumsetbonuseffect.statuseffect.json": 1,
             "diamondsetbonuseffect.statuseffect.json": 1,
             "dwellersetbonuseffect.statuseffect.json": 1,
             "eldersetbonuseffect.statuseffect.json": 1,
@@ -8098,6 +8110,7 @@
             "scoutsetbonuseffect.statuseffect.json": 1,
             "sentrysetbonuseffect.statuseffect.json": 1,
             "shadowbonesetbonuseffect.statuseffect.json": 1,
+            "shared_densiniumsetbonuseffect.json": 1,
             "shared_slimesetbonuseffect.json": 1,
             "shieldedsetbonuseffect.statuseffect.json": 1,
             "shoggothsetbonuseffect.statuseffect.json": 1,
