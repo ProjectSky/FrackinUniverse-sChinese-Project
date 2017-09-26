@@ -1331,6 +1331,20 @@
             "unique": {
               "aegisaltpistol2.activeitem.json": 0,
               "aegisaltpistol3.activeitem.json": 0,
+              "artillery": {
+                "airstrike": {
+                  "airstrike.activeitem.json": 0
+                },
+                "crappy": {
+                  "crappyartillery.activeitem.json": 0
+                },
+                "ionstrike": {
+                  "ionstrike.activeitem.json": 0
+                },
+                "violium": {
+                  "artillerygun1.activeitem.json": 0
+                }
+              },
               "atomsmasher": {
                 "atomsmasher.activeitem.json": 2
               },
@@ -1348,6 +1362,7 @@
               "curvepistol.activeitem.json": 2,
               "curvesmg.activeitem.json": 2,
               "densiniumrifle.activeitem.json": 2,
+              "discrifle.activeitem.json": 0,
               "eldercarbine.activeitem.json": 2,
               "elderpistol.activeitem.json": 2,
               "elderrepeater.activeitem.json": 2,
@@ -1403,7 +1418,7 @@
               "invisipuke.activeitem.json": 2,
               "ionrifle.activeitem.json": 2,
               "irradiumrifle.activeitem.json": 2,
-              "isn_magmavulcan.activeitem.json": 2,
+              "isn_magmavulcan.activeitem.json": 1,
               "k3rifle.activeitem.json": 2,
               "laspistol.activeitem.json": 2,
               "lasrifle.activeitem.json": 2,
@@ -1595,16 +1610,18 @@
                   "toxicneedler.activeitem.json": 2
                 },
                 "sentryguns": {
+                  "mobiusrifle.activeitem.json": 0,
+                  "mobiusrifle2.activeitem.json": 1,
                   "pistol": {
-                    "mobiuspistol.activeitem.json": 2
+                    "mobiuspistol.activeitem.json": 1
                   },
                   "railgun": {
-                    "mobiusrailgun.activeitem.json": 2
+                    "mobiusrailgun.activeitem.json": 1
                   },
-                  "shared_mobiusrifle.json": 2
+                  "shared_mobiusrifle.json": 1
                 }
               },
-              "thornrifle.activeitem.json": 2,
+              "thornrifle.activeitem.json": 1,
               "thornslinger.activeitem.json": 2,
               "tinydancer.activeitem.json": 0,
               "vashtagun.activeitem.json": 2,
@@ -4524,10 +4541,16 @@
           "pteropod3": {
             "pteropod3.monstertype.json": 0
           },
+          "pteropodsummoned": {
+            "pteropodsummoned.monstertype.json": 0
+          },
           "pyropod": {
             "pyropod.monstertype.json": 0
           },
           "shared_pod": {
+            "shared_.monstertype.json": 0
+          },
+          "shared_pteropod": {
             "shared_.monstertype.json": 0
           }
         },
@@ -4536,6 +4559,9 @@
         },
         "sentryminidrone2": {
           "sentryminidrone2.monstertype.json": 0
+        },
+        "sentryspawned": {
+          "sentryspawned.monstertype.json": 0
         },
         "servitor": {
           "servitor.monstertype.json": 0
@@ -4562,6 +4588,9 @@
         },
         "shared_fleshreaper": {
           "shared_fleshreaper.json": 0
+        },
+        "shared_sentry": {
+          "shared_.monstertype.json": 0
         },
         "skywhale": {
           "skywhale.monstertype.json": 0
@@ -7077,6 +7106,9 @@
         "fu_liquidcondenser": {
           "fu_liquidcondenser.object.json": 1
         },
+        "fu_liquidmixer": {
+          "fu_liquidmixer.object.json": 0
+        },
         "fu_powersensorlarge": {
           "fu_powersensorlarge.object.json": 2
         },
@@ -7413,7 +7445,7 @@
             "fu_vashtaturret.object.json": 2
           },
           "shared_turret": {
-            "shared_turret.object.json": 9
+            "shared_turret.object.json": 8
           }
         },
         "gravgeneratordungeon": {

@@ -1331,6 +1331,20 @@
             "unique": {
               "aegisaltpistol2.activeitem.json": 2,
               "aegisaltpistol3.activeitem.json": 6,
+              "artillery": {
+                "airstrike": {
+                  "airstrike.activeitem.json": 2
+                },
+                "crappy": {
+                  "crappyartillery.activeitem.json": 2
+                },
+                "ionstrike": {
+                  "ionstrike.activeitem.json": 2
+                },
+                "violium": {
+                  "artillerygun1.activeitem.json": 3
+                }
+              },
               "atomsmasher": {
                 "atomsmasher.activeitem.json": 2
               },
@@ -1348,6 +1362,7 @@
               "curvepistol.activeitem.json": 2,
               "curvesmg.activeitem.json": 2,
               "densiniumrifle.activeitem.json": 2,
+              "discrifle.activeitem.json": 3,
               "eldercarbine.activeitem.json": 2,
               "elderpistol.activeitem.json": 2,
               "elderrepeater.activeitem.json": 2,
@@ -1595,16 +1610,18 @@
                   "toxicneedler.activeitem.json": 2
                 },
                 "sentryguns": {
+                  "mobiusrifle.activeitem.json": 1,
+                  "mobiusrifle2.activeitem.json": 1,
                   "pistol": {
                     "mobiuspistol.activeitem.json": 2
                   },
                   "railgun": {
                     "mobiusrailgun.activeitem.json": 2
                   },
-                  "shared_mobiusrifle.json": 2
+                  "shared_mobiusrifle.json": 1
                 }
               },
-              "thornrifle.activeitem.json": 2,
+              "thornrifle.activeitem.json": 3,
               "thornslinger.activeitem.json": 2,
               "tinydancer.activeitem.json": 2,
               "vashtagun.activeitem.json": 2,
@@ -4519,15 +4536,21 @@
             "electropod.monstertype.json": 2
           },
           "pteropod2": {
-            "pteropod2.monstertype.json": 2
+            "pteropod2.monstertype.json": 1
           },
           "pteropod3": {
             "pteropod3.monstertype.json": 2
+          },
+          "pteropodsummoned": {
+            "pteropodsummoned.monstertype.json": 1
           },
           "pyropod": {
             "pyropod.monstertype.json": 1
           },
           "shared_pod": {
+            "shared_.monstertype.json": 1
+          },
+          "shared_pteropod": {
             "shared_.monstertype.json": 1
           }
         },
@@ -4535,7 +4558,10 @@
           "sentryminidrone1.monstertype.json": 2
         },
         "sentryminidrone2": {
-          "sentryminidrone2.monstertype.json": 2
+          "sentryminidrone2.monstertype.json": 1
+        },
+        "sentryspawned": {
+          "sentryspawned.monstertype.json": 1
         },
         "servitor": {
           "servitor.monstertype.json": 2
@@ -4562,6 +4588,9 @@
         },
         "shared_fleshreaper": {
           "shared_fleshreaper.json": 2
+        },
+        "shared_sentry": {
+          "shared_.monstertype.json": 1
         },
         "skywhale": {
           "skywhale.monstertype.json": 2
@@ -7076,6 +7105,9 @@
         },
         "fu_liquidcondenser": {
           "fu_liquidcondenser.object.json": 2
+        },
+        "fu_liquidmixer": {
+          "fu_liquidmixer.object.json": 2
         },
         "fu_powersensorlarge": {
           "fu_powersensorlarge.object.json": 2
