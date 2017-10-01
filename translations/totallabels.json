@@ -441,7 +441,8 @@
       },
       "objectcrafting": {
         "aex.config.json": 2,
-        "coffeemachine.config.json": 2
+        "coffeemachine.config.json": 2,
+        "fu_precursorspawner.config.json": 1
       },
       "scripted": {
         "collections": {
@@ -2879,6 +2880,12 @@
             "fumobility2.augment.json": 2,
             "fumobility3.augment.json": 2,
             "fuwaterwalk.augment.json": 1
+          },
+          "other": {
+            "berserker.augment.json": 2,
+            "pushbackaugment.augment.json": 2,
+            "pushbackaugment2.augment.json": 2,
+            "pushbackaugment3.augment.json": 2
           },
           "protection": {
             "fudefenseaugment1.augment.json": 2,
@@ -6882,6 +6889,9 @@
         "plynth1.object.json": 2,
         "plynth2.object.json": 2,
         "precursor": {
+          "fu_precursorspawner": {
+            "fu_precursorspawner.object.json": 2
+          },
           "machine1": {
             "precursormachine.object.json": 1
           },
@@ -8116,7 +8126,9 @@
     "stats": {
       "effects": {
         "augments": {
-          "8bitpowerup.statuseffect.json": 1
+          "8bitpowerup.statuseffect.json": 1,
+          "berserker.statuseffect.json": 1,
+          "shared_.statuseffect.json": 1
         },
         "beesting": {
           "beesting.statuseffect.json": 1,
@@ -8731,6 +8743,7 @@
           "regenerationminor2augment.statuseffect.json": 1,
           "regenerationminor3augment.statuseffect.json": 1,
           "regenerationminoraugment.statuseffect.json": 1,
+          "regenerationminorcellular.statuseffect.json": 1,
           "regenerationmiraclegrass.statuseffect.json": 1,
           "regenerationsanguine.statuseffect.json": 1,
           "shared_.statuseffect.json": 2,
@@ -8785,16 +8798,15 @@
         "fadesprint2.tech.json": 2,
         "fadesprint3.tech.json": 2,
         "fueltank.tech.json": 2,
-        "shared_burst.tech.json": 1,
         "shared_zeroburst.json": 1,
-        "sonicburst.tech.json": 1,
+        "sonicburst.tech.json": 2,
         "speedboots.tech.json": 2,
         "speedboots2.tech.json": 2,
         "speedboots3.tech.json": 2,
         "speedbootsprecursor.tech.json": 2,
         "speedbootsweak.tech.json": 2,
         "teleportdash.tech.json": 2,
-        "zeroburst.tech.json": 1,
+        "zeroburst.tech.json": 2,
         "zeroburst2.tech.json": 1,
         "zeroburst3.tech.json": 1,
         "zeroburst4.tech.json": 2

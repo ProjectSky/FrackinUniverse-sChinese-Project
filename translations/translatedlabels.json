@@ -441,7 +441,8 @@
       },
       "objectcrafting": {
         "aex.config.json": 2,
-        "coffeemachine.config.json": 2
+        "coffeemachine.config.json": 2,
+        "fu_precursorspawner.config.json": 0
       },
       "scripted": {
         "collections": {
@@ -2348,7 +2349,7 @@
             "cellulararmor.chest.json": 1,
             "cellulararmor.head.json": 1,
             "cellulararmor.legs.json": 1,
-            "shared_cellulararmor..json": 1
+            "shared_cellulararmor..json": 0
           },
           "chordata": {
             "fflagoon.chest.json": 1,
@@ -2879,6 +2880,12 @@
             "fumobility2.augment.json": 2,
             "fumobility3.augment.json": 2,
             "fuwaterwalk.augment.json": 1
+          },
+          "other": {
+            "berserker.augment.json": 0,
+            "pushbackaugment.augment.json": 0,
+            "pushbackaugment2.augment.json": 0,
+            "pushbackaugment3.augment.json": 0
           },
           "protection": {
             "fudefenseaugment1.augment.json": 2,
@@ -6680,7 +6687,7 @@
             "shared_elderblood.json": 1,
             "shared_eldercage.json": 1,
             "shared_elderhanging.json": 1,
-            "tortured1.object.json": 2,
+            "tortured1.object.json": 1,
             "tortured2.object.json": 2,
             "wagner": {
               "shared_.object.json": 1,
@@ -6882,6 +6889,9 @@
         "plynth1.object.json": 0,
         "plynth2.object.json": 0,
         "precursor": {
+          "fu_precursorspawner": {
+            "fu_precursorspawner.object.json": 0
+          },
           "machine1": {
             "precursormachine.object.json": 1
           },
@@ -8116,7 +8126,9 @@
     "stats": {
       "effects": {
         "augments": {
-          "8bitpowerup.statuseffect.json": 0
+          "8bitpowerup.statuseffect.json": 0,
+          "berserker.statuseffect.json": 0,
+          "shared_.statuseffect.json": 0
         },
         "beesting": {
           "beesting.statuseffect.json": 1,
@@ -8221,7 +8233,7 @@
             "bonesetbonuseffect.statuseffect.json": 1,
             "bonesteelsetbonuseffect.statuseffect.json": 1,
             "bountyhuntersetbonuseffect.statuseffect.json": 1,
-            "cellularsetbonuseffect.statuseffect.json": 1,
+            "cellularsetbonuseffect.statuseffect.json": 0,
             "championsetbonuseffect.statuseffect.json": 0,
             "chaossetbonuseffect.statuseffect.json": 1,
             "chitinsetbonuseffect.statuseffect.json": 1,
@@ -8731,6 +8743,7 @@
           "regenerationminor2augment.statuseffect.json": 1,
           "regenerationminor3augment.statuseffect.json": 1,
           "regenerationminoraugment.statuseffect.json": 1,
+          "regenerationminorcellular.statuseffect.json": 0,
           "regenerationmiraclegrass.statuseffect.json": 1,
           "regenerationsanguine.statuseffect.json": 1,
           "shared_.statuseffect.json": 2,
@@ -8785,7 +8798,6 @@
         "fadesprint2.tech.json": 2,
         "fadesprint3.tech.json": 2,
         "fueltank.tech.json": 2,
-        "shared_burst.tech.json": 1,
         "shared_zeroburst.json": 1,
         "sonicburst.tech.json": 0,
         "speedboots.tech.json": 2,
@@ -8794,7 +8806,7 @@
         "speedbootsprecursor.tech.json": 2,
         "speedbootsweak.tech.json": 2,
         "teleportdash.tech.json": 2,
-        "zeroburst.tech.json": 1,
+        "zeroburst.tech.json": 2,
         "zeroburst2.tech.json": 1,
         "zeroburst3.tech.json": 1,
         "zeroburst4.tech.json": 2
