@@ -1359,7 +1359,7 @@
               "atomsmasher": {
                 "atomsmasher.activeitem.json": 2
               },
-              "bigdaddy.activeitem.json": 2,
+              "bigdaddy.activeitem.json": 1,
               "biogun.activeitem.json": 2,
               "biopistol.activeitem.json": 2,
               "blastcannon.activeitem.json": 2,
@@ -1379,6 +1379,7 @@
               "elderrepeater.activeitem.json": 2,
               "elderripper.activeitem.json": 2,
               "energyassault.activeitem.json": 2,
+              "energycutter.activeitem.json": 0,
               "eyecannon.activeitem.json": 2,
               "farsight.activeitem.json": 0,
               "ff_bubblegun.activeitem.json": 2,
@@ -1933,9 +1934,6 @@
         },
         "shared_fuoperative.json": 2,
         "shared_sciencefu.json": 3,
-        "shared_tier": {
-          "shared_densiniumarmor.json": 1
-        },
         "tier0": {
           "celestaruniform1": {
             "celestaruniform1.chest.json": 2,
@@ -2668,9 +2666,9 @@
             },
             "densinium.chest.json": 1,
             "densinium.head.json": 1,
-            "densinium.legs.json": 1,
-            "shared_densinium..json": 0
+            "densinium.legs.json": 1
           },
+          "densiniumarmor.json": 0,
           "fubonearmor3": {
             "fubone3.head.json": 2
           },
@@ -2745,7 +2743,8 @@
           "densiniumarmor_khe": {
             "densinium_khe.chest.json": 0,
             "densinium_khe.head.json": 0,
-            "densinium_khe.legs.json": 0
+            "densinium_khe.legs.json": 0,
+            "shared_densinium_khe..json": 1
           },
           "elderarmor": {
             "elderarmor.chest.json": 1,
@@ -3909,6 +3908,10 @@
           "gravBomb2.thrownitem.json": 1,
           "shared_.thrownitem.json": 1
         },
+        "beebriefcase": {
+          "fu_beebriefcase.thrownitem.json": 0,
+          "fu_beebriefcasekevin.activeitem.json": 0
+        },
         "deathblossom.thrownitem.json": 2,
         "energylance.thrownitem.json": 2,
         "fucopperbomb.thrownitem.json": 2,
@@ -4752,6 +4755,9 @@
         "eyejelly2": {
           "eyejelly2.monstertype.json": 0
         },
+        "ignome": {
+          "ignomesummon.monstertype.json": 0
+        },
         "pyromantleish": {
           "aquamantle": {
             "aquamantle.monstertype.json": 0
@@ -5193,7 +5199,7 @@
         },
         "poptopish": {
           "firetop": {
-            "firetop.monstertype.json": 0
+            "shared_.monstertype.json": 0
           },
           "frosttop": {
             "frosttop.monstertype.json": 0
@@ -6905,6 +6911,9 @@
         "plynth1.object.json": 0,
         "plynth2.object.json": 0,
         "precursor": {
+          "fu_precursorduplicator": {
+            "fu_precursorduplicator.object.json": 0
+          },
           "fu_precursorspawner": {
             "fu_precursorspawner.object.json": 0
           },
@@ -7186,16 +7195,16 @@
           "isn_battery_t1.object.json": 2
         },
         "isn_battery_t2": {
-          "isn_battery_t2.object.json": 1
+          "isn_battery_t2.object.json": 0
         },
         "isn_battery_t3_ceru": {
-          "isn_battery_t3_ceru.object.json": 1
+          "isn_battery_t3_ceru.object.json": 0
         },
         "isn_battery_t3_fero": {
-          "isn_battery_t3_fero.object.json": 2
+          "isn_battery_t3_fero.object.json": 0
         },
         "isn_battery_t4_fero": {
-          "isn_battery_t4_fero.object.json": 2
+          "isn_battery_t4_fero.object.json": 1
         },
         "isn_fissionreactornew": {
           "isn_fissionreactornew.config.json": 2,
@@ -7793,7 +7802,7 @@
         "create_augment.questtemplate.json": 4,
         "create_blastfurnace.questtemplate.json": 3,
         "create_centrifuge.questtemplate.json": 4,
-        "create_clothingfabricator.questtemplate.json": 2,
+        "create_clothingfabricator.questtemplate.json": 1,
         "create_clothingfabricator2.questtemplate.json": 4,
         "create_clothingfabricator3.questtemplate.json": 4,
         "create_densinium.questtemplate.json": 4,
