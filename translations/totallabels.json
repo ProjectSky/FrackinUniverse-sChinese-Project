@@ -412,7 +412,7 @@
       "shared_fm_musicplayer..json": 1
     },
     "generic.json": 1,
-    "glitchEmotes.json": 163,
+    "glitchEmotes.json": 164,
     "interface": {
       "chests": {
         "chest3.config.json": 1,
@@ -2095,7 +2095,7 @@
             "shared_royalguard..json": 1
           },
           "mantiziroyalguardornate": {
-            "royalguardornate.chest.json": 2,
+            "royalguardornate.chest.json": 1,
             "royalguardornate.head.json": 1,
             "royalguardornate.legs.json": 1,
             "shared_royalguardornate..json": 1
@@ -2883,6 +2883,7 @@
           },
           "other": {
             "berserker.augment.json": 2,
+            "fu_pickuprangeaugment1.augment.json": 2,
             "pushbackaugment.augment.json": 2,
             "pushbackaugment2.augment.json": 2,
             "pushbackaugment3.augment.json": 2
@@ -6285,8 +6286,31 @@
           "crewshop.object.json": 8,
           "crewsign.object.json": 2
         },
+        "cropshipper": {
+          "cropshipper_kheAA.object.json": 2,
+          "cropshipper_kheAA2.object.json": 2
+        },
         "cryogenicbed": {
           "fucryogenicbed.object.json": 2
+        },
+        "fairylights": {
+          "fairylights_blackorange.object.json": 1,
+          "fairylights_blue.object.json": 1,
+          "fairylights_green.object.json": 1,
+          "fairylights_lightblue.object.json": 1,
+          "fairylights_magenta.object.json": 1,
+          "fairylights_magentawhite.object.json": 1,
+          "fairylights_orange.object.json": 1,
+          "fairylights_pink.object.json": 1,
+          "fairylights_purple.object.json": 1,
+          "fairylights_purplewhite.object.json": 1,
+          "fairylights_red.object.json": 1,
+          "fairylights_redgreen.object.json": 1,
+          "fairylights_redyellow.object.json": 1,
+          "fairylights_teal.object.json": 1,
+          "fairylights_white.object.json": 1,
+          "fairylights_whiteblue.object.json": 1,
+          "shared_fairylights_.json": 8
         },
         "farm": {
           "chickenfeeder": {
@@ -6317,6 +6341,9 @@
         },
         "fu_craftinfo": {
           "fu_craftinfo.object.json": 3
+        },
+        "fu_pickuprangetemp": {
+          "fu_pickuprangetemp.object.json": 2
         },
         "furniture": {
           "grassbed": {
@@ -6462,6 +6489,7 @@
           "kheAA_repeater.object.json": 2
         },
         "kheAA_router": {
+          "kheAA_moneyrouter.object.json": 2,
           "kheAA_router.object.json": 2
         },
         "kheAA_spout": {
@@ -7476,6 +7504,9 @@
           "extrasmashablepersistentswitch.object.json": 1
         },
         "fu_turrets": {
+          "fu_cripplerturret": {
+            "fu_cripplerturret.object.json": 1
+          },
           "fu_flameturret": {
             "fu_flameturret.object.json": 1
           },
@@ -7517,6 +7548,7 @@
           "compact_logic_vertical": {
             "swtjc_wp_compactvdlatch.object.json": 2
           },
+          "configurable3statecycler.object.json": 1,
           "fu_gated": {
             "fu_gated.object.json": 2
           },
@@ -8037,7 +8069,7 @@
       "exploration.radiomessages.json": 33,
       "fu_chemlab.radiomessages.json": 9,
       "fu_elder.radiomessages.json": 34,
-      "fu_exploration.radiomessages.json": 33,
+      "fu_exploration.radiomessages.json": 45,
       "fu_isotopes.radiomessages.json": 6,
       "fu_ore.radiomessages.json": 19,
       "fu_resources.radiomessages.json": 48,
@@ -8155,8 +8187,9 @@
       "effects": {
         "augments": {
           "8bitpowerup.statuseffect.json": 1,
-          "berserker.statuseffect.json": 1,
-          "shared_.statuseffect.json": 1
+          "fu_pickuprange1.statuseffect.json": 1,
+          "shared_.statuseffect.json": 1,
+          "shared_berserker.statuseffect.json": 1
         },
         "beesting": {
           "beesting.statuseffect.json": 1,
