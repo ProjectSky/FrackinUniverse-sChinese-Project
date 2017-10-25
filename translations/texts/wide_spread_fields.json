@@ -2,6 +2,30 @@
   {
     "DeniedAlternatives": [],
     "Files": {
+      "dialog/towndrunk.config": [
+        "/reattack/default/default/2"
+      ],
+      "npcs/evernight/froggunner.npctype": [
+        "/scriptConfig/dialog/attack/default/default/0"
+      ],
+      "npcs/evernight/frogrocketeer.npctype": [
+        "/scriptConfig/dialog/attack/default/default/0"
+      ],
+      "npcs/evernight/frogsniper.npctype": [
+        "/scriptConfig/dialog/attack/default/default/0"
+      ]
+    },
+    "Texts": {
+      "Chs": "!!!",
+      "Eng": "!!!"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "dialog/towndrunk.config": [
+        "/converse/default/default/13"
+      ],
       "interface/scripted/sbvn/games/cthululove/deepone.sbvn": [
         "/scenes/art10/text",
         "/scenes/art13/options/0/0",
@@ -45,6 +69,15 @@
   {
     "DeniedAlternatives": [],
     "Files": {
+      "interface/itemdescriptions/basenew.itemdescription": [
+        "/priceLabel/value"
+      ],
+      "interface/scripted/fm_musicplayer/fm_musicplayer.config": [
+        "/gui/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
+      ],
+      "interface/scripted/techshop/techshop.config": [
+        "/gui/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
+      ],
       "interface/tooltips/armornew.tooltip": [
         "/priceLabel/value"
       ],
@@ -222,6 +255,12 @@
       "interface/windowconfig/armory.config": [
         "/paneLayout/btnCraft/caption"
       ],
+      "interface/windowconfig/beerefuge.config": [
+        "/paneLayout/btnCraft/caption"
+      ],
+      "interface/windowconfig/beestation.config": [
+        "/paneLayout/btnCraft/caption"
+      ],
       "interface/windowconfig/chemlab.config": [
         "/paneLayout/btnCraft/caption"
       ],
@@ -295,6 +334,48 @@
     "Texts": {
       "Chs": "阿托罗斯海",
       "Eng": "Atropus Sea"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "dialog/plurcombat.config": [
+        "/attack/default/default/0"
+      ],
+      "npcs/alienjungle/alienjunglethornhide.npctype": [
+        "/scriptConfig/dialog/attack/default/default/0"
+      ],
+      "npcs/letheia/letheiaboss.npctype": [
+        "/scriptConfig/dialog/attack/default/default/0"
+      ],
+      "npcs/pavillion/pavillionarcher.npctype": [
+        "/scriptConfig/dialog/attack/default/default/0"
+      ],
+      "npcs/pavillion/pavillionsamurai.npctype": [
+        "/scriptConfig/dialog/attack/default/default/0"
+      ],
+      "npcs/pavillion/pavillionshogun.npctype": [
+        "/scriptConfig/dialog/attack/default/default/0"
+      ],
+      "npcs/skytemple/skytemplegrower.npctype": [
+        "/scriptConfig/dialog/attack/default/default/0"
+      ],
+      "npcs/skytemple/skytemplestargazer.npctype": [
+        "/scriptConfig/dialog/attack/default/default/0"
+      ],
+      "npcs/skytemple/skytemplestarshot.npctype": [
+        "/scriptConfig/dialog/attack/default/default/0"
+      ],
+      "npcs/volcanobase/volcanobasehunter.npctype": [
+        "/scriptConfig/dialog/attack/default/default/0"
+      ],
+      "npcs/volcanobase/volcanobaselord.npctype": [
+        "/scriptConfig/dialog/attack/default/default/0"
+      ]
+    },
+    "Texts": {
+      "Chs": "进攻！",
+      "Eng": "Attack!"
     }
   },
   {
@@ -466,42 +547,6 @@
     "Texts": {
       "Chs": "波庞薯",
       "Eng": "Bolbohn"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "interface/windowconfig/beerefuge.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
-      "objects/power/isn_radiostation/configs/isn_medicalvendor.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
-      "objects/power/isn_radiostation/configs/isn_seedsvendor.config": [
-        "/paneLayout/btnCraft/caption"
-      ]
-    },
-    "Texts": {
-      "Chs": "购买",
-      "Eng": "Buy"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "interface/windowconfig/beerefuge.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "objects/power/isn_radiostation/configs/isn_medicalvendor.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "objects/power/isn_radiostation/configs/isn_seedsvendor.config": [
-        "/paneLayout/lblProduct/value"
-      ]
-    },
-    "Texts": {
-      "Chs": "可购买",
-      "Eng": "CAN AFFORD"
     }
   },
   {
@@ -974,9 +1019,6 @@
       "interface/windowconfig/avaliloom.config": [
         "/tooltip/itemList/schema/listTemplate/itemName/value"
       ],
-      "interface/windowconfig/beerefuge.config": [
-        "/tooltip/itemList/schema/listTemplate/itemName/value"
-      ],
       "interface/windowconfig/extractionlab.config": [
         "/tooltip/itemList/schema/listTemplate/itemName/value"
       ],
@@ -1032,6 +1074,24 @@
     "Texts": {
       "Chs": "小型重力雨",
       "Eng": "Gravity Rain"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "codex/greg/greg1.codex": [
+        "/title"
+      ],
+      "items/active/weapons/other/skittlegun/skittlegun.activeitem": [
+        "/altAbility/name"
+      ],
+      "npcs/crew/crewmembergreg.npctype": [
+        "/scriptConfig/crew/role/name"
+      ]
+    },
+    "Texts": {
+      "Chs": "Greg",
+      "Eng": "Greg"
     }
   },
   {
@@ -1457,6 +1517,21 @@
   {
     "DeniedAlternatives": [],
     "Files": {
+      "biomes/surface_detached/futentacle.biome": [
+        "/friendlyName"
+      ],
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fubuggy/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "感染",
+      "Eng": "Infested"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
       "biomes/surface/irradiated.biome": [
         "/friendlyName"
       ],
@@ -1604,9 +1679,6 @@
       "interface/windowconfig/avaliloom.config": [
         "/paneLayout/scrollArea/children/itemList/schema/listTemplate/level/value"
       ],
-      "interface/windowconfig/beerefuge.config": [
-        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/level/value"
-      ],
       "interface/windowconfig/extractionlab.config": [
         "/paneLayout/scrollArea/children/itemList/schema/listTemplate/level/value"
       ],
@@ -1631,6 +1703,9 @@
   {
     "DeniedAlternatives": [],
     "Files": {
+      "interface/scripted/techshop/techshop.config": [
+        "/gui/lblProduct/value"
+      ],
       "interface/windowconfig/armory.config": [
         "/paneLayout/lblProduct/value"
       ],
@@ -1644,6 +1719,9 @@
         "/paneLayout/lblProduct/value"
       ],
       "interface/windowconfig/avaliloom.config": [
+        "/paneLayout/lblProduct/value"
+      ],
+      "interface/windowconfig/beerefuge.config": [
         "/paneLayout/lblProduct/value"
       ],
       "interface/windowconfig/beestation.config": [
@@ -1880,19 +1958,7 @@
       "interface/windowconfig/avaliloom.config": [
         "/paneLayout/lblProducttitle/value"
       ],
-      "interface/windowconfig/boozekit.config": [
-        "/paneLayout/lblProducttitle/value"
-      ],
-      "interface/windowconfig/distill.config": [
-        "/paneLayout/lblProducttitle/value"
-      ],
       "interface/windowconfig/extractionlab.config": [
-        "/paneLayout/lblProducttitle/value"
-      ],
-      "interface/windowconfig/ferment.config": [
-        "/paneLayout/lblProducttitle/value"
-      ],
-      "interface/windowconfig/mash.config": [
         "/paneLayout/lblProducttitle/value"
       ],
       "interface/windowconfig/medievalworkstation.config": [
@@ -2106,8 +2172,17 @@
       "interface/kheAA/kheAA_terminal/kheAA_terminalGui.config": [
         "/gui/scrollArea/children/itemList/schema/listTemplate/itemName/value"
       ],
+      "interface/scripted/collections/collectionsgui.config": [
+        "/gui/scrollAreaCustom/children/customCollectionList/schema/listTemplate/collectionName/value"
+      ],
+      "interface/scripted/fm_musicplayer/fm_musicplayer.config": [
+        "/gui/scrollArea/children/itemList/schema/listTemplate/itemName/value"
+      ],
       "interface/scripted/miningbench/miningbench.config": [
         "/gui/itemScrollArea/children/itemList/schema/listTemplate/itemName/value"
+      ],
+      "interface/scripted/techshop/techshop.config": [
+        "/gui/scrollArea/children/itemList/schema/listTemplate/itemName/value"
       ],
       "interface/scripted/weaponupgrade2/weaponupgrade2gui.config": [
         "/gui/itemScrollArea/children/itemList/schema/listTemplate/itemName/value"
@@ -2268,6 +2343,12 @@
   {
     "DeniedAlternatives": [],
     "Files": {
+      "interface/scripted/fm_musicplayer/fm_musicplayer.config": [
+        "/gui/filter/hint"
+      ],
+      "interface/scripted/techshop/techshop.config": [
+        "/gui/filter/hint"
+      ],
       "interface/windowconfig/armory.config": [
         "/paneLayout/filter/hint"
       ],
@@ -2281,6 +2362,9 @@
         "/paneLayout/filter/hint"
       ],
       "interface/windowconfig/avaliloom.config": [
+        "/paneLayout/filter/hint"
+      ],
+      "interface/windowconfig/beerefuge.config": [
         "/paneLayout/filter/hint"
       ],
       "interface/windowconfig/beestation.config": [
@@ -2481,6 +2565,9 @@
       "interface/windowconfig/armory.config": [
         "/paneLayout/btnStopCraft/caption"
       ],
+      "interface/windowconfig/beerefuge.config": [
+        "/paneLayout/btnStopCraft/caption"
+      ],
       "interface/windowconfig/beestation.config": [
         "/paneLayout/btnStopCraft/caption"
       ],
@@ -2655,6 +2742,27 @@
   {
     "DeniedAlternatives": [],
     "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/planetTypeNames/ffunknown",
+        "/threatLevelText/moon/0"
+      ],
+      "radiomessages/fu_elder.radiomessages": [
+        "/shoggothmission16/senderName",
+        "/shoggothmission17/senderName",
+        "/shoggothmission18/senderName",
+        "/shoggothmission19/senderName",
+        "/shoggothmission20/senderName",
+        "/shoggothmission21/senderName"
+      ]
+    },
+    "Texts": {
+      "Chs": "未知",
+      "Eng": "Unknown"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
       "collections/fu_plant.collection": [
         "/collectables/vanusflower/title"
       ],
@@ -2670,52 +2778,94 @@
   {
     "DeniedAlternatives": [],
     "Files": {
+      "objects/scienceoutpost/moonlit_comet/moonlitcomet.object": [
+        "/shortdescription"
+      ],
+      "objects/scienceoutpost/moonlit_comet/moonlitcomet2.object": [
+        "/shortdescription"
+      ],
+      "radiomessages/fu_elder.radiomessages": [
+        "/shoggothmission0/senderName",
+        "/shoggothmission1/senderName",
+        "/shoggothmission10/senderName",
+        "/shoggothmission11/senderName",
+        "/shoggothmission12/senderName",
+        "/shoggothmission13/senderName",
+        "/shoggothmission13a/senderName",
+        "/shoggothmission14/senderName",
+        "/shoggothmission15/senderName",
+        "/shoggothmission1a/senderName",
+        "/shoggothmission2/senderName",
+        "/shoggothmission22/senderName",
+        "/shoggothmission3/senderName",
+        "/shoggothmission4/senderName",
+        "/shoggothmission5/senderName",
+        "/shoggothmission6/senderName",
+        "/shoggothmission7/senderName",
+        "/shoggothmission8/senderName",
+        "/shoggothmission9/senderName",
+        "/shoggothmissiongoretunnel/senderName",
+        "/shoggothmissionlore/senderName",
+        "/shoggothmissionlore2/senderName",
+        "/shoggothmissionmicrosphere/senderName",
+        "/shoggothmissionshootdoor/senderName",
+        "/shoggothmissionvinwagner/senderName"
+      ]
+    },
+    "Texts": {
+      "Chs": "Vinalisj",
+      "Eng": "Vinalisj"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
       "items/materials/magmawall1.matitem": [
         "/shortdescription"
       ],
-      "objects/scenery/a_biomespecific/iceball/iceball_rock.object": [
+      "objects/minibiome/iceball/iceball_rock.object": [
         "/shortdescription"
       ],
-      "objects/scenery/a_biomespecific/volcanicrock/volcanicrockseed.object": [
+      "objects/minibiome/volcanicrock/volcanicrockseed.object": [
         "/shortdescription"
       ],
-      "objects/scenery/a_biomespecific/volcanicrock/volcanicrockseed2.object": [
+      "objects/minibiome/volcanicrock/volcanicrockseed2.object": [
         "/shortdescription"
       ],
-      "objects/scenery/a_biomespecific/volcanicrock/volcanicrockseed3.object": [
+      "objects/minibiome/volcanicrock/volcanicrockseed3.object": [
         "/shortdescription"
       ],
-      "objects/scenery/a_biomespecific/volcanicrock/volcanicrockseed4.object": [
+      "objects/minibiome/volcanicrock/volcanicrockseed4.object": [
         "/shortdescription"
       ],
-      "objects/scenery/a_biomespecific/volcanicrock/volcanicrockseed5.object": [
+      "objects/minibiome/volcanicrock/volcanicrockseed5.object": [
         "/shortdescription"
       ],
-      "objects/scenery/a_biomespecific/volcanicrock/volcanicrockseed6.object": [
+      "objects/minibiome/volcanicrock/volcanicrockseed6.object": [
         "/shortdescription"
       ],
-      "objects/scenery/a_biomespecific/volcanicrock/volcanicrockseed7.object": [
+      "objects/minibiome/volcanicrock/volcanicrockseed7.object": [
         "/shortdescription"
       ],
-      "objects/scenery/a_biomespecific/volcanicrock/volcanicrockseed8.object": [
+      "objects/minibiome/volcanicrock/volcanicrockseed8.object": [
         "/shortdescription"
       ],
-      "objects/scenery/a_biomespecific/volcanicrock2/volcanicrock2seed.object": [
+      "objects/minibiome/volcanicrock2/volcanicrock2seed.object": [
         "/shortdescription"
       ],
-      "objects/scenery/a_biomespecific/volcanicrock2/volcanicrock2seed2.object": [
+      "objects/minibiome/volcanicrock2/volcanicrock2seed2.object": [
         "/shortdescription"
       ],
-      "objects/scenery/a_biomespecific/volcanicrock2/volcanicrock2seed3.object": [
+      "objects/minibiome/volcanicrock2/volcanicrock2seed3.object": [
         "/shortdescription"
       ],
-      "objects/scenery/a_biomespecific/volcanicrock2/volcanicrock2seed4.object": [
+      "objects/minibiome/volcanicrock2/volcanicrock2seed4.object": [
         "/shortdescription"
       ],
-      "objects/scenery/a_biomespecific/volcanicrock2/volcanicrock2seed5.object": [
+      "objects/minibiome/volcanicrock2/volcanicrock2seed5.object": [
         "/shortdescription"
       ],
-      "objects/scenery/a_biomespecific/volcanicrock2/volcanicrock2seed6.object": [
+      "objects/minibiome/volcanicrock2/volcanicrock2seed6.object": [
         "/shortdescription"
       ],
       "tiles/materials/magmatile/magmatile1.material": [
@@ -2880,7 +3030,7 @@
       "interface/tooltips/sword2.tooltip": [
         "/priceLabel/value"
       ],
-      "objects/scenery/a_biomespecific/various/snowtree1.object": [
+      "objects/minibiome/various/snowtree1.object": [
         "/description",
         "/shortdescription"
       ]
@@ -2903,9 +3053,6 @@
         "/paneLayout/tbSpinCount/regex"
       ],
       "interface/windowconfig/avaliloom.config": [
-        "/paneLayout/tbSpinCount/regex"
-      ],
-      "interface/windowconfig/beerefuge.config": [
         "/paneLayout/tbSpinCount/regex"
       ],
       "interface/windowconfig/extractionlab.config": [
@@ -2931,6 +3078,7 @@
       ]
     },
     "Texts": {
+      "Chs": "x?\\d{0,3}",
       "Eng": "x?\\d{0,3}"
     }
   },
@@ -2938,6 +3086,9 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/windowconfig/armory.config": [
+        "/paneLayout/tbSpinCount/regex"
+      ],
+      "interface/windowconfig/beerefuge.config": [
         "/paneLayout/tbSpinCount/regex"
       ],
       "interface/windowconfig/beestation.config": [
@@ -2999,6 +3150,7 @@
       ]
     },
     "Texts": {
+      "Chs": "x?\\d{0,4}",
       "Eng": "x?\\d{0,4}"
     }
   }

@@ -32,6 +32,7 @@
       ]
     },
     "Texts": {
+      "Chs": "-?[0-9]{0,10}",
       "Eng": "-?[0-9]{0,10}"
     }
   },
@@ -79,8 +80,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一颗资源丰富的卫星，不过由于^#505f50;完全没有光^reset;的原因，所以这里异常怪异。请时刻保持警惕。探测到^red;未知生物标志^reset;。",
-      "Eng": "A ^#505f50;complete lack of light^reset; makes this resource-rich moon a rather spooky, dangerous place. Watch your step. ^red;Unknown bio-sign detected^reset;."
+      "Eng": "A ^#505f50;Cloying, total darkness^reset; makes this resource-rich moon a rather spooky, dangerous place. Watch your step. ^red;Unknown bio-sign detected^reset;."
     }
   },
   {
@@ -107,8 +107,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一颗充满黝黑沥青的^#505f50;暗影卫星^reset;，请仔细探索，这里隐藏着各种^orange;宝贵的资源^reset;。并且探测到了^red;一些未知的生物标志^reset;。",
-      "Eng": "A ^#505f50;shadow moon^reset; is dark as pitch, and hides various ^orange;valuable resources^reset;. I am also detecting ^red;some sort of unknown bio-signature^reset;."
+      "Eng": "A ^#505f50;shadow moon^reset; prevents most light from penetrating its dark miasma. I detect ^orange;valuable resources^reset; and ^red;some sort of unknown bio-signature^reset;."
     }
   },
   {
@@ -157,8 +156,7 @@
       ]
     },
     "Texts": {
-      "Chs": "矿物扫描仪从这一颗^#64616f;无光^reset;星球上扫描到了大量的^#d16fff;幻影矿^reset;。如要探索，请携带照明工具。",
-      "Eng": "A ^#64616f;lightless sphere^reset; with no light but plenty of ^#d16fff;Effigium ore^reset; detected. Bring ample light."
+      "Eng": "A ^#64616f;lightless sphere^reset; with no light but plenty of ^#d16fff;Effigium ore^reset; detected. Near-total darkness awaits."
     }
   },
   {
@@ -990,6 +988,28 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fububblerain/displayName"
+      ]
+    },
+    "Texts": {
+      "Eng": "Bubble Rain"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fupretty/displayName"
+      ]
+    },
+    "Texts": {
+      "Eng": "Butterfly Migration"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
         "/objectInfoBox/bookmarkButtonCaption/disabled",
         "/planetInfoBox/bookmarkButtonCaption/disabled"
       ]
@@ -1473,6 +1493,17 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fuearthquake/displayName"
+      ]
+    },
+    "Texts": {
+      "Eng": "Earthquakes"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
         "/gui/editBookmarkFrame/children/name/hint"
       ]
     },
@@ -1503,6 +1534,28 @@
     "Texts": {
       "Chs": "极端 (VI)",
       "Eng": "Extreme (VI)"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fusuddenchill3/displayName"
+      ]
+    },
+    "Texts": {
+      "Eng": "Extreme Chill"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fuheatblast3/displayName"
+      ]
+    },
+    "Texts": {
+      "Eng": "Extreme Heatwaves"
     }
   },
   {
@@ -1739,6 +1792,17 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fuheatblast/displayName"
+      ]
+    },
+    "Texts": {
+      "Eng": "Heatwaves"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
         "/displayWeathers/hurricane/displayName"
       ]
     },
@@ -1842,18 +1906,6 @@
     "Texts": {
       "Chs": "铁",
       "Eng": "Iron"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "interface/cockpit/cockpit.config": [
-        "/displayWeathers/ironstorm/displayName"
-      ]
-    },
-    "Texts": {
-      "Chs": "铁风暴",
-      "Eng": "Iron Storm"
     }
   },
   {
@@ -2160,6 +2212,17 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fuearthquakelesser/displayName"
+      ]
+    },
+    "Texts": {
+      "Eng": "Minor Earthquakes"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
         "/displayWeathers/freezestormminor/displayName"
       ]
     },
@@ -2214,6 +2277,17 @@
     "Texts": {
       "Chs": "温和 (III)",
       "Eng": "Moderate (III)"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/ironstorm/displayName"
+      ]
+    },
+    "Texts": {
+      "Eng": "Molten Iron Storm"
     }
   },
   {
@@ -2523,6 +2597,17 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fulightningrain/displayName"
+      ]
+    },
+    "Texts": {
+      "Eng": "Rainy Lightning Storm"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
         "/visitableTypeDescription/barren/2"
       ]
     },
@@ -2589,6 +2674,17 @@
     "Texts": {
       "Chs": "石块卫星",
       "Eng": "Rocky Moon"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/thunderclaplesser/displayName"
+      ]
+    },
+    "Texts": {
+      "Eng": "Rolling Thunder"
     }
   },
   {
@@ -2825,12 +2921,45 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fusuddenchill2/displayName"
+      ]
+    },
+    "Texts": {
+      "Eng": "Severe Chill"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
         "/displayWeathers/crystalstormmajor/displayName"
       ]
     },
     "Texts": {
       "Chs": "大型晶体风暴",
       "Eng": "Severe Crystal Storm"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fuearthquakesevere/displayName"
+      ]
+    },
+    "Texts": {
+      "Eng": "Severe Earthquakes"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fuheatblast2/displayName"
+      ]
+    },
+    "Texts": {
+      "Eng": "Severe Heatwaves"
     }
   },
   {
@@ -2855,6 +2984,28 @@
     "Texts": {
       "Chs": "大型岩浆风暴",
       "Eng": "Severe Magma Storm"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fulightningrain2/displayName"
+      ]
+    },
+    "Texts": {
+      "Eng": "Severe Rainy Lightning Storm"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/thunderclapgreater/displayName"
+      ]
+    },
+    "Texts": {
+      "Eng": "Severe Thunder"
     }
   },
   {
@@ -2993,6 +3144,17 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fusparklejoy/displayName"
+      ]
+    },
+    "Texts": {
+      "Eng": "Sparklejoy"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
         "/displayWeathers/spacedustshower/displayName"
       ]
     },
@@ -3011,6 +3173,17 @@
     "Texts": {
       "Chs": "风暴",
       "Eng": "Storms"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fusuddenchill/displayName"
+      ]
+    },
+    "Texts": {
+      "Eng": "Sudden Chill"
     }
   },
   {
@@ -3213,8 +3386,7 @@
       ]
     },
     "Texts": {
-      "Chs": "扫描仪无法作用于这颗^#64616f;无光^reset;星球。",
-      "Eng": "The atmosphere of this ^#64616f;lightless sphere^reset; blocks any source of light from penetrating. Scans inconclusive."
+      "Eng": "The atmosphere of this ^#64616f;lightless sphere^reset; blocks any source of light from penetrating completely. Scans inconclusive."
     }
   },
   {
@@ -3833,8 +4005,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这个一颗奇怪的^#64616f;无光^reset;星球。矿物扫描仪从上面发现了^#c62c7f;幻影矿^reset;。",
-      "Eng": "This strange ^#64616f;lightless sphere^reset; reflects all sunlight. Reason unknown. ^#c62c7f;Effigium ore^reset; detected."
+      "Eng": "This strange ^#64616f;lightless sphere^reset; reflects or absorbs light. Reason unknown. ^#c62c7f;Effigium ore^reset; detected."
     }
   },
   {
@@ -3907,6 +4078,17 @@
     "Texts": {
       "Chs": "威胁：",
       "Eng": "Threat: "
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/thunderclap/displayName"
+      ]
+    },
+    "Texts": {
+      "Eng": "Thunderstorms"
     }
   },
   {
@@ -4043,19 +4225,6 @@
     "Texts": {
       "Chs": "未探索过的星系无法获取到其资料",
       "Eng": "UNMAPPED CELESTIAL OBJECTS UNAVAILABLE"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "interface/cockpit/cockpit.config": [
-        "/planetTypeNames/ffunknown",
-        "/threatLevelText/moon/0"
-      ]
-    },
-    "Texts": {
-      "Chs": "未知",
-      "Eng": "Unknown"
     }
   },
   {
@@ -4307,6 +4476,7 @@
       ]
     },
     "Texts": {
+      "Chs": "[a-zA-Z0-9 '-?!.]{0,28}",
       "Eng": "[a-zA-Z0-9 '-?!.]{0,28}"
     }
   },
