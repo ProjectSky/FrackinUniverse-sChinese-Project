@@ -135,6 +135,9 @@
       "interface/windowconfig/fruitpress.config": [
         "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
       ],
+      "interface/windowconfig/fuempty.config": [
+        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
+      ],
       "interface/windowconfig/genesequencer.config": [
         "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
       ],
@@ -268,6 +271,9 @@
         "/paneLayout/btnCraft/caption"
       ],
       "interface/windowconfig/designlab.config": [
+        "/paneLayout/btnCraft/caption"
+      ],
+      "interface/windowconfig/fuempty.config": [
         "/paneLayout/btnCraft/caption"
       ],
       "interface/windowconfig/nanofabricator.config": [
@@ -1086,7 +1092,14 @@
         "/altAbility/name"
       ],
       "npcs/crew/crewmembergreg.npctype": [
+        "/npcname",
         "/scriptConfig/crew/role/name"
+      ],
+      "npcs/mobs/fuhobo.npctype": [
+        "/npcname"
+      ],
+      "npcs/mobs/greg.npctype": [
+        "/npcname"
       ]
     },
     "Texts": {
@@ -1213,9 +1226,9 @@
     "DeniedAlternatives": [],
     "Files": {
       "dialog/greg.config": [
-        "/accuse/default/default/9",
-        "/attack/default/default/13",
-        "/beacon/default/default/9",
+        "/accuse/default/default/10",
+        "/attack/default/default/14",
+        "/beacon/default/default/10",
         "/cantReach/default/default/13",
         "/cheerOn/default/default/13",
         "/combatBenefit/default/default/13",
@@ -1226,7 +1239,7 @@
         "/killedTarget/default/default/13",
         "/lostTarget/default/default/13",
         "/otherDeed/default/default/9",
-        "/outOfSight/default/default/13",
+        "/outOfSight/default/default/14",
         "/reattack/default/default/13",
         "/rent/default/default/9",
         "/severe/default/default/9",
@@ -1412,6 +1425,21 @@
   {
     "DeniedAlternatives": [],
     "Files": {
+      "items/liquids/helium3gasliquid.liqitem": [
+        "/shortdescription"
+      ],
+      "stats/effects/fu_tileeffects/helium3/helium3.statuseffect": [
+        "/label"
+      ]
+    },
+    "Texts": {
+      "Chs": "氦-3",
+      "Eng": "Helium-3"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
       "biomes/surface_detached/ffhive.biome": [
         "/friendlyName"
       ],
@@ -1461,6 +1489,12 @@
         "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3"
       ],
       "npcs/crew/crewmembergeologist.npctype": [
+        "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3"
+      ],
+      "npcs/crew/crewmemberguardian.npctype": [
+        "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3"
+      ],
+      "npcs/crew/crewmembermagicalgirl.npctype": [
         "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3"
       ],
       "npcs/crew/crewmemberscience.npctype": [
@@ -1755,6 +1789,9 @@
         "/paneLayout/lblProduct/value"
       ],
       "interface/windowconfig/fruitpress.config": [
+        "/paneLayout/lblProduct/value"
+      ],
+      "interface/windowconfig/fuempty.config": [
         "/paneLayout/lblProduct/value"
       ],
       "interface/windowconfig/genesequencer.config": [
@@ -2238,6 +2275,9 @@
       "interface/windowconfig/fruitpress.config": [
         "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value"
       ],
+      "interface/windowconfig/fuempty.config": [
+        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value"
+      ],
       "interface/windowconfig/genesequencer.config": [
         "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value"
       ],
@@ -2398,6 +2438,9 @@
         "/paneLayout/filter/hint"
       ],
       "interface/windowconfig/fruitpress.config": [
+        "/paneLayout/filter/hint"
+      ],
+      "interface/windowconfig/fuempty.config": [
         "/paneLayout/filter/hint"
       ],
       "interface/windowconfig/genesequencer.config": [
@@ -2593,6 +2636,9 @@
         "/paneLayout/btnStopCraft/caption"
       ],
       "interface/windowconfig/fruitpress.config": [
+        "/paneLayout/btnStopCraft/caption"
+      ],
+      "interface/windowconfig/fuempty.config": [
         "/paneLayout/btnStopCraft/caption"
       ],
       "interface/windowconfig/genesequencer.config": [
@@ -3119,6 +3165,9 @@
         "/paneLayout/tbSpinCount/regex"
       ],
       "interface/windowconfig/fruitpress.config": [
+        "/paneLayout/tbSpinCount/regex"
+      ],
+      "interface/windowconfig/fuempty.config": [
         "/paneLayout/tbSpinCount/regex"
       ],
       "interface/windowconfig/genesequencer.config": [
