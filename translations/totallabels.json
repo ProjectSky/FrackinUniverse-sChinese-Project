@@ -427,7 +427,7 @@
         "multitether.config.json": 1
       },
       "cockpit": {
-        "cockpit.config.json": 407
+        "cockpit.config.json": 406
       },
       "itemdescriptions": {
         "armornew.itemdescription.json": 1,
@@ -462,6 +462,10 @@
         "fu_craftinfo": {
           "fu_craftinfo.config.json": 8
         },
+        "fu_tutorialQuestList": {
+          "fu_tutorialQuestList.config.json": 2,
+          "questData.config.json": 15
+        },
         "fugravgen": {
           "fugravgenui.config.json": 3
         },
@@ -478,9 +482,9 @@
             }
           }
         },
-        "shared_.config.json": 2,
+        "shared_.config.json": 3,
         "spaceStation": {
-          "shared_Station.config.json": 8
+          "shared_Station.config.json": 7
         },
         "statWindow": {
           "extraStatsWindow.config.json": 1,
@@ -534,7 +538,7 @@
         "xenostation.config.json": 2
       }
     },
-    "interface.json": 10,
+    "interface.json": 11,
     "items": {
       "active": {
         "crewcontracts": {
@@ -612,6 +616,9 @@
           },
           "tethersnap": {
             "tethersnap.activeitem.json": 2
+          },
+          "websnapper": {
+            "websnapper.activeitem.json": 2
           }
         },
         "mementomori": {
@@ -839,6 +846,7 @@
               "isogenaxe.activeitem.json": 2,
               "moltenaxe.activeitem.json": 2,
               "nomadaxe.activeitem.json": 2,
+              "poptopclaw.activeitem.json": 2,
               "poweraxe.activeitem.json": 2,
               "pyreiteaxe.activeitem.json": 2,
               "quietusaxe.activeitem.json": 2,
@@ -1644,6 +1652,7 @@
               "sniperknife.activeitem.json": 2,
               "snubber.activeitem.json": 2,
               "spawngun.activeitem.json": 2,
+              "stormwarden.activeitem.json": 2,
               "swarmgun2.activeitem.json": 2,
               "tentabane.activeitem.json": 4,
               "teslagun.activeitem.json": 3,
@@ -3010,7 +3019,8 @@
           "humanartifact.augment.json": 2,
           "hylotlartifact.augment.json": 2,
           "novakidaugment.augment.json": 2,
-          "roadkill.augment.json": 2
+          "roadkill.augment.json": 2,
+          "warbotartifact.augment.json": 2
         }
       },
       "bees": {
@@ -3158,7 +3168,7 @@
         },
         "frames": {
           "basic": {
-            "basicframe.item.json": 2
+            "basicframe.item.json": 1
           },
           "eclipse": {
             "eclipseframe.item.json": 2
@@ -3418,7 +3428,7 @@
             "grapemash.item.json": 2,
             "honeybucket.item.json": 2,
             "hops.item.json": 1,
-            "malt.item.json": 2,
+            "malt.item.json": 1,
             "meatwine.consumable.json": 2,
             "peach.consumable.json": 2,
             "peachjuice.consumable.json": 2,
@@ -3433,7 +3443,7 @@
             "wheatsprout.item.json": 2,
             "winebottle.consumable.json": 2,
             "wineglass.item.json": 2,
-            "wort.item.json": 2,
+            "wort.item.json": 1,
             "yeastwater.item.json": 2
           },
           "sulphur.item.json": 2,
@@ -3815,7 +3825,7 @@
         "shared_.item.json": 1,
         "tradegoods": {
           "chemicalgoods.item.json": 2,
-          "contrabandgoods.item.json": 2,
+          "contrabandgoods.item.json": 1,
           "emptygoods.item.json": 2,
           "illicitgoods.item.json": 2,
           "luxurygoods.item.json": 2,
@@ -4359,6 +4369,9 @@
         "guardianboss": {
           "shared_guardianboss.monstertype.json": 1
         },
+        "megaspider": {
+          "bighairyfrankboss.monstertype.json": 1
+        },
         "precursorwarbot": {
           "precursorwarbot.monstertype.json": 2
         },
@@ -4623,7 +4636,7 @@
       },
       "flyers": {
         "bighairyfrank": {
-          "bighairyfrank.monstertype.json": 2
+          "bighairyfrank.monstertype.json": 1
         },
         "darkmetroid": {
           "darkmetroid.monstertype.json": 2
@@ -4994,6 +5007,7 @@
       "shared_bee": {
         "shared_metal.json": 1
       },
+      "shared_bighairyfrank.json": 1,
       "shared_eyejell": {
         "shared_eye.json": 1
       },
@@ -5546,15 +5560,14 @@
         "crewmemberscience.npctype.json": 2,
         "crewmemberscuba.npctype.json": 6,
         "crewmembershadow.npctype.json": 4,
-        "crewmemberstealth.npctype.json": 5,
+        "crewmemberstealth.npctype.json": 4,
         "crewmembervolcanologist.npctype.json": 4,
         "crewmemberwarrior.npctype.json": 1,
         "crewmemberwarrior2.npctype.json": 1,
         "crewmemberwarrior3.npctype.json": 1,
         "shared_crewmember.json": 183,
         "shared_crewmemberchef.json": 11,
-        "shared_crewmemberfu.json": 7,
-        "shared_crewmemberwarrior.json": 1
+        "shared_crewmemberfu.json": 7
       },
       "crystalminer.npctype.json": 9,
       "dinerpatron.npctype.json": 6,
@@ -5851,7 +5864,7 @@
           "shared_centrifuge.object.json": 1
         },
         "woodencentrifuge": {
-          "woodencentrifuge.object.json": 3
+          "woodencentrifuge.object.json": 2
         }
       },
       "biome": {
@@ -7450,6 +7463,9 @@
           "precursorterminal": {
             "precursorterminal.object.json": 2
           },
+          "precursortinyswitch": {
+            "precursortinyswitch.object.json": 2
+          },
           "precursortrap": {
             "precursortrap1.object.json": 2
           },
@@ -8298,98 +8314,186 @@
       "alienjungle.questtemplate.json": 4,
       "ancienttemple.questtemplate.json": 4,
       "avianhydro.questtemplate.json": 4,
-      "base": {
-        "create_advxeno.questtemplate.json": 4,
-        "create_aichip.questtemplate.json": 4,
-        "create_arcsmelter.questtemplate.json": 4,
-        "create_armory.questtemplate.json": 4,
-        "create_augment.questtemplate.json": 4,
-        "create_blastfurnace.questtemplate.json": 3,
-        "create_centrifuge.questtemplate.json": 4,
-        "create_clothingfabricator.questtemplate.json": 4,
-        "create_clothingfabricator2.questtemplate.json": 4,
-        "create_clothingfabricator3.questtemplate.json": 4,
-        "create_densinium.questtemplate.json": 4,
-        "create_designlab.questtemplate.json": 4,
-        "create_elder.questtemplate.json": 4,
-        "create_energyassault.questtemplate.json": 4,
-        "create_extractor.questtemplate.json": 4,
-        "create_fertilizer.questtemplate.json": 4,
-        "create_fission.questtemplate.json": 4,
-        "create_hydrotray.questtemplate.json": 4,
-        "create_ignuschili.questtemplate.json": 4,
-        "create_laspistol.questtemplate.json": 3,
-        "create_matterassembler.questtemplate.json": 2,
-        "create_methanol.questtemplate.json": 3,
-        "create_mutavisk.questtemplate.json": 4,
-        "create_powdersifter.questtemplate.json": 4,
-        "create_protocite.questtemplate.json": 4,
-        "create_quietus.questtemplate.json": 4,
-        "create_radleaf.questtemplate.json": 4,
-        "create_regengene.questtemplate.json": 4,
-        "create_silicon.questtemplate.json": 4,
-        "create_solarpanel.questtemplate.json": 4,
-        "create_warcleaver.questtemplate.json": 4,
-        "extractor1.questtemplate.json": 4,
-        "extractor2.questtemplate.json": 4,
-        "extractor3.questtemplate.json": 4,
-        "extractor4.questtemplate.json": 4,
-        "extractor5.questtemplate.json": 4,
-        "extractor6.questtemplate.json": 4
-      },
-      "base_new": {
-        "create_armcannon.questtemplate.json": 4,
-        "create_atmosregulator.questtemplate.json": 4,
-        "create_blackglass.questtemplate.json": 3,
-        "create_circuitboard.questtemplate.json": 4,
-        "create_icecrystal.questtemplate.json": 4,
-        "create_iodine.questtemplate.json": 4,
-        "create_methyliodide.questtemplate.json": 4,
-        "create_miraclegrass.questtemplate.json": 4,
-        "create_plastic.questtemplate.json": 4,
-        "create_steelwarblade.questtemplate.json": 4,
-        "create_teleportercore.questtemplate.json": 4,
-        "create_tritium.questtemplate.json": 4,
-        "create_wastewater.questtemplate.json": 4,
-        "create_watcher.questtemplate.json": 4
-      },
-      "bees": {
-        "10industrialcentrifuge.questtemplate.json": 3,
-        "11honeyjarrer.questtemplate.json": 3,
-        "12breeding.questtemplate.json": 3,
-        "13mites.questtemplate.json": 3,
-        "1beestation.questtemplate.json": 3,
-        "2apiary.questtemplate.json": 3,
-        "3basicframe.questtemplate.json": 3,
-        "4bees.questtemplate.json": 3,
-        "5plantflowers.questtemplate.json": 3,
-        "6centrifuge.questtemplate.json": 3,
-        "7combs.questtemplate.json": 3,
-        "8extractcombs.questtemplate.json": 3,
-        "9alveary.questtemplate.json": 3
-      },
-      "booze": {
-        "1boozekit.questtemplate.json": 4,
-        "2brew_a.questtemplate.json": 3,
-        "2brew_b.questtemplate.json": 3,
-        "2brew_c.questtemplate.json": 3,
-        "2brew_d.questtemplate.json": 3,
-        "3hops.questtemplate.json": 4,
-        "4malt.questtemplate.json": 4,
-        "5wort.questtemplate.json": 4,
-        "6beer.questtemplate.json": 4,
-        "7distill.questtemplate.json": 4,
-        "8spirits.questtemplate.json": 4,
-        "9merrymead.questtemplate.json": 4
-      },
       "challengelabs": {
         "shared_extrachallengelabs.json": 3
       },
       "evernight.questtemplate.json": 4,
       "forestoffae.questtemplate.json": 4,
-      "fu_scienceoutpost.questtemplate.json": 5,
-      "fu_tutorial": {
-        "fu_start_MA.questtemplate.json": 2
+      "fu_questlines": {
+        "battle": {
+          "gear": {
+            "create_armcannon.questtemplate.json": 4,
+            "create_laspistol.questtemplate.json": 3,
+            "create_steelwarblade.questtemplate.json": 4,
+            "plebiancap.questtemplate.json": 3
+          },
+          "monsters": {
+            "fuquest_gorgolith.questtemplate.json": 3,
+            "fuquest_gorillaking.questtemplate.json": 4,
+            "fuquest_mamapoptop.questtemplate.json": 4,
+            "fuquest_megarachnid.questtemplate.json": 3,
+            "fuquest_titan.questtemplate.json": 4,
+            "fuquest_warbot.questtemplate.json": 4,
+            "shared_.questtemplate.json": 1
+          }
+        },
+        "deprecated": {
+          "create_densinium.questtemplate.json": 4,
+          "create_designlab.questtemplate.json": 4,
+          "create_quietus.questtemplate.json": 4,
+          "fuquest_battery.questtemplate.json": 3,
+          "fuquest_clothingfabricator.questtemplate.json": 3,
+          "fuquest_craftinfo.questtemplate.json": 2,
+          "fuquest_fission.questtemplate.json": 3,
+          "fuquest_geneticmaterial.questtemplate.json": 3,
+          "fuquest_hydrotray.questtemplate.json": 3,
+          "fuquest_methanol.questtemplate.json": 3,
+          "fuquest_nano.questtemplate.json": 3,
+          "fuquest_powerstation.questtemplate.json": 3,
+          "fuquest_prototyper.questtemplate.json": 3,
+          "fuquest_rawminerals.questtemplate.json": 3,
+          "fuquest_sequencer.questtemplate.json": 3,
+          "fuquest_silicon.questtemplate.json": 3,
+          "fuquest_tissueculture.questtemplate.json": 3,
+          "fuquest_water.questtemplate.json": 3
+        },
+        "exploration": {
+          "fuquest_explore1.questtemplate.json": 24
+        },
+        "other": {
+          "create_elder.questtemplate.json": 4,
+          "frozenwastes": {
+            "shoggoth_defeat.questtemplate.json": 3,
+            "shoggoth_unlock.questtemplate.json": 4,
+            "shoggoth_unlocknew.questtemplate.json": 3,
+            "shoggoth_wagner.questtemplate.json": 4
+          }
+        },
+        "outpost": {
+          "bees": {
+            "10industrialcentrifuge.questtemplate.json": 3,
+            "11honeyjarrer.questtemplate.json": 3,
+            "12breeding.questtemplate.json": 3,
+            "13mites.questtemplate.json": 3,
+            "1beestation.questtemplate.json": 3,
+            "2apiary.questtemplate.json": 3,
+            "3basicframe.questtemplate.json": 2,
+            "4bees.questtemplate.json": 3,
+            "5plantflowers.questtemplate.json": 3,
+            "6centrifuge.questtemplate.json": 3,
+            "7combs.questtemplate.json": 3,
+            "8extractcombs.questtemplate.json": 3,
+            "9alveary.questtemplate.json": 3
+          },
+          "booze": {
+            "1boozekit.questtemplate.json": 4,
+            "2brew_a.questtemplate.json": 3,
+            "2brew_b.questtemplate.json": 3,
+            "2brew_c.questtemplate.json": 3,
+            "2brew_d.questtemplate.json": 3,
+            "3hops.questtemplate.json": 4,
+            "4malt.questtemplate.json": 3,
+            "5wort.questtemplate.json": 3,
+            "6beer.questtemplate.json": 4,
+            "7distill.questtemplate.json": 4,
+            "8spirits.questtemplate.json": 4,
+            "9merrymead.questtemplate.json": 4
+          },
+          "kevin_tasks": {
+            "create_clothingfabricator.questtemplate.json": 4,
+            "create_clothingfabricator2.questtemplate.json": 4,
+            "create_clothingfabricator3.questtemplate.json": 4
+          }
+        },
+        "random": {
+          "create_energyassault.questtemplate.json": 4,
+          "create_warcleaver.questtemplate.json": 4
+        },
+        "science": {
+          "chemistry": {
+            "create_fertilizer.questtemplate.json": 4,
+            "create_icecrystal.questtemplate.json": 4,
+            "create_iodine.questtemplate.json": 4,
+            "create_methanol.questtemplate.json": 3,
+            "create_methyliodide.questtemplate.json": 4,
+            "create_plastic.questtemplate.json": 4,
+            "create_wastewater.questtemplate.json": 4,
+            "fuquest_biochem.questtemplate.json": 3,
+            "fuquest_dna.questtemplate.json": 3,
+            "fuquest_mineral.questtemplate.json": 3
+          },
+          "electronics": {
+            "create_aichip.questtemplate.json": 3,
+            "create_centrifuge.questtemplate.json": 4,
+            "create_circuitboard.questtemplate.json": 4,
+            "create_hydrotray.questtemplate.json": 4,
+            "create_powdersifter.questtemplate.json": 4,
+            "create_solarpanel.questtemplate.json": 4,
+            "create_watcher.questtemplate.json": 4
+          },
+          "genetics": {
+            "create_ignuschili.questtemplate.json": 4,
+            "create_miraclegrass.questtemplate.json": 4,
+            "create_mutavisk.questtemplate.json": 4,
+            "create_radleaf.questtemplate.json": 4,
+            "create_regengene.questtemplate.json": 4,
+            "fuquest_bracken.questtemplate.json": 3,
+            "fuquest_cloning.questtemplate.json": 2,
+            "fuquest_mutavisk.questtemplate.json": 3,
+            "fuquest_oonforta.questtemplate.json": 3
+          },
+          "mechanical": {
+            "create_advxeno.questtemplate.json": 4,
+            "create_arcsmelter.questtemplate.json": 4,
+            "create_atmosregulator.questtemplate.json": 4,
+            "create_augment.questtemplate.json": 4,
+            "create_blackglass.questtemplate.json": 3,
+            "create_blastfurnace.questtemplate.json": 3,
+            "create_extractor.questtemplate.json": 4,
+            "shared_.questtemplate.json": 1
+          },
+          "physics": {
+            "create_fission.questtemplate.json": 4,
+            "create_protocite.questtemplate.json": 4,
+            "create_teleportercore.questtemplate.json": 4,
+            "create_tritium.questtemplate.json": 4
+          }
+        },
+        "tutorial": {
+          "extractor": {
+            "create_silicon.questtemplate.json": 4,
+            "extractor1.questtemplate.json": 4,
+            "extractor2.questtemplate.json": 4,
+            "extractor3.questtemplate.json": 4,
+            "extractor4.questtemplate.json": 4,
+            "extractor5.questtemplate.json": 4,
+            "extractor6.questtemplate.json": 4
+          },
+          "vinj": {
+            "bonespear.questtemplate.json": 3,
+            "create_alchemy.questtemplate.json": 4,
+            "create_armory.questtemplate.json": 3,
+            "create_electronics.questtemplate.json": 3,
+            "create_greenhouse.questtemplate.json": 2,
+            "create_growingtray.questtemplate.json": 3,
+            "create_matterassembler.questtemplate.json": 3,
+            "create_sprouting.questtemplate.json": 3,
+            "create_tinkertable.questtemplate.json": 3,
+            "create_woodencentrifuge.questtemplate.json": 2,
+            "create_woodensifter.questtemplate.json": 3,
+            "fu_scienceoutpost.questtemplate.json": 5,
+            "fu_start_MA.questtemplate.json": 3,
+            "fuquest_extractor.questtemplate.json": 3,
+            "fuquest_farming1.questtemplate.json": 3,
+            "fuquest_farming2.questtemplate.json": 3,
+            "fuquest_farming3.questtemplate.json": 3,
+            "fuquest_farming4.questtemplate.json": 3,
+            "fuquest_powergeneration1.questtemplate.json": 3,
+            "fuquest_powergeneration2.questtemplate.json": 3,
+            "fuquest_xeno.questtemplate.json": 3,
+            "shared_.questtemplate.json": 2
+          }
+        }
       },
       "grandarena.questtemplate.json": 4,
       "infiltration.questtemplate.json": 4,
@@ -8397,88 +8501,19 @@
       "letheiafleet.questtemplate.json": 3,
       "lethialabs.questtemplate.json": 4,
       "magickaforest.questtemplate.json": 4,
-      "mastermanipulator.questtemplate.json": 3,
-      "missions": {
-        "shoggoth_defeat.questtemplate.json": 3,
-        "shoggoth_unlock.questtemplate.json": 4,
-        "shoggoth_unlocknew.questtemplate.json": 3,
-        "shoggoth_wagner.questtemplate.json": 4
+      "mmupgrade": {
+        "mastermanipulator.questtemplate.json": 3,
+        "mmgravgun.questtemplate.json": 2,
+        "mmgravgun2.questtemplate.json": 3,
+        "mmgravgun3.questtemplate.json": 3,
+        "shared_.questtemplate.json": 2
       },
-      "mmgravgun.questtemplate.json": 2,
-      "mmgravgun2.questtemplate.json": 3,
-      "mmgravgun3.questtemplate.json": 3,
       "pavillion.questtemplate.json": 4,
       "penguinhighway.questtemplate.json": 4,
-      "shared_.questtemplate.json": 4,
-      "shared_base": {
-        "shared_.questtemplate.json": 1
-      },
       "skytemple.questtemplate.json": 4,
       "snowcrash.questtemplate.json": 4,
-      "stations": {
-        "armory": {
-          "bonespear.questtemplate.json": 3,
-          "fuquest_armory.questtemplate.json": 3
-        },
-        "biochem": {
-          "fuquest_biochem.questtemplate.json": 3,
-          "fuquest_dna.questtemplate.json": 3,
-          "fuquest_mineral.questtemplate.json": 3
-        },
-        "cloning": {
-          "fuquest_cloning.questtemplate.json": 2
-        },
-        "clothingfabricator": {
-          "fuquest_clothingfabricator.questtemplate.json": 3
-        },
-        "craftinfo": {
-          "fuquest_craftinfo.questtemplate.json": 2
-        },
-        "designlab": {
-          "fuquest_bracken.questtemplate.json": 3,
-          "fuquest_mutavisk.questtemplate.json": 3,
-          "fuquest_oonforta.questtemplate.json": 3
-        },
-        "extractor": {
-          "fuquest_extractor.questtemplate.json": 3,
-          "fuquest_geneticmaterial.questtemplate.json": 3,
-          "fuquest_methanol.questtemplate.json": 3,
-          "fuquest_rawminerals.questtemplate.json": 3,
-          "fuquest_silicon.questtemplate.json": 3,
-          "fuquest_tissueculture.questtemplate.json": 3,
-          "fuquest_water.questtemplate.json": 3
-        },
-        "fission": {
-          "fuquest_fission.questtemplate.json": 3
-        },
-        "fuquest_farming1.questtemplate.json": 3,
-        "fuquest_farming2.questtemplate.json": 3,
-        "fuquest_farming3.questtemplate.json": 3,
-        "fuquest_farming4.questtemplate.json": 3,
-        "fuquest_powergeneration1.questtemplate.json": 3,
-        "fuquest_powergeneration2.questtemplate.json": 3,
-        "nano": {
-          "fuquest_nano.questtemplate.json": 3
-        },
-        "powerstation": {
-          "fuquest_battery.questtemplate.json": 3,
-          "fuquest_hydrotray.questtemplate.json": 3,
-          "fuquest_powerstation.questtemplate.json": 3
-        },
-        "prototyper": {
-          "fuquest_prototyper.questtemplate.json": 3
-        },
-        "sequencer": {
-          "fuquest_sequencer.questtemplate.json": 3
-        },
-        "xeno": {
-          "fuquest_xeno.questtemplate.json": 3
-        }
-      },
       "story": {
-        "protectoratefu.questtemplate.json": 6,
-        "scienceoutpost_boss1.questtemplate.json": 7,
-        "scienceoutpost_scan1.questtemplate.json": 24
+        "protectoratefu.questtemplate.json": 6
       },
       "sunsetriders.questtemplate.json": 4,
       "tech": {
@@ -8489,12 +8524,12 @@
           "fadesprint.questtemplate.json": 2,
           "fadesprint2.questtemplate.json": 2,
           "fadesprint3.questtemplate.json": 2,
-          "shared_.questtemplate.json": 2,
+          "shared_.questtemplate.json": 1,
           "speedboots.questtemplate.json": 2,
           "speedboots2.questtemplate.json": 2,
-          "speedboots3.questtemplate.json": 3,
-          "speedbootsprecursor.questtemplate.json": 3,
-          "speedbootsweak.questtemplate.json": 3,
+          "speedboots3.questtemplate.json": 2,
+          "speedbootsprecursor.questtemplate.json": 2,
+          "speedbootsweak.questtemplate.json": 2,
           "teleportdash.questtemplate.json": 2,
           "zeroburst1.questtemplate.json": 2,
           "zeroburst2.questtemplate.json": 3,
@@ -8508,9 +8543,9 @@
           "funball.questtemplate.json": 3,
           "microsphere.questtemplate.json": 2,
           "microspherebomb.questtemplate.json": 2,
-          "microsphereprecursor.questtemplate.json": 2,
+          "microsphereprecursor.questtemplate.json": 1,
           "microspherespider.questtemplate.json": 2,
-          "powerboost.questtemplate.json": 3
+          "powerboost.questtemplate.json": 2
         },
         "jump": {
           "fuwallcling.questtemplate.json": 2,
@@ -8520,10 +8555,10 @@
           "fuwalljump3.questtemplate.json": 2,
           "longjump.questtemplate.json": 2,
           "longjump2.questtemplate.json": 2,
-          "longjump3.questtemplate.json": 2,
+          "longjump3.questtemplate.json": 1,
           "longjump4.questtemplate.json": 3,
           "quadjump.questtemplate.json": 3,
-          "quintjump.questtemplate.json": 2,
+          "quintjump.questtemplate.json": 1,
           "rocketboots.questtemplate.json": 2,
           "shared_.questtemplate.json": 1
         },
@@ -8555,12 +8590,17 @@
     "shared_amberplatform.mat.json": 1,
     "shared_avalistairs.mat.json": 1,
     "shared_bamboo.json": 1,
+    "shared_basicframe..json": 1,
     "shared_bees": {
       "shared_metal": {
         "shared_metal.json": 1
       }
     },
     "shared_beestation.json": 1,
+    "shared_booze": {
+      "shared_malt..json": 1,
+      "shared_wort..json": 1
+    },
     "shared_brainslug.json": 1,
     "shared_cloud.json": 1,
     "shared_con.json": 1,
@@ -8580,6 +8620,7 @@
     "shared_hellfire.json": 1,
     "shared_honeyplatform.mat.json": 1,
     "shared_ice.json": 1,
+    "shared_jump.json": 2,
     "shared_lic.json": 1,
     "shared_peglacialloyplatform.mat.json": 2,
     "shared_peglacipykreteplatform.mat.json": 2,
@@ -8589,7 +8630,9 @@
     "shared_reg": {
       "shared_egen.statuseffect.json": 1
     },
+    "shared_rial.json": 1,
     "shared_sand..json": 1,
+    "shared_sphere.json": 1,
     "shared_stat.json": 1,
     "shared_sulphur.json": 1,
     "shared_tation": {
@@ -8650,6 +8693,7 @@
       "nightarnamegen.config.json": 17,
       "peglacinamegen.config.json": 73,
       "precursor.species.json": 1,
+      "precursornamegen.config.json": 2,
       "radien.species.json": 3,
       "radiennamegen.config.json": 245,
       "shared_.species.json": 20,
@@ -9339,11 +9383,11 @@
         "fueltank.tech.json": 2,
         "shared_zeroburst.json": 1,
         "sonicburst.tech.json": 2,
-        "speedboots.tech.json": 2,
-        "speedboots2.tech.json": 2,
+        "speedboots.tech.json": 1,
+        "speedboots2.tech.json": 1,
         "speedboots3.tech.json": 2,
-        "speedbootsprecursor.tech.json": 2,
-        "speedbootsweak.tech.json": 2,
+        "speedbootsprecursor.tech.json": 1,
+        "speedbootsweak.tech.json": 1,
         "teleportdash.tech.json": 2,
         "zeroburst.tech.json": 2,
         "zeroburst2.tech.json": 1,
@@ -9357,7 +9401,7 @@
         "funball.tech.json": 2,
         "microsphere.tech.json": 2,
         "microspherebomb.tech.json": 2,
-        "microsphereprecursor.tech.json": 2,
+        "microsphereprecursor.tech.json": 1,
         "microspherespider.tech.json": 2
       },
       "items": {
@@ -9420,10 +9464,10 @@
         "gravityjump.tech.json": 2,
         "longjump.tech.json": 2,
         "longjump2.tech.json": 2,
-        "longjump3.tech.json": 2,
+        "longjump3.tech.json": 1,
         "longjump4.tech.json": 2,
         "quadjump.tech.json": 2,
-        "quintjump.tech.json": 2,
+        "quintjump.tech.json": 1,
         "rocketboots": {
           "rocketboots.tech.json": 1,
           "rocketboots2.tech.json": 1,
@@ -9612,7 +9656,6 @@
         "retexaetherdustpillar.material.json": 1,
         "retexcobblestone.material.json": 4,
         "retexdirt.material.json": 4,
-        "retexgreenhouse.material.json": 1,
         "retexironblock.material.json": 1,
         "retexredsandstone.material.json": 3,
         "retexrock12.material.json": 1,
@@ -9730,6 +9773,6 @@
         "shared_platform.material.json": 1
       }
     },
-    "wide_spread_fields.json": 127
+    "wide_spread_fields.json": 135
   }
 }

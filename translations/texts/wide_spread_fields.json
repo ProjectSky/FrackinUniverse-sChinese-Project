@@ -75,6 +75,9 @@
       "interface/scripted/fm_musicplayer/fm_musicplayer.config": [
         "/gui/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
       ],
+      "interface/scripted/fu_tutorialQuestList/fu_tutorialQuestList.config": [
+        "/gui/textScrollArea/children/rewardList/schema/listTemplate/rewardsPixels/value"
+      ],
       "interface/scripted/techshop/techshop.config": [
         "/gui/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
       ],
@@ -255,6 +258,21 @@
   {
     "DeniedAlternatives": [],
     "Files": {
+      "npcs/crew/crewmemberstealth.npctype": [
+        "/scriptConfig/crew/role/name"
+      ],
+      "quests/tech/distortionsphere/powerboost.questtemplate": [
+        "/title"
+      ]
+    },
+    "Texts": {
+      "Chs": "刺客",
+      "Eng": "Assassin"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
       "interface/windowconfig/armory.config": [
         "/paneLayout/btnCraft/caption"
       ],
@@ -400,6 +418,27 @@
     "Texts": {
       "Chs": "荒芜",
       "Eng": "Barren"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/scripted/fu_tutorialQuestList/questData.config": [
+        "/strings/questlines/battle/title"
+      ],
+      "npcs/crew/crewmemberwarrior.npctype": [
+        "/scriptConfig/crew/role/field"
+      ],
+      "npcs/crew/crewmemberwarrior2.npctype": [
+        "/scriptConfig/crew/role/field"
+      ],
+      "npcs/crew/crewmemberwarrior3.npctype": [
+        "/scriptConfig/crew/role/field"
+      ]
+    },
+    "Texts": {
+      "Chs": "战斗向",
+      "Eng": "Battle"
     }
   },
   {
@@ -558,6 +597,21 @@
   {
     "DeniedAlternatives": [],
     "Files": {
+      "objects/bees/woodencentrifuge/woodencentrifuge.object": [
+        "/subtitle"
+      ],
+      "quests/fu_questlines/tutorial/vinj/create_woodencentrifuge.questtemplate": [
+        "/title"
+      ]
+    },
+    "Texts": {
+      "Chs": "离心机",
+      "Eng": "Centrifuge"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
       "interface/cockpit/cockpit.config": [
         "/displayOres/cinnabar/displayName"
       ],
@@ -586,6 +640,21 @@
     "Texts": {
       "Chs": "肉桂",
       "Eng": "Cinnamon"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "items/generic/tradegoods/contrabandgoods.item": [
+        "/shortdescription"
+      ],
+      "quests/fu_questlines/science/electronics/create_aichip.questtemplate": [
+        "/title"
+      ]
+    },
+    "Texts": {
+      "Chs": "违禁品箱",
+      "Eng": "Contraband"
     }
   },
   {
@@ -2070,6 +2139,21 @@
   {
     "DeniedAlternatives": [],
     "Files": {
+      "quests/tech/dash/speedbootsprecursor.questtemplate": [
+        "/title"
+      ],
+      "tech/dash/speedbootsprecursor.tech": [
+        "/shortDescription"
+      ]
+    },
+    "Texts": {
+      "Chs": "狂经脉 V",
+      "Eng": "Precursor Rig"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
       "objects/farmables/flowerblue/flowerblue.object": [
         "/floranDescription"
       ],
@@ -2600,6 +2684,54 @@
     "Texts": {
       "Chs": "星光薄荷",
       "Eng": "Star Mint"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "quests/tech/dash/speedbootsweak.questtemplate": [
+        "/title"
+      ],
+      "tech/dash/speedbootsweak.tech": [
+        "/shortDescription"
+      ]
+    },
+    "Texts": {
+      "Chs": "狂经脉 I",
+      "Eng": "Stimulant Rig"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "quests/tech/dash/speedboots.questtemplate": [
+        "/title"
+      ],
+      "quests/tech/dash/speedboots2.questtemplate": [
+        "/title"
+      ],
+      "tech/dash/speedboots.tech": [
+        "/shortDescription"
+      ]
+    },
+    "Texts": {
+      "Chs": "狂经脉 II",
+      "Eng": "Stimulant Rig II"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "quests/tech/dash/speedboots3.questtemplate": [
+        "/title"
+      ],
+      "tech/dash/speedboots2.tech": [
+        "/shortDescription"
+      ]
+    },
+    "Texts": {
+      "Chs": "狂经脉 III",
+      "Eng": "Stimulant Rig III"
     }
   },
   {
