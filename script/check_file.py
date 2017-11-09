@@ -12,7 +12,6 @@ import os
 import os.path
 import json
 import pathlib
-import traceback
 
 rootdir = "../translations"
 
