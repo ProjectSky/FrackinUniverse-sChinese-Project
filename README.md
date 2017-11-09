@@ -18,4 +18,4 @@
 
 ###### 链接信息
 * [最新版本下载](https://github.com/ProjectSky/FrackinUniverse-sChinese-Project/releases)
-* [翻译进度查阅](https://github.zomboid.cn)
+* [翻译进度查阅](https://projectsky.github.io/index.html
