@@ -1064,6 +1064,7 @@
     "/planetTypeNames/icemoon": "texts/wide_spread_fields.json",
     "/planetTypeNames/infernus": "texts/wide_spread_fields.json",
     "/planetTypeNames/irradiated": "texts/wide_spread_fields.json",
+    "/planetTypeNames/moon_metallic": "texts/wide_spread_fields.json",
     "/planetTypeNames/moon_shadow": "texts/wide_spread_fields.json",
     "/planetTypeNames/mountainous": "texts/wide_spread_fields.json",
     "/planetTypeNames/nitrogensea": "texts/wide_spread_fields.json",
@@ -2258,6 +2259,9 @@
   "items/active/weapons/ranged/unique/blisterpistol.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
   },
+  "items/active/weapons/ranged/unique/crankrifle.activeitem": {
+    "/shortdescription": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
+  },
   "items/active/weapons/ranged/unique/fugaussmachinegun.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
   },
@@ -2266,6 +2270,9 @@
   },
   "items/active/weapons/ranged/unique/fugaussrifle.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
+  },
+  "items/active/weapons/ranged/unique/fugrinder.activeitem": {
+    "/shortdescription": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
   },
   "items/active/weapons/ranged/unique/fuhuntingrifle.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_fuhuntingrifle.json"
@@ -4037,6 +4044,24 @@
   "items/generic/mechparts/arm/fumechmining2.item": {
     "/description": "texts/items/generic/mechparts/arm/shared_fumechmining.json"
   },
+  "items/generic/mechparts/body/mechbodyfuexplorer.item": {
+    "/description": "texts/items/generic/mechparts/body/shared_mechbodyfuexplorer.json"
+  },
+  "items/generic/mechparts/body/mechbodyfuexplorer2.item": {
+    "/description": "texts/items/generic/mechparts/body/shared_mechbodyfuexplorer.json"
+  },
+  "items/generic/mechparts/booster/mechboostersimpleupgrade.item": {
+    "/description": "texts/items/generic/mechparts/booster/shared_mechboostersimpleupgrade.json"
+  },
+  "items/generic/mechparts/booster/mechboostersimpleupgrade2.item": {
+    "/description": "texts/items/generic/mechparts/booster/shared_mechboostersimpleupgrade.json"
+  },
+  "items/generic/mechparts/legs/mechlegssimpleupgrade.item": {
+    "/description": "texts/items/generic/mechparts/legs/shared_mechlegssimpleupgrade.json"
+  },
+  "items/generic/mechparts/legs/mechlegssimpleupgrade2.item": {
+    "/description": "texts/items/generic/mechparts/legs/shared_mechlegssimpleupgrade.json"
+  },
   "items/generic/petfood/petfood1.consumable": {
     "/description": "texts/items/generic/petfood/shared_.consumable.json"
   },
@@ -4289,9 +4314,6 @@
   },
   "items/materials/bloodstonewall2.matitem": {
     "/shortdescription": "texts/materials/shared_bloodstone.json"
-  },
-  "items/materials/boneyflesh.matitem": {
-    "/shortdescription": "texts/materials/shared_boneyflesh.mat.json"
   },
   "items/materials/brittlejunk.matitem": {
     "/description": "texts/materials/shared_brittlejunk.mat.json",
@@ -4571,8 +4593,10 @@
   "items/materials/glowsandmaterial.matitem": {
     "/shortdescription": "texts/materials/shared_glowsand.json"
   },
+  "items/materials/greyslate.matitem": {
+    "/description": "texts/materials/shared_greyslate.mat.json"
+  },
   "items/materials/harrowstone.matitem": {
-    "/description": "texts/materials/shared_harrowstone.mat.json",
     "/shortdescription": "texts/materials/shared_harrowstone.mat.json"
   },
   "items/materials/hivebeestonematerial.matitem": {
@@ -4923,6 +4947,7 @@
     "/glitchdescription/glitchEmotedText": "texts/materials/shared_material.json"
   },
   "items/materials/slimedirtmaterial.matitem": {
+    "/description": "texts/materials/shared_slimedirt.json",
     "/shortdescription": "texts/materials/shared_slimedirt.json"
   },
   "items/materials/speedblockmaterial.matitem": {
@@ -17980,7 +18005,7 @@
   },
   "tiles/materials/boneyflesh.material": {
     "/description": "texts/tiles/materials/shared_boneyflesh.material.json",
-    "/shortdescription": "texts/materials/shared_boneyflesh.mat.json"
+    "/shortdescription": "texts/tiles/materials/shared_boneyflesh.material.json"
   },
   "tiles/materials/brittlejunk.material": {
     "/description": "texts/materials/shared_brittlejunk.mat.json",
@@ -18015,7 +18040,7 @@
   },
   "tiles/materials/cookedboneyflesh.material": {
     "/description": "texts/tiles/materials/shared_boneyflesh.material.json",
-    "/shortdescription": "texts/materials/shared_boneyflesh.mat.json"
+    "/shortdescription": "texts/tiles/materials/shared_boneyflesh.material.json"
   },
   "tiles/materials/cookedflesh.material": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -18191,7 +18216,7 @@
     "/shortdescription": "texts/materials/shared_frozenstone.json"
   },
   "tiles/materials/fublueslimedirt.material": {
-    "/description": "texts/tiles/materials/shared_slimedirt.material.json"
+    "/description": "texts/materials/shared_slimedirt.json"
   },
   "tiles/materials/fublueslimestone.material": {
     "/description": "texts/materials/shared_stone.mat.json"
@@ -18269,8 +18294,10 @@
   "tiles/materials/glowsand.material": {
     "/shortdescription": "texts/materials/shared_glowsand.json"
   },
+  "tiles/materials/greyslate.material": {
+    "/description": "texts/materials/shared_greyslate.mat.json"
+  },
   "tiles/materials/harrowstone.material": {
-    "/description": "texts/materials/shared_harrowstone.mat.json",
     "/shortdescription": "texts/materials/shared_harrowstone.mat.json"
   },
   "tiles/materials/hiveold.material": {
@@ -18782,7 +18809,7 @@
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_material.json"
   },
   "tiles/materials/slimedirt.material": {
-    "/description": "texts/tiles/materials/shared_slimedirt.material.json",
+    "/description": "texts/materials/shared_slimedirt.json",
     "/shortdescription": "texts/materials/shared_slimedirt.json"
   },
   "tiles/materials/speedblock.material": {

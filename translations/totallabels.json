@@ -432,7 +432,7 @@
         "multitether.config.json": 1
       },
       "cockpit": {
-        "cockpit.config.json": 406
+        "cockpit.config.json": 407
       },
       "itemdescriptions": {
         "armornew.itemdescription.json": 1,
@@ -1461,6 +1461,9 @@
               "blizzardcannon.activeitem.json": 2,
               "carvelle.activeitem.json": 2,
               "classiczapper.activeitem.json": 2,
+              "crankgun.activeitem.json": 2,
+              "crankpistol.activeitem.json": 2,
+              "crankrifle.activeitem.json": 1,
               "crystalgun.activeitem.json": 2,
               "curveblaster.activeitem.json": 2,
               "curvepistol.activeitem.json": 2,
@@ -1494,7 +1497,7 @@
               "fugaussmachinegun.activeitem.json": 1,
               "fugausspistol.activeitem.json": 1,
               "fugaussrifle.activeitem.json": 1,
-              "fugrinder.activeitem.json": 2,
+              "fugrinder.activeitem.json": 1,
               "fuhuntingrifle.activeitem.json": 1,
               "fuhuntingrifle2.activeitem.json": 1,
               "fuhuntingrifle3.activeitem.json": 1,
@@ -1521,7 +1524,7 @@
               "hellfirecannon.activeitem.json": 2,
               "hellfiregun.activeitem.json": 2,
               "invisipuke.activeitem.json": 2,
-              "ionrifle.activeitem.json": 2,
+              "ionrifle.activeitem.json": 3,
               "irradiumrifle.activeitem.json": 3,
               "isn_magmavulcan.activeitem.json": 2,
               "k3rifle.activeitem.json": 2,
@@ -1682,7 +1685,7 @@
                   "isn_terawattlaser.activeitem.json": 2
                 }
               },
-              "shared_.activeitem.json": 4,
+              "shared_.activeitem.json": 5,
               "shared_fuhuntingrifle.json": 1,
               "shared_longarm.activeitem.json": 1,
               "shared_murdermanipulator.json": 1,
@@ -3733,19 +3736,35 @@
             "shared_fumechmining.json": 1
           },
           "body": {
-            "mechbodyfuexplorer.item.json": 2,
-            "mechbodyfuobserver.item.json": 2
+            "mechbodybrute.item.json": 2,
+            "mechbodybrute2.item.json": 2,
+            "mechbodyfuexplorer.item.json": 1,
+            "mechbodyfuexplorer2.item.json": 1,
+            "mechbodyfuobserver.item.json": 2,
+            "mechbodyheavy.item.json": 2,
+            "mechbodyheavy2.item.json": 2,
+            "shared_mechbodyfuexplorer.json": 1
           },
           "booster": {
-            "mechboosterfuobserver.item.json": 2
+            "mechboosterfuobserver.item.json": 2,
+            "mechboostersimpleupgrade.item.json": 1,
+            "mechboostersimpleupgrade2.item.json": 1,
+            "shared_mechboostersimpleupgrade.json": 1
           },
           "horn": {
+            "mechaimassist.item.json": 2,
             "mechhornnootnoot.item.json": 2
           },
           "legs": {
             "mechlegsfuexplorer.item.json": 2,
+            "mechlegsfuexplorer2.item.json": 2,
             "mechlegsfuintrepid.item.json": 2,
-            "mechlegsfuobserver.item.json": 2
+            "mechlegsfuobserver.item.json": 2,
+            "mechlegsheavy.item.json": 2,
+            "mechlegsheavy2.item.json": 2,
+            "mechlegssimpleupgrade.item.json": 1,
+            "mechlegssimpleupgrade2.item.json": 1,
+            "shared_mechlegssimpleupgrade.json": 1
           }
         },
         "mission": {
@@ -3935,7 +3954,7 @@
         "bloodstonewall.matitem.json": 2,
         "bloodstonewall2.matitem.json": 1,
         "bonemealmaterial.matitem.json": 2,
-        "boneyflesh.matitem.json": 1,
+        "boneyflesh.matitem.json": 2,
         "calichewall.matitem.json": 1,
         "campbigpole.matitem.json": 1,
         "campcanvas.matitem.json": 2,
@@ -3982,7 +4001,8 @@
         "fusteelgirdirmaterial.matitem.json": 1,
         "glasssandmaterial.matitem.json": 1,
         "glowsandmaterial.matitem.json": 1,
-        "greyslate.matitem.json": 2,
+        "greyslate.matitem.json": 1,
+        "harrowstone.matitem.json": 1,
         "hivebeestonematerial.matitem.json": 1,
         "hiveold.matitem.json": 1,
         "honeyplatform.matitem.json": 1,
@@ -4057,7 +4077,6 @@
         "shroomblockglow.matitem.json": 1,
         "shroomblockmaterial.matitem.json": 1,
         "slime2material.matitem.json": 1,
-        "slimedirtmaterial.matitem.json": 1,
         "speedblockmaterial.matitem.json": 1,
         "springvines.matitem.json": 2,
         "steelmetal.matitem.json": 1,
@@ -4214,7 +4233,6 @@
       "shared_bleachedbonematerial.mat.json": 2,
       "shared_bloods.json": 2,
       "shared_bloodstone.json": 1,
-      "shared_boneyflesh.mat.json": 1,
       "shared_brittle.json": 1,
       "shared_brittlejunk.mat.json": 3,
       "shared_brittlemetal.mat.json": 3,
@@ -4265,7 +4283,8 @@
       "shared_glasssand.json": 1,
       "shared_glowglass.json": 1,
       "shared_glowsand.json": 1,
-      "shared_harrowstone.mat.json": 2,
+      "shared_greyslate.mat.json": 1,
+      "shared_harrowstone.mat.json": 1,
       "shared_hiveold.json": 1,
       "shared_honeycombmaterial.mat.json": 1,
       "shared_irradiated.json": 2,
@@ -4303,7 +4322,7 @@
       "shared_sandpillar.json": 2,
       "shared_sandstone.json": 3,
       "shared_shroomblock.json": 1,
-      "shared_slimedirt.json": 1,
+      "shared_slimedirt.json": 2,
       "shared_speedblock.json": 1,
       "shared_steelhive.json": 2,
       "shared_stone.mat.json": 1,
@@ -7439,6 +7458,9 @@
           "precursorcrystals": {
             "shared_precursorcrystal.json": 2
           },
+          "precursordevice1": {
+            "precursordevice1.object.json": 2
+          },
           "precursordoor": {
             "precursor1tiledoor.object.json": 1,
             "precursor1tiledoorvertical.object.json": 1,
@@ -9739,7 +9761,8 @@
         },
         "glasssand.material.json": 1,
         "glowsand.material.json": 1,
-        "greyslate.material.json": 2,
+        "greyslate.material.json": 1,
+        "harrowstone.material.json": 1,
         "honey": {
           "brick": {
             "honeystonebrick.material.json": 1,
@@ -9846,7 +9869,7 @@
         "shared_.material.json": 2,
         "shared_avalidarkmetal.json": 1,
         "shared_block.material.json": 1,
-        "shared_boneyflesh.material.json": 1,
+        "shared_boneyflesh.material.json": 2,
         "shared_coral.material.json": 1,
         "shared_crystal.material.json": 1,
         "shared_elderblock.json": 1,
@@ -9857,7 +9880,6 @@
         "shared_retexrock1.json": 3,
         "shared_sand.material.json": 1,
         "shared_sand2.material.json": 1,
-        "shared_slimedirt.material.json": 1,
         "shared_wall.json": 1,
         "shroomblockglow.material.json": 1,
         "shroomblockwall.material.json": 1,
