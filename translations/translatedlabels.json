@@ -419,12 +419,12 @@
       "shared_fm_musicplayer..json": 1
     },
     "generic.json": 1,
-    "glitchEmotes.json": 178,
+    "glitchEmotes.json": 179,
     "interface": {
       "ai": {
-        "ai.config.json": 0,
-        "fu_byosai.config.json": 0,
-        "shared_ai.config.json": 0
+        "ai.config.json": 7,
+        "fu_byosai.config.json": 2,
+        "shared_ai.config.json": 8
       },
       "chests": {
         "chest3.config.json": 1,
@@ -432,7 +432,7 @@
         "multitether.config.json": 1
       },
       "cockpit": {
-        "cockpit.config.json": 382
+        "cockpit.config.json": 407
       },
       "itemdescriptions": {
         "armornew.itemdescription.json": 1,
@@ -458,14 +458,14 @@
         "fu_racialiser": {
           "fu_racialiser.config.json": 0
         },
-        "shared_fu_atmosfilter.json": 0
+        "shared_fu_atmosfilter.json": 1
       },
       "scripted": {
         "collections": {
           "collectionsgui.config.json": 5
         },
         "fm_musicplayer": {
-          "fm_musicplayer.config.json": 0
+          "fm_musicplayer.config.json": 1
         },
         "fu_craftinfo": {
           "fu_craftinfo.config.json": 8
@@ -474,8 +474,8 @@
           "fu_matmodplacer.config.json": 0
         },
         "fu_tutorialQuestList": {
-          "fu_tutorialQuestList.config.json": 0,
-          "questData.config.json": 0
+          "fu_tutorialQuestList.config.json": 2,
+          "questData.config.json": 10
         },
         "fugravgen": {
           "fugravgenui.config.json": 3
@@ -493,16 +493,16 @@
             }
           }
         },
-        "shared_.config.json": 2,
+        "shared_.config.json": 3,
         "spaceStation": {
-          "shared_Station.config.json": 0
+          "shared_Station.config.json": 7
         },
         "statWindow": {
-          "extraStatsWindow.config.json": 0,
+          "extraStatsWindow.config.json": 1,
           "statWindow.config.json": 3
         },
         "techshop": {
-          "techshop.config.json": 0
+          "techshop.config.json": 2
         },
         "weaponupgrade2": {
           "weaponupgrade2gui.config.json": 4
@@ -529,9 +529,9 @@
         "avalidisplayapparatus.config.json": 2,
         "avalilathe.config.json": 2,
         "avaliloom.config.json": 2,
-        "beerefuge.config.json": 0,
-        "beestation.config.json": 0,
-        "boozekit.config.json": 0,
+        "beerefuge.config.json": 2,
+        "beestation.config.json": 1,
+        "boozekit.config.json": 2,
         "craftingcrewshop.config.json": 3,
         "distill.config.json": 0,
         "ferment.config.json": 0,
@@ -5225,6 +5225,9 @@
         "bulbopish": {
           "bulbop2": {
             "bulbop2.monstertype.json": 0
+          },
+          "bulbopfriendly": {
+            "bulbopfriendly.monstertype.json": 0
           }
         },
         "bunnything": {
@@ -6128,7 +6131,7 @@
           "fu_growingtray.object.json": 2
         },
         "fu_racialiser": {
-          "fu_racialiser.object.json": 2
+          "fu_racialiser.object.json": 1
         },
         "fu_shipcraftingtable": {
           "fu_shipcraftingtable.object.json": 2
@@ -7884,17 +7887,92 @@
       },
       "shared_tra.json": 2,
       "ship": {
+        "apexshipparts": {
+          "SIV_shipApexEdgeMed": {
+            "SIV_shipApexEdgeMed.object.json": 0
+          },
+          "SIV_shipApexEdgeSmall": {
+            "SIV_shipApexEdgeSmall.object.json": 0
+          },
+          "SIV_shipApexGunDecoLarge": {
+            "SIV_shipApexGunDecoLarge.object.json": 0
+          },
+          "SIV_shipApexGunDecoMed": {
+            "SIV_shipApexGunDecoMed.object.json": 0
+          },
+          "SIV_shipApexGunDecoSmall": {
+            "SIV_shipApexGunDecoSmall.object.json": 0
+          },
+          "SIV_shipApexGunPlatformLarge": {
+            "SIV_shipApexGunPlatformLarge.object.json": 0
+          },
+          "SIV_shipApexGunPlatformMed": {
+            "SIV_shipApexGunPlatformMed.object.json": 0
+          },
+          "SIV_shipApexGunPlatformSmall": {
+            "SIV_shipApexGunPlatformSmall.object.json": 0
+          },
+          "SIV_shipApexPad1": {
+            "SIV_shipApexPad1.object.json": 0
+          },
+          "SIV_shipApexPad2": {
+            "SIV_shipApexPad2.object.json": 0
+          },
+          "SIV_shipApexPlatformSec1": {
+            "SIV_shipApexPlatformSec1.object.json": 0
+          },
+          "SIV_shipApexPlatformSec2": {
+            "SIV_shipApexPlatformSec2.object.json": 0
+          },
+          "SIV_shipApexTrimBlock": {
+            "SIV_shipApexTrimBlock.object.json": 0
+          },
+          "SIV_shipApexTrimEdge": {
+            "SIV_shipApexTrimEdge.object.json": 0
+          },
+          "SIV_shipApexTrimPlatform": {
+            "SIV_shipApexTrimPlatform.object.json": 0
+          },
+          "shared_SIV_shipApexPad": {
+            "shared_SIV_shipApexPad.json": 0
+          }
+        },
+        "avianshipparts": {
+          "SIV_shipAvianCapHalf": {
+            "SIV_shipAvianCapHalf.object.json": 0
+          },
+          "SIV_shipAvianGem": {
+            "SIV_shipAvianGem.object.json": 0
+          },
+          "SIV_shipAvianGemCap": {
+            "SIV_shipAvianGemCap.object.json": 0
+          },
+          "SIV_shipAvianGunDecoSqr": {
+            "SIV_shipAvianGunDecoSqr.object.json": 0
+          },
+          "SIV_shipAvianLower": {
+            "SIV_shipAvianLower.object.json": 0
+          },
+          "SIV_shipAvianSlope": {
+            "SIV_shipAvianSlope.object.json": 0
+          },
+          "SIV_shipAvianSlopeEdge": {
+            "SIV_shipAvianSlopeEdge.object.json": 0
+          }
+        },
         "fu_byosbrokenfuelhatch": {
           "fu_byosbrokenfuelhatch.object.json": 0
         },
         "fu_byoscaptainschair": {
-          "fu_byoscaptainschair.object.json": 9
+          "fu_byoscaptainschair.object.json": 2,
+          "fu_byoscaptainschairdeco.object.json": 0,
+          "shared_fu_byoscaptainschair.json": 7
         },
         "fu_byosfuelhatch": {
           "fu_byosfuelhatch.object.json": 0
         },
         "fu_byospethouse": {
-          "fu_byospethouse.object.json": 0
+          "fu_byospethouse.object.json": 8
         },
         "fu_byosshipdoor": {
           "fu_byosshipdoor.object.json": 0,
@@ -7918,20 +7996,26 @@
           "fu_byostechstationTier0.object.json": 7
         },
         "fu_byosteleporter": {
-          "fu_byosteleporter.object.json": 2,
+          "fu_byosteleporter.object.json": 1,
+          "fu_byosteleporterdeco.object.json": 0,
           "shared_fu_byosteleporter.json": 7
         },
         "fu_byosteleporterTier0": {
-          "fu_byosteleporterTier0.object.json": 0
+          "fu_byosteleporterTier0.object.json": 8
         },
         "fu_crewbed": {
           "fu_crewbed.object.json": 1
         },
         "fu_crewbed2": {
-          "fu_crewbed2.object.json": 0
+          "fu_crewbed2.object.json": 1
         },
         "fu_ftldrive": {
-          "fu_ftldrive.object.json": 2
+          "fu_ftldrive.object.json": 1,
+          "fu_ftldrivedeco.object.json": 0
+        },
+        "fu_ftldrivesmall": {
+          "fu_ftldrivesmall.object.json": 0,
+          "fu_ftldrivesmalldeco.object.json": 0
         },
         "fu_fuelpurifier": {
           "fu_fuelpurifier.object.json": 0
@@ -7945,6 +8029,130 @@
         "fu_smallthruster": {
           "fu_smallthruster.object.json": 0
         },
+        "genericshipparts": {
+          "SIV_shipTrimThin": {
+            "SIV_shipTrimThin.object.json": 0
+          },
+          "SIV_shipTrimThinDark": {
+            "SIV_shipTrimThinDark.object.json": 0
+          },
+          "SIV_shipTrimThinDarkFront": {
+            "SIV_shipTrimThinFrontDark.object.json": 0
+          },
+          "SIV_shipTrimThinFront": {
+            "SIV_shipTrimThinFront.object.json": 0
+          }
+        },
+        "glitchshipparts": {
+          "SIV_shipGlitchTower": {
+            "SIV_shipGlitchTower.object.json": 0
+          },
+          "SIV_shipGlitchTowerSide": {
+            "SIV_shipGlitchTowerSide.object.json": 0
+          },
+          "SIV_shipGlitchTrimSlope": {
+            "SIV_shipGlitchTrimSlope.object.json": 0
+          },
+          "SIV_shipGlitchTrimThin": {
+            "SIV_shipGlitchTrimThin.object.json": 0
+          },
+          "SIV_shipGlitchWedge": {
+            "SIV_shipGlitchWedge.object.json": 0
+          },
+          "SIV_shipGlitchWedgeSide": {
+            "SIV_shipGlitchWedgeSide.object.json": 0
+          }
+        },
+        "humanshipparts": {
+          "SIV_shipArmorPadRoof": {
+            "SIV_shipArmorPadRoof.object.json": 0
+          },
+          "SIV_shipArmorPadSide": {
+            "SIV_shipArmorPadSide.object.json": 0
+          },
+          "SIV_shipArmorSmall": {
+            "SIV_shipArmorSmall.object.json": 0
+          },
+          "SIV_shipHumanGunDecoSmall": {
+            "SIV_shipHumanGunDecoSmall.object.json": 0
+          },
+          "SIV_shipHumanWingBend": {
+            "SIV_shipHumanWingBend.object.json": 0
+          },
+          "SIV_shipHumanWingStrait": {
+            "SIV_shipHumanWingStrait.object.json": 0
+          },
+          "SIV_shipIntakeBody": {
+            "SIV_shipIntakeBody.object.json": 0
+          },
+          "SIV_shipIntakeFront": {
+            "SIV_shipIntakeFront.object.json": 0
+          },
+          "SIV_shipIntakeSide": {
+            "SIV_shipIntakeSide.object.json": 0
+          },
+          "SIV_shipRadBody": {
+            "SIV_shipRadBody.object.json": 0
+          },
+          "SIV_shipRadFront": {
+            "SIV_shipRadFront.object.json": 0
+          },
+          "SIV_shipRadRound": {
+            "SIV_shipRadRound.object.json": 0
+          }
+        },
+        "hylotlshipparts": {
+          "SIV_shipBlueMid1": {
+            "SIV_shipBlueMid1.object.json": 0
+          },
+          "SIV_shipBlueMid2": {
+            "SIV_shipBlueMid2.object.json": 0
+          },
+          "SIV_shipBlueMidSlope1": {
+            "SIV_shipBlueMidSlope1.object.json": 0
+          },
+          "SIV_shipBlueMidSlope2": {
+            "SIV_shipBlueMidSlope2.object.json": 0
+          },
+          "SIV_shipBlueSlope1": {
+            "SIV_shipBlueSlope1.object.json": 0
+          },
+          "SIV_shipBlueSlope2": {
+            "SIV_shipBlueSlope2.object.json": 0
+          },
+          "SIV_shipBlueSlope3": {
+            "SIV_shipBlueSlope3.object.json": 0
+          },
+          "SIV_shipBlueSlopeDouble": {
+            "SIV_shipBlueSlopeDouble.object.json": 0
+          },
+          "SIV_shipBlueSlopeStripe1": {
+            "SIV_shipBlueSlopeStripe1.object.json": 0
+          },
+          "SIV_shipHylotlGunDecoMed": {
+            "SIV_shipHylotlGunDecoMed.object.json": 0
+          },
+          "SIV_shipHylotlWingHuge": {
+            "SIV_shipHylotlWingHuge.object.json": 0
+          },
+          "shared_SIV_shipBlueMid": {
+            "shared_SIV_shipBlueMid.json": 0
+          },
+          "shared_SIV_shipBlueSlope": {
+            "shared_SIV_shipBlueSlope.json": 0
+          }
+        },
+        "novakidshipparts": {
+          "SIV_shipNovakidEngineFront": {
+            "SIV_shipNovakidEngineFront.object.json": 0
+          },
+          "SIV_shipNovakidEngineMountRear": {
+            "SIV_shipNovakidEngineMountRear.object.json": 0
+          },
+          "SIV_shipNovakidEngineSmallFront": {
+            "SIV_shipNovakidEngineSmallFront.object.json": 0
+          }
+        },
         "shared_fu_byosshipdoor": {
           "shared_fu_byosshipdoor.json": 0
         },
@@ -7955,10 +8163,13 @@
           "shared_fu_byostechstation.json": 8
         },
         "shared_fu_byosteleporter": {
-          "shared_fu_byosteleporter.json": 0
+          "shared_fu_byosteleporter.json": 1
         },
         "shared_fu_crewbed": {
-          "shared_fu_crewbed.json": 8
+          "shared_fu_crewbed.json": 7
+        },
+        "shared_fu_ftldrive": {
+          "shared_fu_ftldrive.json": 0
         }
       },
       "smartbox": {
