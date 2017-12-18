@@ -6,6 +6,11 @@
         "/gui/inputSlotCount/hint",
         "/gui/outputSlotCount/hint"
       ],
+      "interface/scripted/logicgates/3statecyclerGUI.config": [
+        "/gui/inputLeft/hint",
+        "/gui/inputMid/hint",
+        "/gui/inputRight/hint"
+      ],
       "interface/scripted/spaceStation/questStation.config": [
         "/gui/button1/caption",
         "/gui/button2/caption",
@@ -61,6 +66,24 @@
     "Texts": {
       "Chs": "---",
       "Eng": "---"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/kheAA/kheAA_router/kheAA_routerGui.config": [
+        "/gui/inputSlotCount/regex",
+        "/gui/outputSlotCount/regex"
+      ],
+      "interface/scripted/logicgates/3statecyclerGUI.config": [
+        "/gui/inputLeft/regex",
+        "/gui/inputMid/regex",
+        "/gui/inputRight/regex"
+      ]
+    },
+    "Texts": {
+      "Chs": "\\d{0,3}",
+      "Eng": "\\d{0,3}"
     }
   }
 ]
