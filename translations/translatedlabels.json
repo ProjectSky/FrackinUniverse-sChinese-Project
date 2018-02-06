@@ -1,5 +1,6 @@
 {
   "texts": {
+    "_FUversioning.config.json": 0,
     "ai": {
       "alienjungle.aimission.json": 3,
       "ancienttemple.aimission.json": 3,
@@ -8,11 +9,13 @@
       "forestoffae.aimission.json": 3,
       "grandarena.aimission.json": 3,
       "infiltration.aimission.json": 3,
+      "japaneseruins.aimission.json": 0,
       "letheiafacility.aimission.json": 3,
       "lethialabs.aimission.json": 3,
       "magickaforest.aimission.json": 3,
       "pavillion.aimission.json": 3,
       "penguinhighway.aimission.json": 3,
+      "precursordungeon.aimission.json": 0,
       "scienceoutpostfu.aimission.json": 2,
       "shoggothmission.aimission.json": 1,
       "skytemple.aimission.json": 3,
@@ -232,6 +235,7 @@
         "ffguide3.codex.json": 14,
         "ffguide4.codex.json": 2,
         "ffguide5.codex.json": 20,
+        "luridmagazine.codex.json": 0,
         "networkguide.codex.json": 11,
         "networkguide2.codex.json": 14,
         "scienceoutpost_kevin.codex.json": 65,
@@ -428,9 +432,9 @@
     "glitchEmotes.json": 179,
     "interface": {
       "ai": {
-        "ai.config.json": 7,
+        "ai.config.json": 12,
         "fu_byosai.config.json": 2,
-        "shared_ai.config.json": 8
+        "shared_ai.config.json": 3
       },
       "chests": {
         "chest3.config.json": 1,
@@ -438,7 +442,7 @@
         "multitether.config.json": 1
       },
       "cockpit": {
-        "cockpit.config.json": 407
+        "cockpit.config.json": 406
       },
       "itemdescriptions": {
         "armornew.itemdescription.json": 1,
@@ -471,7 +475,7 @@
       },
       "scripted": {
         "collections": {
-          "collectionsgui.config.json": 5
+          "collectionsgui.config.json": 4
         },
         "fm_musicplayer": {
           "fm_musicplayer.config.json": 1
@@ -479,12 +483,21 @@
         "fu_craftinfo": {
           "fu_craftinfo.config.json": 8
         },
+        "fu_lootbox": {
+          "lootboxData.config.json": 0
+        },
         "fu_matmodplacer": {
           "fu_matmodplacer.config.json": 0
+        },
+        "fu_researchtreegui": {
+          "researchTreeGUI.config.json": 0
         },
         "fu_tutorialQuestList": {
           "fu_tutorialQuestList.config.json": 2,
           "questData.config.json": 10
+        },
+        "fu_updateInfoWindow": {
+          "updateInfoWindow.config.json": 0
         },
         "fugravgen": {
           "fugravgenui.config.json": 3
@@ -507,7 +520,7 @@
         },
         "shared_.config.json": 3,
         "spaceStation": {
-          "shared_Station.config.json": 7
+          "spaceStation.config.json": 4
         },
         "statWindow": {
           "extraStatsWindow.config.json": 1,
@@ -630,6 +643,13 @@
           "t.activeitem.json": 2
         },
         "grapplinghooks": {
+          "autohookshot": {
+            "fuautohookshot.activeitem.json": 0,
+            "fuautohookshot2.activeitem.json": 0,
+            "fuautohookshot3.activeitem.json": 0,
+            "fuautohookshot4.activeitem.json": 0,
+            "shared_fuautohookshot.json": 0
+          },
           "elder": {
             "eldergrappler.activeitem.json": 1
           },
@@ -653,6 +673,7 @@
           "fumementomori.activeitem.json": 2
         },
         "shields": {
+          "arconshield.activeitem.json": 0,
           "atropusshield.activeitem.json": 2,
           "blistershield.activeitem.json": 2,
           "bubbleshield.activeitem.json": 2,
@@ -676,7 +697,7 @@
           "primitiveshield.activeitem.json": 2,
           "quantumshield.activeitem.json": 2,
           "reptileshield.activeitem.json": 2,
-          "shadowshield.activeitem.json": 1,
+          "shadowshield.activeitem.json": 0,
           "shared_shield.activeitem.json": 1,
           "titaniumshield.activeitem.json": 1,
           "tritaniumshield.activeitem.json": 2,
@@ -704,6 +725,9 @@
           },
           "fm_portablemusicplayer": {
             "fm_portablemusicplayer.activeitem.json": 2
+          },
+          "fu_lootbox": {
+            "fu_lootbox.activeitem.json": 0
           },
           "fu_matmodplacer": {
             "fu_matmodplacer.activeitem.json": 0
@@ -910,7 +934,7 @@
               "coralstinger.activeitem.json": 2,
               "coralsword.activeitem.json": 2,
               "curvebroadsword.activeitem.json": 2,
-              "cutebroadsword.activeitem.json": 2,
+              "cutebroadsword.activeitem.json": 1,
               "dbladelong": {
                 "dbladelong.activeitem.json": 1
               },
@@ -1072,6 +1096,7 @@
               "titaniumbroadsword.activeitem.json": 1,
               "tungstenbroadsword.activeitem.json": 2,
               "uncommonlongsword.activeitem.json": 1,
+              "vai.activeitem.json": 0,
               "xithricitelongsword.activeitem.json": 1
             },
             "mace": {
@@ -1466,6 +1491,8 @@
             "unique": {
               "aegisaltpistol2.activeitem.json": 2,
               "aegisaltpistol3.activeitem.json": 6,
+              "arconcannon.activeitem.json": 0,
+              "arconrifle.activeitem.json": 0,
               "artillery": {
                 "airstrike": {
                   "airstrike.activeitem.json": 2
@@ -1486,7 +1513,7 @@
               "bigdaddy.activeitem.json": 2,
               "biogun.activeitem.json": 2,
               "biopistol.activeitem.json": 2,
-              "blastcannon.activeitem.json": 2,
+              "blastcannon.activeitem.json": 0,
               "blastgun.activeitem.json": 2,
               "blistergun.activeitem.json": 1,
               "blisterpistol.activeitem.json": 1,
@@ -1579,6 +1606,7 @@
               "lasrifle.activeitem.json": 2,
               "longarm.activeitem.json": 1,
               "longarmpistol.activeitem.json": 2,
+              "longinus.activeitem.json": 0,
               "lunaripistol.activeitem.json": 1,
               "lunaririfle.activeitem.json": 2,
               "manstopper.activeitem.json": 2,
@@ -1656,7 +1684,7 @@
                   "fuminelayer.activeitem.json": 2
                 },
                 "furailgun": {
-                  "furailgun.activeitem.json": 3
+                  "furailgun.activeitem.json": 2
                 },
                 "fushocklance": {
                   "fushocklance.activeitem.json": 2
@@ -1720,7 +1748,7 @@
                   "isn_napalmsprayer.activeitem.json": 2
                 },
                 "plasmabeam": {
-                  "isn_plasmabeam.activeitem.json": 2
+                  "isn_plasmabeam.activeitem.json": 1
                 },
                 "plasmapistol": {
                   "isn_plasmapistol.activeitem.json": 1
@@ -1742,7 +1770,7 @@
               "shoggothgun.activeitem.json": 2,
               "shurikencannon.activeitem.json": 2,
               "slimelauncher.activeitem.json": 2,
-              "sniperknife.activeitem.json": 2,
+              "sniperknife.activeitem.json": 1,
               "snubber.activeitem.json": 2,
               "spawngun.activeitem.json": 2,
               "stormwarden.activeitem.json": 0,
@@ -1786,8 +1814,13 @@
               "vashtagun.activeitem.json": 2,
               "veilbreaker.activeitem.json": 2,
               "verdantcarbine.activeitem.json": 2,
-              "verdantrailgun.activeitem.json": 2
+              "verdantrailgun.activeitem.json": 2,
+              "warden": {
+                "warden.activeitem.json": 0
+              },
+              "zenith.activeitem.json": 0
             },
+            "unique.json": 1,
             "unrand": {
               "capturegun": {
                 "capturegun.activeitem.json": 2
@@ -1901,6 +1934,9 @@
         "backitems": {
           "acidprotectionback": {
             "acidprotection.back.json": 2
+          },
+          "arconback": {
+            "arconback.back.json": 0
           },
           "battlepack": {
             "battlepack.back.json": 2,
@@ -2327,7 +2363,7 @@
             "shared_fuexplorer..json": 1
           },
           "azunrobes": {
-            "shared_warriorrobes..json": 1,
+            "shared_warriorrobes..json": 0,
             "warriorrobes.chest.json": 1,
             "warriorrobes.head.json": 1,
             "warriorrobes.legs.json": 1
@@ -2543,7 +2579,7 @@
             "enforcerarmor.chest.json": 1,
             "enforcerarmor.head.json": 1,
             "enforcerarmor.legs.json": 1,
-            "shared_enforcerarmor..json": 1
+            "shared_enforcerarmor..json": 0
           },
           "fieldscience": {
             "fieldscientist.chest.json": 1,
@@ -2610,7 +2646,7 @@
             "furavager.chest.json": 1,
             "furavager.head.json": 1,
             "furavager.legs.json": 1,
-            "shared_furavager..json": 1
+            "shared_furavager..json": 0
           },
           "fustarkiller": {
             "fustarkiller.chest.json": 1,
@@ -2704,6 +2740,12 @@
           }
         },
         "tier5": {
+          "arcon": {
+            "conqueror.chest.json": 0,
+            "conqueror.head.json": 0,
+            "conqueror.legs.json": 0,
+            "shared_conqueror..json": 0
+          },
           "arctic": {
             "shared_sciencefu..json": 1
           },
@@ -2895,7 +2937,7 @@
             "kirhostier6separator.chest.json": 1,
             "kirhostier6separator.head.json": 1,
             "kirhostier6separator.legs.json": 1,
-            "shared_kirhostier6separator..json": 1
+            "shared_kirhostier6separator..json": 0
           },
           "morphite2": {
             "fuquantumadv.chest.json": 1,
@@ -3118,6 +3160,7 @@
         "quest": {
           "apexartifact.augment.json": 1,
           "avianartifact.augment.json": 2,
+          "erchiusartifact.augment.json": 0,
           "floranartifact.augment.json": 1,
           "glitchartifact.augment.json": 1,
           "humanartifact.augment.json": 1,
@@ -3340,6 +3383,7 @@
         }
       },
       "currency": {
+        "fumadnessresource.currency.json": 0,
         "fuscienceresource.currency.json": 0
       },
       "generic": {
@@ -3353,7 +3397,6 @@
           "blobbushjelly.item.json": 2,
           "blooddiamond.item.json": 1,
           "calciumnitrate.item.json": 2,
-          "cattlefeed.item.json": 2,
           "cellmateria.item.json": 2,
           "chemlab": {
             "aliencompound.item.json": 2,
@@ -3412,7 +3455,7 @@
           "fu_hydrogen.item.json": 2,
           "fu_hydrogenmetallic.item.json": 2,
           "fu_nitrogen.item.json": 2,
-          "fu_nodule.item.json": 2,
+          "fu_nodule.item.json": 0,
           "fu_oxygen.item.json": 2,
           "fu_salt.item.json": 2,
           "funanofibre.item.json": 2,
@@ -3483,7 +3526,7 @@
           "nutrientpaste.item.json": 2,
           "pelt.item.json": 2,
           "penumbriteore.item.json": 2,
-          "pesticide.item.json": 2,
+          "pesticide.item.json": 1,
           "phosphorus.item.json": 2,
           "precursor": {
             "cell_advanced.item.json": 0,
@@ -3492,7 +3535,7 @@
             "exoticmatter.item.json": 2,
             "experimentalgene.item.json": 2,
             "honedlunari.item.json": 2,
-            "precursorbattery.item.json": 2,
+            "precursorbattery.item.json": 0,
             "precursorcharger.item.json": 2,
             "precursorchip.item.json": 2,
             "precursorcore.item.json": 2,
@@ -3511,6 +3554,7 @@
           "reptilescales.item.json": 2,
           "saltpeter.item.json": 2,
           "sciencebrochure.item.json": 2,
+          "sciencebrochure2.item.json": 0,
           "servitorbehaviorchip.item.json": 2,
           "servitorchassis.item.json": 2,
           "servitorlaser.item.json": 2,
@@ -3708,6 +3752,10 @@
           },
           "avikanmeal.consumable.json": 2,
           "bolbohnjam.consumable.json": 2,
+          "cattlefeed.consumable.json": 0,
+          "cattlefeed2.consumable.json": 0,
+          "cattlefeed3.consumable.json": 0,
+          "cattlefeed4.consumable.json": 0,
           "dunebun.consumable.json": 2,
           "ealgaemeal": {
             "fuerithianalgaemeal.consumable.json": 2
@@ -3715,6 +3763,11 @@
           "fu_toast.consumable.json": 2,
           "kadavancactusjuice.consumable.json": 2,
           "kadavanmeatjuice.consumable.json": 2,
+          "shared_.consumable.json": 0,
+          "slew.consumable.json": 0,
+          "slew2.consumable.json": 0,
+          "slew3.consumable.json": 0,
+          "slew4.consumable.json": 0,
           "spicebol.consumable.json": 2,
           "stuffeddunebun.consumable.json": 2,
           "toastburnt.consumable.json": 2
@@ -3748,14 +3801,16 @@
             "bouncewrap.consumable.json": 2,
             "corvexputty.consumable.json": 2,
             "crunchychick.consumable.json": 2,
-            "fuhoneysilkbandage.consumable.json": 2,
+            "fuhoneysilkbandage.consumable.json": 1,
             "hermespill.consumable.json": 2,
-            "mutaviskbandage.consumable.json": 2,
+            "mutaviskbandage.consumable.json": 1,
             "wretchelpoultice.consumable.json": 2
           },
           "honeyboon.consumable.json": 2,
+          "myphisinjector.consumable.json": 0,
           "portablelight.consumable.json": 2,
           "portaljuice.consumable.json": 2,
+          "powderednarcotics.consumable.json": 0,
           "protostim.consumable.json": 2,
           "serumstim.consumable.json": 2,
           "shieldpatch.consumable.json": 2,
@@ -3773,6 +3828,7 @@
         },
         "mechparts": {
           "arm": {
+            "exitusblaster.item.json": 0,
             "fudualcannon.item.json": 2,
             "fugaussmecha.item.json": 1,
             "fuheatcannon.item.json": 2,
@@ -3780,7 +3836,7 @@
             "fuhuntergun2.item.json": 0,
             "fumecharmenergyrifle.item.json": 2,
             "fumecharmirradium.item.json": 2,
-            "fumechchainsword.item.json": 2,
+            "fumechchainsword.item.json": 1,
             "fumechdensinium.item.json": 1,
             "fumechmining0.item.json": 1,
             "fumechmining1.item.json": 1,
@@ -3812,6 +3868,7 @@
             "mechbodybrute.item.json": 2,
             "mechbodybrute2.item.json": 2,
             "mechbodybrute3.item.json": 0,
+            "mechbodyexitus.item.json": 0,
             "mechbodyfuexplorer.item.json": 1,
             "mechbodyfuexplorer2.item.json": 1,
             "mechbodyfuobserver.item.json": 2,
@@ -3820,6 +3877,7 @@
             "shared_mechbodyfuexplorer.json": 1
           },
           "booster": {
+            "mechboosterexitus.item.json": 0,
             "mechboosterfuobserver.item.json": 2,
             "mechboostersimpleupgrade.item.json": 1,
             "mechboostersimpleupgrade2.item.json": 1,
@@ -3834,6 +3892,7 @@
             "mechmasscancel4.item.json": 0
           },
           "legs": {
+            "mechlegsexitus.item.json": 0,
             "mechlegsfuexplorer.item.json": 2,
             "mechlegsfuexplorer2.item.json": 2,
             "mechlegsfuintrepid.item.json": 2,
@@ -3848,6 +3907,11 @@
         },
         "mission": {
           "wagneridcard.item.json": 2
+        },
+        "other": {
+          "medkit2.consumable.json": 0,
+          "medkit3.consumable.json": 0,
+          "medkit4.consumable.json": 0
         },
         "petfood": {
           "petfood1.consumable.json": 1,
@@ -3881,13 +3945,13 @@
           "energiflower.consumable.json": 1,
           "erithianalgae.item.json": 1,
           "fayshroom.consumable.json": 1,
-          "floralytcandy.consumable.json": 2,
+          "floralytcandy.consumable.json": 1,
           "fusnowberry.consumable.json": 1,
           "fuspongeweed.consumable.json": 2,
           "garpberry.consumable.json": 1,
           "gazelemon.consumable.json": 2,
           "gemglow.consumable.json": 1,
-          "genesiberry.consumable.json": 1,
+          "genesiberry.consumable.json": 0,
           "ghostmushroom.consumable.json": 1,
           "ginseng.consumable.json": 1,
           "glarestalkeye.consumable.json": 2,
@@ -3911,7 +3975,7 @@
             "whitespineshell.consumable.json": 2
           },
           "itahead.consumable.json": 2,
-          "jillyroot.consumable.json": 1,
+          "jillyroot.consumable.json": 0,
           "kadavancactus.consumable.json": 2,
           "kamaranpods.consumable.json": 1,
           "lactariusindigo.consumable.json": 2,
@@ -3926,7 +3990,7 @@
           "miraclegrass.consumable.json": 2,
           "mireurchin.consumable.json": 2,
           "nailery.consumable.json": 1,
-          "neuropod.consumable.json": 2,
+          "neuropod.consumable.json": 1,
           "nisscap.consumable.json": 2,
           "nyanifruit.consumable.json": 2,
           "onion.consumable.json": 1,
@@ -3938,7 +4002,7 @@
           "porphisblossom.consumable.json": 2,
           "rockroot.consumable.json": 1,
           "shadowroot.consumable.json": 1,
-          "shared_.consumable.json": 4,
+          "shared_.consumable.json": 3,
           "shinyacorn.consumable.json": 2,
           "silverleaf.consumable.json": 2,
           "slimeleaf.consumable.json": 2,
@@ -3967,12 +4031,15 @@
         },
         "shared_.item.json": 1,
         "tradegoods": {
-          "chemicalgoods.item.json": 2,
-          "contrabandgoods.item.json": 1,
-          "emptygoods.item.json": 2,
-          "illicitgoods.item.json": 2,
-          "luxurygoods.item.json": 2,
-          "mineralgoods.item.json": 2
+          "fuchemicalgoods.currency.json": 0,
+          "fucontrabandgoods.currency.json": 0,
+          "fuelectronicgoods.currency.json": 0,
+          "fuemptygoods.currency.json": 0,
+          "fufoodgoods.currency.json": 0,
+          "fuluxurygoods.currency.json": 0,
+          "fumedicalgoods.currency.json": 0,
+          "fumilitarygoods.currency.json": 0,
+          "fumineralgoods.currency.json": 0
         }
       },
       "liquids": {
@@ -4380,6 +4447,7 @@
       "shared_precursorchain.mat.json": 1,
       "shared_precursorfloor.json": 1,
       "shared_precursorgird.json": 1,
+      "shared_precursorpipe.json": 0,
       "shared_protorock.json": 1,
       "shared_purpleconsole.json": 2,
       "shared_pykrete.json": 9,
@@ -4517,7 +4585,7 @@
           "shared_.monstertype.json": 0
         },
         "guardianboss": {
-          "shared_guardianboss.monstertype.json": 0
+          "shadowguardianboss.monstertype.json": 0
         },
         "megaspider": {
           "bighairyfrankboss.monstertype.json": 0
@@ -4526,15 +4594,7 @@
           "precursorwarbot.monstertype.json": 0
         },
         "shoggoth": {
-          "shoggoth.monstertype.json": 2,
-          "skills": {
-            "eyebeamattack.monsterskill.json": 0,
-            "fleshbombattack.monsterskill.json": 0,
-            "shared_minishoggothspawnattack.json": 0,
-            "shared_shoggothacidattack.json": 0,
-            "shoggothchargeattack.monsterskill.json": 0,
-            "tentacleswipeattack.monsterskill.json": 0
-          }
+          "shoggoth.monstertype.json": 2
         },
         "shoggoth2": {
           "shoggoth2.monstertype.json": 0
@@ -4757,14 +4817,19 @@
       },
       "farming": {
         "fudodofarm": {
-          "fudodofarm.monstertype.json": 0,
           "shared_.monstertype.json": 0
+        },
+        "fudodofarmiron": {
+          "shared_fudodofarmiron.json": 0
         },
         "hen": {
           "fuhen.monstertype.json": 0
         },
         "henbaby": {
           "fuhenbaby.monstertype.json": 0
+        },
+        "pangolin": {
+          "pangolin.monstertype.json": 0
         },
         "pangolinbaby": {
           "pangobaby.monstertype.json": 0
@@ -4777,6 +4842,9 @@
         },
         "shared_baby": {
           "shared_baby.monstertype.json": 2
+        },
+        "shared_pangolin": {
+          "shared_.monstertype.json": 0
         }
       },
       "fish": {
@@ -4960,122 +5028,11 @@
           }
         }
       },
-      "fulegacyscripts": {
-        "crawling": {
-          "skills": {
-            "fuflamethrowerattack.monsterskill.json": 0
-          }
-        },
-        "ground": {
-          "skills": {
-            "burrowspecial.monsterskill.json": 0,
-            "diggritattack.monsterskill.json": 0,
-            "fudarkgravityballattack.monsterskill.json": 0,
-            "fudarkplasmaattack.monsterskill.json": 0,
-            "fudragonbreathattack.monsterskill.json": 0,
-            "fujellybossexplodeattack.monsterskill.json": 0,
-            "fupounceattack.monsterskill.json": 0,
-            "gastrailattack.monsterskill.json": 0,
-            "grabattack.monsterskill.json": 0,
-            "gravityslamattack.monsterskill.json": 0,
-            "gustattack.monsterskill.json": 1,
-            "recoverspecial.monsterskill.json": 0,
-            "rushattack.monsterskill.json": 0,
-            "shared_chargeattack.monsterskill.json": 0,
-            "shared_shieldspecial.monsterskill.json": 0,
-            "staticprojectileattack.monsterskill.json": 0,
-            "stompattack.monsterskill.json": 0,
-            "triplejumpattack.monsterskill.json": 0
-          }
-        }
-      },
       "generated": {
-        "flying": {
-          "skills": {
-            "pigeonSwoopAttack.monsterskill.json": 0,
-            "raptorswoopAttack.monsterskill.json": 0,
-            "shared_Attack.monsterskill.json": 0
-          }
-        },
         "ground": {
           "hugebiped": {
             "hugebiped.monstertype.json": 0
-          },
-          "skills": {
-            "fumeleeAttack.monsterskill.json": 0
           }
-        },
-        "skills": {
-          "new": {
-            "cageWall.monsterskill.json": 0,
-            "crystalAttack.monsterskill.json": 0,
-            "flamingAuraAttack.monsterskill.json": 0,
-            "goopAttack.monsterskill.json": 0,
-            "gravAuraAttack.monsterskill.json": 0,
-            "iceAuraAttack.monsterskill.json": 0,
-            "kluexBlastAttack.monsterskill.json": 0,
-            "poisonAuraAttack.monsterskill.json": 0,
-            "pusAttack.monsterskill.json": 0,
-            "pushAuraAttack.monsterskill.json": 0,
-            "roarAttack.monsterskill.json": 0,
-            "seedAttack.monsterskill.json": 0,
-            "shared_AuraAttack.monsterskill.json": 0,
-            "shared_glowcritterAttack.json": 0,
-            "shitShowerAttack.monsterskill.json": 0,
-            "shockAuraAttack.monsterskill.json": 0,
-            "spinAssaultAttack.monsterskill.json": 0,
-            "steamAttack.monsterskill.json": 0
-          },
-          "ranged": {
-            "acidSprayAttack.monsterskill.json": 0,
-            "beamBurstAttack.monsterskill.json": 0,
-            "beetleSwarmAttack.monsterskill.json": 0,
-            "boneRainAttack.monsterskill.json": 0,
-            "burninghaloAttack.monsterskill.json": 0,
-            "cellBlastAttack.monsterskill.json": 0,
-            "darkGravityBallAttack.monsterskill.json": 0,
-            "doubleBarbSprayAttack.monsterskill.json": 0,
-            "explosivePhlegmAttack.monsterskill.json": 0,
-            "eyeballShotAttack.monsterskill.json": 0,
-            "eyeballSprayAttack.monsterskill.json": 0,
-            "fireSwirlAttack.monsterskill.json": 0,
-            "fireballAttack.monsterskill.json": 0,
-            "flameBurstAttack.monsterskill.json": 0,
-            "glitterAttack.monsterskill.json": 0,
-            "iceBlastAttack.monsterskill.json": 1,
-            "iceShotAttack.monsterskill.json": 0,
-            "inkSprayAttack.monsterskill.json": 0,
-            "leafyGustAttack.monsterskill.json": 0,
-            "lightBallAttack.monsterskill.json": 0,
-            "miniDragonBreathAttack.monsterskill.json": 0,
-            "mudBallAttack.monsterskill.json": 0,
-            "orbOfZotsAttack.monsterskill.json": 0,
-            "plasmaSweepAttack.monsterskill.json": 0,
-            "plasmaTorpedoAttack.monsterskill.json": 0,
-            "poisonVomitAttack2.monsterskill.json": 0,
-            "putridWaveAttack.monsterskill.json": 0,
-            "rainbowVomitAttack.monsterskill.json": 0,
-            "rangedChompAttack.monsterskill.json": 0,
-            "rockRollAttack.monsterskill.json": 0,
-            "rockShotAttack.monsterskill.json": 0,
-            "seedSpitAttack.monsterskill.json": 0,
-            "shadowbeastAttack.monsterskill.json": 0,
-            "shardSprayAttack.monsterskill.json": 0,
-            "shared_.monsterskill.json": 0,
-            "shared_raptorstrikeattack.json": 0,
-            "shared_waveBlastAttack.json": 0,
-            "shockingBoltAttack.monsterskill.json": 0,
-            "shockingWaveAttack.monsterskill.json": 0,
-            "smokeRingAttack.monsterskill.json": 0,
-            "snotBubbleAttack.monsterskill.json": 0,
-            "snotShotAttack.monsterskill.json": 0,
-            "sonicWaveAttack.monsterskill.json": 0,
-            "spiceCloudAttack.monsterskill.json": 0,
-            "staticDischarge.monsterskill.json": 0,
-            "tentacleShotAttack.monsterskill.json": 0,
-            "waterGunAttack.monsterskill.json": 0
-          },
-          "shared_BelchAttack.monsterskill.json": 0
         }
       },
       "ghosts": {
@@ -5116,9 +5073,6 @@
         "wormbeast": {
           "wormbeast.monstertype.json": 0
         }
-      },
-      "ground": {
-        "shared_skill.json": 0
       },
       "segmented": {
         "burrowers": {
@@ -5172,34 +5126,6 @@
       "shared_bighairyfrank.json": 0,
       "shared_eyejell": {
         "shared_eye.json": 0
-      },
-      "shared_skill.json": 0,
-      "shared_ttack.monsterskill.json": 0,
-      "skills": {
-        "crawling": {
-          "shared_ttack.monsterskill.json": 0
-        },
-        "ranged": {
-          "poisonraptorAttack.monsterskill.json": 0,
-          "poisonvomitattack.monsterskill.json": 0,
-          "pusvomitattack.monsterskill.json": 0,
-          "raptorstrikeattack.monsterskill.json": 0,
-          "robotRocketAttack.monsterskill.json": 0,
-          "robotgaussAttack.monsterskill.json": 1,
-          "shared_Attack.monsterskill.json": 0,
-          "shared_PoisonBlastAttack.monsterskill.json": 0,
-          "shared_attack.monsterskill.json": 0,
-          "slimePoisonSpewAttack.monsterskill.json": 0,
-          "slimegun2Attack.monsterskill.json": 0,
-          "slimegunAttack.monsterskill.json": 0,
-          "slimespitattack.monsterskill.json": 0,
-          "slimesprayattack.monsterskill.json": 0,
-          "starspawnportalattack.monsterskill.json": 0,
-          "starspawnprojectileattack.monsterskill.json": 0,
-          "starspawnspitattack.monsterskill.json": 0,
-          "starspawnswarmattack.monsterskill.json": 0,
-          "toxicgolemBreathAttack.monsterskill.json": 0
-        }
       },
       "space": {
         "chiropterror": {
@@ -5351,6 +5277,11 @@
         },
         "fatalcircuit": {
           "fatalcircuit.monstertype.json": 0
+        },
+        "fennixish": {
+          "fusnowfennix": {
+            "fusnowfennix.monstertype.json": 0
+          }
         },
         "fleshleech": {
           "old": {
@@ -5582,6 +5513,9 @@
             "frostrotter.monstertype.json": 0
           }
         },
+        "seaclam": {
+          "seaclam.monstertype.json": 0
+        },
         "seedspawn": {
           "shared_.monstertype.json": 0
         },
@@ -5687,7 +5621,7 @@
         }
       }
     },
-    "monsters.json": 2,
+    "monsters.json": 1,
     "npcs": {
       "alienjungle": {
         "alienjunglesavage.npctype.json": 5,
@@ -5707,9 +5641,15 @@
       },
       "crew": {
         "crewmemberLoveliusSmythe.npctype.json": 14,
+        "crewmember_spacestationassassin.npctype.json": 0,
+        "crewmember_spacestationcaptain.npctype.json": 0,
+        "crewmember_spacestationcommander.npctype.json": 0,
+        "crewmember_spacestationdevastator.npctype.json": 0,
+        "crewmember_spacestationmercenary.npctype.json": 0,
+        "crewmember_spacestationwarmonger.npctype.json": 0,
         "crewmemberarctic.npctype.json": 2,
         "crewmemberbiohazard.npctype.json": 4,
-        "crewmemberbountyhunter.npctype.json": 49,
+        "crewmemberbountyhunter.npctype.json": 1,
         "crewmemberchef.npctype.json": 3,
         "crewmemberchef2.npctype.json": 3,
         "crewmemberchef3.npctype.json": 3,
@@ -5739,7 +5679,7 @@
         "crewmemberwarrior.npctype.json": 1,
         "crewmemberwarrior2.npctype.json": 1,
         "crewmemberwarrior3.npctype.json": 1,
-        "shared_crewmember.json": 183,
+        "shared_crewmember.json": 231,
         "shared_crewmemberchef.json": 11,
         "shared_crewmemberfu.json": 7
       },
@@ -5770,6 +5710,10 @@
         "infiltrationleader.npctype.json": 5,
         "infiltrationrebel.npctype.json": 9,
         "infiltrationtavish.npctype.json": 5
+      },
+      "japaneseruins": {
+        "japaneseruinsvillager.npctype.json": 0,
+        "shared_japaneseruins.json": 0
       },
       "letheia": {
         "letheiaboss.npctype.json": 1,
@@ -5842,6 +5786,14 @@
     },
     "npcs.json": 2,
     "objects": {
+      "ancient": {
+        "ancientconsole": {
+          "fuancientconsole.object.json": 0
+        },
+        "ancientdoorshoot": {
+          "ancientdoorshoot.object.json": 0
+        }
+      },
       "augmentextractor": {
         "aex.object.json": 10
       },
@@ -6198,6 +6150,11 @@
           "items": {
             "primedegg.consumable.json": 2
           },
+          "largetrough": {
+            "irontrough.object.json": 0,
+            "largetrough.object.json": 0,
+            "shared_trough.object.json": 0
+          },
           "shared_.object.json": 2
         },
         "extraavianaugments": {
@@ -6213,7 +6170,7 @@
           "extraweaponupgradeanvil.object.json": 9
         },
         "farmwell": {
-          "farmwell.object.json": 2
+          "farmwell.object.json": 1
         },
         "fissionfurnacenew": {
           "fissionfurnacenew.object.json": 2
@@ -6222,7 +6179,7 @@
           "fu_alternatorgenerator.object.json": 2
         },
         "fu_growingtray": {
-          "fu_growingtray.object.json": 2
+          "fu_growingtray.object.json": 1
         },
         "fu_racialiser": {
           "fu_racialiser.object.json": 2
@@ -6325,6 +6282,9 @@
         "extraenergycanister.object.json": 9,
         "pixeldispenser.object.json": 8
       },
+      "doors": {
+        "extramissiledoor.object.json": 0
+      },
       "explosives": {
         "blastingdynamite.object.json": 2,
         "c4explosive.object.json": 2,
@@ -6376,6 +6336,9 @@
         "brackentree": {
           "shared_brackentreeseed.object.json": 1
         },
+        "bughouse": {
+          "bughouse.object.json": 0
+        },
         "caprioleplant": {
           "shared_caprioleplantseed.object.json": 1
         },
@@ -6400,6 +6363,18 @@
         "eggs": {
           "copperbeakegg": {
             "copperbeakegg.object.json": 2
+          },
+          "fuorbisegg": {
+            "fuorbisegg.object.json": 0
+          },
+          "ironbeakegg": {
+            "ironbeakegg.object.json": 0
+          },
+          "pangolinegg": {
+            "pangolinegg.object.json": 0
+          },
+          "poptopegg": {
+            "poptopegg.object.json": 0
           }
         },
         "energiflower": {
@@ -6910,8 +6885,7 @@
           }
         },
         "gravgenerator": {
-          "gravgen.object.json": 1,
-          "gravgenfield.statuseffect.json": 1
+          "gravgen.object.json": 1
         },
         "labfurniture": {
           "electronmicroscope": {
@@ -7029,8 +7003,12 @@
           "fu_harvestTurretBugs.object.json": 2,
           "shared_fu_harvestTurret.json": 2
         },
+        "kheAA_capacitySensor": {
+          "kheAA_capacitySensor.object.json": 0
+        },
         "kheAA_containerLink": {
-          "kheAA_containerLink.object.json": 2
+          "kheAA_containerLink.object.json": 1,
+          "kheAA_containerLink2.object.json": 0
         },
         "kheAA_grabber": {
           "kheAA_grabber.object.json": 2,
@@ -7060,6 +7038,9 @@
         },
         "kheAA_terminal": {
           "kheAA_terminal.object.json": 2
+        },
+        "kheAA_unhandledToken": {
+          "kheAA_unhandledToken.item.json": 0
         }
       },
       "mechrepair": {
@@ -7209,6 +7190,11 @@
         "poisonmine.object.json": 9
       },
       "minibiome": {
+        "ancient": {
+          "artifact": {
+            "shared_fuancientartifacttutorial.json": 0
+          }
+        },
         "arboreal": {
           "carcass1.object.json": 2,
           "carcass2.object.json": 2,
@@ -7263,6 +7249,7 @@
           "catacombs4.object.json": 1,
           "catacombs5.object.json": 1,
           "catacombs6.object.json": 1,
+          "cthulhuplush.object.json": 0,
           "dungeondeco": {
             "bloodycar.object.json": 2,
             "body1.object.json": 2,
@@ -7676,6 +7663,9 @@
           "protochest.object.json": 2
         },
         "shared_.object.json": 0,
+        "shared_artifact": {
+          "shared_artifact.json": 0
+        },
         "shared_rocks_": {
           "shared_.object.json": 0
         },
@@ -7891,7 +7881,7 @@
           "isn_arcsmelter.object.json": 2
         },
         "isn_atmoscondenser": {
-          "isn_atmoscondenser.object.json": 8
+          "isn_atmoscondenser.object.json": 7
         },
         "isn_atmosregulator": {
           "isn_atmosprotection.statuseffect.json": 1,
@@ -7918,7 +7908,7 @@
           "isn_fissionreactornew.object.json": 8
         },
         "isn_hydroponicstray": {
-          "isn_hydroponicstray.object.json": 8
+          "isn_hydroponicstray.object.json": 6
         },
         "isn_incinerator": {
           "isn_incinerator.object.json": 7
@@ -7956,23 +7946,26 @@
         }
       },
       "questmaps": {
-        "shared_map.object.json": 9
+        "shared_map.object.json": 9,
+        "zelpicture.object.json": 0
       },
       "questturnins.json": 9,
-      "rainbow": {
-        "rainbow.object.json": 0
-      },
       "scienceoutpost": {
         "game": {
           "deeponegame.object.json": 2
         },
         "moonlit_comet": {
-          "shared_moonlitcomet.json": 3
+          "moonlitcomet.object.json": 0,
+          "moonlitcomet2.object.json": 2,
+          "shared_moonlitcomet.json": 1
         }
       },
       "shared_.object.json": 1,
       "shared_avali.json": 7,
       "shared_generator.json": 1,
+      "shared_gravgen": {
+        "shared_gravgenfield.statuseffect.json": 1
+      },
       "shared_locker": {
         "shared_locker.object.json": 0
       },
@@ -8068,6 +8061,9 @@
         "fu_byosfuelhatch": {
           "fu_byosfuelhatch.object.json": 9
         },
+        "fu_byosgravgen": {
+          "fu_byosgravgen.object.json": 0
+        },
         "fu_byospethouse": {
           "fu_byospethouse.object.json": 9
         },
@@ -8101,17 +8097,13 @@
           "fu_byosteleporterTier0.object.json": 8
         },
         "fu_crewbed": {
-          "fu_crewbed.object.json": 0
+          "fu_crewbed.object.json": 1
         },
         "fu_crewbed0": {
           "fu_crewbed0.object.json": 0
         },
         "fu_crewbed2": {
           "fu_crewbed2.object.json": 7
-        },
-        "fu_ftldrive": {
-          "fu_ftldrive.object.json": 1,
-          "fu_ftldrivedeco.object.json": 1
         },
         "fu_ftldrivesmall": {
           "fu_ftldrivesmall.object.json": 1,
@@ -8268,11 +8260,8 @@
         "shared_fu_byosteleporter": {
           "shared_fu_byosteleporter.json": 1
         },
-        "shared_fu_crewbed": {
-          "shared_fu_crewbed.json": 1
-        },
         "shared_fu_ftldrive": {
-          "shared_fu_ftldrive.json": 1
+          "shared_fu_ftldrive.json": 3
         },
         "shared_thruster": {
           "shared_thruster.object.json": 0
@@ -8289,6 +8278,14 @@
         "splitter": {
           "splitter.object.json": 2
         }
+      },
+      "spacestationguiconsole": {
+        "shared_spacestationguiconsole.json": 0,
+        "spacestationguiconsole.object.json": 0,
+        "spacestationguiconsole_medical.object.json": 0,
+        "spacestationguiconsole_military.object.json": 0,
+        "spacestationguiconsole_scientific.object.json": 0,
+        "spacestationguiconsole_trading.object.json": 0
       },
       "spawner": {
         "tinytether": {
@@ -8396,6 +8393,13 @@
           "magmachair.object.json": 2,
           "magmasofa.object.json": 2,
           "magmatable.object.json": 2
+        },
+        "pointless": {
+          "fu_funsign1.object.json": 0,
+          "fu_funsign2.object.json": 0,
+          "fu_funsign3.object.json": 0,
+          "fu_funsign4.object.json": 0,
+          "fu_funsign5.object.json": 0
         },
         "underworld": {
           "fuunderworldbed.object.json": 2,
@@ -8515,7 +8519,8 @@
           "shared_gravzone.json": 2
         },
         "lightsensor": {
-          "advancedlightsensor.object.json": 3
+          "advancedlightsensor.object.json": 3,
+          "extrainvisiblelightsensor.object.json": 0
         },
         "liquidsensor": {
           "swtjc_wp_advancedliquidsensor.object.json": 3
@@ -8853,10 +8858,10 @@
           "fuquest_methanol.questtemplate.json": 3,
           "fuquest_nano.questtemplate.json": 3,
           "fuquest_powerstation.questtemplate.json": 3,
-          "fuquest_prototyper.questtemplate.json": 2,
+          "fuquest_prototyper.questtemplate.json": 0,
           "fuquest_rawminerals.questtemplate.json": 3,
           "fuquest_sequencer.questtemplate.json": 3,
-          "fuquest_silicon.questtemplate.json": 3,
+          "fuquest_silicon.questtemplate.json": 2,
           "fuquest_tissueculture.questtemplate.json": 3,
           "fuquest_water.questtemplate.json": 2
         },
@@ -8871,6 +8876,9 @@
             "shoggoth_unlock.questtemplate.json": 2,
             "shoggoth_unlocknew.questtemplate.json": 1,
             "shoggoth_wagner.questtemplate.json": 4
+          },
+          "precursor": {
+            "precursor_unlock.questtemplate.json": 0
           }
         },
         "outpost": {
@@ -8931,7 +8939,7 @@
             "create_watcher.questtemplate.json": 4
           },
           "genetics": {
-            "create_ignuschili.questtemplate.json": 4,
+            "create_ignuschili.questtemplate.json": 3,
             "create_miraclegrass.questtemplate.json": 4,
             "create_mutavisk.questtemplate.json": 4,
             "create_radleaf.questtemplate.json": 4,
@@ -8952,15 +8960,15 @@
             "shared_.questtemplate.json": 1
           },
           "physics": {
-            "create_fission.questtemplate.json": 4,
-            "create_protocite.questtemplate.json": 4,
+            "create_fission.questtemplate.json": 3,
+            "create_protocite.questtemplate.json": 3,
             "create_teleportercore.questtemplate.json": 4,
             "create_tritium.questtemplate.json": 4
           }
         },
         "tutorial": {
           "extractor": {
-            "create_silicon.questtemplate.json": 4,
+            "create_silicon.questtemplate.json": 3,
             "extractor1.questtemplate.json": 3,
             "extractor2.questtemplate.json": 1,
             "extractor3.questtemplate.json": 4,
@@ -8976,6 +8984,7 @@
             "create_greenhouse.questtemplate.json": 0,
             "create_growingtray.questtemplate.json": 0,
             "create_matterassembler.questtemplate.json": 0,
+            "create_matterassembler2.questtemplate.json": 0,
             "create_sprouting.questtemplate.json": 0,
             "create_tinkertable.questtemplate.json": 0,
             "create_woodencentrifuge.questtemplate.json": 0,
@@ -8986,7 +8995,7 @@
             "fuquest_farming1.questtemplate.json": 2,
             "fuquest_farming2.questtemplate.json": 3,
             "fuquest_farming3.questtemplate.json": 3,
-            "fuquest_farming4.questtemplate.json": 3,
+            "fuquest_farming4.questtemplate.json": 1,
             "fuquest_powergeneration1.questtemplate.json": 3,
             "fuquest_powergeneration2.questtemplate.json": 3,
             "fuquest_xeno.questtemplate.json": 3,
@@ -8997,6 +9006,7 @@
       },
       "grandarena.questtemplate.json": 4,
       "infiltration.questtemplate.json": 4,
+      "japaneseruins.questtemplate.json": 0,
       "letheiafacility.questtemplate.json": 4,
       "letheiafleet.questtemplate.json": 3,
       "lethialabs.questtemplate.json": 4,
@@ -9054,7 +9064,6 @@
           "fuwalljump.questtemplate.json": 1,
           "fuwalljump2.questtemplate.json": 1,
           "fuwalljump3.questtemplate.json": 1,
-          "longjump.questtemplate.json": 1,
           "longjump2.questtemplate.json": 1,
           "longjump3.questtemplate.json": 1,
           "longjump4.questtemplate.json": 2,
@@ -9081,6 +9090,7 @@
       "fu_exploration.radiomessages.json": 21,
       "fu_isotopes.radiomessages.json": 6,
       "fu_ore.radiomessages.json": 18,
+      "fu_quests.radiomessages.json": 0,
       "fu_resources.radiomessages.json": 47,
       "fu_stations.radiomessages.json": 2,
       "mech.radiomessages.json": 0,
@@ -9134,6 +9144,7 @@
     "shared_reg": {
       "shared_egen.statuseffect.json": 1
     },
+    "shared_res.json": 0,
     "shared_rial.json": 1,
     "shared_sand..json": 1,
     "shared_sphere.json": 1,
@@ -9281,7 +9292,7 @@
           "shared_.statuseffect.json": 1
         },
         "entropicward": {
-          "entropicward.statuseffect.json": 1,
+          "shared_.statuseffect.json": 1,
           "tentacleeffect.statuseffect.json": 1
         },
         "erchiussickness2": {
@@ -9328,6 +9339,7 @@
             "chaossetbonuseffect.statuseffect.json": 1,
             "chitinsetbonuseffect.statuseffect.json": 1,
             "chordatasetbonuseffect.statuseffect.json": 1,
+            "conquerorsetbonuseffect.statuseffect.json": 0,
             "corruptsetbonuseffect.statuseffect.json": 1,
             "corsairsetbonuseffect.statuseffect.json": 1,
             "cultistsetbonuseffect.statuseffect.json": 0,
@@ -9340,7 +9352,7 @@
             "diamondsetbonuseffect.statuseffect.json": 1,
             "dwellersetbonuseffect.statuseffect.json": 1,
             "eldersetbonuseffect.statuseffect.json": 1,
-            "enforcersetbonuseffect.statuseffect.json": 1,
+            "enforcersetbonuseffect.statuseffect.json": 0,
             "evadersetbonuseffect.statuseffect.json": 1,
             "evasetbonuseffect.statuseffect.json": 1,
             "fleshsetbonuseffect.statuseffect.json": 0,
@@ -9349,7 +9361,7 @@
             "gendarmesetbonuseffect.statuseffect.json": 1,
             "geologistsetbonuseffect.statuseffect.json": 1,
             "ghostweavesetbonuseffect.statuseffect.json": 1,
-            "gladiatorsetbonuseffect.statuseffect.json": 1,
+            "gladiatorsetbonuseffect.statuseffect.json": 0,
             "graphenesetbonuseffect.statuseffect.json": 1,
             "guardiansetbonuseffect.statuseffect.json": 0,
             "hackersetbonuseffect.statuseffect.json": 1,
@@ -9391,7 +9403,7 @@
             "queensetbonuseffect.statuseffect.json": 1,
             "raidersetbonuseffect.statuseffect.json": 0,
             "rangersetbonuseffect.statuseffect.json": 1,
-            "ravagersetbonuseffect.statuseffect.json": 1,
+            "ravagersetbonuseffect.statuseffect.json": 0,
             "reconsetbonuseffect.statuseffect.json": 1,
             "reconsetbonuseffect2.statuseffect.json": 1,
             "reconsetbonuseffect3.statuseffect.json": 1,
@@ -9429,8 +9441,8 @@
             "warphuntersetbonuseffect.statuseffect.json": 1,
             "warriorrobessetbonuseffect.statuseffect.json": 0,
             "warriorsetbonuseffect.statuseffect.json": 1,
-            "wolfsetbonuseffect.statuseffect.json": 1,
-            "wolfsetbonuseffect2.statuseffect.json": 1,
+            "wolfsetbonuseffect.statuseffect.json": 0,
+            "wolfsetbonuseffect2.statuseffect.json": 0,
             "wretchelsetbonuseffect.statuseffect.json": 1,
             "x10setbonuseffect.statuseffect.json": 1,
             "xenosetbonuseffect.statuseffect.json": 1,
@@ -9461,6 +9473,7 @@
             "shared_.statuseffect.json": 1
           },
           "feedpack": {
+            "feedpackneg.statuseffect.json": 0,
             "shared_.statuseffect.json": 1
           },
           "glow": {
@@ -9470,9 +9483,11 @@
             "heal_50.statuseffect.json": 0
           },
           "honeyheal": {
-            "honeyheal1.statuseffect.json": 1,
-            "honeyheal3.statuseffect.json": 1,
-            "honeyheal5.statuseffect.json": 1
+            "honeyheal1.statuseffect.json": 0,
+            "honeyheal2.statuseffect.json": 0,
+            "honeyheal3.statuseffect.json": 0,
+            "honeyheal4.statuseffect.json": 0,
+            "honeyheal5.statuseffect.json": 0
           },
           "stealthed": {
             "stealthed.animation.json": 1
@@ -9719,6 +9734,18 @@
           }
         },
         "fu_weathereffects.json": 2,
+        "heal": {
+          "heal_long4.statuseffect.json": 0,
+          "heal_tier0.statuseffect.json": 0,
+          "heal_tier1.statuseffect.json": 0,
+          "heal_tier2.statuseffect.json": 0,
+          "heal_tier3.statuseffect.json": 0,
+          "heal_tier4.statuseffect.json": 0,
+          "heal_tier5.statuseffect.json": 0,
+          "heal_tier6.statuseffect.json": 0,
+          "honeysilkheal.statuseffect.json": 0,
+          "mutaviskheal.statuseffect.json": 0
+        },
         "iceblock": {
           "shared_.statuseffect.json": 1
         },
@@ -9769,6 +9796,50 @@
           "maxhealthboostneg20.statuseffect.json": 1,
           "sulphurattack.statuseffect.json": 1
         },
+        "medicalStationSpecials": {
+          "berserk": {
+            "berserk.statuseffect.json": 0
+          },
+          "experimental": {
+            "experimental.statuseffect.json": 0
+          },
+          "glasscannon": {
+            "glasscannon.statuseffect.json": 0
+          },
+          "hivemind": {
+            "hivemind.statuseffect.json": 0
+          },
+          "hypopanic": {
+            "hypopanic.statuseffect.json": 0
+          },
+          "immunization": {
+            "immunization.statuseffect.json": 0
+          },
+          "juggernaut": {
+            "juggernaut.statuseffect.json": 0
+          },
+          "mitochondria": {
+            "mitochondria.statuseffect.json": 0
+          },
+          "renergizer": {
+            "renergizer.statuseffect.json": 0
+          },
+          "repel": {
+            "cosmicrepel.statuseffect.json": 0,
+            "electricrepel.statuseffect.json": 0,
+            "firerepel.statuseffect.json": 0,
+            "icerepel.statuseffect.json": 0,
+            "poisonrepel.statuseffect.json": 0,
+            "radiationrepel.statuseffect.json": 0,
+            "shadowrepel.statuseffect.json": 0
+          },
+          "toxiccloud": {
+            "toxiccloud.statuseffect.json": 0
+          },
+          "trollblood": {
+            "trollblood.statuseffect.json": 0
+          }
+        },
         "partytime": {
           "partytime2.statuseffect.json": 1,
           "partytime4.statuseffect.json": 1,
@@ -9814,6 +9885,10 @@
           "percentenergyboost40.statuseffect.json": 1,
           "percentenergyboost5.statuseffect.json": 1,
           "percentenergyboost50.statuseffect.json": 1,
+          "percentenergyboostneg10.statuseffect.json": 0,
+          "percentenergyboostneg20.statuseffect.json": 0,
+          "percentenergyboostnegstimrig.statuseffect.json": 0,
+          "percentenergyboostnegstimrig2.statuseffect.json": 0,
           "shared_percentenergyboost.json": 1
         },
         "percenthealthboost": {
@@ -9875,6 +9950,9 @@
         "shadowblock": {
           "shared_.statuseffect.json": 1
         },
+        "shared_effects": {
+          "shared_.statuseffect.json": 1
+        },
         "shared_energyboost": {
           "shared_energyboostneg100.json": 1
         },
@@ -9901,7 +9979,7 @@
           "wet.statuseffect.json": 1
         }
       },
-      "effects.json": 2
+      "effects.json": 1
     },
     "tech": {
       "dash": {
@@ -9915,11 +9993,11 @@
         "fueltank.tech.json": 2,
         "shared_zeroburst.json": 1,
         "sonicburst.tech.json": 0,
-        "speedboots.tech.json": 1,
-        "speedboots2.tech.json": 1,
-        "speedboots3.tech.json": 2,
+        "speedboots.tech.json": 0,
+        "speedboots2.tech.json": 0,
+        "speedboots3.tech.json": 1,
         "speedbootsprecursor.tech.json": 1,
-        "speedbootsweak.tech.json": 1,
+        "speedbootsweak.tech.json": 0,
         "teleportdash.tech.json": 2,
         "zeroburst.tech.json": 2,
         "zeroburst2.tech.json": 1,
@@ -9929,10 +10007,10 @@
       "distortionsphere": {
         "armorsphere.tech.json": 1,
         "bouncesphere.tech.json": 2,
-        "distortionsphere2.tech.json": 2,
+        "distortionsphere2.tech.json": 1,
         "funball.tech.json": 2,
         "microsphere.tech.json": 2,
-        "microspherebomb.tech.json": 2,
+        "microspherebomb.tech.json": 1,
         "microsphereprecursor.tech.json": 0,
         "microspherespider.tech.json": 2
       },
@@ -9957,6 +10035,7 @@
         "fuwalljump3.item.json": 1,
         "gravityjump.item.json": 0,
         "longjump.item.json": 2,
+        "longjump0.item.json": 0,
         "longjump2.item.json": 2,
         "longjump3.item.json": 1,
         "longjump4.item.json": 1,
@@ -9996,6 +10075,7 @@
         "fuwalljump3.tech.json": 1,
         "gravityjump.tech.json": 1,
         "longjump.tech.json": 1,
+        "longjump0.tech.json": 0,
         "longjump2.tech.json": 2,
         "longjump3.tech.json": 1,
         "longjump4.tech.json": 2,
@@ -10012,9 +10092,9 @@
         "emergencybounce.tech.json": 2,
         "emergencybounce2.tech.json": 2,
         "phaseattack.tech.json": 1,
-        "physicsfield2.tech.json": 2,
-        "physicsfield3.tech.json": 2,
-        "shared_physicsfield.json": 2
+        "physicsfield2.tech.json": 1,
+        "physicsfield3.tech.json": 1,
+        "shared_physicsfield.json": 1
       },
       "screwattack": {
         "screwattack.tech.json": 0
@@ -10097,8 +10177,7 @@
         "harrowstone.material.json": 1,
         "honey": {
           "brick": {
-            "honeystonebrick.material.json": 1,
-            "shared_honeystonebrick.mat.json": 3
+            "shared_honeystonebrick.mat.json": 2
           },
           "frozenwaxplatform.material.json": 1,
           "frozenwaxplatform.matitem.json": 1,
@@ -10110,26 +10189,32 @@
             "shared_goldenglass.mat.json": 3
           },
           "goldenplanks": {
-            "goldenplank.material.json": 2,
-            "goldenplank.matitem.json": 4
+            "goldenplank.material.json": 1,
+            "goldenplank.matitem.json": 1,
+            "shared_goldenplank.mat.json": 0
           },
           "goldensand.material.json": 1,
           "goldensand.matitem.json": 1,
           "honeycrystalblock.material.json": 2,
           "honeycrystalblock.matitem.json": 2,
-          "honeystone.matitem.json": 1,
           "redwaxplatform.material.json": 2,
           "redwaxplatform.matitem.json": 2,
+          "shared_beesilkwallpaper.mat.json": 0,
           "shared_frozenwaxblock.mat.json": 2,
           "shared_frozenwaxplatform.mat.json": 1,
           "shared_fu_honeycombblock.mat.json": 1,
           "shared_fu_redhoneycombblock.mat.json": 1,
           "shared_goldenleaves.mat.json": 2,
           "shared_goldensand.mat.json": 1,
-          "shared_goldenwood.mat.json": 4,
+          "shared_goldenwood.mat.json": 1,
+          "shared_goldenwoodbridge.mat.json": 0,
+          "shared_goldenwoodpanelling.mat.json": 0,
+          "shared_goldenwoodplatform.mat.json": 0,
           "shared_honeycrystalblock.mat.json": 2,
-          "shared_honeystone.mat.json": 2,
+          "shared_honeystone.mat.json": 1,
           "shared_redwaxblock.mat.json": 2,
+          "shared_treatedgoldenwood.mat.json": 0,
+          "shared_unrefinedgoldenwood.mat.json": 0,
           "shared_waxblock1.mat.json": 2,
           "shared_waxplatform.mat.json": 1,
           "shared_whitewaxblock.mat.json": 1,
@@ -10140,7 +10225,6 @@
           "whitewaxplatform.material.json": 2,
           "whitewaxplatform.matitem.json": 2
         },
-        "honey.json": 1,
         "hydrotube.material.json": 2,
         "icewaste": {
           "iceblock3.material.json": 1,

@@ -31,9 +31,6 @@
         "/scenes/art13/options/0/0",
         "/scenes/hockey2/text"
       ],
-      "monsters/skills/ranged/emptyfu.monsterskill": [
-        "/label"
-      ],
       "objects/generic/crewshop/crewshop.object": [
         "/apexDescription",
         "/avianDescription",
@@ -59,6 +56,9 @@
       ],
       "objects/wired/extrasmashablepersistentswitch/extrasmashablepersistentswitch.object": [
         "/description"
+      ],
+      "objects/wired/lightsensor/extrainvisiblelightsensor.object": [
+        "/description"
       ]
     },
     "Texts": {
@@ -80,6 +80,9 @@
       ],
       "interface/scripted/fu_tutorialQuestList/fu_tutorialQuestList.config": [
         "/gui/textScrollArea/children/rewardList/schema/listTemplate/rewardsPixels/value"
+      ],
+      "interface/scripted/spaceStation/spaceStation.config": [
+        "/gui/shopTotalPrice/value"
       ],
       "interface/scripted/techshop/techshop.config": [
         "/gui/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
@@ -381,6 +384,12 @@
       "npcs/alienjungle/alienjunglethornhide.npctype": [
         "/scriptConfig/dialog/attack/default/default/0"
       ],
+      "npcs/japaneseruins/japaneseruinsarcher.npctype": [
+        "/scriptConfig/dialog/attack/default/default/0"
+      ],
+      "npcs/japaneseruins/japaneseruinsoni.npctype": [
+        "/scriptConfig/dialog/attack/default/default/0"
+      ],
       "npcs/letheia/letheiaboss.npctype": [
         "/scriptConfig/dialog/attack/default/default/0"
       ],
@@ -657,7 +666,7 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "items/generic/tradegoods/contrabandgoods.item": [
+      "items/generic/tradegoods/fucontrabandgoods.currency": [
         "/shortdescription"
       ],
       "quests/fu_questlines/science/electronics/create_aichip.questtemplate": [
@@ -2426,6 +2435,48 @@
   {
     "DeniedAlternatives": [],
     "Files": {
+      "items/generic/other/medkit2.consumable": [
+        "/description"
+      ],
+      "stats/effects/heal/heal_long.statuseffect": [
+        "/label"
+      ]
+    },
+    "Texts": {
+      "Eng": "Restores 125 health over 10 seconds, and instantly cures most status effects."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "items/generic/other/medkit3.consumable": [
+        "/description"
+      ],
+      "stats/effects/heal/heal_long2.statuseffect": [
+        "/label"
+      ]
+    },
+    "Texts": {
+      "Eng": "Restores 150 health over 10 seconds, and instantly cures most status effects."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "items/generic/other/medkit4.consumable": [
+        "/description"
+      ],
+      "stats/effects/heal/heal_long3.statuseffect": [
+        "/label"
+      ]
+    },
+    "Texts": {
+      "Eng": "Restores 200 health over 10 seconds, and instantly cures most status effects."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
       "collections/fu_plant.collection": [
         "/collectables/rockroot/title"
       ],
@@ -3029,6 +3080,22 @@
         "/shoggothmissionmicrosphere/senderName",
         "/shoggothmissionshootdoor/senderName",
         "/shoggothmissionvinwagner/senderName"
+      ],
+      "radiomessages/fu_exploration.radiomessages": [
+        "/mamapoptop1/senderName",
+        "/mamapoptop2/senderName",
+        "/mamapoptop3/senderName",
+        "/mamapoptop4/senderName",
+        "/mamapoptop5/senderName",
+        "/mamapoptop6/senderName",
+        "/mamapoptopdoorshoot1/senderName",
+        "/mamapoptopdoorshoot2/senderName"
+      ],
+      "radiomessages/fu_quests.radiomessages": [
+        "/fu_outpost1/senderName",
+        "/fu_outpost2/senderName",
+        "/fu_start_needstricorder/senderName",
+        "/fu_start_needstricorder2/senderName"
       ]
     },
     "Texts": {
