@@ -46,11 +46,7 @@
         "shared_gasgiantcorelayer.json": 1
       },
       "shared__detached": {
-        "shared_hellhive.json": 1,
         "shared_precursor.json": 1
-      },
-      "shared_surface": {
-        "shared_.biome.json": 1
       },
       "space": {
         "corruptasteroid.biome.json": 1,
@@ -81,6 +77,7 @@
         "lightless.biome.json": 1,
         "magmadark.biome.json": 1,
         "mamapoptop.biome.json": 0,
+        "metallicmoon.biome.json": 1,
         "nitrogensea.biome.json": 1,
         "shared_.biome.json": 2,
         "shared_desertwastes.json": 1,
@@ -93,8 +90,8 @@
       },
       "surface_detached": {
         "aetherbreakwater.biome.json": 1,
-        "aliendesert.biome.json": 1,
-        "alienforest.biome.json": 1,
+        "aliendesert.biome.json": 0,
+        "alienforest.biome.json": 0,
         "ashgarden.biome.json": 1,
         "badlands.biome.json": 1,
         "birchforest.biome.json": 1,
@@ -105,7 +102,6 @@
         "breakwater.biome.json": 1,
         "cactiplace.biome.json": 1,
         "calichefield.biome.json": 1,
-        "charredflesh.biome.json": 1,
         "cloudforest.biome.json": 1,
         "corrupt.biome.json": 1,
         "corruptedforest.biome.json": 1,
@@ -128,18 +124,20 @@
         "fieldofsugar.biome.json": 1,
         "fieldoftomato.biome.json": 1,
         "fieldofwheat.biome.json": 1,
+        "finesand.biome.json": 0,
         "flowerforest.biome.json": 1,
         "glacial.biome.json": 1,
         "goreforest.biome.json": 1,
         "hauntedforest.biome.json": 1,
         "hauntedgraveyard.biome.json": 1,
         "hellfirefield.biome.json": 1,
+        "hellhive.biome.json": 1,
         "hotsprings.biome.json": 1,
         "icefire.biome.json": 1,
         "irradiatedwaste.biome.json": 1,
-        "magicsnowland.biome.json": 1,
+        "magicsnowland.biome.json": 0,
         "meadow.biome.json": 1,
-        "metalhive.biome.json": 1,
+        "metalhive.biome.json": 0,
         "metaljungle.biome.json": 1,
         "orchardapple.biome.json": 1,
         "orchardpeach.biome.json": 1,
@@ -158,15 +156,16 @@
         "shared_energyorbforest.json": 1,
         "shared_estuary.json": 1,
         "shared_kelpforest.json": 1,
-        "shared_supermatterzone.json": 1,
-        "shared_wastelandmini.json": 1,
+        "shared_metalworks.json": 0,
         "snowyforest.biome.json": 1,
         "spacewreckage_rusted.biome.json": 1,
         "spacewreckage_shiny.biome.json": 1,
-        "sulphuricmagma.biome.json": 1,
-        "sulphuricoceandark.biome.json": 1,
+        "sulphuricmagma.biome.json": 0,
+        "sulphuricoceandark.biome.json": 0,
         "sulphuricplain.biome.json": 1,
-        "supermatterzoneaether.biome.json": 1,
+        "supermatterzone.biome.json": 0,
+        "supermatterzoneaether.biome.json": 0,
+        "supermatterzonemoon.biome.json": 0,
         "taiga.biome.json": 1,
         "wartfield.biome.json": 1
       },
@@ -201,25 +200,31 @@
         "wastelandunderground.biome.json": 1
       },
       "underground_detached": {
-        "elderunderground.biome.json": 1,
+        "elderunderground.biome.json": 0,
         "ffbonecaves.biome.json": 1,
         "ffcellcave.biome.json": 1,
         "ffcoalmine.biome.json": 1,
         "ffcoppermine.biome.json": 1,
         "ffcoralcave.biome.json": 1,
-        "ffcrystalcavern.biome.json": 1,
-        "ffcrystalrealm.biome.json": 1,
+        "ffcrystalcavern.biome.json": 0,
+        "ffcrystalrealm.biome.json": 0,
         "fffleshcave.biome.json": 1,
         "fffrostcavern.biome.json": 1,
         "ffgoldmine.biome.json": 1,
+        "ffhellhiveunderground.biome.json": 0,
+        "ffhiveunderground.biome.json": 0,
         "ffpoopit.biome.json": 1,
-        "ffspidernest.biome.json": 1,
+        "ffshadow.biome.json": 0,
+        "ffshadowmoon.biome.json": 0,
+        "ffsilvermine.biome.json": 0,
+        "ffspidernest.biome.json": 0,
         "ffsupermatter.biome.json": 1,
+        "fftarpit.biome.json": 0,
+        "fftarpitmoon.biome.json": 0,
         "ffvolcanic.biome.json": 1,
+        "ffzen.biome.json": 1,
         "furuinsunderground.biome.json": 1,
         "futentacleunderground.biome.json": 1,
-        "shared_.biome.json": 1,
-        "shared_fftarpit.json": 1,
         "shared_metalworksunderground.json": 1
       }
     },
@@ -429,7 +434,7 @@
       "shared_fm_musicplayer..json": 1
     },
     "generic.json": 1,
-    "glitchEmotes.json": 179,
+    "glitchEmotes.json": 178,
     "interface": {
       "ai": {
         "ai.config.json": 12,
@@ -442,7 +447,7 @@
         "multitether.config.json": 1
       },
       "cockpit": {
-        "cockpit.config.json": 406
+        "cockpit.config.json": 407
       },
       "itemdescriptions": {
         "armornew.itemdescription.json": 1,
@@ -536,15 +541,16 @@
       "shared_.config.json": 2,
       "shared_boomerang..json": 1,
       "shared_chakram..json": 1,
-      "shared_gun2..json": 1,
+      "shared_gun.json": 1,
       "shared_magnorb..json": 1,
       "shared_shieldnew..json": 4,
-      "shared_sword2..json": 1,
+      "shared_sword.json": 1,
       "tooltips": {
         "bow2.tooltip.json": 1,
         "fist2.tooltip.json": 1,
+        "gunkevin.tooltip.json": 0,
         "magnorb.tooltip.json": 1,
-        "sword2.tooltip.json": 1
+        "shared_.tooltip.json": 1
       },
       "warping": {
         "fu_outpostteleporter.config.json": 2
@@ -1377,7 +1383,7 @@
               "fuadaptablecrossbow.activeitem.json": 2
             },
             "gjallarhorn": {
-              "fugjallarhorn.activeitem.json": 2
+              "fugjallarhorn.activeitem.json": 1
             },
             "icebreaker": {
               "fupixelbreaker.activeitem.json": 2
@@ -1605,7 +1611,7 @@
               "gravgun.activeitem.json": 3,
               "gravitongun.activeitem.json": 2,
               "gravitonpistol.activeitem.json": 2,
-              "gravitonpistolunique.activeitem.json": 2,
+              "gravitonpistolunique.activeitem.json": 0,
               "hellfirecannon.activeitem.json": 2,
               "hellfiregun.activeitem.json": 2,
               "invisipuke.activeitem.json": 2,
@@ -3399,7 +3405,7 @@
       "generic": {
         "crafting": {
           "agaranichor.item.json": 1,
-          "algaegreen.item.json": 2,
+          "algaegreen.item.json": 1,
           "ammoniumsulfate.item.json": 2,
           "bambooshoot.item.json": 2,
           "berliniteore.item.json": 2,
@@ -3414,10 +3420,10 @@
             "biofuelcannisteradv.item.json": 2,
             "biofuelcannistermax.item.json": 2,
             "corruptionseed.item.json": 2,
-            "ff_fertilizer.item.json": 2,
-            "ff_fertilizer2.item.json": 2,
-            "ff_fertilizer3.item.json": 2,
-            "fu_mulch.item.json": 2,
+            "ff_fertilizer.item.json": 1,
+            "ff_fertilizer2.item.json": 1,
+            "ff_fertilizer3.item.json": 1,
+            "fu_mulch.item.json": 1,
             "methyliodide.item.json": 0,
             "morphiteore.item.json": 2,
             "mutagene1.item.json": 2,
@@ -3635,7 +3641,7 @@
             "gene_rage.item.json": 2,
             "gene_reactive.item.json": 2,
             "gene_regen.item.json": 2,
-            "gene_reproductive.item.json": 2,
+            "gene_reproductive.item.json": 1,
             "gene_resist.item.json": 2,
             "gene_skeletal.item.json": 2,
             "gene_stealth.item.json": 1,
@@ -4061,7 +4067,7 @@
         "fu_liquidhoney.liqitem.json": 2,
         "helium3gasliquid.liqitem.json": 1,
         "liquidaether.liqitem.json": 2,
-        "liquidbeer.liqitem.json": 2,
+        "liquidbeer.liqitem.json": 1,
         "liquidbioooze.liqitem.json": 2,
         "liquidblacktar.liqitem.json": 2,
         "liquidblood.liqitem.json": 1,
@@ -4075,7 +4081,7 @@
         "liquidmetallichydrogen.liqitem.json": 2,
         "liquidnitrogenitem.liqitem.json": 2,
         "liquidorangegravrain.liqitem.json": 1,
-        "liquidorganicsoup.liqitem.json": 2,
+        "liquidorganicsoup.liqitem.json": 1,
         "liquidpus.liqitem.json": 2,
         "liquidsulphuricacid.liqitem.json": 2,
         "liquidwastewater.liqitem.json": 2,
@@ -4398,7 +4404,6 @@
       "shared_caliche.json": 1,
       "shared_campbigpole.mat.json": 1,
       "shared_charredbonematerial.mat.json": 1,
-      "shared_charredflesh.json": 1,
       "shared_chromadirt.json": 1,
       "shared_deadearth.mat.json": 2,
       "shared_dollhousecrosshatch.mat.json": 0,
@@ -4468,6 +4473,7 @@
       "shared_rainforestfloorflowers.mat.json": 2,
       "shared_redhotcobblestone.mat.json": 4,
       "shared_redsand.json": 1,
+      "shared_redsand.mat.json": 1,
       "shared_redsand2.mat.json": 1,
       "shared_redslate2.mat.json": 1,
       "shared_ree.json": 1,
@@ -5252,6 +5258,9 @@
         "bulbopish": {
           "bulbop2": {
             "bulbop2.monstertype.json": 0
+          },
+          "bulbopflesh": {
+            "bulbopflesh.monstertype.json": 0
           },
           "bulbopfriendly": {
             "bulbopfriendly.monstertype.json": 1
@@ -7919,7 +7928,7 @@
           "isn_fissionreactornew.object.json": 8
         },
         "isn_hydroponicstray": {
-          "isn_hydroponicstray.object.json": 6
+          "isn_hydroponicstray.object.json": 0
         },
         "isn_incinerator": {
           "isn_incinerator.object.json": 7
@@ -8979,7 +8988,7 @@
         },
         "tutorial": {
           "extractor": {
-            "create_silicon.questtemplate.json": 3,
+            "create_silicon.questtemplate.json": 2,
             "extractor1.questtemplate.json": 3,
             "extractor2.questtemplate.json": 1,
             "extractor3.questtemplate.json": 4,
@@ -9125,6 +9134,7 @@
       "shared_wort..json": 1
     },
     "shared_brainslug.json": 1,
+    "shared_charredflesh.json": 1,
     "shared_cloud.json": 1,
     "shared_con.json": 1,
     "shared_crew.json": 1,
@@ -9157,7 +9167,6 @@
     },
     "shared_res.json": 0,
     "shared_rial.json": 1,
-    "shared_sand..json": 1,
     "shared_sphere.json": 1,
     "shared_stat.json": 1,
     "shared_sulphur.json": 1,
@@ -10393,6 +10402,6 @@
         "shared_platform.material.json": 1
       }
     },
-    "wide_spread_fields.json": 134
+    "wide_spread_fields.json": 133
   }
 }
