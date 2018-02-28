@@ -743,11 +743,15 @@
   "codex/elder/eldergrapplerbook.codex": {
     "/description": "texts/codex/elder/shared_book.codex.json"
   },
+  "codex/elder/eldergrenadelauncherbook.codex": {
+    "/title": "texts/codex/elder/shared_book.codex.json"
+  },
   "codex/elder/eldermacebook.codex": {
     "/description": "texts/codex/elder/shared_book.codex.json"
   },
   "codex/elder/elderpistolbook.codex": {
-    "/description": "texts/codex/elder/shared_book.codex.json"
+    "/description": "texts/codex/elder/shared_book.codex.json",
+    "/title": "texts/codex/elder/shared_book.codex.json"
   },
   "codex/elder/elderrepeaterbook.codex": {
     "/description": "texts/codex/elder/shared_book.codex.json"
@@ -2012,11 +2016,17 @@
   "items/active/vehiclecontroller/fusubcontroller5.activeitem": {
     "/description": "texts/items/active/vehiclecontroller/shared_fusubcontroller.json"
   },
+  "items/active/weapons/boomerang/aetheriumboomerang.activeitem": {
+    "/description": "texts/items/active/weapons/boomerang/shared_boomerang.activeitem.json"
+  },
   "items/active/weapons/boomerang/bonespur.activeitem": {
     "/description": "texts/items/active/weapons/boomerang/shared_.activeitem.json"
   },
   "items/active/weapons/boomerang/nooberang.activeitem": {
     "/description": "texts/items/active/weapons/boomerang/shared_.activeitem.json"
+  },
+  "items/active/weapons/boomerang/woodenboomerang.activeitem": {
+    "/description": "texts/items/active/weapons/boomerang/shared_boomerang.activeitem.json"
   },
   "items/active/weapons/bow/prismaticbow/prismaticbow.activeitem": {
     "/altAbility/name": "texts/items/active/weapons/bow/shared_bow/shared_bow.activeitem.json"
@@ -2226,7 +2236,13 @@
   "items/active/weapons/melee/quarterstaff/copperquarterstaff.activeitem": {
     "/description": "texts/items/active/weapons/melee/quarterstaff/shared_.activeitem.json"
   },
+  "items/active/weapons/melee/quarterstaff/ironquarterstaff.activeitem": {
+    "/description": "texts/items/active/weapons/melee/quarterstaff/shared_.activeitem.json"
+  },
   "items/active/weapons/melee/quarterstaff/rareqs.activeitem": {
+    "/description": "texts/items/active/weapons/melee/quarterstaff/shared_.activeitem.json"
+  },
+  "items/active/weapons/melee/quarterstaff/tungstenquarterstaff.activeitem": {
     "/description": "texts/items/active/weapons/melee/quarterstaff/shared_.activeitem.json"
   },
   "items/active/weapons/melee/quarterstaff/uncommonqs.activeitem": {
@@ -2304,6 +2320,9 @@
   "items/active/weapons/melee/spear/advalloyspear.activeitem": {
     "/description": "texts/items/active/weapons/melee/spear/shared_spear.activeitem.json"
   },
+  "items/active/weapons/melee/spear/ancientspear.activeitem": {
+    "/altAbility/name": "texts/items/active/weapons/melee/spear/shared_.activeitem.json"
+  },
   "items/active/weapons/melee/spear/carbonspear.activeitem": {
     "/shortdescription": "texts/items/active/weapons/melee/spear/shared_spear.activeitem.json"
   },
@@ -2336,6 +2355,7 @@
     "/description": "texts/items/active/weapons/melee/spear/shared_.activeitem.json"
   },
   "items/active/weapons/melee/spear/tristab.activeitem": {
+    "/altAbility/name": "texts/items/active/weapons/melee/spear/shared_.activeitem.json",
     "/description": "texts/items/active/weapons/melee/spear/shared_.activeitem.json"
   },
   "items/active/weapons/novakid/durasteelmachinepistol.activeitem": {
@@ -9939,6 +9959,10 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/ancient/ancientconsole/fuancientconsole.object.json"
   },
+  "objects/arttrophies/radmodelportrait/radmodelportrait.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/arttrophies/radmodelportrait/radmodelportrait.object.json"
+  },
   "objects/augmentextractor/aex.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/augmentextractor/aex.object.json"
@@ -11271,6 +11295,36 @@
   },
   "objects/bees/woodencentrifuge/woodencentrifuge.object": {
     "/subtitle": "texts/wide_spread_fields.json"
+  },
+  "objects/biome/bug/buglike1/buglike1.object": {
+    "/shortdescription": "texts/objects/biome/bug/shared_buglike/shared_buglike.json"
+  },
+  "objects/biome/bug/buglike10/buglike10.object": {
+    "/shortdescription": "texts/objects/biome/bug/shared_buglike/shared_buglike.json"
+  },
+  "objects/biome/bug/buglike2/buglike2.object": {
+    "/shortdescription": "texts/objects/biome/bug/shared_buglike/shared_buglike.json"
+  },
+  "objects/biome/bug/buglike3/buglike3.object": {
+    "/shortdescription": "texts/objects/biome/bug/shared_buglike/shared_buglike.json"
+  },
+  "objects/biome/bug/buglike4/buglike4.object": {
+    "/shortdescription": "texts/objects/biome/bug/shared_buglike/shared_buglike.json"
+  },
+  "objects/biome/bug/buglike5/buglike5.object": {
+    "/shortdescription": "texts/objects/biome/bug/shared_buglike/shared_buglike.json"
+  },
+  "objects/biome/bug/buglike6/buglike6.object": {
+    "/shortdescription": "texts/objects/biome/bug/shared_buglike/shared_buglike.json"
+  },
+  "objects/biome/bug/buglike7/buglike7.object": {
+    "/shortdescription": "texts/objects/biome/bug/shared_buglike/shared_buglike.json"
+  },
+  "objects/biome/bug/buglike8/buglike8.object": {
+    "/shortdescription": "texts/objects/biome/bug/shared_buglike/shared_buglike.json"
+  },
+  "objects/biome/bug/buglike9/buglike9.object": {
+    "/shortdescription": "texts/objects/biome/bug/shared_buglike/shared_buglike.json"
   },
   "objects/biome/heck/heckaltar/heckaltar.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
