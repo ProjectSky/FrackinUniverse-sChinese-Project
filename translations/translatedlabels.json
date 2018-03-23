@@ -321,7 +321,7 @@
     },
     "codex": {
       "documents": {
-        "ffguide.codex.json": 22,
+        "ffguide.codex.json": 21,
         "ffguide2.codex.json": 22,
         "ffguide3.codex.json": 14,
         "ffguide4.codex.json": 2,
@@ -601,7 +601,7 @@
         },
         "fu_tutorialQuestList": {
           "fu_tutorialQuestList.config.json": 2,
-          "questData.config.json": 10
+          "questData.config.json": 13
         },
         "fu_updateInfoWindow": {
           "updateInfoWindow.config.json": 0
@@ -667,8 +667,8 @@
         "boozekit.config.json": 2,
         "craftingcrewshop.config.json": 3,
         "craftingmech.config.json": 2,
-        "distill.config.json": 0,
-        "ferment.config.json": 0,
+        "distill.config.json": 2,
+        "ferment.config.json": 3,
         "fissionfurnace.config.json": 3,
         "fruitpress.config.json": 2,
         "fu_shipcraftingtable.config.json": 2,
@@ -790,13 +790,13 @@
           "cuteshield.activeitem.json": 2,
           "densiniumshield.activeitem.json": 2,
           "diamondshield.activeitem.json": 2,
-          "durasteelshield.activeitem.json": 1,
+          "durasteelshield.activeitem.json": 2,
           "eldershield.activeitem.json": 2,
           "fubeeshield.activeitem.json": 2,
           "fubeeshield2.activeitem.json": 2,
           "fuboneshield.activeitem.json": 2,
           "fupioneershield.activeitem.json": 2,
-          "furelicshield.activeitem.json": 0,
+          "furelicshield.activeitem.json": 1,
           "gladiatorshield.activeitem.json": 2,
           "hellfireshield.activeitem.json": 2,
           "ironshield.activeitem.json": 2,
@@ -843,7 +843,7 @@
             "fu_matmodplacer.activeitem.json": 0
           },
           "fu_monsterdetector": {
-            "fu_monsterdetector.activeitem.json": 0
+            "fu_monsterdetector.activeitem.json": 2
           },
           "fu_upgradekit": {
             "upgradekit.activeitem.json": 0
@@ -852,7 +852,7 @@
             "fusuperrewardbag.activeitem.json": 2
           },
           "gyrostabilizer": {
-            "gyrostabilizer.activeitem.json": 0
+            "gyrostabilizer.activeitem.json": 2
           },
           "oredetector": {
             "shared_cavedetector.json": 1,
@@ -1038,7 +1038,7 @@
               "moltenaxe.activeitem.json": 2,
               "nomadaxe.activeitem.json": 2,
               "panishment.activeitem.json": 0,
-              "poptopclaw.activeitem.json": 0,
+              "poptopclaw.activeitem.json": 2,
               "poweraxe.activeitem.json": 2,
               "pyreiteaxe.activeitem.json": 2,
               "quietusaxe.activeitem.json": 2,
@@ -5976,15 +5976,15 @@
     "objects": {
       "ancient": {
         "ancientconsole": {
-          "fuancientconsole.object.json": 0
+          "fuancientconsole.object.json": 10
         },
         "ancientdoorshoot": {
-          "ancientdoorshoot.object.json": 0
+          "ancientdoorshoot.object.json": 2
         }
       },
       "arttrophies": {
         "radmodelportrait": {
-          "radmodelportrait.object.json": 0
+          "radmodelportrait.object.json": 10
         }
       },
       "augmentextractor": {
@@ -6904,13 +6904,13 @@
           }
         },
         "flagkirhos": {
-          "flagkirhos.object.json": 0
+          "flagkirhos.object.json": 2
         },
         "flagradien": {
-          "flagradien.object.json": 0
+          "flagradien.object.json": 2
         },
         "flagthelusian": {
-          "flagthelusian.object.json": 0
+          "flagthelusian.object.json": 2
         },
         "fm_musicplayer": {
           "fm_musicplayer.object.json": 1
@@ -7695,7 +7695,7 @@
             "precursorcomputer.object.json": 0
           },
           "precursorconsoleswitch": {
-            "precursorconsoleswitch.object.json": 0
+            "precursorconsoleswitch.object.json": 2
           },
           "precursorconverter": {
             "console.object.json": 2,
@@ -8008,7 +8008,7 @@
           "fu_blastfurnace.object.json": 2
         },
         "fu_conduit": {
-          "fu_conduit.object.json": 2
+          "fu_conduit.object.json": 1
         },
         "fu_fieldgenerator": {
           "fieldgen.object.json": 2
@@ -8113,6 +8113,9 @@
         "zelpicture.object.json": 0
       },
       "questturnins.json": 9,
+      "scanInteractableExample": {
+        "scaninteractionexample.object.json": 0
+      },
       "scienceoutpost": {
         "game": {
           "deeponegame.object.json": 2
@@ -9068,7 +9071,7 @@
             "fuquest_ancientsentry.questtemplate.json": 0,
             "fuquest_gorgolith.questtemplate.json": 0,
             "fuquest_gorillaking.questtemplate.json": 0,
-            "fuquest_mamapoptop.questtemplate.json": 0,
+            "fuquest_mamapoptop.questtemplate.json": 3,
             "fuquest_megarachnid.questtemplate.json": 0,
             "fuquest_titan.questtemplate.json": 0,
             "fuquest_warbot.questtemplate.json": 0,
@@ -9239,6 +9242,7 @@
           }
         }
       },
+      "fu_scaninteraction.questtemplate.json": 0,
       "grandarena.questtemplate.json": 4,
       "infiltration.questtemplate.json": 4,
       "japaneseruins.questtemplate.json": 0,
@@ -9713,7 +9717,7 @@
             "shared_.statuseffect.json": 1
           },
           "feedpack": {
-            "feedpackneg.statuseffect.json": 0,
+            "feedpackneg.statuseffect.json": 1,
             "shared_.statuseffect.json": 1
           },
           "glow": {
@@ -10184,7 +10188,7 @@
           "runboost25.statuseffect.json": 1,
           "runboost35.statuseffect.json": 1,
           "runboost75.statuseffect.json": 1,
-          "runboost80.statuseffect.json": 0,
+          "runboost80.statuseffect.json": 1,
           "runboostdebuff.statuseffect.json": 1
         },
         "shadowblock": {
@@ -10225,14 +10229,14 @@
       "dash": {
         "airdash2.tech.json": 2,
         "blinkdash2.tech.json": 2,
-        "combatmaneuvering1.tech.json": 0,
+        "combatmaneuvering1.tech.json": 1,
         "dashcombat.tech.json": 2,
         "fadesprint.tech.json": 2,
         "fadesprint2.tech.json": 2,
         "fadesprint3.tech.json": 2,
         "fueltank.tech.json": 2,
         "shared_zeroburst.json": 1,
-        "sonicburst.tech.json": 1,
+        "sonicburst.tech.json": 2,
         "speedboots.tech.json": 1,
         "speedboots2.tech.json": 1,
         "speedboots3.tech.json": 2,
@@ -10251,7 +10255,7 @@
         "funball.tech.json": 2,
         "microsphere.tech.json": 2,
         "microspherebomb.tech.json": 2,
-        "microsphereprecursor.tech.json": 0,
+        "microsphereprecursor.tech.json": 1,
         "microspherespider.tech.json": 2
       },
       "items": {
@@ -10259,7 +10263,7 @@
         "armorsphere.item.json": 2,
         "blinkdash2.item.json": 2,
         "bouncesphere.item.json": 2,
-        "combatmaneuvering1.item.json": 0,
+        "combatmaneuvering1.item.json": 2,
         "dashcombat.item.json": 2,
         "distortionsphere2.item.json": 2,
         "emergencybounce.item.json": 2,
@@ -10273,7 +10277,7 @@
         "funball.item.json": 2,
         "fuwallcling.item.json": 2,
         "fuwallcling2.item.json": 2,
-        "fuwallclingtriangle.item.json": 0,
+        "fuwallclingtriangle.item.json": 2,
         "fuwalljump.item.json": 2,
         "fuwalljump2.item.json": 1,
         "fuwalljump3.item.json": 1,
@@ -10295,7 +10299,7 @@
         "quintjump.item.json": 2,
         "rocketboots.item.json": 2,
         "rocketboots2.item.json": 0,
-        "screwattack.item.json": 0,
+        "screwattack.item.json": 2,
         "shared_fuwalljump.json": 1,
         "shared_longjump.json": 1,
         "sonicburst.item.json": 0,
@@ -10303,7 +10307,7 @@
         "speedboots2.item.json": 2,
         "speedboots3.item.json": 2,
         "speedbootsprecursor.item.json": 2,
-        "speedbootsweak.item.json": 2,
+        "speedbootsweak.item.json": 1,
         "teleportdash.item.json": 2,
         "zeroburst.item.json": 2,
         "zeroburst2.item.json": 2,
@@ -10313,11 +10317,11 @@
       "jump": {
         "fuwallcling.tech.json": 2,
         "fuwallcling2.tech.json": 2,
-        "fuwallclingtriangle.tech.json": 0,
+        "fuwallclingtriangle.tech.json": 2,
         "fuwalljump.tech.json": 1,
         "fuwalljump2.tech.json": 1,
         "fuwalljump3.tech.json": 1,
-        "gravityjump.tech.json": 1,
+        "gravityjump.tech.json": 2,
         "longjump.tech.json": 2,
         "longjump0.tech.json": 2,
         "longjump2.tech.json": 2,
@@ -10339,13 +10343,13 @@
         "fuarmorboost2.tech.json": 2,
         "fuarmorboost3.tech.json": 2,
         "fuhealzone.tech.json": 2,
-        "phaseattack.tech.json": 1,
+        "phaseattack.tech.json": 2,
         "physicsfield2.tech.json": 1,
         "physicsfield3.tech.json": 1,
         "shared_physicsfield.json": 2
       },
       "screwattack": {
-        "screwattack.tech.json": 0
+        "screwattack.tech.json": 2
       }
     },
     "tiles": {
@@ -10630,6 +10634,6 @@
         "shared_platform.material.json": 1
       }
     },
-    "wide_spread_fields.json": 133
+    "wide_spread_fields.json": 134
   }
 }
