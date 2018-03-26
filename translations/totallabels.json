@@ -536,7 +536,7 @@
       "shared_fm_musicplayer..json": 1
     },
     "generic.json": 1,
-    "glitchEmotes.json": 193,
+    "glitchEmotes.json": 192,
     "interface": {
       "ai": {
         "ai.config.json": 12,
@@ -1206,6 +1206,7 @@
               "solariumkatana.activeitem.json": 2,
               "telebriumkatana.activeitem.json": 2,
               "titaniumkatana.activeitem.json": 2,
+              "triangliumkatana.activeitem.json": 2,
               "tungstenkatana.activeitem.json": 2,
               "woodenkatana.activeitem.json": 2,
               "zerchesiumkatana.activeitem.json": 2
@@ -1294,6 +1295,7 @@
               "uncommonqs.activeitem.json": 1
             },
             "rapier": {
+              "advalloyrapier.activeitem.json": 2,
               "aetheriumrapier.activeitem.json": 4,
               "ancientrapier.activeitem.json": 2,
               "cuterapier.activeitem.json": 2,
@@ -1303,6 +1305,7 @@
               "furarerapier.activeitem.json": 1,
               "fuuncommonrapier.activeitem.json": 1,
               "goldrapier.activeitem.json": 2,
+              "hellfirerapier.activeitem.json": 2,
               "ironrapier.activeitem.json": 2,
               "irradiumrapier.activeitem.json": 2,
               "isogenrapier.activeitem.json": 2,
@@ -1310,7 +1313,9 @@
               "quietusrapier.activeitem.json": 2,
               "silverrapier.activeitem.json": 2,
               "telebriumrapier.activeitem.json": 2,
-              "tungstenrapier.activeitem.json": 2
+              "tungstenrapier.activeitem.json": 2,
+              "xithriciterapier.activeitem.json": 2,
+              "zerchesiumrapier.activeitem.json": 2
             },
             "scythe": {
               "aetheriumscythe.activeitem.json": 4,
@@ -3054,13 +3059,13 @@
           },
           "densiniumarmor": {
             "alt helm": {
-              "densinium2.head.json": 2
+              "densinium2.head.json": 1
             },
             "densinium.chest.json": 1,
             "densinium.head.json": 1,
-            "densinium.legs.json": 1,
-            "shared_densinium..json": 1
+            "densinium.legs.json": 1
           },
+          "densiniumarmor.json": 1,
           "fubonearmor3": {
             "fubone3.head.json": 2
           },
@@ -5976,7 +5981,7 @@
     "objects": {
       "ancient": {
         "ancientconsole": {
-          "fuancientconsole.object.json": 10
+          "fuancientconsole.object.json": 9
         },
         "ancientdoorshoot": {
           "ancientdoorshoot.object.json": 2
@@ -6395,9 +6400,6 @@
           "rainbarrel": {
             "rainbarrel.object.json": 3
           }
-        },
-        "weaponupgradeanvil2": {
-          "weaponupgradeanvil2.object.json": 2
         },
         "wiringstation": {
           "wiringstation.object.json": 11
@@ -7630,7 +7632,7 @@
           "shared_tonguebush.json": 2
         },
         "lush": {
-          "poptopcavern.object.json": 2
+          "poptopcavern.object.json": 3
         },
         "metallic": {
           "device1.object.json": 2,
@@ -8244,7 +8246,10 @@
         },
         "fu_byosshipdoor": {
           "fu_byosshipdoor.object.json": 6,
-          "fu_byosshiphatch.object.json": 7
+          "fu_byosshiphatch.object.json": 6
+        },
+        "fu_byosshipdoorBroken": {
+          "fu_byosshiphatchBroken.object.json": 7
         },
         "fu_byosshipdoorbroken": {
           "fu_byosshipdoorBroken.object.json": 5
@@ -8272,13 +8277,19 @@
           "fu_byosteleporterTier0.object.json": 8
         },
         "fu_crewbed": {
-          "fu_crewbed.object.json": 2
+          "fu_crewbed.object.json": 1
         },
         "fu_crewbed0": {
           "fu_crewbed0.object.json": 2
         },
         "fu_crewbed2": {
-          "fu_crewbed2.object.json": 9
+          "fu_crewbed2.object.json": 1
+        },
+        "fu_crewbed3": {
+          "fu_crewbed3.object.json": 2
+        },
+        "fu_crewbed4": {
+          "fu_crewbed4.object.json": 2
         },
         "fu_ftldrive": {
           "fu_ftldrive.object.json": 1,
@@ -8458,7 +8469,8 @@
           }
         },
         "shared_fu_byosshipdoor": {
-          "shared_fu_byosshipdoor.json": 2
+          "shared_fu_byosshipdoor.json": 2,
+          "shared_fu_byosshiphatch.json": 1
         },
         "shared_fu_byosshiplocker": {
           "shared_fu_byosshiplocker.json": 1
@@ -8468,6 +8480,9 @@
         },
         "shared_fu_byosteleporter": {
           "shared_fu_byosteleporter.json": 1
+        },
+        "shared_fu_crewbed": {
+          "shared_fu_crewbed.json": 1
         },
         "shared_fu_ftldrive": {
           "shared_fu_ftldrive.json": 4
@@ -10634,6 +10649,6 @@
         "shared_platform.material.json": 1
       }
     },
-    "wide_spread_fields.json": 138
+    "wide_spread_fields.json": 140
   }
 }
