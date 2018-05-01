@@ -1734,6 +1734,13 @@
               "elderripper.activeitem.json": 2,
               "energyassault.activeitem.json": 2,
               "energycutter.activeitem.json": 2,
+              "extrabeams": {
+                "extrachargebeam.activeitem.json": 0,
+                "extralightbeam.activeitem.json": 0
+              },
+              "extramissile": {
+                "extramissile.activeitem.json": 0
+              },
               "eyecannon.activeitem.json": 2,
               "farsight.activeitem.json": 3,
               "ff_bubblegun.activeitem.json": 2,
@@ -4536,15 +4543,6 @@
         "mmgravgun2.beamaxe.json": 2,
         "mmgravgun3.beamaxe.json": 2,
         "wiretoolfu.wiretool.json": 2
-      },
-      "weapons": {
-        "extrabeams": {
-          "extrachargebeam.activeitem.json": 2,
-          "extralightbeam.activeitem.json": 2
-        },
-        "extramissile": {
-          "extramissile.activeitem.json": 2
-        }
       }
     },
     "items.json": 1,
@@ -4645,6 +4643,7 @@
       "shared_fumonasteryroofing.mat.json": 1,
       "shared_fumonasterywall.mat.json": 1,
       "shared_fungalstone.json": 1,
+      "shared_fuoldtimber.json": 0,
       "shared_fusavannahgrass.mat.json": 1,
       "shared_fusteelgirdir.json": 1,
       "shared_fustomachblock.mat.json": 5,
@@ -7198,8 +7197,8 @@
           "survivaltent.object.json": 2
         },
         "timeobelisk": {
-          "spacetimeobelisk.object.json": 1,
-          "timeobelisk.object.json": 2
+          "shared_spacetimeobelisk.json": 1,
+          "shared_timeobelisk.json": 2
         },
         "tinylocker": {
           "tinylocker.object.json": 0
@@ -8190,7 +8189,8 @@
         "moonlit_comet": {
           "moonlitcomet.object.json": 0,
           "moonlitcomet2.object.json": 2,
-          "shared_moonlitcomet.json": 1
+          "shared_moonlitcomet.json": 1,
+          "vina_plush.object.json": 0
         },
         "radienshop": {
           "silene_shop.object.json": 2
@@ -8390,6 +8390,27 @@
         },
         "fu_smallthruster": {
           "fu_smallthruster.object.json": 2
+        },
+        "fu_thrusters": {
+          "apex": {
+            "thruster_apex1.object.json": 0
+          },
+          "avian": {
+            "thruster_avian1.object.json": 0
+          },
+          "glitch": {
+            "thruster_glitch1.object.json": 0
+          },
+          "human": {
+            "thruster_human1.object.json": 0
+          },
+          "hylotl": {
+            "thruster_hylotl1.object.json": 0
+          },
+          "nova": {
+            "thruster_nova1.object.json": 0
+          },
+          "shared_thruster_.json": 0
         },
         "genericshipparts": {
           "SIV_shipTrimThin": {
@@ -10277,8 +10298,8 @@
           "regenerationblock.statuseffect.json": 1,
           "regenerationminor000.statuseffect.json": 1,
           "regenerationminor2.statuseffect.json": 1,
-          "regenerationminor2augment.statuseffect.json": 1,
-          "regenerationminor3augment.statuseffect.json": 1,
+          "regenerationminor2augment.statuseffect.json": 0,
+          "regenerationminor3augment.statuseffect.json": 0,
           "regenerationminoraugment.statuseffect.json": 1,
           "regenerationminorcellular.statuseffect.json": 1,
           "regenerationmiraclegrass.statuseffect.json": 1,
