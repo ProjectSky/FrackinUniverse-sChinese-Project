@@ -949,6 +949,11 @@
             "woodenboomerang.activeitem.json": 1,
             "xithriciteboomerang.activeitem.json": 2
           },
+          "bossdrop": {
+            "fusoluskatana": {
+              "fusoluskatana.activeitem.json": 0
+            }
+          },
           "bow": {
             "advalloycrossbow": {
               "advalloycrossbow.activeitem.json": 2
@@ -1719,7 +1724,7 @@
               "crystalgun.activeitem.json": 2,
               "curveblaster.activeitem.json": 2,
               "curvepistol.activeitem.json": 2,
-              "curvesmg.activeitem.json": 2,
+              "curvesmg.activeitem.json": 1,
               "cutearmgun.activeitem.json": 2,
               "cutemachinegun.activeitem.json": 2,
               "cuteorblauncher.activeitem.json": 2,
@@ -1843,6 +1848,9 @@
                 },
                 "protominer": {
                   "protominer.activeitem.json": 5
+                },
+                "weaponminer": {
+                  "weaponminer.activeitem.json": 0
                 }
               },
               "minirocketlauncher.activeitem.json": 2,
@@ -1923,13 +1931,13 @@
               "rimecutter.activeitem.json": 2,
               "science": {
                 "annihilator": {
-                  "isn_annihilator.activeitem.json": 2
+                  "isn_annihilator.activeitem.json": 1
                 },
                 "flamecannon": {
                   "isn_flamethrower4.activeitem.json": 3
                 },
                 "flamepistol": {
-                  "isn_flamethrower.activeitem.json": 2
+                  "isn_flamethrower.activeitem.json": 1
                 },
                 "fusioncannon": {
                   "isn_fusioncannon.activeitem.json": 4
@@ -1939,7 +1947,7 @@
                 },
                 "isn_flintlock": {
                   "fugoldengun.activeitem.json": 2,
-                  "isn_flintlock.activeitem.json": 2
+                  "isn_flintlock.activeitem.json": 0
                 },
                 "kineticrifle": {
                   "kineticrifle.activeitem.json": 2
@@ -1960,10 +1968,10 @@
                   "isn_sunstream.activeitem.json": 2
                 },
                 "terawattlaser": {
-                  "isn_terawattlaser.activeitem.json": 2
+                  "isn_terawattlaser.activeitem.json": 0
                 }
               },
-              "shared_.activeitem.json": 6,
+              "shared_.activeitem.json": 8,
               "shared_fuhuntingrifle.json": 1,
               "shared_furepairgun.json": 1,
               "shared_longarm.activeitem.json": 1,
@@ -1980,7 +1988,8 @@
               "swarmgun.activeitem.json": 0,
               "swarmgun2.activeitem.json": 1,
               "tentabane.activeitem.json": 4,
-              "teslagun.activeitem.json": 3,
+              "teslagun.activeitem.json": 2,
+              "teslagun2.activeitem.json": 0,
               "theblackmarket": {
                 "armcannon": {
                   "armcannon.activeitem.json": 2,
@@ -4610,6 +4619,7 @@
       "shared_fungalstone.json": 1,
       "shared_fuoldtimber.json": 0,
       "shared_fusavannahgrass.mat.json": 1,
+      "shared_fuslopedblackglass.mat.json": 0,
       "shared_fusteelgirdir.json": 1,
       "shared_fustomachblock.mat.json": 5,
       "shared_genetile.mat.json": 2,
@@ -8041,7 +8051,7 @@
           "fu_blastfurnace.object.json": 2
         },
         "fu_conduit": {
-          "fu_conduit.object.json": 2
+          "fu_conduit.object.json": 0
         },
         "fu_fieldgenerator": {
           "fieldgen.object.json": 2
@@ -10193,8 +10203,7 @@
         "jumpboost": {
           "jumpboost15.statuseffect.json": 1,
           "jumpboost25.statuseffect.json": 1,
-          "jumpboost35.statuseffect.json": 1,
-          "jumpboostwarriorrobes.statuseffect.json": 1
+          "jumpboost35.statuseffect.json": 1
         },
         "liquidimmunity": {
           "gasimmunity.statuseffect.json": 1
@@ -10327,6 +10336,7 @@
           "runboost15.statuseffect.json": 1,
           "runboost25.statuseffect.json": 1,
           "runboost35.statuseffect.json": 1,
+          "runboost5.statuseffect.json": 0,
           "runboost75.statuseffect.json": 1,
           "runboost80.statuseffect.json": 1,
           "runboostdebuff.statuseffect.json": 1

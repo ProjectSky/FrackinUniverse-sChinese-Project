@@ -1513,7 +1513,7 @@
     "/gui/textScrollArea/children/rewardList/schema/listTemplate/rewardsPixels/value": "texts/wide_spread_fields.json"
   },
   "interface/scripted/fu_tutorialQuestList/questData.config": {
-    "/strings/questlines/battle/title": "texts/wide_spread_fields.json"
+    "/strings/questlines/fu_battle/title": "texts/wide_spread_fields.json"
   },
   "interface/scripted/fu_updateInfoWindow/updateInfoWindow.config": {
     "/gui/textScrollBox/children/text/value": "texts/interface/scripted/shared_.config.json"
@@ -2645,6 +2645,13 @@
   "items/active/weapons/ranged/unique/crankrifle.activeitem": {
     "/shortdescription": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
   },
+  "items/active/weapons/ranged/unique/curvepistol.activeitem": {
+    "/upgradeParameters/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
+  },
+  "items/active/weapons/ranged/unique/curvesmg.activeitem": {
+    "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json",
+    "/upgradeParameters/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
+  },
   "items/active/weapons/ranged/unique/fugaussmachinegun.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
   },
@@ -2700,7 +2707,8 @@
     "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
   },
   "items/active/weapons/ranged/unique/lunaririfle.activeitem": {
-    "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
+    "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json",
+    "/upgradeParameters/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
   },
   "items/active/weapons/ranged/unique/manstopper.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
@@ -2737,6 +2745,12 @@
   },
   "items/active/weapons/ranged/unique/swarmgun.activeitem": {
     "/shortdescription": "texts/items/active/weapons/ranged/unique/shared_swarmgun.activeitem.json"
+  },
+  "items/active/weapons/ranged/unique/teslagun.activeitem": {
+    "/altAbility/name": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
+  },
+  "items/active/weapons/ranged/unique/teslagun2.activeitem": {
+    "/altAbility/name": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
   },
   "items/active/weapons/ranged/unique/theblackmarket/sentryguns/mobiusrifle.activeitem": {
     "/shortdescription": "texts/items/active/weapons/ranged/unique/theblackmarket/sentryguns/shared_mobiusrifle.json"
@@ -5038,6 +5052,14 @@
   },
   "items/materials/fusavannahgrass.matitem": {
     "/description": "texts/materials/shared_fusavannahgrass.mat.json"
+  },
+  "items/materials/fuslopedblackglass.matitem": {
+    "/description": "texts/materials/shared_fuslopedblackglass.mat.json",
+    "/florandescription": "texts/materials/shared_fuslopedblackglass.mat.json",
+    "/glitchdescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchdescription/glitchEmotedText": "texts/materials/shared_fuslopedblackglass.mat.json",
+    "/novakiddescription": "texts/materials/shared_fuslopedblackglass.mat.json",
+    "/shortdescription": "texts/materials/shared_fuslopedblackglass.mat.json"
   },
   "items/materials/fusteelgirdirmaterial.matitem": {
     "/shortdescription": "texts/materials/shared_fusteelgirdir.json"
@@ -20015,6 +20037,14 @@
   },
   "tiles/materials/fusavannahgrass.material": {
     "/description": "texts/materials/shared_fusavannahgrass.mat.json"
+  },
+  "tiles/materials/fuslopedblackglass.material": {
+    "/description": "texts/materials/shared_fuslopedblackglass.mat.json",
+    "/floranDescription": "texts/materials/shared_fuslopedblackglass.mat.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/materials/shared_fuslopedblackglass.mat.json",
+    "/novakidDescription": "texts/materials/shared_fuslopedblackglass.mat.json",
+    "/shortdescription": "texts/materials/shared_fuslopedblackglass.mat.json"
   },
   "tiles/materials/fusteelgirdir.material": {
     "/shortdescription": "texts/materials/shared_fusteelgirdir.json"
