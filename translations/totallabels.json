@@ -541,9 +541,9 @@
     "glitchEmotes.json": 194,
     "interface": {
       "ai": {
-        "ai.config.json": 12,
+        "ai.config.json": 10,
         "fu_byosai.config.json": 2,
-        "shared_ai.config.json": 3
+        "shared_ai.config.json": 1
       },
       "chests": {
         "chest3.config.json": 1,
@@ -597,10 +597,13 @@
           "lootboxData.config.json": 3
         },
         "fu_matmodplacer": {
-          "fu_matmodplacer.config.json": 108
+          "fu_matmodplacer.config.json": 109
         },
         "fu_researchtreegui": {
           "researchTreeGUI.config.json": 2
+        },
+        "fu_sail": {
+          "customSail.config.json": 9
         },
         "fu_tutorialQuestList": {
           "fu_tutorialQuestList.config.json": 3,
@@ -689,7 +692,7 @@
         "xenostation.config.json": 2
       }
     },
-    "interface.json": 11,
+    "interface.json": 15,
     "items": {
       "active": {
         "crewcontracts": {
@@ -3993,6 +3996,7 @@
           },
           "bagoffarts.item.json": 2,
           "devilsbargain.consumable.json": 2,
+          "faceskin.consumable.json": 2,
           "gravstim.consumable.json": 2,
           "healing": {
             "bouncewrap.consumable.json": 2,
@@ -4065,6 +4069,12 @@
             "mecharmshielddrone0.item.json": 2,
             "mecharmshielddrone1.item.json": 2,
             "mecharmshielddrone2.item.json": 2,
+            "mecharmsinchaingun.item.json": 2,
+            "mecharmsinclustermine.item.json": 2,
+            "mecharmsinfist.item.json": 2,
+            "mecharmsinrack.item.json": 2,
+            "mecharmsinshotgun.item.json": 2,
+            "mecharmsinsniper.item.json": 2,
             "powerblaster.item.json": 2,
             "sawblaster.item.json": 2,
             "shared_.item.json": 1,
@@ -4083,6 +4093,7 @@
             "mechbodyfuobserver.item.json": 2,
             "mechbodyheavy.item.json": 2,
             "mechbodyheavy2.item.json": 2,
+            "mechbodysinbody.item.json": 2,
             "mechbodytitan.item.json": 2,
             "shared_mechbodyfuexplorer.json": 1
           },
@@ -4091,6 +4102,7 @@
             "mechboosterfuobserver.item.json": 2,
             "mechboostersimpleupgrade.item.json": 1,
             "mechboostersimpleupgrade2.item.json": 1,
+            "mechboostersinhammer.item.json": 2,
             "shared_mechboostersimpleupgrade.json": 1
           },
           "horn": {
@@ -4112,6 +4124,7 @@
             "mechlegsheavy3.item.json": 2,
             "mechlegssimpleupgrade.item.json": 1,
             "mechlegssimpleupgrade2.item.json": 1,
+            "mechlegssinlegs.item.json": 2,
             "mechlegstitan.item.json": 2,
             "shared_mechlegssimpleupgrade.json": 1
           }
@@ -9251,11 +9264,11 @@
           "frozenwastes": {
             "shoggoth_defeat.questtemplate.json": 3,
             "shoggoth_unlock.questtemplate.json": 4,
-            "shoggoth_unlocknew.questtemplate.json": 3,
+            "shoggoth_unlocknew.questtemplate.json": 4,
             "shoggoth_wagner.questtemplate.json": 4
           },
           "precursor": {
-            "precursor_unlock.questtemplate.json": 3
+            "precursor_unlock.questtemplate.json": 4
           }
         },
         "outpost": {
@@ -9651,6 +9664,7 @@
           "defenseboostneg5.statuseffect.json": 1,
           "defenseneg.animation.json": 2,
           "dodgeboost.statuseffect.json": 1,
+          "dodgeboost2.statuseffect.json": 1,
           "shared_.statuseffect.json": 2,
           "shared_defenseboostneg.json": 1,
           "shieldmastery.statuseffect.json": 1
@@ -10773,6 +10787,7 @@
         "fuspringflowers.matmod.json": 1,
         "glowsandgrass.matmod.json": 1,
         "greenslimegrass.matmod.json": 1,
+        "invisible.matmod.json": 1,
         "junkmod.matmod.json": 1,
         "lazulite.matmod.json": 1,
         "lead.matmod.json": 1,
