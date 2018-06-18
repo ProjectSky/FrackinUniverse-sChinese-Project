@@ -2621,6 +2621,9 @@
   "items/active/weapons/ranged/sniperrifle/swtjc_ewg_uncommonbeamrifle.activeitem": {
     "/description": "texts/items/active/weapons/shared_rifle.json"
   },
+  "items/active/weapons/ranged/unique/ancientcarbine.activeitem": {
+    "/altAbility/name": "texts/items/active/weapons/ranged/unique/shared_cien.json"
+  },
   "items/active/weapons/ranged/unique/blistergun.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
   },
@@ -2726,11 +2729,20 @@
   "items/active/weapons/ranged/unique/peglaci/imperius/chargemachinegunnpc.activeitem": {
     "/shortdescription": "texts/items/active/weapons/ranged/unique/peglaci/imperius/shared_chargemachinegun.json"
   },
+  "items/active/weapons/ranged/unique/protogun.activeitem": {
+    "/altAbility/name": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
+  },
+  "items/active/weapons/ranged/unique/protorifle.activeitem": {
+    "/altAbility/name": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
+  },
   "items/active/weapons/ranged/unique/randomharpoongun.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_randomharpoongun.json"
   },
   "items/active/weapons/ranged/unique/randomharpoongun2.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_randomharpoongun.json"
+  },
+  "items/active/weapons/ranged/unique/science/annihilator/isn_annihilator.activeitem": {
+    "/shortdescription": "texts/items/active/weapons/ranged/unique/shared_cien.json"
   },
   "items/active/weapons/ranged/unique/science/flamepistol/isn_flamethrower.activeitem": {
     "/shortdescription": "texts/wide_spread_fields.json"
@@ -11450,7 +11462,8 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/bees/candle/shared_candle.object.json",
     "/humanDescription": "texts/objects/bees/candle/shared_candle.object.json",
-    "/hylotlDescription": "texts/objects/bees/candle/shared_candle.object.json"
+    "/hylotlDescription": "texts/objects/bees/candle/shared_candle.object.json",
+    "/novakidDescription": "texts/objects/bees/candle/shared_candle.object.json"
   },
   "objects/bees/candle/ghostcandle.object": {
     "/apexDescription": "texts/objects/bees/candle/shared_candle.object.json",
@@ -11477,7 +11490,8 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/bees/candle/shared_candle.object.json",
     "/humanDescription": "texts/objects/bees/candle/shared_candle.object.json",
-    "/hylotlDescription": "texts/objects/bees/candle/shared_candle.object.json"
+    "/hylotlDescription": "texts/objects/bees/candle/shared_candle.object.json",
+    "/novakidDescription": "texts/objects/bees/candle/shared_candle.object.json"
   },
   "objects/bees/honeyjarrer/honeyjarrer.config": {
     "/gui/countoutput/value": "texts/bees/shared_.config.json",
@@ -16317,15 +16331,9 @@
     "/shortdescription": "texts/objects/ship/shared_fu_byosshipdoor/shared_fu_byosshipdoor.json"
   },
   "objects/ship/fu_byosshipdoor/fu_byosshiphatch.object": {
-    "/description": "texts/objects/ship/shared_fu_byosshipdoor/shared_fu_byosshiphatch.json",
+    "/description": "texts/objects/ship/shared_fu_byosship/shared_fu_byosshiphatch.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_byosshipdoor/fu_byosshiphatch.object.json",
-    "/shortdescription": "texts/objects/shared_shiphatch.json"
-  },
-  "objects/ship/fu_byosshipdoorBroken/fu_byosshiphatchBroken.object": {
-    "/description": "texts/objects/ship/shared_fu_byosshipdoor/shared_fu_byosshiphatch.json",
-    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_byosshipdoorBroken/fu_byosshiphatchBroken.object.json",
     "/shortdescription": "texts/objects/shared_shiphatch.json"
   },
   "objects/ship/fu_byosshipdoorbroken/fu_byosshipdoorBroken.object": {
@@ -16335,6 +16343,12 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_byosshipdoorbroken/fu_byosshipdoorBroken.object.json",
     "/shortdescription": "texts/objects/ship/shared_fu_byosshipdoor/shared_fu_byosshipdoor.json"
+  },
+  "objects/ship/fu_byosshiphatchbroken/fu_byosshiphatchBroken.object": {
+    "/description": "texts/objects/ship/shared_fu_byosship/shared_fu_byosshiphatch.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_byosshiphatchbroken/fu_byosshiphatchBroken.object.json",
+    "/shortdescription": "texts/objects/shared_shiphatch.json"
   },
   "objects/ship/fu_byosshiplocker/fu_byosshiplocker.object": {
     "/apexDescription": "texts/objects/ship/shared_osshiplocker/shared_osshiplocker.object.json",

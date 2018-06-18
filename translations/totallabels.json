@@ -313,6 +313,9 @@
       }
     },
     "cinematics": {
+      "intro": {
+        "introstage.cinematic.json": 8
+      },
       "respawn": {
         "respawncasual.cinematic.json": 1,
         "respawnhardcore.cinematic.json": 1,
@@ -1178,6 +1181,7 @@
               "furaregreataxe.activeitem.json": 1,
               "fuuncommongreataxe.activeitem.json": 1,
               "irongreataxe.activeitem.json": 2,
+              "irradiumgreataxe.activeitem.json": 2,
               "shared_greataxe.activeitem.json": 1,
               "stonegreataxe.activeitem.json": 1,
               "telebriumgreataxe.activeitem.json": 2,
@@ -1258,6 +1262,7 @@
               "fubonesword.activeitem.json": 2,
               "fucellsword.activeitem.json": 2,
               "fupetalsword.activeitem.json": 2,
+              "irradiumlongsword.activeitem.json": 2,
               "kaicleaver.activeitem.json": 2,
               "klinokrov.activeitem.json": 2,
               "rarelongsword.activeitem.json": 1,
@@ -1320,6 +1325,7 @@
               "fucultistquarterstaff.activeitem.json": 2,
               "goldquarterstaff.activeitem.json": 2,
               "ironquarterstaff.activeitem.json": 1,
+              "irradiumquarterstaff.activeitem.json": 2,
               "rareqs.activeitem.json": 1,
               "shared_.activeitem.json": 1,
               "silverquarterstaff.activeitem.json": 2,
@@ -1362,6 +1368,7 @@
               "goldscythe.activeitem.json": 2,
               "honeyscythe.activeitem.json": 2,
               "ironscythe.activeitem.json": 2,
+              "irradiumscythe.activeitem.json": 2,
               "lunariscythe.activeitem.json": 2,
               "predatorscythe.activeitem.json": 2,
               "quietusscythe.activeitem.json": 2,
@@ -1388,6 +1395,7 @@
               "fuatropusshortspear.activeitem.json": 1,
               "fucultistshortspear.activeitem.json": 2,
               "ironshortspear.activeitem.json": 1,
+              "irradiumshortspear.activeitem.json": 2,
               "rareshortspear.activeitem.json": 1,
               "shared_shortspear.activeitem.json": 1,
               "stoneshortspear.activeitem.json": 1,
@@ -1503,6 +1511,7 @@
             "durasteelmachinepistol.activeitem.json": 1,
             "durasteelshotgun.activeitem.json": 1,
             "durasteelsniperrifle.activeitem.json": 1,
+            "ironlmg.activeitem.json": 2,
             "ironmachinepistol.activeitem.json": 1,
             "ironshotgun.activeitem.json": 1,
             "ironsniperrifle.activeitem.json": 1,
@@ -1687,6 +1696,7 @@
             "unique": {
               "aegisaltpistol2.activeitem.json": 2,
               "aegisaltpistol3.activeitem.json": 6,
+              "ancientcarbine.activeitem.json": 2,
               "arconcannon.activeitem.json": 3,
               "arconrifle.activeitem.json": 2,
               "artillery": {
@@ -1902,14 +1912,15 @@
               "precursorcrippler": {
                 "chargesmg.activeitem.json": 2
               },
-              "protogun.activeitem.json": 3,
+              "protogun.activeitem.json": 2,
               "protopistol.activeitem.json": 2,
+              "protorifle.activeitem.json": 2,
               "randomharpoongun.activeitem.json": 1,
               "randomharpoongun2.activeitem.json": 1,
               "rimecutter.activeitem.json": 4,
               "science": {
                 "annihilator": {
-                  "isn_annihilator.activeitem.json": 3
+                  "isn_annihilator.activeitem.json": 2
                 },
                 "flamecannon": {
                   "isn_flamethrower4.activeitem.json": 4
@@ -1949,7 +1960,8 @@
                   "isn_terawattlaser.activeitem.json": 2
                 }
               },
-              "shared_.activeitem.json": 9,
+              "shared_.activeitem.json": 10,
+              "shared_cien.json": 1,
               "shared_friendmaker.json": 1,
               "shared_fuhuntingrifle.json": 1,
               "shared_longarm.activeitem.json": 1,
@@ -2146,7 +2158,9 @@
             "diamondlantern.back.json": 2
           },
           "erchiusghostback": {
-            "erchiusghost.back.json": 2
+            "erchiusghost.back.json": 2,
+            "erchiusghost2.back.json": 2,
+            "erchiusghost3.back.json": 2
           },
           "erithianalgaepack": {
             "batterypack_erithian.back.json": 2
@@ -3984,6 +3998,7 @@
           },
           "honeyboon.consumable.json": 2,
           "myphisinjector.consumable.json": 2,
+          "novaglowjuice.consumable.json": 2,
           "portablelight.consumable.json": 2,
           "portaljuice.consumable.json": 2,
           "powderednarcotics.consumable.json": 2,
@@ -6176,7 +6191,7 @@
           "flowercandle.object.json": 2,
           "ghostcandle.object.json": 2,
           "redcandle.object.json": 2,
-          "shared_candle.object.json": 6,
+          "shared_candle.object.json": 7,
           "waxcandle.object.json": 2
         },
         "honeycooking": {
@@ -8292,11 +8307,11 @@
           "fu_byosshipdoor.object.json": 6,
           "fu_byosshiphatch.object.json": 6
         },
-        "fu_byosshipdoorBroken": {
-          "fu_byosshiphatchBroken.object.json": 7
-        },
         "fu_byosshipdoorbroken": {
           "fu_byosshipdoorBroken.object.json": 5
+        },
+        "fu_byosshiphatchbroken": {
+          "fu_byosshiphatchBroken.object.json": 7
         },
         "fu_byosshiplocker": {
           "fu_byosshiplocker.object.json": 3
@@ -8572,9 +8587,11 @@
             "shared_SIV_shipNovakidUnderEngine.json": 1
           }
         },
-        "shared_fu_byosshipdoor": {
-          "shared_fu_byosshipdoor.json": 2,
+        "shared_fu_byosship": {
           "shared_fu_byosshiphatch.json": 1
+        },
+        "shared_fu_byosshipdoor": {
+          "shared_fu_byosshipdoor.json": 2
         },
         "shared_fu_byosshiplocker": {
           "shared_fu_byosshiplocker.json": 1
