@@ -654,10 +654,9 @@
       "shared_.config.json": 1,
       "shared_boomerang..json": 1,
       "shared_chakram..json": 1,
-      "shared_gun.json": 1,
+      "shared_hammer.json": 0,
       "shared_magnorb..json": 1,
       "shared_shieldnew..json": 4,
-      "shared_sword.json": 1,
       "tooltips": {
         "bow2.tooltip.json": 1,
         "fist2.tooltip.json": 1,
@@ -697,7 +696,7 @@
         "xenostation.config.json": 2
       }
     },
-    "interface.json": 15,
+    "interface.json": 17,
     "items": {
       "active": {
         "crewcontracts": {
@@ -1190,14 +1189,14 @@
               "zerchesiumgreataxe.activeitem.json": 1
             },
             "hammer": {
-              "advalloyhammer.activeitem.json": 2,
+              "advalloyhammer.activeitem.json": 1,
               "aetheriumhammer.activeitem.json": 1,
               "cutehammer.activeitem.json": 2,
               "effigiumhammer.activeitem.json": 1,
               "elderhammer.activeitem.json": 2,
               "fishboneheadbasher.activeitem.json": 2,
               "flyingv.activeitem.json": 1,
-              "fuatropushammer.activeitem.json": 1,
+              "fuatropushammer.activeitem.json": 0,
               "fubonehammer.activeitem.json": 2,
               "fucarbonhammer.activeitem.json": 2,
               "fuhoneyhammer.activeitem.json": 1,
@@ -1312,7 +1311,8 @@
               "triangliummace.activeitem.json": 2,
               "tungstenmace.activeitem.json": 2,
               "uraniummace.activeitem.json": 2,
-              "woodenmace.activeitem.json": 1
+              "woodenmace.activeitem.json": 1,
+              "zerchesiummace.activeitem.json": 1
             },
             "quarterstaff": {
               "carbonquarterstaff.activeitem.json": 2,
@@ -1378,7 +1378,7 @@
               "thelusscythe.activeitem.json": 0,
               "titaniumscythe.activeitem.json": 1
             },
-            "shared_.activeitem.json": 4,
+            "shared_.activeitem.json": 3,
             "shared_r.activeitem.json": 1,
             "shared_sword": {
               "shared_dblade": {
@@ -2352,6 +2352,11 @@
         },
         "shared_fuoperative.json": 2,
         "shared_sciencefu.json": 3,
+        "shared_tier": {
+          "shared_tw_space": {
+            "shared_tw_space.json": 1
+          }
+        },
         "thelusian": {
           "2": {
             "tier2.head.json": 2
@@ -2568,11 +2573,11 @@
             "shared_cannoneer..json": 1
           },
           "tw_spacesuit": {
-            "shared_tw_spacesuit..json": 1,
+            "shared_tw_spacesuit..json": 0,
             "tw_spacesuit.chest.json": 1,
-            "tw_spacesuit.head.json": 2,
+            "tw_spacesuit.head.json": 1,
             "tw_spacesuit.legs.json": 1,
-            "tw_spacesuitback.back.json": 2
+            "tw_spacesuitback.back.json": 1
           },
           "vagabond": {
             "deckardchest.chest.json": 1,
@@ -2756,6 +2761,13 @@
             "tw_fieldresearch.legs.json": 0
           },
           "tw_fieldresearch.json": 0,
+          "tw_spacepunk": {
+            "shared_tw_spacepunk..json": 0,
+            "tw_spacepunk.back.json": 0,
+            "tw_spacepunk.chest.json": 0,
+            "tw_spacepunk.head.json": 0,
+            "tw_spacepunk.legs.json": 0
+          },
           "wanderer": {
             "fupioneer.chest.json": 1,
             "fupioneer.head.json": 1,
@@ -3881,6 +3893,7 @@
           "azurockdye.augment.json": 1,
           "biodye.augment.json": 1,
           "bloodstonedye.augment.json": 1,
+          "brassdye.augment.json": 0,
           "brickdye.augment.json": 1,
           "coalblackdye.augment.json": 1,
           "copperdye.augment.json": 1,
@@ -4606,6 +4619,7 @@
       "shared_dollhousewood2.mat.json": 9,
       "shared_ebonblock.json": 1,
       "shared_edbonematerial.mat.json": 1,
+      "shared_edglass.mat.json": 0,
       "shared_elderbaseboard.mat.json": 1,
       "shared_elderbrick.json": 1,
       "shared_elderbricks2.mat.json": 2,
@@ -4630,6 +4644,7 @@
       "shared_fusavannahgrass.mat.json": 1,
       "shared_fuslopedblackglass.mat.json": 0,
       "shared_fuslopedglass.mat.json": 0,
+      "shared_fuslopedtintedglass.mat.json": 0,
       "shared_fusteelgirdir.json": 1,
       "shared_fustomachblock.mat.json": 5,
       "shared_genetile.mat.json": 2,
@@ -4680,6 +4695,7 @@
       "shared_shroomblock.json": 1,
       "shared_slimedirt.json": 2,
       "shared_slopedglowglass.mat.json": 0,
+      "shared_slopedtintedglowglass.mat.json": 0,
       "shared_speedblock.json": 1,
       "shared_steelhive.json": 2,
       "shared_stone.mat.json": 1,
@@ -6527,7 +6543,7 @@
           "shared_brackentreeseed.object.json": 1
         },
         "bughouse": {
-          "bughouse.object.json": 0
+          "bughouse.object.json": 2
         },
         "caprioleplant": {
           "shared_caprioleplantseed.object.json": 1
@@ -7207,7 +7223,7 @@
           "fu_harvestTurret.object.json": 1,
           "fu_harvestTurret2.object.json": 1,
           "fu_harvestTurret3.object.json": 1,
-          "fu_harvestTurretBugs.object.json": 2,
+          "fu_harvestTurretBugs.object.json": 1,
           "fu_harvestTurretFarmbeasts.object.json": 0,
           "shared_fu_harvestTurret.json": 2
         },
@@ -7464,7 +7480,6 @@
           "cthulhuplush.object.json": 0,
           "dungeondeco": {
             "bloodycar.object.json": 2,
-            "body1.object.json": 2,
             "body2.object.json": 2,
             "corpsedrainer.object.json": 2,
             "cthulureward": {
@@ -7495,6 +7510,7 @@
             "researchnotes": {
               "researchnotes.object.json": 0
             },
+            "shared_.object.json": 2,
             "shared_elderblood.json": 1,
             "shared_eldercage.json": 1,
             "shared_elderhanging.json": 1,
@@ -7746,7 +7762,7 @@
             "shared_precursorchest.json": 1
           },
           "precursorcomputer": {
-            "precursorcomputer.object.json": 0
+            "precursorcomputer.object.json": 2
           },
           "precursorconsoleswitch": {
             "precursorconsoleswitch.object.json": 2
@@ -8062,7 +8078,7 @@
           "fu_blastfurnace.object.json": 2
         },
         "fu_conduit": {
-          "fu_conduit.object.json": 0
+          "fu_conduit.object.json": 2
         },
         "fu_fieldgenerator": {
           "fieldgen.object.json": 2
@@ -8156,7 +8172,7 @@
           "isn_thermalgenerator.object.json": 8
         },
         "manufacturing": {
-          "mfgstation.object.json": 0
+          "mfgstation.object.json": 2
         },
         "quantumextractor": {
           "quantumextractor.object.json": 2
@@ -9407,7 +9423,7 @@
       "skytemple.questtemplate.json": 4,
       "snowcrash.questtemplate.json": 4,
       "story": {
-        "protectoratefu.questtemplate.json": 6
+        "protectoratefu.questtemplate.json": 5
       },
       "sunsetriders.questtemplate.json": 4,
       "tech": {
@@ -9802,7 +9818,8 @@
             "sunwalkersetbonuseffect.statuseffect.json": 1,
             "survivorsetbonuseffect.statuseffect.json": 1,
             "swashbucklersetbonuseffect.statuseffect.json": 1,
-            "tw_spacesuitsetbonuseffect.statuseffect.json": 1,
+            "tw_spacesuitsetbonuseffect.statuseffect.json": 0,
+            "tw_spacesuitsetbonuseffect2.statuseffect.json": 0,
             "ultrameshsetbonuseffect.statuseffect.json": 1,
             "underworldsetbonuseffect.statuseffect.json": 1,
             "vagabondsetbonuseffect.statuseffect.json": 0,

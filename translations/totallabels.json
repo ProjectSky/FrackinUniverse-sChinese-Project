@@ -654,10 +654,9 @@
       "shared_.config.json": 1,
       "shared_boomerang..json": 1,
       "shared_chakram..json": 1,
-      "shared_gun.json": 1,
+      "shared_hammer.json": 1,
       "shared_magnorb..json": 1,
       "shared_shieldnew..json": 4,
-      "shared_sword.json": 1,
       "tooltips": {
         "bow2.tooltip.json": 1,
         "fist2.tooltip.json": 1,
@@ -697,7 +696,7 @@
         "xenostation.config.json": 2
       }
     },
-    "interface.json": 15,
+    "interface.json": 17,
     "items": {
       "active": {
         "crewcontracts": {
@@ -1187,7 +1186,7 @@
               "telebriumgreataxe.activeitem.json": 2,
               "titaniumgreataxe.activeitem.json": 2,
               "tungstengreataxe.activeitem.json": 2,
-              "zerchesiumgreataxe.activeitem.json": 1
+              "zerchesiumgreataxe.activeitem.json": 2
             },
             "hammer": {
               "advalloyhammer.activeitem.json": 2,
@@ -1220,7 +1219,7 @@
               "telebriumhammer.activeitem.json": 2,
               "uraniumhammer.activeitem.json": 2,
               "xithricitehammer.activeitem.json": 1,
-              "zerchesiumhammer.activeitem.json": 1
+              "zerchesiumhammer.activeitem.json": 2
             },
             "katana": {
               "advalloykatana.activeitem.json": 2,
@@ -1312,7 +1311,8 @@
               "triangliummace.activeitem.json": 2,
               "tungstenmace.activeitem.json": 2,
               "uraniummace.activeitem.json": 2,
-              "woodenmace.activeitem.json": 2
+              "woodenmace.activeitem.json": 2,
+              "zerchesiummace.activeitem.json": 1
             },
             "quarterstaff": {
               "carbonquarterstaff.activeitem.json": 2,
@@ -1378,7 +1378,7 @@
               "thelusscythe.activeitem.json": 2,
               "titaniumscythe.activeitem.json": 2
             },
-            "shared_.activeitem.json": 4,
+            "shared_.activeitem.json": 3,
             "shared_r.activeitem.json": 1,
             "shared_sword": {
               "shared_dblade": {
@@ -2352,6 +2352,11 @@
         },
         "shared_fuoperative.json": 2,
         "shared_sciencefu.json": 3,
+        "shared_tier": {
+          "shared_tw_space": {
+            "shared_tw_space.json": 1
+          }
+        },
         "thelusian": {
           "2": {
             "tier2.head.json": 2
@@ -2572,7 +2577,7 @@
             "tw_spacesuit.chest.json": 1,
             "tw_spacesuit.head.json": 2,
             "tw_spacesuit.legs.json": 1,
-            "tw_spacesuitback.back.json": 2
+            "tw_spacesuitback.back.json": 1
           },
           "vagabond": {
             "deckardchest.chest.json": 1,
@@ -2756,6 +2761,13 @@
             "tw_fieldresearch.legs.json": 1
           },
           "tw_fieldresearch.json": 2,
+          "tw_spacepunk": {
+            "shared_tw_spacepunk..json": 1,
+            "tw_spacepunk.back.json": 1,
+            "tw_spacepunk.chest.json": 1,
+            "tw_spacepunk.head.json": 2,
+            "tw_spacepunk.legs.json": 1
+          },
           "wanderer": {
             "fupioneer.chest.json": 1,
             "fupioneer.head.json": 1,
@@ -3881,6 +3893,7 @@
           "azurockdye.augment.json": 1,
           "biodye.augment.json": 1,
           "bloodstonedye.augment.json": 1,
+          "brassdye.augment.json": 1,
           "brickdye.augment.json": 1,
           "coalblackdye.augment.json": 1,
           "copperdye.augment.json": 1,
@@ -4606,6 +4619,7 @@
       "shared_dollhousewood2.mat.json": 9,
       "shared_ebonblock.json": 1,
       "shared_edbonematerial.mat.json": 1,
+      "shared_edglass.mat.json": 4,
       "shared_elderbaseboard.mat.json": 1,
       "shared_elderbrick.json": 1,
       "shared_elderbricks2.mat.json": 2,
@@ -4629,7 +4643,8 @@
       "shared_fuoldtimber.json": 9,
       "shared_fusavannahgrass.mat.json": 1,
       "shared_fuslopedblackglass.mat.json": 5,
-      "shared_fuslopedglass.mat.json": 5,
+      "shared_fuslopedglass.mat.json": 1,
+      "shared_fuslopedtintedglass.mat.json": 1,
       "shared_fusteelgirdir.json": 1,
       "shared_fustomachblock.mat.json": 5,
       "shared_genetile.mat.json": 2,
@@ -4680,6 +4695,7 @@
       "shared_shroomblock.json": 1,
       "shared_slimedirt.json": 2,
       "shared_slopedglowglass.mat.json": 1,
+      "shared_slopedtintedglowglass.mat.json": 1,
       "shared_speedblock.json": 1,
       "shared_steelhive.json": 2,
       "shared_stone.mat.json": 1,
@@ -7464,7 +7480,6 @@
           "cthulhuplush.object.json": 2,
           "dungeondeco": {
             "bloodycar.object.json": 2,
-            "body1.object.json": 2,
             "body2.object.json": 2,
             "corpsedrainer.object.json": 2,
             "cthulureward": {
@@ -7495,6 +7510,7 @@
             "researchnotes": {
               "researchnotes.object.json": 2
             },
+            "shared_.object.json": 2,
             "shared_elderblood.json": 1,
             "shared_eldercage.json": 1,
             "shared_elderhanging.json": 1,
@@ -9476,7 +9492,7 @@
       "exploration.radiomessages.json": 34,
       "fu_chemlab.radiomessages.json": 9,
       "fu_elder.radiomessages.json": 34,
-      "fu_exploration.radiomessages.json": 62,
+      "fu_exploration.radiomessages.json": 64,
       "fu_isotopes.radiomessages.json": 6,
       "fu_kevin.radiomessages.json": 9,
       "fu_ore.radiomessages.json": 19,
@@ -9803,6 +9819,7 @@
             "survivorsetbonuseffect.statuseffect.json": 1,
             "swashbucklersetbonuseffect.statuseffect.json": 1,
             "tw_spacesuitsetbonuseffect.statuseffect.json": 1,
+            "tw_spacesuitsetbonuseffect2.statuseffect.json": 1,
             "ultrameshsetbonuseffect.statuseffect.json": 1,
             "underworldsetbonuseffect.statuseffect.json": 1,
             "vagabondsetbonuseffect.statuseffect.json": 1,
