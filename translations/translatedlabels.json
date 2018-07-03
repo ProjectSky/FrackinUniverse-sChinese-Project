@@ -6506,7 +6506,8 @@
         "pixeldispenser.object.json": 8
       },
       "doors": {
-        "extramissiledoor.object.json": 0
+        "extramissiledoor.object.json": 0,
+        "shared_door.object.json": 0
       },
       "explosives": {
         "blastingdynamite.object.json": 2,
@@ -8582,9 +8583,6 @@
         "kirhostechstation": {
           "kirhostechstation.object.json": 0
         },
-        "kirhostechstationtier0": {
-          "kirhostechstationtier0.object.json": 0
-        },
         "kirhosteleporter": {
           "kirhosteleporter.object.json": 0
         },
@@ -8632,8 +8630,21 @@
             "shared_SIV_shipNovakidUnderEngine.json": 0
           }
         },
+        "shadowcaptainschair": {
+          "shadowcaptainschair.object.json": 0
+        },
+        "shadowfuelhatch": {
+          "shadowfuelhatch.object.json": 0
+        },
+        "shadowtechstation": {
+          "shadowtechstation.object.json": 0
+        },
         "shared_brokenfuelhatch": {
           "shared_brokenfuelhatch.object.json": 0
+        },
+        "shared_captainschair": {
+          "shared_captainschair.json": 1,
+          "shared_captainschair.object.json": 0
         },
         "shared_fu_byosship": {
           "shared_fu_byosshiphatch.json": 0
@@ -8657,33 +8668,36 @@
           "shared_fu_sciencetechstation.json": 0
         },
         "shared_fuelhatch": {
-          "shared_fuelhatch.object.json": 8
+          "shared_fuelhatch.object.json": 8,
+          "shared_uelhatch.object.json": 0
         },
         "shared_kirhosshipdoor": {
-          "shared_kirhosshipdoor.json": 2
-        },
-        "shared_kirhosshiplocker": {
-          "shared_kirhosshiplocker.json": 0
-        },
-        "shared_kirhostechstation": {
-          "shared_kirhostechstation.json": 0
+          "shared_kirhosshipdoor.json": 1
         },
         "shared_kirhosteleporter": {
           "shared_kirhosteleporter.json": 0
-        },
-        "shared_oscaptainschair": {
-          "shared_oscaptainschair.json": 1
         },
         "shared_osshipdoorbroken": {
           "shared_roken.object.json": 0
         },
         "shared_osshiplocker": {
-          "shared_osshiplocker.json": 1,
           "shared_osshiplocker.object.json": 0
+        },
+        "shared_shadowshipdoor": {
+          "shared_shadowshipdoor.json": 0
+        },
+        "shared_shadowshiplocker": {
+          "shared_shadowshiplocker.json": 0
+        },
+        "shared_shadowtechstation": {
+          "shared_shadowtechstation.json": 0
+        },
+        "shared_shipdoor": {
+          "shared_shipdoor.json": 1
         },
         "shared_shiplocker": {
           "shared_ier0.object.json": 0,
-          "shared_shiplocker.json": 1
+          "shared_shiplocker.json": 2
         },
         "shared_shiplockerTier0": {
           "shared_shiplockerTier0.object.json": 0
@@ -8693,7 +8707,9 @@
         },
         "shared_techstation": {
           "shared_techstation.json": 18,
-          "shared_techstationTier0.object.json": 7
+          "shared_techstation.object.json": 0,
+          "shared_techstationTier0.object.json": 7,
+          "shared_techstationtier0.object.json": 0
         }
       },
       "smartbox": {
