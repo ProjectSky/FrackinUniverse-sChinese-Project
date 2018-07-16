@@ -705,6 +705,9 @@
           "extraStatsWindow.config.json": 2,
           "statWindow.config.json": 3
         },
+        "stickynotepadfu": {
+          "stickynotepadfu.config.json": 0
+        },
         "techshop": {
           "techshop.config.json": 2
         },
@@ -3205,9 +3208,6 @@
             "densinium.legs.json": 1
           },
           "densiniumarmor.json": 1,
-          "fubonearmor3": {
-            "fubone3.head.json": 2
-          },
           "fuisogenarmor": {
             "fuisogen.chest.json": 1,
             "fuisogen.head.json": 1,
@@ -3302,6 +3302,12 @@
           }
         },
         "tier8": {
+          "fubonearmor3": {
+            "fubone3.chest.json": 0,
+            "fubone3.head.json": 0,
+            "fubone3.legs.json": 0,
+            "shared_fubone3..json": 0
+          },
           "shoggoth": {
             "shared_shoggoth..json": 1,
             "shoggoth.chest.json": 1,
@@ -3713,6 +3719,7 @@
             "zerchesiumbar.item.json": 2
           },
           "fu_carbon.item.json": 2,
+          "fu_carbonpure.item.json": 0,
           "fu_holodisc.item.json": 2,
           "fu_hydrogen.item.json": 2,
           "fu_hydrogenmetallic.item.json": 2,
@@ -3860,6 +3867,7 @@
           },
           "sulphur.item.json": 2,
           "tissueculture.item.json": 2,
+          "warpmanifold.item.json": 0,
           "xenostation": {
             "gene_adaptivecell.item.json": 2,
             "gene_agility.item.json": 2,
@@ -3916,10 +3924,15 @@
             "champagne.consumable.json": 1,
             "darkale.consumable.json": 2,
             "darkbeer.consumable.json": 2,
+            "elderbeer.consumable.json": 0,
+            "esteemedvintage.consumable.json": 0,
+            "goldmead.consumable.json": 0,
             "lager.consumable.json": 2,
             "lambic.consumable.json": 2,
             "lightale.consumable.json": 2,
-            "stout.consumable.json": 2
+            "radienbeer.consumable.json": 0,
+            "stout.consumable.json": 2,
+            "thelusianwine.consumable.json": 0
           },
           "bloodchalice": {
             "fubloodchalice.consumable.json": 2
@@ -3944,6 +3957,13 @@
             "darkrum.consumable.json": 1,
             "shared_rum.consumable.json": 1,
             "whiterum.consumable.json": 1
+          },
+          "sodas": {
+            "fuaetherade.consumable.json": 0,
+            "fuaetherade2.consumable.json": 0,
+            "fuaetherade3.consumable.json": 0,
+            "fuaetherade4.consumable.json": 0,
+            "shared_fuaetherade.json": 0
           },
           "vodka": {
             "appleschnapps.consumable.json": 2,
@@ -4062,8 +4082,10 @@
           "artifacts": {
             "shared_artifact.json": 1
           },
+          "babyheadonastick.consumable.json": 0,
           "bagoffarts.item.json": 2,
           "devilsbargain.consumable.json": 2,
+          "drugdirt.consumable.json": 0,
           "faceskin.consumable.json": 0,
           "gravstim.consumable.json": 2,
           "healing": {
@@ -4500,6 +4522,7 @@
         "shared_irradiatedwall.json": 1,
         "shared_magmawall.json": 1,
         "shared_material.matitem.json": 3,
+        "shared_platform.matitem.json": 0,
         "shared_precursor.json": 1,
         "shared_unrefined.json": 1,
         "shojilattice.matitem.json": 1,
@@ -4593,6 +4616,9 @@
         "mmgravgun.beamaxe.json": 2,
         "mmgravgun2.beamaxe.json": 2,
         "mmgravgun3.beamaxe.json": 2,
+        "stickynotepadfu": {
+          "stickynotepadfu.activeitem.json": 0
+        },
         "wiretoolfu.wiretool.json": 2
       }
     },
@@ -4688,6 +4714,13 @@
       "shared_flowerybars.mat.json": 1,
       "shared_frozensand.json": 1,
       "shared_frozenstone.json": 1,
+      "shared_fuaetherbrick.mat.json": 0,
+      "shared_fuaetherbrick2.mat.json": 0,
+      "shared_fuaetherglass.json": 0,
+      "shared_fuaetherglass.mat.json": 0,
+      "shared_fuaetherglass2.mat.json": 0,
+      "shared_fuaetherpillar.mat.json": 0,
+      "shared_fuaetherstone.mat.json": 0,
       "shared_fulabpipe.mat.json": 1,
       "shared_fumetalblock.json": 2,
       "shared_fumonastery.json": 1,
@@ -7237,6 +7270,9 @@
           "sprinklerroof.object.json": 2,
           "sprinklerroofweak.object.json": 2
         },
+        "stickynotefu": {
+          "shared_stickynote.json": 0
+        },
         "storage": {
           "genecabinet.object.json": 3
         },
@@ -8399,6 +8435,7 @@
         "fu_byosteleporter": {
           "fu_byosteleporter.object.json": 2,
           "fu_byosteleporterdeco.object.json": 1,
+          "fu_byosteleporterprecursor.object.json": 0,
           "shared_fu_byosteleporter.json": 7
         },
         "fu_byosteleporterTier0": {
@@ -8836,6 +8873,170 @@
         }
       },
       "vanity": {
+        "aether": {
+          "aetherfurniture": {
+            "fuaetherbed": {
+              "fuaetherbed.object.json": 0
+            },
+            "fuaetherbookcase": {
+              "fuaetherbookcase.object.json": 0
+            },
+            "fuaetherbowl": {
+              "fuaetherbowl.object.json": 0
+            },
+            "fuaetherbowl2": {
+              "fuaetherbowl2.object.json": 0
+            },
+            "fuaethercabinet": {
+              "fuaethercabinet.object.json": 0
+            },
+            "fuaethercabinet2": {
+              "fuaethercabinet2.object.json": 0
+            },
+            "fuaethercabinet3": {
+              "fuaethercabinet3.object.json": 0
+            },
+            "fuaetherchair": {
+              "fuaetherchair.object.json": 0
+            },
+            "fuaetherchair2": {
+              "fuaetherchair2.object.json": 0
+            },
+            "fuaetherchest": {
+              "fuaetherchest.object.json": 0
+            },
+            "fuaetherclock": {
+              "fuaetherclock.object.json": 0
+            },
+            "fuaetherconsole": {
+              "fuaetherconsole.object.json": 0
+            },
+            "fuaetherdesk": {
+              "fuaetherdesk.object.json": 0
+            },
+            "fuaetherdoor": {
+              "fuaetherdoor.object.json": 0
+            },
+            "fuaetherdoor2": {
+              "fuaetherdoor2.object.json": 0
+            },
+            "fuaetherdoor3": {
+              "fuaetherdoor3.object.json": 0
+            },
+            "fuaetherdoor4": {
+              "fuaetherdoor4.object.json": 0
+            },
+            "fuaetherfridge": {
+              "fuaetherfridge.object.json": 0
+            },
+            "fuaetherjar": {
+              "fuaetherjar.object.json": 0
+            },
+            "fuaetherlamp": {
+              "fuaetherlamp.object.json": 0
+            },
+            "fuaetherlampsmall": {
+              "fuaetherlampsmall.object.json": 0
+            },
+            "fuaetherlavalamp": {
+              "fuaetherlavalamp.object.json": 0
+            },
+            "fuaethermonitor": {
+              "fuaethermonitor.object.json": 0
+            },
+            "fuaethertable": {
+              "fuaethertable.object.json": 0
+            },
+            "fuaethervending": {
+              "fuaethervending.object.json": 0
+            },
+            "fuaetherwallclock": {
+              "fuaetherwallclock.object.json": 0
+            },
+            "fuaetherwallconsole": {
+              "fuaetherwallconsole.object.json": 0
+            },
+            "fuaetherwalllamp": {
+              "fuaetherwalllamp.object.json": 0
+            },
+            "fuaetherwallmonitor": {
+              "fuaetherwallmonitor.object.json": 0
+            },
+            "shared_fuaether": {
+              "shared_monitor.object.json": 0
+            },
+            "shared_fuaetherbowl": {
+              "shared_fuaetherbowl.json": 0
+            },
+            "shared_fuaetherurn": {
+              "shared_fuaetherurn.json": 0
+            }
+          },
+          "aetherstarfurniture": {
+            "fuaetherstarbed": {
+              "fuaetherstarbed.object.json": 0
+            },
+            "fuaetherstarbookcase": {
+              "fuaetherbookcase.object.json": 0
+            },
+            "fuaetherstarcabinet": {
+              "fuaetherstarcabinet.object.json": 0
+            },
+            "fuaetherstarcabinet2": {
+              "fuaetherstarcabinet2.object.json": 0
+            },
+            "fuaetherstarcabinet3": {
+              "fuaetherstarcabinet3.object.json": 0
+            },
+            "fuaetherstarchair": {
+              "fuaetherstarchair.object.json": 0
+            },
+            "fuaetherstarchair2": {
+              "fuaetherstarchair2.object.json": 0
+            },
+            "fuaetherstarchest": {
+              "fuaetherstarchest.object.json": 0
+            },
+            "fuaetherstarclock": {
+              "fuaetherstarclock.object.json": 0
+            },
+            "fuaetherstardesk": {
+              "fuaetherstardesk.object.json": 0
+            },
+            "fuaetherstarfridge": {
+              "fuaetherstarfridge.object.json": 0
+            },
+            "fuaetherstartable": {
+              "fuaetherstartable.object.json": 0
+            },
+            "fuaetherstarvending": {
+              "fuaetherstarvending.object.json": 0
+            }
+          },
+          "shared_rfurniture": {
+            "shared_fuaether": {
+              "shared_rbed.object.json": 0,
+              "shared_rcabinet.object.json": 0,
+              "shared_rchair.object.json": 0,
+              "shared_rchair2.object.json": 0,
+              "shared_rchest.object.json": 0,
+              "shared_rclock.object.json": 0,
+              "shared_rdesk.object.json": 0,
+              "shared_rfridge.object.json": 0,
+              "shared_rtable.object.json": 0,
+              "shared_rvending.object.json": 0
+            },
+            "shared_rbookcase": {
+              "fuaetherbookcase.object.json": 0
+            },
+            "shared_rcabinet2": {
+              "shared_rcabinet2.object.json": 0
+            },
+            "shared_rcabinet3": {
+              "shared_rcabinet3.object.json": 0
+            }
+          }
+        },
         "amber": {
           "amberbed.object.json": 2,
           "amberchair.object.json": 2,
@@ -9625,6 +9826,8 @@
     "shared_ers.json": 4,
     "shared_fancywoodstairs.mat.json": 1,
     "shared_fig.json": 1,
+    "shared_fuaetherdustplatform.mat.json": 0,
+    "shared_fuaetherplatform.mat.json": 0,
     "shared_greg.json": 1,
     "shared_hellfire.json": 1,
     "shared_honeyplatform.mat.json": 1,
@@ -9871,6 +10074,7 @@
             "morphitesetbonuseffect2.statuseffect.json": 1,
             "mutavisksetbonuseffect.statuseffect.json": 1,
             "nautilussetbonuseffect.statuseffect.json": 0,
+            "necrosetbonuseffect.statuseffect.json": 0,
             "neuromancersetbonuseffect.statuseffect.json": 1,
             "nomadsetbonuseffect.statuseffect.json": 0,
             "operativesetbonuseffect.statuseffect.json": 1,
@@ -9997,6 +10201,9 @@
           "glow": {
             "shared_.statuseffect.json": 1
           },
+          "goldmead": {
+            "goldmead.statuseffect.json": 0
+          },
           "healthrestorepercentage": {
             "heal_50.statuseffect.json": 1
           },
@@ -10071,6 +10278,12 @@
             "percenthealthboost50.statuseffect.json": 0,
             "shared_negativehealth.json": 0,
             "shared_percenthealthboost.json": 0
+          },
+          "popmead": {
+            "larvalmead.statuseffect.json": 0
+          },
+          "radiendirt": {
+            "radiendirt.statuseffect.json": 0
           },
           "stealthed": {
             "stealthed.animation.json": 1
@@ -10189,6 +10402,7 @@
         },
         "fu_weaponeffects": {
           "Skittles": {
+            "marvinSkittles.statuseffect.json": 0,
             "timefreezeSkittles.statuseffect.json": 0
           },
           "bleeding": {
@@ -10317,13 +10531,15 @@
         "fu_weathereffects.json": 2,
         "heal": {
           "heal_long4.statuseffect.json": 1,
+          "heal_radien1.statuseffect.json": 0,
           "heal_tier0.statuseffect.json": 1,
           "heal_tier1.statuseffect.json": 1,
           "heal_tier2.statuseffect.json": 1,
           "heal_tier3.statuseffect.json": 1,
           "heal_tier4.statuseffect.json": 1,
           "heal_tier5.statuseffect.json": 1,
-          "heal_tier6.statuseffect.json": 1,
+          "heal_tier6.statuseffect.json": 0,
+          "heal_tier7.statuseffect.json": 0,
           "honeysilkheal.statuseffect.json": 1,
           "mutaviskheal.statuseffect.json": 1
         },
@@ -10497,13 +10713,16 @@
           "shared_.statuseffect.json": 2
         },
         "timefreeze": {
-          "timefreezeNoVFX.statuseffect.json": 0
+          "timefreeze2.statuseffect.json": 0
         },
         "wet": {
           "wet.statuseffect.json": 1
         }
       },
       "effects.json": 2
+    },
+    "stickynotepadfu": {
+      "shared_stickynotepadfu..json": 0
     },
     "tech": {
       "dash": {
