@@ -1,5 +1,5 @@
 ### Starbound Frackin' Universe Simplified Chinese Translation Project
-* Project：Sky_Orc_Mm
+* Project：ProjectSky
 * Credit：TODO
 
 #### 停止维护
@@ -15,6 +15,8 @@
 * 目前只有FAST分支为活动状态，如果有意帮助翻译请使用 FAST 分支文本进行翻译，并在 FAST 分支更新前提交翻译的文本。每日自动更新完成后可将最新的更改并入自己的分支。
 * 具体流程就是 Fork 项目到自己的仓库进行翻译编辑，编辑完成提交 Pull requests 进行合并，完成后重新 Fork 将文本更新至最新状态，如此重复即可。
 * 如果你觉得每次都要 Fork 很麻烦，告诉我即可，我会将你添加到协作者。
+* 在线编辑（此方法非常方便，强烈推荐，编辑器带有语法检查，可以防止语法错误）
+* [在线编辑](https://gitlab.imsky.cc:666/-/ide/project/ProjectSky/FrackinUniverse-sChinese-Project/edit/FAST)
 
 ###### 链接信息
 * [最新版本下载](https://github.com/ProjectSky/FrackinUniverse-sChinese-Project/releases)

@@ -2646,7 +2646,12 @@
     "/shortdescription": "texts/items/active/weapons/shared_spear/shared_drillspear.json"
   },
   "items/active/weapons/other/skittlegun/skittlegun.activeitem": {
-    "/altAbility/name": "texts/wide_spread_fields.json"
+    "/altAbility/name": "texts/wide_spread_fields.json",
+    "/shortdescription": "texts/items/active/weapons/other/skittlegun/shared_.activeitem.json"
+  },
+  "items/active/weapons/other/skittlegun/skittlegunfake.activeitem": {
+    "/altAbility/name": "texts/wide_spread_fields.json",
+    "/shortdescription": "texts/items/active/weapons/other/skittlegun/shared_.activeitem.json"
   },
   "items/active/weapons/other/tentaclegun/shadowtentaclegun.activeitem": {
     "/altAbility/name": "texts/items/active/weapons/other/tentaclegun/shared_shadowtentaclegun.json",
@@ -5222,6 +5227,14 @@
     "/description": "texts/materials/shared_fuaetherbrick2.mat.json",
     "/shortdescription": "texts/materials/shared_fuaetherbrick2.mat.json"
   },
+  "items/materials/fuaetherdustbricks.matitem": {
+    "/description": "texts/materials/shared_fuaetherdustbricks.mat.json",
+    "/shortdescription": "texts/materials/shared_fuaetherdustbricks.mat.json"
+  },
+  "items/materials/fuaetherdustbricks2.matitem": {
+    "/description": "texts/materials/shared_fuaetherdustbricks2.mat.json",
+    "/shortdescription": "texts/materials/shared_fuaetherdustbricks2.mat.json"
+  },
   "items/materials/fuaetherdustplatform.matitem": {
     "/description": "texts/items/materials/shared_platform.matitem.json",
     "/shortdescription": "texts/shared_fuaetherdustplatform.mat.json"
@@ -5296,6 +5309,21 @@
   },
   "items/materials/fusavannahgrass.matitem": {
     "/description": "texts/materials/shared_fusavannahgrass.mat.json"
+  },
+  "items/materials/fuslopedaetherglass.matitem": {
+    "/description": "texts/materials.json",
+    "/shortdescription": "texts/materials/shared_fuslopedaetherglass.json"
+  },
+  "items/materials/fuslopedaetherglass2.matitem": {
+    "/description": "texts/materials.json"
+  },
+  "items/materials/fuslopedaetherpanel.matitem": {
+    "/description": "texts/materials/shared_fuslopedaetherpanel.json",
+    "/shortdescription": "texts/materials/shared_fuslopedaetherpanel.mat.json"
+  },
+  "items/materials/fuslopedaetherpanel2.matitem": {
+    "/description": "texts/materials/shared_fuslopedaetherpanel.json",
+    "/shortdescription": "texts/materials/shared_fuslopedaetherpanel2.mat.json"
   },
   "items/materials/fuslopedblackglass.matitem": {
     "/description": "texts/materials/shared_fuslopedblackglass.mat.json",
@@ -5885,22 +5913,6 @@
   },
   "monsters/bees/minerbee/minerbee.monstertype": {
     "/description": "texts/bees/shared_bee/shared_miner.json"
-  },
-  "monsters/boss/fubahamut/fubahamut.monstertype": {
-    "/description": "texts/monsters/boss/fubahamut/shared_.monstertype.json",
-    "/shortdescription": "texts/monsters/boss/fubahamut/shared_.monstertype.json"
-  },
-  "monsters/boss/fubahamut/fubahamut2.monstertype": {
-    "/description": "texts/monsters/boss/fubahamut/shared_.monstertype.json",
-    "/shortdescription": "texts/monsters/boss/fubahamut/shared_.monstertype.json"
-  },
-  "monsters/boss/gorillaking/gorillaking.monstertype": {
-    "/description": "texts/monsters/boss/gorillaking/shared_.monstertype.json",
-    "/shortdescription": "texts/monsters/boss/gorillaking/shared_.monstertype.json"
-  },
-  "monsters/boss/gorillaking/gorillaking2.monstertype": {
-    "/description": "texts/monsters/boss/gorillaking/shared_.monstertype.json",
-    "/shortdescription": "texts/monsters/boss/gorillaking/shared_.monstertype.json"
   },
   "monsters/boss/megaspider/bighairyfrankboss.monstertype": {
     "/description": "texts/monsters/shared_bighairyfrank.json"
@@ -6762,8 +6774,25 @@
   "monsters/walkers/adultpoptop/motherpoptop2.monstertype": {
     "/shortdescription": "texts/monsters/walkers/adultpoptop/shared_motherpoptop.json"
   },
+  "monsters/walkers/adultpoptopish/adultpoptopfire/adultpoptopfire.monstertype": {
+    "/description": "texts/monsters/walkers/adultpoptopish/adultpoptopfire/shared_adultpoptopfire.json"
+  },
+  "monsters/walkers/adultpoptopish/adultpoptopfire/adultpoptopfire2.monstertype": {
+    "/description": "texts/monsters/walkers/adultpoptopish/adultpoptopfire/shared_adultpoptopfire.json"
+  },
+  "monsters/walkers/adultpoptopish/adultpoptopfire/adultpoptopfire3.monstertype": {
+    "/description": "texts/monsters/walkers/adultpoptopish/adultpoptopfire/shared_adultpoptopfire.json"
+  },
   "monsters/walkers/adultpoptopish/adultshadowtop/adultshadowtop.monstertype": {
     "/description": "texts/monsters/walkers/shared_adultpoptop/shared_top.json"
+  },
+  "monsters/walkers/fatalcircuit/fatalcircuit.monstertype": {
+    "/description": "texts/monsters/walkers/fatalcircuit/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/walkers/fatalcircuit/shared_.monstertype.json"
+  },
+  "monsters/walkers/fatalcircuit/gorillaking.monstertype": {
+    "/description": "texts/monsters/walkers/fatalcircuit/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/walkers/fatalcircuit/shared_.monstertype.json"
   },
   "monsters/walkers/fleshleech/fleshleech.monstertype": {
     "/description": "texts/monsters/walkers/fleshleech.json",
@@ -6776,38 +6805,41 @@
   "monsters/walkers/fleshleech/old/fleshleechold.monstertype": {
     "/description": "texts/monsters/walkers/fleshleech.json"
   },
+  "monsters/walkers/furaptors/fubahamut/fubahamut.monstertype": {
+    "/description": "texts/monsters/walkers/furaptors/shared_.monstertype.json"
+  },
   "monsters/walkers/furaptors/furaptor/furaptor.monstertype": {
-    "/description": "texts/monsters/walkers/furaptors/shared_furaptor/shared_.monstertype.json"
+    "/description": "texts/monsters/walkers/furaptors/shared_.monstertype.json"
   },
   "monsters/walkers/furaptors/furaptor10/furaptor10.monstertype": {
-    "/description": "texts/monsters/walkers/furaptors/shared_furaptor/shared_.monstertype.json"
+    "/description": "texts/monsters/walkers/furaptors/shared_.monstertype.json"
   },
   "monsters/walkers/furaptors/furaptor11/furaptor11.monstertype": {
-    "/description": "texts/monsters/walkers/furaptors/shared_furaptor/shared_.monstertype.json"
+    "/description": "texts/monsters/walkers/furaptors/shared_.monstertype.json"
   },
   "monsters/walkers/furaptors/furaptor2/furaptor2.monstertype": {
-    "/description": "texts/monsters/walkers/furaptors/shared_furaptor/shared_.monstertype.json"
+    "/description": "texts/monsters/walkers/furaptors/shared_.monstertype.json"
   },
   "monsters/walkers/furaptors/furaptor3/furaptor3.monstertype": {
-    "/description": "texts/monsters/walkers/furaptors/shared_furaptor/shared_.monstertype.json"
+    "/description": "texts/monsters/walkers/furaptors/shared_.monstertype.json"
   },
   "monsters/walkers/furaptors/furaptor4/furaptor4.monstertype": {
-    "/description": "texts/monsters/walkers/furaptors/shared_furaptor/shared_.monstertype.json"
+    "/description": "texts/monsters/walkers/furaptors/shared_.monstertype.json"
   },
   "monsters/walkers/furaptors/furaptor5/furaptor5.monstertype": {
-    "/description": "texts/monsters/walkers/furaptors/shared_furaptor/shared_.monstertype.json"
+    "/description": "texts/monsters/walkers/furaptors/shared_.monstertype.json"
   },
   "monsters/walkers/furaptors/furaptor6/furaptor6.monstertype": {
-    "/description": "texts/monsters/walkers/furaptors/shared_furaptor/shared_.monstertype.json"
+    "/description": "texts/monsters/walkers/furaptors/shared_.monstertype.json"
   },
   "monsters/walkers/furaptors/furaptor7/furaptor7.monstertype": {
-    "/description": "texts/monsters/walkers/furaptors/shared_furaptor/shared_.monstertype.json"
+    "/description": "texts/monsters/walkers/furaptors/shared_.monstertype.json"
   },
   "monsters/walkers/furaptors/furaptor8/furaptor8.monstertype": {
-    "/description": "texts/monsters/walkers/furaptors/shared_furaptor/shared_.monstertype.json"
+    "/description": "texts/monsters/walkers/furaptors/shared_.monstertype.json"
   },
   "monsters/walkers/furaptors/furaptor9/furaptor9.monstertype": {
-    "/description": "texts/monsters/walkers/furaptors/shared_furaptor/shared_.monstertype.json"
+    "/description": "texts/monsters/walkers/furaptors/shared_.monstertype.json"
   },
   "monsters/walkers/gleapish/glarp/glarp.monstertype": {
     "/description": "texts/monsters/walkers/gleapish/shared_p.monstertype.json"
@@ -6821,33 +6853,11 @@
   "monsters/walkers/golemish/futoxicgolem/futoxicgolem.monstertype": {
     "/description": "texts/monsters/walkers/golemish/shared_golem/shared_golem.monstertype.json"
   },
-  "monsters/walkers/golems/futargolem/futargolem.monstertype": {
-    "/description": "texts/monsters/walkers/golems/shared_targolem/shared_targolem.monstertype.json",
-    "/shortdescription": "texts/monsters/walkers/golems/shared_targolem/shared_targolem.monstertype.json"
-  },
-  "monsters/walkers/golems/magmagolem/magmagolem.monstertype": {
-    "/description": "texts/monsters/walkers/golems/magmagolem/shared_.monstertype.json",
-    "/shortdescription": "texts/monsters/walkers/golems/magmagolem/shared_.monstertype.json"
-  },
-  "monsters/walkers/golems/magmagolem/magmagolem2.monstertype": {
-    "/description": "texts/monsters/walkers/golems/magmagolem/shared_.monstertype.json"
-  },
-  "monsters/walkers/golems/magmagolem/magmagolem3.monstertype": {
-    "/description": "texts/monsters/walkers/golems/magmagolem/shared_.monstertype.json"
-  },
-  "monsters/walkers/golems/magmagolem/magmagolempet.monstertype": {
-    "/description": "texts/monsters/walkers/golems/magmagolem/shared_.monstertype.json",
-    "/shortdescription": "texts/monsters/walkers/golems/magmagolem/shared_.monstertype.json"
-  },
   "monsters/walkers/golems/shadowgolem/shadowgolem.monstertype": {
     "/description": "texts/monsters/walkers/golems/shared_shadowgolem/shared_.monstertype.json"
   },
   "monsters/walkers/golems/shadowgolemmini/shadowgolemmini.monstertype": {
     "/description": "texts/monsters/walkers/golems/shared_shadowgolem/shared_.monstertype.json"
-  },
-  "monsters/walkers/golems/targolem/targolem.monstertype": {
-    "/description": "texts/monsters/walkers/golems/shared_targolem/shared_targolem.monstertype.json",
-    "/shortdescription": "texts/monsters/walkers/golems/shared_targolem/shared_targolem.monstertype.json"
   },
   "monsters/walkers/ixolingish/ixoling2/ixoling2.monstertype": {
     "/description": "texts/monsters/walkers/ixolingish/shared_ixoling/shared_.monstertype.json"
@@ -11951,9 +11961,6 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/biome/heck/hecksign/hecksign.object.json"
   },
-  "objects/castlevania/castlevaniaice.object": {
-    "/shortdescription": "texts/wide_spread_fields.json"
-  },
   "objects/crafting/armory/armory.object": {
     "/description": "texts/objects/crafting/armory/shared_.object.json",
     "/shortdescription": "texts/objects/crafting/armory/shared_.object.json",
@@ -15141,6 +15148,9 @@
   "objects/minibiome/metallic/metallicmachine3.object": {
     "/shortdescription": "texts/shared_lic.json"
   },
+  "objects/minibiome/metallic/metallicmachine4.object": {
+    "/shortdescription": "texts/objects/minibiome.json"
+  },
   "objects/minibiome/metallic/metallicmachine5.object": {
     "/description": "texts/objects/minibiome/metallic/shared_metallicmachine5.json",
     "/shortdescription": "texts/objects/minibiome/metallic/shared_metallicmachine5.json"
@@ -15251,7 +15261,8 @@
     "/shortdescription": "texts/objects/minibiome/penum/shared_penumball.json"
   },
   "objects/minibiome/precursor/precursoraltar/precursoraltar.object": {
-    "/description": "texts/objects/minibiome/precursor/shared_precursor/shared_precursor.json"
+    "/description": "texts/objects/minibiome/precursor/shared_precursor/shared_precursor.json",
+    "/shortdescription": "texts/objects/minibiome.json"
   },
   "objects/minibiome/precursor/precursorantenna/precursorantenna.object": {
     "/description": "texts/objects/minibiome/precursor/shared_precursor/shared_precursor.json",
@@ -20329,6 +20340,12 @@
   "stats/effects/thorns/thornsstranglevinesuper.statuseffect": {
     "/label": "texts/stats/effects/thorns/shared_.statuseffect.json"
   },
+  "stats/effects/timefreeze/timefreeze2.statuseffect": {
+    "/label": "texts/stats/effects/timefreeze/shared_.statuseffect.json"
+  },
+  "stats/effects/timefreeze/timefreezeNoVFX.statuseffect": {
+    "/label": "texts/stats/effects/timefreeze/shared_.statuseffect.json"
+  },
   "stats/effects/waterwalk/waterwalk.animation": {
     "/particleEmitters/statustext/particles/0/particle/text": "texts/wide_spread_fields.json"
   },
@@ -20728,6 +20745,14 @@
     "/description": "texts/materials/shared_fuaetherbrick2.mat.json",
     "/shortdescription": "texts/materials/shared_fuaetherbrick2.mat.json"
   },
+  "tiles/materials/fuaetherdustbricks.material": {
+    "/description": "texts/materials/shared_fuaetherdustbricks.mat.json",
+    "/shortdescription": "texts/materials/shared_fuaetherdustbricks.mat.json"
+  },
+  "tiles/materials/fuaetherdustbricks2.material": {
+    "/description": "texts/materials/shared_fuaetherdustbricks2.mat.json",
+    "/shortdescription": "texts/materials/shared_fuaetherdustbricks2.mat.json"
+  },
   "tiles/materials/fuaetherglass.material": {
     "/description": "texts/materials/shared_fuaetherglass.json",
     "/shortdescription": "texts/materials/shared_fuaetherglass.mat.json"
@@ -20806,6 +20831,22 @@
   },
   "tiles/materials/fusavannahgrass.material": {
     "/description": "texts/materials/shared_fusavannahgrass.mat.json"
+  },
+  "tiles/materials/fuslopedaetherglass.material": {
+    "/description": "texts/materials.json",
+    "/shortdescription": "texts/materials/shared_fuslopedaetherglass.json"
+  },
+  "tiles/materials/fuslopedaetherglass2.material": {
+    "/description": "texts/materials.json",
+    "/shortdescription": "texts/materials/shared_fuslopedaetherglass.json"
+  },
+  "tiles/materials/fuslopedaetherpanel.material": {
+    "/description": "texts/materials/shared_fuslopedaetherpanel.json",
+    "/shortdescription": "texts/materials/shared_fuslopedaetherpanel.mat.json"
+  },
+  "tiles/materials/fuslopedaetherpanel2.material": {
+    "/description": "texts/materials/shared_fuslopedaetherpanel.json",
+    "/shortdescription": "texts/materials/shared_fuslopedaetherpanel2.mat.json"
   },
   "tiles/materials/fuslopedblackglass.material": {
     "/description": "texts/materials/shared_fuslopedblackglass.mat.json",
