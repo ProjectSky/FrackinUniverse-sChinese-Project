@@ -1442,17 +1442,17 @@
     "/reattack/default/default/2": "texts/wide_spread_fields.json"
   },
   "interface/ai/ai.config": {
-    "/crewBreadcrumbText": "texts/interface.json",
+    "/crewBreadcrumbText": "texts/shared_.config.json",
     "/guiConfig/homeBreadcrumb/value": "texts/interface/ai/shared_ai.config.json",
-    "/guiConfig/showCrew/caption": "texts/interface.json",
-    "/guiConfig/showMissions/caption": "texts/interface.json",
-    "/guiConfig/windowtitle/subtitle": "texts/interface.json",
-    "/guiConfig/windowtitle/title": "texts/interface.json"
+    "/guiConfig/showCrew/caption": "texts/shared_.config.json",
+    "/guiConfig/showMissions/caption": "texts/shared_.config.json",
+    "/guiConfig/windowtitle/subtitle": "texts/shared_.config.json",
+    "/guiConfig/windowtitle/title": "texts/interface/ai/shared_ai.config.json"
   },
   "interface/ai/fu_byosai.config": {
     "/gui/homeBreadcrumb/value": "texts/interface/ai/shared_ai.config.json",
-    "/gui/windowtitle/subtitle": "texts/interface.json",
-    "/gui/windowtitle/title": "texts/interface.json"
+    "/gui/windowtitle/subtitle": "texts/shared_.config.json",
+    "/gui/windowtitle/title": "texts/interface/ai/shared_ai.config.json"
   },
   "interface/bees/alveary/alveary.config": {
     "/gui/count/value": "texts/interface.json",
@@ -1519,7 +1519,7 @@
     "/displayWeathers/gravrain/displayName": "texts/wide_spread_fields.json",
     "/displayWeathers/snow/displayName": "texts/wide_spread_fields.json",
     "/gui/editBookmarkFrame/children/close/caption": "texts/interface.json",
-    "/gui/editBookmarkFrame/children/ok/caption": "texts/interface.json",
+    "/gui/editBookmarkFrame/children/ok/caption": "texts/shared_t.config.json",
     "/gui/jumpDialog/children/cancel/caption": "texts/interface.json",
     "/planetTypeNames/aethersea": "texts/wide_spread_fields.json",
     "/planetTypeNames/arboreal": "texts/wide_spread_fields.json",
@@ -1710,10 +1710,7 @@
     "/gui/scrollAreaCustom/children/customCollectionList/schema/listTemplate/collectionName/value": "texts/wide_spread_fields.json"
   },
   "interface/scripted/fm_musicplayer/fm_musicplayer.config": {
-    "/gui/filter/hint": "texts/wide_spread_fields.json",
-    "/gui/scrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
-    "/gui/scrollArea/children/itemList/schema/listTemplate/priceLabel/value": "texts/wide_spread_fields.json",
-    "/gui/windowtitle/title": "texts/fm_musicplayer/shared_fm_musicplayer..json"
+    "/gui/search/hint": "texts/wide_spread_fields.json"
   },
   "interface/scripted/fu_matmodplacer/fu_matmodplacer.config": {
     "/gui/filter/hint": "texts/wide_spread_fields.json",
@@ -1734,28 +1731,6 @@
     "/matMods/64/description": "texts/shared_matmod.json",
     "/matMods/66/description": "texts/shared_matmod.json",
     "/matMods/99/description": "texts/shared_matmod.json"
-  },
-  "interface/scripted/fu_researchtreegui/researchTreeGUI.config": {
-    "/gui/researchButton/caption": "texts/shared_res.json",
-    "/gui/title/value": "texts/interface/scripted/shared_.config.json"
-  },
-  "interface/scripted/fu_sail/customSail.config": {
-    "/gui/buttonCrew/caption": "texts/interface.json",
-    "/gui/buttonMissions/caption": "texts/interface.json",
-    "/gui/windowtitle/subtitle": "texts/interface.json",
-    "/gui/windowtitle/title": "texts/interface.json"
-  },
-  "interface/scripted/fu_tutorialQuestList/fu_tutorialQuestList.config": {
-    "/gui/questButton/caption": "texts/interface.json",
-    "/gui/questTitle/value": "texts/interface/scripted/shared_.config.json",
-    "/gui/textScrollArea/children/questText/value": "texts/interface/scripted/shared_.config.json",
-    "/gui/textScrollArea/children/rewardList/schema/listTemplate/rewardsPixels/value": "texts/wide_spread_fields.json"
-  },
-  "interface/scripted/fu_tutorialQuestList/questData.config": {
-    "/strings/questlines/fu_battle/title": "texts/wide_spread_fields.json"
-  },
-  "interface/scripted/fu_updateInfoWindow/updateInfoWindow.config": {
-    "/gui/textScrollBox/children/text/value": "texts/interface/scripted/shared_.config.json"
   },
   "interface/scripted/logicgates/3statecyclerGUI.config": {
     "/gui/inputLeft/hint": "texts/interface/shared_.config.json",
@@ -1778,7 +1753,7 @@
     "/gui/goodsTradeList/children/itemList/schema/listTemplate/buyButton/caption": "texts/shared_tation/shared_config.json",
     "/gui/shopBuyButton/caption": "texts/shared_tation/shared_config.json",
     "/gui/shopTotalPrice/value": "texts/wide_spread_fields.json",
-    "/gui/text/value": "texts/interface/scripted/shared_.config.json"
+    "/gui/text/value": "texts/wide_spread_fields.json"
   },
   "interface/scripted/statWindow/extraStatsWindow.config": {
     "/gui/breathMaxTime/value": "texts/interface/shared_.config.json",
@@ -5412,6 +5387,10 @@
   "items/materials/fusavannahgrass.matitem": {
     "/description": "texts/materials/shared_fusavannahgrass.mat.json"
   },
+  "items/materials/fuslopedaetherdustpanel.matitem": {
+    "/description": "texts/materials/shared_fuslopedaether.json",
+    "/shortdescription": "texts/materials/shared_fuslopedaetherdustpanel.mat.json"
+  },
   "items/materials/fuslopedaetherglass.matitem": {
     "/description": "texts/materials.json",
     "/shortdescription": "texts/materials/shared_fuslopedaetherglass.json"
@@ -5420,11 +5399,11 @@
     "/description": "texts/materials.json"
   },
   "items/materials/fuslopedaetherpanel.matitem": {
-    "/description": "texts/materials/shared_fuslopedaetherpanel.json",
+    "/description": "texts/materials/shared_fuslopedaether.json",
     "/shortdescription": "texts/materials/shared_fuslopedaetherpanel.mat.json"
   },
   "items/materials/fuslopedaetherpanel2.matitem": {
-    "/description": "texts/materials/shared_fuslopedaetherpanel.json",
+    "/description": "texts/materials/shared_fuslopedaether.json",
     "/shortdescription": "texts/materials/shared_fuslopedaetherpanel2.mat.json"
   },
   "items/materials/fuslopedblackglass.matitem": {
@@ -9332,6 +9311,9 @@
     "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/2/glitchEmotedText": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/3/glitchEmote": "texts/glitchEmotes.json",
     "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/3/glitchEmotedText": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/1": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/2": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/3": "texts/wide_spread_fields.json",
     "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0/glitchEmote": "texts/glitchEmotes.json",
     "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0/glitchEmotedText": "texts/npcs/crew/crewmemberscuba.npctype.json"
   },
@@ -13844,9 +13826,6 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/generic/flagkirhos/flagkirhos.object.json"
   },
-  "objects/generic/fm_musicplayer/fm_musicplayer.object": {
-    "/shortdescription": "texts/fm_musicplayer/shared_fm_musicplayer..json"
-  },
   "objects/generic/fu_Bartable/fu_Bartable.object": {
     "/shortdescription": "texts/objects/shared_.object.json"
   },
@@ -16922,7 +16901,7 @@
     "/humanDescription": "texts/objects/ship/shared_techstation/shared_techstation.json",
     "/hylotlDescription": "texts/objects/ship/shared_techstation/shared_techstation.json",
     "/novakidDescription": "texts/objects/ship/fu_byostechstation/shared_fu_byostechstation.json",
-    "/shortdescription": "texts/objects/ship/shared_fu_byostechstation/shared_fu_byostechstation.json"
+    "/shortdescription": "texts/wide_spread_fields.json"
   },
   "objects/ship/fu_byostechstation/fu_byostechstationdeco.object": {
     "/apexDescription": "texts/objects/ship/shared_techstation/shared_techstation.json",
@@ -16951,7 +16930,7 @@
     "/humanDescription": "texts/objects/ship/shared_techstation/shared_techstationTier0.object.json",
     "/hylotlDescription": "texts/objects/ship/shared_techstation/shared_techstationTier0.object.json",
     "/novakidDescription": "texts/objects/ship/shared_techstation/shared_techstationTier0.object.json",
-    "/shortdescription": "texts/objects/ship/shared_fu_byostechstation/shared_fu_byostechstation.json"
+    "/shortdescription": "texts/wide_spread_fields.json"
   },
   "objects/ship/fu_byosteleporter/fu_byosteleporter.object": {
     "/apexDescription": "texts/objects/ship/fu_byosteleporter/shared_fu_byosteleporter.json",
@@ -17495,6 +17474,12 @@
   "objects/teleporter/crossteleporter/crossteleporter.object": {
     "/description": "texts/objects/shared_teleporter.json"
   },
+  "objects/teleporter/fuaetherdustteleporter/fuaetherdustteleporter.object": {
+    "/description": "texts/objects/shared_teleporter.json"
+  },
+  "objects/teleporter/fuaetherteleporter/fuaetherteleporter.object": {
+    "/description": "texts/objects/shared_teleporter.json"
+  },
   "objects/teleporter/futeleporter/futeleporter.object": {
     "/description": "texts/objects/shared_teleporter.json"
   },
@@ -17554,7 +17539,7 @@
     "/description": "texts/objects/vanity/aether/aetherfurniture/shared_fuaether/shared_monitor.object.json"
   },
   "objects/vanity/aether/aetherfurniture/fuaethertable/fuaethertable.object": {
-    "/description": "texts/objects/vanity/aether/shared_rfurniture/shared_fuaether/shared_rtable.object.json"
+    "/description": "texts/objects/vanity/shared_table.json"
   },
   "objects/vanity/aether/aetherfurniture/fuaetherurn/fuaetherurn.object": {
     "/description": "texts/objects/vanity/aether/aetherfurniture/shared_fuaetherurn/shared_fuaetherurn.json",
@@ -17609,7 +17594,7 @@
     "/description": "texts/objects/vanity/aether/shared_rfurniture/shared_fuaether/shared_rfridge.object.json"
   },
   "objects/vanity/aether/aetherstarfurniture/fuaetherstartable/fuaetherstartable.object": {
-    "/description": "texts/objects/vanity/aether/shared_rfurniture/shared_fuaether/shared_rtable.object.json"
+    "/description": "texts/objects/vanity/shared_table.json"
   },
   "objects/vanity/aether/aetherstarfurniture/fuaetherstarvending/fuaetherstarvending.object": {
     "/description": "texts/objects/vanity/aether/shared_rfurniture/shared_fuaether/shared_rvending.object.json",
@@ -17684,7 +17669,7 @@
   "objects/vanity/cute/cutedrape/cutedrape1.object": {
     "/apexDescription": "texts/objects/vanity/cute/shared_cute/shared_.object.json",
     "/avianDescription": "texts/objects/vanity/cute/shared_cute/shared_.object.json",
-    "/floranDescription": "texts/objects/vanity/cute/shared_cute/shared_.object.json",
+    "/floranDescription": "texts/objects/vanity/cute/cutedrape/shared_cutedrape.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/vanity/cute/shared_cute/shared_.object.json",
     "/humanDescription": "texts/objects/vanity/cute/shared_cute/shared_.object.json",
@@ -17694,7 +17679,7 @@
   "objects/vanity/cute/cutedrape/cutedrape2.object": {
     "/apexDescription": "texts/objects/vanity/cute/shared_cute/shared_.object.json",
     "/avianDescription": "texts/objects/vanity/cute/shared_cute/shared_.object.json",
-    "/floranDescription": "texts/objects/vanity/cute/shared_cute/shared_.object.json",
+    "/floranDescription": "texts/objects/vanity/cute/cutedrape/shared_cutedrape.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/vanity/cute/shared_cute/shared_.object.json",
     "/humanDescription": "texts/objects/vanity/cute/shared_cute/shared_.object.json",
@@ -17722,7 +17707,7 @@
   "objects/vanity/cute/cuteribbons/cuteribbons1.object": {
     "/apexDescription": "texts/objects/vanity/cute/shared_cute/shared_.object.json",
     "/avianDescription": "texts/objects/vanity/cute/shared_cute/shared_.object.json",
-    "/floranDescription": "texts/objects/vanity/cute/shared_cute/shared_.object.json",
+    "/floranDescription": "texts/objects/vanity/cute/cuteribbons/shared_cuteribbons.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/vanity/cute/shared_cute/shared_.object.json",
     "/humanDescription": "texts/objects/vanity/cute/shared_cute/shared_.object.json",
@@ -17732,7 +17717,7 @@
   "objects/vanity/cute/cuteribbons/cuteribbons2.object": {
     "/apexDescription": "texts/objects/vanity/cute/shared_cute/shared_.object.json",
     "/avianDescription": "texts/objects/vanity/cute/shared_cute/shared_.object.json",
-    "/floranDescription": "texts/objects/vanity/cute/shared_cute/shared_.object.json",
+    "/floranDescription": "texts/objects/vanity/cute/cuteribbons/shared_cuteribbons.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/vanity/cute/shared_cute/shared_.object.json",
     "/humanDescription": "texts/objects/vanity/cute/shared_cute/shared_.object.json",
@@ -17740,35 +17725,49 @@
     "/novakidDescription": "texts/objects/vanity/cute/shared_cute/shared_.object.json",
     "/shortdescription": "texts/shared_cute/shared_cute.json"
   },
-  "objects/vanity/cute/cutestool/cutestool.object": {
+  "objects/vanity/cute/cutesidetable/cutesidetable.object": {
+    "/description": "texts/objects/vanity/shared_table.json",
+    "/shortdescription": "texts/objects/vanity/cute/shared_etable/shared_etable.object.json"
+  },
+  "objects/vanity/cute/cutesofa/cutesofa.object": {
+    "/apexDescription": "texts/objects/vanity/cute/cutesofa/shared_cutesofa.json",
+    "/avianDescription": "texts/objects/vanity/cute/cutesofa/shared_cutesofa.json",
+    "/floranDescription": "texts/objects/vanity/cute/cutesofa/shared_cutesofa.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/vanity/cute/cutestool/cutestool.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/vanity/cute/cutesofa/shared_cutesofa.json",
+    "/humanDescription": "texts/objects/vanity/cute/cutesofa/shared_cutesofa.json",
+    "/hylotlDescription": "texts/objects/vanity/cute/cutesofa/shared_cutesofa.json",
+    "/novakidDescription": "texts/objects/vanity/cute/cutesofa/shared_cutesofa.json"
+  },
+  "objects/vanity/cute/cutesofa/cutesofa2.object": {
+    "/apexDescription": "texts/objects/vanity/cute/cutesofa/shared_cutesofa.json",
+    "/avianDescription": "texts/objects/vanity/cute/cutesofa/shared_cutesofa.json",
+    "/floranDescription": "texts/objects/vanity/cute/cutesofa/shared_cutesofa.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/vanity/cute/cutesofa/shared_cutesofa.json",
+    "/humanDescription": "texts/objects/vanity/cute/cutesofa/shared_cutesofa.json",
+    "/hylotlDescription": "texts/objects/vanity/cute/cutesofa/shared_cutesofa.json",
+    "/novakidDescription": "texts/objects/vanity/cute/cutesofa/shared_cutesofa.json"
   },
   "objects/vanity/cute/cutesupport/cutesupport.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/vanity/cute/cutesupport/cutesupport.object.json"
   },
   "objects/vanity/cute/cutetable/cutetable.object": {
-    "/apexDescription": "texts/objects/vanity/cute/shared_cutet/shared_table.object.json",
-    "/avianDescription": "texts/objects/vanity/cute/shared_cutet/shared_table.object.json",
     "/description": "texts/objects/vanity/cute/shared_cutet/shared_table.object.json",
-    "/floranDescription": "texts/objects/vanity/cute/shared_cutet/shared_table.object.json",
-    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/vanity/cute/shared_cutet/shared_table.object.json",
-    "/humanDescription": "texts/objects/vanity/cute/shared_cutet/shared_table.object.json",
-    "/hylotlDescription": "texts/objects/vanity/cute/shared_cutet/shared_table.object.json",
-    "/novakidDescription": "texts/objects/vanity/cute/shared_cutet/shared_table.object.json"
+    "/shortdescription": "texts/objects/vanity/cute/shared_etable/shared_etable.object.json"
   },
   "objects/vanity/cute/cuteteatable/cuteteatable.object": {
-    "/apexDescription": "texts/objects/vanity/cute/shared_cutet/shared_table.object.json",
-    "/avianDescription": "texts/objects/vanity/cute/shared_cutet/shared_table.object.json",
-    "/description": "texts/objects/vanity/cute/shared_cutet/shared_table.object.json",
-    "/floranDescription": "texts/objects/vanity/cute/shared_cutet/shared_table.object.json",
-    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/vanity/cute/shared_cutet/shared_table.object.json",
-    "/humanDescription": "texts/objects/vanity/cute/shared_cutet/shared_table.object.json",
-    "/hylotlDescription": "texts/objects/vanity/cute/shared_cutet/shared_table.object.json",
-    "/novakidDescription": "texts/objects/vanity/cute/shared_cutet/shared_table.object.json"
+    "/description": "texts/objects/vanity/cute/shared_cutet/shared_table.object.json"
+  },
+  "objects/vanity/cute/cutevase/cutevase1.object": {
+    "/shortdescription": "texts/objects/vanity/cute/cutevase/shared_cutevase.json"
+  },
+  "objects/vanity/cute/cutevase/cutevase2.object": {
+    "/shortdescription": "texts/objects/vanity/cute/cutevase/shared_cutevase.json"
+  },
+  "objects/vanity/cute/cutevase/cutevase3.object": {
+    "/shortdescription": "texts/objects/vanity/cute/cutevase/shared_cutevase.json"
   },
   "objects/vanity/lights/biolights/ff_biolight1.object": {
     "/description": "texts/objects/vanity/lights/shared_lights/shared_.object.json",
@@ -20716,40 +20715,17 @@
   "tech/items/longjump4.item": {
     "/description": "texts/tech/items/shared_longjump.json"
   },
-  "tech/jump/fuwalljump.tech": {
-    "/description": "texts/tech/jump/shared_fuwalljump.json"
-  },
-  "tech/jump/fuwalljump2.tech": {
-    "/description": "texts/tech/jump/shared_fuwalljump.json"
-  },
-  "tech/jump/fuwalljump3.tech": {
-    "/description": "texts/tech/jump/shared_fuwalljump.json"
-  },
   "tech/jump/longjump3.tech": {
     "/shortDescription": "texts/shared_jump.json"
   },
   "tech/jump/quintjump.tech": {
     "/shortDescription": "texts/shared_jump.json"
   },
-  "tech/jump/rocketboots/rocketboots.tech": {
-    "/description": "texts/tech/jump/rocketboots/shared_rocketboots.json"
-  },
-  "tech/jump/rocketboots/rocketboots2.tech": {
-    "/description": "texts/tech/jump/rocketboots/shared_rocketboots.json"
-  },
   "tech/other/physicsfield.tech": {
-    "/description": "texts/tech/other/shared_physicsfield.json",
     "/shortDescription": "texts/tech/other/shared_physicsfield.json"
   },
   "tech/other/physicsfield1.tech": {
-    "/description": "texts/tech/other/shared_physicsfield.json",
     "/shortDescription": "texts/tech/other/shared_physicsfield.json"
-  },
-  "tech/other/physicsfield2.tech": {
-    "/description": "texts/tech/other/shared_physicsfield.json"
-  },
-  "tech/other/physicsfield3.tech": {
-    "/description": "texts/tech/other/shared_physicsfield.json"
   },
   "tiles/materials/aegisaltcrystal.material": {
     "/description": "texts/tiles/materials/shared_.material.json",
@@ -21154,6 +21130,10 @@
   "tiles/materials/fusavannahgrass.material": {
     "/description": "texts/materials/shared_fusavannahgrass.mat.json"
   },
+  "tiles/materials/fuslopedaetherdustpanel.material": {
+    "/description": "texts/materials/shared_fuslopedaether.json",
+    "/shortdescription": "texts/materials/shared_fuslopedaetherdustpanel.mat.json"
+  },
   "tiles/materials/fuslopedaetherglass.material": {
     "/description": "texts/materials.json",
     "/shortdescription": "texts/materials/shared_fuslopedaetherglass.json"
@@ -21163,11 +21143,11 @@
     "/shortdescription": "texts/materials/shared_fuslopedaetherglass.json"
   },
   "tiles/materials/fuslopedaetherpanel.material": {
-    "/description": "texts/materials/shared_fuslopedaetherpanel.json",
+    "/description": "texts/materials/shared_fuslopedaether.json",
     "/shortdescription": "texts/materials/shared_fuslopedaetherpanel.mat.json"
   },
   "tiles/materials/fuslopedaetherpanel2.material": {
-    "/description": "texts/materials/shared_fuslopedaetherpanel.json",
+    "/description": "texts/materials/shared_fuslopedaether.json",
     "/shortdescription": "texts/materials/shared_fuslopedaetherpanel2.mat.json"
   },
   "tiles/materials/fuslopedblackglass.material": {
@@ -22261,5 +22241,45 @@
   "tiles/platforms/redhoneyplatform.material": {
     "/description": "texts/tiles/platforms/shared_honeyplatform.material.json",
     "/shortdescription": "texts/shared_redhoneyplatform.mat.json"
+  },
+  "zb/newSail/data.config": {
+    "/GUI/subtitle": "texts/shared_.config.json",
+    "/GUI/title": "texts/wide_spread_fields.json"
+  },
+  "zb/newSail/newSail.config": {
+    "/gui/buttonCrew/caption": "texts/shared_.config.json",
+    "/gui/buttonMissions/caption": "texts/shared_.config.json"
+  },
+  "zb/questList/data.config": {
+    "/strings/questlines/fu_battle/title": "texts/wide_spread_fields.json"
+  },
+  "zb/questList/questList.config": {
+    "/gui/questButton/caption": "texts/shared_t.config.json",
+    "/gui/questTitle/value": "texts/wide_spread_fields.json",
+    "/gui/textScrollArea/children/questText/value": "texts/wide_spread_fields.json",
+    "/gui/textScrollArea/children/rewardList/schema/listTemplate/rewardsPixels/value": "texts/wide_spread_fields.json"
+  },
+  "zb/researchTree/researchTree.config": {
+    "/gui/researchButton/caption": "texts/shared_res.json",
+    "/gui/title/value": "texts/wide_spread_fields.json"
+  },
+  "zb/updateInfoWindow/updateInfoWindow.config": {
+    "/gui/buttonChangelog/caption": "texts/zb/updateInfoWindow/shared_updateInfoWindow.json",
+    "/gui/buttonCredits/caption": "texts/zb/updateInfoWindow/shared_updateInfoWindow.json",
+    "/gui/buttonInfo/caption": "texts/zb/updateInfoWindow/shared_updateInfoWindow.json",
+    "/gui/close/caption": "texts/zb/updateInfoWindow/shared_updateInfoWindow.json",
+    "/gui/textScrollBox/children/text/value": "texts/wide_spread_fields.json",
+    "/gui/version/value": "texts/zb/updateInfoWindow/shared_updateInfoWindow.json"
+  },
+  "zb/updateInfoWindow/updateInfoWindowError.config": {
+    "/gui/close/caption": "texts/zb/updateInfoWindow/shared_updateInfoWindow.json",
+    "/gui/textScrollBox/children/text/value": "texts/wide_spread_fields.json"
+  },
+  "zb/updateInfoWindow/updateInfoWindow_playerinvoked.config": {
+    "/gui/buttonChangelog/caption": "texts/zb/updateInfoWindow/shared_updateInfoWindow.json",
+    "/gui/buttonCredits/caption": "texts/zb/updateInfoWindow/shared_updateInfoWindow.json",
+    "/gui/buttonInfo/caption": "texts/zb/updateInfoWindow/shared_updateInfoWindow.json",
+    "/gui/textScrollBox/children/text/value": "texts/wide_spread_fields.json",
+    "/gui/version/value": "texts/zb/updateInfoWindow/shared_updateInfoWindow.json"
   }
 }
