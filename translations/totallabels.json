@@ -1,6 +1,15 @@
 {
   "texts": {
     "a_notyetadded": {
+      "ship_objects": {
+        "objects": {
+          "ship": {
+            "tw_hylotltechstation": {
+              "tw_hylotltechstation.object.json": 3
+            }
+          }
+        }
+      },
       "tiles": {
         "dark": {
           "shared_darkcrosshatch.mat.json": 1,
@@ -324,6 +333,7 @@
         "random11.codex.json": 3,
         "random12.codex.json": 6,
         "random13.codex.json": 4,
+        "random14.codex.json": 8,
         "random2.codex.json": 3,
         "random3.codex.json": 4,
         "random4.codex.json": 4,
@@ -569,7 +579,7 @@
       "towndrunk.config.json": 98
     },
     "generic.json": 1,
-    "glitchEmotes.json": 194,
+    "glitchEmotes.json": 197,
     "interface": {
       "ai": {
         "ai.config.json": 10,
@@ -619,7 +629,7 @@
           "collectionsgui.config.json": 5
         },
         "fm_musicplayer": {
-          "fm_musicplayer.config.json": 2
+          "fm_musicplayer.config.json": 5
         },
         "fu_craftinfo": {
           "fu_craftinfo.config.json": 8
@@ -645,7 +655,7 @@
         "sbvn": {
           "games": {
             "cthululove": {
-              "deepone.sbvn.json": 168
+              "deepone.sbvn.json": 167
             }
           }
         },
@@ -667,6 +677,7 @@
           "weaponupgrade2gui.config.json": 4
         }
       },
+      "scripted.json": 1,
       "shared_.config.json": 1,
       "shared_boomerang..json": 1,
       "shared_chakram..json": 1,
@@ -1180,6 +1191,7 @@
             },
             "flail": {
               "flailancient.activeitem.json": 2,
+              "flailcookie.activeitem.json": 2,
               "flaildensinium.activeitem.json": 2,
               "flaildurasteel.activeitem.json": 1,
               "flaileffigium.activeitem.json": 2,
@@ -1187,6 +1199,7 @@
               "flaillunari.activeitem.json": 2,
               "flailtelebrium.activeitem.json": 2,
               "flailtitanium.activeitem.json": 1,
+              "flailtrollfist.activeitem.json": 2,
               "flailtungsten.activeitem.json": 1,
               "shared_.activeitem.json": 2
             },
@@ -4017,6 +4030,8 @@
           "fu_toast.consumable.json": 2,
           "kadavancactusjuice.consumable.json": 2,
           "kadavanmeatjuice.consumable.json": 2,
+          "lobster.consumable.json": 1,
+          "lobstercooked.consumable.json": 2,
           "oilstew.consumable.json": 2,
           "rustchowder.consumable.json": 2,
           "shared_.consumable.json": 1,
@@ -4422,6 +4437,8 @@
         "frozensandmaterial.matitem.json": 1,
         "frozenstonematerial.matitem.json": 1,
         "fualiengrass.matitem.json": 2,
+        "fudarkness.matitem.json": 1,
+        "fudarknesssloped.matitem.json": 1,
         "fujellyblock.matitem.json": 1,
         "fulabpipe.matitem.json": 1,
         "fulabscreen.matitem.json": 1,
@@ -4432,6 +4449,8 @@
         "fumonasterytile.matitem.json": 1,
         "fumonasterywall.matitem.json": 1,
         "fungalstonematerial.matitem.json": 1,
+        "fupipewidget.matitem.json": 1,
+        "furibboncables.matitem.json": 1,
         "fusavannahgrass.matitem.json": 1,
         "fuslopedaetherglass2.matitem.json": 1,
         "fusteelgirdirmaterial.matitem.json": 1,
@@ -4504,6 +4523,7 @@
         "springvines.matitem.json": 2,
         "steelmetal.matitem.json": 1,
         "steelsand.matitem.json": 1,
+        "sturdyplatform.matitem.json": 2,
         "sulphurdirtmaterial.matitem.json": 2,
         "sulphurstonematerial.matitem.json": 1,
         "supermatter.matitem.json": 2,
@@ -4695,15 +4715,23 @@
       "shared_fuaetherglass2.mat.json": 1,
       "shared_fuaetherpillar.mat.json": 2,
       "shared_fuaetherstone.mat.json": 2,
+      "shared_fudarkness.mat.json": 1,
+      "shared_fudarknesssloped.mat.json": 1,
+      "shared_fugirder.mat.json": 2,
+      "shared_fuheavypipe.mat.json": 4,
       "shared_fulabpipe.mat.json": 1,
       "shared_fumetalblock.json": 2,
+      "shared_fumetalpipe.mat.json": 2,
       "shared_fumonastery.json": 1,
       "shared_fumonasteryflooring.mat.json": 1,
       "shared_fumonasteryroofing.mat.json": 1,
       "shared_fumonasterywall.mat.json": 1,
       "shared_fungalstone.json": 1,
       "shared_fuoldtimber.json": 9,
+      "shared_fupipewidget.mat.json": 1,
+      "shared_furibboncables.mat.json": 1,
       "shared_fusavannahgrass.mat.json": 1,
+      "shared_fusewerpipe.mat.json": 4,
       "shared_fuslopedaether.json": 1,
       "shared_fuslopedaetherdustpanel.mat.json": 1,
       "shared_fuslopedaetherglass.json": 1,
@@ -4732,6 +4760,7 @@
       "shared_marestone.json": 2,
       "shared_material.json": 11,
       "shared_peglaci.json": 36,
+      "shared_pipe.mat.json": 1,
       "shared_precursor.json": 1,
       "shared_precursorchain.mat.json": 1,
       "shared_precursorfloor.json": 1,
@@ -5725,6 +5754,9 @@
             "shared_.monstertype.json": 1
           }
         },
+        "lobster": {
+          "lobster.monstertype.json": 1
+        },
         "maggot": {
           "maggot.monstertype.json": 2
         },
@@ -6444,6 +6476,9 @@
         "liquidpumpwell": {
           "liquidpumpwell.object.json": 2
         },
+        "lobstertrap": {
+          "lobstertrap.object.json": 2
+        },
         "matterassembler": {
           "prototyper.object.json": 6,
           "shared_prototyper.json": 7
@@ -7016,7 +7051,8 @@
           "flagthelusian.object.json": 2
         },
         "fm_musicplayer": {
-          "fm_musicplayer.object.json": 2
+          "fm_musicplayer.object.json": 2,
+          "fm_musicplayerwall.object.json": 2
         },
         "fu_Barkeep_spot": {
           "fu_Barkeep_spot.object.json": 2
@@ -7137,6 +7173,14 @@
         },
         "fu_staythefuckoutsign": {
           "fu_staythefuckoutsign.object.json": 2
+        },
+        "fuprotectorateflag": {
+          "fuprotectorateflag.object.json": 9
+        },
+        "fuprotectoratetrees": {
+          "fuprotectorategardentree1.object.json": 2,
+          "fuprotectorategardentree2.object.json": 2,
+          "shared_fuprotectorategardentree.json": 7
         },
         "furniture": {
           "grassbed": {
@@ -8321,6 +8365,14 @@
             "shared_SIV_shipApexPad.json": 1
           }
         },
+        "avalishipparts": {
+          "avaligun1": {
+            "avaligun.object.json": 1
+          },
+          "avalipart1": {
+            "avalipart.object.json": 1
+          }
+        },
         "avianshipparts": {
           "SIV_shipAvianCapHalf": {
             "SIV_shipAvianCapHalf.object.json": 2
@@ -8349,9 +8401,6 @@
         },
         "fu_antennae": {
           "Antena_Things_smll_totalblazingTop.object.json": 2
-        },
-        "fu_byosfuelhatch": {
-          "fu_byosfuelhatch.object.json": 1
         },
         "fu_byosgravgen": {
           "fu_byosgravgen.object.json": 2
@@ -8443,13 +8492,10 @@
           "fu_sciencefuelhatch.object.json": 1
         },
         "fu_scienceshiplocker": {
-          "fu_scienceshiplocker.object.json": 8
+          "fu_scienceshiplocker.object.json": 1
         },
         "fu_scienceshiplockerTier0": {
           "fu_scienceshiplockerTier0.object.json": 2
-        },
-        "fu_sciencetechstationhuman": {
-          "fu_sciencetechstation.object.json": 1
         },
         "fu_shipengine": {
           "fu_shipengine.object.json": 2
@@ -8694,7 +8740,7 @@
           "shared_fu_sciencetechstation.json": 4
         },
         "shared_fuelhatch": {
-          "shared_fuelhatch.object.json": 16,
+          "shared_fuelhatch.object.json": 8,
           "shared_uelhatch.object.json": 2
         },
         "shared_kirhosshipdoor": {
@@ -8723,7 +8769,7 @@
         },
         "shared_shiplocker": {
           "shared_ier0.object.json": 2,
-          "shared_shiplocker.json": 3
+          "shared_shiplocker.json": 1
         },
         "shared_shiplockerTier0": {
           "shared_shiplockerTier0.object.json": 4
@@ -8732,7 +8778,7 @@
           "shared_.object.json": 6
         },
         "shared_techstation": {
-          "shared_techstation.json": 19,
+          "shared_techstation.json": 1,
           "shared_techstation.object.json": 7,
           "shared_techstationTier0.object.json": 7,
           "shared_techstationtier0.object.json": 8
@@ -9162,6 +9208,9 @@
           "homedoor.object.json": 2,
           "jaildoor.object.json": 2,
           "witchdoor.object.json": 2
+        },
+        "gianthologram": {
+          "hologramcad2.object.json": 10
         },
         "lights": {
           "biolights": {
@@ -9958,6 +10007,7 @@
     "shared_honeyplatform.mat.json": 1,
     "shared_jump.json": 2,
     "shared_lic.json": 1,
+    "shared_lobster..json": 1,
     "shared_mat.json": 2,
     "shared_matmod.json": 9,
     "shared_npc.json": 1,
@@ -9973,6 +10023,10 @@
     },
     "shared_res.json": 1,
     "shared_rial.json": 1,
+    "shared_ship": {
+      "shared_ship.json": 9
+    },
+    "shared_ship.json": 28,
     "shared_sphere.json": 1,
     "shared_sulphur.json": 1,
     "shared_t.config.json": 1,
@@ -10413,6 +10467,9 @@
           },
           "stealthed": {
             "stealthed.animation.json": 1
+          },
+          "trolol": {
+            "trolol.statuseffect.json": 1
           }
         },
         "fu_immunityeffects": {
@@ -10532,6 +10589,7 @@
             "timefreezeSkittles.statuseffect.json": 1
           },
           "bleeding": {
+            "bleeding05.statuseffect.json": 1,
             "bleedinglong2.statuseffect.json": 1,
             "shared_.statuseffect.json": 1
           },
@@ -10821,6 +10879,7 @@
           "shadowblock2.statuseffect.json": 1,
           "shadowblock3.statuseffect.json": 1
         },
+        "shared_dag.json": 1,
         "shared_effect.json": 1,
         "shared_energyboost.json": 1,
         "slimeleech": {
@@ -10845,7 +10904,7 @@
           "wet.statuseffect.json": 1
         }
       },
-      "effects.json": 2
+      "effects.json": 1
     },
     "stickynotepadfu": {
       "shared_stickynotepadfu..json": 1
@@ -11045,8 +11104,13 @@
         "fublueslime.material.json": 2,
         "fublueslimedirt.material.json": 1,
         "fublueslimestone.material.json": 1,
+        "fudarkness.material.json": 1,
+        "fudarknesssloped.material.json": 1,
+        "fugirder.material.json": 3,
         "fulabpipe.material.json": 1,
         "fungalstone.material.json": 1,
+        "fupipewidget.material.json": 1,
+        "furibboncables.material.json": 3,
         "fusavannahgrass.material.json": 1,
         "fusteelgirdir.material.json": 1,
         "glasssand.material.json": 1,
@@ -11168,6 +11232,7 @@
         "shared_crystal.material.json": 1,
         "shared_elderblock.json": 1,
         "shared_elderstone.json": 1,
+        "shared_fudarkness.json": 3,
         "shared_fumossyrock.json": 1,
         "shared_honeycombmaterial.material.json": 1,
         "shared_precursor.json": 1,
@@ -11258,7 +11323,8 @@
         "avalistairs.material.json": 1,
         "cuteplatform.material.json": 2,
         "shared_honeyplatform.material.json": 1,
-        "shared_platform.material.json": 2
+        "shared_platform.material.json": 2,
+        "sturdyplatform.material.json": 1
       }
     },
     "wide_spread_fields.json": 162,
