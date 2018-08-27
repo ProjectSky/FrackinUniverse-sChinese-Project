@@ -87,7 +87,6 @@
       "verdantruins.aimission.json": 3
     },
     "bees": {
-      "shared_.config.json": 1,
       "shared_bee": {
         "shared_aggressive.json": 1,
         "shared_metal.json": 1,
@@ -101,6 +100,7 @@
       },
       "core": {
         "aethercorelayer.biome.json": 1,
+        "eldercorelayer.biome.json": 0,
         "fleshcorelayer.biome.json": 1,
         "nitrogencorelayer.biome.json": 1,
         "protocorelayer.biome.json": 1,
@@ -419,6 +419,16 @@
         "fuancientprayer.codex.json": 4,
         "fuapexorigins.codex.json": 4,
         "fuapexplea.codex.json": 4,
+        "fuascendant1.codex.json": 0,
+        "fuascendant10.codex.json": 0,
+        "fuascendant2.codex.json": 0,
+        "fuascendant3.codex.json": 0,
+        "fuascendant4.codex.json": 0,
+        "fuascendant5.codex.json": 0,
+        "fuascendant6.codex.json": 0,
+        "fuascendant7.codex.json": 0,
+        "fuascendant8.codex.json": 0,
+        "fuascendant9.codex.json": 0,
         "fuavianafterlife.codex.json": 2,
         "fuavianburials.codex.json": 4,
         "fuavianchildrenofkluex.codex.json": 3,
@@ -451,6 +461,7 @@
         "fucastle7.codex.json": 1,
         "fucastle8.codex.json": 1,
         "fucastle9.codex.json": 1,
+        "shared_fuascendant.json": 0,
         "shared_fuavian.json": 1,
         "shared_fuaviant.json": 1
       },
@@ -585,6 +596,11 @@
         "ai.config.json": 10,
         "fu_byosai.config.json": 2,
         "shared_ai.config.json": 2
+      },
+      "bees": {
+        "shared_centrifuge": {
+          "shared_.config.json": 1
+        }
       },
       "chests": {
         "chest3.config.json": 1,
@@ -723,7 +739,7 @@
         "xenostation.config.json": 2
       }
     },
-    "interface.json": 12,
+    "interface.json": 10,
     "items": {
       "active": {
         "crewcontracts": {
@@ -2231,8 +2247,20 @@
             "fusurvivorback.back.json": 2
           },
           "guardianwings": {
+            "blueguardian": {
+              "blueguardian.back.json": 0
+            },
+            "greenguardian": {
+              "greenguardian.back.json": 0
+            },
+            "pinkguardian": {
+              "pinkguardian.back.json": 0
+            },
             "shared_guardian": {
-              "shared_guardian.back.json": 2
+              "shared_guardian.back.json": 1
+            },
+            "yellowguardian": {
+              "yellowguardian.back.json": 0
             }
           },
           "halogenpack": {
@@ -3456,12 +3484,12 @@
           "erchiusartifact.augment.json": 2,
           "floranartifact.augment.json": 2,
           "glitchartifact.augment.json": 2,
-          "humanartifact.augment.json": 2,
+          "humanartifact.augment.json": 1,
           "hylotlartifact.augment.json": 2,
           "novakidaugment.augment.json": 2,
           "roadkill.augment.json": 2,
           "severedhandinabag.augment.json": 0,
-          "warbotartifact.augment.json": 2
+          "warbotartifact.augment.json": 1
         }
       },
       "bees": {
@@ -3905,12 +3933,16 @@
             "elderbeer.consumable.json": 0,
             "esteemedvintage.consumable.json": 0,
             "goldmead.consumable.json": 0,
+            "kilvratjug.consumable.json": 0,
             "lager.consumable.json": 2,
             "lambic.consumable.json": 2,
             "lightale.consumable.json": 2,
+            "protovex.consumable.json": 0,
             "radienbeer.consumable.json": 0,
+            "rustmead.consumable.json": 0,
             "stout.consumable.json": 2,
-            "thelusianwine.consumable.json": 0
+            "thelusianwine.consumable.json": 0,
+            "vxspecialblend.consumable.json": 0
           },
           "bloodchalice": {
             "fubloodchalice.consumable.json": 2
@@ -3947,9 +3979,14 @@
           "vodka": {
             "appleschnapps.consumable.json": 2,
             "bananaschnapps.consumable.json": 2,
+            "blisterwhiskey.consumable.json": 0,
+            "bloodbrandy.consumable.json": 0,
             "cinnamonschnapps.consumable.json": 2,
+            "cyanider.consumable.json": 0,
             "deathvodka.consumable.json": 0,
             "grapeschnapps.consumable.json": 2,
+            "gygaxjuice.consumable.json": 0,
+            "iceglobespirit.consumable.json": 0,
             "lavawhiskey.consumable.json": 0,
             "peachschnapps.consumable.json": 2,
             "shadowspirits.consumable.json": 0,
@@ -4149,6 +4186,7 @@
             "mecharmsinfist.item.json": 0,
             "mecharmsinrack.item.json": 0,
             "mecharmsinshotgun.item.json": 0,
+            "mecharmsinshotgun2.item.json": 0,
             "mecharmsinsniper.item.json": 0,
             "powerblaster.item.json": 0,
             "sawblaster.item.json": 0,
@@ -6292,10 +6330,10 @@
           "honeytable.object.json": 4
         },
         "honeyextractor": {
-          "honeyextractor.object.json": 3
+          "honeyextractor.object.json": 0
         },
         "honeyjarrer": {
-          "honeyjarrer.object.json": 3
+          "honeyjarrer.object.json": 1
         },
         "industrialcentrifuge": {
           "industrialcentrifuge.object.json": 2
@@ -6314,6 +6352,9 @@
         },
         "shared_centrifuge": {
           "shared_centrifuge.object.json": 1
+        },
+        "shared_honey": {
+          "shared_r.object.json": 0
         },
         "woodencentrifuge": {
           "woodencentrifuge.object.json": 2
@@ -8219,7 +8260,7 @@
         "isn_atmosregulator": {
           "isn_atmosprotection.statuseffect.json": 1,
           "isn_atmosregulator.object.json": 8,
-          "isn_atmosregulatornew.object.json": 2
+          "isn_atmosregulatornew.object.json": 1
         },
         "isn_battery_t1": {
           "isn_battery_t1.object.json": 2
@@ -9873,7 +9914,8 @@
             "fuquest_powergeneration2.questtemplate.json": 2,
             "fuquest_xeno.questtemplate.json": 3,
             "mechparts.questtemplate.json": 1,
-            "shared_.questtemplate.json": 1
+            "shared_.questtemplate.json": 1,
+            "techtablet.questtemplate.json": 0
           }
         }
       },
@@ -9995,7 +10037,6 @@
     "shared_burrower.json": 1,
     "shared_charredflesh.json": 1,
     "shared_cloud.json": 1,
-    "shared_con.json": 1,
     "shared_crew.json": 1,
     "shared_cute": {
       "shared_cute.json": 1
@@ -10090,8 +10131,8 @@
       "fuslimepersonfemalenamegen.config.json": 0,
       "kirhosnamegen.config.json": 179,
       "mantisnamegen.config.json": 37,
-      "mantizifemalenamegen.config.json": 17,
-      "mantizimalenamegen.config.json": 35,
+      "mantizifemalenamegen.config.json": 14,
+      "mantizimalenamegen.config.json": 31,
       "nightar.species.json": 0,
       "nightarfemalenamegen.config.json": 0,
       "nightarmalenamegen.config.json": 0,
@@ -10102,10 +10143,10 @@
       "radiennamegen.config.json": 244,
       "shadownamegen.config.json": 0,
       "shared_.species.json": 14,
-      "shared_femalenamegen.config.json": 2,
+      "shared_femalenamegen.config.json": 5,
       "shared_i.species.json": 5,
       "shared_izku.species.json": 5,
-      "shared_malenamegen.config.json": 38,
+      "shared_malenamegen.config.json": 42,
       "shared_namegen.config.json": 5,
       "spiderdroid.species.json": 3,
       "thelusian.species.json": 1,
@@ -10558,7 +10599,7 @@
               "radiationburn.statuseffect.json": 1
             },
             "shoggothburn": {
-              "shoggothburn.animation.json": 1,
+              "shoggothburn.animation.json": 0,
               "shoggothburn.statuseffect.json": 1
             },
             "sulphuricacideffect": {
@@ -11336,7 +11377,7 @@
         "sturdyplatform.material.json": 0
       }
     },
-    "wide_spread_fields.json": 157,
+    "wide_spread_fields.json": 160,
     "zb": {
       "newSail": {
         "data.config.json": 0,
