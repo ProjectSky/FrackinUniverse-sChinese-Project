@@ -155,6 +155,8 @@
         "aliendesert.biome.json": 1,
         "alienforest.biome.json": 1,
         "ashgarden.biome.json": 1,
+        "atropusbone.biome.json": 1,
+        "atropusrot.biome.json": 1,
         "badlands.biome.json": 1,
         "birchforest.biome.json": 1,
         "blackslimebog.biome.json": 1,
@@ -174,7 +176,6 @@
         "deepseaventaether.biome.json": 1,
         "desertoasis.biome.json": 1,
         "dryriverbed.biome.json": 1,
-        "elder.biome.json": 1,
         "estuaryaether.biome.json": 1,
         "fieldofbamboo.biome.json": 1,
         "fieldofbanana.biome.json": 1,
@@ -189,7 +190,6 @@
         "finesand.biome.json": 1,
         "flowerforest.biome.json": 1,
         "glacial.biome.json": 1,
-        "goreforest.biome.json": 1,
         "hauntedforest.biome.json": 1,
         "hauntedgraveyard.biome.json": 1,
         "hellfirefield.biome.json": 1,
@@ -215,10 +215,13 @@
         "shared_crystalswamp.json": 1,
         "shared_deadwood.json": 1,
         "shared_deepseavent.json": 1,
+        "shared_elder.biome.json": 1,
         "shared_energyorbforest.json": 1,
         "shared_estuary.json": 1,
+        "shared_goreforest.biome.json": 1,
         "shared_kelpforest.json": 1,
         "shared_metalworks.json": 1,
+        "shared_wartfield.biome.json": 1,
         "snowyforest.biome.json": 1,
         "spacewreckage_rusted.biome.json": 1,
         "spacewreckage_shiny.biome.json": 1,
@@ -228,8 +231,7 @@
         "supermatterzone.biome.json": 1,
         "supermatterzoneaether.biome.json": 1,
         "supermatterzonemoon.biome.json": 1,
-        "taiga.biome.json": 1,
-        "wartfield.biome.json": 1
+        "taiga.biome.json": 1
       },
       "underground": {
         "aetherunderground.biome.json": 1,
@@ -262,18 +264,14 @@
         "wastelandunderground.biome.json": 1
       },
       "underground_detached": {
-        "elderunderground.biome.json": 1,
-        "ffbonecaves.biome.json": 1,
-        "ffcellcave.biome.json": 1,
+        "atropusrotunderground.biome.json": 1,
         "ffcoalmine.biome.json": 1,
         "ffcoppermine.biome.json": 1,
         "ffcoralcave.biome.json": 1,
         "ffcrystalcavern.biome.json": 1,
         "ffcrystalrealm.biome.json": 1,
-        "fffleshcave.biome.json": 1,
         "fffrostcavern.biome.json": 1,
         "ffgoldmine.biome.json": 1,
-        "ffhellhiveunderground.biome.json": 1,
         "ffhiveunderground.biome.json": 1,
         "ffpoopit.biome.json": 1,
         "ffshadow.biome.json": 1,
@@ -287,6 +285,11 @@
         "ffzen.biome.json": 1,
         "furuinsunderground.biome.json": 1,
         "futentacleunderground.biome.json": 1,
+        "shared_.biome.json": 1,
+        "shared_bonecaves.biome.json": 1,
+        "shared_cellcave.biome.json": 1,
+        "shared_elderunderground.biome.json": 1,
+        "shared_hellhiveunderground.biome.json": 1,
         "shared_metalworksunderground.json": 1
       }
     },
@@ -338,7 +341,7 @@
         "random3.codex.json": 4,
         "random4.codex.json": 4,
         "random5.codex.json": 9,
-        "random6.codex.json": 3,
+        "random6.codex.json": 7,
         "random7.codex.json": 4,
         "random8.codex.json": 3,
         "random9.codex.json": 3,
@@ -461,6 +464,19 @@
         "fucastle7.codex.json": 3,
         "fucastle8.codex.json": 4,
         "fucastle9.codex.json": 3,
+        "fugreenfingercodexban.codex.json": 4,
+        "fugreenfingercodexbeast.codex.json": 3,
+        "fugreenfingercodexbigape.codex.json": 3,
+        "fugreenfingercodexcorpse.codex.json": 3,
+        "fugreenfingercodexdry1.codex.json": 3,
+        "fugreenfingercodexdry2.codex.json": 4,
+        "fugreenfingercodexfloran.codex.json": 3,
+        "fugreenfingercodexgreenfinger.codex.json": 5,
+        "fugreenfingercodexlooseends.codex.json": 4,
+        "fugreenfingercodexmethods.codex.json": 5,
+        "fugreenfingercodexreceivingguests.codex.json": 4,
+        "fugreenfingercodexteaching.codex.json": 3,
+        "fugreenfingercodextreetop.codex.json": 3,
         "shared_fuascendant.json": 1,
         "shared_fuavian.json": 1,
         "shared_fuaviant.json": 1
@@ -557,7 +573,7 @@
       "fu_isotopes.collection.json": 1,
       "fu_liquid.collection.json": 1,
       "fu_monster.collection.json": 1,
-      "fu_plant.collection.json": 60,
+      "fu_plant.collection.json": 61,
       "fu_shoggothart.collection.json": 1,
       "fu_tech.collection.json": 1,
       "weapons": {
@@ -914,6 +930,11 @@
           },
           "gyrostabilizer": {
             "gyrostabilizer.activeitem.json": 2
+          },
+          "madnessvoxel": {
+            "madnesstoken.activeitem.json": 2,
+            "madnesstoken2.activeitem.json": 2,
+            "madnesstoken3.activeitem.json": 2
           },
           "oredetector": {
             "t1": {
@@ -3668,7 +3689,7 @@
           "berliniteore.item.json": 2,
           "biospore.item.json": 2,
           "blobbushjelly.item.json": 2,
-          "blooddiamond.item.json": 1,
+          "blooddiamond.item.json": 2,
           "calciumnitrate.item.json": 2,
           "cellmateria.item.json": 2,
           "chemlab": {
@@ -3873,6 +3894,9 @@
           "sulphur.item.json": 2,
           "tissueculture.item.json": 2,
           "warpmanifold.item.json": 2,
+          "wrappedbody.item.json": 2,
+          "wrappedbodyalien.item.json": 2,
+          "wrappedbodyputrid.item.json": 2,
           "xenostation": {
             "gene_adaptivecell.item.json": 2,
             "gene_agility.item.json": 2,
@@ -4247,6 +4271,7 @@
           "wagneridcard.item.json": 2
         },
         "other": {
+          "killpod.consumable.json": 2,
           "medkit2.consumable.json": 1,
           "medkit3.consumable.json": 1,
           "medkit4.consumable.json": 1,
@@ -4337,7 +4362,7 @@
           "pasaka.consumable.json": 2,
           "pearlfruit.consumable.json": 2,
           "pekkit.consumable.json": 1,
-          "petrifiedroot.consumable.json": 1,
+          "petrifiedroot.consumable.json": 2,
           "pinkloom.consumable.json": 2,
           "porphisblossom.consumable.json": 2,
           "rockroot.consumable.json": 1,
@@ -5839,6 +5864,9 @@
           },
           "frostlit": {
             "frostlit.monstertype.json": 2
+          },
+          "leadlit": {
+            "leadlit.monstertype.json": 2
           }
         },
         "poptopish": {
@@ -6909,6 +6937,9 @@
         },
         "tinselbush": {
           "shared_tinselbush.object.json": 1
+        },
+        "tombstone": {
+          "tombstone.object.json": 2
         },
         "tyvokkseed": {
           "wildtyvokkseed.object.json": 1
@@ -10019,7 +10050,7 @@
       "fu_exploration.radiomessages.json": 64,
       "fu_isotopes.radiomessages.json": 6,
       "fu_kevin.radiomessages.json": 9,
-      "fu_ore.radiomessages.json": 19,
+      "fu_ore.radiomessages.json": 18,
       "fu_quests.radiomessages.json": 12,
       "fu_resources.radiomessages.json": 51,
       "fu_stations.radiomessages.json": 2,
@@ -10589,6 +10620,10 @@
             },
             "darkwaterpoison": {
               "darkwaterpoison.statuseffect.json": 1
+            },
+            "killpod": {
+              "killpod.animation.json": 1,
+              "killpod.statuseffect.json": 1
             },
             "mercurypoison": {
               "mercurypoison.statuseffect.json": 1
@@ -11386,7 +11421,7 @@
         "sturdyplatform.material.json": 1
       }
     },
-    "wide_spread_fields.json": 166,
+    "wide_spread_fields.json": 165,
     "zb": {
       "newSail": {
         "data.config.json": 6,
