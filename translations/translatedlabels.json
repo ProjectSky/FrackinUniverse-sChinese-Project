@@ -4092,6 +4092,8 @@
           "fu_toast.consumable.json": 2,
           "fulobster.consumable.json": 1,
           "fulobstercooked.consumable.json": 2,
+          "fupest.consumable.json": 0,
+          "fupestcooked.consumable.json": 0,
           "fusoggypaper.consumable.json": 0,
           "kadavancactusjuice.consumable.json": 2,
           "kadavanmeatjuice.consumable.json": 2,
@@ -6572,6 +6574,9 @@
         "nanofabricator": {
           "nanofabricator.object.json": 6,
           "shared_nanofabricator.json": 6
+        },
+        "pesttrap": {
+          "pesttrap.object.json": 0
         },
         "petpicrepair": {
           "petpicrepair.config.json": 2,
@@ -9803,7 +9808,7 @@
         },
         "byos": {
           "fu_byoscrew.questtemplate.json": 2,
-          "fu_byosftldrive.questtemplate.json": 0,
+          "fu_byosftldrive.questtemplate.json": 3,
           "fu_byosshipcraftingtable.questtemplate.json": 0
         },
         "deprecated": {
@@ -9944,9 +9949,9 @@
             "create_electronics.questtemplate.json": 3,
             "create_greenhouse.questtemplate.json": 2,
             "create_growingtray.questtemplate.json": 3,
-            "create_matterassembler.questtemplate.json": 0,
-            "create_matterassembler2.questtemplate.json": 0,
-            "create_sprouting.questtemplate.json": 0,
+            "create_matterassembler.questtemplate.json": 7,
+            "create_matterassembler2.questtemplate.json": 4,
+            "create_sprouting.questtemplate.json": 3,
             "create_tinkertable.questtemplate.json": 1,
             "create_woodencentrifuge.questtemplate.json": 0,
             "create_woodensifter.questtemplate.json": 0,
@@ -10103,7 +10108,7 @@
     "shared_honeyplatform.mat.json": 1,
     "shared_jump.json": 2,
     "shared_lic.json": 1,
-    "shared_lobster..json": 0,
+    "shared_lobster..json": 1,
     "shared_mat.json": 2,
     "shared_matmod.json": 9,
     "shared_npc.json": 1,
@@ -10122,7 +10127,7 @@
     "shared_ship": {
       "shared_ship.json": 2
     },
-    "shared_ship.json": 27,
+    "shared_ship.json": 28,
     "shared_sphere.json": 1,
     "shared_sulphur.json": 1,
     "shared_t.config.json": 1,
@@ -10369,7 +10374,7 @@
             "reconsetbonuseffect2.statuseffect.json": 1,
             "reconsetbonuseffect3.statuseffect.json": 1,
             "replicantsetbonuseffect.statuseffect.json": 1,
-            "reptilesetbonuseffect.statuseffect.json": 0,
+            "reptilesetbonuseffect.statuseffect.json": 1,
             "researchsetbonuseffect.statuseffect.json": 1,
             "riftersetbonuseffect.statuseffect.json": 1,
             "samuraisetbonuseffect.statuseffect.json": 1,
@@ -10415,8 +10420,8 @@
         },
         "fu_effects": {
           "beesting": {
-            "fubeesting.animation.json": 0,
-            "shared_.statuseffect.json": 0
+            "fubeesting.animation.json": 1,
+            "shared_.statuseffect.json": 1
           },
           "brainreboot": {
             "brainreboot.statuseffect.json": 1
@@ -10425,13 +10430,13 @@
             "corvexputty.statuseffect.json": 1
           },
           "critbonus": {
-            "critbonus.animation.json": 0,
-            "critbonus1.statuseffect.json": 0,
-            "critchance.animation.json": 0,
-            "shared_.statuseffect.json": 0
+            "critbonus.animation.json": 1,
+            "critbonus1.statuseffect.json": 1,
+            "critchance.animation.json": 1,
+            "shared_.statuseffect.json": 1
           },
           "drain": {
-            "drain.statuseffect.json": 0
+            "drain.statuseffect.json": 1
           },
           "eatself": {
             "eatself.statuseffect.json": 1
@@ -10449,37 +10454,37 @@
             "shared_.statuseffect.json": 1
           },
           "energytickup": {
-            "shared_.statuseffect.json": 0
+            "shared_.statuseffect.json": 1
           },
           "entropicward": {
-            "shared_.statuseffect.json": 0,
-            "tentacleeffect.statuseffect.json": 0
+            "shared_.statuseffect.json": 1,
+            "tentacleeffect.statuseffect.json": 1
           },
           "feedpack": {
             "feedpackneg.statuseffect.json": 1,
-            "genesifeed.statuseffect.json": 0,
+            "genesifeed.statuseffect.json": 1,
             "shared_.statuseffect.json": 1
           },
           "freeze": {
-            "rootfu.statuseffect.json": 0,
-            "shared_.statuseffect.json": 0
+            "rootfu.statuseffect.json": 1,
+            "shared_.statuseffect.json": 1
           },
           "frozenburning": {
-            "frozenburning.statuseffect.json": 0
+            "frozenburning.statuseffect.json": 1
           },
           "fu_medicine": {
             "bouncy": {
-              "fubouncy.statuseffect.json": 0
+              "fubouncy.statuseffect.json": 1
             },
             "devilsbargain": {
-              "devilsbargain.statuseffect.json": 0
+              "devilsbargain.statuseffect.json": 1
             }
           },
           "glow": {
             "shared_.statuseffect.json": 1
           },
           "goldmead": {
-            "goldmead.statuseffect.json": 0
+            "goldmead.statuseffect.json": 1
           },
           "healthrestorepercentage": {
             "heal_50.statuseffect.json": 1
@@ -10492,81 +10497,81 @@
             "honeyheal5.statuseffect.json": 1
           },
           "intoxicated": {
-            "shared_booze.json": 0
+            "shared_booze.json": 1
           },
           "mage_shield": {
-            "shared_mage_shield_lvl.json": 0,
-            "wretchelshield.statuseffect.json": 0
+            "shared_mage_shield_lvl.json": 1,
+            "wretchelshield.statuseffect.json": 1
           },
           "percentarmorboost": {
-            "percentarmorboost.animation.json": 0,
-            "percentarmorboost10.statuseffect.json": 0,
-            "percentarmorboost100.statuseffect.json": 0,
-            "percentarmorboost125.statuseffect.json": 0,
-            "percentarmorboost15.statuseffect.json": 0,
-            "percentarmorboost150.statuseffect.json": 0,
-            "percentarmorboost175.statuseffect.json": 0,
-            "percentarmorboost2.statuseffect.json": 0,
-            "percentarmorboost20.statuseffect.json": 0,
-            "percentarmorboost200.statuseffect.json": 0,
-            "percentarmorboost25.statuseffect.json": 0,
-            "percentarmorboost250.statuseffect.json": 0,
-            "percentarmorboost30.statuseffect.json": 0,
-            "percentarmorboost300.statuseffect.json": 0,
-            "percentarmorboost35.statuseffect.json": 0,
-            "percentarmorboost40.statuseffect.json": 0,
-            "percentarmorboost5.statuseffect.json": 0,
-            "percentarmorboost50.statuseffect.json": 0,
-            "percentarmorboost60.statuseffect.json": 0,
-            "percentarmorboost7.statuseffect.json": 0,
-            "percentarmorboost70.statuseffect.json": 0,
-            "percentarmorboost80.statuseffect.json": 0,
-            "percentarmorboost90.statuseffect.json": 0,
-            "percentarmorboostdebuff.animation.json": 0,
-            "percentarmorboostneg2.statuseffect.json": 0,
-            "percentarmorboostneg3.statuseffect.json": 0,
-            "percentarmorboostneg4.statuseffect.json": 0,
-            "percentarmorboostneg5.statuseffect.json": 0,
-            "shared_percentarmorboostneg.json": 0
+            "percentarmorboost.animation.json": 1,
+            "percentarmorboost10.statuseffect.json": 1,
+            "percentarmorboost100.statuseffect.json": 1,
+            "percentarmorboost125.statuseffect.json": 1,
+            "percentarmorboost15.statuseffect.json": 1,
+            "percentarmorboost150.statuseffect.json": 1,
+            "percentarmorboost175.statuseffect.json": 1,
+            "percentarmorboost2.statuseffect.json": 1,
+            "percentarmorboost20.statuseffect.json": 1,
+            "percentarmorboost200.statuseffect.json": 1,
+            "percentarmorboost25.statuseffect.json": 1,
+            "percentarmorboost250.statuseffect.json": 1,
+            "percentarmorboost30.statuseffect.json": 1,
+            "percentarmorboost300.statuseffect.json": 1,
+            "percentarmorboost35.statuseffect.json": 1,
+            "percentarmorboost40.statuseffect.json": 1,
+            "percentarmorboost5.statuseffect.json": 1,
+            "percentarmorboost50.statuseffect.json": 1,
+            "percentarmorboost60.statuseffect.json": 1,
+            "percentarmorboost7.statuseffect.json": 1,
+            "percentarmorboost70.statuseffect.json": 1,
+            "percentarmorboost80.statuseffect.json": 1,
+            "percentarmorboost90.statuseffect.json": 1,
+            "percentarmorboostdebuff.animation.json": 1,
+            "percentarmorboostneg2.statuseffect.json": 1,
+            "percentarmorboostneg3.statuseffect.json": 1,
+            "percentarmorboostneg4.statuseffect.json": 1,
+            "percentarmorboostneg5.statuseffect.json": 1,
+            "shared_percentarmorboostneg.json": 1
           },
           "percentenergyboost": {
-            "percentenergyboost.animation.json": 0,
-            "percentenergyboost10.statuseffect.json": 0,
-            "percentenergyboost15.statuseffect.json": 0,
-            "percentenergyboost2.animation.json": 0,
-            "percentenergyboost35.statuseffect.json": 0,
-            "percentenergyboost40.statuseffect.json": 0,
-            "percentenergyboost5.statuseffect.json": 0,
-            "percentenergyboost50.statuseffect.json": 0,
-            "percentenergyboostneg10.statuseffect.json": 0,
-            "percentenergyboostneg20.statuseffect.json": 0,
-            "percentenergyboostnegstimrig.statuseffect.json": 0,
-            "percentenergyboostnegstimrig2.statuseffect.json": 0,
-            "shared_percentenergyboost.json": 0
+            "percentenergyboost.animation.json": 1,
+            "percentenergyboost10.statuseffect.json": 1,
+            "percentenergyboost15.statuseffect.json": 1,
+            "percentenergyboost2.animation.json": 1,
+            "percentenergyboost35.statuseffect.json": 1,
+            "percentenergyboost40.statuseffect.json": 1,
+            "percentenergyboost5.statuseffect.json": 1,
+            "percentenergyboost50.statuseffect.json": 1,
+            "percentenergyboostneg10.statuseffect.json": 1,
+            "percentenergyboostneg20.statuseffect.json": 1,
+            "percentenergyboostnegstimrig.statuseffect.json": 1,
+            "percentenergyboostnegstimrig2.statuseffect.json": 1,
+            "shared_percentenergyboost.json": 1
           },
           "percenthealthboost": {
-            "negativehealth2.statuseffect.json": 0,
-            "negativehealth5.statuseffect.json": 0,
-            "percenthealthboost.animation.json": 0,
-            "percenthealthboost10.statuseffect.json": 0,
-            "percenthealthboost15.statuseffect.json": 0,
-            "percenthealthboost40.statuseffect.json": 0,
-            "percenthealthboost5.statuseffect.json": 0,
-            "percenthealthboost50.statuseffect.json": 0,
-            "shared_negativehealth.json": 0,
-            "shared_percenthealthboost.json": 0
+            "negativehealth2.statuseffect.json": 1,
+            "negativehealth5.statuseffect.json": 1,
+            "percenthealthboost.animation.json": 1,
+            "percenthealthboost10.statuseffect.json": 1,
+            "percenthealthboost15.statuseffect.json": 1,
+            "percenthealthboost40.statuseffect.json": 1,
+            "percenthealthboost5.statuseffect.json": 1,
+            "percenthealthboost50.statuseffect.json": 1,
+            "shared_negativehealth.json": 1,
+            "shared_percenthealthboost.json": 1
           },
           "popmead": {
-            "larvalmead.statuseffect.json": 0
+            "larvalmead.statuseffect.json": 1
           },
           "radiendirt": {
-            "radiendirt.statuseffect.json": 0
+            "radiendirt.statuseffect.json": 1
           },
           "stealthed": {
             "stealthed.animation.json": 1
           },
           "trolol": {
-            "trolol.statuseffect.json": 0
+            "trolol.statuseffect.json": 1
           }
         },
         "fu_immunityeffects": {
@@ -10629,8 +10634,8 @@
               "darkwaterpoison.statuseffect.json": 1
             },
             "killpod": {
-              "killpod.animation.json": 0,
-              "killpod.statuseffect.json": 0
+              "killpod.animation.json": 1,
+              "killpod.statuseffect.json": 1
             },
             "mercurypoison": {
               "mercurypoison.statuseffect.json": 1
@@ -10650,14 +10655,14 @@
               "radiationburn.statuseffect.json": 1
             },
             "shoggothburn": {
-              "shoggothburn.animation.json": 0,
+              "shoggothburn.animation.json": 1,
               "shoggothburn.statuseffect.json": 1
             },
             "sulphuricacideffect": {
               "sulphuricacideffect.statuseffect.json": 1
             }
           },
-          "shared_ty_effects.json": 0,
+          "shared_ty_effects.json": 1,
           "specialty_effects": {
             "insanity": {
               "shared_.animation.json": 2,
@@ -10683,17 +10688,17 @@
               "shared_.statuseffect.json": 1
             },
             "windslow": {
-              "windslow.statuseffect.json": 0
+              "windslow.statuseffect.json": 1
             }
           }
         },
         "fu_weaponeffects": {
           "Skittles": {
-            "marvinSkittles.statuseffect.json": 0,
-            "timefreezeSkittles.statuseffect.json": 0
+            "marvinSkittles.statuseffect.json": 1,
+            "timefreezeSkittles.statuseffect.json": 1
           },
           "bleeding": {
-            "bleeding05.statuseffect.json": 0,
+            "bleeding05.statuseffect.json": 1,
             "bleedinglong2.statuseffect.json": 1,
             "shared_.statuseffect.json": 1
           },
@@ -11077,7 +11082,7 @@
         "longjump.item.json": 2,
         "longjump0.item.json": 2,
         "longjump2.item.json": 2,
-        "longjump3.item.json": 1,
+        "longjump3.item.json": 0,
         "longjump4.item.json": 1,
         "microsphere.item.json": 2,
         "microspherebomb.item.json": 2,
@@ -11432,7 +11437,7 @@
         "sturdyplatform.material.json": 0
       }
     },
-    "wide_spread_fields.json": 159,
+    "wide_spread_fields.json": 162,
     "zb": {
       "newSail": {
         "data.config.json": 0,
