@@ -28,7 +28,7 @@ class Handler:
 
     def __init__(self):
         self.texts_path = os.getcwd()
-        if self.texts_path.endswith("ADD_FILES(Can_Be_Deleted)"):
+        if self.texts_path.endswith("ADD_FILES"):
             self.texts_path = self.texts_path.rsplit(
                 "\\", 1)[0] + "\\translations\\texts"
         elif self.texts_path.find("FrackinUniverse-Chinese-Project"):
@@ -104,6 +104,10 @@ class Handler:
 
     def delete_markup_files(self):
         for doc in self.not_translated_json_docs:
+            mu_path = doc.path + ".markup"
+            if os.path.exists(mu_path):
+                os.remove(mu_path)
+        for doc in self.translated_json_docs:
             mu_path = doc.path + ".markup"
             if os.path.exists(mu_path):
                 os.remove(mu_path)
