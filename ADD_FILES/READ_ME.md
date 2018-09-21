@@ -1,5 +1,20 @@
-# 进度
+# 更新9.19
 
+* monsters/dungeon
+
+已翻译的Json文件数目： 5897
+未翻译的Json文件数目： 981
+
+# 更新9.19
+
+* “立场”统一改为“力场”。
+* 补全了tech部分的翻译，可能还需要润色。
+* 翻译了ZB部分。（保留可能不需要翻译的文本）
+* 翻译了少量dialog部分的文本。
+* 翻译了大部分item/materials部分的文本。
+* 补全了monsters/farming部分的文本
+
+# 更新9.18
 
 * 翻译补充完了宠物蛋部分的文本。
 * 翻译补完了物块部分的文本。
@@ -30,20 +45,34 @@
 
 以下是对于自己所保留的项目的：
 
-* 部分翻译后的文本为了可能的后续更改，加上了以@开始的标签。如：@zb,@zb？,@san,@?。
+* 部分翻译后的文本为了可能的后续更改，加上了以@开始的标签。如：,,,@?。
 * 未翻译的JSON文档、未翻译完的文档、调整过翻译但可能不必要的文档、已翻译完但翻译后文本可能不怎么确切和信雅达的文档，应该都加上了filename.markup标记用空白文件。
 * 这些标记文件利用脚本可以很容易地添加和删除。。。
 
 
 
-# 疑问
+# 参考
 
-* 诺克石、阳青金这些奇幻矿石的来源？
-	* 诺克石Nocxium：EVA超新星诺克石
-	* 寂灭矿Quietusium：quiet us
-	* 原力矿Trianglium：三角
-	* 阳青金Aetherium：其实可以意译为以太石或者带有什么修饰的以太石
-* Wake up,Michael.（见于精神混乱状态下的广播信息） 这是不是一个梗？
-	* 不眠天使米迦勒[参考](https://zhidao.baidu.com/question/1957920723312446140.html)
-* 精神错乱状态下的广播信息中提到的某些特殊条件下的行动，在处于精神错乱状态的前提下，是否真能看到其所描述的东西？
+* 矿石
+	* Zerchesium 高熔点矿
+	* Protocite 原体矿
+	* 特勒贝晶体 Telebrium
+	* 半影矿 Penumbrite
+	* 原力矿 Trianglium->原力角锥体
+	* 寂灭矿 Quietusium
+		* 可以直译
+	* 寒霜矿 Isogen
+	* 永燃矿 Pyreite
+	* 幻影矿 Effigium
+	* 超致密矿 Densinium
+	* 诺克石 Nocxium
+		* EVA超新星诺克石
+	* 原力矿 Trianglium
+		* 三角
+	* 赛德瑞瑟晶体 Xithricite
+		* 参考：[Wiki](https://en.wikipedia.org/wiki/List_of_fictional_elements,_materials,_isotopes_and_subatomic_particles)
+	* 阳青金 Aetherium
+		* 以太，可以直译为以太矿石
+	* 异极合金 Morphite
+
 
