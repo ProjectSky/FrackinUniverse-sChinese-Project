@@ -1,3 +1,8 @@
+# 更新9.21
+
+* object/vality/cute基本翻译完。
+* object/crafting补充翻译。
+
 # 更新9.19
 
 * monsters/dungeon
