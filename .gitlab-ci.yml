@@ -1,3 +1,7 @@
-check:
+Check_Files:
   script:
     - python3 script/check_file.py
+
+Check_Update:
+  script:
+    - cd /home/sky/script/main/;python3 check_git.py
