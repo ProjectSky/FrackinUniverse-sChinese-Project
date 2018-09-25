@@ -3,11 +3,9 @@
 
 # 一个简陋的过滤脚本
 
-# 过滤掉不需要再进行翻译的Json文件，即只删除所有已经翻译完毕的Json文件。
+# 过滤掉已翻译完的Json文件和未翻译完的Json文件。
 # 传入的参数名应为"Texts"
 # 放入translations文件夹下
-
-# 使用方式：依次输入指令1,2,3即可，输入指令0退出。
 
 # 进度：
 # + 初步实现
@@ -16,6 +14,7 @@
 # - 可以二次过滤还未翻译完的json文档
 
 import os
+import json
 
 
 class Handler:
@@ -28,7 +27,9 @@ class Handler:
 
     def __init__(self):
         self.texts_path = os.getcwd()
-        if self.texts_path.endswith("ADD_FILES"):
+        if self.texts_path.endswith("translations"):
+            self.texts_path = self.texts_path + "\\texts"
+        elif self.texts_path.endswith("ADD_FILES"):
             self.texts_path = self.texts_path.rsplit(
                 "\\", 1)[0] + "\\translations\\texts"
         elif self.texts_path.find("FrackinUniverse-Chinese-Project"):
@@ -41,7 +42,7 @@ class Handler:
     #     if not path:
     #       self.texts_path = path
         if path:
-            self.text_path = path
+            self.texts_path = path
 
     def _scan_dir_recursive(self, path):
         """递归扫描指定的目录"""
@@ -60,8 +61,11 @@ class Handler:
                     if entry.name.endswith((".json", ".JSON", ".Json")):
                         self._handle_doc(entry)
 
-    def _handle_doc(self, entry: os.DirEntry):
+    def _handle_doc(self, entry: os.DirEntry):        
         """处理（分类）单个文档"""
+        
+        json
+        
         # 打开这个文件，指定打开方式和编码
         with open(entry.path, "r", encoding="UTF-8") as f:
             # 通过f.readlines():list(str)得到每一行的文本，并进行遍历
@@ -101,6 +105,7 @@ class Handler:
             doc_markup_path = doc.path + ".markup"
             with open(doc_markup_path, "w+"):
                 pass
+        print("创建标记文件完毕！")
 
     def delete_markup_files(self):
         for doc in self.not_translated_json_docs:
@@ -111,6 +116,7 @@ class Handler:
             mu_path = doc.path + ".markup"
             if os.path.exists(mu_path):
                 os.remove(mu_path)
+        print("删除标记文件完毕！")
 
     def print_info(self):
         """打印消息"""
@@ -127,10 +133,13 @@ class Interface:
     def print_info(self):
         """打印消息"""
         print("""
-            1：设置路径（Texts，如果就在Texts下，可以忽略）
+            过滤已翻译完的JSON文件和未翻译完的JSON文件。
+            脚本允许存放在项目根目录、ADD_FILES、translations、texts文件夹下。
+        
+            1：设置路径（*/texts）
             2：开始扫描（开始后面的操作前必须先进行扫描）
-            3：删除已经翻译完的文档（有危险）
-            4：删除未翻译完的文档（有危险）
+            3：删除已经翻译完的文档（危险）
+            4：删除未翻译完的文档（危险）
             5：为未翻译完的文档建立markup文档（空白文档）
             6：删除所有的markup文档（空白文档）
             0：退出
