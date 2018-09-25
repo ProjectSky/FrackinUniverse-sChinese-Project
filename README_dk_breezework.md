@@ -1,7 +1,15 @@
+Record For Branch dk_breezework
+Created By 微风的龙骑士
+
+
+
 # 更新9.2
 
 * 同步更改，解决冲突，恢复被二次覆盖的文本。
 * 少量翻译。
+
+已翻译的Json文件数目： 6059
+未翻译的Json文件数目： 995
 
 # 更新9.25
 
