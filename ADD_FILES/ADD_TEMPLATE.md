@@ -303,4 +303,4 @@ Proto-Poison
 #### 其他待补充。注：为了增强可阅读性，后续请使用markdown编写文档。
 
 
-[本地编辑项目文件指南：](https://gitlab.imsky.cc:666/ProjectSky/FrackinUniverse-sChinese-Project/wikis/%E6%9C%AC%E5%9C%B0%E7%BC%96%E8%BE%91%E9%A1%B9%E7%9B%AE%E6%96%87%E4%BB%B6%E6%8C%87%E5%8D%97)
+[本地编辑项目文件指南](https://gitlab.imsky.cc:666/ProjectSky/FrackinUniverse-sChinese-Project/wikis/%E6%9C%AC%E5%9C%B0%E7%BC%96%E8%BE%91%E9%A1%B9%E7%9B%AE%E6%96%87%E4%BB%B6%E6%8C%87%E5%8D%97)

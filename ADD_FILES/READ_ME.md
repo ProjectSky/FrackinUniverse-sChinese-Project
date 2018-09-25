@@ -1,3 +1,12 @@
+# 更新9.25
+
+* 翻译补完完美家具，可能还需要修改。
+* 合并冲突，统一为“电池组”“传送门”，修正半角括号。
+* 疑问：sticky note翻译成贴纸垫感觉不错啊？
+
+已翻译的Json文件数目： 6042
+未翻译的Json文件数目： 835
+
 # 更新9.21
 
 * object/vality/cute基本翻译完。
@@ -5,7 +14,7 @@
 
 # 更新9.19
 
-* monsters/dungeon
+* monsters/dungeon部分翻译。
 
 已翻译的Json文件数目： 5897
 未翻译的Json文件数目： 981
@@ -48,7 +57,7 @@
 	* 保留了一些可能并不需要翻译，或者不适合翻译的文本。
 * ［注意］利用正则表达式统一了部分特殊名称，例如：“能量值上限”“能源幽灵”。
 
-以下是对于自己所保留的项目的：
+# 以下是对于自己所保留的项目的：
 
 * 部分翻译后的文本为了可能的后续更改，加上了以@开始的标签。如：,,,@?。
 * 未翻译的JSON文档、未翻译完的文档、调整过翻译但可能不必要的文档、已翻译完但翻译后文本可能不怎么确切和信雅达的文档，应该都加上了filename.markup标记用空白文件。
@@ -56,28 +65,6 @@
 
 
 
-# 参考
 
-* 矿石
-	* Zerchesium 高熔点矿
-	* Protocite 原体矿
-	* 特勒贝晶体 Telebrium
-	* 半影矿 Penumbrite
-	* 原力矿 Trianglium->原力角锥体
-	* 寂灭矿 Quietusium
-		* 可以直译
-	* 寒霜矿 Isogen
-	* 永燃矿 Pyreite
-	* 幻影矿 Effigium
-	* 超致密矿 Densinium
-	* 诺克石 Nocxium
-		* EVA超新星诺克石
-	* 原力矿 Trianglium
-		* 三角
-	* 赛德瑞瑟晶体 Xithricite
-		* 参考：[Wiki](https://en.wikipedia.org/wiki/List_of_fictional_elements,_materials,_isotopes_and_subatomic_particles)
-	* 阳青金 Aetherium
-		* 以太，可以直译为以太矿石
-	* 异极合金 Morphite
 
 
