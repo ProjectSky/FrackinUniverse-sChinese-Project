@@ -28,8 +28,6 @@ class Handler:
        
     def set_texts_path(self, path: str=None):
         """设置工作路径（即Texts路径）"""
-    #     if not path:
-    #       self.texts_path = path
         if path:
             self.texts_path = path
 
