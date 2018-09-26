@@ -1,6 +1,11 @@
 Record For Branch dk_breezework
 Created By 微风的龙骑士
 
+# 更新2.26
+
+* 补充部分武器的翻译。
+* 补充部分广播消息的翻译。
+
 # 更新9.26
 
 * 修正为“蚕房”“蚕蛾”“臭虫房”。
