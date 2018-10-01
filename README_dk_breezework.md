@@ -1,11 +1,22 @@
-Record For Branch dk_breezework
-Created By 微风的龙骑士
+* Record For Branch dk_breezework
+* Created By 微风的龙骑士
+
+# 更新10.1
+
+* object/bees补完。
+* object/minibiome补充。
+* 其他部分的少许翻译。
+已翻译的Json文件数目： 6230<br>
+未翻译的Json文件数目： 824 
 
 # 更新10.1
 
 * 旗帜、灯泡的翻译。
 * 先驱相关，修正翻译，补充翻译。
 * 统一“迷你”为“微型”。
+
+已翻译的Json文件数目： 6165<br>
+未翻译的Json文件数目： 889
 
 # 更新9.26
 
@@ -22,7 +33,7 @@ Created By 微风的龙骑士
 * 少量翻译。
 
 已翻译的Json文件数目： 6059
-未翻译的Json文件数目： 995
+未翻译的Json文件数目： 995<br>
 
 # 更新9.25
 
@@ -39,7 +50,7 @@ Created By 微风的龙骑士
 * 仍然保留部分“传送器”。
 
 已翻译的Json文件数目： 6042
-未翻译的Json文件数目： 835
+未翻译的Json文件数目： 835<br>
 
 # 更新9.25
 
@@ -48,7 +59,7 @@ Created By 微风的龙骑士
 * 疑问：sticky note翻译成贴纸垫感觉不错啊？
 
 已翻译的Json文件数目： 6042
-未翻译的Json文件数目： 835
+未翻译的Json文件数目： 835<br>
 
 # 更新9.21
 
@@ -60,7 +71,7 @@ Created By 微风的龙骑士
 * monsters/dungeon部分翻译。
 
 已翻译的Json文件数目： 5897
-未翻译的Json文件数目： 981
+未翻译的Json文件数目： 981<br>
 
 # 更新9.19
 
