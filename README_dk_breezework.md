@@ -1,6 +1,17 @@
 * Record For Branch dk_breezework
 * Created By 微风的龙骑士
 
+# 更像10.1
+
+* 凯文相关。
+* “未知之水”改为“外星汁液”。（避免歧义）
+* “未知化合物”改为“外星化合物”。（避免歧义）
+* 整理参考词汇（矿石，液体，NPC、原创种族等）
+* 修正重力雨、重力液体相关。
+* 确定部分NPC的译名。
+
+* 问题：纯啤酒（.\translations\texts\items\liquids\liquidbeer.liqitem.json）的英文文本是否有误？
+
 # 更新10.1
 
 * object/bees补完。
