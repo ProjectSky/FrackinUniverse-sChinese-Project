@@ -4,4 +4,6 @@ Check_Files:
     
 Update_Statistics:
   script:
-    - python3 /home/sky/ext.py
+    - cd /home/sky/script/FrackinUniverse-sChinese-Project && git fetch --all && git reset --hard origin/FAST && git pull && python3 /home/sky/ext.py
+  except:
+    - FAST
