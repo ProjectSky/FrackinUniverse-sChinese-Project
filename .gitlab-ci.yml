@@ -4,6 +4,6 @@ Check files:
     
 Update statistics:
   script:
-    - $STATISTICS
+    - cd $PROJECT_FOLDER && git fetch --all && git reset --hard origin/FAST && git pull && $EXT
   only:
     - FAST
