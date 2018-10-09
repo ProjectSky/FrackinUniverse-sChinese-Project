@@ -1,6 +1,11 @@
 * Record For Branch dk_breezework
 * Created By 微风的龙骑士
 
+# 更新 10.9
+
+* 合并冲突。
+* 修正为“窗棂”。
+
 # 更新10.2
 
 * materials补完。
@@ -144,10 +149,34 @@
 
 * 部分翻译后的文本为了可能的后续更改，加上了以@开始的标签。如：,,,@?。
 * 未翻译的JSON文档、未翻译完的文档、调整过翻译但可能不必要的文档、已翻译完但翻译后文本可能不怎么确切和信雅达的文档，应该都加上了filename.markup标记用空白文件。
-* 这些标记文件利用脚本可以很容易地添加和删除。。。
+* 这些标记文件利用脚本可以很容易地添加和删
 
 
 
 
 
 
+```C#
+//C#万岁！
+
+class MyClass{
+	public string Name{get;set;}
+}
+```
+
+```java
+//Java垃圾。
+
+class MyClass{
+	private String name;
+	
+	public String getName(){
+		return name;
+	}
+	
+	public void setName(String Name){
+		this.name = Name;
+	}
+}
+
+```
