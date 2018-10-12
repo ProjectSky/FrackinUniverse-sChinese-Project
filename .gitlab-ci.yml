@@ -1,7 +1,9 @@
-Check_Files:
+Check files:
   script:
-    - python3 script/check_file.py
+    - $CHECKSCRIPT
     
-Update_Statistics:
+Update statistics:
   script:
-    - python3 /home/sky/ext.py
+    - cd $PROJECT_FOLDER && git fetch --all && git reset --hard origin/FAST && git pull && $EXT
+  only:
+    - FAST
