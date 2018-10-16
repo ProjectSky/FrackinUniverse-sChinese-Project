@@ -342,7 +342,7 @@
 	* Frost Burn
 * 霜炎
 	* frozen-fire
-* 流血
+* 出血
 	* Bleeding
 * 易伤
 	* Vulnerability
@@ -504,8 +504,3 @@
 * 泰克
 	* Tek
 
-
-暂未统一：
-碳制/碳钢
-出血/流血
-阳清武器的招式名
