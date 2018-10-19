@@ -1,4 +1,4 @@
-* Greated By 微风的龙骑士
+吗     * Greated By 微风的龙骑士
 * 部分特殊名词的参考文档
 * 请其他项目参与者协助扩充
  
@@ -173,10 +173,6 @@
 
 * 剑类武器
 	* Bladed Weapons
-* 近战武器
-	* Melee Weapons
-* 能量武器
-	* Energy Weapons
 * 生物武器
 	* Bio-Weapons
 * 月晶武器
@@ -189,14 +185,22 @@
 	* Slime Weapons
 * 先驱武器
 	* Precursor Weapons
-* 狩猎武器
-	* Hunting Weapons
-* 等离子武器
-	* Plasma Weapons
 * 赛德瑞瑟武器
 	* Xithricite Weapons
+
+* 近战武器
+	* Melee Weapons
+* 狩猎武器
+	* Hunting Weapons
+* 能量武器
+	* Energy Weapons
+* 等离子武器
+	* Plasma Weapons
+* 火箭发射器
+	* Rocket Launcher
 * （待补充...）
 
+暂定的规则：直接基于矿石、合金的武器不用“之”修饰。
 
 
 ## 矿石 & 锭 & 合金
@@ -321,14 +325,50 @@
 	* Liquid Protocite
 * 生命之水
 	* Healing Water
-	* 项目中未发现对应的文档，相应文本与纯啤酒替换了。
 
+
+## 状态
+
+**武器，通用**
+
+* 燃烧
+	* Burning
+* 凝固
+	* Napalm
+* 冻结
+	* Frozing
+	* Freezing
+* 霜炎灼伤
+	* Frost Burn
+* 霜炎
+	* frozen-fire
+* 出血
+	* Bleeding
+* 易伤
+	* Vulnerability
+* 辐射烧伤
+	* Radiation Burn
+	* Rad-Burn
+* 感电
+	* electrified
+	* electrified status
+* 麻痹
+	* paralysis
+* 毒素
+	* Poison
+* 虚弱
+	* weakening
+* 蜂蜇
+	* Stringing
+
+**环境，通用**
 
 
 ## 种族
 
 * 羽族
 	* Avali
+	* 众所周知。
 * ...
 	* Radien
 	* 赛博朋克背景的种族。
@@ -337,13 +377,18 @@
 	* 善于交易。
 * ［佩格拉希族］
 	* Peglaci
-	* 发明了多种合金
+	* 发明了多种合金。
 * ...
 	* Mantizi
-	* 硬皮肤，虫形。有一个帝国。专制。
-* ［暗影居民］
+	* 硬皮肤，虫形，有一个帝国，专制。
+* 影族［暗影居民］
 	* Shadow
-* （待补充...）
+* ［龙人］［亚龙人］［类龙人］
+	* Eld'uukhar
+	* 半龙，水晶工匠，基于水晶的科技。
+* 。。。
+	* Xarwiek
+	* 非常罕见。
 
 
 
@@ -383,6 +428,8 @@
 * 阿克希娜
 	* Axiena
 	* 燃料专家，翼族，哑巴。
+* 贝拉
+	* Bella
 * （待补充...）
 
 **其他**
@@ -413,17 +460,61 @@
 
 # 物品
 
-* 艾米拉水晶
+* 天使石水晶（已删除）
+	* Angelite Crystal
+	* 泪珠状，摸起来有点冷
+* 艾米拉水晶［T］
 	* Emera Crystal
 	* 祖母绿：Emerald
-* 菲亚水晶
+	* 成群生长，非常脆弱
+* 菲亚水晶［T］
 	* Feya水晶
-* 。
-	* Thanatite Crystal
-	* Thanat：死亡学，死因学，死神，
+	* 黯淡，几乎不发光
+* 柯斯帕水晶
+	* Kespar Crystal
+	* 在阳光下闪闪发光
+* 大洋岩水晶［T］
+	* Oceanite Crystal
+  欧普拉水晶
+	* Opul Crystal
+	* 温暖，治愈
+* 瑞吉特水晶［T］
+	* Rekite Crystal 
+	* 提供极少量燃料
+	* 引用的是哪个单词？
+* 心叶石水晶［T］
+	* Thantite Crystal
+	* 生长在不同寻常之处
+	* Thanat：死亡学，死因学，死神
+
+* 。。。
+	* sivite
+	* 原为天蓝石 lazulite
+* 。。。
+	* Koanite
+	* koan：以心传心，原为磷酸铝
+	* 名字起得这么好，却只是用来生产磷？
 
 ## 其他
 
 * 尼克斯大浩劫
 	* Nikos Point disaster
 	* Kirhos族的历史事件，这场浩劫导致了AI的全面禁止。
+* 卡拉啤酒
+	* Kahla Tankarad
+* 阿克恩
+	* ArCon
+	* 一支太空军队
+* 。。。
+	* elduukhar
+* 。。。
+	* Fife
+* 。。。
+	* Thelusian
+* 瓦伊
+	* Vai
+* 德拉瓦伊
+	* Daravai
+* 泰克
+	* Tek
+
