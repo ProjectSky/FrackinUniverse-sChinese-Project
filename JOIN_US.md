@@ -41,3 +41,6 @@
 * Git
 * Markdown
 * Json
+
+在文档中查找未翻译的文本的正则表达式：
+`"Texts":.*\n[^"Chs":.*\n].*"Eng":`

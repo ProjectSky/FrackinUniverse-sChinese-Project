@@ -1,6 +1,11 @@
 * Record For Branch dk_breezework
 * Created By 微风的龙骑士
 
+# 更新 10.19
+
+* 更新到新版本，合并冲突，补上遗漏的翻译
+* 统一为：`套装效果：`
+
 # 更新 10.16
 
 * 按照ZY的建议修正翻译。
