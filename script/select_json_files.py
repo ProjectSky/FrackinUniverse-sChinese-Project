@@ -2,17 +2,19 @@
 # 时间：2018/8/14
 
 # 一个简陋的过滤脚本
+# 等待测试通过
 
 # 区分已翻译完的JSON文件和未翻译完的JSON文件。
 # 脚本允许存放在项目根目录、ADD_FILES、translations、script、texts文件夹下。
 
 # 进度：
 
-# + 初步实现
-# - 使用json模块进行过滤
-# - 使用os.walk(rootdir)直接扫描到根目录下的所有文件
-# - 提取需要的Chs-Eng键值对，存储到单独的Json文档中，翻译好后，可以逆向替换回去。
-# - 可以二次过滤还未翻译完的json文档
+
+# DONE：初步实现
+# TODO：使用json模块进行过滤
+# TODO：使用os.walk(rootdir)直接扫描到根目录下的所有文件
+# TODO：提取需要的Chs-Eng键值对，存储到单独的Json文档中，翻译好后，可以逆向替换回去。
+# TODO：可以二次过滤还未翻译完的json文档
 
 # 使用方法：
 	
@@ -25,121 +27,112 @@
 # 在输入指令2后，输入指令6即可清除所有的markup文件，接着输入指令5更新标记。
 
 import os
+import os.path
 import json
-
+import re
 
 class Handler:
     # 默认的Texts路径
     texts_path = ""
-    # 已翻译完的文档的路径列表
-    translated_json_docs = []
-    # 未翻译完的文档的路径列表
-    not_translated_json_docs = []
+    # [str]，已翻译完的文档的路径列表（全路径，包括目录、文件名）
+    translated_json_list = []
+    # [str]，未翻译完的文档的路径列表（全路径，包括目录、文件名）
+    not_translated_json_list = []
 
-       
+    # 匹配未翻译文本的字符串（组1：未翻译的英文文本）
+    patten = r'Texts":.*\n[^"Chs":.*\n].*"Eng":(.*)\n'
+    # 对应的Patten对象
+    pat
+    
     def set_texts_path(self, path: str=None):
         """设置工作路径（即Texts路径）"""
         if path:
             self.texts_path = path
 
-
-    def _scan_dir_recursive(self, path):
-        """递归扫描指定的目录"""
-        # 扫描这个目录，得到所有子目录和子文件实体
-        with os.scandir(path) as it:
-            entry: os.DirEntry
-            # 对于每个实体
-            for entry in it:
-                # 如果这个实体是文件夹，则保留，并递归调用函数（DirEntry.is_dir()这个方法有问题）
-                # 如果没有包含点号则认为是文件夹，这时进行递归调用
-                if entry.is_dir and entry.name.find(".") == -1:
-                    self._scan_dir_recursive(entry.path)
-                # 如果这个实体是文件，则做进一步处理
-                else:
-                    # 如果是Json文件
-                    if entry.name.endswith((".json", ".JSON", ".Json")):
-                        self._handle_doc(entry)
+       
+    def scan_dir(self):
+        """遍历扫描指定的目录"""
+        for roots,dirnames,filenames in os.walk(self.texts_path):
+            for dirname,filename in zip(dirnames,filenames):
+                #如果是JSON文件
+                if filename.endswith((".json",".JSON",".Json")):
+                    fullpath = os.path.join(dirname,filename)
+                    self._handle_doc(fullpath)
 
 
-    def _handle_doc(self, entry: os.DirEntry):        
-        """处理（分类）单个文档"""      
+    def _handle_doc(self,fullpath):
+        """处理单个文档，进行分组"""   
         # 打开这个文件，指定打开方式和编码
-        with open(entry.path, "r", encoding="UTF-8") as f:
-            # 通过f.readlines():list(str)得到每一行的文本，并进行遍历
-            lines = f.readlines()
-            flag = False
-            for i in range(len(lines) - 1):
-                # 如果某一行定位到Texts属性，且在下一行定位到Eng属性，而非Chs属性
-                if lines[i].find(r'"Texts":') != -1 \
-                        and lines[i + 1].find(r'"Eng":') != -1:
-                    # 标记这个文件为不需要删除的，跳出循环
-                    # 其他情况的Json文件都需要标记为要删除的
-                    flag = True
-                    break
-            # 将文档分组
-            if not flag:
-                self.translated_json_docs.append(entry)
+        with open(fullpath, "r", encoding="UTF-8") as f:
+            # 读取所有文本
+            fd = f.read()
+            # 使用re进行匹配，如果result为True，则表明该文档未翻译完，否则翻译完
+            result = self.pat.match(fd)
+            # 加入分组
+            if result:
+                self.not_translated_json_list.append(fullpath)
             else:
-                self.not_translated_json_docs.append(entry)
-
+                self.translated_json_list.append(fullpath)
+    
 
     def delete_translated(self):
         """删除已翻译完的文档"""
-        for doc in self.translated_json_docs:
+        for doc in self.translated_json_list:
             os.remove(doc)
-        list.clear(self.translated_json_docs)
+        list.clear(self.translated_json_list)
         print("删除操作完成！")
 
 
     def delete_not_translated(self):
         """删除未翻译的文档"""
-        for doc in self.not_translated_json_docs:
+        for doc in self.not_translated_json_list:
             os.remove(doc)
-        list.clear(self.not_translated_json_docs)
+        list.clear(self.not_translated_json_list)
         print("删除操作完成！")
 
 
     def create_markup_files(self):
-        """为未翻译完的文件创建markup标记（空文件，.markup后缀）"""
-        for doc in self.not_translated_json_docs:
-            doc_markup_path = doc.path + ".markup"
-            with open(doc_markup_path, "w+"):
+        """为未翻译完的json文档添加标记文件"""
+        for doc in self.not_translated_json_list:
+            markup_doc = doc + ".markup"
+            with open(markup_doc, "w+"):
                 pass
         print("创建标记文件完毕！")
 
 
     def delete_markup_files(self):
-        for doc in self.not_translated_json_docs:
-            mu_path = doc.path + ".markup"
-            if os.path.exists(mu_path):
-                os.remove(mu_path)
-        for doc in self.translated_json_docs:
-            mu_path = doc.path + ".markup"
-            if os.path.exists(mu_path):
-                os.remove(mu_path)
-        print("删除标记文件完毕！")
+        """删除所有标记文件"""
+        # 相对的目录（不包括文件名），最下级目录，文件名
+        for roots,dirnames,filenames in os.walk(self.texts_path):
+            for dirname,filename in zip(dirnames,filenames):
+                if str(filename).endswith(".markup"):
+                    fullpath = os.path.join(dirname,filename)
+                    os.remove(fullpath)
+        print("删除标记文件完毕！")        
 
 
     def print_info(self):
         """打印消息"""
-        print("已翻译的Json文件数目：", len(self.translated_json_docs))
-        print("未翻译的Json文件数目：", len(self.not_translated_json_docs))
+        print("已翻译的Json文件数目：", len(self.translated_json_list))
+        print("未翻译的Json文件数目：", len(self.not_translated_json_list))
 
 
     def __init__(self):
         """初始化texts路径，适配多种情况"""
         self.texts_path = os.getcwd()
         if self.texts_path.endswith(("script","ADD_FILES")):
-            self.texts_path = self.texts_path.rsplit(
-                "\\", 1)[0] + "\\translations\\texts"
+            self.texts_path = self.texts_path.rsplit("\\", 1)[0] + "\\translations\\texts"
         elif self.texts_path.endswith("translations"):
             self.texts_path = self.texts_path + "\\texts"
         elif self.texts_path.find("FrackinUniverse-Chinese-Project") or self.texts_path == "":
             self.texts_path = self.texts_path + "\\translations" + "\\texts"
+            
         print("当前选定的texts文件夹路径：" + self.texts_path)
+        
+        self.pat = re.compile(self.patten)
+        
 
 
-2
 class Interface:
     handler: Handler
 
@@ -169,12 +162,16 @@ class Interface:
             path = input("请输入路径：")
             self.handler.set_texts_path(path)
         elif kw == "2":
-            self.handler._scan_dir_recursive(self.handler.texts_path)
+            self.handler.scan_dir()
             self.handler.print_info()
         elif kw == "3":
+            if input("请再次确认（Y/N）：").upper() != "Y":
+                return      
             self.handler.delete_translated()
             self.handler.print_info()
         elif kw == "4":
+            if input("请再次确认（Y/N）：").upper() != "Y":
+	            return
             self.handler.delete_not_translated()
             self.handler.print_info()
         elif kw == "5":
@@ -195,7 +192,7 @@ class Interface:
 if __name__ == '__main__':
     interface = Interface()
     interface.print_info()
-    keyword: str
+    keyword
     while True:
         keyword = input("请输入指令：")
         interface.get_keyword(keyword)
