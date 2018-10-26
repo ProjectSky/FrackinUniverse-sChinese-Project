@@ -338,9 +338,9 @@
 * 冻结
 	* Frozing
 	* Freezing
-* 霜炎灼伤
+* 霜灼
 	* Frost Burn
-* 霜炎
+* 霜灼
 	* frozen-fire
 * 出血
 	* Bleeding
@@ -443,6 +443,9 @@
 * 奥拉纳
 	* Orana
 	* Radien族的神祗，可能是FU世界观的创造神。
+* ［唯一者］
+	* The One
+	* 对于影族（Shadow）来说意味着什么。
 
 ## 怪物
 
