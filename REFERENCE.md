@@ -29,6 +29,9 @@
 * 黑暗恢复速度
 	* Darkness Regen
 
+* 掉落速度
+	* Fall Speed
+
 **攻击相关**
 
 * 攻击
@@ -58,6 +61,12 @@
 	* Shield Mastery
 * （待补充...）
 
+**飞船相关**
+
+* 飞船行驶速度
+* 飞船燃料利用率
+* 飞船燃料容量
+* 飞船质量
 
 
 ## 元素属性
@@ -223,6 +232,7 @@
 	* Ebon Shard
 * 幻影锭
 	* Effigium Bar
+	* Effigy：肖像，模拟像，仿真像。
 * 琥珀块
 	* Amber Chunk
 * 镭锭
@@ -230,7 +240,7 @@
 * 寒霜锭
 	* Isogen Bar
 	* Isogen：等角多边形。
-* 特勒贝晶体
+* 特勒贝晶体锭
 	* Telebrium Bar
 * 异极合金锭
 	* Morphite Bar
@@ -268,6 +278,11 @@
 * （待补充...）
 
 
+* 奥创棒
+	* Ultronium
+	* Ultro：奥创，美国漫威漫画旗下超级反派。
+
+
 * 佩格拉希合金
 	* Peglaci Alloy
 
@@ -293,7 +308,7 @@
 	* Black Tar
 * 血液
 	* Blood
-* 液态水晶
+* 液化水晶
 	* Liquified Crystal
 * 液态氘
 	*Liquid Deuterium
