@@ -486,6 +486,10 @@
 	* Fleshreaper
 * ...
 	* Lilodon
+* Anglure
+	* Anglure
+* Bulbop
+	* Bulbop
 * （待补充...）
 
 # 物品
