@@ -31,6 +31,8 @@
 
 **攻击相关**
 
+* 攻击
+	* Attack,Power
 * 伤害
 	* Damage
 * 防御
@@ -51,7 +53,7 @@
 * 盾牌完美格挡反伤
 	* Shield Bash
 * 盾牌击退
-	* Shield Push
+	* Shield Push,Knockback
 * 盾牌精通
 	* Shield Mastery
 * （待补充...）
@@ -354,6 +356,8 @@
 	* electrified status
 * 麻痹
 	* paralysis
+* 晕眩
+	* Shock
 * 毒素
 	* Poison
 * 虚弱
@@ -386,6 +390,8 @@
 * ［龙人］［亚龙人］［类龙人］
 	* Eld'uukhar
 	* 半龙，水晶工匠，基于水晶的科技。
+* ...
+	* Thelusian
 * 。。。
 	* Xarwiek
 	* 非常罕见。
@@ -520,4 +526,9 @@
 	* Daravai
 * 泰克
 	* Tek
+* CySol的私人娱乐网络
+	* CySol's private entertainment network.
+	* Kirhos族相关。
+* Azriel工业公司
+	* Azriel Industries
 
