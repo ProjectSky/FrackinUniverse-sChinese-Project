@@ -379,8 +379,14 @@
 	* weakening
 * 蜂蜇
 	* Stringing
+* 反伤
+	* Thorns
+* 狂暴
+	* Rage
 
-**环境，通用**
+* 精神错乱
+
+
 
 
 ## 种族
