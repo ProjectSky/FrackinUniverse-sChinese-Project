@@ -62,11 +62,11 @@ Stun Chance
 
 ### <h4 id="1.3">1.3 盾牌</h4>
 
-* 盾牌防护值
+* 盾牌耐久
 Shield Health
-* 盾牌防护值恢复速度
+* 盾牌耐久恢复速度
 Shield Regen
-* 盾牌完美格挡反伤
+* 盾牌反伤
 Shield Bash
 * 盾牌击退
 Shield Push
