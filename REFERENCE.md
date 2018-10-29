@@ -1,8 +1,14 @@
-> Greated By 微风的龙骑士
+>Created By 微风的龙骑士
 > 部分特殊名词的参考文档
 > 
 > 第一个中文名为目前统一使用的译名，后面的为可考虑的或者曾用的。
 > 请其他项目参与者协助扩充。
+> 全局搜索`@?`：极其不确定的翻译。
+
+# TODO
+
+- [ ] 验证护甲的效果
+- [ ] 验证护甲、武器的升级关系（在工具升级台中，而非提升武器等级后，自动升级）
 
 # 模版
 
@@ -10,9 +16,12 @@
 
 ```
 青色：通用正面效果。
+紫色：武器的条件效果。
+亮红色：生态的条件效果。
 绿色：附加效果，描述性的效果。
 黄色：特性。
 红色：通用负面效果。
+
 橙色：突出显示的数值或范围。
 
 表示可升级工具/武器/护甲的等级：在名称后面加上“ [LX]”，其中X表示等级。
@@ -46,6 +55,14 @@
 
 ### 格式规范
 
+```
+套装效果：
+（通用正面效果）
+（武器的条件效果）
+（生态的条件效果）
+（附加效果，描述性的效果）
+```
+
 ## 状态（来自套装效果）
 
 ### 格式规范
@@ -78,9 +95,9 @@
 * 暴击伤害加成&emsp;Grit Damage Bonus +%&emsp;Crit Damage, Crit Dmg
 * 暴击几率&emsp;Grit Chance +%&emsp;Crit %, Crit Chance %, Critical Chance %
 
-* 呼吸时限&emsp;Breath Duration&emsp;Oxygen %
+* 呼吸时限&emsp;Breath Duration&emsp;Oxygen %, Oxygen Supply %
 * 呼吸恢复速度&emsp;Breath Regen
-* 饥饿速度&emsp;Food Consumption per second&emsp;Hunger
+* 饥饿速度&emsp;Food Consumption per second&emsp;Hunger, Hunger Rate
 
 * 击退抵抗&emsp;Knockback Resistance %
 * ？？？临界值&emsp;？？？ Threshold
@@ -120,7 +137,7 @@
 
 * 跳跃力&emsp;Jump
 * ？？？&emsp;Air Force
-* 奔跑速度&emsp;Speed
+* 移动速度&emsp;Speed
 * 游泳速度&emsp;Swim
 
 * 盾牌反伤&emsp;Shield Bash Chance, Shield Bash?
@@ -149,7 +166,7 @@
 * 掉落速度&emsp;Fall Speed
 * 饥饿速度&emsp;Hunger
 * 跳跃力&emsp;Jump
-* 奔跑速度&emsp;Speed
+* 移动速度&emsp;Speed
 * 游泳速度&emsp;Swim
 * 掉落伤害&emsp;Fall Damage
 
@@ -183,14 +200,14 @@
 
 ## 元素属性
 
-* 物理系&emsp;Physical
-* 射线系，宇宙射线系&emsp;Cosmic
-* 冰系&emsp;Ice
-* 火系&emsp;Fire
-* 电系&emsp;Electric
-* 毒系&emsp;Poison
-* 辐射系&emsp;Radiation
-* 暗影系&emsp;Shadow
+* 物理属性&emsp;Physical
+* 射线属性&emsp;Cosmic
+* 寒气属性&emsp;Ice
+* 火炎属性&emsp;Fire
+* 电系属性&emsp;Electric
+* 毒素属性&emsp;Poison
+* 射线属性&emsp;Radiation
+* 暗影属性&emsp;Shadow
 
 ## 分类法
 
@@ -209,7 +226,7 @@
 * 战剑&emsp;War Sword
 * 战刃&emsp;Warblade
 
-**双手近战武器**
+**双手武器**
 
 * 宽剑&emsp;Cleaver
 * 矛，长矛，枪&emsp;Spear
@@ -295,16 +312,16 @@
 * 赛德瑞瑟武器&emsp;Xithricite Weapons
 
 * 电系武器&emsp;Electric Weapons
-* 火系武器&emsp;Fire Weapons
-* 冰系武器&emsp;Ice Weapons
-* 辐射系武器&emsp;Radiation Weapon
+* 火炎武器&emsp;Fire Weapons
+* 寒气武器&emsp;Ice Weapons
+* 放射武器&emsp;Radiation Weapon
 
-暂定的规则：直接基于矿石、合金的武器不用“之”修饰。
 
 ## 程度
 
 * 小型&emsp;Small
 * 重度，大型&emsp;Severe
+
 
 ## 物品
 
@@ -442,6 +459,7 @@
 * 原体液&emsp;Liquid Protocite
 * 生命之水&emsp;Healing Water
 
+
 ## 状态
 
 ### 来自武器效果
@@ -452,10 +470,10 @@
 * 霜灼&emsp;Frost Burn, frozen-fire
 * 出血&emsp;Bleeding
 * 易伤&emsp;Vulnerability
-* 辐射烧伤&emsp;Radiation Burn, Rad-Burn
+* 辐射烧伤&emsp;Radiation Burn, Rad-Burn,Radiation？
 * 感电&emsp;Electrified
 * 麻痹&emsp;paralysis
-* 晕眩&emsp;Shock, Shocked
+* 晕眩&emsp;Shock, Shocked, Stun
 * 毒素&emsp;Poison
 * 虚弱&emsp;weakening
 * 蜂蜇&emsp;Stringing
@@ -471,7 +489,10 @@
 
 * 潮湿&emsp;Wet
 * 寒冷&emsp;Cold
+
 * 致命炎热&emsp;Deadly Heat
+
+* 致命辐射&emsp;Deadly Radiation
 
 * 治疗中&emsp;Healing
 * 光照治疗&emsp;Lightheal

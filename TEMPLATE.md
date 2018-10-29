@@ -28,21 +28,21 @@
 
 ### <h4 id="1.1">1.1 抗性</h4>
 
-* 毒系抗性
+* 毒素抗性
 Poison Resistance
 * 电系抗性
 Electric Resistance
-* 火系抗性
+* 火炎抗性
 Fire Resistance
-* 冰系抗性
+* 寒气抗性
 Ice Resistance
-* 物理系抗性
+* 物理抗性
 Physical Resist
-* 暗影系抗性
+* 暗影抗性
 Shadow Resist
-* 射线系抗性
+* 射线抗性
 Cosmic Resist
-* 辐射系抗性
+* 放射抗性
 Radiation Resist
 * 击退抗性
 Knockback Resist
@@ -174,7 +174,7 @@ Xithricite weapons
 Hunger
 * 跳跃力
 Jump
-* 奔跑速度
+* 移动速度
 Speed
 * 游泳速度
 Swim
@@ -276,7 +276,7 @@ Jungle Heat
 Bio Ooze
 * 精神错乱
 Insanity,Madness
-* (原始毒素)原毒
+* 原毒
 Proto-Poison
 
 ### <h4 id="4.1">4.1 符号说明</h4>
