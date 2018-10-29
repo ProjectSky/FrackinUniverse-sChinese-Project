@@ -589,6 +589,25 @@
 	* ［备注］...
 * ？？？，（飞翼）豆荚&emsp;pteropod
 	* ［备注］...
+* Phantokat
+* Chromingo
+* Buggle
+* spheretest
+* Vile Snaunt
+* Rimeling
+* Spikespawn
+* Rotter
+* Scaveran Reptar
+* Xxxxlit
+* Ravager
+* Narfin
+* Xxxxflora
+* Lilodon
+* Glump
+* Gloop
+* Glarp
+* golem&emsp;魔像
+
 
 ## 其他
 
