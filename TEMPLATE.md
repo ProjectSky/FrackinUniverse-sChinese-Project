@@ -136,7 +136,7 @@ Machine Pistol
 Energy weapons
 * 近战武器
 Melee
-* 剑类武器
+* 剑刃武器
 Bladed weapons
 * 生物武器
 Bio-Weapon

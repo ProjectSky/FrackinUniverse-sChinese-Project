@@ -1,12 +1,23 @@
-吗     * Greated By 微风的龙骑士
+* Greated By 微风的龙骑士
 * 部分特殊名词的参考文档
 * 请其他项目参与者协助扩充
  
 注：中文名称为目前统一使用的译名，方括号内为曾用的、或者可考虑的译名。
 
+## 模版
+
+状态（武器）：
+```
+（无条件效果）
+（武器类别，“&”表示双持不同种类的武器）：（有条件效果）
+（生态类别）：（有条件效果）
+
+```
+
+
 ## 玩家属性
 
-* 饥饿
+* 饥饿速度
 	* Hunger
 * 跳跃力
 	* Jump
@@ -17,9 +28,9 @@
 * 掉落伤害
 	* Fall Damage
 * 生命值上限
-	* Health
-* 能量值上限
-	* Energy
+	* Health,Max Health
+* 能量值上限,
+	* Energy,Max,Energy
 * 恢复速度
 	* Regen
 * 生命恢复速度
@@ -28,18 +39,21 @@
 	* Energy Regen
 * 黑暗恢复速度
 	* Darkness Regen
-
+* 呼吸时间
+	* % Oxygen
 * 掉落速度
 	* Fall Speed
 
 **攻击相关**
 
 * 攻击
-	* Attack,Power
+	* Attack,Power(?),Rage(?)
 * 伤害
-	* Damage
+	* Dmg,Damage
 * 防御
 	* DEF,Protection
+* 护甲
+	* Armor
 * 暴击几率
 	* Crit,Crit Chance,Critical Chance
 * 暴击伤害
@@ -50,7 +64,7 @@
 **盾牌相关**
 
 * 盾牌防护值
-	* Shield Health
+	* Shield Health,Stamina
 * 盾牌防护值恢复速度
 	* Shield Regen
 * 盾牌完美格挡反伤
@@ -59,7 +73,10 @@
 	* Shield Push,Knockback
 * 盾牌精通
 	* Shield Mastery
-* （待补充...）
+* ...
+	* Block？
+* 格挡时间
+	* Perfect Block Time
 
 **飞船相关**
 
@@ -87,7 +104,6 @@
 	* Radiation
 * 暗影系
 	* Shadow
-
 
 
 ## 武器种类
@@ -182,7 +198,7 @@
 
 ## 武器系列
 
-* 剑类武器
+* 剑刃武器
 	* Bladed Weapons
 * 生物武器
 	* Bio-Weapons
@@ -214,77 +230,141 @@
 暂定的规则：直接基于矿石、合金的武器不用“之”修饰。
 
 
+## 程度
+
+* 小型
+	Small
+* 重度，大型
+	* Severe
+
+
 ## 矿石 & 锭 & 合金
 
-* 高级合金
-	* Advanced Alloy
-* 阳清金
-	* Aetherium Alloy
-	* 可能出自上古卷轴，来自光界的物质碎片。Aether：以太。
-* 碳板
-	* Carbon Plate
-* 致密合金
-	* Dense Alloy
-* 超致密锭
-	* Densinium Bar
-	* Dense：致密的。
+**一般**
+
+* 碳 -> 碳板
+	* Carbon -> Carbon Plate
 * 黑檀石碎片
 	* Ebon Shard
-* 幻影锭
-	* Effigium Bar
-	* Effigy：肖像，模拟像，仿真像。
 * 琥珀块
 	* Amber Chunk
-* 镭锭
-	* Irradium Bar
-* 寒霜锭
-	* Isogen Bar
-	* Isogen：等角多边形。
-* 特勒贝晶体锭
-	* Telebrium Bar
-* 异极合金锭
-	* Morphite Bar
-* 诺克石锭
-	* Nocxium Bar
-	* 同样出自EVE，超新星诺克石。
-* 半影锭［半影碎片］
-	* Penumbrite Shard
+* 特勒贝晶体 -> 特勒贝晶体锭
+	* Telebrium -> Telebrium Bar
+* 月晶碎片 -> 月晶
+	* Lunari Shard -> Lunari Crystal
+	* Luna：月之女神
+* 镭矿 -> 镭锭
+	* Irradium Ore -> Irradium Bar
+* 混乱原生质［腐化原生质］ -> 混乱原生质之种［腐化根源］
+	* Lasombrium -> Lasombrium Seed
+* 高熔点矿 -> 高熔点锭
+	* Zerchesium -> Zerchesium Bar
 * 原体锭
 	* Protocite Bar
 	* Proto：原型。
-* 永燃锭
-	* Pyreite Bar
-	* Pyre：火葬柴堆。
-* 寂灭锭
-	* Quietus Bar
-	* Quietus：寂灭，生命的终止。
-* 月晶
-	* Lunari Crystal
-	* Luna：月之女神。
-* 原力锭［原力棱锥，原力金字塔］
-	* Trianglium Pyramid
+* 半影矿 -> 半影碎片［半影锭］
+	* Penumbrite Ore -> Penumbrite Shard
+* 原力矿 -> 原力棱锥［原力锭，原力金字塔］
+	* Trianglium -> Trianglium Pyramid
 	* Triangle：三角形，Pyramid：金字塔，棱锥。
+* 寂灭矿 -> 寂灭锭
+	* Quietus Ore -> Quietus Bar
+	* Quietus：寂灭，生命的终止。
+* 寒霜矿 -> 寒霜锭
+	* Isogen Ore -> Isogen Bar
+	* Isogen：等角多边形。
+* 永燃矿 -> 永燃锭
+	* Pyreite Ore -> Pyreite Bar
+	* Pyre：火葬柴堆。
+* 赛德瑞瑟晶体碎片 -> 赛德瑞瑟晶体
+	* Xithricite Ore -> Xithricite
+* 幻影矿 -> 幻影锭
+	* Effigium Ore -> Effigium Bar
+	* Effigy：肖像，模拟像，仿真像。
+* 超致密矿 -> 超致密锭
+	* Densinium Ore -> Densinium Bar
+	* Dense：致密的。
+* 诺克原石 -> 诺克石锭
+	* Raw Nocxium -> Nocxium Bar
+	* 同样出自EVE，超新星诺克石。
+
+**合金**
+
+* 异极合金 -> 异极合金锭
+	* Morphite -> Morphite Bar
+* 高级合金
+	* Advanced Alloy
 * 超钛锭［三钛合金］
 	* Tritanium Bar
 	* 出自EVE，一种非常坚硬但有韧性的金属，但在大气温度下不稳定。
-* 赛德瑞瑟晶体
-	* Xithricite Crystal
-* 高熔点锭
-	* Zerchesium Bar
-* 混乱原生质［腐化原生质］
-	* Lasombrium
-* 混乱原生质之种［腐化根源］
-	* Lasombrium Seed
-* （待补充...）
+* 致密合金
+	* Dense Alloy
+	* Dense：致密的。
+* 阳清合金
+	* Aetherium Alloy
+	* 可能出自上古卷轴，来自光界的物质碎片。Aether：以太。
 
+**放射性**
 
-* 奥创棒
-	* Ultronium
+* 氘棒(2H)
+	* Deuterium (2H)
+* 氚棒(3H)
+	* Tritium (3H)
+* 浓缩钚棒(Pu)
+	* Enriched Plutonium (Pu)
+* 浓缩铀棒(U)
+	* Enriched Uranium (U)
+* 镎(Np) -> 镎棒(Np)
+	* Neptunium (Np) -> Neptunium Rod (Np)
+* 钍(Th) -> 钍棒(Th)
+	* Thorium (Th) -> Thorium Rod (Th)
+* 奥创棒(Ux3)
+	* Ultronium(Ux3)
 	* Ultro：奥创，美国漫威漫画旗下超级反派。
 
+**其他**
+
+* 。。。
+	* sivite
+	* 原为天蓝石 lazulite
+* 心印石
+	* Koanite
+	* koan：以心传心。原为磷酸铝。（名字起得这么好，却只是用来生产磷？）
 
 * 佩格拉希合金
 	* Peglaci Alloy
+
+**半龙人水晶**
+
+* 天使石水晶（已删除）
+	* Angelite Crystal
+	* 泪珠状，摸起来有点冷
+* 欧普拉水晶
+	* Opul Crystal
+	* 温暖，治愈
+
+* 艾米拉水晶
+	* Emera Crystal
+	* 成群生长，非常脆弱
+	* 祖母绿：Emerald
+* 菲亚水晶
+	* Feya Crystal
+	* 黯淡，几乎不发光
+* 柯斯帕水晶
+	* Kespar Crystal
+	* 在阳光下闪闪发光
+* 大洋石水晶
+	* Oceanite Crystal
+* 瑞吉特水晶
+	* Rekite Crystal 
+	* 引用的是哪个单词？
+	* 提供极少量燃料
+* 心叶石水晶
+	* Thantite Crystal
+	
+	* Thanat：死亡学，死因学，死神
+	* 生长在不同寻常之处
+
 
 ## 液体 & 气体
 
@@ -367,12 +447,12 @@
 	* Radiation Burn
 	* Rad-Burn
 * 感电
-	* electrified
-	* electrified status
+	* Electrified
+	* 关键词：slimeleech
 * 麻痹
 	* paralysis
 * 晕眩
-	* Shock
+	* Shock,Shocked
 * 毒素
 	* Poison
 * 虚弱
@@ -383,8 +463,47 @@
 	* Thorns
 * 狂暴
 	* Rage
-
 * 精神错乱
+	* 
+* 恐惧 & 狩猎
+	* Terrified & Hunted
+
+
+
+* 减速
+	* Slow
+* 滑行
+	* Slide
+
+* 潮湿
+	* Wet
+* 寒冷
+	* Cold
+* 致命炎热
+	* Deadly Heat
+
+* 治疗中
+	* Healing
+* 光照治疗
+	* Lightheal
+
+* 能源幽灵瘴气？
+	* Ghostly Miasma
+* 火焰反伤？
+	* Nova
+* 元素反伤？
+	* Flame
+* 反伤
+	* Thorns
+
+
+
+
+
+* 时间冻结
+	* Time Freeze
+
+
 
 
 
@@ -413,10 +532,9 @@
 	* 半龙，水晶工匠，基于水晶的科技。
 * ...
 	* Thelusian
-* 。。。
+* ...
 	* Xarwiek
 	* 非常罕见。
-
 
 
 ## NPC
@@ -486,48 +604,18 @@
 	* Fleshreaper
 * ...
 	* Lilodon
-* Anglure
+* ...
 	* Anglure
-* Bulbop
+* ...
 	* Bulbop
-* （待补充...）
+* （飞翼）豆荚
+	* pteropod
 
 # 物品
 
-* 天使石水晶（已删除）
-	* Angelite Crystal
-	* 泪珠状，摸起来有点冷
-* 艾米拉水晶［T］
-	* Emera Crystal
-	* 祖母绿：Emerald
-	* 成群生长，非常脆弱
-* 菲亚水晶［T］
-	* Feya水晶
-	* 黯淡，几乎不发光
-* 柯斯帕水晶
-	* Kespar Crystal
-	* 在阳光下闪闪发光
-* 大洋岩水晶［T］
-	* Oceanite Crystal
-  欧普拉水晶
-	* Opul Crystal
-	* 温暖，治愈
-* 瑞吉特水晶［T］
-	* Rekite Crystal 
-	* 提供极少量燃料
-	* 引用的是哪个单词？
-* 心叶石水晶［T］
-	* Thantite Crystal
-	* 生长在不同寻常之处
-	* Thanat：死亡学，死因学，死神
 
-* 。。。
-	* sivite
-	* 原为天蓝石 lazulite
-* 。。。
-	* Koanite
-	* koan：以心传心，原为磷酸铝
-	* 名字起得这么好，却只是用来生产磷？
+
+
 
 ## 其他
 
@@ -540,11 +628,7 @@
 	* ArCon
 	* 一支太空军队
 * 。。。
-	* elduukhar
-* 。。。
 	* Fife
-* 。。。
-	* Thelusian
 * 瓦伊
 	* Vai
 * 德拉瓦伊
