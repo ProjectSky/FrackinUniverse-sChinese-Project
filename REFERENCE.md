@@ -87,19 +87,19 @@
 ### 标准属性（三度仪中注明的高级属性）
 
 * 生命值上限&emsp;Max Health&emsp;Health&emsp;［默认：100］
-* 生命恢复速度&emsp;Health Regen %&emsp;Regen %&emsp;［默认：0］
+* 生命回复速度&emsp;Health Regen %&emsp;Regen %&emsp;［默认：0］
 * 防御力&emsp;Protection&emsp;Defense, DEF&emsp;［默认：0］
 
 * 能量值上限&emsp;Max Energy&emsp;Energy&emsp;［默认：100］
-* 能量恢复速度&emsp;Energy Regen %
-* 能量恢复时间&emsp;Energy Regen Time
+* 能量回复速度&emsp;Energy Regen %
+* 能量回复时间&emsp;Energy Regen Time
 
 * 攻击力倍率&emsp;Power Multiplier %&emsp;Attack, Power, Rage?&emsp;［默认：100%］
 * 暴击伤害加成&emsp;Grit Damage Bonus +%&emsp;Crit Damage, Crit Dmg
 * 暴击几率&emsp;Grit Chance +%&emsp;Crit %, Crit Chance %, Critical Chance %
 
 * 呼吸时限&emsp;Breath Duration&emsp;Oxygen %, Oxygen Supply %
-* 呼吸恢复速度&emsp;Breath Regen
+* 呼吸回复速度&emsp;Breath Regen
 * 饥饿速度&emsp;Food Consumption per second&emsp;Hunger, Hunger Rate
 
 * 击退抵抗&emsp;Knockback Resistance %
@@ -113,11 +113,11 @@
 ### 所有属性
 
 * 生命值上限&emsp;Max Health&emsp;Health&emsp;［默认：100］
-* 生命恢复速度&emsp;Health Regen %&emsp;Regen %&emsp;［默认：0］
+* 生命回复速度&emsp;Health Regen %&emsp;Regen %&emsp;［默认：0］
 
 * 能量值上限&emsp;Max Energy&emsp;Energy&emsp;［默认：100］
-* 能量恢复速度&emsp;Energy Regen %
-* 能量恢复时间&emsp;Energy Regen Time
+* 能量回复速度&emsp;Energy Regen %
+* 能量回复时间&emsp;Energy Regen Time
 
 * 攻击力，攻击力倍率&emsp;Power Multiplier %&emsp;Attack, Power, Rage?&emsp;［默认：100%］
 * 防御力&emsp;Protection&emsp;Defense, DEF&emsp;［默认：0］
@@ -129,7 +129,7 @@
 * 护甲&emsp;Armor
 
 * 呼吸时限&emsp;Breath Duration&emsp;Oxygen %
-* 呼吸恢复速度&emsp;Breath Regen
+* 呼吸回复速度&emsp;Breath Regen
 * 饥饿速度&emsp;Food Consumption per second&emsp;Hunger
 
 * 击退抗性&emsp;Knockback Resistance %, Knockback Resist
@@ -146,7 +146,7 @@
 * 盾牌反伤&emsp;Shield Bash Chance, Shield Bash?
 * 盾牌击退，盾牌反伤击退&emsp;Shield Bash Push, Shield Push?, Knockback?
 * 盾牌耐久&emsp;Shield Health, Stamina
-* 盾牌耐久恢复速度&emsp;Shield Regen
+* 盾牌耐久回复速度&emsp;Shield Regen
 * 格挡几率？&emsp;Block, Blocking
 * 完美格挡时间&emsp;Perfect Block Time
 
@@ -162,9 +162,9 @@
 
 * 生命值上限&emsp;Health,Max Health
 * 能量值上限,&emsp;Energy,Max,Energy
-* 生命恢复速度&emsp;Health Regen
-* 能量恢复速度&emsp;Energy Regen
-* 黑暗恢复速度&emsp;Darkness Regen
+* 生命回复速度&emsp;Health Regen
+* 能量回复速度&emsp;Energy Regen
+* 黑暗回复速度&emsp;Darkness Regen
 * 呼吸时限&emsp;% Oxygen
 * 掉落速度&emsp;Fall Speed
 * 饥饿速度&emsp;Hunger
@@ -186,7 +186,7 @@
 ### 盾牌相关
 
 * 盾牌耐久&emsp;Shield Health,Stamina
-* 盾牌耐久恢复速度&emsp;Shield Regen
+* 盾牌耐久回复速度&emsp;Shield Regen
 * 盾牌反伤&emsp;Shield Bash
 * 盾牌击退&emsp;Shield Push,Knockback
 * 盾牌精通&emsp;Shield Mastery
@@ -320,20 +320,63 @@
 * 放射武器&emsp;Radiation Weapon
 
 
-## 程度
-
-* 小型&emsp;Small
-* 重度，大型&emsp;Severe
-
-
 ## 物品
 
 ### 矿石 & 锭
+
+**原版**
+
+* 铜矿石&emsp;Copper Ore
+	* ［生成］铜锭&emsp;Copper Bar
+* 铁矿石&emsp;Iron Ore
+	* ［生成］铁锭&emsp;Iron Bar
+* 银矿石&emsp;Silver Ore
+	* ［生成］银锭&emsp;Silver Bar
+* 金矿石&emsp;Gold Ore
+	* ［生成］金锭&emsp;Gold Bar
+* 钨矿石&emsp;Tungsten Ore
+	* ［生成］钨锭&emsp;Tungsten Bar
+* 钛矿石&emsp;Titanium Ore
+	* ［生成］钛锭&emsp;Titanium Bar
+* 耐钢矿&emsp;Durasteel Ore
+	* ［生成］耐钢锭&emsp;DuraSteel Bar
+* 霓磷盐矿&emsp;Aegisalt Ore
+	* ［生成］精炼霓磷盐&emsp;Refined Aegisalt
+* 维奥合金矿&emsp;Violium Ore 
+	* ［生成］精炼维奥合金&emsp;Refined Violium
+* 菲洛合金矿&emsp;Ferozium Ore 
+	* ［生成］精炼菲洛合金&emsp;Refined Ferozium
+* 日耀石矿&emsp;Solarium Ore
+	* ［生成］精炼日耀石&emsp;Refined Solarium
+
+
+* 星核碎片&emsp;Core Fragment Ore
+* 水晶&emsp;Crystal
+* 钻石&emsp;Diamond
+* 冰晶体&emsp;Ice crystal
+* 硫磺&emsp;Sulphur
+
+
+* 原力石矿？？？ -> 原力矿
+* 棱镜碎片？？？
+* 精简的棱镜碎片 -> 棱镜之星
+* 月石矿 -> 特勒贝晶体
+
+**FU**
 
 * 碳&emsp;Carbon
 	* ［生成］碳板&emsp;Carbon Plate
 * 黑檀石碎片&emsp;Ebon Shard
 * 琥珀块&emsp;Amber Chunk
+
+* ？？？&emsp;sivite
+	* ［备注］原为天蓝石 lazulite
+* 心印石&emsp;Koanite
+	* ［引用］koan：以心传心。原为磷酸铝。（名字起得这么好，却只是用来生产磷？）
+
+* 佩格拉希合金&emsp;Peglaci Alloy
+
+
 * 特勒贝晶体&emsp;Telebrium
 	* ［生成］特勒贝晶体锭&emsp;Telebrium Bar
 * 月晶碎片&emsp;Lunari Shard
@@ -347,10 +390,12 @@
 	* ［生成］高熔点锭&emsp;Zerchesium Bar
 * 原体矿&emsp;Protocite Ore
 	* ［生成］原体锭&emsp;Protocite Bar
-	* Proto：原型。
+	* ［引用］Proto：原型。
 * 半影矿&emsp;Penumbrite Ore
 	* ［生成］半影碎片，半影锭，&emsp;Penumbrite Shard
 	* ［引用］penumbra：半影
+* 棱镜碎片&emsp;Prisillite Ore?
+	* ［生成］棱镜之星&emsp;Prisillite Star
 * 原力矿&emsp;Trianglium
 	* ［生成］原力棱锥，原力锭，原力金字塔&emsp;Trianglium Pyramid
 	* ［引用］Triangle：三角形，Pyramid：金字塔，棱锥
@@ -389,6 +434,15 @@
 
 ### 放射性
 
+**原版**
+
+* 钚&emsp;Plutonium Ore
+	* ［生成］钚棒&emsp;Plutonium Rod
+* 铀&emsp&emsp;Uranium Ore
+	* ［生成］铀棒&emsp;Uranium Rod
+
+**FU**
+
 * 氘棒(2H)&emsp;Deuterium (2H)
 * 氚棒(3H)&emsp;Tritium (3H)
 * 浓缩钚棒(Pu)&emsp;Enriched Plutonium (Pu)
@@ -399,15 +453,6 @@
 	* ［生成］钍棒(Th)&emsp;Thorium Rod (Th)
 * 奥创棒(Ux3)&emsp;Ultronium(Ux3)
 	* ［引用］Ultro：奥创，美国漫威漫画旗下超级反派。
-
-### 其他矿物
-
-* ？？？&emsp;sivite
-	* ［备注］原为天蓝石 lazulite
-* 心印石&emsp;Koanite
-	* ［引用］koan：以心传心。原为磷酸铝。（名字起得这么好，却只是用来生产磷？）
-
-* 佩格拉希合金&emsp;Peglaci Alloy
 
 ### 半龙人水晶
 
@@ -434,7 +479,25 @@
 
 ### 液体 & 气体
 
-* 外星汁液，未知之水&emsp;Alien Juice
+**原版**
+
+* 水&emsp;Water
+* 生命之泉&emsp;Healing Water
+* 岩浆&emsp;Lav
+* 咖啡&emsp;Liquid Coffee？？
+* 椰奶&emsp;Milk？？
+* 油&emsp;Oil
+* 毒液&emsp;Poison Water？
+* 粘液&emsp;Slime
+* 沼泽水&emsp;Swamp Water
+
+
+* 液态能源 -> 厄尔吉斯液态燃料
+
+**FU**
+
+* 厄尔吉斯液态燃料&emsp;liquid fuel
+* * 外星汁液，未知之水&emsp;Alien Juice
 * 腐化之水，黑暗之水&emsp;Dark Water
 * 汞&emsp;Mercury
 * 纯蜂蜜&emsp;Pure Honey
@@ -463,9 +526,526 @@
 * 生命之水&emsp;Healing Water
 
 
-## 状态
 
-### 来自武器效果
+## 状态（按照目录）（不包括动画文本）（不包括单纯的能力值调整效果）
+
+**原版**
+
+* 燃烧&emsp;Beam Burning
+* 休息 Lv.1 ~ 休息 Lv.6&emsp;Bed 1 ~ Bed 6
+* 致命严寒&emsp;biome cold
+* 致命酷热&emsp;biome heat
+* 致命辐射&emsp;biome radiation
+* 弹性&emsp;bouncy
+* 燃烧&emsp;burning
+* 伪装 Lv.1 ~Lv.5&emsp;camouflage0 & 25 & 34 & 50 75
+* 崩溃&emsp;crash
+* 殒灭&emsp;doomed
+* 抗电&emsp;electric Block
+* 带电&emsp;electrified
+* 能量再生&emsp;energy regen
+* 受惊&emsp;erchiussickness
+* 抗火&emsp;burn spray
+* 防火&emsp;fire Block
+* 饥饿&emsp;hungry
+* 饥极&emsp;starving
+* 饱腹&emsp;well fed
+* 食物中毒&emsp;food poison
+* 减速&emsp;frost slow
+* 减速&emsp;frost snare
+* 发光&emsp;glow
+* 发光&emsp;ship glow
+
+* 治疗 Lv.2&emsp;bandage heal&emsp;［来源］绷带
+* 治疗 Lv.1&emsp;bottled water heal？？
+* 治疗 Lv.3&emsp;medkit heal&emsp;［来源］医疗包
+* 治疗 Lv.3&emsp;nanowrap heal&emsp;［来源］纳米绷带
+* 治疗 Lv.2&emsp;salve heal&emsp;［来源］药膏
+
+* 抗寒&emsp;ice block
+* 隐形&emsp;invisble
+
+* 跳跃增强 Lv.2&emsp;jump boost
+* 跳跃增强 Lv.1&emsp;jump boost 20
+* 跳跃增强 Lv.1&emsp;jump boost food
+* 跳跃增强 Lv.2&emsp;ship jump boost
+
+* 伤害提升&emsp;large damage boost
+* 悬浮&emsp;levitation
+* 轻盈&emsp;low grav
+* 轻盈&emsp;staff low grav
+
+* 熔化&emsp;melting
+* 减速&emsp;mud slow
+* 安全下落&emsp;no fall damage
+* 赤裸&emsp;nude
+* 过载&emsp;overload
+* 麻痹&emsp;paralysis
+
+* 沙暴&emsp;sandstorm
+* 减速&emsp;slime slow
+* 减速&emsp;staff Slow
+* 减速&emsp;stun&emsp;晕眩
+* 减速&emsp;tar slow
+
+* 荆棘&emsp;enemy nova
+* 荆棘&emsp;nova
+* 荆棘&emsp;thorns
+
+* 中毒&emsp;weak poison
+* 潮湿&emsp;wet
+* 逆风&emsp;wind swept
+
+
+**FU**
+
+...
+
+### 护甲效果：fu_armoreffects
+
+* 免疫 - 极端寒冷&emsp;Cold Shield
+	* stats/effects/fu_armoreffects/ffextremecoldresist
+* 免疫 - 极端炎热&emsp;Heat Shld
+	* stats/effects/fu_armoreffects/ffextremeheatresist
+* 免疫 - 极端辐射&emsp;Rad Shld
+	* stats/effects/fu_armoreffects/ffextremeradiationresist
+* 壁垒&emsp;Barrier
+	* stats/effects/fu_armoreffects/movementprotection
+* 防御&emsp;Defense
+	* stats/effects/fu_armoreffects/quietuseffects
+* 分隔&emsp;Spacer
+	* stats/effects/fu_armoreffects/spacefarerimmunity
+
+### 未归类：fu_effects
+
+* 蛰伤&emsp;Sting
+	* stats/effects/fu_effects/beesting/beesting & fubeesting/2/3/4
+* 重启&emsp;Reboot
+	* stats/effects/fu_effects/brainreboot/brainreboot
+* 不会被黏&emsp;No Stick
+	* stats/effects/fu_effects/corvexputty/corvexputty
+* 暴击伤害+&emsp;Crit Dmg+
+	* stats/effects/fu_effects/critbonus/critbonus1
+* 暴击几率+&emsp;Crit %+
+	* stats/effects/fu_effects/critbonus/critchance1 & 2
+* 耗尽&emsp;Drain
+	* stats/effects/fu_effects/drain/drain
+* 自我吞噬&emsp;Self-Cannabalism
+	* stats/effects/fu_effects/eatself/eatself
+* 熵光护卫&emsp;Entropic Warding
+	* stats/effects/fu_effects/entropicward/myphisfx
+* 触手缠身&emsp;Tentacle Debuff
+	* stats/effects/fu_effects/entropicward/tentacleeffect
+* 扎根&emsp;Rooted
+	* stats/effects/fu_effects/freeze/rootfu.
+* 冻住&emsp;Frozen
+	* stats/effects/fu_effects/freeze/freeze /freenzefu/freezefu2
+* 霜灼&emsp;frozenburning
+	* stats/effects/fu_effects/frozenburning/frozenburning
+* 弹力&emsp;Bounce
+	* stats/effects/fu_effects/fu_medicine/bouncy/fubouncy
+* 恶魔契约 - 增加速度，伤害和抗性。降低生命和能量。持续2分钟。&emsp;Devils Bargain - Increases speed, damage and resistances. Saps health and energy. 2 minute duration.
+	* stats/effects/fu_effects/fu_medicine/devilsbargain/devilsbargain
+* 发光&emsp;Glow
+	* stats/effects/fu_effects/glow/glowblue &2 glowgreen &2 gloworange &glowpurple & 2 & glowred & glowyellow &2 &portablelightsource & ultraglow
+* 幸运&emsp;Luck
+	* stats/effects/fu_effects/goldmead/goldmead
+* 醉酒&emsp;Intoxicated
+	* stats/effects/fu_effects/intoxicated/booze & & 3
+* 魔法护盾&emsp;Mage Shield
+	* stats/effects/fu_effects/mage_shield/mage_shield_lvl1 & mage_shield_lvl1shadowcrab & mage_shield_lvl4 & mage_shield_lvl4starspawn
+* D-盾&emsp;D-Shield
+	* stats/effects/fu_effects/mage_shield/wretchelshield
+* 某些东西正在你的皮肤下孕育着。&emsp;Something is gestating under your skin.
+	* stats/effects/fu_effects/popmead/larvalmead
+* 你可以闻到宇宙的味道——这一切。&emsp;You can smell the universe. All of it.
+	* stats/effects/fu_effects/radiendirt/radiendirt
+* 恍恍惚惚红红火火&emsp;Trololololol
+	* stats/effects/fu_effects/trolol/trolol
+
+### 免疫效果：fu_immunityeffects
+
+* 免疫 - 蜂蜇&emsp;X-Sting
+	* stats/effects/fu_immunityeffects/beestingimmunity.
+* 免疫 - 精神错乱和黑暗&emsp;Immunity - Insanity and Darkness
+	* stats/effects/fu_immunityeffects/darklightimmunity
+* 免疫 - 黑暗&emsp;Immunity - Darkness
+	* stats/effects/fu_immunityeffects/darknessimmunity
+* 免疫 - 能源幽灵&emsp;Ghostproof
+	* stats/effects/fu_immunityeffects/erchiusimmunity
+* 过量蜂蜜&emsp;Too much Honey
+	* stats/effects/fu_immunityeffects/fedhoney
+* 免疫 - 致命严寒&emsp;X-Cold Shield
+	* stats/effects/fu_immunityeffects/ffextremecoldimmunityicon
+* 免疫 - 致命炎热&emsp;X-Heat Shld
+	* stats/effects/fu_immunityeffects/ffextremeheatimmunityicon
+* 免疫 - 致命辐射&emsp;X-Rad Shield
+	* stats/effects/fu_immunityeffects/ffextremeradiationimmunityicon
+* 免疫所有 - 重力雨&emsp;X-Grav
+	* stats/effects/fu_immunityeffects/gravrainimmunity
+* 免疫 - 精神错乱&emsp;Immunity - Insanity
+	* stats/effects/fu_immunityeffects/insanityimmunity
+* 免疫 - 脓液&emsp;Pus Proof
+	* stats/effects/fu_immunityeffects/pusimmunity
+* 免疫 - 辐射&emsp;Rad Shield
+	* stats/effects/fu_immunityeffects/radiationimmunityicon
+* 免疫 - 暗影&emsp;Immunity - Shadow
+	* stats/effects/fu_immunityeffects/shadowimmunity
+* 免疫 - 毒&emsp;
+	* stats/effects/fu_immunityeffects/poisonimmunity & poisonimmunitycrystal & poisonimmunityspongeweed
+
+### 物块效果：fu_tileeffects
+
+* 暗影气体 - 被暗影抗性抵抗。&emsp;Shadow Gas. Resisted by Shadow resistance.
+	* stats/effects/fu_tileeffects/gas_effects/shadowgas/shadowgasfx
+
+* 高重力事件 (重力+50%) &emsp;High Gravity Event (+50% Gravity)
+	* stats/effects/fu_tileeffects/gravity_effects/gravrain/mountainmass
+* 橙色重力雨&emsp;Orange Gravity Rain
+	* stats/effects/fu_tileeffects/gravity_effects/gravrain/orangegravrain.statuseffect"
+
+* 减速 (黏土) &emsp;Slow (Clay)
+	* stats/effects/fu_tileeffects/mobility_effects/fuclayslow
+* 减速 (泥) &emsp;Slow (Clay)
+	* stats/effects/fu_tileeffects/mobility_effects/fuclayslow.
+* 减速 (丛林) &emsp;Slow (Jungle)
+	* stats/effects/fu_tileeffects/mobility_effects/jungleslow
+* 流沙&emsp;Quicksand
+	* stats/effects/fu_tileeffects/mobility_effects/fuquicksand
+
+* 中血毒！- 这种毒会持续很长很长的时间。&emsp;Blood Poisoned! - This poison will last a long, long time.
+	* stats/effects/fu_tileeffects/poison_effects/biooozepoison/biooozepoisonlongterm
+* 软泥 - 被毒素抗性抵抗。&emsp;Oozed. Resisted by Poison resistance.
+	* stats/effects/fu_tileeffects/poison_effects/biooozepoison/biooozepoison & 2 & biooozepoisonshort
+	* ［来源］生物软泥
+* 恶心的毒 - 被毒素抗性抵抗。&emsp;Nasty Toxin.  Resisted by Poison resistance.
+	* stats/effects/fu_tileeffects/poison_effects/contaminatedpoison/contaminatedpoison
+* 腐化之毒 - 被毒素抗性抵抗。&emsp;Darkwater Poison.  Resisted by Poison resistance.
+	* stats/effects/fu_tileeffects/poison_effects/darkwaterpoison/darkwaterpoison
+	* ［来源］腐化之水
+* 紧急自杀装置！有担保的死亡！来自凯文科技的最新产品！&emsp;Killpod! Death, Guaranteed! New from Kevin-Tek!
+	* stats/effects/fu_tileeffects/poison_effects/killpod/killpod
+* 汞毒 - 被毒素抗性和放射抗性抵抗。&emsp;Mercury Poison.  Resisted by Poison + Radioactive resistance.
+	* stats/effects/fu_tileeffects/poison_effects/mercurypoison/mercurypoison
+	* ［来源］水银
+* 灼热疼痛 - 被火炎抗性抵抗。&emsp;Scorching pain. Resisted by Fire resistance.
+	* stats/effects/fu_tileeffects/poison_effects/moltenmetal/moltenmetal &2 &3
+* 致命寒意 - 被寒气抗性抵抗。&emsp;Deadly Chill. Resisted by Ice resistance.
+	* stats/effects/fu_tileeffects/poison_effects/nitrogenfreeze/icethrowereffect & nitrogenfreeze & & 3
+	* ［来源］液氮，
+* 呃，脓液 - 每下造成6点伤害。被物理抗性抵抗。&emsp;Eeew. Causes 6 damage per tick. Resisted by Physical resistance.
+	* stats/effects/fu_tileeffects/poison_effects/pus/puseffect
+	* ［来源］脓液
+* 辐射灼伤 - 被放射抗性抵抗。&emsp;Radiation Burn. Resisted by Radiation resistance.
+	* stats/effects/fu_tileeffects/poison_effects/radiationburn/radiationburn
+	* ［来源］辐射土块，放射性废料，
+* 修格斯腐蚀&emsp;Shoggoth Corrosion
+	* stats/effects/fu_tileeffects/poison_effects/shoggothburn/shoggothburn
+	* ［来源］修格斯肉？？？
+* 酸性灼伤 - 被物理抗性抵抗。&emsp;Acid Burn. Resisted by Physical resistance.
+	* stats/effects/fu_tileeffects/poison_effects/sulphuricacideffect/sulphuricacideffect
+	* ［来源］硫酸土块？？
+
+* 精神错乱&emsp;Insane&emsp;★★★
+	* stats/effects/fu_tileeffects/specialty_effects/insanity/insanity & 2
+	* ［来源］阿托罗斯的一些物块？
+* 消极瘴气。-阻碍压强保护和治疗。&emsp;Negative Miasma - Blocks pressure protection and healing
+	* stats/effects/fu_tileeffects/specialty_effects/negativemiasma/negativemiasma
+* 有机液 - 回复饥饿值。&emsp;Organic Soup - Restores hunger
+	* stats/effects/fu_tileeffects/specialty_effects/organicsoupeffect/organicsoupeffect
+	* ［来源］有机液
+* 被黏住&emsp;Slimed
+	* stats/effects/fu_tileeffects/specialty_effects/slimefriction/slimefriction
+	* ［来源］黏液
+* 粘泥&emsp;Sticky Slime
+	* stats/effects/fu_tileeffects/specialty_effects/slimestick/slimestick
+* 不可破坏的黑暗&emsp;Unbreachable Darkness&emsp;★★★
+	* stats/effects/fu_tileeffects/specialty_effects/superdark/superdarkstat.statuseffect
+	* stats/effects/fu_tileeffects/specialty_effects/superdark/superdarkstatUnblockable.statuseffect
+	* stats/effects/fu_tileeffects/specialty_effects/superdark/superdarkstatlarge.statuseffect
+	* stats/effects/fu_tileeffects/specialty_effects/superdark/superdarkstatmid.statuseffect
+	* stats/effects/fu_tileeffects/specialty_effects/superdark/superdarkstatshoggoth.statuseffect"
+* 粘网&emsp;Sticky Webs
+	* stats/effects/fu_tileeffects/specialty_effects/webstick/webstick & ...grappler
+	* ［来源］蜘蛛网？？
+* 狂风&emsp;Windy&emsp;★★
+	* stats/effects/fu_tileeffects/specialty_effects/windslow/windslow
+* 暗影污染&emsp;Shadow Tainted&emsp;★★★
+	* stats/effects/fu_tileeffects/specialty_effects/darkstalker/darkstalker & ...Unblockable
+	* stats/effects/fu_tileeffects/specialty_effects/insanityblur/insanityblurstat.animation？？？
+	* stats/effects/fu_tileeffects/specialty_effects/superdark/superdarkstat.animation？？？
+* 蜂蜜&emsp;Honey
+	* stats/effects/fu_tileeffects/mobility_effects/honeyslow & 2
+	* ［来源］纯蜂蜜
+
+### 武器效果：fu_weaponeffects
+
+* 轻微出血&emsp;Light Bleeding
+	* stats/effects/fu_weaponeffects/bleeding/bleeding05.statuseffect
+* 大出血&emsp;Profuse Bleeding
+	* stats/effects/fu_weaponeffects/bleeding/bleedinglong2.statuseffect
+* 出血&emsp;Bleeding
+	* stats/effects/fu_weaponeffects/bleeding/bleedinglong & ...hunter & ...short
+* 凝固&emsp;Napalm&emsp;★★★
+	* stats/effects/fu_weaponeffects/burningnapalm/burningnapalm
+* 燃烧&emsp;Burn&emsp;★★★
+	* stats/effects/fu_weaponeffects/firelight/firelight
+* 重力枪&emsp;Grav Gun
+	* stats/effects/fu_weaponeffects/gravgun/gravgun
+* 无能狂怒&emsp;Dunce Rage
+	* stats/effects/fu_weaponeffects/Skittles/marvinSkittles
+* 群体冻结&emsp;Greg Freeze
+	* stats/effects/fu_weaponeffects/Skittles/timefreezeSkittles
+* 精准射击&emsp;Pistol Accuracy
+	* stats/effects/fu_weaponeffects/swashbucklerpower
+
+### 环境效果：fu_weathereffects
+
+* 致死严寒&emsp;Lethal Cold
+	* stats/effects/fu_weathereffects/ffextremecold/ffextremecold
+* 致死辐射&emsp;Lethal Radiation
+	* stats/effects/fu_weathereffects/ffextremeradiation/ffextremeradiation
+* 致死酸蚀&emsp;Acid
+	* stats/effects/fu_weathereffects/ffextremesulphuric/ffextremesulphuric
+
+* 压强&emsp;Pressure
+	* stats/effects/fu_weathereffects/gasworld/gasworldweak
+* 重度压强&emsp;Severe Pressure
+	* stats/effects/fu_weathereffects/new/gasworldnew/gasworld2
+* 极高压强&emsp;High Pressure
+	* stats/effects/fu_weathereffects/new/gasworldnew/gasworld1
+
+* 致死压强&emsp;Lethal Pressure
+	* stats/effects/fu_weathereffects/gasworld/gasworld
+	* stats/effects/fu_weathereffects/new/gasworldnew/gasworld3
+
+
+* 以太大气&emsp;Aetheric Atmosphere
+	* stats/effects/fu_weathereffects/new/aether/aetherweathernew
+	* ［备注］降低能量
+* 极端以太&emsp;Extreme Aether
+	* stats/effects/fu_weathereffects/new/aether/aetherweathernew2
+* 致命以太&emsp;Deadly Aether
+	* stats/effects/fu_weathereffects/new/aether/aetherweathernew3
+
+* 重度寒冷&emsp;Severe Cold
+	* stats/effects/fu_weathereffects/new/cold/ffbiomecold1.statuseffect
+* 极端寒冷&emsp;Extreme Cold
+* 致命严寒&emsp;Deadly Cold
+
+* 冻结&emsp;Freezing
+	* stats/effects/fu_weathereffects/new/cold/coldweathernew.statuseffect
+* 寒流 I & II & III&emsp;Cold Snap & II & III
+	* stats/effects/fu_weathereffects/new/cold/suddenchill1.statuseffect & 2 & 3
+
+* 沙漠炎热&emsp;Desert Heat
+	* stats/effects/fu_weathereffects/new/desert/desertweathernew
+* 致命沙漠炎热&emsp;Deadly Desert Heat
+	* stats/effects/fu_weathereffects/new/desert/desertweathernewdeadly	
+* 热浪 I & II & III&emsp;Heatwave & II & III
+	* stats/effects/fu_weathereffects/new/desert/heatwave1 & 2 & 3
+
+* 雷电风暴&emsp;Electrical Storm
+	* stats/effects/fu_weathereffects/new/electric/ffbiomeelectric1
+* 重度雷电风暴&emsp;Severe Electrical Storm
+* 致命雷电风暴&emsp;Deadly Electrical Storm
+
+
+
+* 重度炎热&emsp;Severe Heat
+	* stats/effects/fu_weathereffects/new/heat/ffbiomeheat1
+* 极端炎热&emsp;Extreme Heat
+
+* 重度的毒&emsp;Severe Poison
+	* stats/effects/fu_weathereffects/new/poison/biomepoison1
+* 极端的毒&emsp;Extreme Poison
+* 致命的毒&emsp;Deadly Poison
+* 猛毒气体&emsp;Severe Poison Gas
+	* stats/effects/fu_weathereffects/new/poison/biomepoisongas
+* 毒&emsp;Poison
+	* stats/effects/fu_weathereffects/new/poison/poisonweathernew
+	* stats/effects/fu_weathereffects/new/poison/poisonweathernewbiome
+
+* 原毒&emsp;Proto Poison
+	* stats/effects/fu_weathereffects/new/protoworld/protoweather
+* 重度原毒&emsp;Severe Proto Poison
+
+* 重度辐射&emsp;Severe Radiation
+	* stats/effects/fu_weathereffects/new/radiation/radioactiveweathernew
+* 极端辐射&emsp;Extreme Radiation
+* 致命辐射&emsp;Deadly Radiation
+
+* 重度酸蚀&emsp;Severe Acid
+	* stats/effects/fu_weathereffects/new/sulphuric/sulphuricweathernew
+* 致命酸蚀&emsp;Deadly Acid
+* 不可理喻的酸蚀&emsp;Brutal Acid
+* 不可想象的酸蚀&emsp;Impossibly Acidic
+
+* 酸性风暴&emsp;Acid Storm
+	* stats/effects/fu_weathereffects/new/sulphuric/sulphuricweatherstorm
+* 致命酸性风暴&emsp;Deadly Acid Storm
+* 不可想象的酸性风暴&emsp;Impossible Acid Storm
+
+* 热带炎热&emsp;Tropical Heat
+	* stats/effects/fu_weathereffects/new/tropical/jungleheatweather
+
+* 中毒&emsp;Poisoned
+	* stats/effects/fu_weathereffects/metallichydrogengas/metallichydrogengas
+	* stats/effects/fu_weathereffects/metallichydrogengas/metallichydrogenliquid
+	* stats/effects/fu_weathereffects/poisongas/poisongas
+	* ［来源］金属氢，液态金属氢，有毒气体
+
+* 伤害降低&emsp;Sap Dmg
+	* stats/effects/fu_weathereffects/weakenworld/weakenweather & 2
+* 未知生物群系&emsp;Unknown Biome
+	* stats/effects/fu_weathereffects/unknownbiomeeffect
+
+### 根目录
+
+* 免疫气体&emsp;X-Gas
+	* stats/effects/liquidimmunity/gasimmunity.statuseffect
+* 沉重&emsp;Heavy
+	* stats/effects/lowgrav/lowgrav_supergrav.statuseffect
+* 反重力力场&emsp;Reverse-Grav Field
+	* stats/effects/lowgrav/lowgrav_wretchel.statuseffect
+* 轻盈&emsp;Light
+	* stats/effects/lowgrav/lowgrav_intrepid.statuseffect
+	* stats/effects/lowgrav/lowgrav_stim.statuseffect
+* 漂浮&emsp;Float
+	* stats/effects/lowgrav/lowgrav_fallspeed.statuseffect
+	* stats/effects/lowgrav/lowgrav_fallspeedup.statuseffect
+* 低重力&emsp;Low Gravity
+	* stats/effects/lowgrav/lowgrav_neutronmagnorb.statuseffect
+	* stats/effects/lowgrav/lowgrav_shadowmagnorb.statuseffect
+
+### 药物效果：medicalStationSpecials（orange）
+
+* 狂怒&emsp;Berserks Rage
+	* stats/effects/medicalStationSpecials/berserk/berserk
+* 试验 #322&emsp;Experiment #322
+	* stats/effects/medicalStationSpecials/experimental/experimental
+* 玻璃大炮&emsp;Glass Cannon
+	* stats/effects/medicalStationSpecials/glasscannon/glasscannon
+* 蜂群思维&emsp;Hivemind
+	* stats/effects/medicalStationSpecials/hivemind/hivemind
+* 狂躁&emsp;Hypopanic
+	* stats/effects/medicalStationSpecials/hypopanic/hypopanic.statuseffect
+* 免疫&emsp;Immunization
+	* stats/effects/medicalStationSpecials/immunization/immunization.
+* 重型卡车&emsp;Juggernaut
+	* stats/effects/medicalStationSpecials/juggernaut/juggernaut.statuseffect
+* 线粒体&emsp;Mitochondria
+	* stats/effects/medicalStationSpecials/mitochondria/mitochondria.statuseffect
+* 情绪兴奋剂&emsp;Renergizer
+	* stats/effects/medicalStationSpecials/renergizer/renergizer.statuseffect
+* 毒云&emsp;Toxic Cloud
+	* stats/effects/medicalStationSpecials/toxiccloud/toxiccloud.statuseffect
+* 巨魔血&emsp;Trollblood
+	* stats/effects/medicalStationSpecials/trollblood/trollblood.statuseffect
+
+### 回复效果：
+
+* 日光疗愈&emsp;Daylight Regen
+	* stats/effects/regeneration/lightregen.statuseffect
+* 黑夜疗愈&emsp;Darkheal
+	* stats/effects/regeneration/darkregen
+	* stats/effects/regeneration/darkregenproduce
+* 日光疗愈&emsp;Lightheal
+	* stats/effects/regeneration/lightregenenergy
+	* stats/effects/regeneration/lightregenproduce
+
+* 再生&emsp;Regeneration
+	* stats/effects/regeneration/precursorregeneration.statuseffect"
+* 中等生命回复&emsp;Average Regen
+	* stats/effects/regeneration/regeneration2.statuseffect"
+* 生命回复 Lv.1&emsp;Regen
+	* stats/effects/regeneration/regenerationblock.statuseffect
+* 略微生命回复&emsp;Minimal Regen
+	* stats/effects/regeneration/regenerationminor000.statuseffect
+* 弱效生命回复 II&emsp;Minor Regen II
+	* stats/effects/regeneration/regenerationminor2.statuseffect
+* 生命回复 II&emsp;Regen II
+	* stats/effects/regeneration/regenerationminor2augment.statuseffect
+* 生命回复 III&emsp;Regen III
+	* stats/effects/regeneration/regenerationminor3augment.statuseffect"
+* 弱效生命回复 (EPP插件) &emsp;Augment Regen - Minor
+	* stats/effects/regeneration/regenerationminoraugment.statuseffect
+* 细胞再生&emsp;Cellular Regeneration
+	* stats/effects/regeneration/regenerationminorcellular.statuseffect
+* 奇迹草生命回复
+	* stats/effects/regeneration/regenerationmiraclegrass.statuseffect
+* 生命值低于60%时，生命回复速度+8%&emsp;Regen +8% when below 60% health
+	* stats/effects/regeneration/regenerationsanguine.statuseffect
+* 高效生命回复&emsp;High Regen
+	* stats/effects/regeneration/regeneration3 & 4 & 5
+	* stats/effects/regeneration/regenmomma
+* 弱效生命回复 Lv.1&emsp;Minor Regen
+	* stats/effects/regeneration/regeneration01
+	* stats/effects/regeneration/regenerationminor
+
+* 次等生命回复&emsp;Lesser Regen
+	* stats/effects/regeneration/regenerationminor3
+	* stats/effects/regeneration/regenerationmommatop
+
+### 根目录
+
+* 感电&emsp;Electrified
+	* stats/effects/slimeleech/slimeleech
+
+### 反伤
+
+* 幽灵瘴气&emsp;Ghostly Miasma
+	* stats/effects/thorns/ghostburst
+* 新星&emsp;Nova
+	* stats/effects/thorns/novax10
+* 元素反伤&emsp;Flame
+	* stats/effects/thorns/fireburst
+	* stats/effects/thorns/fireburstmonster
+	* stats/effects/thorns/iceburst
+* 反伤&emsp;Thorns
+	* stats/effects/thorns/burstfayshroom
+	* stats/effects/thorns/thornsstranglevine
+	* stats/effects/thorns/thornsstranglevinesuper
+
+### 根目录
+
+* 时间冻结&emsp;Time Freeze
+	* stats/effects/timefreeze/timefreeze2
+	* stats/effects/timefreeze/timefreezeNoVFX
+
+* 潮湿&emsp;Wet
+	* stats/effects/wet/wet.statuseffect
+
+* 易伤&emsp;Vulnerable
+	* stats/effects/extramodvulnerability
+* 寒冷&emsp;Cold
+	* stats/effects/fu_weathereffects/crystalmoon/crystalmoonfx
+	* stats/effects/fu_weathereffects/new/cold/ffbiomecold0
+* 致命炎热&emsp;Deadly Heat
+	* stats/effects/fu_weathereffects/ffextremeheat/cultistblastfx
+	* stats/effects/fu_weathereffects/ffextremeheat/ffextremeheat
+	* stats/effects/fu_weathereffects/new/heat/ffbiomeheat3
+* 治疗中&emsp;Healing
+	* stats/effects/fu_effects/bandage2/bandage2fu
+	* stats/effects/heal/slimedaggerheal
+* 减速&emsp;Slow
+	* stats/effects/fu_tileeffects/mobility_effects/blacktarslow
+	* stats/effects/fu_tileeffects/mobility_effects/slushslow.statuseffect"
+	* stats/effects/fu_tileeffects/mobility_effects/snowslow
+	* stats/effects/slow/slow
+	* stats/effects/staffslow/staffslow2
+
+**额外**
+
+
+
+
+
+
+
+### ［常见状态］
+
+* 指令测试&emsp;Directive Test
 
 * 燃烧&emsp;Burning, Burn
 * 凝固&emsp;Napalm
@@ -473,40 +1053,20 @@
 * 霜灼&emsp;Frost Burn, frozen-fire
 * 出血&emsp;Bleeding
 * 易伤&emsp;Vulnerability
-* 辐射烧伤&emsp;Radiation Burn, Rad-Burn,Radiation？
+* 辐射烧伤&emsp;Radiation Burn, Rad-Burn,Radiation?
 * 感电&emsp;Electrified
 * 麻痹&emsp;paralysis
-* 晕眩&emsp;Shock, Shocked, Stun
-* 毒素&emsp;Poison
+* 晕眩&emsp;Shock, Shocked, Stun&emsp;electrified?
+* 毒&emsp;Poison
 * 虚弱&emsp;weakening
-* 蜂蜇&emsp;Stringing
+* 蜂蜇&emsp;Stinging, Sting
 * 反伤&emsp;Thorns
 * 狂暴&emsp;Rage
 * 精神错乱&emsp;
-* 恐惧 & 狩猎Terrified & Hunted
-
-### 其他
-
+* 恐惧 & 狩猎&emsp;Terrified & Hunted&emsp;erchiussickness & 2
 * 减速&emsp;Slow
 * 滑行&emsp;Slide
 
-* 潮湿&emsp;Wet
-* 寒冷&emsp;Cold
-
-* 致命炎热&emsp;Deadly Heat
-
-* 致命辐射&emsp;Deadly Radiation
-
-* 治疗中&emsp;Healing
-* 光照治疗&emsp;Lightheal
-
-* 能源幽灵瘴气？&emsp;Ghostly Miasma
-* 火焰反伤？&emsp;Nova
-* 元素反伤？&emsp;Flame
-* 反伤&emsp;Thorns
-
-
-* 时间冻结&emsp;Time Freeze
 
 
 ## 种族
