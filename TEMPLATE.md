@@ -144,7 +144,7 @@ Bio-Weapon
 Lunari weapons
 * 寂灭武器
 Quietus weapons
-* 粘液武器
+* 黏液武器
 Slime weapons
 * 先驱者武器
 Precursor weapons

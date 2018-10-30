@@ -305,7 +305,7 @@
 * 重力武器&emsp;Gravity Weapons
 
 * 生物武器&emsp;Bio-Weapons
-* 粘液武器&emsp;Slime Weapons
+* 黏液武器&emsp;Slime Weapons
 * 真菌武器&emsp;Spawn Weapons
 
 * 月晶武器&emsp;Lunari Weapons
@@ -488,7 +488,7 @@
 * 椰奶&emsp;Milk？？
 * 油&emsp;Oil
 * 毒液&emsp;Poison Water？
-* 粘液&emsp;Slime
+* 黏液&emsp;Slime
 * 沼泽水&emsp;Swamp Water
 
 
@@ -1056,7 +1056,8 @@
 * 辐射烧伤&emsp;Radiation Burn, Rad-Burn,Radiation?
 * 感电&emsp;Electrified
 * 麻痹&emsp;paralysis
-* 晕眩&emsp;Shock, Shocked, Stun&emsp;electrified?
+* 晕眩&emsp;Shock, Shocked&emsp;electrified?&emsp;（来自电击）
+* 眩晕&emsp;Stun&emsp;（来自重击）
 * 毒&emsp;Poison
 * 虚弱&emsp;weakening
 * 蜂蜇&emsp;Stinging, Sting
@@ -1120,6 +1121,8 @@
 	* ［备注］燃料专家，翼族，哑巴。
 * 贝拉&emsp;Bella
 	* ［备注］...
+* 硅宾&emsp;SILENES
+	* ［备注］前哨站商人之一。
 
 ### 其他
 
