@@ -454,12 +454,10 @@
 
 * 奥创棒(Ux3)&emsp;Ultronium(Ux3)
 	* ［引用］Ultro：奥创，美国漫威漫画旗下超级反派。
+
 * 中子素 (Nu)&emsp;Neutronium (Nu)
 * 反中子素 (Nux2)&emsp;Anti-Neutronium (Nu)
 
-
-［你好］
-:	你好啊
 
 ### 半龙人水晶
 
@@ -471,7 +469,6 @@
 * 艾米拉水晶&emsp;Emera Crystal
 	* ［引用］祖母绿：Emerald
 	* ［备注］成群生长，非常脆弱
-	
 * 菲亚水晶&emsp;Feya Crystal
 	* ［备注］黯淡，几乎不发光
 * 柯斯帕水晶&emsp;Kespar Crystal
@@ -484,19 +481,7 @@
 	* ［引用］Thanat：死亡学，死因学，死神
 	* ［备注］生长在不同寻常之处
 
-* ？？？纳德&emsp;Nhydri
-
-
-
-
-
-
-
-
-
-
-
-
+* 纳德&emsp;Nhydri
 
 
 ### 液体 & 气体
