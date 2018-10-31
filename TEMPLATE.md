@@ -28,21 +28,21 @@
 
 ### <h4 id="1.1">1.1 抗性</h4>
 
-* 毒系抗性
+* 毒素抗性
 Poison Resistance
 * 电系抗性
 Electric Resistance
-* 火系抗性
+* 火炎抗性
 Fire Resistance
-* 冰系抗性
+* 寒气抗性
 Ice Resistance
-* 物理系抗性
+* 物理抗性
 Physical Resist
-* 暗影系抗性
+* 暗影抗性
 Shadow Resist
-* 射线系抗性
+* 射线抗性
 Cosmic Resist
-* 辐射系抗性
+* 放射抗性
 Radiation Resist
 * 击退抗性
 Knockback Resist
@@ -62,11 +62,11 @@ Stun Chance
 
 ### <h4 id="1.3">1.3 盾牌</h4>
 
-* 盾牌防护值
+* 盾牌耐久
 Shield Health
-* 盾牌防护值恢复速度
+* 盾牌耐久恢复速度
 Shield Regen
-* 盾牌完美格挡反伤
+* 盾牌反伤
 Shield Bash
 * 盾牌击退
 Shield Push
@@ -136,7 +136,7 @@ Machine Pistol
 Energy weapons
 * 近战武器
 Melee
-* 剑类武器
+* 剑刃武器
 Bladed weapons
 * 生物武器
 Bio-Weapon
@@ -144,7 +144,7 @@ Bio-Weapon
 Lunari weapons
 * 寂灭武器
 Quietus weapons
-* 粘液武器
+* 黏液武器
 Slime weapons
 * 先驱者武器
 Precursor weapons
@@ -174,7 +174,7 @@ Xithricite weapons
 Hunger
 * 跳跃力
 Jump
-* 奔跑速度
+* 移动速度
 Speed
 * 游泳速度
 Swim
@@ -276,7 +276,7 @@ Jungle Heat
 Bio Ooze
 * 精神错乱
 Insanity,Madness
-* (原始毒素)原毒
+* 原毒
 Proto-Poison
 
 ### <h4 id="4.1">4.1 符号说明</h4>
