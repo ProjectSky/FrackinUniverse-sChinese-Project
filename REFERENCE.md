@@ -1,6 +1,6 @@
->Created By 微风的龙骑士
+> Created By 微风的龙骑士
 > 部分特殊名词的参考文档
-> 
+>  
 > 第一个中文名为目前统一使用的译名，后面的为可考虑的或者曾用的。
 > 请其他项目参与者协助扩充。
 > 全局搜索`@?`：极其不确定的翻译。
@@ -451,15 +451,22 @@
 	* ［生成］镎棒(Np)&emsp;Neptunium Rod (Np)
 * 钍(Th)&emsp;Thorium (Th)
 	* ［生成］钍棒(Th)&emsp;Thorium Rod (Th)
+
 * 奥创棒(Ux3)&emsp;Ultronium(Ux3)
 	* ［引用］Ultro：奥创，美国漫威漫画旗下超级反派。
+* 中子素 (Nu)&emsp;Neutronium (Nu)
+* 反中子素 (Nux2)&emsp;Anti-Neutronium (Nu)
+
+
+［你好］
+:	你好啊
 
 ### 半龙人水晶
 
 * 天使石水晶（已删除）&emsp;Angelite Crystal
 	* ［备注］泪珠状，摸起来有点冷
 
-* 欧普拉水晶&emsp;Opul Crystal
+* 欧普尔水晶&emsp;Opul Crystal
 	* ［备注］温暖，治愈
 * 艾米拉水晶&emsp;Emera Crystal
 	* ［引用］祖母绿：Emerald
@@ -476,6 +483,21 @@
 * 心叶石水晶&emsp;Thantite Crystal
 	* ［引用］Thanat：死亡学，死因学，死神
 	* ［备注］生长在不同寻常之处
+
+* ？？？纳德&emsp;Nhydri
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### 液体 & 气体
 
@@ -1090,6 +1112,8 @@
 	* ［备注］...
 * ？？？&emsp;Xarwiek
 	* ［备注］非常罕见。
+* ？？？&emsp;Tenebrhae
+	* ［备注］...
 
 ## NPC
 
