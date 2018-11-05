@@ -48,6 +48,7 @@
       "letheiafacility.aimission.json": 3,
       "lethialabs.aimission.json": 3,
       "magickaforest.aimission.json": 3,
+      "nightfort.aimission.json": 2,
       "pavillion.aimission.json": 3,
       "penguinhighway.aimission.json": 3,
       "precursordungeon.aimission.json": 3,
@@ -504,6 +505,18 @@
         "shared_extraavianhydro.json": 1,
         "shared_letheiafacility.json": 2
       },
+      "nightar": {
+        "nightardoc1.codex.json": 6,
+        "nightardoc2.codex.json": 8,
+        "nightardoc3.codex.json": 4,
+        "nightardoc4.codex.json": 3,
+        "nightarhistory1.codex.json": 2,
+        "nightarhistory2.codex.json": 5,
+        "nightarhistory3.codex.json": 3,
+        "nightarhistory4.codex.json": 3,
+        "shared_nightarhistory.json": 1,
+        "thenightking.codex.json": 4
+      },
       "precursor": {
         "precursor1.codex.json": 7,
         "precursor10.codex.json": 4,
@@ -615,7 +628,7 @@
       "towndrunk.config.json": 89
     },
     "generic.json": 1,
-    "glitchEmotes.json": 206,
+    "glitchEmotes.json": 211,
     "interface": {
       "ai": {
         "ai.config.json": 10,
@@ -1074,6 +1087,9 @@
             "lunaribow": {
               "lunaribow.activeitem.json": 2
             },
+            "nigtarbow": {
+              "nigtarbow.activeitem.json": 2
+            },
             "penumbrabow": {
               "penumbrabow.activeitem.json": 2
             },
@@ -1138,6 +1154,8 @@
           "fist": {
             "aetheriumfists.activeitem.json": 1,
             "boneclaws.activeitem.json": 2,
+            "cultivatorsgauntlets.activeitem.json": 2,
+            "cutecestus.activeitem.json": 2,
             "cutegauntlet.activeitem.json": 1,
             "extraclawglove.activeitem.json": 2,
             "fuapexclaws.activeitem.json": 2,
@@ -1146,8 +1164,10 @@
             "monsterclaw.activeitem.json": 2,
             "precursorfist.activeitem.json": 2,
             "shared_.activeitem.json": 1,
+            "solariumfist.activeitem.json": 2,
             "stabfists.activeitem.json": 2,
-            "telebriumfist.activeitem.json": 2
+            "telebriumfist.activeitem.json": 2,
+            "zerchesiumfist.activeitem.json": 2
           },
           "melee": {
             "axe": {
@@ -1221,7 +1241,6 @@
               },
               "pyreitebroadsword.activeitem.json": 3,
               "quietusemperor.activeitem.json": 2,
-              "quietusgeneral.activeitem.json": 2,
               "quietusknight.activeitem.json": 2,
               "shared_.activeitem.json": 2,
               "shared_broadsword.activeitem.json": 1,
@@ -1365,12 +1384,17 @@
               "zerchesiumkatana.activeitem.json": 2
             },
             "longsword": {
+              "advalloylongsword.activeitem.json": 2,
+              "aetheriumlongsword.activeitem.json": 2,
               "ancientlongsword.activeitem.json": 2,
+              "blooddiamondlongsword.activeitem.json": 2,
+              "carbonlongsword.activeitem.json": 2,
               "commonlongsword.activeitem.json": 1,
               "coraldullblade.activeitem.json": 2,
               "crystallineblade.activeitem.json": 2,
               "cutelongsword.activeitem.json": 2,
               "deadbeatlongsword.activeitem.json": 1,
+              "densiniumlongsword.activeitem.json": 2,
               "effigiumbroadsword.activeitem.json": 2,
               "fiendefeller.activeitem.json": 2,
               "fuambersword.activeitem.json": 2,
@@ -1381,16 +1405,22 @@
               "irradiumlongsword.activeitem.json": 2,
               "kaicleaver.activeitem.json": 2,
               "klinokrov.activeitem.json": 2,
+              "quietusgeneral.activeitem.json": 2,
               "rarelongsword.activeitem.json": 1,
               "shared_longsword.activeitem.json": 1,
+              "silverlongsword.activeitem.json": 2,
               "solarisword.activeitem.json": 2,
               "telebriumlongsword.activeitem.json": 2,
               "theluslongsword.activeitem.json": 2,
               "titaniumbroadsword.activeitem.json": 2,
+              "triangliumlongsword.activeitem.json": 2,
               "tungstenbroadsword.activeitem.json": 2,
               "uncommonlongsword.activeitem.json": 1,
               "vai.activeitem.json": 3,
-              "xithricitelongsword.activeitem.json": 1
+              "violiumlongsword.activeitem.json": 2,
+              "xithricitelongsword.activeitem.json": 1,
+              "yinyang.activeitem.json": 2,
+              "zerchesiumlongsword.activeitem.json": 2
             },
             "mace": {
               "aegisaltmace.activeitem.json": 1,
@@ -1451,7 +1481,8 @@
               "solariumquarterstaff.activeitem.json": 2,
               "telebriumquarterstaff.activeitem.json": 2,
               "tungstenquarterstaff.activeitem.json": 1,
-              "uncommonqs.activeitem.json": 1
+              "uncommonqs.activeitem.json": 1,
+              "zerchesiumquarterstaff.activeitem.json": 2
             },
             "rapier": {
               "advalloyrapier.activeitem.json": 2,
@@ -1492,13 +1523,15 @@
               "ironscythe.activeitem.json": 2,
               "irradiumscythe.activeitem.json": 2,
               "lunariscythe.activeitem.json": 2,
+              "penumbralscythe.activeitem.json": 2,
               "predatorscythe.activeitem.json": 2,
               "quietusscythe.activeitem.json": 2,
               "shared_scythe.activeitem.json": 1,
               "stonescythe.activeitem.json": 2,
               "telebriumscythe.activeitem.json": 2,
               "thelusscythe.activeitem.json": 2,
-              "titaniumscythe.activeitem.json": 2
+              "titaniumscythe.activeitem.json": 2,
+              "zerchesiumscythe.activeitem.json": 2
             },
             "shared_.activeitem.json": 3,
             "shared_r.activeitem.json": 1,
@@ -1587,6 +1620,7 @@
             },
             "spear": {
               "advalloyspear.activeitem.json": 1,
+              "aetheriumspear.activeitem.json": 2,
               "ancientspear.activeitem.json": 2,
               "banespear.activeitem.json": 2,
               "bonespear.activeitem.json": 2,
@@ -1629,9 +1663,13 @@
               "tristab.activeitem.json": 1,
               "tritaniumspear.activeitem.json": 2,
               "uraniumspear.activeitem.json": 2,
+              "wraithwind.activeitem.json": 2,
               "xithricitespear.activeitem.json": 2,
               "zerchesiumspear.activeitem.json": 2
             }
+          },
+          "nightar": {
+            "fubrokennightarblade.activeitem.json": 2
           },
           "novakid": {
             "durasteelassaultrifle2.activeitem.json": 2,
@@ -2140,6 +2178,7 @@
                   "hailstrike.activeitem.json": 4
                 },
                 "razorneedler": {
+                  "crystallineneedler.activeitem.json": 2,
                   "crystalpistolfire.activeitem.json": 1,
                   "crystalpistolice.activeitem.json": 1,
                   "radneedler.activeitem.json": 1,
@@ -2270,6 +2309,9 @@
             },
             "teslawand": {
               "teslastaff1.activeitem.json": 2
+            },
+            "witchwand": {
+              "witchwand.activeitem.json": 2
             }
           },
           "whip": {
@@ -2496,6 +2538,35 @@
             "inviselduu.head.json": 1,
             "inviselduu.legs.json": 1,
             "shared_inviselduu..json": 1
+          }
+        },
+        "nightar": {
+          "kingslayerhead": {
+            "kingslayerhead.head.json": 1
+          },
+          "maid": {
+            "maid.head.json": 2,
+            "shared_maid..json": 2
+          },
+          "nightar_emptyhead": {
+            "nightar_emptyhead.head.json": 2
+          },
+          "nightar_suit": {
+            "nightar_suit.chest.json": 2,
+            "nightar_suit.head.json": 2,
+            "nightar_suit.legs.json": 2
+          },
+          "nightarcape": {
+            "nightarcape.back.json": 2
+          },
+          "nightarcrown": {
+            "nightarcrown.head.json": 2
+          },
+          "nightarkinghead": {
+            "shared_nightarkinghead.json": 1
+          },
+          "shared_king": {
+            "shared_king.json": 1
           }
         },
         "other": {
@@ -3482,6 +3553,9 @@
           "targetinggoggles": {
             "targetinggoggles.head.json": 2
           },
+          "witchhat": {
+            "witchhat.head.json": 2
+          },
           "woodenmask": {
             "woodenmask.head.json": 2
           },
@@ -4344,20 +4418,32 @@
             "shared_mecharmpowerdrone.json": 1
           },
           "body": {
-            "mechbodybrute.item.json": 2,
+            "mechbodybrute.item.json": 1,
             "mechbodybrute2.item.json": 2,
             "mechbodybrute3.item.json": 2,
+            "mechbodyemissary.item.json": 1,
+            "mechbodyemissaryproto.item.json": 1,
             "mechbodyexitus.item.json": 2,
             "mechbodyfuexplorer.item.json": 1,
             "mechbodyfuexplorer2.item.json": 1,
             "mechbodyfuobserver.item.json": 2,
+            "mechbodyfuorbus.item.json": 1,
+            "mechbodyfuorbusproto.item.json": 1,
             "mechbodyheavy.item.json": 2,
             "mechbodyheavy2.item.json": 2,
+            "mechbodykirhos.item.json": 1,
+            "mechbodykirhosproto.item.json": 1,
             "mechbodymantizi.item.json": 2,
             "mechbodymantiziproto.item.json": 2,
             "mechbodysinbody.item.json": 2,
+            "mechbodystomper.item.json": 2,
+            "mechbodythelusian.item.json": 2,
+            "mechbodythelusianproto.item.json": 2,
             "mechbodytitan.item.json": 2,
-            "shared_mechbodyfuexplorer.json": 1
+            "shared_mechbody.json": 1,
+            "shared_mechbodyfuexplorer.json": 1,
+            "shared_mechbodyfuorbus.json": 1,
+            "shared_mechbodykirhos.json": 1
           },
           "booster": {
             "mechboosterexitus.item.json": 2,
@@ -4970,6 +5056,14 @@
       "shared_marblepillarblock.mat.json": 1,
       "shared_marestone.json": 2,
       "shared_material.json": 11,
+      "shared_nightar.json": 1,
+      "shared_nightarcastleblock.json": 2,
+      "shared_nightarfloor.mat.json": 5,
+      "shared_nightarshipblock.mat.json": 2,
+      "shared_nightarsupport.json": 5,
+      "shared_nightarswall1.mat.json": 5,
+      "shared_nightartechblock.mat.json": 5,
+      "shared_nightarwall2.mat.json": 5,
       "shared_peglaci.json": 36,
       "shared_pipe.mat.json": 1,
       "shared_precursor.json": 1,
@@ -7867,7 +7961,7 @@
           "imperialcurtain1.object.json": 9
         },
         "imperialdoor": {
-          "imperialdoor.object.json": 10
+          "imperialdoor.object.json": 9
         },
         "imperialdresser": {
           "imperialdresser.object.json": 9
@@ -7909,7 +8003,7 @@
           "imperialwallshield.object.json": 8
         },
         "mantizistoragelocker": {
-          "mantizistoragelocker.object.json": 10
+          "mantizistoragelocker.object.json": 5
         },
         "shared_imperialchair": {
           "shared_imperialchair.json": 7
@@ -8659,6 +8753,116 @@
           }
         }
       },
+      "nightar": {
+        "flagnightar": {
+          "flagnightar.object.json": 9
+        },
+        "nightaranvil": {
+          "nightaranvil.object.json": 4
+        },
+        "nightarbattlestandard": {
+          "nightarbattlestandard.object.json": 9
+        },
+        "nightarbed": {
+          "nightarbed.object.json": 2
+        },
+        "nightarbladealtar": {
+          "nightarbladealtar.object.json": 2
+        },
+        "nightarbookcase": {
+          "nightarbookcase.object.json": 7
+        },
+        "nightarbox1": {
+          "nightarbox1.object.json": 2
+        },
+        "nightarbox2": {
+          "nightarbox2.object.json": 6
+        },
+        "nightarcabinet": {
+          "nightarcabinet.object.json": 3
+        },
+        "nightarcastledoor": {
+          "nightarcastledoor.object.json": 6
+        },
+        "nightarchair": {
+          "nightarchair.object.json": 8
+        },
+        "nightarchest": {
+          "nightarchest.object.json": 9
+        },
+        "nightarcomputer": {
+          "nightarcomputer.object.json": 7
+        },
+        "nightarconsole": {
+          "nightarconsole.object.json": 7
+        },
+        "nightardresser": {
+          "nightardresser.object.json": 9
+        },
+        "nightarfridge": {
+          "nightarfridge.object.json": 1
+        },
+        "nightarlight": {
+          "nightarlight.object.json": 8
+        },
+        "nightarpedestal": {
+          "nightarpedestal.object.json": 9
+        },
+        "nightarpicture": {
+          "nightarpicture.object.json": 2
+        },
+        "nightarsbannersmall": {
+          "nightarsbannersmall.object.json": 3
+        },
+        "nightarsbannertorn": {
+          "nightarsbannertorn.object.json": 9
+        },
+        "nightarshelf": {
+          "nightarshelf.object.json": 2
+        },
+        "nightarshiplight": {
+          "nightarshiplight.object.json": 8
+        },
+        "nightarsink": {
+          "nightarsink.object.json": 2
+        },
+        "nightarstoragelocker": {
+          "nightarstoragelocker.object.json": 3
+        },
+        "nightarstove": {
+          "nightarstove.object.json": 2
+        },
+        "nightartable": {
+          "nightartable.object.json": 2
+        },
+        "nightartablechair": {
+          "nightartablechair.object.json": 2
+        },
+        "nightarteleporter": {
+          "nightarteleporter.object.json": 7
+        },
+        "nightarthrone": {
+          "nightarthrone.object.json": 3
+        },
+        "nightartinywallswitch": {
+          "nightartinywallswitch.object.json": 9
+        },
+        "nightartoilet": {
+          "nightartoilet.object.json": 3
+        },
+        "ranscastle": {
+          "ranscastle.object.json": 5
+        },
+        "shared_nightarbladedisplay": {
+          "shared_nightarbladedisplay.json": 9
+        },
+        "shared_nightarbox": {
+          "shared_nightarbox.json": 1
+        },
+        "shared_nightarco": {
+          "shared_nightarco.json": 2
+        }
+      },
       "outpost": {
         "bar": {
           "shared_.object.json": 1
@@ -8895,16 +9099,72 @@
         }
       },
       "shadow": {
+        "shadowbannerlarge.object.json": 2,
+        "shadowbannersmall.object.json": 2,
+        "shadowbed": {
+          "shadowbed.object.json": 9
+        },
+        "shadowbookcase.object.json": 9,
+        "shadowcabinet.object.json": 4,
+        "shadowchair.object.json": 9,
+        "shadowchestlong1.object.json": 2,
+        "shadowchestlong2.object.json": 2,
+        "shadowcloset.object.json": 4,
+        "shadowconsole.object.json": 9,
+        "shadowcouch": {
+          "shadowcouch.object.json": 9
+        },
+        "shadowcounter.object.json": 9,
+        "shadowdesk.object.json": 9,
+        "shadowdisplay.object.json": 6,
+        "shadowdrawers.object.json": 8,
+        "shadowendtable.object.json": 4,
+        "shadowflowerpot.object.json": 6,
+        "shadowflowers.object.json": 6,
+        "shadowfridge.object.json": 1,
+        "shadowlamp": {
+          "shadowlampblue.object.json": 2,
+          "shadowlampred.object.json": 2
+        },
+        "shadowlight": {
+          "shadowlight.object.json": 2
+        },
+        "shadowminifridge.object.json": 8,
+        "shadownightstand.object.json": 4,
+        "shadowsink.object.json": 9,
+        "shadowstool.object.json": 9,
         "shadowstoragelocker": {
           "shadowstoragelocker.object.json": 1
         },
+        "shadowstrip": {
+          "shadowstrip.object.json": 2
+        },
+        "shadowswitch": {
+          "shadowswitchblue.object.json": 1,
+          "shadowswitchred.object.json": 1,
+          "shared_shadowswitch.json": 8
+        },
+        "shadowtable.object.json": 3,
+        "shadowtoilet.object.json": 9,
+        "shared_.object.json": 4,
+        "shared_shadow": {
+          "shared_.object.json": 6
+        },
+        "shared_shadowbanner.json": 7,
+        "shared_shadowchestlong.json": 7,
+        "shared_shadowflower.json": 3,
+        "shared_table.object.json": 5,
         "shipdoor": {
           "tenebrhaeshipdoor.object.json": 2
         }
       },
-      "shared_.object.json": 1,
+      "shared_.object.json": 2,
       "shared_avali.json": 7,
       "shared_cabinet.json": 4,
+      "shared_door": {
+        "shared_door.object.json": 1
+      },
+      "shared_fridge.json": 8,
       "shared_generator.json": 1,
       "shared_gravgen": {
         "shared_gravgenfield.statuseffect.json": 1
@@ -8914,7 +9174,13 @@
       },
       "shared_nest.json": 2,
       "shared_shiphatch.json": 1,
+      "shared_storagelocker": {
+        "shared_storagelocker.object.json": 5
+      },
       "shared_storagelocker.object.json": 1,
+      "shared_teleporter": {
+        "shared_teleporter.object.json": 1
+      },
       "shared_teleporter.json": 1,
       "shared_temp": {
         "shared_temp.object.json": 2
@@ -9036,7 +9302,7 @@
           "fu_byosshiphatchBroken.object.json": 7
         },
         "fu_byostechstation": {
-          "fu_byostechstation.object.json": 4,
+          "fu_byostechstation.object.json": 2,
           "fu_byostechstationdeco.object.json": 1,
           "shared_fu_byostechstation.json": 1
         },
@@ -9046,8 +9312,7 @@
         "fu_byosteleporter": {
           "fu_byosteleporter.object.json": 2,
           "fu_byosteleporterdeco.object.json": 1,
-          "fu_byosteleporterprecursor.object.json": 2,
-          "shared_fu_byosteleporter.json": 6
+          "fu_byosteleporterprecursor.object.json": 2
         },
         "fu_crewbed": {
           "fu_crewbed.object.json": 1
@@ -9283,7 +9548,7 @@
         },
         "mantizishipdoor": {
           "mantizishipdoor.object.json": 1,
-          "mantizishiphatch.object.json": 6
+          "mantizishiphatch.object.json": 3
         },
         "mantizishipdoorbroken": {
           "mantizishipdoorbroken.object.json": 1
@@ -9305,6 +9570,22 @@
         },
         "mantiziteleportertier0": {
           "mantiziteleportertier0.object.json": 3
+        },
+        "nightarcaptainschair": {
+          "nightarcaptainschair.object.json": 1
+        },
+        "nightarfuelhatch": {
+          "nightarfuelhatch.object.json": 2
+        },
+        "nightarshipdoor": {
+          "nightarshipdoor.object.json": 2,
+          "nightarshiphatch.object.json": 1
+        },
+        "nightarshiplocker": {
+          "nightarshiplocker.object.json": 1
+        },
+        "nightartechstation": {
+          "nightartechstation.object.json": 8
         },
         "novakidshipparts": {
           "SIV_shipNovakidCabinSectionSmall": {
@@ -9425,7 +9706,7 @@
         "shared_shipdoor": {
           "shared_shipdoor.json": 9,
           "shared_shipdoor.object.json": 10,
-          "shared_shiphatch.object.json": 3
+          "shared_shiphatch.object.json": 6
         },
         "shared_shipdoorbroken": {
           "shared_shipdoorbroken.object.json": 3
@@ -9442,11 +9723,11 @@
         },
         "shared_techstation": {
           "shared_techstation.json": 26,
-          "shared_techstation.object.json": 9,
+          "shared_techstation.object.json": 11,
           "shared_techstationtier0.object.json": 8
         },
         "shared_teleporter": {
-          "shared_teleporter.json": 14,
+          "shared_teleporter.json": 20,
           "shared_teleporter.object.json": 2
         },
         "smallboosterflamemantizi": {
@@ -9748,7 +10029,7 @@
           "cutearmoire": {
             "cutearmoire1.object.json": 2,
             "cutearmoire2.object.json": 2,
-            "shared_cutearmoire.json": 7
+            "shared_cutearmoire.json": 2
           },
           "cutebathroomcabinet": {
             "cutebathroomcabinet.object.json": 2
@@ -10179,7 +10460,7 @@
         }
       }
     },
-    "objects.json": 3,
+    "objects.json": 8,
     "particles": {
       "angryrocketreloaded.particle.json": 1,
       "angryrocketreloadedfull.particle.json": 1,
@@ -10646,7 +10927,7 @@
       "exploration.radiomessages.json": 34,
       "fu_chemlab.radiomessages.json": 9,
       "fu_elder.radiomessages.json": 34,
-      "fu_exploration.radiomessages.json": 65,
+      "fu_exploration.radiomessages.json": 66,
       "fu_isotopes.radiomessages.json": 8,
       "fu_kevin.radiomessages.json": 9,
       "fu_ore.radiomessages.json": 18,
@@ -10700,6 +10981,7 @@
     "shared_lobster..json": 1,
     "shared_mat.json": 1,
     "shared_matmod.json": 9,
+    "shared_nightarsplatform.mat.json": 5,
     "shared_npc.json": 1,
     "shared_oceanite.json": 1,
     "shared_ost.json": 1,
