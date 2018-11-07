@@ -10,6 +10,12 @@
 - [ ] 验证护甲的效果
 - [ ] 验证护甲、武器的升级关系（在工具升级台中，而非提升武器等级后，自动升级）
 
+
+* 验证：
+	* 人物创建界面：Brand，CH4，HUMAN，Ne，UNDY COLOR，Warrior race from the Kortakk nebula等
+
+&emsp;
+
 # 模版
 
 ## 通用
@@ -80,7 +86,7 @@
 
 ### 示例
 
-
+&emsp;
 
 # 参考
 
@@ -935,7 +941,7 @@
 * 巨魔血&emsp;Trollblood
 	`stats/effects/medicalStationSpecials/trollblood/trollblood.statuseffect`
 
-### 回复效果：
+### 回复效果：regeneration
 
 * 日光疗愈&emsp;Daylight Regen
 	`stats/effects/regeneration/lightregen.statuseffect`
@@ -1055,23 +1061,44 @@
 * 羽族&emsp;Avali
 	［备注］众所周知。
 * ？？？&emsp;Radien
-	［备注］赛博朋克背景的种族。
+	［备注］赛博朋克背景的种族。  
+	［描述］一种奇怪的无机生物，由某种具有智能的放射性能量组成。
 * ？？？&emsp;Kirhos
-	［备注］善于交易。
+	［备注］善于交易。  
+	［描述］这个啮齿类的种族耗尽了他们母星的自然资源。现在，他们大多居住在由企业运行的城市建筑中，而这些建筑被称为Arcologies。
 * ？？？，佩格拉希族&emsp;Peglaci
-	［备注］发明了多种合金。
+	［备注］发明了多种合金。  
+	［描述］免疫寒冷和令人不快的事物。
+* ？？？&emsp;Mantis
+	［描述］繁殖快速，生命力顽强，Mantis既不聪明，也不讨人喜欢。
 * ？？？&emsp;Mantizi
-	［备注］硬皮肤，虫形，有一个帝国，专制。
+	［备注］硬皮肤，虫形，有一个帝国，专制。  
+	［描述］外形像甲虫一样的杂食两足动物，拥有坚硬的几丁质外壳，充满活力，热爱自由。
 * 影族，暗影居民&emsp;Shadow
 	［备注］非常神秘。
 * ？？？，龙人，亚龙人，类龙人&emsp;Eld'uukhar
-	［备注］半龙，水晶工匠，基于水晶的科技。
+	［备注］半龙，水晶工匠，基于水晶的科技。  
+	［描述］Eld'uukhar会让人联想到传说中的巨龙。作为熟练的宝石和金属工匠，他们一边遨游宇宙，一边磨练自己的手艺。
 * ？？？&emsp;Thelusian
-	［备注］...
+	［描述］他们是残忍而危险的战士，将自身的全部生命献给战斗、守卫以及其他枯燥的工作。单独一个Thelusian是极其不聪明的，但若组成大群体的话，效率便会变得非常高。
 * ？？？&emsp;Xarwiek
 	［备注］非常罕见。
 * ？？？&emsp;Tenebrhae
 	［备注］...
+* ？？？&emsp;anodyne
+	［描述］Anodyne是一个形似“星际气囊”的神秘种族，很像星之子。他们既没有固定的定居点，也没有记录在案的历史。他们是一种不稳定的存在，不受过去的困扰。没有人知道他们由何构成，更没有人知道他们从何而来。
+* ？？？&emsp;Myphis&emsp;darkizku
+  	［描述］Myphis通常被认为是“可憎之物”。他们拥有异常强健的免疫系统，且是黑暗的追逐者。
+* ？？？&emsp;Izku
+	［描述］Izku几乎什么都不懂，他们的先进技术来自纯粹的幸运。
+* 史莱姆&emsp;slimeperson
+	［描述］当涉及到移民控制时，一些政府官员似乎完全没有注意到史莱姆们的存在。
+* ？？？&emsp;Nightar
+  	［描述］谜一般的Nighar是在半影世界中进化而来的，深陷于传统的泥沼之中。他们充满自豪感，但是极端排外。
+* 先驱者&emsp;Precursor
+	［描述］残酷无情，诡计多端。
+* 蜘蛛机器人&emsp;spiderdroid
+	［描述］一个非常危险的机器人。
 
 ## NPC
 
@@ -1153,7 +1180,6 @@
 * Glarp
 * golem&emsp;魔像
 
-
 ## 其他
 
 * 尼克斯大浩劫&emsp;Nikos Point disaster
@@ -1176,3 +1202,7 @@
 	［备注］...
 * 水手凯尔普&emsp;Sailor Kelp
 	* ［备注］鲛人漫画。
+* ？？？&emsp;arcologies
+	* ［备注］Kirhos族居住的集群建筑
+* 科泰克星云&emsp;Kortakk nebula
+	* ［备注］先驱相关
