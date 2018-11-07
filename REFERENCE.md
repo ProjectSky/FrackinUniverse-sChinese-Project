@@ -1042,11 +1042,10 @@
 * 出血&emsp;Bleeding
 * 易伤&emsp;Vulnerability
 * 辐射烧伤&emsp;Radiation Burn, Rad-Burn,Radiation?
-* 感电&emsp;Electrified
 * 麻痹&emsp;paralysis
-* 晕眩&emsp;Shock, Shocked&emsp;electrified?&emsp;（来自电击）
+* 晕眩 / 感电&emsp;Shock, Shocked&emsp;electrified?&emsp;（来自电击）
 * 眩晕&emsp;Stun&emsp;（来自重击）
-* 毒&emsp;Poison
+* 中毒&emsp;Poison
 * 虚弱&emsp;weakening
 * 蜂蜇&emsp;Stinging, Sting
 * 反伤&emsp;Thorns
@@ -1055,6 +1054,7 @@
 * 恐惧 & 狩猎&emsp;Terrified & Hunted&emsp;erchiussickness & 2
 * 减速&emsp;Slow
 * 滑行&emsp;Slide
+* 防御下降&emsp;Defense reduction
 
 ## 种族
 
@@ -1137,6 +1137,8 @@
 
 * 泽尔迪亚&emsp;Zeldia
 	［备注］有张肖像画。
+* 岚&emsp;Ran
+	［备注］银河Nightar商人。
 
 ### 背景
 
@@ -1201,8 +1203,12 @@
 * 阿兹瑞尔工业&emsp;Azriel Industries
 	［备注］...
 * 水手凯尔普&emsp;Sailor Kelp
-	* ［备注］鲛人漫画。
+	［备注］鲛人漫画。
 * ？？？&emsp;arcologies
-	* ［备注］Kirhos族居住的集群建筑
+	［备注］Kirhos族居住的集群建筑
 * 科泰克星云&emsp;Kortakk nebula
-	* ［备注］先驱相关
+	［备注］先驱相关
+* ？？？&emsp;Chitron
+	［备注］机甲相关，thelusian相关
+* 新科公司&emsp;SinCo
+	［备注］一家机甲公司
