@@ -372,8 +372,8 @@
 * 黑檀石碎片&emsp;Ebon Shard
 * 琥珀块&emsp;Amber Chunk
 &emsp;
-* ？？？&emsp;sivite
-	［备注］原为天蓝石 lazulite
+* 闪银石&emsp;sivite
+	［备注］原为天蓝石 lazulite，找不到引用，暂且这样翻译
 * 心印石&emsp;Koanite
 	［引用］koan：以心传心。原为磷酸铝。（名字起得这么好，却只是用来生产磷？）
 &emsp;
@@ -484,7 +484,7 @@
 &emsp;  
 * 纳德&emsp;Nhydri
 
-### 液体 & 气体
+### 液体
 
 **原版**
 
@@ -529,6 +529,8 @@
 * 污染水&emsp;Contaminated Water
 * 暗影气体&emsp;Shadow Gas
 * 原体液&emsp;Liquid Protocite
+
+### 设备
 
 ## 状态（按照目录）（不包括动画文本）（不包括单纯的能力值调整效果）
 
@@ -1043,7 +1045,7 @@
 * 易伤&emsp;Vulnerability
 * 辐射烧伤&emsp;Radiation Burn, Rad-Burn,Radiation?
 * 麻痹&emsp;paralysis
-* 晕眩 / 感电&emsp;Shock, Shocked&emsp;electrified?&emsp;（来自电击）
+* 电击/晕眩/感电&emsp;Shock, Shocked&emsp;electrified?&emsp;（来自电击）
 * 眩晕&emsp;Stun&emsp;（来自重击）
 * 中毒&emsp;Poison
 * 虚弱&emsp;weakening
@@ -1098,7 +1100,7 @@
 * 先驱者&emsp;Precursor
 	［描述］残酷无情，诡计多端。
 * 蜘蛛机器人&emsp;spiderdroid
-	［描述］一个非常危险的机器人。
+	［描述］一种非常危险的机器人。
 
 ## NPC
 
@@ -1139,13 +1141,15 @@
 	［备注］有张肖像画。
 * 岚&emsp;Ran
 	［备注］银河Nightar商人。
+* 戴夫&emsp;Dave
+	* 对凯文来说意味这什么，对Mantizi族来说很是忌讳。
 
 ### 背景
 
 * 奥拉纳&emsp;Orana
 	［备注］Radien族的神祗，可能是FU世界观的创造神。
 * 唯一者&emsp;The One
-	［备注］对于影族（Shadow）来说意味着什么。
+	［备注］对于影裔（Shadow）来说意味着什么。
 
 ## 怪物
 
@@ -1212,3 +1216,4 @@
 	［备注］机甲相关，thelusian相关
 * 新科公司&emsp;SinCo
 	［备注］一家机甲公司
+*异界？？？&emsp;Anti-Realm
