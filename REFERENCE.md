@@ -10,6 +10,12 @@
 - [ ] 验证护甲的效果
 - [ ] 验证护甲、武器的升级关系（在工具升级台中，而非提升武器等级后，自动升级）
 
+
+* 验证：
+	* 人物创建界面：Brand，CH4，HUMAN，Ne，UNDY COLOR，Warrior race from the Kortakk nebula等
+
+&emsp;
+
 # 模版
 
 ## 通用
@@ -80,7 +86,7 @@
 
 ### 示例
 
-
+&emsp;
 
 # 参考
 
@@ -366,15 +372,15 @@
 * 黑檀石碎片&emsp;Ebon Shard
 * 琥珀块&emsp;Amber Chunk
 &emsp;
-* ？？？&emsp;sivite
-	［备注］原为天蓝石 lazulite
+* 闪银石&emsp;sivite
+	［备注］原为天蓝石 lazulite，找不到引用，暂且这样翻译
 * 心印石&emsp;Koanite
 	［引用］koan：以心传心。原为磷酸铝。（名字起得这么好，却只是用来生产磷？）
 &emsp;
 * 佩格拉希合金&emsp;Peglaci Alloy
 &emsp;
-* 特勒贝晶体&emsp;Telebrium
-	［生成］特勒贝晶体锭&emsp;Telebrium Bar
+* 特勒贝晶体碎片&emsp;Telebrium
+	［生成］特勒贝晶体&emsp;Telebrium Bar
 * 月晶碎片&emsp;Lunari Shard
 	［生成］月晶&emsp;Lunari Crystal
 	［引用］Luna：月之女神
@@ -478,7 +484,7 @@
 &emsp;  
 * 纳德&emsp;Nhydri
 
-### 液体 & 气体
+### 液体
 
 **原版**
 
@@ -523,6 +529,8 @@
 * 污染水&emsp;Contaminated Water
 * 暗影气体&emsp;Shadow Gas
 * 原体液&emsp;Liquid Protocite
+
+### 设备
 
 ## 状态（按照目录）（不包括动画文本）（不包括单纯的能力值调整效果）
 
@@ -935,7 +943,7 @@
 * 巨魔血&emsp;Trollblood
 	`stats/effects/medicalStationSpecials/trollblood/trollblood.statuseffect`
 
-### 回复效果：
+### 回复效果：regeneration
 
 * 日光疗愈&emsp;Daylight Regen
 	`stats/effects/regeneration/lightregen.statuseffect`
@@ -1036,11 +1044,10 @@
 * 出血&emsp;Bleeding
 * 易伤&emsp;Vulnerability
 * 辐射烧伤&emsp;Radiation Burn, Rad-Burn,Radiation?
-* 感电&emsp;Electrified
 * 麻痹&emsp;paralysis
-* 晕眩&emsp;Shock, Shocked&emsp;electrified?&emsp;（来自电击）
+* 电击/晕眩/感电&emsp;Shock, Shocked&emsp;electrified?&emsp;（来自电击）
 * 眩晕&emsp;Stun&emsp;（来自重击）
-* 毒&emsp;Poison
+* 中毒&emsp;Poison
 * 虚弱&emsp;weakening
 * 蜂蜇&emsp;Stinging, Sting
 * 反伤&emsp;Thorns
@@ -1049,29 +1056,51 @@
 * 恐惧 & 狩猎&emsp;Terrified & Hunted&emsp;erchiussickness & 2
 * 减速&emsp;Slow
 * 滑行&emsp;Slide
+* 防御下降&emsp;Defense reduction
 
 ## 种族
 
 * 羽族&emsp;Avali
 	［备注］众所周知。
-* ？？？&emsp;Radien
-	［备注］赛博朋克背景的种族。
-* ？？？&emsp;Kirhos
-	［备注］善于交易。
-* ？？？，佩格拉希族&emsp;Peglaci
-	［备注］发明了多种合金。
-* ？？？&emsp;Mantizi
-	［备注］硬皮肤，虫形，有一个帝国，专制。
-* 影族，暗影居民&emsp;Shadow
+* ？？？，瑞登&emsp;Radien
+	［备注］赛博朋克背景的种族。  
+	［描述］一种奇怪的无机生物，由某种具有智能的放射性能量组成。
+* ？？？，基霍斯&emsp;Kirhos
+	［备注］善于交易。  
+	［描述］这个啮齿类的种族耗尽了他们母星的自然资源。现在，他们大多居住在由企业运行的城市建筑中，而这些建筑被称为Arcologies。
+* ？？？，佩格拉希&emsp;Peglaci
+	［备注］发明了多种合金。  
+	［描述］免疫寒冷和令人不快的事物。
+* ？？？，曼提&emsp;Mantis
+	［描述］繁殖快速，生命力顽强，Mantis既不聪明，也不讨人喜欢。
+* ？？？，曼提斯&emsp;Mantizi
+	［备注］硬皮肤，虫形，有一个帝国，专制。  
+	［描述］外形像甲虫一样的杂食两足动物，拥有坚硬的几丁质外壳，充满活力，热爱自由。
+* 影裔&emsp;Shadow
 	［备注］非常神秘。
-* ？？？，龙人，亚龙人，类龙人&emsp;Eld'uukhar
-	［备注］半龙，水晶工匠，基于水晶的科技。
-* ？？？&emsp;Thelusian
-	［备注］...
-* ？？？&emsp;Xarwiek
+* ？？？，厄修安龙人，龙人&emsp;Eld'uukhar
+	［备注］半龙，水晶工匠，基于水晶的科技。  
+	［描述］Eld'uukhar会让人联想到传说中的巨龙。作为熟练的宝石和金属工匠，他们一边遨游宇宙，一边磨练自己的手艺。
+* ？？？，瑟卢锡安&emsp;Thelusian
+	［描述］他们是残忍而危险的战士，将自身的全部生命献给战斗、守卫以及其他枯燥的工作。单独一个Thelusian是极其不聪明的，但若组成大群体的话，效率便会变得非常高。
+* ？？？，夏维克&emsp;Xarwiek&emsp;不可选
 	［备注］非常罕见。
-* ？？？&emsp;Tenebrhae
+* ？？？&emsp;Tenebrhae&emsp;不可选
 	［备注］...
+* ？？？，阿诺德勒&emsp;anodyne
+	［描述］Anodyne是一个形似“星际气囊”的神秘种族，很像星之子。他们既没有固定的定居点，也没有记录在案的历史。他们是一种不稳定的存在，不受过去的困扰。没有人知道他们由何构成，更没有人知道他们从何而来。
+* 梦比斯&emsp;Myphis&emsp;darkizku
+  	［描述］Myphis通常被认为是“可憎之物”。他们拥有异常强健的免疫系统，且是黑暗的追逐者。
+* 伊库&emsp;Izku
+	［描述］Izku几乎什么都不懂，他们的先进技术来自纯粹的幸运。
+* 史莱姆&emsp;slimeperson
+	［描述］当涉及到移民控制时，一些政府官员似乎完全没有注意到史莱姆们的存在。
+* 夜种&emsp;Nightar
+  	［描述］谜一般的夜种一族是在半影世界中进化而来的，深陷于传统的泥沼之中。他们充满自豪感，但是极端排外。
+* 先驱者&emsp;Precursor
+	［描述］残酷无情，诡计多端。
+* 蜘蛛机器人&emsp;spiderdroid
+	［描述］一种非常危险的机器人。
 
 ## NPC
 
@@ -1110,13 +1139,17 @@
 
 * 泽尔迪亚&emsp;Zeldia
 	［备注］有张肖像画。
+* 岚&emsp;Ran
+	［备注］银河Nightar商人。
+* 戴夫&emsp;Dave
+	* 对凯文来说意味这什么，对Mantizi族来说很是忌讳。
 
 ### 背景
 
 * 奥拉纳&emsp;Orana
 	［备注］Radien族的神祗，可能是FU世界观的创造神。
 * 唯一者&emsp;The One
-	［备注］对于影族（Shadow）来说意味着什么。
+	［备注］对于影裔（Shadow）来说意味着什么。
 
 ## 怪物
 
@@ -1153,7 +1186,6 @@
 * Glarp
 * golem&emsp;魔像
 
-
 ## 其他
 
 * 尼克斯大浩劫&emsp;Nikos Point disaster
@@ -1175,4 +1207,13 @@
 * 阿兹瑞尔工业&emsp;Azriel Industries
 	［备注］...
 * 水手凯尔普&emsp;Sailor Kelp
-	* ［备注］鲛人漫画。
+	［备注］鲛人漫画。
+* ？？？&emsp;arcologies
+	［备注］Kirhos族居住的集群建筑
+* 科泰克星云&emsp;Kortakk nebula
+	［备注］先驱相关
+* ？？？&emsp;Chitron
+	［备注］机甲相关，thelusian相关
+* 新科公司&emsp;SinCo
+	［备注］一家机甲公司
+*异界？？？&emsp;Anti-Realm
