@@ -379,8 +379,8 @@
 &emsp;
 * 佩格拉希合金&emsp;Peglaci Alloy
 &emsp;
-* 特勒贝晶体&emsp;Telebrium
-	［生成］特勒贝晶体锭&emsp;Telebrium Bar
+* 特勒贝晶体碎片&emsp;Telebrium
+	［生成］特勒贝晶体&emsp;Telebrium Bar
 * 月晶碎片&emsp;Lunari Shard
 	［生成］月晶&emsp;Lunari Crystal
 	［引用］Luna：月之女神
@@ -1065,15 +1065,15 @@
 * ？？？，瑞登&emsp;Radien
 	［备注］赛博朋克背景的种族。  
 	［描述］一种奇怪的无机生物，由某种具有智能的放射性能量组成。
-* ？？？，基罗斯&emsp;Kirhos
+* ？？？，基霍斯&emsp;Kirhos
 	［备注］善于交易。  
 	［描述］这个啮齿类的种族耗尽了他们母星的自然资源。现在，他们大多居住在由企业运行的城市建筑中，而这些建筑被称为Arcologies。
 * ？？？，佩格拉希&emsp;Peglaci
 	［备注］发明了多种合金。  
 	［描述］免疫寒冷和令人不快的事物。
-* ？？？曼提&emsp;Mantis
+* ？？？，曼提&emsp;Mantis
 	［描述］繁殖快速，生命力顽强，Mantis既不聪明，也不讨人喜欢。
-* ？？？曼提斯&emsp;Mantizi
+* ？？？，曼提斯&emsp;Mantizi
 	［备注］硬皮肤，虫形，有一个帝国，专制。  
 	［描述］外形像甲虫一样的杂食两足动物，拥有坚硬的几丁质外壳，充满活力，热爱自由。
 * 影裔&emsp;Shadow
@@ -1083,15 +1083,15 @@
 	［描述］Eld'uukhar会让人联想到传说中的巨龙。作为熟练的宝石和金属工匠，他们一边遨游宇宙，一边磨练自己的手艺。
 * ？？？，瑟卢锡安&emsp;Thelusian
 	［描述］他们是残忍而危险的战士，将自身的全部生命献给战斗、守卫以及其他枯燥的工作。单独一个Thelusian是极其不聪明的，但若组成大群体的话，效率便会变得非常高。
-* ？？？&emsp;Xarwiek&emsp;不可选
+* ？？？，夏维克&emsp;Xarwiek&emsp;不可选
 	［备注］非常罕见。
 * ？？？&emsp;Tenebrhae&emsp;不可选
 	［备注］...
-* ？？？&emsp;anodyne
+* ？？？，阿诺德勒&emsp;anodyne
 	［描述］Anodyne是一个形似“星际气囊”的神秘种族，很像星之子。他们既没有固定的定居点，也没有记录在案的历史。他们是一种不稳定的存在，不受过去的困扰。没有人知道他们由何构成，更没有人知道他们从何而来。
-* ？？？，梦比斯&emsp;Myphis&emsp;darkizku
+* 梦比斯&emsp;Myphis&emsp;darkizku
   	［描述］Myphis通常被认为是“可憎之物”。他们拥有异常强健的免疫系统，且是黑暗的追逐者。
-* ？？？，伊库&emsp;Izku
+* 伊库&emsp;Izku
 	［描述］Izku几乎什么都不懂，他们的先进技术来自纯粹的幸运。
 * 史莱姆&emsp;slimeperson
 	［描述］当涉及到移民控制时，一些政府官员似乎完全没有注意到史莱姆们的存在。
