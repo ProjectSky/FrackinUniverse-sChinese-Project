@@ -1141,7 +1141,7 @@
 * 岚&emsp;Ran
 	［备注］银河Nightar商人。
 * 戴夫&emsp;Dave
-	* 对凯文来说意味这什么，对Mantizi族来说很是忌讳。
+	［备注］备注对凯文来说意味这什么，对Mantizi族来说很是忌讳。
 
 ### 背景
 
@@ -1217,3 +1217,4 @@
 	［备注］一家机甲公司
 * 反异界？？？&emsp;Anti-Realm
 * 德拉克&emsp;Drakaet
+* 派克瑞特&emsp;Pykrete
