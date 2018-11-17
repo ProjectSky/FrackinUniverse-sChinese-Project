@@ -10,7 +10,6 @@
 - [ ] 验证护甲的效果
 - [ ] 验证护甲、武器的升级关系（在工具升级台中，而非提升武器等级后，自动升级）
 
-
 * 验证：
 	* 人物创建界面：Brand，CH4，HUMAN，Ne，UNDY COLOR，Warrior race from the Kortakk nebula等
 
@@ -1142,7 +1141,7 @@
 * 岚&emsp;Ran
 	［备注］银河Nightar商人。
 * 戴夫&emsp;Dave
-	* 对凯文来说意味这什么，对Mantizi族来说很是忌讳。
+	［备注］备注对凯文来说意味这什么，对Mantizi族来说很是忌讳。
 
 ### 背景
 
@@ -1216,4 +1215,6 @@
 	［备注］机甲相关，thelusian相关
 * 新科公司&emsp;SinCo
 	［备注］一家机甲公司
-*异界？？？&emsp;Anti-Realm
+* 反异界？？？&emsp;Anti-Realm
+* 德拉克&emsp;Drakaet
+* 派克瑞特&emsp;Pykrete
