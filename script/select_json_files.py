@@ -35,7 +35,7 @@ class Handler:
     # [str]，未翻译完的文档的路径列表（全路径，包括目录、文件名）
     not_translated_json_list = []
 
-    # 匹配未翻译文本的字符串（组1：未翻译的英文文本）
+    # 匹配未翻译文本的字符串
     patten = r'"Texts":\s*{\n\s*"Eng":'
     # 对应的Patten对象
     pat = None
