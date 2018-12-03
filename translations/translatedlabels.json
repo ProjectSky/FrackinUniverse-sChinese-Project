@@ -658,7 +658,7 @@
           "kheAA_routerGui.config.json": 16
         },
         "kheAA_terminal": {
-          "kheAA_terminalGui.config.json": 9
+          "kheAA_terminalGui.config.json": 7
         },
         "kheAA_toolforge": {
           "kheAA_toolforgegui.config.json": 4
@@ -2142,7 +2142,7 @@
                   "isn_terawattlaser.activeitem.json": 2
                 }
               },
-              "shared_.activeitem.json": 11,
+              "shared_.activeitem.json": 10,
               "shared_cien.json": 1,
               "shared_friendmaker.json": 1,
               "shared_fuhuntingrifle.json": 1,
@@ -2164,8 +2164,6 @@
               "telebriumpistol.activeitem.json": 1,
               "telebriumrifle.activeitem.json": 2,
               "tentabane.activeitem.json": 4,
-              "teslagun.activeitem.json": 2,
-              "teslagun2.activeitem.json": 2,
               "theblackmarket": {
                 "armcannon": {
                   "armcannon.activeitem.json": 2,
@@ -2356,7 +2354,7 @@
             "erchiusghost3.back.json": 2
           },
           "erithianalgaepack": {
-            "batterypack_erithian.back.json": 2
+            "batterypack_erithian.back.json": 1
           },
           "fieldgenerator": {
             "fieldgenerator.back.json": 2
@@ -2420,7 +2418,7 @@
             "lanternstick.back.json": 2
           },
           "morphitepack": {
-            "batterypack_morphite.back.json": 2
+            "batterypack_morphite.back.json": 1
           },
           "poisonprotection": {
             "poisonprotection.back.json": 2,
@@ -2428,10 +2426,10 @@
             "poisonprotection3.back.json": 2
           },
           "protocytepack": {
-            "batterypack_protocyte.back.json": 2
+            "batterypack_protocyte.back.json": 1
           },
           "quantumpack": {
-            "batterypack_quantum.back.json": 2
+            "batterypack_quantum.back.json": 1
           },
           "radiationprotection": {
             "radiationprotection.back.json": 2,
@@ -2872,7 +2870,7 @@
             "kirhostier3.chest.json": 1,
             "kirhostier3.head.json": 1,
             "kirhostier3.legs.json": 1,
-            "shared_kirhostier3..json": 0
+            "shared_kirhostier3..json": 1
           },
           "cultcrown": {
             "cultcrown.head.json": 2
@@ -5711,9 +5709,9 @@
       "generated": {
         "flying": {
           "skills": {
+            "divebombAttack.monsterskill.json": 1,
             "pigeonSwoopAttack.monsterskill.json": 1,
-            "raptorswoopAttack.monsterskill.json": 1,
-            "shared_Attack.monsterskill.json": 1
+            "raptorswoopAttack.monsterskill.json": 1
           }
         },
         "ground": {
@@ -5908,7 +5906,6 @@
           "raptorstrikeattack.monsterskill.json": 1,
           "robotRocketAttack.monsterskill.json": 1,
           "robotgaussAttack.monsterskill.json": 1,
-          "shared_Attack.monsterskill.json": 0,
           "shared_PoisonBlastAttack.monsterskill.json": 1,
           "shared_attack.monsterskill.json": 1,
           "slimePoisonSpewAttack.monsterskill.json": 1,
@@ -7866,6 +7863,7 @@
         "kheAA_containerLink": {
           "kheAA_containerLink.object.json": 1,
           "kheAA_containerLink2.object.json": 1,
+          "kheAA_deedLink.object.json": 0,
           "shared_kheAA_containerLink.json": 1
         },
         "kheAA_grabber": {
@@ -9146,7 +9144,7 @@
           "shadowswitchred.object.json": 1,
           "shared_shadowswitch.json": 7
         },
-        "shadowtable.object.json": 2,
+        "shadowtable.object.json": 1,
         "shadowtoilet.object.json": 3,
         "shared_.object.json": 0,
         "shared_shadow": {
@@ -9180,6 +9178,7 @@
         "shared_storagelocker.object.json": 5
       },
       "shared_storagelocker.object.json": 1,
+      "shared_table.json": 1,
       "shared_teleporter": {
         "shared_teleporter.object.json": 1
       },
@@ -10460,6 +10459,34 @@
           "shared_wallswitch.object.json": 12,
           "swtjc_wp_brokenwallswitch.object.json": 1
         }
+      },
+      "zerchesium": {
+        "shared_zerchesiumlamp.json": 0,
+        "zerchesiumbed": {
+          "zerchesiumbed.object.json": 0
+        },
+        "zerchesiumcabinet.object.json": 0,
+        "zerchesiumchair.object.json": 0,
+        "zerchesiumconsole.object.json": 0,
+        "zerchesiumdesk": {
+          "zerchesiumdesk.object.json": 0
+        },
+        "zerchesiumdrawer.object.json": 0,
+        "zerchesiumfridge": {
+          "zerchesiumfridge.object.json": 0
+        },
+        "zerchesiumlamplarge.object.json": 0,
+        "zerchesiumlampsmall.object.json": 0,
+        "zerchesiumlight": {
+          "zerchesiumlight.object.json": 0
+        },
+        "zerchesiumlocker": {
+          "zerchesiumlocker.object.json": 0
+        },
+        "zerchesiumslidingdoor.object.json": 0,
+        "zerchesiumtable": {
+          "zerchesiumtable.object.json": 0
+        }
       }
     },
     "objects.json": 8,
@@ -10936,8 +10963,8 @@
       "fu_quests.radiomessages.json": 12,
       "fu_resources.radiomessages.json": 51,
       "fu_stations.radiomessages.json": 2,
-      "mech.radiomessages.json": 0,
-      "missions.radiomessages.json": 12,
+      "mech.radiomessages.json": 19,
+      "missions.radiomessages.json": 48,
       "shared_.radiomessages.json": 1,
       "shared_es.radiomessages.json": 1
     },
@@ -11313,16 +11340,24 @@
             "eatself.statuseffect.json": 1
           },
           "energyregenfu": {
-            "energyregenfu05.statuseffect.json": 1,
+            "energyregenfu05.statuseffect.json": 0,
+            "energyregenfu10.statuseffect.json": 1,
+            "energyregenfu15.statuseffect.json": 1,
+            "energyregenfu20.statuseffect.json": 1,
+            "energyregenfu25.statuseffect.json": 1,
             "energyregenfu35.statuseffect.json": 1,
             "energyregenfu50.statuseffect.json": 1,
-            "energyregenfu75.statuseffect.json": 1,
-            "energyregenfu_erithian.statuseffect.json": 1,
-            "energyregenfu_morphite.statuseffect.json": 1,
-            "energyregenfu_proto.statuseffect.json": 1,
-            "energyregenfu_quantum.statuseffect.json": 1,
-            "shared_0.statuseffect.json": 3,
-            "shared_energyregenfu.json": 3
+            "energyregenfu60.statuseffect.json": 1,
+            "energyregenfu_armor40.statuseffect.json": 0,
+            "energyregenfu_armor50.statuseffect.json": 0,
+            "energyregenfu_armor60.statuseffect.json": 0,
+            "energyregenfu_armor75.statuseffect.json": 0,
+            "energyregenfu_erithian.statuseffect.json": 0,
+            "energyregenfu_morphite.statuseffect.json": 0,
+            "energyregenfu_proto.statuseffect.json": 0,
+            "energyregenfu_quantum.statuseffect.json": 0,
+            "shared_0.statuseffect.json": 1,
+            "shared_energyregenfu.json": 1
           },
           "energyrestorepercentage": {
             "shared_.statuseffect.json": 1
@@ -11592,20 +11627,6 @@
           "swashbucklerpower.statuseffect.json": 1
         },
         "fu_weathereffects": {
-          "ffextremeradiation": {
-            "ffextremeradiation.statuseffect.json": 1
-          },
-          "ffextremesulphuric": {
-            "ffextremesulphuric.statuseffect.json": 1
-          },
-          "gasworld": {
-            "gasworld.animation.json": 1,
-            "gasworldweak.animation.json": 1,
-            "gasworldweak.statuseffect.json": 1
-          },
-          "metallichydrogengas": {
-            "metallichydrogengas.animation.json": 1
-          },
           "new": {
             "aether": {
               "aetherweathernew.animation.json": 1,
@@ -11614,20 +11635,21 @@
               "aetherweathernew3.statuseffect.json": 1
             },
             "cold": {
+              "ffbiomecold0.statuseffect.json": 1,
               "ffbiomecold1.statuseffect.json": 1,
               "ffbiomecold2.statuseffect.json": 1,
               "ffbiomecold3.statuseffect.json": 1,
+              "ffbiomecold4.statuseffect.json": 1,
               "shared_coldweathernew..json": 1,
               "suddenchill1.statuseffect.json": 1,
-              "suddenchill2.statuseffect.json": 1,
-              "suddenchill3.statuseffect.json": 1
+              "suddenchill2.statuseffect.json": 0,
+              "suddenchill3.statuseffect.json": 0
             },
             "desert": {
               "desertweathernew.statuseffect.json": 1,
               "desertweathernewdeadly.statuseffect.json": 1,
               "heatwave1.statuseffect.json": 1,
-              "heatwave2.statuseffect.json": 1,
-              "heatwave3.statuseffect.json": 1
+              "heatwave3.statuseffect.json": 0
             },
             "electric": {
               "ffbiomeelectric1.statuseffect.json": 1,
@@ -11635,15 +11657,20 @@
               "ffbiomeelectric3.statuseffect.json": 1
             },
             "gasworldnew": {
-              "gasworld2.statuseffect.json": 1,
+              "gasworld2.statuseffect.json": 0,
+              "gasworld3.statuseffect.json": 0,
               "shared_gasworld.json": 1
             },
             "heat": {
               "ffbiomeheat1.statuseffect.json": 1,
-              "ffbiomeheat2.statuseffect.json": 1
+              "ffbiomeheat2.statuseffect.json": 1,
+              "ffbiomeheat3.statuseffect.json": 1,
+              "heatweathernew.statuseffect.json": 0
             },
             "insanity": {
-              "insanitynew.animation.json": 1
+              "insanitynew.animation.json": 1,
+              "insanitynew.statuseffect.json": 0,
+              "insanitynew2.statuseffect.json": 0
             },
             "poison": {
               "biomepoison1.statuseffect.json": 1,
@@ -11651,12 +11678,12 @@
               "biomepoison3.statuseffect.json": 1,
               "biomepoisongas.statuseffect.json": 1,
               "poisonweathernew.animation.json": 1,
-              "shared_poisonweathernew.json": 1
+              "poisonweathernew.statuseffect.json": 1
             },
             "protoworld": {
               "protoweather.animation.json": 1,
               "protoweather.statuseffect.json": 1,
-              "protoweather2.statuseffect.json": 1
+              "protoweather2.statuseffect.json": 0
             },
             "radiation": {
               "radioactiveweathernew.animation.json": 1,
@@ -11664,36 +11691,23 @@
               "radioactiveweathernew2.statuseffect.json": 1,
               "radioactiveweathernew3.statuseffect.json": 1
             },
+            "shared_2.statuseffect.json": 0,
             "shared_tweathernew.animation.json": 1,
             "sulphuric": {
               "sulphuricweathernew.animation.json": 1,
-              "sulphuricweathernew.statuseffect.json": 1,
-              "sulphuricweathernew2.statuseffect.json": 1,
-              "sulphuricweathernew3.statuseffect.json": 1,
-              "sulphuricweathernew4.statuseffect.json": 1,
-              "sulphuricweatherstorm.statuseffect.json": 1,
+              "sulphuricweathernew.statuseffect.json": 0,
+              "sulphuricweathernew2.statuseffect.json": 0,
+              "sulphuricweathernew3.statuseffect.json": 0,
+              "sulphuricweathernew4.statuseffect.json": 0,
+              "sulphuricweatherstorm.statuseffect.json": 0,
               "sulphuricweatherstorm2.statuseffect.json": 1,
               "sulphuricweatherstorm3.statuseffect.json": 1
             },
             "tropical": {
               "jungleheatweather.statuseffect.json": 1
             }
-          },
-          "poisongas": {
-            "poisongas.animation.json": 1
-          },
-          "shared_cold.json": 1,
-          "shared_gasworld.json": 1,
-          "shared_ngas": {
-            "shared_.statuseffect.json": 1
-          },
-          "unknownbiomeeffect.statuseffect.json": 1,
-          "weakenworld": {
-            "shared_weakenweather.json": 1,
-            "weakenweather.animation.json": 1
           }
         },
-        "fu_weathereffects.json": 2,
         "heal": {
           "heal_long4.statuseffect.json": 1,
           "heal_radien1.statuseffect.json": 1,
