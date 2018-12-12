@@ -3108,12 +3108,6 @@
   "items/active/weapons/ranged/unique/telebriumrifle.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
   },
-  "items/active/weapons/ranged/unique/teslagun.activeitem": {
-    "/altAbility/name": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
-  },
-  "items/active/weapons/ranged/unique/teslagun2.activeitem": {
-    "/altAbility/name": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
-  },
   "items/active/weapons/ranged/unique/theblackmarket/razorneedler/crystalpistolfire.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/theblackmarket/razorneedler/shared_crystalpistol.json"
   },
@@ -6678,12 +6672,6 @@
   "monsters/fulegacyscripts/ground/skills/shieldspecial.monsterskill": {
     "/label": "texts/monsters/fulegacyscripts/ground/skills/shared_shieldspecial.monsterskill.json"
   },
-  "monsters/generated/flying/skills/divebombAttack.monsterskill": {
-    "/label": "texts/monsters/generated/flying/skills/shared_Attack.monsterskill.json"
-  },
-  "monsters/generated/flying/skills/megadiveAttack.monsterskill": {
-    "/label": "texts/monsters/generated/flying/skills/shared_Attack.monsterskill.json"
-  },
   "monsters/generated/skills/new/glowcritterAttack.monsterskill": {
     "/label": "texts/monsters/generated/skills/new/shared_glowcritterAttack.json"
   },
@@ -7309,23 +7297,8 @@
   "monsters/skills/ranged/frostPoisonBlastAttack.monsterskill": {
     "/label": "texts/monsters/skills/ranged/shared_PoisonBlastAttack.monsterskill.json"
   },
-  "monsters/skills/ranged/magmablast2Attack.monsterskill": {
-    "/label": "texts/monsters/skills/ranged/shared_Attack.monsterskill.json"
-  },
-  "monsters/skills/ranged/magmablastAttack.monsterskill": {
-    "/label": "texts/monsters/skills/ranged/shared_Attack.monsterskill.json"
-  },
-  "monsters/skills/ranged/robotIonAttack.monsterskill": {
-    "/label": "texts/monsters/skills/ranged/shared_Attack.monsterskill.json"
-  },
-  "monsters/skills/ranged/robotZapAttack.monsterskill": {
-    "/label": "texts/monsters/skills/ranged/shared_Attack.monsterskill.json"
-  },
   "monsters/skills/ranged/slimeBubbleAttack.monsterskill": {
     "/label": "texts/monsters.json"
-  },
-  "monsters/skills/ranged/slimeGooClusterAttack.monsterskill": {
-    "/label": "texts/monsters/skills/ranged/shared_Attack.monsterskill.json"
   },
   "monsters/skills/ranged/slimePoisonBlastAttack.monsterskill": {
     "/label": "texts/monsters/skills/ranged/shared_PoisonBlastAttack.monsterskill.json"
@@ -7338,9 +7311,6 @@
   },
   "monsters/skills/ranged/targolembreathattack.monsterskill": {
     "/label": "texts/monsters/skills/ranged/shared_attack.monsterskill.json"
-  },
-  "monsters/skills/ranged/toxicgolemAttack.monsterskill": {
-    "/label": "texts/monsters/skills/ranged/shared_Attack.monsterskill.json"
   },
   "monsters/space/chiropterror/chiropterror.monstertype": {
     "/shortdescription": "texts/monsters/space/shared_chiropterror/shared_chiropterror.monstertype.json"
@@ -18090,7 +18060,8 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/shadow/shared_table.object.json",
     "/humanDescription": "texts/objects/shadow/shared_table.object.json",
-    "/hylotlDescription": "texts/objects/shadow/shared_table.object.json"
+    "/hylotlDescription": "texts/objects/shadow/shared_table.object.json",
+    "/novakidDescription": "texts/objects/shared_table.json"
   },
   "objects/shadow/shadowtoilet.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -20564,6 +20535,73 @@
     "/novakidDescription": "texts/objects/wired/smallwallswitch/shared_wallswitch.object.json",
     "/shortdescription": "texts/objects/wired/smallwallswitch/shared_wallswitch.object.json"
   },
+  "objects/zerchesium/zerchesiumbed/zerchesiumbed.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/zerchesium/zerchesiumbed/zerchesiumbed.object.json"
+  },
+  "objects/zerchesium/zerchesiumcabinet.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/zerchesium/zerchesiumcabinet.object.json"
+  },
+  "objects/zerchesium/zerchesiumchair.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/zerchesium/zerchesiumchair.object.json"
+  },
+  "objects/zerchesium/zerchesiumconsole.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/zerchesium/zerchesiumconsole.object.json"
+  },
+  "objects/zerchesium/zerchesiumdesk/zerchesiumdesk.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/zerchesium/zerchesiumdesk/zerchesiumdesk.object.json"
+  },
+  "objects/zerchesium/zerchesiumdrawer.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/zerchesium/zerchesiumdrawer.object.json"
+  },
+  "objects/zerchesium/zerchesiumfridge/zerchesiumfridge.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/zerchesium/zerchesiumfridge/zerchesiumfridge.object.json"
+  },
+  "objects/zerchesium/zerchesiumlamplarge.object": {
+    "/apexDescription": "texts/objects/zerchesium/shared_zerchesiumlamp.json",
+    "/avianDescription": "texts/objects/zerchesium/shared_zerchesiumlamp.json",
+    "/description": "texts/objects/zerchesium/shared_zerchesiumlamp.json",
+    "/floranDescription": "texts/objects/zerchesium/shared_zerchesiumlamp.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/zerchesium/shared_zerchesiumlamp.json",
+    "/humanDescription": "texts/objects/zerchesium/shared_zerchesiumlamp.json",
+    "/hylotlDescription": "texts/objects/zerchesium/shared_zerchesiumlamp.json",
+    "/novakidDescription": "texts/objects/zerchesium/shared_zerchesiumlamp.json"
+  },
+  "objects/zerchesium/zerchesiumlampsmall.object": {
+    "/apexDescription": "texts/objects/zerchesium/shared_zerchesiumlamp.json",
+    "/avianDescription": "texts/objects/zerchesium/shared_zerchesiumlamp.json",
+    "/description": "texts/objects/zerchesium/shared_zerchesiumlamp.json",
+    "/floranDescription": "texts/objects/zerchesium/shared_zerchesiumlamp.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/zerchesium/shared_zerchesiumlamp.json",
+    "/humanDescription": "texts/objects/zerchesium/shared_zerchesiumlamp.json",
+    "/hylotlDescription": "texts/objects/zerchesium/shared_zerchesiumlamp.json",
+    "/novakidDescription": "texts/objects/zerchesium/shared_zerchesiumlamp.json"
+  },
+  "objects/zerchesium/zerchesiumlight/zerchesiumlight.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/zerchesium/zerchesiumlight/zerchesiumlight.object.json"
+  },
+  "objects/zerchesium/zerchesiumlocker/zerchesiumlocker.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/zerchesium/zerchesiumlocker/zerchesiumlocker.object.json"
+  },
+  "objects/zerchesium/zerchesiumslidingdoor.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/zerchesium/zerchesiumslidingdoor.object.json"
+  },
+  "objects/zerchesium/zerchesiumtable/zerchesiumtable.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/zerchesium/zerchesiumtable/zerchesiumtable.object.json",
+    "/novakidDescription": "texts/objects/shared_table.json"
+  },
   "particles/damagenumbers/cosmicdamagenumber.particle": {
     "/definition/text": "texts/particles/shared_damagenumber.json"
   },
@@ -21638,40 +21676,16 @@
   "stats/effects/fu_effects/critbonus/critchance2.statuseffect": {
     "/label": "texts/stats/effects/fu_effects/critbonus/shared_.statuseffect.json"
   },
-  "stats/effects/fu_effects/energyregenfu/energyregenfu10.statuseffect": {
-    "/label": "texts/stats/effects/fu_effects/energyregenfu/shared_0.statuseffect.json"
-  },
-  "stats/effects/fu_effects/energyregenfu/energyregenfu15.statuseffect": {
-    "/label": "texts/stats/effects/fu_effects/energyregenfu/shared_energyregenfu.json"
-  },
-  "stats/effects/fu_effects/energyregenfu/energyregenfu20.statuseffect": {
-    "/label": "texts/stats/effects/fu_effects/energyregenfu/shared_0.statuseffect.json"
-  },
-  "stats/effects/fu_effects/energyregenfu/energyregenfu25.statuseffect": {
-    "/label": "texts/stats/effects/fu_effects/energyregenfu/shared_energyregenfu.json"
-  },
   "stats/effects/fu_effects/energyregenfu/energyregenfu40.statuseffect": {
     "/label": "texts/stats/effects/fu_effects/energyregenfu/shared_0.statuseffect.json"
   },
-  "stats/effects/fu_effects/energyregenfu/energyregenfu60.statuseffect": {
+  "stats/effects/fu_effects/energyregenfu/energyregenfu75.statuseffect": {
     "/label": "texts/stats/effects/fu_effects/energyregenfu/shared_energyregenfu.json"
   },
   "stats/effects/fu_effects/energyregenfu/energyregenfu_armor20.statuseffect": {
     "/label": "texts/stats/effects/fu_effects/energyregenfu/shared_0.statuseffect.json"
   },
   "stats/effects/fu_effects/energyregenfu/energyregenfu_armor30.statuseffect": {
-    "/label": "texts/stats/effects/fu_effects/energyregenfu/shared_energyregenfu.json"
-  },
-  "stats/effects/fu_effects/energyregenfu/energyregenfu_armor40.statuseffect": {
-    "/label": "texts/stats/effects/fu_effects/energyregenfu/shared_0.statuseffect.json"
-  },
-  "stats/effects/fu_effects/energyregenfu/energyregenfu_armor50.statuseffect": {
-    "/label": "texts/stats/effects/fu_effects/energyregenfu/shared_energyregenfu.json"
-  },
-  "stats/effects/fu_effects/energyregenfu/energyregenfu_armor60.statuseffect": {
-    "/label": "texts/stats/effects/fu_effects/energyregenfu/shared_0.statuseffect.json"
-  },
-  "stats/effects/fu_effects/energyregenfu/energyregenfu_armor75.statuseffect": {
     "/label": "texts/stats/effects/fu_effects/energyregenfu/shared_energyregenfu.json"
   },
   "stats/effects/fu_effects/energyrestorepercentage/energy_10.statuseffect": {
@@ -22042,71 +22056,29 @@
   "stats/effects/fu_weaponeffects/gravgun/gravgun2.statuseffect": {
     "/label": "texts/shared_weapon.json"
   },
-  "stats/effects/fu_weathereffects/crystalmoon/crystalmoonfx.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects.json"
-  },
-  "stats/effects/fu_weathereffects/ffextremecold/ffextremecold.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/shared_cold.json"
-  },
-  "stats/effects/fu_weathereffects/ffextremeheat/cultistblastfx.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects.json"
-  },
-  "stats/effects/fu_weathereffects/ffextremeheat/ffextremeheat.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects.json"
-  },
-  "stats/effects/fu_weathereffects/gasworld/gasworld.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/shared_gasworld.json"
-  },
-  "stats/effects/fu_weathereffects/metallichydrogengas/metallichydrogengas.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/shared_ngas/shared_.statuseffect.json"
-  },
-  "stats/effects/fu_weathereffects/metallichydrogengas/metallichydrogenliquid.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/shared_ngas/shared_.statuseffect.json"
-  },
   "stats/effects/fu_weathereffects/new/cold/coldweathernew.animation": {
     "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects/fu_weathereffects/new/cold/shared_coldweathernew..json"
   },
   "stats/effects/fu_weathereffects/new/cold/coldweathernew.statuseffect": {
     "/label": "texts/stats/effects/fu_weathereffects/new/cold/shared_coldweathernew..json"
   },
-  "stats/effects/fu_weathereffects/new/cold/ffbiomecold0.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects.json"
-  },
-  "stats/effects/fu_weathereffects/new/cold/ffbiomecold4.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/shared_cold.json"
-  },
   "stats/effects/fu_weathereffects/new/desert/desertweathernew.animation": {
     "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects/fu_weathereffects/new/shared_tweathernew.animation.json"
+  },
+  "stats/effects/fu_weathereffects/new/desert/heatwave2.statuseffect": {
+    "/label": "texts/stats/effects/fu_weathereffects/new/shared_2.statuseffect.json"
   },
   "stats/effects/fu_weathereffects/new/gasworldnew/gasworld1.statuseffect": {
     "/label": "texts/stats/effects/fu_weathereffects/new/gasworldnew/shared_gasworld.json"
   },
-  "stats/effects/fu_weathereffects/new/gasworldnew/gasworld3.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/shared_gasworld.json"
-  },
   "stats/effects/fu_weathereffects/new/gasworldnew/gasworldnew.animation": {
     "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects/fu_weathereffects/new/gasworldnew/shared_gasworld.json"
-  },
-  "stats/effects/fu_weathereffects/new/heat/ffbiomeheat3.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects.json"
   },
   "stats/effects/fu_weathereffects/new/heat/heatweathernew.animation": {
     "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects/fu_weathereffects/new/shared_tweathernew.animation.json"
   },
-  "stats/effects/fu_weathereffects/new/poison/poisonweathernew.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/new/poison/shared_poisonweathernew.json"
-  },
-  "stats/effects/fu_weathereffects/new/poison/poisonweathernewbiome.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/new/poison/shared_poisonweathernew.json"
-  },
-  "stats/effects/fu_weathereffects/poisongas/poisongas.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/shared_ngas/shared_.statuseffect.json"
-  },
-  "stats/effects/fu_weathereffects/weakenworld/weakenweather.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/weakenworld/shared_weakenweather.json"
-  },
-  "stats/effects/fu_weathereffects/weakenworld/weakenweather2.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/weakenworld/shared_weakenweather.json"
+  "stats/effects/fu_weathereffects/new/heat/heatweathernew2.statuseffect": {
+    "/label": "texts/stats/effects/fu_weathereffects/new/shared_2.statuseffect.json"
   },
   "stats/effects/heal/heal_long.statuseffect": {
     "/label": "texts/wide_spread_fields.json"
@@ -23972,9 +23944,6 @@
   "tiles/platforms/redhoneyplatform.material": {
     "/description": "texts/tiles/platforms/shared_honeyplatform.material.json",
     "/shortdescription": "texts/shared_redhoneyplatform.mat.json"
-  },
-  "tiles/platforms/sturdyplatform.material": {
-    "/description": "texts/shared_.mat.json"
   },
   "zb/newSail/data.config": {
     "/GUI/subtitle": "texts/shared_.config.json",
