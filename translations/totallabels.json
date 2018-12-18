@@ -4,36 +4,6 @@
       "missions": {
         "bounty_contract.item.json": 2,
         "glitch_trophy.item.json": 2
-      },
-      "tiles": {
-        "wood": {
-          "dark": {
-            "darkcrosshatch.material.json": 1,
-            "darkornateflooring.material.json": 2,
-            "darkornatetiles.material.json": 1,
-            "darkornatewall.material.json": 2,
-            "darkornatewood.material.json": 2,
-            "darkwoodenwindow1.material.json": 2,
-            "darkwoodenwindow2.material.json": 1
-          },
-          "dynast": {
-            "dynastcrosshatch.material.json": 1,
-            "dynastornateflooring.material.json": 2,
-            "dynastornatetiles.material.json": 1,
-            "dynastornatewall.material.json": 2,
-            "dynastornatewood.material.json": 2,
-            "dynastwoodenwindow1.material.json": 2,
-            "dynastwoodenwindow2.material.json": 1
-          },
-          "light": {
-            "lightcrosshatch.material.json": 1
-          },
-          "shared_fence.material.json": 5,
-          "shared_fullwood1.material.json": 5,
-          "shared_ornateflooring.material.json": 3,
-          "shared_ornatetiles.material.json": 3,
-          "shared_woodenwindow2.material.json": 1
-        }
       }
     },
     "ai": {
@@ -514,6 +484,8 @@
         "nightarhistory2.codex.json": 5,
         "nightarhistory3.codex.json": 3,
         "nightarhistory4.codex.json": 3,
+        "nightarhistory5.codex.json": 3,
+        "nightarhistory6.codex.json": 5,
         "shared_nightarhistory.json": 1
       },
       "precursor": {
@@ -563,6 +535,7 @@
         "wagner4.codex.json": 6,
         "wagner5.codex.json": 9
       },
+      "temple_tenant_codex.codex.json": 3,
       "thelusian": {
         "shared_thelusian.json": 1,
         "thelusian1.codex.json": 2,
@@ -593,7 +566,7 @@
       "fu_isotopes.collection.json": 1,
       "fu_liquid.collection.json": 1,
       "fu_monster.collection.json": 1,
-      "fu_plant.collection.json": 61,
+      "fu_plant.collection.json": 63,
       "fu_shoggothart.collection.json": 1,
       "fu_tech.collection.json": 1,
       "weapons": {
@@ -627,7 +600,7 @@
       "towndrunk.config.json": 89
     },
     "generic.json": 1,
-    "glitchEmotes.json": 213,
+    "glitchEmotes.json": 214,
     "interface": {
       "ai": {
         "ai.config.json": 10,
@@ -1469,6 +1442,7 @@
               "copperquarterstaff.activeitem.json": 1,
               "curvestaff.activeitem.json": 2,
               "cutequarterstaff.activeitem.json": 2,
+              "deadbeatquarterstaff.activeitem.json": 2,
               "densiniumquarterstaff.activeitem.json": 2,
               "diamondquarterstaff.activeitem.json": 2,
               "fucultistquarterstaff.activeitem.json": 2,
@@ -1489,6 +1463,7 @@
               "aetheriumrapier.activeitem.json": 4,
               "ancientrapier.activeitem.json": 2,
               "cuterapier.activeitem.json": 2,
+              "deadbeatrapier.activeitem.json": 2,
               "diamondrapier.activeitem.json": 2,
               "effigiumrapier.activeitem.json": 1,
               "fucommonrapier.activeitem.json": 1,
@@ -1670,7 +1645,9 @@
             }
           },
           "nightar": {
-            "fubrokennightarblade.activeitem.json": 2
+            "brokennightarsaber.activeitem.json": 2,
+            "fubrokennightarblade.activeitem.json": 2,
+            "nightarsaber.activeitem.json": 2
           },
           "novakid": {
             "durasteelassaultrifle2.activeitem.json": 2,
@@ -1945,7 +1922,7 @@
               "ff_icechucker.activeitem.json": 2,
               "flaregun.activeitem.json": 2,
               "freedombird.activeitem.json": 2,
-              "friendmaker.activeitem.json": 2,
+              "friendmaker.activeitem.json": 1,
               "friendmaker2.activeitem.json": 2,
               "fu_liquidguns": {
                 "biooozegun.activeitem.json": 2,
@@ -2099,6 +2076,13 @@
               "randomharpoongun.activeitem.json": 1,
               "randomharpoongun2.activeitem.json": 1,
               "reaperSniper.activeitem.json": 2,
+              "reaperassault.activeitem.json": 2,
+              "reapercarbine.activeitem.json": 2,
+              "reapermachinepistol.activeitem.json": 2,
+              "reaperpistol.activeitem.json": 2,
+              "reaperrailgun.activeitem.json": 2,
+              "reaperrocket.activeitem.json": 1,
+              "reapershotgun.activeitem.json": 2,
               "rimecutter.activeitem.json": 4,
               "science": {
                 "annihilator": {
@@ -2142,7 +2126,7 @@
                   "isn_terawattlaser.activeitem.json": 2
                 }
               },
-              "shared_.activeitem.json": 10,
+              "shared_.activeitem.json": 11,
               "shared_cien.json": 1,
               "shared_friendmaker.json": 1,
               "shared_fuhuntingrifle.json": 1,
@@ -2207,7 +2191,8 @@
               "warden": {
                 "warden.activeitem.json": 2
               },
-              "zenith.activeitem.json": 2
+              "zenith.activeitem.json": 2,
+              "zerchesiumshotgun.activeitem.json": 2
             },
             "unique.json": 1,
             "unrand": {
@@ -2479,6 +2464,11 @@
           "metalhair": {
             "metalhead.head.json": 1
           },
+          "midnightclothes": {
+            "midnight.chest.json": 1,
+            "midnight.legs.json": 1,
+            "shared_midnight..json": 1
+          },
           "shared_.head.json": 3,
           "shared_colourful": {
             "shared_colourful.json": 1
@@ -2541,6 +2531,12 @@
           }
         },
         "nightar": {
+          "daywalker": {
+            "daywalker.chest.json": 1,
+            "daywalker.head.json": 1,
+            "daywalker.legs.json": 1,
+            "shared_daywalker..json": 1
+          },
           "kingslayerhead": {
             "kingslayerhead.head.json": 1
           },
@@ -2567,6 +2563,14 @@
           },
           "shared_king": {
             "shared_king.json": 1
+          },
+          "slayersash": {
+            "shared_slayersash..json": 1,
+            "slayersash.chest.json": 1,
+            "slayersash.legs.json": 1
+          },
+          "warvest": {
+            "warvest.chest.json": 2
           }
         },
         "other": {
@@ -3501,6 +3505,9 @@
           "brainslug": {
             "brainslug.head.json": 1
           },
+          "douchehat": {
+            "douchehat.head.json": 2
+          },
           "duncecap": {
             "duncecap.head.json": 2
           },
@@ -3533,6 +3540,9 @@
           },
           "powerhelm": {
             "powerhelm.head.json": 2
+          },
+          "pumpkinhead": {
+            "pumpkinhead.head.json": 2
           },
           "randolphcarterhat": {
             "randolphcarterhat.head.json": 2
@@ -3829,6 +3839,9 @@
             "biofuelcannister.item.json": 2,
             "biofuelcannisteradv.item.json": 2,
             "biofuelcannistermax.item.json": 2,
+            "cell_mutated.item.json": 2,
+            "cell_spliced.item.json": 2,
+            "cell_viral.item.json": 2,
             "corruptionseed.item.json": 2,
             "ff_fertilizer.item.json": 2,
             "ff_fertilizer2.item.json": 2,
@@ -3965,11 +3978,7 @@
           "pesticide.item.json": 2,
           "phosphorus.item.json": 2,
           "precursor": {
-            "cell_advanced.item.json": 2,
-            "cell_mutated.item.json": 2,
-            "cell_spliced.item.json": 2,
             "exoticmatter.item.json": 2,
-            "experimentalgene.item.json": 2,
             "honedlunari.item.json": 2,
             "precursorbattery.item.json": 2,
             "precursorcharger.item.json": 2,
@@ -3981,7 +3990,8 @@
             "precursorgel.item.json": 2,
             "precursorgrease.item.json": 2,
             "precursorharddrive.item.json": 2,
-            "precursorram.item.json": 2
+            "precursorram.item.json": 2,
+            "unknowngene.item.json": 2
           },
           "protociteore.item.json": 1,
           "pureerchius.item.json": 2,
@@ -4082,15 +4092,26 @@
           "aetherdonut.consumable.json": 2,
           "applehoneystraw.consumable.json": 2,
           "crunchychickpie.consumable.json": 2,
+          "eldercookie.consumable.json": 2,
+          "fleshcookie.consumable.json": 2,
+          "fuapplehoneypie.consumable.json": 1,
+          "fucake.consumable.json": 2,
+          "fucake2.consumable.json": 2,
           "fuchocolatebar.consumable.json": 2,
+          "fuchocolatechipcookie.consumable.json": 2,
           "grapehoneystraw.consumable.json": 2,
           "honeystraw.consumable.json": 2,
+          "icecookie.consumable.json": 2,
+          "magmacookie.consumable.json": 2,
           "neonhoneystraw.consumable.json": 2,
           "orangehoneystraw.consumable.json": 2,
           "peachpie.consumable.json": 1,
           "pearpie.consumable.json": 1,
+          "plutoniumcookie.consumable.json": 2,
           "shared_pie.consumable.json": 1,
-          "tearnutbuttercookie.consumable.json": 2
+          "solariumcookie.consumable.json": 2,
+          "tearnutbuttercookie.consumable.json": 2,
+          "uraniumcookie.consumable.json": 2
         },
         "drinks": {
           "beer": {
@@ -4131,6 +4152,8 @@
             "filteredcoffee.consumable.json": 2,
             "pitchblack.consumable.json": 2
           },
+          "fupinacolada.consumable.json": 2,
+          "greggnog.consumable.json": 2,
           "kahla.consumable.json": 2,
           "kahla2.consumable.json": 2,
           "rums": {
@@ -4255,6 +4278,7 @@
           "fusoggypaper.consumable.json": 2,
           "fusushi.consumable.json": 2,
           "gorgecake.consumable.json": 2,
+          "greghead.consumable.json": 2,
           "grilledsneeze.consumable.json": 2,
           "honeybread.consumable.json": 2,
           "honeynutboltos.consumable.json": 2,
@@ -4370,6 +4394,7 @@
             "fuflamearm2.item.json": 1,
             "fuflamearm3.item.json": 1,
             "fugaussmecha.item.json": 1,
+            "fugrenadearm.item.json": 2,
             "fuheatcannon.item.json": 2,
             "fuhuntergun.item.json": 2,
             "fuhuntergun2.item.json": 2,
@@ -4488,6 +4513,7 @@
           "medkit2.consumable.json": 1,
           "medkit3.consumable.json": 1,
           "medkit4.consumable.json": 1,
+          "perfectelygenericmedkit.consumable.json": 1,
           "shared_ball.consumable.json": 2,
           "slimegoo.item.json": 2
         },
@@ -4764,6 +4790,11 @@
         "moltensand.matitem.json": 2,
         "moltensteel.matitem.json": 2,
         "moltentile.matitem.json": 2,
+        "nightarfloor.matitem.json": 2,
+        "nightarshipblock.matitem.json": 1,
+        "nightarswall1.matitem.json": 2,
+        "nightartechblock.matitem.json": 2,
+        "nightarwall2.matitem.json": 1,
         "oystershellmaterial.matitem.json": 2,
         "peglacialloyplatform.matitem.json": 3,
         "peglacipykreteplatform.matitem.json": 3,
@@ -4800,14 +4831,17 @@
         "shared_coral.matitem.json": 1,
         "shared_crystal.matitem.json": 2,
         "shared_edbonematerial.matitem.json": 2,
+        "shared_fullwood1.matitem.json": 1,
         "shared_fumossyrock.json": 2,
         "shared_honeycombmaterial.matitem.json": 1,
         "shared_irradiatedwall.json": 1,
         "shared_magmawall.json": 1,
         "shared_material.matitem.json": 3,
+        "shared_nightarsupport.json": 1,
         "shared_platform.matitem.json": 1,
         "shared_precursor.json": 1,
         "shared_unrefined.json": 1,
+        "shared_woodenwindow1.matitem.json": 1,
         "shojilattice.matitem.json": 1,
         "shroomblockglow.matitem.json": 1,
         "shroomblockmaterial.matitem.json": 1,
@@ -4943,7 +4977,7 @@
       "wastewater.liquid.json": 1
     },
     "materials": {
-      "shared_.mat.json": 3,
+      "shared_.mat.json": 4,
       "shared_aegisaltcrystal.mat.json": 1,
       "shared_al.mat.json": 1,
       "shared_aliensoil.mat.json": 1,
@@ -4973,16 +5007,20 @@
       "shared_charredbonematerial.mat.json": 1,
       "shared_chromadirt.json": 1,
       "shared_claytile.mat.json": 4,
+      "shared_dark.json": 9,
+      "shared_darkwood.json": 4,
       "shared_deadearth.mat.json": 2,
       "shared_dollhousecrosshatch.mat.json": 1,
       "shared_dollhouseflooring.mat.json": 5,
       "shared_dollhouseroofing.mat.json": 5,
       "shared_dollhousestriped.mat.json": 1,
       "shared_dollhousetiles.mat.json": 4,
-      "shared_dollhousewall.mat.json": 2,
+      "shared_dollhousewall.mat.json": 1,
       "shared_dollhousewindow1.mat.json": 2,
       "shared_dollhousewood.mat.json": 2,
       "shared_dollhousewood2.mat.json": 8,
+      "shared_dynast.json": 9,
+      "shared_dynastwood.json": 4,
       "shared_ebonblock.json": 1,
       "shared_edbonematerial.mat.json": 1,
       "shared_edglass.mat.json": 4,
@@ -5052,6 +5090,8 @@
       "shared_jungledirt.json": 2,
       "shared_junglestone.json": 1,
       "shared_kt_solpanblock.mat.json": 2,
+      "shared_light.json": 8,
+      "shared_lightwood.json": 4,
       "shared_magma.json": 2,
       "shared_marbleblock.mat.json": 2,
       "shared_marblepillarblock.mat.json": 1,
@@ -5059,12 +5099,12 @@
       "shared_material.json": 11,
       "shared_nightar.json": 1,
       "shared_nightarcastleblock.json": 2,
-      "shared_nightarfloor.mat.json": 5,
-      "shared_nightarshipblock.mat.json": 2,
-      "shared_nightarsupport.json": 5,
-      "shared_nightarswall1.mat.json": 5,
-      "shared_nightartechblock.mat.json": 5,
-      "shared_nightarwall2.mat.json": 5,
+      "shared_nightarfloor.mat.json": 3,
+      "shared_nightarshipblock.mat.json": 1,
+      "shared_nightarsupport.json": 4,
+      "shared_nightarswall1.mat.json": 3,
+      "shared_nightartechblock.mat.json": 3,
+      "shared_nightarwall2.mat.json": 4,
       "shared_peglaci.json": 36,
       "shared_pipe.mat.json": 1,
       "shared_precursor.json": 1,
@@ -5077,6 +5117,7 @@
       "shared_rainbowsand.json": 2,
       "shared_raincloud.json": 1,
       "shared_rainforestfloorflowers.mat.json": 2,
+      "shared_raw.json": 3,
       "shared_redhotcobblestone.mat.json": 4,
       "shared_redsand.json": 1,
       "shared_redsand.mat.json": 1,
@@ -5105,11 +5146,14 @@
       "shared_stone.mat.json": 1,
       "shared_swampdirtff.json": 1,
       "shared_tarstone.json": 1,
+      "shared_treated.json": 3,
+      "shared_treatedwood.json": 4,
       "shared_vinewall.mat.json": 1,
       "shared_violiumcrystal.mat.json": 1,
-      "shared_wastestone.mat.json": 2
+      "shared_wastestone.mat.json": 2,
+      "shared_wood.json": 9
     },
-    "materials.json": 3,
+    "materials.json": 30,
     "monsters": {
       "bees": {
         "adaptivebee": {
@@ -6525,6 +6569,7 @@
         "hydroquestgiver.npctype.json": 3
       },
       "mobs": {
+        "fuhobo.npctype.json": 1,
         "shared_.npctype.json": 11
       },
       "oremerchant.npctype.json": 2,
@@ -6568,6 +6613,9 @@
         "sunsetvillager.npctype.json": 15
       },
       "svetlana.npctype.json": 6,
+      "tenant": {
+        "fucultistbuilder.npctype.json": 19
+      },
       "volcanobase": {
         "shared_volcanobase.json": 2,
         "volcanobasebrute.npctype.json": 4,
@@ -7062,6 +7110,54 @@
         "extramissiledoor.object.json": 2,
         "shared_door.object.json": 2
       },
+      "effigium": {
+        "effigiumbed": {
+          "effigiumbed.object.json": 8
+        },
+        "effigiumbookcase.object.json": 4,
+        "effigiumcabinet": {
+          "effigiumcabinet.object.json": 9
+        },
+        "effigiumchair.object.json": 4,
+        "effigiumchandelier": {
+          "effigiumchandelier.object.json": 2
+        },
+        "effigiumchestlarge.object.json": 2,
+        "effigiumchestsmall.object.json": 2,
+        "effigiumcouch": {
+          "effigiumcouch.object.json": 5
+        },
+        "effigiumdesk": {
+          "effigiumdesk.object.json": 4
+        },
+        "effigiumdesklamp": {
+          "effigiumdesklamp.object.json": 2
+        },
+        "effigiumdrawers.object.json": 2,
+        "effigiumdressingtable.object.json": 2,
+        "effigiumendtable.object.json": 5,
+        "effigiumfridge": {
+          "effigiumfridge.object.json": 1
+        },
+        "effigiumminifridge": {
+          "effigiumminifridge.object.json": 1
+        },
+        "effigiummirror.object.json": 9,
+        "effigiumnightstand.object.json": 4,
+        "effigiumstool.object.json": 5,
+        "effigiumtable.object.json": 5,
+        "effigiumwalllamp": {
+          "effigiumwalllamp.object.json": 2
+        },
+        "shared_effigium": {
+          "shared_effigium.json": 2,
+          "shared_fridge.object.json": 6
+        },
+        "shared_effigium.json": 2,
+        "shared_effigiumchest.json": 5,
+        "shared_effigiumdr.json": 4,
+        "shared_table.object.json": 2
+      },
       "elduukhar": {
         "elduuchest1": {
           "elduuchest1.object.json": 2
@@ -7206,7 +7302,7 @@
           "floweryellow.object.json": 4
         },
         "garpberryseed": {
-          "shared_garpberryseed.object.json": 1
+          "shared_garpberryseed.object.json": 2
         },
         "gazelemon": {
           "shared_gazelemonseed.object.json": 1
@@ -7416,7 +7512,7 @@
           "xaxseed.object.json": 2
         },
         "zathiseed": {
-          "zathiseed.object.json": 1
+          "zathiseed.object.json": 2
         }
       },
       "fu_watcher": {
@@ -8190,9 +8286,13 @@
           "shared_atropus.json": 2
         },
         "avian": {
+          "fukluexstatue.object.json": 1,
           "fukluexstatue2.object.json": 1,
+          "fukluexstatue3.object.json": 1,
+          "fukluexstatue4.object.json": 1,
           "fukluexstatue5.object.json": 1,
-          "shared_fukluexstatue.json": 3
+          "fukluexstatue6.object.json": 2,
+          "shared_fukluexstatue.json": 1
         },
         "badlands": {
           "shared_.object.json": 2,
@@ -8773,7 +8873,7 @@
           "nightarbookcase.object.json": 7
         },
         "nightarbox1": {
-          "nightarbox1.object.json": 2
+          "nightarbox1.object.json": 7
         },
         "nightarbox2": {
           "nightarbox2.object.json": 6
@@ -8786,6 +8886,9 @@
         },
         "nightarchair": {
           "nightarchair.object.json": 8
+        },
+        "nightarchandelier": {
+          "nightarchandelier.object.json": 9
         },
         "nightarchest": {
           "nightarchest.object.json": 9
@@ -8800,7 +8903,7 @@
           "nightardresser.object.json": 9
         },
         "nightarfridge": {
-          "nightarfridge.object.json": 1
+          "nightarfridge.object.json": 2
         },
         "nightarlight": {
           "nightarlight.object.json": 8
@@ -8809,7 +8912,7 @@
           "nightarpedestal.object.json": 9
         },
         "nightarpicture": {
-          "nightarpicture.object.json": 2
+          "nightarpicture.object.json": 8
         },
         "nightarsbannersmall": {
           "nightarsbannersmall.object.json": 3
@@ -8824,34 +8927,37 @@
           "nightarshiplight.object.json": 8
         },
         "nightarsink": {
-          "nightarsink.object.json": 2
+          "nightarsink.object.json": 8
+        },
+        "nightarstasispod": {
+          "nightarstasispod.object.json": 9
         },
         "nightarstoragelocker": {
           "nightarstoragelocker.object.json": 3
         },
         "nightarstove": {
-          "nightarstove.object.json": 2
+          "nightarstove.object.json": 8
         },
         "nightartable": {
-          "nightartable.object.json": 2
+          "nightartable.object.json": 8
         },
         "nightartablechair": {
-          "nightartablechair.object.json": 2
+          "nightartablechair.object.json": 9
         },
         "nightarteleporter": {
           "nightarteleporter.object.json": 7
         },
         "nightarthrone": {
-          "nightarthrone.object.json": 3
+          "nightarthrone.object.json": 9
         },
         "nightartinywallswitch": {
           "nightartinywallswitch.object.json": 9
         },
         "nightartoilet": {
-          "nightartoilet.object.json": 3
+          "nightartoilet.object.json": 9
         },
         "ranscastle": {
-          "ranscastle.object.json": 5
+          "ranscastle.object.json": 10
         },
         "shared_nightarbladedisplay": {
           "shared_nightarbladedisplay.json": 9
@@ -9102,11 +9208,11 @@
         "shadowbannerlarge.object.json": 2,
         "shadowbannersmall.object.json": 2,
         "shadowbed": {
-          "shadowbed.object.json": 9
+          "shadowbed.object.json": 8
         },
-        "shadowbookcase.object.json": 9,
+        "shadowbookcase.object.json": 4,
         "shadowcabinet.object.json": 4,
-        "shadowchair.object.json": 9,
+        "shadowchair.object.json": 5,
         "shadowchestlong1.object.json": 2,
         "shadowchestlong2.object.json": 2,
         "shadowcloset.object.json": 4,
@@ -9115,13 +9221,13 @@
           "shadowcouch.object.json": 9
         },
         "shadowcounter.object.json": 9,
-        "shadowdesk.object.json": 9,
+        "shadowdesk.object.json": 4,
         "shadowdisplay.object.json": 6,
         "shadowdrawers.object.json": 8,
         "shadowendtable.object.json": 4,
         "shadowflowerpot.object.json": 6,
         "shadowflowers.object.json": 6,
-        "shadowfridge.object.json": 1,
+        "shadowfridge.object.json": 2,
         "shadowlamp": {
           "shadowlampblue.object.json": 2,
           "shadowlampred.object.json": 2
@@ -9130,7 +9236,7 @@
           "shadowlight.object.json": 2
         },
         "shadowminifridge.object.json": 8,
-        "shadownightstand.object.json": 4,
+        "shadownightstand.object.json": 3,
         "shadowsink.object.json": 9,
         "shadowstool.object.json": 9,
         "shadowstoragelocker": {
@@ -9146,39 +9252,52 @@
         },
         "shadowtable.object.json": 2,
         "shadowtoilet.object.json": 9,
-        "shared_.object.json": 4,
+        "shared_.object.json": 1,
         "shared_shadow": {
-          "shared_.object.json": 6
+          "shared_.object.json": 2
         },
         "shared_shadowbanner.json": 7,
-        "shared_shadowchestlong.json": 7,
+        "shared_shadowchestlong.json": 5,
         "shared_shadowflower.json": 3,
-        "shared_table.object.json": 5,
+        "shared_table.object.json": 3,
         "shipdoor": {
           "tenebrhaeshipdoor.object.json": 2
         }
       },
-      "shared_.object.json": 2,
+      "shared_.object.json": 11,
       "shared_avali.json": 7,
+      "shared_bed": {
+        "shared_bed.object.json": 1
+      },
+      "shared_bookcase.object.json": 5,
       "shared_cabinet.json": 4,
+      "shared_chair.object.json": 1,
+      "shared_desk.json": 5,
       "shared_door": {
         "shared_door.object.json": 1
       },
-      "shared_fridge.json": 8,
+      "shared_fridge.json": 7,
       "shared_generator.json": 1,
       "shared_gravgen": {
         "shared_gravgenfield.statuseffect.json": 1
+      },
+      "shared_ium": {
+        "shared_fridge": {
+          "shared_fridge.object.json": 2
+        }
       },
       "shared_locker": {
         "shared_locker.object.json": 1
       },
       "shared_nest.json": 2,
+      "shared_nightstand.object.json": 1,
       "shared_shiphatch.json": 1,
       "shared_storagelocker": {
         "shared_storagelocker.object.json": 5
       },
       "shared_storagelocker.object.json": 1,
       "shared_table.json": 1,
+      "shared_table.object.json": 2,
       "shared_teleporter": {
         "shared_teleporter.object.json": 1
       },
@@ -9277,6 +9396,9 @@
         },
         "brokenmantizifuelhatch": {
           "shared_brokenmantizifuelhatch.json": 2
+        },
+        "brokennightarfuelhatch": {
+          "brokennightarfuelhatch.object.json": 6
         },
         "elduucaptainschair": {
           "elduucaptainschair.object.json": 1
@@ -10473,7 +10595,7 @@
         },
         "zerchesiumdrawer.object.json": 9,
         "zerchesiumfridge": {
-          "zerchesiumfridge.object.json": 9
+          "zerchesiumfridge.object.json": 7
         },
         "zerchesiumlamplarge.object.json": 1,
         "zerchesiumlampsmall.object.json": 1,
@@ -10489,7 +10611,7 @@
         }
       }
     },
-    "objects.json": 8,
+    "objects.json": 11,
     "particles": {
       "angryrocketreloaded.particle.json": 1,
       "angryrocketreloadedfull.particle.json": 1,
@@ -10989,7 +11111,7 @@
     "shared_cute": {
       "shared_cute.json": 1
     },
-    "shared_ect.json": 175,
+    "shared_ect.json": 173,
     "shared_elderplatform.mat.json": 2,
     "shared_emera.json": 1,
     "shared_ers": {
@@ -10997,6 +11119,7 @@
     },
     "shared_ers.json": 5,
     "shared_fancywoodstairs.mat.json": 1,
+    "shared_fect.json": 1,
     "shared_feya.json": 1,
     "shared_fig.json": 1,
     "shared_fuaetherdustplatform.mat.json": 1,
@@ -11034,7 +11157,6 @@
     "shared_thanatite.json": 1,
     "shared_tion.json": 2,
     "shared_weapon.json": 1,
-    "shared_wood.json": 3,
     "spawners": {
       "sentrybotcapturebot": {
         "sentrybotcapturebot.object.json": 1
@@ -11208,6 +11330,7 @@
             "cultistsetbonuseffect.statuseffect.json": 1,
             "cutesetbonuseffect.statuseffect.json": 1,
             "darkmattersetbonuseffect.statuseffect.json": 1,
+            "daywalkersetbonuseffect.statuseffect.json": 1,
             "decimatorsetbonuseffect.statuseffect.json": 1,
             "deckersetbonuseffect.statuseffect.json": 1,
             "densiniumsetbonuseffect.statuseffect.json": 1,
@@ -11709,7 +11832,6 @@
           }
         },
         "heal": {
-          "heal_long4.statuseffect.json": 1,
           "heal_radien1.statuseffect.json": 1,
           "heal_tier0.statuseffect.json": 1,
           "heal_tier1.statuseffect.json": 1,
@@ -12084,6 +12206,10 @@
         "dollhousestriped.material.json": 1,
         "dollhousewindow2.material.json": 2,
         "dollhousewood2.material.json": 1,
+        "dynastwood": {
+          "fudynastornateflooring.material.json": 1,
+          "fudynastwoodenwindow1.material.json": 1
+        },
         "ebonblock.material.json": 1,
         "elderbaseboard.material.json": 1,
         "elderblock1.material.json": 1,
@@ -12178,6 +12304,9 @@
         "jungledirt1.material.json": 1,
         "jungledirt2.material.json": 1,
         "junglestone.material.json": 1,
+        "lightwood": {
+          "fulightwoodenwindow1.material.json": 1
+        },
         "magmatile": {
           "magmatile3.material.json": 1,
           "magmatile4.material.json": 2,
@@ -12185,6 +12314,12 @@
         },
         "marblepillarblock.material.json": 1,
         "matterblock.material.json": 5,
+        "nightarcastleblock.material.json": 1,
+        "nightarfloor.material.json": 2,
+        "nightarshipblock.material.json": 2,
+        "nightarswall1.material.json": 2,
+        "nightartechblock.material.json": 2,
+        "nightarwall2.material.json": 1,
         "oystershell.material.json": 2,
         "penumbradirt.material.json": 2,
         "penumbrastone.material.json": 2,
@@ -12235,11 +12370,17 @@
         "shared_fudarkness.json": 3,
         "shared_fumossyrock.json": 1,
         "shared_honeycombmaterial.material.json": 1,
+        "shared_nightarsupport.json": 1,
         "shared_precursor.json": 1,
         "shared_retexrock1.json": 3,
         "shared_sand.material.json": 1,
         "shared_sand2.material.json": 1,
         "shared_wall.json": 1,
+        "shared_wood": {
+          "shared_fullwood1.material.json": 1,
+          "shared_ornatewall.material.json": 1,
+          "shared_woodenwindow1.material.json": 1
+        },
         "shroomblockglow.material.json": 1,
         "shroomblockwall.material.json": 1,
         "slime2.material.json": 1,
@@ -12272,6 +12413,9 @@
           "shared_labwallfence.mat.json": 1,
           "shared_steelgirdir2.mat.json": 2,
           "shared_veinblock.mat.json": 2
+        },
+        "treatedwood": {
+          "futreatedcrosshatch.material.json": 1
         },
         "violiumcrystal.material.json": 1,
         "warttile.material.json": 1,
@@ -12328,7 +12472,7 @@
         "sturdyplatform.material.json": 2
       }
     },
-    "wide_spread_fields.json": 166,
+    "wide_spread_fields.json": 152,
     "zb": {
       "newSail": {
         "data.config.json": 6,
