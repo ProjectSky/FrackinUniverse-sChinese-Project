@@ -4615,6 +4615,14 @@
   "items/generic/desserts/fuapplehoneypie.consumable": {
     "/description": "texts/items/generic/desserts/shared_pie.consumable.json"
   },
+  "items/generic/desserts/fuchocolatechipcookie.consumable": {
+    "/description": "texts/items/generic/desserts/shared_fuchocolatechipcookie.json",
+    "/shortdescription": "texts/items/generic/desserts/shared_fuchocolatechipcookie.json"
+  },
+  "items/generic/desserts/fuchocolatechipcookie2.consumable": {
+    "/description": "texts/items/generic/desserts/shared_fuchocolatechipcookie.json",
+    "/shortdescription": "texts/items/generic/desserts/shared_fuchocolatechipcookie.json"
+  },
   "items/generic/desserts/peachpie.consumable": {
     "/description": "texts/items/generic/desserts/shared_pie.consumable.json"
   },
@@ -6425,6 +6433,10 @@
   },
   "items/materials/tarstonematerial.matitem": {
     "/shortdescription": "texts/materials/shared_tarstone.json"
+  },
+  "items/materials/toiletpaperroll.matitem": {
+    "/description": "texts/materials/shared_toiletpaperroll.mat.json",
+    "/shortdescription": "texts/materials/shared_toiletpaperroll.mat.json"
   },
   "items/materials/unrefinedandesite.matitem": {
     "/florandescription": "texts/items/materials/shared_unrefined.json",
@@ -13089,6 +13101,7 @@
     "/hylotlDescription": "texts/objects/shared_bookcase.object.json"
   },
   "objects/effigium/effigiumcabinet/effigiumcabinet.object": {
+    "/floranDescription": "texts/objects/shared_cabinet/shared_cabinet.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/effigium/effigiumcabinet/effigiumcabinet.object.json"
   },
@@ -13138,6 +13151,7 @@
     "/novakidDescription": "texts/objects.json"
   },
   "objects/effigium/effigiumdesk/effigiumdesk.object": {
+    "/apexDescription": "texts/objects/shared_desk/shared_desk.object.json",
     "/floranDescription": "texts/objects/shared_desk.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/shared_desk.json",
@@ -13156,9 +13170,9 @@
     "/novakidDescription": "texts/objects/shared_.object.json"
   },
   "objects/effigium/effigiumdrawers.object": {
-    "/apexDescription": "texts/objects/effigium/shared_effigiumdr.json",
+    "/apexDescription": "texts/objects/shared_.object.json",
     "/avianDescription": "texts/objects/shared_.object.json",
-    "/floranDescription": "texts/objects/effigium/shared_effigiumdr.json",
+    "/floranDescription": "texts/objects/shared_.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/effigium/shared_effigiumdr.json",
     "/humanDescription": "texts/objects/shared_.object.json",
@@ -13166,9 +13180,9 @@
     "/novakidDescription": "texts/objects/effigium/shared_effigium.json"
   },
   "objects/effigium/effigiumdressingtable.object": {
-    "/apexDescription": "texts/objects/effigium/shared_effigiumdr.json",
+    "/apexDescription": "texts/objects/shared_.object.json",
     "/avianDescription": "texts/objects/shared_.object.json",
-    "/floranDescription": "texts/objects/effigium/shared_effigiumdr.json",
+    "/floranDescription": "texts/objects/shared_.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/effigium/shared_effigiumdr.json",
     "/humanDescription": "texts/objects/shared_.object.json",
@@ -17468,10 +17482,6 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/nightar/nightartoilet/nightartoilet.object.json"
   },
-  "objects/nightar/ranscastle/ranscastle.object": {
-    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/nightar/ranscastle/ranscastle.object.json"
-  },
   "objects/outpost/bar/fubar1.object": {
     "/description": "texts/objects/outpost/bar/shared_.object.json",
     "/shortdescription": "texts/objects/shared_.object.json"
@@ -17700,6 +17710,152 @@
   },
   "objects/power/quantumextractor/quantumextractor.object": {
     "/subtitle": "texts/objects.json"
+  },
+  "objects/pyreite/pyreitebed/pyreitebed.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/pyreite/pyreitebed/pyreitebed.object.json"
+  },
+  "objects/pyreite/pyreitebookcase.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/pyreite/pyreitebookcase.object.json"
+  },
+  "objects/pyreite/pyreitecabinet/pyreitecabinet.object": {
+    "/floranDescription": "texts/objects/shared_cabinet/shared_cabinet.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/pyreite/pyreitecabinet/pyreitecabinet.object.json"
+  },
+  "objects/pyreite/pyreiteceilinglamp/pyreiteceilinglamp.object": {
+    "/apexDescription": "texts/objects/shared_.object.json",
+    "/avianDescription": "texts/objects/pyreite/shared_pyreite/shared_lamp.object.json",
+    "/floranDescription": "texts/objects/pyreite/shared_pyreite/shared_lamp.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/pyreite/shared_pyreite/shared_lamp.object.json",
+    "/humanDescription": "texts/objects/pyreite/shared_pyreite/shared_lamp.object.json",
+    "/hylotlDescription": "texts/objects/pyreite/shared_pyreite/shared_lamp.object.json",
+    "/novakidDescription": "texts/objects/pyreite/shared_pyreite/shared_lamp.object.json"
+  },
+  "objects/pyreite/pyreitechair.object": {
+    "/floranDescription": "texts/objects/pyreite/shared_pyreite.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/pyreite/shared_pyreite.json",
+    "/humanDescription": "texts/objects/pyreite/shared_pyreite.json",
+    "/novakidDescription": "texts/objects/pyreite/shared_pyreite.json"
+  },
+  "objects/pyreite/pyreitechestlarge.object": {
+    "/apexDescription": "texts/objects/pyreite/shared_pyreitechest.json",
+    "/avianDescription": "texts/objects/pyreite/shared_pyreitechest.json",
+    "/floranDescription": "texts/objects/shared_.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/pyreite/shared_pyreitechest.json",
+    "/humanDescription": "texts/objects/pyreite/shared_pyreitechest.json",
+    "/hylotlDescription": "texts/objects/pyreite/shared_pyreitechest.json",
+    "/novakidDescription": "texts/objects/pyreite/shared_pyreitechest.json"
+  },
+  "objects/pyreite/pyreitechestsmall.object": {
+    "/apexDescription": "texts/objects/pyreite/shared_pyreitechest.json",
+    "/avianDescription": "texts/objects/pyreite/shared_pyreitechest.json",
+    "/floranDescription": "texts/objects/shared_.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/pyreite/shared_pyreitechest.json",
+    "/humanDescription": "texts/objects/pyreite/shared_pyreitechest.json",
+    "/hylotlDescription": "texts/objects/pyreite/shared_pyreitechest.json",
+    "/novakidDescription": "texts/objects/pyreite/shared_pyreitechest.json"
+  },
+  "objects/pyreite/pyreitecouch/pyreitecouch.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/pyreite/pyreitecouch/pyreitecouch.object.json",
+    "/humanDescription": "texts/objects/pyreite/shared_pyreite.json"
+  },
+  "objects/pyreite/pyreitedesk/pyreitedesk.object": {
+    "/apexDescription": "texts/objects/shared_desk/shared_desk.object.json",
+    "/floranDescription": "texts/objects/shared_desk.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/pyreite/pyreitedesk/pyreitedesk.object.json",
+    "/hylotlDescription": "texts/objects/shared_desk.json",
+    "/novakidDescription": "texts/objects/shared_desk.json"
+  },
+  "objects/pyreite/pyreitedesklamp/pyreitedesklamp.object": {
+    "/apexDescription": "texts/objects/shared_.object.json",
+    "/avianDescription": "texts/objects/pyreite/shared_pyreite/shared_lamp.object.json",
+    "/floranDescription": "texts/objects/pyreite/shared_pyreite/shared_lamp.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/pyreite/shared_pyreite/shared_lamp.object.json",
+    "/humanDescription": "texts/objects/pyreite/shared_pyreite/shared_lamp.object.json",
+    "/hylotlDescription": "texts/objects/pyreite/shared_pyreite/shared_lamp.object.json",
+    "/novakidDescription": "texts/objects/pyreite/shared_pyreite/shared_lamp.object.json"
+  },
+  "objects/pyreite/pyreitedrawers.object": {
+    "/apexDescription": "texts/objects/shared_.object.json",
+    "/avianDescription": "texts/objects/shared_.object.json",
+    "/floranDescription": "texts/objects/shared_.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/pyreite/shared_pyreite.json",
+    "/humanDescription": "texts/objects/shared_.object.json",
+    "/hylotlDescription": "texts/objects/pyreite/shared_pyreite.json",
+    "/novakidDescription": "texts/objects/pyreite/shared_pyreite.json"
+  },
+  "objects/pyreite/pyreiteendtable.object": {
+    "/floranDescription": "texts/objects/pyreite/shared_table.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/pyreite/shared_table.object.json",
+    "/humanDescription": "texts/objects/pyreite/shared_table.object.json",
+    "/hylotlDescription": "texts/objects/pyreite/shared_table.object.json"
+  },
+  "objects/pyreite/pyreitefridge/pyreitefridge.object": {
+    "/apexDescription": "texts/objects/pyreite/shared_pyreite/shared_fridge.object.json",
+    "/avianDescription": "texts/objects/pyreite/shared_pyreite/shared_fridge.object.json",
+    "/description": "texts/objects/pyreite/shared_pyreite/shared_fridge.object.json",
+    "/floranDescription": "texts/objects/pyreite/shared_pyreite/shared_fridge.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/pyreite/shared_pyreite/shared_fridge.object.json",
+    "/humanDescription": "texts/objects/pyreite/shared_pyreite/shared_fridge.object.json",
+    "/hylotlDescription": "texts/objects/pyreite/shared_pyreite/shared_fridge.object.json",
+    "/novakidDescription": "texts/objects/pyreite/shared_pyreite/shared_fridge.object.json"
+  },
+  "objects/pyreite/pyreiteminifridge/pyreiteminifridge.object": {
+    "/apexDescription": "texts/objects/pyreite/shared_pyreite/shared_fridge.object.json",
+    "/avianDescription": "texts/objects/pyreite/shared_pyreite/shared_fridge.object.json",
+    "/description": "texts/objects/pyreite/shared_pyreite/shared_fridge.object.json",
+    "/floranDescription": "texts/objects/pyreite/shared_pyreite/shared_fridge.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/pyreite/shared_pyreite/shared_fridge.object.json",
+    "/humanDescription": "texts/objects/pyreite/shared_pyreite/shared_fridge.object.json",
+    "/hylotlDescription": "texts/objects/pyreite/shared_pyreite/shared_fridge.object.json",
+    "/novakidDescription": "texts/objects/pyreite/shared_pyreite/shared_fridge.object.json"
+  },
+  "objects/pyreite/pyreitenightstand.object": {
+    "/apexDescription": "texts/objects/shared_.object.json",
+    "/avianDescription": "texts/objects/shared_.object.json",
+    "/floranDescription": "texts/objects/shared_.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/pyreite/shared_pyreite.json",
+    "/humanDescription": "texts/objects/shared_.object.json",
+    "/hylotlDescription": "texts/objects/pyreite/shared_pyreite.json",
+    "/novakidDescription": "texts/objects/pyreite/shared_pyreite.json"
+  },
+  "objects/pyreite/pyreitestool.object": {
+    "/floranDescription": "texts/objects/pyreite/shared_pyreite.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/pyreite/shared_pyreite.json",
+    "/humanDescription": "texts/objects/pyreite/shared_pyreite.json",
+    "/novakidDescription": "texts/objects/pyreite/shared_pyreite.json"
+  },
+  "objects/pyreite/pyreitetable.object": {
+    "/floranDescription": "texts/objects/pyreite/shared_table.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/pyreite/shared_table.object.json",
+    "/humanDescription": "texts/objects/pyreite/shared_table.object.json",
+    "/hylotlDescription": "texts/objects/pyreite/shared_table.object.json"
+  },
+  "objects/pyreite/pyreitewalllamp/pyreitewalllamp.object": {
+    "/apexDescription": "texts/objects/shared_.object.json",
+    "/avianDescription": "texts/objects/pyreite/shared_pyreite/shared_lamp.object.json",
+    "/floranDescription": "texts/objects/pyreite/shared_pyreite/shared_lamp.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/pyreite/shared_pyreite/shared_lamp.object.json",
+    "/humanDescription": "texts/objects/pyreite/shared_pyreite/shared_lamp.object.json",
+    "/hylotlDescription": "texts/objects/pyreite/shared_pyreite/shared_lamp.object.json",
+    "/novakidDescription": "texts/objects/pyreite/shared_pyreite/shared_lamp.object.json"
   },
   "objects/questmaps/alienjunglemap.object": {
     "/apexDescription": "texts/objects/questmaps/shared_map.object.json",
@@ -24392,6 +24548,10 @@
   "tiles/materials/titaniumwallblock.material": {
     "/description": "texts/tiles/materials/shared_block.material.json",
     "/shortdescription": "texts/materials/shared_material.json"
+  },
+  "tiles/materials/toiletpaperroll.material": {
+    "/description": "texts/materials/shared_toiletpaperroll.mat.json",
+    "/shortdescription": "texts/materials/shared_toiletpaperroll.mat.json"
   },
   "tiles/materials/treatedwood/futreatedcrosshatch.material": {
     "/floranDescription": "texts/materials.json",
