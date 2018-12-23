@@ -339,7 +339,8 @@
         "elderstaff3book.codex.json": 3,
         "elderwhipbook.codex.json": 3,
         "shared_blackbook.json": 1,
-        "shared_book.codex.json": 2
+        "shared_book.codex.json": 2,
+        "thesubstance.codex.json": 7
       },
       "elduukhar": {
         "elduukhar1.codex.json": 3,
@@ -523,6 +524,8 @@
       "shadow": {
         "shadow1.codex.json": 2,
         "shadow2.codex.json": 2,
+        "shadow3.codex.json": 5,
+        "shadow4.codex.json": 5,
         "shared_shadow.json": 1
       },
       "shared_.codex.json": 1,
@@ -534,6 +537,11 @@
         "wagner3.codex.json": 13,
         "wagner4.codex.json": 6,
         "wagner5.codex.json": 9
+      },
+      "slimeperson": {
+        "slime1.codex.json": 6,
+        "slime2.codex.json": 6,
+        "slimepersondiary.codex.json": 3
       },
       "temple_tenant_codex.codex.json": 3,
       "thelusian": {
@@ -600,7 +608,7 @@
       "towndrunk.config.json": 89
     },
     "generic.json": 1,
-    "glitchEmotes.json": 214,
+    "glitchEmotes.json": 218,
     "interface": {
       "ai": {
         "ai.config.json": 10,
@@ -730,6 +738,7 @@
         "boozekit.config.json": 2,
         "craftingcrewshop.config.json": 3,
         "craftingmech.config.json": 2,
+        "craftingslimecentrifuge.config.json": 2,
         "distill.config.json": 3,
         "ferment.config.json": 3,
         "fissionfurnace.config.json": 3,
@@ -1774,7 +1783,29 @@
               "skittlegunfake.activeitem.json": 1
             },
             "tentaclegun": {
-              "shared_shadowtentaclegun.json": 3
+              "electricslimetendrils.activeitem.json": 1,
+              "electricslimetendrils2.activeitem.json": 1,
+              "electricslimetendrils3.activeitem.json": 2,
+              "fireslimetendrils.activeitem.json": 1,
+              "fireslimetendrils2.activeitem.json": 1,
+              "fireslimetendrils3.activeitem.json": 2,
+              "guslimetendrils.activeitem.json": 3,
+              "iceslimetendrils.activeitem.json": 1,
+              "iceslimetendrils2.activeitem.json": 1,
+              "iceslimetendrils3.activeitem.json": 2,
+              "impactslimetendrils.activeitem.json": 1,
+              "impactslimetendrils2.activeitem.json": 1,
+              "impactslimetendrils3.activeitem.json": 2,
+              "poisonslimetendrils.activeitem.json": 1,
+              "poisonslimetendrils2.activeitem.json": 1,
+              "poisonslimetendrils3.activeitem.json": 2,
+              "shared_impactslimetendrils.json": 1,
+              "shared_shadowtentaclegun.json": 3,
+              "shared_slimetendrils.json": 1,
+              "slimetendrils.activeitem.json": 1,
+              "slimetendrils2.activeitem.json": 1,
+              "slimetendrils3.activeitem.json": 2,
+              "xelslimetendrils.activeitem.json": 3
             }
           },
           "protectorate": {
@@ -2303,8 +2334,33 @@
             "corewhip.activeitem.json": 2,
             "cutewhip.activeitem.json": 2,
             "elderwhip.activeitem.json": 2,
+            "electricslimeconcwhip.activeitem.json": 2,
+            "electricslimewhip.activeitem.json": 1,
+            "electricslimewhip2.activeitem.json": 1,
+            "electricslimewhip3.activeitem.json": 1,
+            "fireslimeconcwhip.activeitem.json": 2,
+            "fireslimewhip.activeitem.json": 1,
+            "fireslimewhip2.activeitem.json": 1,
+            "fireslimewhip3.activeitem.json": 1,
             "gorgolithtail.activeitem.json": 2,
-            "lasherwhip.activeitem.json": 2
+            "iceslimeconcwhip.activeitem.json": 2,
+            "iceslimewhip.activeitem.json": 1,
+            "iceslimewhip2.activeitem.json": 1,
+            "iceslimewhip3.activeitem.json": 1,
+            "lasherwhip.activeitem.json": 2,
+            "poisonslimeconcwhip.activeitem.json": 2,
+            "poisonslimewhip.activeitem.json": 1,
+            "poisonslimewhip2.activeitem.json": 1,
+            "poisonslimewhip3.activeitem.json": 1,
+            "shared_.activeitem.json": 1,
+            "shared_electricslimewhip.json": 1,
+            "shared_fireslimewhip.json": 1,
+            "shared_iceslimewhip.json": 1,
+            "shared_poisonslimewhip.json": 1,
+            "slimeconcwhip.activeitem.json": 2,
+            "slimewhip.activeitem.json": 1,
+            "slimewhip2.activeitem.json": 1,
+            "slimewhip3.activeitem.json": 1
           }
         },
         "weapons.json": 3
@@ -2427,6 +2483,15 @@
           "shadowbonecape": {
             "shadowbonecape.back.json": 2
           },
+          "slimebiolumepp": {
+            "slimebiolumepp.back.json": 2
+          },
+          "slimebioluminescence": {
+            "slimebioluminescence.back.json": 2
+          },
+          "slimeinvisibleback": {
+            "invisible.back.json": 1
+          },
           "tribalfeathers": {
             "tribalfeathers.back.json": 2
           },
@@ -2524,9 +2589,7 @@
         },
         "elduukhar": {
           "invis": {
-            "inviselduu.chest.json": 1,
             "inviselduu.head.json": 1,
-            "inviselduu.legs.json": 1,
             "shared_inviselduu..json": 1
           }
         },
@@ -2595,10 +2658,37 @@
           "shared_fuinferno.json": 3
         },
         "shared_fuoperative.json": 2,
+        "shared_invis": {
+          "shared_.chest.json": 1,
+          "shared_invis.json": 1
+        },
+        "shared_invisible": {
+          "shared_invisible..json": 1
+        },
         "shared_sciencefu.json": 3,
+        "shared_slimenoble": {
+          "shared_slimenoble.json": 2
+        },
         "shared_tier": {
           "shared_tw_space": {
             "shared_tw_space.json": 1
+          }
+        },
+        "slimeperson": {
+          "slimeperson-invisible": {
+            "invisible.head.json": 1
+          },
+          "slimeperson-tier1": {
+            "shared_slimepersontier1..json": 1,
+            "slimepersontier1.chest.json": 1,
+            "slimepersontier1.head.json": 1,
+            "slimepersontier1.legs.json": 1
+          },
+          "slimeperson-tier2": {
+            "shared_slimepersontier2..json": 1,
+            "slimepersontier2.chest.json": 1,
+            "slimepersontier2.head.json": 1,
+            "slimepersontier2.legs.json": 1
           }
         },
         "thelusian": {
@@ -4515,7 +4605,10 @@
           "medkit4.consumable.json": 1,
           "perfectelygenericmedkit.consumable.json": 1,
           "shared_ball.consumable.json": 2,
-          "slimegoo.item.json": 2
+          "slimegem.item.json": 2,
+          "slimegoo.item.json": 2,
+          "slimespheretechidea.item.json": 2,
+          "slimewalljumptechidea.item.json": 2
         },
         "petfood": {
           "petfood1.consumable.json": 1,
@@ -4772,6 +4865,7 @@
         "glasssandmaterial.matitem.json": 1,
         "glowsandmaterial.matitem.json": 1,
         "greyslate.matitem.json": 1,
+        "hardslimeblock.matitem.json": 3,
         "harrowstone.matitem.json": 1,
         "hivebeestonematerial.matitem.json": 1,
         "hiveold.matitem.json": 1,
@@ -4827,7 +4921,7 @@
         "richlattice.matitem.json": 1,
         "richplatform.matitem.json": 4,
         "rottingfleshmaterial.matitem.json": 1,
-        "shared_.matitem.json": 1,
+        "shared_.matitem.json": 2,
         "shared_coral.matitem.json": 1,
         "shared_crystal.matitem.json": 2,
         "shared_edbonematerial.matitem.json": 2,
@@ -4845,7 +4939,7 @@
         "shojilattice.matitem.json": 1,
         "shroomblockglow.matitem.json": 1,
         "shroomblockmaterial.matitem.json": 1,
-        "slime2material.matitem.json": 1,
+        "slimeshipsupport.matitem.json": 3,
         "speedblockmaterial.matitem.json": 1,
         "springvines.matitem.json": 2,
         "steelmetal.matitem.json": 1,
@@ -5096,7 +5190,7 @@
       "shared_marbleblock.mat.json": 2,
       "shared_marblepillarblock.mat.json": 1,
       "shared_marestone.json": 2,
-      "shared_material.json": 11,
+      "shared_material.json": 12,
       "shared_nightar.json": 1,
       "shared_nightarcastleblock.json": 2,
       "shared_nightarfloor.mat.json": 3,
@@ -5138,11 +5232,13 @@
       "shared_sandpillar.json": 2,
       "shared_sandstone.json": 3,
       "shared_shroomblock.json": 1,
+      "shared_slime.json": 1,
       "shared_slimedirt.json": 2,
       "shared_slopedglowglass.mat.json": 1,
       "shared_slopedtintedglowglass.mat.json": 1,
       "shared_speedblock.json": 1,
       "shared_steelhive.json": 2,
+      "shared_stickyslime.mat.json": 4,
       "shared_stone.mat.json": 1,
       "shared_swampdirtff.json": 1,
       "shared_tarstone.json": 1,
@@ -6908,6 +7004,19 @@
             "shared_heckpillar.json": 7
           }
         },
+        "slime": {
+          "shared_ceilingslime": {
+            "shared_ceilingslime.json": 8
+          }
+        },
+        "slimecave": {
+          "shared_slimeblob": {
+            "shared_slimeblob.json": 8
+          },
+          "slimeblob1": {
+            "slimeblob1a.object.json": 1
+          }
+        },
         "smashablerocks": {
           "carbonrock": {
             "carbonrock.object.json": 1
@@ -6981,7 +7090,7 @@
           "extractionlabadv.object.json": 2
         },
         "extraweaponupgradeanvil": {
-          "extraweaponupgradeanvil.object.json": 9
+          "extraweaponupgradeanvil.object.json": 8
         },
         "farmwell": {
           "farmwell.object.json": 2
@@ -7058,6 +7167,12 @@
           "servitorloader.object.json": 2
         },
         "shared_.object.json": 1,
+        "slimecookingtable": {
+          "slimecookingtable.object.json": 13
+        },
+        "slimefire": {
+          "slimefire.object.json": 12
+        },
         "sproutingtable": {
           "sproutingtable.config.json": 2,
           "sproutingtable.object.json": 8
@@ -7077,6 +7192,11 @@
           },
           "rainbarrel": {
             "rainbarrel.object.json": 3
+          }
+        },
+        "upgradeablecraftingobject": {
+          "slimecentrifuge": {
+            "slimecentrifuge.object.json": 32
           }
         },
         "wiringstation": {
@@ -7679,6 +7799,9 @@
         "flagshadow": {
           "flagshadow.object.json": 9
         },
+        "flagslimeperson": {
+          "flagslimeperson.object.json": 10
+        },
         "flagthelusian": {
           "flagthelusian.object.json": 2
         },
@@ -7944,6 +8067,52 @@
         "waterwalkplatform": {
           "shared_waterwalkplatform.json": 2
         }
+      },
+      "isogen": {
+        "isogenbed": {
+          "isogenbed.object.json": 9
+        },
+        "isogenbookcase.object.json": 8,
+        "isogencabinet": {
+          "isogencabinet.object.json": 6
+        },
+        "isogenceilinglamp": {
+          "isogenceilinglamp.object.json": 2
+        },
+        "isogenchair.object.json": 4,
+        "isogenchestlarge.object.json": 2,
+        "isogenchestsmall.object.json": 2,
+        "isogencouch": {
+          "isogencouch.object.json": 6
+        },
+        "isogendesk": {
+          "isogendesk.object.json": 5
+        },
+        "isogendesklamp": {
+          "isogendesklamp.object.json": 2
+        },
+        "isogendrawers.object.json": 2,
+        "isogenendtable.object.json": 6,
+        "isogenfridge": {
+          "isogenfridge.object.json": 1
+        },
+        "isogenminifridge": {
+          "isogenminifridge.object.json": 1
+        },
+        "isogennightstand.object.json": 2,
+        "isogenstool.object.json": 4,
+        "isogentable.object.json": 6,
+        "isogenwalllamp": {
+          "isogenwalllamp.object.json": 2
+        },
+        "shared_.object.json": 5,
+        "shared_isogen": {
+          "shared_fridge.object.json": 7,
+          "shared_lamp.object.json": 7
+        },
+        "shared_isogen.json": 1,
+        "shared_isogenchest.json": 5,
+        "shared_table.object.json": 3
       },
       "kheAA": {
         "kheAA_autoBeamer": {
@@ -8532,10 +8701,10 @@
             "hivebush.bush.json": 1
           },
           "shared_ceilinghive": {
-            "shared_ceilinghive.json": 2
+            "shared_ceilinghive.json": 1
           },
           "shared_hiveblob": {
-            "shared_hiveblob.json": 2
+            "shared_hiveblob.json": 1
           }
         },
         "icestalk": {
@@ -8707,7 +8876,7 @@
             "precursorrailing.object.json": 2
           },
           "precursorscanner": {
-            "precursorscanner.object.json": 9
+            "precursorscanner.object.json": 2
           },
           "precursorshelf": {
             "precursorshelf.object.json": 2
@@ -8925,7 +9094,7 @@
           "nightarshelf.object.json": 2
         },
         "nightarshiplight": {
-          "nightarshiplight.object.json": 8
+          "nightarshiplight.object.json": 3
         },
         "nightarsink": {
           "nightarsink.object.json": 8
@@ -8946,7 +9115,7 @@
           "nightartablechair.object.json": 9
         },
         "nightarteleporter": {
-          "nightarteleporter.object.json": 7
+          "nightarteleporter.object.json": 5
         },
         "nightarthrone": {
           "nightarthrone.object.json": 9
@@ -9018,7 +9187,7 @@
         "okeaclock2.object.json": 3,
         "shared_bath.object.json": 1,
         "shared_bed.object.json": 7,
-        "shared_fuokeahitech.json": 2,
+        "shared_fuokeahitech.json": 1,
         "shared_fuokeahitechforcedoor.json": 3,
         "shared_fuokeahitechlamp.json": 1,
         "shared_fuokeamagmadoor.json": 2,
@@ -9160,18 +9329,18 @@
         "pyreitebed": {
           "pyreitebed.object.json": 9
         },
-        "pyreitebookcase.object.json": 9,
+        "pyreitebookcase.object.json": 8,
         "pyreitecabinet": {
-          "pyreitecabinet.object.json": 8
+          "pyreitecabinet.object.json": 6
         },
         "pyreiteceilinglamp": {
           "pyreiteceilinglamp.object.json": 2
         },
-        "pyreitechair.object.json": 5,
+        "pyreitechair.object.json": 4,
         "pyreitechestlarge.object.json": 2,
         "pyreitechestsmall.object.json": 2,
         "pyreitecouch": {
-          "pyreitecouch.object.json": 8
+          "pyreitecouch.object.json": 6
         },
         "pyreitedesk": {
           "pyreitedesk.object.json": 5
@@ -9188,7 +9357,7 @@
           "pyreiteminifridge.object.json": 1
         },
         "pyreitenightstand.object.json": 2,
-        "pyreitestool.object.json": 5,
+        "pyreitestool.object.json": 4,
         "pyreitetable.object.json": 5,
         "pyreitewalllamp": {
           "pyreitewalllamp.object.json": 2
@@ -9197,8 +9366,8 @@
           "shared_fridge.object.json": 8,
           "shared_lamp.object.json": 6
         },
-        "shared_pyreite.json": 7,
-        "shared_pyreitechest.json": 6,
+        "shared_pyreite.json": 6,
+        "shared_pyreitechest.json": 5,
         "shared_table.object.json": 4
       },
       "questmaps": {
@@ -9310,23 +9479,37 @@
           "tenebrhaeshipdoor.object.json": 2
         }
       },
-      "shared_.object.json": 13,
+      "shared_.object.json": 16,
       "shared_avali.json": 7,
       "shared_bed": {
         "shared_bed.object.json": 1
       },
-      "shared_bookcase.object.json": 5,
+      "shared_biome": {
+        "shared_ceiling": {
+          "shared_ceiling.json": 1
+        },
+        "shared_eblob": {
+          "shared_.object.json": 1
+        }
+      },
+      "shared_bookcase.object.json": 6,
       "shared_cabinet": {
-        "shared_cabinet.object.json": 1
+        "shared_cabinet.object.json": 3
       },
       "shared_cabinet.json": 4,
-      "shared_chair.object.json": 1,
+      "shared_chair.object.json": 2,
+      "shared_couch": {
+        "shared_couch.object.json": 2
+      },
       "shared_desk": {
         "shared_desk.object.json": 1
       },
       "shared_desk.json": 5,
       "shared_door": {
-        "shared_door.object.json": 1
+        "shared_door.object.json": 2
+      },
+      "shared_fridge": {
+        "shared_fridge.object.json": 1
       },
       "shared_fridge.json": 7,
       "shared_generator.json": 1,
@@ -9335,7 +9518,7 @@
       },
       "shared_ium": {
         "shared_fridge": {
-          "shared_fridge.object.json": 2
+          "shared_fridge.object.json": 1
         }
       },
       "shared_locker": {
@@ -9343,7 +9526,17 @@
       },
       "shared_nest.json": 2,
       "shared_nightstand.object.json": 1,
+      "shared_scanner.json": 7,
       "shared_shiphatch.json": 1,
+      "shared_shiplight": {
+        "shared_shiplight.object.json": 5
+      },
+      "shared_slimenpc": {
+        "shared_slimenpc": {
+          "shared_table.object.json": 1
+        }
+      },
+      "shared_stool.object.json": 1,
       "shared_storagelocker": {
         "shared_storagelocker.object.json": 5
       },
@@ -9351,7 +9544,7 @@
       "shared_table.json": 1,
       "shared_table.object.json": 2,
       "shared_teleporter": {
-        "shared_teleporter.object.json": 1
+        "shared_teleporter.object.json": 3
       },
       "shared_teleporter.json": 1,
       "shared_temp": {
@@ -9440,9 +9633,6 @@
             "SIV_shipAvianSlopeEdge.object.json": 2
           }
         },
-        "boosterflamekirhos": {
-          "boosterflamekirhos.object.json": 1
-        },
         "boosterflamemantizi": {
           "boosterflamemantizi.object.json": 1
         },
@@ -9451,6 +9641,9 @@
         },
         "brokennightarfuelhatch": {
           "brokennightarfuelhatch.object.json": 6
+        },
+        "brokenslimepersonfuelhatch": {
+          "brokenslimepersonfuelhatch.object.json": 1
         },
         "elduucaptainschair": {
           "elduucaptainschair.object.json": 1
@@ -9541,9 +9734,6 @@
         },
         "fu_scienceshiplocker": {
           "fu_scienceshiplocker.object.json": 1
-        },
-        "fu_scienceshiplockerTier0": {
-          "fu_scienceshiplockerTier0.object.json": 2
         },
         "fu_shipengine": {
           "fu_shipengine.object.json": 2
@@ -9723,7 +9913,7 @@
         },
         "mantizishipdoor": {
           "mantizishipdoor.object.json": 1,
-          "mantizishiphatch.object.json": 3
+          "mantizishiphatch.object.json": 2
         },
         "mantizishipdoorbroken": {
           "mantizishipdoorbroken.object.json": 1
@@ -9753,7 +9943,7 @@
           "nightarfuelhatch.object.json": 2
         },
         "nightarshipdoor": {
-          "nightarshipdoor.object.json": 2,
+          "nightarshipdoor.object.json": 1,
           "nightarshiphatch.object.json": 1
         },
         "nightarshiplocker": {
@@ -9815,14 +10005,16 @@
         "shadowtechstation": {
           "shadowtechstation.object.json": 14
         },
-        "shared_boosterflame": {
-          "shared_boosterflame.json": 1
+        "shared_booster": {
+          "shared_booster.json": 2
         },
         "shared_boosterflamemantizi": {
           "shared_boosterflamemantizi.object.json": 1
         },
+        "shared_captain": {
+          "shared_captain.json": 8
+        },
         "shared_captainschair": {
-          "shared_captainschair.json": 8,
           "shared_captainschair.object.json": 7
         },
         "shared_elduukharshipdoor": {
@@ -9881,20 +10073,26 @@
         "shared_shipdoor": {
           "shared_shipdoor.json": 9,
           "shared_shipdoor.object.json": 10,
-          "shared_shiphatch.object.json": 6
+          "shared_shiphatch.object.json": 7
         },
         "shared_shipdoorbroken": {
           "shared_shipdoorbroken.object.json": 3
         },
         "shared_shiplocker": {
-          "shared_shiplocker.json": 10,
+          "shared_shiplocker.json": 11,
           "shared_shiplocker.object.json": 13
+        },
+        "shared_shiplockerTier0": {
+          "shared_shiplockerTier0.object.json": 1
         },
         "shared_shiplockertier0": {
           "shared_shiplockertier0.object.json": 2
         },
+        "shared_slimepersonshipdoor": {
+          "shared_slimepersonshipdoor.json": 1
+        },
         "shared_ster": {
-          "shared_.object.json": 6
+          "shared_ster.json": 6
         },
         "shared_techstation": {
           "shared_techstation.json": 26,
@@ -9905,11 +10103,98 @@
           "shared_teleporter.json": 20,
           "shared_teleporter.object.json": 2
         },
+        "slimepersoncaptainchair": {
+          "slimecaptainchair.object.json": 1
+        },
+        "slimepersoncaptainschair": {
+          "slimepersoncaptainschair.object.json": 2
+        },
+        "slimepersonfuelhatch": {
+          "slimepersonfuelhatch.object.json": 1
+        },
+        "slimepersonshipdoor": {
+          "slimepersonshipdoor.object.json": 3,
+          "slimepersonshiphatch.object.json": 2
+        },
+        "slimepersonshipdoorBroken": {
+          "slimepersonshipdoorBroken.object.json": 1
+        },
+        "slimepersonshiplight": {
+          "slimepersonshiplight.object.json": 4,
+          "slimepersonshiplightBroken.object.json": 10
+        },
+        "slimepersonshiplocker": {
+          "slimepersonshiplocker.object.json": 2
+        },
+        "slimepersonshiplockerTier0": {
+          "slimepersonshiplockerTier0.object.json": 1
+        },
+        "slimepersontechstation": {
+          "slimepersontechstation.object.json": 20
+        },
+        "slimepersontechstationTier0": {
+          "slimepersontechstationTier0.object.json": 1
+        },
+        "slimepersonteleporter": {
+          "slimepersonteleporter.object.json": 1
+        },
+        "slimepersonteleporterTier0": {
+          "slimepersonteleporterTier0.object.json": 1
+        },
         "smallboosterflamemantizi": {
           "smallboosterflamemantizi.object.json": 1
         },
         "tw_hylotltechstation": {
           "tw_hylotltechstation.object.json": 3
+        }
+      },
+      "slimenpc": {
+        "slimenpcsmallconsole": {
+          "slimenpcsmallconsole.object.json": 11
+        },
+        "slimenpctable": {
+          "slimenpctable.object.json": 9
+        }
+      },
+      "slimenpchuman": {
+        "slimenpchumanconsole": {
+          "slimenpchumanconsole.object.json": 12
+        },
+        "slimenpchumantable": {
+          "slimenpchumantable.object.json": 11
+        }
+      },
+      "slimeperson": {
+        "bed": {
+          "shared_slimenpcbed.json": 10
+        },
+        "chair": {
+          "slimenpcchair.object.json": 10
+        },
+        "chest": {
+          "shared_slimenpc.json": 1,
+          "shared_storage.object.json": 7,
+          "slimenpchangstorage.object.json": 4,
+          "slimenpchide.object.json": 9,
+          "slimenpclargestorage.object.json": 4,
+          "slimenpcsmallstorage.object.json": 4
+        },
+        "compost": {
+          "slimepersoncompost.object.json": 10
+        },
+        "door": {
+          "slimenpcdoor.object.json": 9
+        },
+        "light": {
+          "shared_lamp.object.json": 7,
+          "slimenpclamp.object.json": 3,
+          "slimenpcstreetlamp.object.json": 3
+        },
+        "slimepersonfridge": {
+          "slimepersonfridge.object.json": 12
+        },
+        "teleporter": {
+          "slimenpcteleporter.object.json": 8
         }
       },
       "smartbox": {
@@ -10614,6 +10899,10 @@
         "pumpoutpressureelder": {
           "pumpoutpressurefuelder.object.json": 1
         },
+        "scanner": {
+          "slimepersonscanner.object.json": 5,
+          "slimepersonscanner2.object.json": 5
+        },
         "sequencer": {
           "shared_swtjc_wp_sequencer2bit.json": 6,
           "shared_swtjc_wp_sequencer3bit.json": 6,
@@ -10663,7 +10952,7 @@
         }
       }
     },
-    "objects.json": 11,
+    "objects.json": 12,
     "particles": {
       "angryrocketreloaded.particle.json": 1,
       "angryrocketreloadedfull.particle.json": 1,
@@ -11169,7 +11458,7 @@
     "shared_ers": {
       "shared_waterbot.json": 1
     },
-    "shared_ers.json": 5,
+    "shared_ers.json": 4,
     "shared_fancywoodstairs.mat.json": 1,
     "shared_fect.json": 1,
     "shared_feya.json": 1,
@@ -11200,6 +11489,7 @@
     },
     "shared_res.json": 1,
     "shared_rial.json": 1,
+    "shared_slimeplatform.mat.json": 5,
     "shared_sphere.json": 1,
     "shared_sulphur.json": 1,
     "shared_t.config.json": 1,
@@ -11253,9 +11543,6 @@
       "fumantizi.species.json": 2,
       "fupeglaci.species.json": 2,
       "fuphotonpoptop.species.json": 3,
-      "fuslimeperson.species.json": 3,
-      "fuslimepersonfemalenamegen.config.json": 1321,
-      "fuslimepersonnamegen.config.json": 45,
       "kirhosnamegen.config.json": 179,
       "mantizifemalenamegen.config.json": 17,
       "mantizimalenamegen.config.json": 35,
@@ -11266,12 +11553,17 @@
       "radien.species.json": 8,
       "radiennamegen.config.json": 244,
       "shadownamegen.config.json": 79,
-      "shared_.species.json": 25,
+      "shared_.species.json": 27,
       "shared_femalenamegen.config.json": 2,
       "shared_i.species.json": 5,
       "shared_izku.species.json": 4,
       "shared_malenamegen.config.json": 38,
       "shared_namegen.config.json": 83,
+      "shared_slimeperson.species.json": 1,
+      "shared_slimepersonfemalenamegen.config.json": 1321,
+      "shared_slimepersonnamegen.config.json": 45,
+      "slimenpc.species.json": 1,
+      "slimenpchuman.species.json": 2,
       "spiderdroid.species.json": 3,
       "thelusian.species.json": 7,
       "thelusiannamegen.config.json": 77
@@ -12054,6 +12346,9 @@
         "slimeleech": {
           "slimeleech.statuseffect.json": 1
         },
+        "slimeshieldfreeze": {
+          "slimeshieldfreeze.statuseffect.json": 1
+        },
         "swimboost": {
           "swimboost1.statuseffect.json": 1,
           "swimboost2.statuseffect.json": 1,
@@ -12106,6 +12401,7 @@
       "distortionsphere": {
         "armorsphere.tech.json": 2,
         "bouncesphere.tech.json": 2,
+        "colorvariableslimesphere.tech.json": 2,
         "distortionsphere2.tech.json": 2,
         "funball.tech.json": 2,
         "microsphere.tech.json": 2,
@@ -12190,7 +12486,8 @@
         "rocketboots": {
           "rocketboots.tech.json": 2,
           "rocketboots2.tech.json": 2
-        }
+        },
+        "stickywalljump.tech.json": 2
       },
       "other": {
         "emergencybounce.tech.json": 2,
@@ -12292,6 +12589,7 @@
         "glasssand.material.json": 1,
         "glowsand.material.json": 1,
         "greyslate.material.json": 1,
+        "hardslimeblock.material.json": 4,
         "harrowstone.material.json": 1,
         "honey": {
           "brick": {
@@ -12436,6 +12734,7 @@
         "shroomblockglow.material.json": 1,
         "shroomblockwall.material.json": 1,
         "slime2.material.json": 1,
+        "slimeshipsupport.material.json": 5,
         "speedblock.material.json": 1,
         "spidersilkblockmik.material.json": 3,
         "springvines.material.json": 4,
@@ -12524,7 +12823,7 @@
         "sturdyplatform.material.json": 2
       }
     },
-    "wide_spread_fields.json": 152,
+    "wide_spread_fields.json": 153,
     "zb": {
       "newSail": {
         "data.config.json": 6,
