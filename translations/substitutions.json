@@ -1727,6 +1727,14 @@
   "interface/scripted/weaponupgrade2/weaponupgrade2gui.config": {
     "/gui/btnUpgrade/caption": "texts/interface/scripted/shared_.config.json",
     "/gui/cancel/caption": "texts/interface.json",
+    "/gui/emptyLabel/value": "texts/interface/scripted/shared_weaponupgrade/shared_weaponupgrade.json",
+    "/gui/essenceCost/value": "texts/interface/scripted/shared_.config.json",
+    "/gui/itemScrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json"
+  },
+  "interface/scripted/weaponupgradetiered/weaponupgradetieredgui.config": {
+    "/gui/btnUpgrade/caption": "texts/interface/scripted/shared_.config.json",
+    "/gui/cancel/caption": "texts/interface.json",
+    "/gui/emptyLabel/value": "texts/interface/scripted/shared_weaponupgrade/shared_weaponupgrade.json",
     "/gui/essenceCost/value": "texts/interface/scripted/shared_.config.json",
     "/gui/itemScrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json"
   },
@@ -3301,33 +3309,6 @@
   "items/armors/crew/scienceparkanpc/sciencefunpc.legs": {
     "/shortdescription": "texts/items/armors/shared_sciencefu.json"
   },
-  "items/armors/decorative/new/mutachitin/test1.chest": {
-    "/description": "texts/items/armors.json"
-  },
-  "items/armors/decorative/new/mutachitin/test1.head": {
-    "/description": "texts/items/armors.json"
-  },
-  "items/armors/decorative/new/mutachitin/test1.legs": {
-    "/description": "texts/items/armors.json"
-  },
-  "items/armors/decorative/new/shellplate/test1.chest": {
-    "/description": "texts/items/armors.json"
-  },
-  "items/armors/decorative/new/shellplate/test1.head": {
-    "/description": "texts/items/armors.json"
-  },
-  "items/armors/decorative/new/shellplate/test1.legs": {
-    "/description": "texts/items/armors.json"
-  },
-  "items/armors/decorative/new/vile/test1.chest": {
-    "/description": "texts/items/armors.json"
-  },
-  "items/armors/decorative/new/vile/test1.head": {
-    "/description": "texts/items/armors.json"
-  },
-  "items/armors/decorative/new/vile/test1.legs": {
-    "/description": "texts/items/armors.json"
-  },
   "items/armors/elduukhar/invis/inviselduu.chest": {
     "/description": "texts/items/armors/elduukhar/invis/shared_inviselduu..json",
     "/shortdescription": "texts/items/armors/shared_invis/shared_.chest.json"
@@ -3620,6 +3601,15 @@
   "items/armors/tier2/sanguine/bloodgarb.legs": {
     "/description": "texts/items/armors/tier2/sanguine/shared_bloodgarb..json"
   },
+  "items/armors/tier2/shellplate/test1.chest": {
+    "/description": "texts/items/armors/tier2/shellplate/shared_test1..json"
+  },
+  "items/armors/tier2/shellplate/test1.head": {
+    "/description": "texts/items/armors/tier2/shellplate/shared_test1..json"
+  },
+  "items/armors/tier2/shellplate/test1.legs": {
+    "/description": "texts/items/armors/tier2/shellplate/shared_test1..json"
+  },
   "items/armors/tier2/swashbuckler/cannoneer.chest": {
     "/description": "texts/items/armors/tier2/swashbuckler/shared_cannoneer..json"
   },
@@ -3684,13 +3674,13 @@
     "/description": "texts/items/armors/tier3/chaos/shared_test1..json"
   },
   "items/armors/tier3/chitin/chitin.chest": {
-    "/description": "texts/items/armors.json"
+    "/description": "texts/items/armors/tier3/chitin/shared_chitin..json"
   },
   "items/armors/tier3/chitin/chitin.head": {
-    "/description": "texts/items/armors.json"
+    "/description": "texts/items/armors/tier3/chitin/shared_chitin..json"
   },
   "items/armors/tier3/chitin/chitin.legs": {
-    "/description": "texts/items/armors.json"
+    "/description": "texts/items/armors/tier3/chitin/shared_chitin..json"
   },
   "items/armors/tier3/corsair/kirhostier3.chest": {
     "/description": "texts/items/armors/tier3/corsair/shared_kirhostier3..json"
@@ -4174,6 +4164,12 @@
   "items/armors/tier4/monsterplating/fumonsterplatedarmor.legs": {
     "/description": "texts/items/armors/tier4/monsterplating/shared_fumonsterplatedarmor..json"
   },
+  "items/armors/tier4/mutachitin/test1.chest": {
+    "/description": "texts/items/armors/tier4/mutachitin/shared_test1..json"
+  },
+  "items/armors/tier4/mutachitin/test1.head": {
+    "/description": "texts/items/armors/tier4/mutachitin/shared_test1..json"
+  },
   "items/armors/tier4/primus/mantizitier4.chest": {
     "/description": "texts/items/armors/tier4/primus/shared_mantizitier4..json"
   },
@@ -4429,6 +4425,15 @@
   },
   "items/armors/tier6/assassini/mantizitier6accelerator.legs": {
     "/description": "texts/items/armors/tier6/assassini/shared_mantizitier6accelerator..json"
+  },
+  "items/armors/tier6/biomorph/test1.chest": {
+    "/description": "texts/items/armors/tier6/biomorph/shared_test1..json"
+  },
+  "items/armors/tier6/biomorph/test1.head": {
+    "/description": "texts/items/armors/tier6/biomorph/shared_test1..json"
+  },
+  "items/armors/tier6/biomorph/test1.legs": {
+    "/description": "texts/items/armors/tier6/biomorph/shared_test1..json"
   },
   "items/armors/tier6/champion/mantizitier6separator.chest": {
     "/description": "texts/items/armors/tier6/champion/shared_mantizitier6separator..json"
@@ -14758,6 +14763,15 @@
   "objects/farmables/wubstem/wubstemseed.object": {
     "/description": "texts/shared_ect.json",
     "/shortdescription": "texts/objects/farmables/wubstem/shared_wubstemseed.object.json"
+  },
+  "objects/farmables/xi_bulb/xi_bulb.object": {
+    "/description": "texts/objects/farmables/shared_xi_bulb/shared_xi_bulb.json"
+  },
+  "objects/farmables/xi_bulb2/xi_bulb.object": {
+    "/description": "texts/objects/farmables/shared_xi_bulb/shared_xi_bulb.json"
+  },
+  "objects/farmables/xi_bulb3/xi_bulb3.object": {
+    "/description": "texts/objects/farmables/shared_xi_bulb/shared_xi_bulb.json"
   },
   "objects/farmables/yellowfoot/wildyellowfootseed.object": {
     "/description": "texts/shared_ect.json",
@@ -26348,6 +26362,12 @@
     "/label": "texts/shared_fect.json"
   },
   "stats/effects/heal/radienheal.statuseffect": {
+    "/label": "texts/stats/effects.json"
+  },
+  "stats/effects/heal/radienheal2.statuseffect": {
+    "/label": "texts/stats/effects.json"
+  },
+  "stats/effects/heal/radienheal3.statuseffect": {
     "/label": "texts/stats/effects.json"
   },
   "stats/effects/heal/slimedaggerheal.statuseffect": {

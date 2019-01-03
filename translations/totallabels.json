@@ -630,7 +630,7 @@
         "multitether.config.json": 1
       },
       "cockpit": {
-        "cockpit.config.json": 410
+        "cockpit.config.json": 413
       },
       "itemdescriptions": {
         "armornew.itemdescription.json": 1,
@@ -698,6 +698,9 @@
           }
         },
         "shared_.config.json": 2,
+        "shared_weaponupgrade": {
+          "shared_weaponupgrade.json": 1
+        },
         "spaceStation": {
           "spaceStation.config.json": 17
         },
@@ -712,7 +715,10 @@
           "techshop.config.json": 4
         },
         "weaponupgrade2": {
-          "weaponupgrade2gui.config.json": 4
+          "weaponupgrade2gui.config.json": 3
+        },
+        "weaponupgradetiered": {
+          "weaponupgradetieredgui.config.json": 3
         }
       },
       "scripted.json": 1,
@@ -904,6 +910,7 @@
           "nightar2.activeitem.json": 2,
           "primitiveshield.activeitem.json": 2,
           "quantumshield.activeitem.json": 2,
+          "radienshield.activeitem.json": 2,
           "reptileshield.activeitem.json": 2,
           "shadowshield.activeitem.json": 1,
           "shared_shield.activeitem.json": 1,
@@ -2599,21 +2606,6 @@
             }
           },
           "new": {
-            "mutachitin": {
-              "test1.chest.json": 1,
-              "test1.head.json": 1,
-              "test1.legs.json": 1
-            },
-            "shellplate": {
-              "test1.chest.json": 1,
-              "test1.head.json": 1,
-              "test1.legs.json": 1
-            },
-            "vile": {
-              "test1.chest.json": 1,
-              "test1.head.json": 1,
-              "test1.legs.json": 1
-            },
             "wagner": {
               "test1.head.json": 1
             }
@@ -2942,6 +2934,12 @@
             "bloodgarb.legs.json": 1,
             "shared_bloodgarb..json": 1
           },
+          "shellplate": {
+            "shared_test1..json": 1,
+            "test1.chest.json": 1,
+            "test1.head.json": 1,
+            "test1.legs.json": 1
+          },
           "swashbuckler": {
             "cannoneer.chest.json": 1,
             "cannoneer.head.json": 1,
@@ -2990,7 +2988,8 @@
           "chitin": {
             "chitin.chest.json": 1,
             "chitin.head.json": 1,
-            "chitin.legs.json": 1
+            "chitin.legs.json": 1,
+            "shared_chitin..json": 1
           },
           "corsair": {
             "kirhostier3.chest.json": 1,
@@ -3315,6 +3314,12 @@
             "fumonsterplatedarmor.legs.json": 1,
             "shared_fumonsterplatedarmor..json": 1
           },
+          "mutachitin": {
+            "shared_test1..json": 1,
+            "test1.chest.json": 1,
+            "test1.head.json": 1,
+            "test1.legs.json": 2
+          },
           "primus": {
             "mantizitier4.chest.json": 1,
             "mantizitier4.head.json": 1,
@@ -3491,6 +3496,12 @@
             "mantizitier6accelerator.head.json": 1,
             "mantizitier6accelerator.legs.json": 1,
             "shared_mantizitier6accelerator..json": 1
+          },
+          "biomorph": {
+            "shared_test1..json": 1,
+            "test1.chest.json": 1,
+            "test1.head.json": 1,
+            "test1.legs.json": 1
           },
           "champion": {
             "mantizitier6separator.chest.json": 1,
@@ -3696,7 +3707,6 @@
           }
         }
       },
-      "armors.json": 1,
       "augments": {
         "back": {
           "environment": {
@@ -3707,6 +3717,7 @@
             "coldImmunity.augment.json": 2,
             "coldImmunity2.augment.json": 2,
             "cosmic.augment.json": 2,
+            "darkimmunityaug.augment.json": 2,
             "electric.augment.json": 2,
             "eviltester.augment.json": 2,
             "fire.augment.json": 2,
@@ -4639,6 +4650,8 @@
           "medkit4.consumable.json": 1,
           "perfectelygenericmedkit.consumable.json": 1,
           "reactivegel.consumable.json": 2,
+          "reactivegel2.consumable.json": 2,
+          "reactivegel3.consumable.json": 2,
           "shared_ball.consumable.json": 2,
           "slimegem.item.json": 2,
           "slimegoo.item.json": 2,
@@ -7149,6 +7162,9 @@
         "fu_shipcraftingtable": {
           "fu_shipcraftingtable.object.json": 2
         },
+        "fu_upgradetable": {
+          "fu_upgradetable.object.json": 2
+        },
         "fu_woodensifter": {
           "fu_woodensifter.object.json": 2
         },
@@ -7603,6 +7619,9 @@
           "shared_.object.json": 1
         },
         "shared_seed.object.json": 1,
+        "shared_xi_bulb": {
+          "shared_xi_bulb.json": 1
+        },
         "shinyacorn": {
           "shared_shinyacornseed.object.json": 1
         },
@@ -7670,6 +7689,15 @@
         },
         "xaxseed": {
           "xaxseed.object.json": 2
+        },
+        "xi_bulb": {
+          "xi_bulb.object.json": 1
+        },
+        "xi_bulb2": {
+          "xi_bulb.object.json": 1
+        },
+        "xi_bulb3": {
+          "xi_bulb3.object.json": 1
         },
         "zathiseed": {
           "zathiseed.object.json": 2
@@ -11707,6 +11735,7 @@
             "championsetbonuseffect.statuseffect.json": 1,
             "chaossetbonuseffect.statuseffect.json": 1,
             "chitinsetbonuseffect.statuseffect.json": 1,
+            "chitinsetbonuseffectradien.statuseffect.json": 1,
             "chordatasetbonuseffect.statuseffect.json": 1,
             "conquerorsetbonuseffect.statuseffect.json": 1,
             "corruptsetbonuseffect.statuseffect.json": 1,
@@ -11748,6 +11777,7 @@
             "kingslayersetbonuseffect.statuseffect.json": 1,
             "krakensetbonuseffect.statuseffect.json": 1,
             "leathersetbonuseffect.statuseffect.json": 1,
+            "leathersetbonuseffectradien.statuseffect.json": 1,
             "legioniisetbonuseffect.statuseffect.json": 1,
             "leviathansetbonuseffect.statuseffect.json": 1,
             "lightpriestsetbonuseffect.statuseffect.json": 1,
@@ -11771,6 +11801,7 @@
             "prophetsetbonuseffect.statuseffect.json": 1,
             "protectorsetbonuseffect.statuseffect.json": 1,
             "pyreitesetbonuseffect.statuseffect.json": 1,
+            "pyreitesetbonuseffectradien.statuseffect.json": 1,
             "queensetbonuseffect.statuseffect.json": 1,
             "raidersetbonuseffect.statuseffect.json": 1,
             "rangersetbonuseffect.statuseffect.json": 1,
