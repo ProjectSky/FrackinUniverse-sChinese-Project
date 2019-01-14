@@ -1,11 +1,5 @@
 {
   "texts": {
-    "a_notyetadded": {
-      "missions": {
-        "bounty_contract.item.json": 2,
-        "glitch_trophy.item.json": 2
-      }
-    },
     "ai": {
       "alienjungle.aimission.json": 3,
       "ancienttemple.aimission.json": 3,
@@ -634,7 +628,6 @@
       },
       "itemdescriptions": {
         "armornew.itemdescription.json": 1,
-        "bow2.itemdescription.json": 1,
         "fist2.itemdescription.json": 2,
         "shared_.itemdescription.json": 1
       },
@@ -724,6 +717,7 @@
       "scripted.json": 1,
       "shared_.config.json": 1,
       "shared_boomerang..json": 1,
+      "shared_bow.json": 1,
       "shared_chakram..json": 1,
       "shared_gun2.json": 0,
       "shared_gun2overheat.json": 0,
@@ -1743,7 +1737,7 @@
           },
           "other": {
             "angryrocket": {
-              "angryrocket.activeitem.json": 3
+              "angryrocket.activeitem.json": 2
             },
             "chargegun": {
               "chargegun2.activeitem.json": 2
@@ -2814,8 +2808,8 @@
             "toga.legs.json": 2
           },
           "radienrebel": {
-            "radienrebel.chest.json": 2,
-            "radienrebel.legs.json": 2
+            "radienrebel.chest.json": 0,
+            "radienrebel.legs.json": 0
           },
           "shadowuniform": {
             "shadowuniform.chest.json": 1,
@@ -4001,6 +3995,7 @@
             "biofuelcannister.item.json": 2,
             "biofuelcannisteradv.item.json": 2,
             "biofuelcannistermax.item.json": 2,
+            "catfuel.item.json": 0,
             "cell_mutated.item.json": 2,
             "cell_spliced.item.json": 2,
             "cell_viral.item.json": 2,
@@ -4153,7 +4148,7 @@
             "precursorfluid.item.json": 2,
             "precursorfuelcell.item.json": 2,
             "precursorgel.item.json": 2,
-            "precursorgrease.item.json": 2,
+            "precursorgrease.item.json": 1,
             "precursorharddrive.item.json": 2,
             "precursorram.item.json": 2,
             "unknowngene.item.json": 2
@@ -6861,7 +6856,7 @@
           "campdoor.object.json": 9
         },
         "hammocks": {
-          "avalihammock1.object.json": 9,
+          "avalihammock1.object.json": 2,
           "avalihammock2.object.json": 8
         },
         "modulartent": {
@@ -7215,7 +7210,7 @@
           "fissionfurnacenew.object.json": 2
         },
         "fu_alternatorgenerator": {
-          "fu_alternatorgenerator.object.json": 2
+          "fu_alternatorgenerator.object.json": 1
         },
         "fu_growingtray": {
           "fu_growingtray.object.json": 2
@@ -7402,18 +7397,67 @@
         "shared_table.object.json": 2
       },
       "elduukhar": {
-        "elduuchest1": {
-          "elduuchest1.object.json": 2
+        "appleplush.object.json": 0,
+        "elduubed": {
+          "elduubed.object.json": 0
         },
-        "elduuchest2": {
-          "elduuchest2.object.json": 2
+        "elduubookcase.object.json": 0,
+        "elduucabinet.object.json": 0,
+        "elduuceilinglamp": {
+          "elduuceilinglamp.object.json": 0
+        },
+        "elduuchair.object.json": 0,
+        "elduuchest1.object.json": 0,
+        "elduuchest2.object.json": 0,
+        "elduucouch": {
+          "elduucouch.object.json": 0
+        },
+        "elduudesk.object.json": 0,
+        "elduudesklamp": {
+          "elduudesklamp.object.json": 0
+        },
+        "elduudrawers.object.json": 0,
+        "elduuendtable.object.json": 0,
+        "elduufridge.object.json": 0,
+        "elduugemlamp.object.json": 0,
+        "elduuhammock": {
+          "elduuhammock.object.json": 0
+        },
+        "elduulongtable": {
+          "elduulongtable.object.json": 0
+        },
+        "elduuminifridge.object.json": 0,
+        "elduunightstand.object.json": 0,
+        "elduuspotlamp": {
+          "elduuspotlamp.object.json": 0
+        },
+        "elduustool.object.json": 0,
+        "elduutable.object.json": 0,
+        "elduuwalllamp": {
+          "elduuwalllamp.object.json": 0
         },
         "flagelduukhar": {
           "flagelduukhar.object.json": 9
         },
-        "shared_elduuchest": {
-          "shared_elduuchest.json": 6
-        }
+        "shared_.object.json": 0,
+        "shared_elduu": {
+          "shared_lamp.object.json": 0
+        },
+        "shared_elduubanner": {
+          "elduutornbannerlarge.object.json": 0,
+          "elduutornrebelbannerlarge.object.json": 0,
+          "shared_.object.json": 0,
+          "shared_bannerlarge.object.json": 0,
+          "shared_elduubanner.json": 0,
+          "shared_elduurebelbanner.json": 0,
+          "shared_rebelbanner.json": 0
+        },
+        "shared_elduuchest.json": 0,
+        "shared_elduuconsole": {
+          "shared_elduuconsole.json": 0
+        },
+        "shared_fridge.object.json": 0,
+        "shared_table.object.json": 0
       },
       "explosives": {
         "blastingdynamite.object.json": 2,
@@ -8726,6 +8770,11 @@
           },
           "elderhugepainting.object.json": 2,
           "elderidol.object.json": 2,
+          "elderlights": {
+            "elderlight1.object.json": 0,
+            "elderlight2.object.json": 0,
+            "shared_elderlight.json": 0
+          },
           "elderpainting1.object.json": 2,
           "elderpainting10.object.json": 2,
           "elderpainting11.object.json": 2,
@@ -8909,7 +8958,7 @@
         "plynth2.object.json": 2,
         "precursor": {
           "fu_precursorduplicator": {
-            "fu_precursorduplicator.object.json": 2
+            "fu_precursorduplicator.object.json": 1
           },
           "fu_precursorspawner": {
             "fu_precursorspawner.object.json": 2
@@ -8987,9 +9036,6 @@
           "precursorlight": {
             "precursorlight.object.json": 1
           },
-          "precursorlightorb": {
-            "precursorlightorb.object.json": 2
-          },
           "precursorlightstrip": {
             "precursorlightstrip.object.json": 1,
             "precursorlightstripdim.object.json": 2
@@ -9018,6 +9064,12 @@
           },
           "precursoromegagenerator": {
             "precursoromegagenerator.object.json": 0
+          },
+          "precursororbs": {
+            "precursorlightorb": {
+              "precursorlightorb.object.json": 0
+            },
+            "shared_precursorlight.json": 0
           },
           "precursorpillar": {
             "shared_precursorpillar.json": 1
@@ -9592,7 +9644,7 @@
           "shadowcouch.object.json": 1
         },
         "shadowcounter.object.json": 5,
-        "shadowdesk.object.json": 3,
+        "shadowdesk.object.json": 2,
         "shadowdisplay.object.json": 1,
         "shadowdrawers.object.json": 2,
         "shadowendtable.object.json": 4,
@@ -9637,6 +9689,7 @@
       },
       "shared_.object.json": 3,
       "shared_avali.json": 7,
+      "shared_banner.json": 0,
       "shared_bed": {
         "shared_bed.object.json": 1
       },
@@ -9654,6 +9707,7 @@
       },
       "shared_cabinet.json": 4,
       "shared_chair.object.json": 1,
+      "shared_console.json": 0,
       "shared_couch": {
         "shared_couch.object.json": 0
       },
@@ -9661,6 +9715,7 @@
         "shared_desk.object.json": 0
       },
       "shared_desk.json": 1,
+      "shared_desk.object.json": 1,
       "shared_door": {
         "shared_door.object.json": 2
       },
@@ -9673,6 +9728,9 @@
       },
       "shared_gravgen": {
         "shared_gravgenfield.statuseffect.json": 1
+      },
+      "shared_hammock": {
+        "shared_hammock.json": 7
       },
       "shared_ium": {
         "shared_fridge": {
@@ -9858,6 +9916,12 @@
         "fu_crewbed5": {
           "fu_crewbed5.object.json": 1
         },
+        "fu_crewdeed": {
+          "fu_crewdeed.object.json": 0
+        },
+        "fu_elduukharcrewdeed": {
+          "fu_elduukharcrewdeed.object.json": 0
+        },
         "fu_ftldrive": {
           "fu_ftldrive.object.json": 1,
           "fu_ftldriveupgrade.object.json": 1
@@ -9922,6 +9986,12 @@
             "thruster_nova1.object.json": 1
           },
           "shared_thruster_.json": 1
+        },
+        "fu_tinycrewdeed": {
+          "fu_tinycrewdeed.object.json": 0
+        },
+        "fu_tinycrewdeedinvis": {
+          "fu_tinycrewdeedinvis.object.json": 0
         },
         "genericshipparts": {
           "SIV_shipTrimThin": {
@@ -10174,6 +10244,9 @@
         },
         "shared_captainschair": {
           "shared_captainschair.object.json": 7
+        },
+        "shared_crewdeed": {
+          "shared_crewdeed.json": 0
         },
         "shared_elduukharshipdoor": {
           "shared_shipdoor.json": 1
@@ -11610,7 +11683,7 @@
     "shared_cute": {
       "shared_cute.json": 1
     },
-    "shared_ect.json": 173,
+    "shared_ect.json": 174,
     "shared_elderplatform.mat.json": 2,
     "shared_emera.json": 1,
     "shared_ers": {
@@ -11844,7 +11917,7 @@
             "eldersetbonuseffect.statuseffect.json": 1,
             "enforcersetbonuseffect.statuseffect.json": 1,
             "evadersetbonuseffect.statuseffect.json": 1,
-            "evasetbonuseffect.statuseffect.json": 1,
+            "evasetbonuseffect.statuseffect.json": 0,
             "fleshsetbonuseffect.statuseffect.json": 1,
             "footmansetbonuseffect.statuseffect.json": 1,
             "geistsetbonuseffect.statuseffect.json": 1,
@@ -12264,7 +12337,6 @@
               "aetherweathernew3.statuseffect.json": 1
             },
             "cold": {
-              "ffbiomecold0.statuseffect.json": 1,
               "ffbiomecold1.statuseffect.json": 1,
               "ffbiomecold2.statuseffect.json": 1,
               "ffbiomecold3.statuseffect.json": 1,

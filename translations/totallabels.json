@@ -1,11 +1,5 @@
 {
   "texts": {
-    "a_notyetadded": {
-      "missions": {
-        "bounty_contract.item.json": 2,
-        "glitch_trophy.item.json": 2
-      }
-    },
     "ai": {
       "alienjungle.aimission.json": 3,
       "ancienttemple.aimission.json": 3,
@@ -634,7 +628,6 @@
       },
       "itemdescriptions": {
         "armornew.itemdescription.json": 1,
-        "bow2.itemdescription.json": 1,
         "fist2.itemdescription.json": 2,
         "shared_.itemdescription.json": 1
       },
@@ -724,6 +717,7 @@
       "scripted.json": 1,
       "shared_.config.json": 1,
       "shared_boomerang..json": 1,
+      "shared_bow.json": 1,
       "shared_chakram..json": 1,
       "shared_gun2.json": 1,
       "shared_gun2overheat.json": 1,
@@ -4001,6 +3995,7 @@
             "biofuelcannister.item.json": 2,
             "biofuelcannisteradv.item.json": 2,
             "biofuelcannistermax.item.json": 2,
+            "catfuel.item.json": 2,
             "cell_mutated.item.json": 2,
             "cell_spliced.item.json": 2,
             "cell_viral.item.json": 2,
@@ -6861,7 +6856,7 @@
           "campdoor.object.json": 9
         },
         "hammocks": {
-          "avalihammock1.object.json": 9,
+          "avalihammock1.object.json": 2,
           "avalihammock2.object.json": 8
         },
         "modulartent": {
@@ -7402,18 +7397,67 @@
         "shared_table.object.json": 2
       },
       "elduukhar": {
-        "elduuchest1": {
-          "elduuchest1.object.json": 2
+        "appleplush.object.json": 9,
+        "elduubed": {
+          "elduubed.object.json": 7
         },
-        "elduuchest2": {
-          "elduuchest2.object.json": 2
+        "elduubookcase.object.json": 8,
+        "elduucabinet.object.json": 7,
+        "elduuceilinglamp": {
+          "elduuceilinglamp.object.json": 2
+        },
+        "elduuchair.object.json": 1,
+        "elduuchest1.object.json": 2,
+        "elduuchest2.object.json": 2,
+        "elduucouch": {
+          "elduucouch.object.json": 8
+        },
+        "elduudesk.object.json": 6,
+        "elduudesklamp": {
+          "elduudesklamp.object.json": 2
+        },
+        "elduudrawers.object.json": 8,
+        "elduuendtable.object.json": 1,
+        "elduufridge.object.json": 1,
+        "elduugemlamp.object.json": 3,
+        "elduuhammock": {
+          "elduuhammock.object.json": 2
+        },
+        "elduulongtable": {
+          "elduulongtable.object.json": 2
+        },
+        "elduuminifridge.object.json": 1,
+        "elduunightstand.object.json": 5,
+        "elduuspotlamp": {
+          "elduuspotlamp.object.json": 1
+        },
+        "elduustool.object.json": 2,
+        "elduutable.object.json": 1,
+        "elduuwalllamp": {
+          "elduuwalllamp.object.json": 1
         },
         "flagelduukhar": {
           "flagelduukhar.object.json": 9
         },
-        "shared_elduuchest": {
-          "shared_elduuchest.json": 6
-        }
+        "shared_.object.json": 4,
+        "shared_elduu": {
+          "shared_lamp.object.json": 6
+        },
+        "shared_elduubanner": {
+          "elduutornbannerlarge.object.json": 1,
+          "elduutornrebelbannerlarge.object.json": 1,
+          "shared_.object.json": 4,
+          "shared_bannerlarge.object.json": 6,
+          "shared_elduubanner.json": 2,
+          "shared_elduurebelbanner.json": 2,
+          "shared_rebelbanner.json": 1
+        },
+        "shared_elduuchest.json": 6,
+        "shared_elduuconsole": {
+          "shared_elduuconsole.json": 1
+        },
+        "shared_fridge.object.json": 5,
+        "shared_table.object.json": 6
       },
       "explosives": {
         "blastingdynamite.object.json": 2,
@@ -8263,7 +8307,7 @@
         },
         "shared_.object.json": 5,
         "shared_isogen": {
-          "shared_fridge.object.json": 7,
+          "shared_fridge.object.json": 6,
           "shared_lamp.object.json": 7
         },
         "shared_isogen.json": 1,
@@ -8726,6 +8770,11 @@
           },
           "elderhugepainting.object.json": 2,
           "elderidol.object.json": 2,
+          "elderlights": {
+            "elderlight1.object.json": 1,
+            "elderlight2.object.json": 1,
+            "shared_elderlight.json": 8
+          },
           "elderpainting1.object.json": 2,
           "elderpainting10.object.json": 2,
           "elderpainting11.object.json": 2,
@@ -8987,9 +9036,6 @@
           "precursorlight": {
             "precursorlight.object.json": 1
           },
-          "precursorlightorb": {
-            "precursorlightorb.object.json": 2
-          },
           "precursorlightstrip": {
             "precursorlightstrip.object.json": 1,
             "precursorlightstripdim.object.json": 2
@@ -9018,6 +9064,12 @@
           },
           "precursoromegagenerator": {
             "precursoromegagenerator.object.json": 2
+          },
+          "precursororbs": {
+            "precursorlightorb": {
+              "precursorlightorb.object.json": 1
+            },
+            "shared_precursorlight.json": 2
           },
           "precursorpillar": {
             "shared_precursorpillar.json": 1
@@ -9519,7 +9571,7 @@
           "pyreitewalllamp.object.json": 2
         },
         "shared_pyreite": {
-          "shared_fridge.object.json": 8,
+          "shared_fridge.object.json": 7,
           "shared_lamp.object.json": 6
         },
         "shared_pyreite.json": 6,
@@ -9587,12 +9639,12 @@
         "shadowchestlong1.object.json": 2,
         "shadowchestlong2.object.json": 2,
         "shadowcloset.object.json": 4,
-        "shadowconsole.object.json": 9,
+        "shadowconsole.object.json": 1,
         "shadowcouch": {
-          "shadowcouch.object.json": 9
+          "shadowcouch.object.json": 2
         },
         "shadowcounter.object.json": 9,
-        "shadowdesk.object.json": 4,
+        "shadowdesk.object.json": 3,
         "shadowdisplay.object.json": 6,
         "shadowdrawers.object.json": 8,
         "shadowendtable.object.json": 4,
@@ -9627,7 +9679,7 @@
         "shared_shadow": {
           "shared_.object.json": 2
         },
-        "shared_shadowbanner.json": 7,
+        "shared_shadowbanner.json": 4,
         "shared_shadowchestlong.json": 5,
         "shared_shadowflower.json": 3,
         "shared_table.object.json": 3,
@@ -9635,10 +9687,11 @@
           "tenebrhaeshipdoor.object.json": 2
         }
       },
-      "shared_.object.json": 16,
+      "shared_.object.json": 33,
       "shared_avali.json": 7,
+      "shared_banner.json": 3,
       "shared_bed": {
-        "shared_bed.object.json": 1
+        "shared_bed.object.json": 2
       },
       "shared_biome": {
         "shared_ceiling": {
@@ -9650,10 +9703,11 @@
       },
       "shared_bookcase.object.json": 6,
       "shared_cabinet": {
-        "shared_cabinet.object.json": 3
+        "shared_cabinet.object.json": 2
       },
-      "shared_cabinet.json": 4,
-      "shared_chair.object.json": 2,
+      "shared_cabinet.json": 5,
+      "shared_chair.object.json": 3,
+      "shared_console.json": 8,
       "shared_couch": {
         "shared_couch.object.json": 2
       },
@@ -9661,18 +9715,22 @@
         "shared_desk.object.json": 1
       },
       "shared_desk.json": 5,
+      "shared_desk.object.json": 1,
       "shared_door": {
         "shared_door.object.json": 2
       },
       "shared_fridge": {
         "shared_fridge.object.json": 1
       },
-      "shared_fridge.json": 7,
+      "shared_fridge.json": 9,
       "shared_generator": {
         "shared_generator.config.json": 1
       },
       "shared_gravgen": {
         "shared_gravgenfield.statuseffect.json": 1
+      },
+      "shared_hammock": {
+        "shared_hammock.json": 7
       },
       "shared_ium": {
         "shared_fridge": {
@@ -9699,7 +9757,7 @@
         "shared_storagelocker.object.json": 5
       },
       "shared_storagelocker.object.json": 1,
-      "shared_table.json": 1,
+      "shared_table.json": 2,
       "shared_table.object.json": 2,
       "shared_teleporter": {
         "shared_teleporter.object.json": 3
@@ -9858,6 +9916,12 @@
         "fu_crewbed5": {
           "fu_crewbed5.object.json": 1
         },
+        "fu_crewdeed": {
+          "fu_crewdeed.object.json": 1
+        },
+        "fu_elduukharcrewdeed": {
+          "fu_elduukharcrewdeed.object.json": 1
+        },
         "fu_ftldrive": {
           "fu_ftldrive.object.json": 1,
           "fu_ftldriveupgrade.object.json": 1
@@ -9922,6 +9986,12 @@
             "thruster_nova1.object.json": 1
           },
           "shared_thruster_.json": 1
+        },
+        "fu_tinycrewdeed": {
+          "fu_tinycrewdeed.object.json": 1
+        },
+        "fu_tinycrewdeedinvis": {
+          "fu_tinycrewdeedinvis.object.json": 1
         },
         "genericshipparts": {
           "SIV_shipTrimThin": {
@@ -10174,6 +10244,9 @@
         },
         "shared_captainschair": {
           "shared_captainschair.object.json": 7
+        },
+        "shared_crewdeed": {
+          "shared_crewdeed.json": 1
         },
         "shared_elduukharshipdoor": {
           "shared_shipdoor.json": 1
@@ -11082,12 +11155,12 @@
         }
       },
       "zerchesium": {
-        "shared_zerchesiumlamp.json": 8,
+        "shared_zerchesiumlamp.json": 2,
         "zerchesiumbed": {
-          "zerchesiumbed.object.json": 9
+          "zerchesiumbed.object.json": 8
         },
         "zerchesiumcabinet.object.json": 8,
-        "zerchesiumchair.object.json": 9,
+        "zerchesiumchair.object.json": 4,
         "zerchesiumconsole.object.json": 9,
         "zerchesiumdesk": {
           "zerchesiumdesk.object.json": 9
@@ -11106,7 +11179,7 @@
         },
         "zerchesiumslidingdoor.object.json": 9,
         "zerchesiumtable": {
-          "zerchesiumtable.object.json": 7
+          "zerchesiumtable.object.json": 6
         }
       }
     },
@@ -11610,7 +11683,7 @@
     "shared_cute": {
       "shared_cute.json": 1
     },
-    "shared_ect.json": 173,
+    "shared_ect.json": 174,
     "shared_elderplatform.mat.json": 2,
     "shared_emera.json": 1,
     "shared_ers": {
@@ -12264,7 +12337,6 @@
               "aetherweathernew3.statuseffect.json": 1
             },
             "cold": {
-              "ffbiomecold0.statuseffect.json": 1,
               "ffbiomecold1.statuseffect.json": 1,
               "ffbiomecold2.statuseffect.json": 1,
               "ffbiomecold3.statuseffect.json": 1,
