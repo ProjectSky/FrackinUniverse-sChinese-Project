@@ -1296,6 +1296,7 @@
               "curvedagger.activeitem.json": 2,
               "cutedagger.activeitem.json": 2,
               "effigiumdagger.activeitem.json": 1,
+              "feneroxdagger.activeitem.json": 2,
               "fuatropusdagger.activeitem.json": 1,
               "fubonepickaxe.activeitem.json": 2,
               "fushadowdagger.activeitem.json": 2,
@@ -1323,6 +1324,7 @@
               "flaildurasteel.activeitem.json": 1,
               "flaileffigium.activeitem.json": 2,
               "flailiron.activeitem.json": 1,
+              "flailkirhos.activeitem.json": 1,
               "flaillunari.activeitem.json": 2,
               "flailtelebrium.activeitem.json": 2,
               "flailtitanium.activeitem.json": 1,
@@ -1556,6 +1558,7 @@
               "honeyscythe.activeitem.json": 2,
               "ironscythe.activeitem.json": 2,
               "irradiumscythe.activeitem.json": 2,
+              "kirhosscythe.activeitem.json": 2,
               "lunariscythe.activeitem.json": 2,
               "penumbralscythe.activeitem.json": 2,
               "predatorscythe.activeitem.json": 2,
@@ -2585,6 +2588,9 @@
           },
           "xenonpack": {
             "xenonpack.back.json": 2
+          },
+          "xiback2": {
+            "xiback.back.json": 2
           }
         },
         "bees": {
@@ -2915,7 +2921,7 @@
           },
           "ff_slimearmor": {
             "ff_slimearmor.chest.json": 1,
-            "ff_slimearmor.head.json": 1,
+            "ff_slimearmor.head.json": 2,
             "ff_slimearmor.legs.json": 1,
             "shared_ff_slimearmor..json": 1
           },
@@ -3069,7 +3075,7 @@
           },
           "ff_slimearmor2": {
             "ff_slimearmor2.chest.json": 1,
-            "ff_slimearmor2.head.json": 1,
+            "ff_slimearmor2.head.json": 2,
             "ff_slimearmor2.legs.json": 1,
             "shared_ff_slimearmor2..json": 1
           },
@@ -4069,6 +4075,7 @@
             "morphitebar.item.json": 2,
             "nocxiumbar.item.json": 2,
             "penumbriteshard.item.json": 2,
+            "precursoralloy.item.json": 2,
             "protocitebar.item.json": 2,
             "pyreitebar.item.json": 2,
             "quietusbar.item.json": 2,
@@ -6256,6 +6263,9 @@
         "shared_tentaclecometspore.json": 2
       },
       "unique": {
+        "fu_byosatmospheretemp": {
+          "fu_byosatmospheretemp.monstertype.json": 2
+        },
         "hbeamscriptbug": {
           "hbeamscriptbug.monstertype.json": 2
         },
@@ -7427,6 +7437,12 @@
       },
       "elduukhar": {
         "appleplush.object.json": 9,
+        "elduubannertiny": {
+          "elduubannertiny1.object.json": 1,
+          "elduubannertiny2.object.json": 1,
+          "elduubannertiny3.object.json": 1,
+          "shared_elduubannertiny.json": 1
+        },
         "elduubed": {
           "elduubed.object.json": 7
         },
@@ -7448,7 +7464,7 @@
         "elduudrawers.object.json": 8,
         "elduuendtable.object.json": 1,
         "elduufridge.object.json": 1,
-        "elduugemlamp.object.json": 3,
+        "elduugemlamp.object.json": 4,
         "elduuhammock": {
           "elduuhammock.object.json": 2
         },
@@ -7475,11 +7491,10 @@
         "shared_elduubanner": {
           "elduutornbannerlarge.object.json": 1,
           "elduutornrebelbannerlarge.object.json": 1,
-          "shared_.object.json": 4,
-          "shared_bannerlarge.object.json": 6,
+          "shared_.object.json": 10,
+          "shared_bannerlarge.object.json": 1,
           "shared_elduubanner.json": 2,
-          "shared_elduurebelbanner.json": 2,
-          "shared_rebelbanner.json": 1
+          "shared_elduurebelbanner.json": 2
         },
         "shared_elduuchest.json": 6,
         "shared_elduuconsole": {
@@ -7622,6 +7637,9 @@
         },
         "floweryellow": {
           "floweryellow.object.json": 4
+        },
+        "fu_scriptedfarmableexample": {
+          "fu_scriptedfarmableexample.object.json": 9
         },
         "garpberryseed": {
           "shared_garpberryseed.object.json": 2
@@ -8871,6 +8889,11 @@
         "fleshplants": {
           "shared_.object.json": 1
         },
+        "frozen": {
+          "shared_.object.json": 1,
+          "shared_iceceiling.json": 1,
+          "shared_icepillar.json": 2
+        },
         "frozencritter1.object.json": 2,
         "fungal": {
           "shared_.object.json": 2
@@ -9748,7 +9771,7 @@
           "tenebrhaeshipdoor.object.json": 2
         }
       },
-      "shared_.object.json": 33,
+      "shared_.object.json": 32,
       "shared_avali.json": 7,
       "shared_banner.json": 3,
       "shared_bed": {
@@ -9953,9 +9976,6 @@
         },
         "fu_byospethouse": {
           "fu_byospethouse.object.json": 9
-        },
-        "fu_byosshipdoor": {
-          "fu_byosshiphatch.object.json": 3
         },
         "fu_byosshiphatchbroken": {
           "fu_byosshiphatchBroken.object.json": 7
@@ -10378,12 +10398,13 @@
           "shared_shadowtechstation.json": 1
         },
         "shared_ship": {
-          "shared_shiphatch.json": 1
+          "shared_shiphatch.json": 1,
+          "shared_shiphatch.object.json": 6
         },
         "shared_shipdoor": {
           "shared_shipdoor.json": 9,
           "shared_shipdoor.object.json": 10,
-          "shared_shiphatch.object.json": 7
+          "shared_shiphatch.object.json": 4
         },
         "shared_shipdoorbroken": {
           "shared_shipdoorbroken.object.json": 3
@@ -11254,7 +11275,7 @@
         }
       },
       "zerchesium": {
-        "shared_zerchesiumlamp.json": 2,
+        "shared_zerchesiumlamp.json": 3,
         "zerchesiumbed": {
           "zerchesiumbed.object.json": 8
         },
@@ -12088,6 +12109,7 @@
             "shoggothsetbonuseffect.statuseffect.json": 1,
             "sirensetbonuseffect.statuseffect.json": 1,
             "slayersetbonuseffect.statuseffect.json": 1,
+            "slimesetbonuseffect.statuseffect.json": 1,
             "spacefarersetbonuseffect.statuseffect.json": 1,
             "spacefarersetbonuseffect2.statuseffect.json": 1,
             "stalkersetbonuseffect.statuseffect.json": 1,
@@ -13164,13 +13186,11 @@
         "newSail.config.json": 8
       },
       "questList": {
+        "data.config.json": 17,
         "questList.config.json": 2
       },
       "researchTree": {
         "researchTree.config.json": 2
-      },
-      "shared_quest": {
-        "data.config.json": 17
       },
       "updateInfoWindow": {
         "shared_updateInfoWindow.json": 1,
