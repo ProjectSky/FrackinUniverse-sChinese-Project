@@ -599,6 +599,9 @@
   "cinematics/respawn/veluu/respawncasual.cinematic": {
     "/panels/2/text": "texts/cinematics/respawn/shared_al.cinematic.json"
   },
+  "cinematics/respawn/veluu/respawnhardcore.cinematic": {
+    "/panels/2/text": "texts/cinematics/respawn/respawnhardcore.cinematic.json"
+  },
   "cinematics/respawn/veluu/respawnsurvival.cinematic": {
     "/panels/2/text": "texts/cinematics/respawn/respawnsurvival.cinematic.json"
   },
@@ -1761,12 +1764,19 @@
   "interface/objectcrafting/fu_atmosfilter5.config": {
     "/gui/lblText/value": "texts/interface/objectcrafting/shared_fu_atmosfilter.json"
   },
+  "interface/objectcrafting/fu_pethouse/fu_pethouse.config": {
+    "/gui/petName/hint": "texts/interface/objectcrafting/shared_fu_pet/shared_.config.json",
+    "/gui/title/text": "texts/shared_pethouse/shared_pethouse..json"
+  },
+  "interface/objectcrafting/fu_pethouse/fu_pethouse_confirmation.config": {
+    "/cancelCaption": "texts/interface.json"
+  },
   "interface/objectcrafting/fu_petnamer/fu_petnamer.config": {
-    "/gui/nameTextbox/hint": "texts/interface/objectcrafting/shared_fu_pet/shared_namer.config.json",
+    "/gui/nameTextbox/hint": "texts/interface/objectcrafting/shared_fu_pet/shared_.config.json",
     "/gui/toggleCrafting/caption": "texts/interface/objectcrafting/shared_fu_pet/shared_namer.config.json"
   },
   "interface/objectcrafting/fu_petrenamer/fu_petrenamer.config": {
-    "/gui/nameTextbox/hint": "texts/interface/objectcrafting/shared_fu_pet/shared_namer.config.json",
+    "/gui/nameTextbox/hint": "texts/interface/objectcrafting/shared_fu_pet/shared_.config.json",
     "/gui/toggleCrafting/caption": "texts/interface/objectcrafting/shared_fu_pet/shared_namer.config.json"
   },
   "interface/scripted/collections/collectionsgui.config": {
@@ -3716,12 +3726,6 @@
   "items/armors/tier0/shadowuniform/shadowuniform.legs": {
     "/description": "texts/items/armors/tier0/shared_uniform/shared_uniform.json"
   },
-  "items/armors/tier1/booster/kirhosbooster.chest": {
-    "/description": "texts/items/armors/tier1/booster/shared_kirhosbooster..json"
-  },
-  "items/armors/tier1/booster/kirhosbooster.legs": {
-    "/description": "texts/items/armors/tier1/booster/shared_kirhosbooster..json"
-  },
   "items/armors/tier1/fubonearmor/fubone.chest": {
     "/description": "texts/items/armors/tier1/fubonearmor/shared_fubone..json"
   },
@@ -3797,7 +3801,7 @@
   "items/armors/tier2/ff_slimearmor/ff_slimearmor.chest": {
     "/description": "texts/items/armors/tier2/ff_slimearmor/shared_ff_slimearmor..json"
   },
-  "items/armors/tier2/ff_slimearmor/ff_slimearmor.legs": {
+  "items/armors/tier2/ff_slimearmor/ff_slimearmor.head": {
     "/description": "texts/items/armors/tier2/ff_slimearmor/shared_ff_slimearmor..json"
   },
   "items/armors/tier2/fubonearmor2/fubone2.chest": {
@@ -3883,6 +3887,9 @@
   "items/armors/tier2/samurai/fusamuraiarmor.chest": {
     "/description": "texts/items/armors/tier2/samurai/shared_fusamuraiarmor..json"
   },
+  "items/armors/tier2/samurai/fusamuraiarmor.head": {
+    "/description": "texts/items/armors/tier2/samurai/shared_fusamuraiarmor..json"
+  },
   "items/armors/tier2/samurai/fusamuraiarmor.legs": {
     "/description": "texts/items/armors/tier2/samurai/shared_fusamuraiarmor..json"
   },
@@ -3918,9 +3925,6 @@
   },
   "items/armors/tier2/tw_spacesuit/tw_spacesuit.legs": {
     "/description": "texts/items/armors/tier2/tw_spacesuit/shared_tw_spacesuit..json"
-  },
-  "items/armors/tier2/tw_spacesuit/tw_spacesuitback.back": {
-    "/description": "texts/items/armors/shared_tier/shared_tw_space/shared_tw_space.json"
   },
   "items/armors/tier2/vagabond/deckardchest.chest": {
     "/description": "texts/items/armors/tier2/vagabond/shared_deckard.json"
@@ -4196,9 +4200,6 @@
   },
   "items/armors/tier3/tw_fieldresearch/tw_fieldresearch.legs": {
     "/description": "texts/items/armors/tier3/tw_fieldresearch.json"
-  },
-  "items/armors/tier3/tw_spacepunk/tw_spacepunk.back": {
-    "/description": "texts/items/armors/shared_tier/shared_tw_space/shared_tw_space.json"
   },
   "items/armors/tier3/tw_spacepunk/tw_spacepunk.chest": {
     "/description": "texts/items/armors/tier3/tw_spacepunk/shared_tw_spacepunk..json"
@@ -4755,15 +4756,6 @@
   },
   "items/armors/tier6/densiniumarmor/densinium.legs": {
     "/description": "texts/items/armors/tier6/densiniumarmor.json"
-  },
-  "items/armors/tier6/fuisogenarmor/fuisogen.chest": {
-    "/description": "texts/items/armors/tier6/fuisogenarmor/shared_fuisogen..json"
-  },
-  "items/armors/tier6/fuisogenarmor/fuisogen.head": {
-    "/description": "texts/items/armors/tier6/fuisogenarmor/shared_fuisogen..json"
-  },
-  "items/armors/tier6/fuisogenarmor/fuisogen.legs": {
-    "/description": "texts/items/armors/tier6/fuisogenarmor/shared_fuisogen..json"
   },
   "items/armors/tier6/fupyreitearmor/fupyreite.chest": {
     "/description": "texts/items/armors/tier6/fupyreitearmor/shared_fupyreite..json"
@@ -15313,6 +15305,30 @@
     "/description": "texts/shared_ect.json",
     "/shortdescription": "texts/objects/farmables/petrifiedroot/shared_petrifiedrootseed.object.json"
   },
+  "objects/farmables/phasefruit/phasefruitseed.object": {
+    "/apexDescription": "texts/objects/farmables/phasefruit/shared_phasefruitseed.json",
+    "/avianDescription": "texts/objects/farmables/phasefruit/shared_phasefruitseed.json",
+    "/description": "texts/objects/farmables/phasefruit/shared_phasefruitseed.json",
+    "/floranDescription": "texts/objects/farmables/phasefruit/shared_phasefruitseed.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/farmables/phasefruit/shared_phasefruitseed.json",
+    "/humanDescription": "texts/objects/farmables/phasefruit/shared_phasefruitseed.json",
+    "/hylotlDescription": "texts/objects/farmables/phasefruit/shared_phasefruitseed.json",
+    "/novakidDescription": "texts/objects/farmables/phasefruit/shared_phasefruitseed.json",
+    "/shortdescription": "texts/objects/farmables/phasefruit/shared_phasefruitseed.json"
+  },
+  "objects/farmables/phasefruit/wildphasefruitseed .object": {
+    "/apexDescription": "texts/objects/farmables/phasefruit/shared_phasefruitseed.json",
+    "/avianDescription": "texts/objects/farmables/phasefruit/shared_phasefruitseed.json",
+    "/description": "texts/objects/farmables/phasefruit/shared_phasefruitseed.json",
+    "/floranDescription": "texts/objects/farmables/phasefruit/shared_phasefruitseed.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/farmables/phasefruit/shared_phasefruitseed.json",
+    "/humanDescription": "texts/objects/farmables/phasefruit/shared_phasefruitseed.json",
+    "/hylotlDescription": "texts/objects/farmables/phasefruit/shared_phasefruitseed.json",
+    "/novakidDescription": "texts/objects/farmables/phasefruit/shared_phasefruitseed.json",
+    "/shortdescription": "texts/objects/farmables/phasefruit/shared_phasefruitseed.json"
+  },
   "objects/farmables/phosite/phositeseed.object": {
     "/apexDescription": "texts/objects/farmables/shared_seed.object.json",
     "/floranDescription": "texts/objects/farmables/shared_seed.object.json",
@@ -15328,6 +15344,30 @@
   "objects/farmables/pinkloom/wildpinkloomseed.object": {
     "/description": "texts/shared_ect.json",
     "/shortdescription": "texts/objects/farmables/pinkloom/shared_pinkloomseed.object.json"
+  },
+  "objects/farmables/plasmango/plasmangoseed.object": {
+    "/apexDescription": "texts/objects/farmables/plasmango/shared_plasmangoseed.object.json",
+    "/avianDescription": "texts/objects/farmables/plasmango/shared_plasmangoseed.object.json",
+    "/description": "texts/objects/farmables/plasmango/shared_plasmangoseed.object.json",
+    "/floranDescription": "texts/objects/farmables/plasmango/shared_plasmangoseed.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/farmables/plasmango/shared_plasmangoseed.object.json",
+    "/humanDescription": "texts/objects/farmables/plasmango/shared_plasmangoseed.object.json",
+    "/hylotlDescription": "texts/objects/farmables/plasmango/shared_plasmangoseed.object.json",
+    "/novakidDescription": "texts/objects/farmables/plasmango/shared_plasmangoseed.object.json",
+    "/shortdescription": "texts/objects/farmables/plasmango/shared_plasmangoseed.object.json"
+  },
+  "objects/farmables/plasmango/wildplasmangoseed.object": {
+    "/apexDescription": "texts/objects/farmables/plasmango/shared_plasmangoseed.object.json",
+    "/avianDescription": "texts/objects/farmables/plasmango/shared_plasmangoseed.object.json",
+    "/description": "texts/objects/farmables/plasmango/shared_plasmangoseed.object.json",
+    "/floranDescription": "texts/objects/farmables/plasmango/shared_plasmangoseed.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/farmables/plasmango/shared_plasmangoseed.object.json",
+    "/humanDescription": "texts/objects/farmables/plasmango/shared_plasmangoseed.object.json",
+    "/hylotlDescription": "texts/objects/farmables/plasmango/shared_plasmangoseed.object.json",
+    "/novakidDescription": "texts/objects/farmables/plasmango/shared_plasmangoseed.object.json",
+    "/shortdescription": "texts/objects/farmables/plasmango/shared_plasmangoseed.object.json"
   },
   "objects/farmables/poetree/poetree.object": {
     "/description": "texts/shared_ect.json",
@@ -15442,6 +15482,30 @@
   "objects/farmables/snowberry/wildfusnowberryseed.object": {
     "/description": "texts/shared_ect.json",
     "/shortdescription": "texts/wide_spread_fields.json"
+  },
+  "objects/farmables/solusberry/solusberryseed.object": {
+    "/apexDescription": "texts/objects/farmables/solusberry/shared_solusberryseed.object.json",
+    "/avianDescription": "texts/objects/farmables/solusberry/shared_solusberryseed.object.json",
+    "/description": "texts/objects/farmables/solusberry/shared_solusberryseed.object.json",
+    "/floranDescription": "texts/objects/farmables/solusberry/shared_solusberryseed.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/farmables/solusberry/shared_solusberryseed.object.json",
+    "/humanDescription": "texts/objects/farmables/solusberry/shared_solusberryseed.object.json",
+    "/hylotlDescription": "texts/objects/farmables/solusberry/shared_solusberryseed.object.json",
+    "/novakidDescription": "texts/objects/farmables/solusberry/shared_solusberryseed.object.json",
+    "/shortdescription": "texts/objects/farmables/solusberry/shared_solusberryseed.object.json"
+  },
+  "objects/farmables/solusberry/wildsolusberryseed.object": {
+    "/apexDescription": "texts/objects/farmables/solusberry/shared_solusberryseed.object.json",
+    "/avianDescription": "texts/objects/farmables/solusberry/shared_solusberryseed.object.json",
+    "/description": "texts/objects/farmables/solusberry/shared_solusberryseed.object.json",
+    "/floranDescription": "texts/objects/farmables/solusberry/shared_solusberryseed.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/farmables/solusberry/shared_solusberryseed.object.json",
+    "/humanDescription": "texts/objects/farmables/solusberry/shared_solusberryseed.object.json",
+    "/hylotlDescription": "texts/objects/farmables/solusberry/shared_solusberryseed.object.json",
+    "/novakidDescription": "texts/objects/farmables/solusberry/shared_solusberryseed.object.json",
+    "/shortdescription": "texts/objects/farmables/solusberry/shared_solusberryseed.object.json"
   },
   "objects/farmables/soulleaf/fusoulleafseed.object": {
     "/description": "texts/shared_ect.json"
@@ -15584,6 +15648,30 @@
   "objects/farmables/victorbush/victorbush.object": {
     "/description": "texts/shared_ect.json",
     "/shortdescription": "texts/shared_ect.json"
+  },
+  "objects/farmables/violiroot/violirootseed.object": {
+    "/apexDescription": "texts/objects/farmables/violiroot/shared_violirootseed.object.json",
+    "/avianDescription": "texts/objects/farmables/violiroot/shared_violirootseed.object.json",
+    "/description": "texts/objects/farmables/violiroot/shared_violirootseed.object.json",
+    "/floranDescription": "texts/objects/farmables/violiroot/shared_violirootseed.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/farmables/violiroot/shared_violirootseed.object.json",
+    "/humanDescription": "texts/objects/farmables/violiroot/shared_violirootseed.object.json",
+    "/hylotlDescription": "texts/objects/farmables/violiroot/shared_violirootseed.object.json",
+    "/novakidDescription": "texts/objects/farmables/violiroot/shared_violirootseed.object.json",
+    "/shortdescription": "texts/objects/farmables/violiroot/shared_violirootseed.object.json"
+  },
+  "objects/farmables/violiroot/wildviolirootseed.object": {
+    "/apexDescription": "texts/objects/farmables/violiroot/shared_violirootseed.object.json",
+    "/avianDescription": "texts/objects/farmables/violiroot/shared_violirootseed.object.json",
+    "/description": "texts/objects/farmables/violiroot/shared_violirootseed.object.json",
+    "/floranDescription": "texts/objects/farmables/violiroot/shared_violirootseed.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/farmables/violiroot/shared_violirootseed.object.json",
+    "/humanDescription": "texts/objects/farmables/violiroot/shared_violirootseed.object.json",
+    "/hylotlDescription": "texts/objects/farmables/violiroot/shared_violirootseed.object.json",
+    "/novakidDescription": "texts/objects/farmables/violiroot/shared_violirootseed.object.json",
+    "/shortdescription": "texts/objects/farmables/violiroot/shared_violirootseed.object.json"
   },
   "objects/farmables/whitespine/whitespine.object": {
     "/description": "texts/shared_ect.json",
@@ -20904,7 +20992,8 @@
   },
   "objects/ship/fu_byospethouse/fu_byospethouse.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_byospethouse/fu_byospethouse.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_byospethouse/fu_byospethouse.object.json",
+    "/shortdescription": "texts/shared_pethouse/shared_pethouse..json"
   },
   "objects/ship/fu_byosshipdoor/fu_byosshipdoor.object": {
     "/apexDescription": "texts/objects/ship/shared_shipdoor/shared_shipdoor.object.json",
@@ -21008,7 +21097,7 @@
     "/humanDescription": "texts/objects/ship/shared_techstation/shared_techstation.json",
     "/hylotlDescription": "texts/objects/ship/shared_techstation/shared_techstation.json",
     "/novakidDescription": "texts/objects/ship/shared_techstation/shared_techstation.json",
-    "/shortdescription": "texts/objects/ship/fu_byostechstation/shared_fu_byostechstation.json"
+    "/shortdescription": "texts/objects/ship/shared_techstation/shared_techstation.json"
   },
   "objects/ship/fu_byostechstation/fu_byostechstationdeco.object": {
     "/apexDescription": "texts/objects/ship/shared_techstation/shared_techstation.json",
@@ -21019,7 +21108,7 @@
     "/humanDescription": "texts/objects/ship/shared_techstation/shared_techstation.json",
     "/hylotlDescription": "texts/objects/ship/shared_techstation/shared_techstation.json",
     "/novakidDescription": "texts/objects/ship/shared_techstation/shared_techstation.json",
-    "/shortdescription": "texts/objects/ship/fu_byostechstation/shared_fu_byostechstation.json"
+    "/shortdescription": "texts/objects/ship/shared_techstation/shared_techstation.json"
   },
   "objects/ship/fu_byostechstationTier0/fu_byostechstationTier0.object": {
     "/apexDescription": "texts/objects/ship/shared_techstation/shared_techstation.json",
@@ -21260,8 +21349,7 @@
     "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_techstation/shared_techstation.json",
     "/humanDescription": "texts/objects/ship/shared_techstation/shared_techstation.json",
     "/hylotlDescription": "texts/objects/ship/shared_techstation/shared_techstation.json",
-    "/novakidDescription": "texts/objects/ship/shared_techstation/shared_techstation.object.json",
-    "/shortdescription": "texts/objects/ship/shared_fu_sciencetechstationhuman/shared_fu_sciencetechstation.json"
+    "/novakidDescription": "texts/objects/ship/shared_techstation/shared_techstation.object.json"
   },
   "objects/ship/fu_sciencetechstationhumanTier0/fu_sciencetechstationTier0.object": {
     "/apexDescription": "texts/objects/ship/shared_techstation/shared_techstation.json",
@@ -21294,8 +21382,7 @@
     "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_techstation/shared_techstation.json",
     "/humanDescription": "texts/objects/ship/shared_techstation/shared_techstation.json",
     "/hylotlDescription": "texts/objects/ship/shared_techstation/shared_techstation.json",
-    "/novakidDescription": "texts/objects/ship/shared_techstation/shared_techstation.json",
-    "/shortdescription": "texts/objects/ship/shared_fu_sciencetechstationhuman/shared_fu_sciencetechstation.json"
+    "/novakidDescription": "texts/objects/ship/shared_techstation/shared_techstation.json"
   },
   "objects/ship/fu_smallthruster/fu_smallthruster.object": {
     "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
@@ -22055,7 +22142,7 @@
     "/humanDescription": "texts/objects/ship/shared_techstation/shared_techstation.json",
     "/hylotlDescription": "texts/objects/ship/shared_techstation/shared_techstation.json",
     "/novakidDescription": "texts/objects/ship/shared_techstation/shared_techstation.object.json",
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/shortdescription": "texts/objects/ship/shared_techstation/shared_techstation.json"
   },
   "objects/ship/veluucaptainschair/veluucaptainschair.object": {
     "/apexDescription": "texts/objects/ship/shared_captain/shared_captain.json",
@@ -24257,8 +24344,31 @@
     "/charGenTextLabels/9": "texts/species/shared_.species.json"
   },
   "species/catnamegen.config": {
+    "/names/1/1/1": "texts/species/shared_namegen.config.json",
+    "/names/1/1/10": "texts/species/shared_namegen.config.json",
+    "/names/1/1/11": "texts/species/shared_namegen.config.json",
+    "/names/1/1/12": "texts/species/shared_namegen.config.json",
     "/names/1/1/13": "texts/species/shared_namegen.config.json",
+    "/names/1/1/14": "texts/species/shared_namegen.config.json",
+    "/names/1/1/15": "texts/species/shared_namegen.config.json",
+    "/names/1/1/16": "texts/species/shared_namegen.config.json",
+    "/names/1/1/17": "texts/species/shared_namegen.config.json",
+    "/names/1/1/18": "texts/species/shared_namegen.config.json",
+    "/names/1/1/19": "texts/species/shared_namegen.config.json",
     "/names/1/1/2": "texts/species/shared_namegen.config.json",
+    "/names/1/1/20": "texts/species/shared_namegen.config.json",
+    "/names/1/1/21": "texts/species/shared_namegen.config.json",
+    "/names/1/1/22": "texts/species/shared_namegen.config.json",
+    "/names/1/1/23": "texts/species/shared_namegen.config.json",
+    "/names/1/1/24": "texts/species/shared_namegen.config.json",
+    "/names/1/1/25": "texts/species/shared_namegen.config.json",
+    "/names/1/1/26": "texts/species/shared_namegen.config.json",
+    "/names/1/1/27": "texts/species/shared_namegen.config.json",
+    "/names/1/1/28": "texts/species/shared_namegen.config.json",
+    "/names/1/1/29": "texts/species/shared_namegen.config.json",
+    "/names/1/1/3": "texts/species/shared_namegen.config.json",
+    "/names/1/1/30": "texts/species/shared_namegen.config.json",
+    "/names/1/1/31": "texts/species/shared_namegen.config.json",
     "/names/1/1/32": "texts/species/shared_namegen.config.json",
     "/names/1/1/33": "texts/species/shared_namegen.config.json",
     "/names/1/1/34": "texts/species/shared_namegen.config.json",
@@ -24267,6 +24377,7 @@
     "/names/1/1/37": "texts/species/shared_namegen.config.json",
     "/names/1/1/38": "texts/species/shared_namegen.config.json",
     "/names/1/1/39": "texts/species/shared_namegen.config.json",
+    "/names/1/1/4": "texts/species/shared_namegen.config.json",
     "/names/1/1/40": "texts/species/shared_namegen.config.json",
     "/names/1/1/41": "texts/species/shared_namegen.config.json",
     "/names/1/1/42": "texts/species/shared_namegen.config.json",
@@ -24277,39 +24388,69 @@
     "/names/1/1/47": "texts/species/shared_namegen.config.json",
     "/names/1/1/48": "texts/species/shared_namegen.config.json",
     "/names/1/1/49": "texts/species/shared_namegen.config.json",
+    "/names/1/1/5": "texts/species/shared_namegen.config.json",
     "/names/1/1/50": "texts/species/shared_namegen.config.json",
     "/names/1/1/51": "texts/species/shared_namegen.config.json",
-    "/names/1/1/52": "texts/species/shared_namegen.config.json",
     "/names/1/1/53": "texts/species/shared_namegen.config.json",
-    "/names/1/1/54": "texts/species/shared_namegen.config.json",
-    "/names/1/1/55": "texts/species/shared_namegen.config.json",
-    "/names/1/1/56": "texts/species/shared_namegen.config.json",
-    "/names/1/1/57": "texts/species/shared_namegen.config.json",
-    "/names/1/1/58": "texts/species/shared_namegen.config.json",
-    "/names/1/1/59": "texts/species/shared_namegen.config.json",
-    "/names/1/1/60": "texts/species/shared_namegen.config.json",
-    "/names/1/1/61": "texts/species/shared_namegen.config.json",
-    "/names/1/1/62": "texts/species/shared_namegen.config.json",
-    "/names/1/1/63": "texts/species/shared_namegen.config.json",
+    "/names/1/1/6": "texts/species/shared_namegen.config.json",
     "/names/1/1/64": "texts/species/shared_namegen.config.json",
-    "/names/1/1/65": "texts/species/shared_namegen.config.json",
-    "/names/1/1/66": "texts/species/shared_namegen.config.json",
-    "/names/1/1/67": "texts/species/shared_namegen.config.json",
-    "/names/1/1/68": "texts/species/shared_namegen.config.json",
-    "/names/1/1/69": "texts/species/shared_namegen.config.json",
-    "/names/1/1/70": "texts/species/shared_namegen.config.json",
-    "/names/1/1/71": "texts/species/shared_namegen.config.json",
-    "/names/1/1/72": "texts/species/shared_namegen.config.json",
-    "/names/1/1/73": "texts/species/shared_namegen.config.json",
-    "/names/1/1/74": "texts/species/shared_namegen.config.json",
-    "/names/1/1/75": "texts/species/shared_namegen.config.json",
-    "/names/1/1/76": "texts/species/shared_namegen.config.json",
-    "/names/1/1/77": "texts/species/shared_namegen.config.json",
-    "/names/1/1/78": "texts/species/shared_namegen.config.json",
-    "/names/1/1/79": "texts/species/shared_namegen.config.json",
-    "/names/1/1/80": "texts/species/shared_namegen.config.json",
-    "/names/1/1/81": "texts/species/shared_namegen.config.json",
-    "/names/1/1/82": "texts/species/shared_namegen.config.json"
+    "/names/1/1/7": "texts/species/shared_namegen.config.json",
+    "/names/1/1/8": "texts/species/shared_namegen.config.json",
+    "/names/1/1/9": "texts/species/shared_namegen.config.json",
+    "/names/1/2/1": "texts/species/shared_namegen.config.json",
+    "/names/1/2/10": "texts/species/shared_namegen.config.json",
+    "/names/1/2/11": "texts/species/shared_namegen.config.json",
+    "/names/1/2/12": "texts/species/shared_namegen.config.json",
+    "/names/1/2/13": "texts/species/shared_namegen.config.json",
+    "/names/1/2/14": "texts/species/shared_namegen.config.json",
+    "/names/1/2/15": "texts/species/shared_namegen.config.json",
+    "/names/1/2/16": "texts/species/shared_namegen.config.json",
+    "/names/1/2/17": "texts/species/shared_namegen.config.json",
+    "/names/1/2/18": "texts/species/shared_namegen.config.json",
+    "/names/1/2/19": "texts/species/shared_namegen.config.json",
+    "/names/1/2/2": "texts/species/shared_namegen.config.json",
+    "/names/1/2/20": "texts/species/shared_namegen.config.json",
+    "/names/1/2/21": "texts/species/shared_namegen.config.json",
+    "/names/1/2/22": "texts/species/shared_namegen.config.json",
+    "/names/1/2/23": "texts/species/shared_namegen.config.json",
+    "/names/1/2/24": "texts/species/shared_namegen.config.json",
+    "/names/1/2/25": "texts/species/shared_namegen.config.json",
+    "/names/1/2/26": "texts/species/shared_namegen.config.json",
+    "/names/1/2/27": "texts/species/shared_namegen.config.json",
+    "/names/1/2/28": "texts/species/shared_namegen.config.json",
+    "/names/1/2/29": "texts/species/shared_namegen.config.json",
+    "/names/1/2/3": "texts/species/shared_namegen.config.json",
+    "/names/1/2/30": "texts/species/shared_namegen.config.json",
+    "/names/1/2/31": "texts/species/shared_namegen.config.json",
+    "/names/1/2/32": "texts/species/shared_namegen.config.json",
+    "/names/1/2/33": "texts/species/shared_namegen.config.json",
+    "/names/1/2/34": "texts/species/shared_namegen.config.json",
+    "/names/1/2/35": "texts/species/shared_namegen.config.json",
+    "/names/1/2/36": "texts/species/shared_namegen.config.json",
+    "/names/1/2/37": "texts/species/shared_namegen.config.json",
+    "/names/1/2/38": "texts/species/shared_namegen.config.json",
+    "/names/1/2/39": "texts/species/shared_namegen.config.json",
+    "/names/1/2/4": "texts/species/shared_namegen.config.json",
+    "/names/1/2/40": "texts/species/shared_namegen.config.json",
+    "/names/1/2/41": "texts/species/shared_namegen.config.json",
+    "/names/1/2/42": "texts/species/shared_namegen.config.json",
+    "/names/1/2/43": "texts/species/shared_namegen.config.json",
+    "/names/1/2/44": "texts/species/shared_namegen.config.json",
+    "/names/1/2/45": "texts/species/shared_namegen.config.json",
+    "/names/1/2/46": "texts/species/shared_namegen.config.json",
+    "/names/1/2/47": "texts/species/shared_namegen.config.json",
+    "/names/1/2/48": "texts/species/shared_namegen.config.json",
+    "/names/1/2/49": "texts/species/shared_namegen.config.json",
+    "/names/1/2/5": "texts/species/shared_namegen.config.json",
+    "/names/1/2/50": "texts/species/shared_namegen.config.json",
+    "/names/1/2/51": "texts/species/shared_namegen.config.json",
+    "/names/1/2/52": "texts/species/shared_namegen.config.json",
+    "/names/1/2/53": "texts/species/shared_namegen.config.json",
+    "/names/1/2/54": "texts/species/shared_namegen.config.json",
+    "/names/1/2/6": "texts/species/shared_namegen.config.json",
+    "/names/1/2/7": "texts/species/shared_namegen.config.json",
+    "/names/1/2/8": "texts/species/shared_namegen.config.json",
+    "/names/1/2/9": "texts/species/shared_namegen.config.json"
   },
   "species/elduukhar.species": {
     "/charGenTextLabels/2": "texts/species/shared_.species.json",
@@ -27854,7 +27995,61 @@
     "/names/1/1/6": "texts/species/shared_namegen.config.json",
     "/names/1/1/7": "texts/species/shared_namegen.config.json",
     "/names/1/1/8": "texts/species/shared_namegen.config.json",
-    "/names/1/1/9": "texts/species/shared_namegen.config.json"
+    "/names/1/1/9": "texts/species/shared_namegen.config.json",
+    "/names/1/2/1": "texts/species/shared_namegen.config.json",
+    "/names/1/2/10": "texts/species/shared_namegen.config.json",
+    "/names/1/2/11": "texts/species/shared_namegen.config.json",
+    "/names/1/2/12": "texts/species/shared_namegen.config.json",
+    "/names/1/2/13": "texts/species/shared_namegen.config.json",
+    "/names/1/2/14": "texts/species/shared_namegen.config.json",
+    "/names/1/2/15": "texts/species/shared_namegen.config.json",
+    "/names/1/2/16": "texts/species/shared_namegen.config.json",
+    "/names/1/2/17": "texts/species/shared_namegen.config.json",
+    "/names/1/2/18": "texts/species/shared_namegen.config.json",
+    "/names/1/2/19": "texts/species/shared_namegen.config.json",
+    "/names/1/2/2": "texts/species/shared_namegen.config.json",
+    "/names/1/2/20": "texts/species/shared_namegen.config.json",
+    "/names/1/2/21": "texts/species/shared_namegen.config.json",
+    "/names/1/2/22": "texts/species/shared_namegen.config.json",
+    "/names/1/2/23": "texts/species/shared_namegen.config.json",
+    "/names/1/2/24": "texts/species/shared_namegen.config.json",
+    "/names/1/2/25": "texts/species/shared_namegen.config.json",
+    "/names/1/2/26": "texts/species/shared_namegen.config.json",
+    "/names/1/2/27": "texts/species/shared_namegen.config.json",
+    "/names/1/2/28": "texts/species/shared_namegen.config.json",
+    "/names/1/2/29": "texts/species/shared_namegen.config.json",
+    "/names/1/2/3": "texts/species/shared_namegen.config.json",
+    "/names/1/2/30": "texts/species/shared_namegen.config.json",
+    "/names/1/2/31": "texts/species/shared_namegen.config.json",
+    "/names/1/2/32": "texts/species/shared_namegen.config.json",
+    "/names/1/2/33": "texts/species/shared_namegen.config.json",
+    "/names/1/2/34": "texts/species/shared_namegen.config.json",
+    "/names/1/2/35": "texts/species/shared_namegen.config.json",
+    "/names/1/2/36": "texts/species/shared_namegen.config.json",
+    "/names/1/2/37": "texts/species/shared_namegen.config.json",
+    "/names/1/2/38": "texts/species/shared_namegen.config.json",
+    "/names/1/2/39": "texts/species/shared_namegen.config.json",
+    "/names/1/2/4": "texts/species/shared_namegen.config.json",
+    "/names/1/2/40": "texts/species/shared_namegen.config.json",
+    "/names/1/2/41": "texts/species/shared_namegen.config.json",
+    "/names/1/2/42": "texts/species/shared_namegen.config.json",
+    "/names/1/2/43": "texts/species/shared_namegen.config.json",
+    "/names/1/2/44": "texts/species/shared_namegen.config.json",
+    "/names/1/2/45": "texts/species/shared_namegen.config.json",
+    "/names/1/2/46": "texts/species/shared_namegen.config.json",
+    "/names/1/2/47": "texts/species/shared_namegen.config.json",
+    "/names/1/2/48": "texts/species/shared_namegen.config.json",
+    "/names/1/2/49": "texts/species/shared_namegen.config.json",
+    "/names/1/2/5": "texts/species/shared_namegen.config.json",
+    "/names/1/2/50": "texts/species/shared_namegen.config.json",
+    "/names/1/2/51": "texts/species/shared_namegen.config.json",
+    "/names/1/2/52": "texts/species/shared_namegen.config.json",
+    "/names/1/2/53": "texts/species/shared_namegen.config.json",
+    "/names/1/2/54": "texts/species/shared_namegen.config.json",
+    "/names/1/2/6": "texts/species/shared_namegen.config.json",
+    "/names/1/2/7": "texts/species/shared_namegen.config.json",
+    "/names/1/2/8": "texts/species/shared_namegen.config.json",
+    "/names/1/2/9": "texts/species/shared_namegen.config.json"
   },
   "stats/effects/augments/berserker.statuseffect": {
     "/label": "texts/stats/effects/augments/shared_berserker.statuseffect.json"

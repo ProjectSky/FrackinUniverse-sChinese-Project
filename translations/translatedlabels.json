@@ -383,6 +383,7 @@
         "kirhos4.codex.json": 1,
         "kirhos5.codex.json": 1,
         "kirhos6.codex.json": 1,
+        "kirhos7.codex.json": 0,
         "shared_kirhos.json": 1
       },
       "legacy_codex": {
@@ -672,13 +673,18 @@
       "objectcrafting": {
         "aex.config.json": 2,
         "coffeemachine.config.json": 2,
+        "fu_pethouse": {
+          "fu_pethouse.config.json": 0,
+          "fu_pethouse_confirmation.config.json": 0
+        },
         "fu_precursorspawner.config.json": 0,
         "fu_racialiser": {
           "fu_racialiser.config.json": 1
         },
         "shared_fu_atmosfilter.json": 1,
         "shared_fu_pet": {
-          "shared_namer.config.json": 2
+          "shared_.config.json": 1,
+          "shared_namer.config.json": 1
         }
       },
       "scripted": {
@@ -2402,6 +2408,9 @@
               "tritaniumstaff.activeitem.json": 2,
               "xithricitestaff.activeitem.json": 2
             },
+            "poopstaff": {
+              "poopstaff.activeitem.json": 0
+            },
             "radienstaff": {
               "radienstaff.activeitem.json": 0
             },
@@ -2626,6 +2635,9 @@
           "tribalfeathers": {
             "tribalfeathers.back.json": 2
           },
+          "tw_spacesuitback": {
+            "tw_spacesuitback.back.json": 0
+          },
           "xenonpack": {
             "xenonpack.back.json": 2
           },
@@ -2832,11 +2844,6 @@
         "shared_slimenoble": {
           "shared_slimenoble.json": 0
         },
-        "shared_tier": {
-          "shared_tw_space": {
-            "shared_tw_space.json": 1
-          }
-        },
         "slimeperson": {
           "slimeperson-invisible": {
             "invisible.head.json": 0
@@ -2949,42 +2956,41 @@
         },
         "tier1": {
           "armoredsnowpants": {
-            "armoredsnowpants.legs.json": 2
+            "armoredsnowpants.legs.json": 1
           },
           "booster": {
             "kirhosbooster.chest.json": 1,
-            "kirhosbooster.legs.json": 1,
-            "shared_kirhosbooster..json": 1
+            "kirhosbooster.legs.json": 1
           },
           "fubonearmor": {
             "fubone.chest.json": 1,
             "fubone.head.json": 1,
             "fubone.legs.json": 1,
-            "shared_fubone..json": 1
+            "shared_fubone..json": 0
           },
           "leatherarmor": {
             "leatherarmor.chest.json": 1,
             "leatherarmor.head.json": 1,
             "leatherarmor.legs.json": 1,
-            "shared_leatherarmor..json": 1
+            "shared_leatherarmor..json": 0
           },
           "missionary": {
-            "missionaryrobe.chest.json": 1,
-            "missionaryrobe.head.json": 1,
-            "missionaryrobe.legs.json": 1,
+            "missionaryrobe.chest.json": 0,
+            "missionaryrobe.head.json": 0,
+            "missionaryrobe.legs.json": 0,
             "shared_missionaryrobe..json": 0
           },
           "plebeian": {
             "mantizitier1.chest.json": 1,
             "mantizitier1.head.json": 1,
             "mantizitier1.legs.json": 1,
-            "shared_mantizitier1..json": 1
+            "shared_mantizitier1..json": 0
           },
           "underworld": {
             "kirhostier1.chest.json": 1,
             "kirhostier1.head.json": 1,
             "kirhostier1.legs.json": 1,
-            "shared_kirhostier1..json": 1
+            "shared_kirhostier1..json": 0
           }
         },
         "tier2": {
@@ -2992,16 +2998,16 @@
             "beararmor.chest.json": 1,
             "beararmor.head.json": 1,
             "beararmor.legs.json": 1,
-            "shared_beararmor..json": 1
+            "shared_beararmor..json": 0
           },
           "blisterarmor": {
             "blisterarmor.chest.json": 1,
             "blisterarmor.head.json": 1,
             "blisterarmor.legs.json": 1,
-            "shared_blisterarmor..json": 1
+            "shared_blisterarmor..json": 0
           },
           "fangshaman": {
-            "shared_wolf..json": 1,
+            "shared_wolf..json": 0,
             "wolf.chest.json": 1,
             "wolf.head.json": 1,
             "wolf.legs.json": 1
@@ -3016,65 +3022,65 @@
             "fubone2.chest.json": 1,
             "fubone2.head.json": 1,
             "fubone2.legs.json": 1,
-            "shared_fubone2..json": 1
+            "shared_fubone2..json": 0
           },
           "furecon": {
             "furecon.chest.json": 1,
             "furecon.head.json": 1,
             "furecon.legs.json": 1,
-            "shared_furecon..json": 1
+            "shared_furecon..json": 0
           },
           "hacker": {
             "kirhostier2.chest.json": 1,
             "kirhostier2.head.json": 1,
             "kirhostier2.legs.json": 1,
-            "shared_kirhostier2..json": 1
+            "shared_kirhostier2..json": 0
           },
           "lunariarmor": {
             "lunari.chest.json": 1,
             "lunari.head.json": 1,
             "lunari.legs.json": 1,
-            "shared_lunari..json": 1
+            "shared_lunari..json": 0
           },
           "mantiziroyalguard": {
             "royalguard.chest.json": 1,
             "royalguard.head.json": 1,
             "royalguard.legs.json": 1,
-            "shared_royalguard..json": 1
+            "shared_royalguard..json": 0
           },
           "mantiziroyalguardornate": {
             "royalguardornate.chest.json": 1,
             "royalguardornate.head.json": 1,
             "royalguardornate.legs.json": 1,
-            "shared_royalguardornate..json": 1
+            "shared_royalguardornate..json": 0
           },
           "militia": {
             "mantizitier2.chest.json": 1,
-            "mantizitier2.head.json": 2,
+            "mantizitier2.head.json": 1,
             "mantizitier2.legs.json": 1,
-            "shared_mantizitier2..json": 1
+            "shared_mantizitier2..json": 0
           },
           "nomad": {
             "fudesertwalker.chest.json": 1,
             "fudesertwalker.head.json": 1,
             "fudesertwalker.legs.json": 1,
-            "shared_fudesertwalker..json": 1
+            "shared_fudesertwalker..json": 0
           },
           "operative": {
             "fuoperative.head.json": 1,
-            "shared_fuoperative..json": 1
+            "shared_fuoperative..json": 0
           },
           "samurai": {
             "fusamuraiarmor.chest.json": 1,
-            "fusamuraiarmor.head.json": 2,
+            "fusamuraiarmor.head.json": 1,
             "fusamuraiarmor.legs.json": 1,
-            "shared_fusamuraiarmor..json": 1
+            "shared_fusamuraiarmor..json": 0
           },
           "sanguine": {
             "bloodgarb.chest.json": 1,
             "bloodgarb.head.json": 1,
             "bloodgarb.legs.json": 1,
-            "shared_bloodgarb..json": 1
+            "shared_bloodgarb..json": 0
           },
           "shellplate": {
             "shared_test1..json": 0,
@@ -3086,20 +3092,19 @@
             "cannoneer.chest.json": 1,
             "cannoneer.head.json": 1,
             "cannoneer.legs.json": 1,
-            "shared_cannoneer..json": 1
+            "shared_cannoneer..json": 0
           },
           "tw_spacesuit": {
-            "shared_tw_spacesuit..json": 1,
+            "shared_tw_spacesuit..json": 0,
             "tw_spacesuit.chest.json": 1,
-            "tw_spacesuit.head.json": 2,
-            "tw_spacesuit.legs.json": 1,
-            "tw_spacesuitback.back.json": 1
+            "tw_spacesuit.head.json": 1,
+            "tw_spacesuit.legs.json": 1
           },
           "vagabond": {
             "deckardchest.chest.json": 1,
             "deckardhead.head.json": 1,
             "deckardpants.legs.json": 1,
-            "shared_deckard.json": 1
+            "shared_deckard.json": 0
           }
         },
         "tier3": {
@@ -3280,7 +3285,7 @@
           "tw_fieldresearch.json": 2,
           "tw_spacepunk": {
             "shared_tw_spacepunk..json": 1,
-            "tw_spacepunk.back.json": 1,
+            "tw_spacepunk.back.json": 2,
             "tw_spacepunk.chest.json": 1,
             "tw_spacepunk.head.json": 2,
             "tw_spacepunk.legs.json": 1
@@ -3303,7 +3308,7 @@
             "agilitysuit.chest.json": 1,
             "agilitysuit.head.json": 1,
             "agilitysuit.legs.json": 1,
-            "shared_agilitysuit..json": 1
+            "shared_agilitysuit..json": 0
           },
           "bearenhanced": {
             "beararmor2.chest.json": 1,
@@ -3669,8 +3674,7 @@
           "fuisogenarmor": {
             "fuisogen.chest.json": 1,
             "fuisogen.head.json": 1,
-            "fuisogen.legs.json": 1,
-            "shared_fuisogen..json": 1
+            "fuisogen.legs.json": 1
           },
           "fupyreitearmor": {
             "fupyreite.chest.json": 1,
@@ -4585,6 +4589,9 @@
           "fupestcooked.consumable.json": 2,
           "fusoggypaper.consumable.json": 2,
           "fusushi.consumable.json": 2,
+          "glowburger": {
+            "glowburger.consumable.json": 0
+          },
           "gorgecake.consumable.json": 2,
           "greghead.consumable.json": 2,
           "grilledsneeze.consumable.json": 2,
@@ -4602,6 +4609,12 @@
           "murdermeatmysterybox.consumable.json": 2,
           "oilstew.consumable.json": 2,
           "pancakes.consumable.json": 2,
+          "phaseshake": {
+            "phaseshake.consumable.json": 0
+          },
+          "plasmangoicecream": {
+            "plasmangoicecream.consumable.json": 0
+          },
           "poutine.consumable.json": 2,
           "protopancakes.consumable.json": 2,
           "pyreitecurry.consumable.json": 2,
@@ -4614,6 +4627,12 @@
           "slew4.consumable.json": 1,
           "sludgecone.consumable.json": 2,
           "solariumbiscuit.consumable.json": 2,
+          "solstew": {
+            "solstew.consumable.json": 0
+          },
+          "solusjam": {
+            "solusjam.consumable.json": 0
+          },
           "sourmilkandbees.consumable.json": 2,
           "spicebol.consumable.json": 2,
           "stuffeddunebun.consumable.json": 2,
@@ -4621,7 +4640,13 @@
           "tearnutbuttersandwich.consumable.json": 2,
           "tofu.consumable.json": 2,
           "toxicsludge.consumable.json": 2,
+          "uberdinner": {
+            "uberdinner.consumable.json": 0
+          },
           "vakkisalad.consumable.json": 2,
+          "violirootplate": {
+            "violirootplate.consumable.json": 0
+          },
           "yettas.consumable.json": 1
         },
         "honeyextractor": {
@@ -4849,7 +4874,7 @@
           "avikanspices.item.json": 2,
           "beetlesproutflower.consumable.json": 2,
           "biscorn.consumable.json": 1,
-          "blexsap.consumable.json": 2,
+          "blexsap.consumable.json": 1,
           "blisterbushplantfood.consumable.json": 1,
           "blizzberry.consumable.json": 1,
           "bloodroot.consumable.json": 1,
@@ -4880,7 +4905,7 @@
           "goldenseasponge.consumable.json": 2,
           "greenleaf.consumable.json": 2,
           "guam.consumable.json": 2,
-          "haleflowerpetal.consumable.json": 2,
+          "haleflowerpetal.consumable.json": 1,
           "ighantbulb.consumable.json": 2,
           "ise3": {
             "aenemapetal.consumable.json": 2,
@@ -4908,7 +4933,7 @@
           "minkocoapod.consumable.json": 2,
           "mint.consumable.json": 1,
           "miraclegrass.consumable.json": 2,
-          "mireurchin.consumable.json": 2,
+          "mireurchin.consumable.json": 1,
           "nailery.consumable.json": 1,
           "neuropod.consumable.json": 2,
           "nisscap.consumable.json": 2,
@@ -4920,7 +4945,13 @@
           "pearlfruit.consumable.json": 2,
           "pekkit.consumable.json": 1,
           "petrifiedroot.consumable.json": 2,
+          "phasefruit": {
+            "phasefruit.consumable.json": 0
+          },
           "pinkloom.consumable.json": 2,
+          "plasmango": {
+            "plasmango.consumable.json": 0
+          },
           "porphisblossom.consumable.json": 2,
           "rockroot.consumable.json": 1,
           "shadowroot.consumable.json": 1,
@@ -4929,6 +4960,9 @@
           "shoggothessence.consumable.json": 2,
           "silverleaf.consumable.json": 2,
           "slimeleaf.consumable.json": 2,
+          "solusberry": {
+            "solusberry.consumable.json": 0
+          },
           "springvaultcoil.consumable.json": 2,
           "stranglevineroot.consumable.json": 1,
           "sweetscoop.consumable.json": 1,
@@ -4945,6 +4979,9 @@
           "varanberry.consumable.json": 2,
           "vashtaclaw.consumable.json": 2,
           "vextonguestamen.consumable.json": 2,
+          "violiroot": {
+            "violiroot.consumable.json": 0
+          },
           "voritcap.consumable.json": 2,
           "wretchel.consumable.json": 2,
           "wubstem.consumable.json": 1,
@@ -7869,11 +7906,17 @@
         "petrifiedroot": {
           "shared_petrifiedrootseed.object.json": 1
         },
+        "phasefruit": {
+          "shared_phasefruitseed.json": 0
+        },
         "phosite": {
           "phositeseed.object.json": 0
         },
         "pinkloom": {
           "shared_pinkloomseed.object.json": 1
+        },
+        "plasmango": {
+          "shared_plasmangoseed.object.json": 0
         },
         "poetree": {
           "wildpoetree.object.json": 1
@@ -7913,6 +7956,9 @@
         "slimeplant": {
           "slimeplantseed.object.json": 1,
           "wildslimeplantseed.object.json": 1
+        },
+        "solusberry": {
+          "shared_solusberryseed.object.json": 0
         },
         "soulleaf": {
           "fusoulleafseed.object.json": 1
@@ -7962,6 +8008,9 @@
         },
         "vextongue": {
           "shared_vextongueseed.object.json": 1
+        },
+        "violiroot": {
+          "shared_violirootseed.object.json": 0
         },
         "voritseed": {
           "voritseed.object.json": 2
@@ -10095,15 +10144,14 @@
           "fu_byosgravgen.object.json": 2
         },
         "fu_byospethouse": {
-          "fu_byospethouse.object.json": 9
+          "fu_byospethouse.object.json": 8
         },
         "fu_byosshiphatchbroken": {
           "fu_byosshiphatchBroken.object.json": 7
         },
         "fu_byostechstation": {
           "fu_byostechstation.object.json": 1,
-          "fu_byostechstationdeco.object.json": 0,
-          "shared_fu_byostechstation.json": 1
+          "fu_byostechstationdeco.object.json": 0
         },
         "fu_byostechstationTier0": {
           "fu_byostechstationTier0.object.json": 1
@@ -10171,6 +10219,12 @@
         },
         "fu_scienceshiplocker": {
           "fu_scienceshiplocker.object.json": 1
+        },
+        "fu_sciencetechstationhuman": {
+          "fu_sciencetechstation.object.json": 0
+        },
+        "fu_sciencetechstationhumanTier0": {
+          "fu_sciencetechstationTier0.object.json": 1
         },
         "fu_shipengine": {
           "fu_shipengine.object.json": 2
@@ -10488,7 +10542,7 @@
           "shared_fu_ftldrivesmalldeco.json": 1
         },
         "shared_fu_sciencetechstationhuman": {
-          "shared_fu_sciencetechstation.json": 4
+          "shared_fu_sciencetechstation.json": 3
         },
         "shared_fuelhatch": {
           "shared_fuelhatch.json": 6,
@@ -10557,7 +10611,7 @@
           "shared_ster.json": 6
         },
         "shared_techstation": {
-          "shared_techstation.json": 27,
+          "shared_techstation.json": 28,
           "shared_techstation.object.json": 20,
           "shared_techstationtier0.object.json": 8
         },
@@ -11995,6 +12049,9 @@
     "shared_ost.json": 1,
     "shared_peglacialloyplatform.mat.json": 2,
     "shared_peglacipykreteplatform.mat.json": 2,
+    "shared_pethouse": {
+      "shared_pethouse..json": 1
+    },
     "shared_platform.mat.json": 1,
     "shared_precursor.json": 1,
     "shared_precursorstairs.mat.json": 2,
@@ -12085,8 +12142,7 @@
       "spiderdroid.species.json": 3,
       "thelusian.species.json": 7,
       "thelusiannamegen.config.json": 27,
-      "veluu.species.json": 0,
-      "veluunamegen.config.json": 0
+      "veluu.species.json": 0
     },
     "stats": {
       "effects": {
@@ -12167,21 +12223,54 @@
           "ffextremeheatresist.statuseffect.json": 1,
           "ffextremeradiationresist.statuseffect.json": 1,
           "movementprotection.statuseffect.json": 1,
+          "new": {
+            "set_bonuses": {
+              "tier1": {
+                "bonesetbonus.statuseffect.json": 0,
+                "leathersetbonus.statuseffect.json": 0,
+                "missionarysetbonus.statuseffect.json": 0,
+                "plebiansetbonus.statuseffect.json": 0,
+                "underworldsetbonus.statuseffect.json": 0
+              },
+              "tier2": {
+                "bearsetbonus.statuseffect.json": 0,
+                "blistersetbonus.statuseffect.json": 0,
+                "bonesteelsetbonus.statuseffect.json": 0,
+                "footmansetbonus.statuseffect.json": 0,
+                "hackersetbonus.statuseffect.json": 0,
+                "leathersetbonusradien.statuseffect.json": 0,
+                "lunarisetbonus.statuseffect.json": 0,
+                "militiasetbonus.statuseffect.json": 0,
+                "nomadsetbonus.statuseffect.json": 0,
+                "operativesetbonus.statuseffect.json": 0,
+                "reconsetbonus.statuseffect.json": 0,
+                "samuraisetbonus.statuseffect.json": 0,
+                "sanguinesetbonus.statuseffect.json": 0,
+                "slimesetbonus.statuseffect.json": 0,
+                "stalwartsetbonus.statuseffect.json": 0,
+                "swashbucklersetbonus.statuseffect.json": 0,
+                "tw_spacesuitsetbonus.statuseffect.json": 0,
+                "vagabondsetbonus.statuseffect.json": 0,
+                "wolfsetbonus.statuseffect.json": 0
+              },
+              "tier4": {
+                "agentsetbonus.statuseffect.json": 0
+              },
+              "tier6": {
+                "isogensetbonus.statuseffect.json": 0
+              }
+            }
+          },
           "quietuseffects.statuseffect.json": 1,
           "set_bonuses": {
-            "agentsetbonuseffect.statuseffect.json": 1,
             "ambersetbonuseffect.statuseffect.json": 1,
             "arcticsetbonuseffect.statuseffect.json": 1,
             "assassinisetbonuseffect.statuseffect.json": 1,
             "assaultsetbonuseffect.statuseffect.json": 1,
             "battlebornsetbonuseffect.statuseffect.json": 1,
-            "bearsetbonuseffect.statuseffect.json": 1,
             "bearsetbonuseffect2.statuseffect.json": 1,
             "biofleshsetbonuseffect.statuseffect.json": 1,
-            "blistersetbonuseffect.statuseffect.json": 1,
             "blistersetbonuseffect2.statuseffect.json": 1,
-            "bonesetbonuseffect.statuseffect.json": 1,
-            "bonesteelsetbonuseffect.statuseffect.json": 1,
             "bountyhuntersetbonuseffect.statuseffect.json": 1,
             "cellularsetbonuseffect.statuseffect.json": 1,
             "championsetbonuseffect.statuseffect.json": 1,
@@ -12207,7 +12296,6 @@
             "evadersetbonuseffect.statuseffect.json": 1,
             "evasetbonuseffect.statuseffect.json": 0,
             "fleshsetbonuseffect.statuseffect.json": 1,
-            "footmansetbonuseffect.statuseffect.json": 1,
             "geistsetbonuseffect.statuseffect.json": 1,
             "gendarmesetbonuseffect.statuseffect.json": 1,
             "geologistsetbonuseffect.statuseffect.json": 1,
@@ -12215,7 +12303,6 @@
             "gladiatorsetbonuseffect.statuseffect.json": 1,
             "graphenesetbonuseffect.statuseffect.json": 1,
             "guardiansetbonuseffect.statuseffect.json": 1,
-            "hackersetbonuseffect.statuseffect.json": 1,
             "hellfiresetbonuseffect.statuseffect.json": 1,
             "hoplitesetbonuseffect.statuseffect.json": 1,
             "huntersetbonuseffect.statuseffect.json": 1,
@@ -12224,19 +12311,13 @@
             "intrepidsetbonuseffect.statuseffect.json": 1,
             "invadersetbonuseffect.statuseffect.json": 1,
             "irradiumsetbonuseffect.statuseffect.json": 1,
-            "isogensetbonuseffect.statuseffect.json": 1,
             "junkersetbonuseffect.statuseffect.json": 1,
             "kingslayersetbonuseffect.statuseffect.json": 1,
             "krakensetbonuseffect.statuseffect.json": 1,
-            "leathersetbonuseffect.statuseffect.json": 1,
-            "leathersetbonuseffectradien.statuseffect.json": 0,
             "legioniisetbonuseffect.statuseffect.json": 1,
             "leviathansetbonuseffect.statuseffect.json": 1,
             "lightpriestsetbonuseffect.statuseffect.json": 1,
-            "lunarisetbonuseffect.statuseffect.json": 1,
-            "militiasetbonuseffect.statuseffect.json": 1,
             "millenionsetbonuseffect.statuseffect.json": 1,
-            "missionarysetbonuseffect.statuseffect.json": 0,
             "monsterplatesetbonuseffect.statuseffect.json": 1,
             "morphitesetbonuseffect.statuseffect.json": 1,
             "morphitesetbonuseffect2.statuseffect.json": 1,
@@ -12244,10 +12325,7 @@
             "nautilussetbonuseffect.statuseffect.json": 1,
             "necrosetbonuseffect.statuseffect.json": 1,
             "neuromancersetbonuseffect.statuseffect.json": 1,
-            "nomadsetbonuseffect.statuseffect.json": 1,
-            "operativesetbonuseffect.statuseffect.json": 1,
             "phasesetbonuseffect.statuseffect.json": 1,
-            "plebiansetbonuseffect.statuseffect.json": 1,
             "precursorsetbonuseffect.statuseffect.json": 1,
             "primussetbonuseffect.statuseffect.json": 1,
             "prophetsetbonuseffect.statuseffect.json": 1,
@@ -12258,16 +12336,13 @@
             "raidersetbonuseffect.statuseffect.json": 1,
             "rangersetbonuseffect.statuseffect.json": 1,
             "ravagersetbonuseffect.statuseffect.json": 1,
-            "reconsetbonuseffect.statuseffect.json": 1,
             "reconsetbonuseffect2.statuseffect.json": 1,
             "reconsetbonuseffect3.statuseffect.json": 1,
             "replicantsetbonuseffect.statuseffect.json": 1,
             "reptilesetbonuseffect.statuseffect.json": 1,
             "researchsetbonuseffect.statuseffect.json": 1,
             "riftersetbonuseffect.statuseffect.json": 1,
-            "samuraisetbonuseffect.statuseffect.json": 1,
             "samuraisetbonuseffect2.statuseffect.json": 1,
-            "sanguinesetbonuseffect.statuseffect.json": 1,
             "scoutsetbonuseffect.statuseffect.json": 1,
             "sentrysetbonuseffect.statuseffect.json": 1,
             "shadowbonesetbonuseffect.statuseffect.json": 1,
@@ -12276,21 +12351,15 @@
             "shoggothsetbonuseffect.statuseffect.json": 1,
             "sirensetbonuseffect.statuseffect.json": 1,
             "slayersetbonuseffect.statuseffect.json": 1,
-            "slimesetbonuseffect.statuseffect.json": 0,
             "spacefarersetbonuseffect.statuseffect.json": 1,
             "spacefarersetbonuseffect2.statuseffect.json": 1,
             "stalkersetbonuseffect.statuseffect.json": 1,
-            "stalwartsetbonuseffect.statuseffect.json": 1,
             "starkillersetbonuseffect.statuseffect.json": 1,
             "steampunksetbonuseffect.statuseffect.json": 1,
             "sunwalkersetbonuseffect.statuseffect.json": 1,
             "survivorsetbonuseffect.statuseffect.json": 1,
-            "swashbucklersetbonuseffect.statuseffect.json": 1,
-            "tw_spacesuitsetbonuseffect.statuseffect.json": 1,
             "tw_spacesuitsetbonuseffect2.statuseffect.json": 1,
             "ultrameshsetbonuseffect.statuseffect.json": 1,
-            "underworldsetbonuseffect.statuseffect.json": 1,
-            "vagabondsetbonuseffect.statuseffect.json": 1,
             "valkyriesetbonuseffect.statuseffect.json": 1,
             "wanderersetbonuseffect.statuseffect.json": 1,
             "warangelsetbonuseffect.statuseffect.json": 1,
@@ -12298,7 +12367,6 @@
             "warphuntersetbonuseffect.statuseffect.json": 1,
             "warriorrobessetbonuseffect.statuseffect.json": 1,
             "warriorsetbonuseffect.statuseffect.json": 1,
-            "wolfsetbonuseffect.statuseffect.json": 1,
             "wolfsetbonuseffect2.statuseffect.json": 1,
             "wretchelsetbonuseffect.statuseffect.json": 1,
             "x10setbonuseffect.statuseffect.json": 1,
