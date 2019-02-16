@@ -93,6 +93,9 @@
       "interface/scripted/techshop/techshop.config": [
         "/gui/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
       ],
+      "interface/tooltips/armor_resists.tooltip": [
+        "/priceLabel/value"
+      ],
       "interface/tooltips/armornew.tooltip": [
         "/priceLabel/value"
       ],
@@ -204,10 +207,16 @@
       "interface/windowconfig/nanofabricator.config": [
         "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
       ],
+      "interface/windowconfig/platingfood.config": [
+        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
+      ],
       "interface/windowconfig/powerpress.config": [
         "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
       ],
       "interface/windowconfig/powerstation.config": [
+        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
+      ],
+      "interface/windowconfig/ppshop.config": [
         "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
       ],
       "interface/windowconfig/prototyper.config": [
@@ -295,6 +304,21 @@
     "Texts": {
       "Chs": "以太海",
       "Eng": "Aether Sea"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "objects/flowerpots/geometricflowerpot/geometricflowerpot.object": [
+        "/glitchDescription/glitchEmotedText"
+      ],
+      "plants/grass/ground/decorative/cloudspin/cloudspin.grass": [
+        "/glitchDescription/glitchEmotedText"
+      ]
+    },
+    "Texts": {
+      "Chs": "一朵有吸引力的花。",
+      "Eng": "An attractive flower."
     }
   },
   {
@@ -706,6 +730,65 @@
     "Texts": {
       "Chs": "波庞薯",
       "Eng": "Bolbohn"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/scripted/spaceStation/spaceStation.config": [
+        "/gui/goodsTradeList/children/itemList/schema/listTemplate/buyButton/caption",
+        "/gui/shopBuyButton/caption"
+      ],
+      "interface/windowconfig/ppshop.config": [
+        "/paneLayout/btnCraft/caption"
+      ],
+      "objects/power/isn_radiostation/configs/isn_medicalvendor.config": [
+        "/paneLayout/btnCraft/caption"
+      ],
+      "objects/power/isn_radiostation/configs/isn_seedsvendor.config": [
+        "/paneLayout/btnCraft/caption"
+      ]
+    },
+    "Texts": {
+      "Chs": "购买",
+      "Eng": "Buy"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/windowconfig/ppshop.config": [
+        "/paneLayout/lblProduct/value"
+      ],
+      "objects/power/isn_radiostation/configs/isn_medicalvendor.config": [
+        "/paneLayout/lblProduct/value"
+      ],
+      "objects/power/isn_radiostation/configs/isn_seedsvendor.config": [
+        "/paneLayout/lblProduct/value"
+      ]
+    },
+    "Texts": {
+      "Chs": "可购买",
+      "Eng": "CAN AFFORD"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/ai/ai.config": [
+        "/crewBreadcrumbText",
+        "/guiConfig/showCrew/caption"
+      ],
+      "interface/scripted/fu_planetsail/fu_planetsail.config": [
+        "/gui/buttonCrew/caption"
+      ],
+      "zb/newSail/newSail.config": [
+        "/gui/buttonCrew/caption"
+      ]
+    },
+    "Texts": {
+      "Chs": "船员",
+      "Eng": "CREW"
     }
   },
   {
@@ -1287,6 +1370,9 @@
         "/tooltip/itemList/schema/listTemplate/itemName/value"
       ],
       "interface/windowconfig/powerpress.config": [
+        "/tooltip/itemList/schema/listTemplate/itemName/value"
+      ],
+      "interface/windowconfig/ppshop.config": [
         "/tooltip/itemList/schema/listTemplate/itemName/value"
       ],
       "objects/crafting/sproutingtable/sproutingtable.config": [
@@ -2318,6 +2404,24 @@
   {
     "DeniedAlternatives": [],
     "Files": {
+      "interface/ai/ai.config": [
+        "/guiConfig/showMissions/caption"
+      ],
+      "interface/scripted/fu_planetsail/fu_planetsail.config": [
+        "/gui/buttonMissions/caption"
+      ],
+      "zb/newSail/newSail.config": [
+        "/gui/buttonMissions/caption"
+      ]
+    },
+    "Texts": {
+      "Chs": "任务",
+      "Eng": "MISSIONS"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
       "collections/fu_plant.collection": [
         "/collectables/melodistar/title"
       ],
@@ -2486,6 +2590,9 @@
       "interface/windowconfig/powerpress.config": [
         "/paneLayout/lblProducttitle/value"
       ],
+      "interface/windowconfig/ppshop.config": [
+        "/paneLayout/lblSchematics/value"
+      ],
       "objects/crafting/sproutingtable/sproutingtable.config": [
         "/paneLayout/lblProducttitle/value"
       ],
@@ -2568,6 +2675,9 @@
     "DeniedAlternatives": [],
     "Files": {
       "objects/farmables/flowerblue/flowerblue.object": [
+        "/floranDescription"
+      ],
+      "objects/flowerpots/geometricflowerpot/geometricflowerpot.object": [
         "/floranDescription"
       ],
       "plants/grass/ground/decorative/cloudspin/cloudspin.grass": [
@@ -2844,10 +2954,16 @@
       "interface/windowconfig/nanofabricator.config": [
         "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value"
       ],
+      "interface/windowconfig/platingfood.config": [
+        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value"
+      ],
       "interface/windowconfig/powerpress.config": [
         "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value"
       ],
       "interface/windowconfig/powerstation.config": [
+        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value"
+      ],
+      "interface/windowconfig/ppshop.config": [
         "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value"
       ],
       "interface/windowconfig/prototyper.config": [
@@ -2952,6 +3068,9 @@
   {
     "DeniedAlternatives": [],
     "Files": {
+      "interface/scripted/fu_planetsail/fu_planetsail.config": [
+        "/gui/windowTitle/value"
+      ],
       "objects/ship/brokenelduutechstation/brokenelduutechstation.object": [
         "/shortdescription"
       ],
@@ -3144,10 +3263,16 @@
       "interface/windowconfig/nanofabricator.config": [
         "/paneLayout/filter/hint"
       ],
+      "interface/windowconfig/platingfood.config": [
+        "/paneLayout/filter/hint"
+      ],
       "interface/windowconfig/powerpress.config": [
         "/paneLayout/filter/hint"
       ],
       "interface/windowconfig/powerstation.config": [
+        "/paneLayout/filter/hint"
+      ],
+      "interface/windowconfig/ppshop.config": [
         "/paneLayout/filter/hint"
       ],
       "interface/windowconfig/prototyper.config": [
@@ -3197,6 +3322,27 @@
     "Texts": {
       "Chs": "暗影卫星",
       "Eng": "Shadow Moon"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/ai/ai.config": [
+        "/guiConfig/windowtitle/subtitle"
+      ],
+      "interface/ai/fu_byosai.config": [
+        "/gui/windowtitle/subtitle"
+      ],
+      "interface/scripted/fu_planetsail/fu_planetsail.config": [
+        "/gui/windowSubtitle/value"
+      ],
+      "zb/newSail/data.config": [
+        "/GUI/subtitle"
+      ]
+    },
+    "Texts": {
+      "Chs": "舰载人工智能",
+      "Eng": "Ship-based Artificial Intelligence Lattice"
     }
   },
   {
@@ -3440,6 +3586,9 @@
         "/paneLayout/btnStopCraft/caption"
       ],
       "interface/windowconfig/nanofabricator.config": [
+        "/paneLayout/btnStopCraft/caption"
+      ],
+      "interface/windowconfig/platingfood.config": [
         "/paneLayout/btnStopCraft/caption"
       ],
       "interface/windowconfig/powerstation.config": [
@@ -4074,6 +4223,9 @@
       "interface/windowconfig/powerpress.config": [
         "/paneLayout/tbSpinCount/regex"
       ],
+      "interface/windowconfig/ppshop.config": [
+        "/paneLayout/tbSpinCount/regex"
+      ],
       "objects/crafting/sproutingtable/sproutingtable.config": [
         "/paneLayout/tbSpinCount/regex"
       ],
@@ -4180,6 +4332,9 @@
         "/paneLayout/tbSpinCount/regex"
       ],
       "interface/windowconfig/nanofabricator.config": [
+        "/paneLayout/tbSpinCount/regex"
+      ],
+      "interface/windowconfig/platingfood.config": [
         "/paneLayout/tbSpinCount/regex"
       ],
       "interface/windowconfig/powerstation.config": [
