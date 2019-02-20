@@ -6,7 +6,7 @@
 #### 注意
 
 * 请不要再往该仓库的任何分支提交拉请求，此仓库仅作为归档使用，远程gitlab仓库的更改均会自动同步至此。
-* 项目移至gitlab 主页：[FrackinUniverse-sChinese-Project](https://gitlab.imsky.cc:666/-/ide/project/ProjectSky/FrackinUniverse-sChinese-Project)
+* 项目移至gitlab 主页：[FrackinUniverse-sChinese-Project](https://gitlab.imsky.cc/-/ide/project/ProjectSky/FrackinUniverse-sChinese-Project)
 
 #### 停止维护
 
@@ -22,10 +22,10 @@
 
 #### 协助翻译流程
 
-* 在线编辑（此方法非常方便，强烈推荐，编辑器带有语法检查，可以防止语法错误）[点击进入在线编辑器(需注册)](https://gitlab.imsky.cc:666/-/ide/project/ProjectSky/FrackinUniverse-sChinese-Project/edit/FAST)
+* 在线编辑（此方法非常方便，强烈推荐，编辑器带有语法检查，可以防止语法错误）[点击进入在线编辑器(需注册)](https://gitlab.imsky.cc/-/ide/project/ProjectSky/FrackinUniverse-sChinese-Project/edit/FAST)
 * 请参阅`JOIN_US.md`文档
 
 #### 链接信息
 
-* [最新版本下载](https://gitlab.imsky.cc:666/ProjectSky/FrackinUniverse-sChinese-Project/tags)
+* [最新版本下载](https://gitlab.imsky.cc/ProjectSky/FrackinUniverse-sChinese-Project/tags)
 * [翻译进度查阅](https://projectsky.github.io/FrackinUniverse-sChinese)
