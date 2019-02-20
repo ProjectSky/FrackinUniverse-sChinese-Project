@@ -6,7 +6,7 @@
 #### 注意
 
 * 请不要再往该仓库的任何分支提交拉请求，此仓库仅作为归档使用，远程gitlab仓库的更改均会自动同步至此。
-* 项目移至gitlab 主页：[FrackinUniverse-sChinese-Project](https://gitlab.imsky.cc/-/ide/project/ProjectSky/FrackinUniverse-sChinese-Project)
+* 项目移至gitlab 主页：[FrackinUniverse-sChinese-Project](https://gitlab.imsky.cc/ProjectSky/FrackinUniverse-sChinese-Project)
 
 #### 停止维护
 
