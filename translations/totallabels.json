@@ -754,6 +754,9 @@
         "techshop": {
           "techshop.config.json": 4
         },
+        "tunableoredetector": {
+          "tunableoredetector.config.json": 4
+        },
         "weaponupgrade2": {
           "weaponupgrade2gui.config.json": 3
         },
@@ -1106,6 +1109,9 @@
           },
           "translocator2": {
             "translocator2.activeitem.json": 2
+          },
+          "tunableoredetector": {
+            "tunableoredetector1.activeitem.json": 10
           }
         },
         "vehiclecontroller": {
@@ -3528,7 +3534,6 @@
             "shared_kirhostier4..json": 1
           },
           "irradiumarmor": {
-            "irradiumarmor.chest.json": 1,
             "irradiumarmor.head.json": 1,
             "irradiumarmor.legs.json": 1,
             "shared_irradiumarmor..json": 1
@@ -4478,14 +4483,14 @@
           "fucake.consumable.json": 2,
           "fucake2.consumable.json": 2,
           "fuchocolatebar.consumable.json": 2,
+          "fupeachpie.consumable.json": 1,
+          "fupearpie.consumable.json": 1,
           "grapehoneystraw.consumable.json": 2,
           "honeystraw.consumable.json": 2,
           "icecookie.consumable.json": 2,
           "magmacookie.consumable.json": 2,
           "neonhoneystraw.consumable.json": 2,
           "orangehoneystraw.consumable.json": 2,
-          "peachpie.consumable.json": 1,
-          "pearpie.consumable.json": 1,
           "plutoniumcookie.consumable.json": 2,
           "shared_fuchocolatechipcookie.json": 2,
           "shared_pie.consumable.json": 1,
@@ -4695,6 +4700,7 @@
           "meatsmoothie.consumable.json": 2,
           "murdermeatmysterybox.consumable.json": 2,
           "oilstew.consumable.json": 2,
+          "orphanpaste.consumable.json": 2,
           "pancakes.consumable.json": 1,
           "phaseshake": {
             "phaseshake.consumable.json": 2
@@ -8375,7 +8381,7 @@
           "tetherhookseed.object.json": 1
         },
         "thanatite": {
-          "thanatiteseed.object.json": 8
+          "thanatiteseed.object.json": 7
         },
         "thornitoxplant": {
           "shared_thornitoxseed.object.json": 1
@@ -9321,6 +9327,41 @@
           "hylotlshopcounter.object.json": 8
         }
       },
+      "irradium": {
+        "irradiumbed": {
+          "irradiumbed.object.json": 6
+        },
+        "irradiumbookcase.object.json": 6,
+        "irradiumcabinet.object.json": 6,
+        "irradiumchair.object.json": 6,
+        "irradiumchestlarge.object.json": 1,
+        "irradiumchestsmall.object.json": 2,
+        "irradiumcouch": {
+          "irradiumcouch.object.json": 6
+        },
+        "irradiumdesk.object.json": 6,
+        "irradiumdesklamp": {
+          "irradiumdesklamp.object.json": 2
+        },
+        "irradiumdrawers.object.json": 7,
+        "irradiumendtable.object.json": 5,
+        "irradiumfridge.object.json": 5,
+        "irradiumlamp.object.json": 4,
+        "irradiumminifridge.object.json": 5,
+        "irradiumnightstand.object.json": 6,
+        "irradiumstool.object.json": 6,
+        "irradiumtable.object.json": 5,
+        "irradiumwalllamp": {
+          "irradiumwalllamp.object.json": 2
+        },
+        "shared_fridge.object.json": 1,
+        "shared_irradium": {
+          "shared_lamp.object.json": 2
+        },
+        "shared_irradium.json": 5,
+        "shared_irradiumchest.json": 4,
+        "shared_table.object.json": 1
+      },
       "isogen": {
         "isogenbed": {
           "isogenbed.object.json": 9
@@ -9482,6 +9523,43 @@
         "yaynewsstandprop": {
           "yaynewsstandprop.object.json": 9
         }
+      },
+      "lunari": {
+        "lunaribed": {
+          "lunaribed.object.json": 8
+        },
+        "lunaribookcase.object.json": 8,
+        "lunaricabinet.object.json": 8,
+        "lunariceilinglamp": {
+          "lunariceilinglamp.object.json": 5
+        },
+        "lunarichair.object.json": 8,
+        "lunarichestlarge.object.json": 4,
+        "lunarichestsmall.object.json": 4,
+        "lunaricouch": {
+          "lunaricouch.object.json": 8
+        },
+        "lunaridesk.object.json": 8,
+        "lunaridesklamp": {
+          "lunaridesklamp.object.json": 5
+        },
+        "lunaridrawers.object.json": 8,
+        "lunariendtable.object.json": 8,
+        "lunarifridge.object.json": 5,
+        "lunarilamp.object.json": 6,
+        "lunariminifridge.object.json": 5,
+        "lunarinightstand.object.json": 8,
+        "lunaristool.object.json": 8,
+        "lunaritable.object.json": 8,
+        "lunariwalllamp": {
+          "lunariwalllamp.object.json": 5
+        },
+        "shared_ifridge.object.json": 3,
+        "shared_lunari": {
+          "shared_lamp.object.json": 1
+        },
+        "shared_lunari.json": 3,
+        "shared_lunarichest.json": 4
       },
       "mantizi": {
         "imperialbanner1": {
@@ -10621,6 +10699,9 @@
       "orangejuice": {
         "labportcullis": {
           "labportcullis.object.json": 4
+        },
+        "ojsecuritygate": {
+          "ojsecuritygate.object.json": 2
         },
         "rustyportcullis": {
           "rustyportcullis.object.json": 4
@@ -14306,6 +14387,43 @@
           "swtjc_wp_brokenwallswitch.object.json": 1
         }
       },
+      "xithricite": {
+        "shared_fridge.object.json": 3,
+        "shared_table.object.json": 6,
+        "shared_xithricite": {
+          "shared_lamp.object.json": 6
+        },
+        "shared_xithricite.json": 2,
+        "shared_xithricitechest.json": 6,
+        "xithricitebed": {
+          "xithricitebed.object.json": 8
+        },
+        "xithricitebookcase.object.json": 7,
+        "xithricitecabinet.object.json": 7,
+        "xithriciteceilinglamp": {
+          "xithriciteceilinglamp.object.json": 2
+        },
+        "xithricitechair.object.json": 8,
+        "xithricitechestlarge.object.json": 2,
+        "xithricitechestsmall.object.json": 2,
+        "xithricitecouch": {
+          "xithricitecouch.object.json": 8
+        },
+        "xithricitedesk.object.json": 8,
+        "xithricitedesklamp": {
+          "xithricitedesklamp.object.json": 2
+        },
+        "xithricitedrawers.object.json": 8,
+        "xithriciteendtable.object.json": 2,
+        "xithricitefridge.object.json": 5,
+        "xithriciteminifridge.object.json": 5,
+        "xithricitenightstand.object.json": 8,
+        "xithricitestool.object.json": 8,
+        "xithricitetable.object.json": 2,
+        "xithricitewalllamp": {
+          "xithricitewalllamp.object.json": 2
+        }
+      },
       "zerchesium": {
         "shared_zerchesiumlamp.json": 3,
         "zerchesiumbed": {
@@ -14335,7 +14453,7 @@
         }
       }
     },
-    "objects.json": 39,
+    "objects.json": 40,
     "particles": {
       "angryrocketreloaded.particle.json": 1,
       "angryrocketreloadedfull.particle.json": 1,
@@ -16233,7 +16351,7 @@
         "sturdyplatform.material.json": 2
       }
     },
-    "wide_spread_fields.json": 159,
+    "wide_spread_fields.json": 160,
     "zb": {
       "newSail": {
         "data.config.json": 7,

@@ -371,6 +371,9 @@
   "cinematics/respawn/batpony/respawnhardcore.cinematic": {
     "/panels/2/text": "texts/cinematics/respawn/respawnhardcore.cinematic.json"
   },
+  "cinematics/respawn/blattra/respawnhardcore.cinematic": {
+    "/panels/2/text": "texts/cinematics/respawn/respawnhardcore.cinematic.json"
+  },
   "cinematics/respawn/bunnykin/respawnhardcore.cinematic": {
     "/panels/2/text": "texts/cinematics/respawn/respawnhardcore.cinematic.json"
   },
@@ -4473,7 +4476,8 @@
     "/description": "texts/items/armors/tier4/intersec/shared_kirhostier4..json"
   },
   "items/armors/tier4/irradiumarmor/irradiumarmor.chest": {
-    "/description": "texts/items/armors/tier4/irradiumarmor/shared_irradiumarmor..json"
+    "/description": "texts/items/armors/tier4/irradiumarmor/shared_irradiumarmor..json",
+    "/shortdescription": "texts/wide_spread_fields.json"
   },
   "items/armors/tier4/irradiumarmor/irradiumarmor.head": {
     "/description": "texts/items/armors/tier4/irradiumarmor/shared_irradiumarmor..json"
@@ -5143,10 +5147,10 @@
     "/description": "texts/items/generic/desserts/shared_fuchocolatechipcookie.json",
     "/shortdescription": "texts/items/generic/desserts/shared_fuchocolatechipcookie.json"
   },
-  "items/generic/desserts/peachpie.consumable": {
+  "items/generic/desserts/fupeachpie.consumable": {
     "/description": "texts/items/generic/desserts/shared_pie.consumable.json"
   },
-  "items/generic/desserts/pearpie.consumable": {
+  "items/generic/desserts/fupearpie.consumable": {
     "/description": "texts/items/generic/desserts/shared_pie.consumable.json"
   },
   "items/generic/drinks/beer/champagne.consumable": {
@@ -16244,6 +16248,7 @@
     "/description": "texts/shared_ect.json"
   },
   "objects/farmables/thanatite/thanatiteseed.object": {
+    "/avianDescription": "texts/objects.json",
     "/description": "texts/shared_thanatite.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/farmables/thanatite/thanatiteseed.object.json"
@@ -17706,6 +17711,137 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/hylotl/hylotlshopcounter/hylotlshopcounter.object.json"
   },
+  "objects/irradium/irradiumbed/irradiumbed.object": {
+    "/avianDescription": "texts/objects/irradium/shared_irradium.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/irradium/shared_irradium.json",
+    "/hylotlDescription": "texts/objects/irradium/shared_irradium.json"
+  },
+  "objects/irradium/irradiumbookcase.object": {
+    "/avianDescription": "texts/objects/irradium/shared_irradium.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/irradium/shared_irradium.json",
+    "/hylotlDescription": "texts/objects/irradium/shared_irradium.json"
+  },
+  "objects/irradium/irradiumcabinet.object": {
+    "/avianDescription": "texts/objects/irradium/shared_irradium.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/irradium/shared_irradium.json",
+    "/hylotlDescription": "texts/objects/irradium/shared_irradium.json"
+  },
+  "objects/irradium/irradiumchair.object": {
+    "/avianDescription": "texts/objects/irradium/shared_irradium.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/irradium/shared_irradium.json",
+    "/hylotlDescription": "texts/objects/irradium/shared_irradium.json"
+  },
+  "objects/irradium/irradiumchestlarge.object": {
+    "/apexDescription": "texts/objects/irradium/shared_irradiumchest.json",
+    "/avianDescription": "texts/objects/irradium/shared_irradium.json",
+    "/floranDescription": "texts/objects/irradium/shared_irradiumchest.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/irradium/shared_irradium.json",
+    "/humanDescription": "texts/objects/irradium/shared_irradiumchest.json",
+    "/hylotlDescription": "texts/objects/irradium/shared_irradium.json",
+    "/novakidDescription": "texts/objects/irradium/shared_irradiumchest.json",
+    "/shortdescription": "texts/wide_spread_fields.json"
+  },
+  "objects/irradium/irradiumchestsmall.object": {
+    "/apexDescription": "texts/objects/irradium/shared_irradiumchest.json",
+    "/avianDescription": "texts/objects/irradium/shared_irradium.json",
+    "/floranDescription": "texts/objects/irradium/shared_irradiumchest.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/irradium/shared_irradium.json",
+    "/humanDescription": "texts/objects/irradium/shared_irradiumchest.json",
+    "/hylotlDescription": "texts/objects/irradium/shared_irradium.json",
+    "/novakidDescription": "texts/objects/irradium/shared_irradiumchest.json"
+  },
+  "objects/irradium/irradiumcouch/irradiumcouch.object": {
+    "/avianDescription": "texts/objects/irradium/shared_irradium.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/irradium/shared_irradium.json",
+    "/hylotlDescription": "texts/objects/irradium/shared_irradium.json"
+  },
+  "objects/irradium/irradiumdesk.object": {
+    "/avianDescription": "texts/objects/irradium/shared_irradium.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/irradium/shared_irradium.json",
+    "/hylotlDescription": "texts/objects/irradium/shared_irradium.json"
+  },
+  "objects/irradium/irradiumdesklamp/irradiumdesklamp.object": {
+    "/apexDescription": "texts/objects/irradium/shared_irradium/shared_lamp.object.json",
+    "/avianDescription": "texts/objects/irradium/shared_irradium.json",
+    "/floranDescription": "texts/objects/irradium/shared_irradium/shared_lamp.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/irradium/shared_irradium.json",
+    "/humanDescription": "texts/objects/irradium/shared_irradium.json",
+    "/hylotlDescription": "texts/objects/irradium/shared_irradium.json",
+    "/novakidDescription": "texts/objects/irradium/shared_irradium.json"
+  },
+  "objects/irradium/irradiumdrawers.object": {
+    "/avianDescription": "texts/objects/irradium/shared_irradium.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/irradium/irradiumdrawers.object.json",
+    "/hylotlDescription": "texts/objects/irradium/shared_irradium.json"
+  },
+  "objects/irradium/irradiumendtable.object": {
+    "/avianDescription": "texts/objects/irradium/shared_irradium.json",
+    "/floranDescription": "texts/objects/irradium/shared_table.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/irradium/shared_irradium.json",
+    "/hylotlDescription": "texts/objects/irradium/shared_irradium.json"
+  },
+  "objects/irradium/irradiumfridge.object": {
+    "/avianDescription": "texts/objects/irradium/shared_irradium.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/irradium/shared_irradium.json",
+    "/hylotlDescription": "texts/objects/irradium/shared_irradium.json",
+    "/novakidDescription": "texts/objects/irradium/shared_fridge.object.json"
+  },
+  "objects/irradium/irradiumlamp.object": {
+    "/avianDescription": "texts/objects/irradium/shared_irradium.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/irradium/shared_irradium.json",
+    "/humanDescription": "texts/objects/irradium/shared_irradium.json",
+    "/hylotlDescription": "texts/objects/irradium/shared_irradium.json",
+    "/novakidDescription": "texts/objects/irradium/shared_irradium.json"
+  },
+  "objects/irradium/irradiumminifridge.object": {
+    "/avianDescription": "texts/objects/irradium/shared_irradium.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/irradium/shared_irradium.json",
+    "/hylotlDescription": "texts/objects/irradium/shared_irradium.json",
+    "/novakidDescription": "texts/objects/irradium/shared_fridge.object.json"
+  },
+  "objects/irradium/irradiumnightstand.object": {
+    "/avianDescription": "texts/objects/irradium/shared_irradium.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/irradium/shared_irradium.json",
+    "/hylotlDescription": "texts/objects/irradium/shared_irradium.json"
+  },
+  "objects/irradium/irradiumstool.object": {
+    "/avianDescription": "texts/objects/irradium/shared_irradium.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/irradium/shared_irradium.json",
+    "/hylotlDescription": "texts/objects/irradium/shared_irradium.json"
+  },
+  "objects/irradium/irradiumtable.object": {
+    "/avianDescription": "texts/objects/irradium/shared_irradium.json",
+    "/floranDescription": "texts/objects/irradium/shared_table.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/irradium/shared_irradium.json",
+    "/hylotlDescription": "texts/objects/irradium/shared_irradium.json"
+  },
+  "objects/irradium/irradiumwalllamp/irradiumwalllamp.object": {
+    "/apexDescription": "texts/objects/irradium/shared_irradium/shared_lamp.object.json",
+    "/avianDescription": "texts/objects/irradium/shared_irradium.json",
+    "/floranDescription": "texts/objects/irradium/shared_irradium/shared_lamp.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/irradium/shared_irradium.json",
+    "/humanDescription": "texts/objects/irradium/shared_irradium.json",
+    "/hylotlDescription": "texts/objects/irradium/shared_irradium.json",
+    "/novakidDescription": "texts/objects/irradium/shared_irradium.json"
+  },
   "objects/isogen/isogenbed/isogenbed.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/isogen/isogenbed/isogenbed.object.json"
@@ -17979,6 +18115,120 @@
   "objects/legacy/yaynewsstandprop/yaynewsstandprop.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/legacy/yaynewsstandprop/yaynewsstandprop.object.json"
+  },
+  "objects/lunari/lunaribed/lunaribed.object": {
+    "/avianDescription": "texts/objects/lunari/shared_lunari.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/lunari/lunaribed/lunaribed.object.json"
+  },
+  "objects/lunari/lunaribookcase.object": {
+    "/avianDescription": "texts/objects/lunari/shared_lunari.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/lunari/lunaribookcase.object.json"
+  },
+  "objects/lunari/lunaricabinet.object": {
+    "/avianDescription": "texts/objects/lunari/shared_lunari.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/lunari/lunaricabinet.object.json"
+  },
+  "objects/lunari/lunariceilinglamp/lunariceilinglamp.object": {
+    "/avianDescription": "texts/objects/lunari/shared_lunari.json",
+    "/floranDescription": "texts/objects/lunari/shared_lunari/shared_lamp.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/lunari/shared_lunari.json",
+    "/hylotlDescription": "texts/objects/lunari/shared_lunari.json"
+  },
+  "objects/lunari/lunarichair.object": {
+    "/avianDescription": "texts/objects/lunari/shared_lunari.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/lunari/lunarichair.object.json"
+  },
+  "objects/lunari/lunarichestlarge.object": {
+    "/avianDescription": "texts/objects/lunari/shared_lunari.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/lunari/shared_lunarichest.json",
+    "/humanDescription": "texts/objects/lunari/shared_lunarichest.json",
+    "/hylotlDescription": "texts/objects/lunari/shared_lunarichest.json",
+    "/novakidDescription": "texts/objects/lunari/shared_lunarichest.json"
+  },
+  "objects/lunari/lunarichestsmall.object": {
+    "/avianDescription": "texts/objects/lunari/shared_lunari.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/lunari/shared_lunarichest.json",
+    "/humanDescription": "texts/objects/lunari/shared_lunarichest.json",
+    "/hylotlDescription": "texts/objects/lunari/shared_lunarichest.json",
+    "/novakidDescription": "texts/objects/lunari/shared_lunarichest.json"
+  },
+  "objects/lunari/lunaricouch/lunaricouch.object": {
+    "/avianDescription": "texts/objects/lunari/shared_lunari.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/lunari/lunaricouch/lunaricouch.object.json"
+  },
+  "objects/lunari/lunaridesk.object": {
+    "/avianDescription": "texts/objects/lunari/shared_lunari.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/lunari/lunaridesk.object.json"
+  },
+  "objects/lunari/lunaridesklamp/lunaridesklamp.object": {
+    "/avianDescription": "texts/objects/lunari/shared_lunari.json",
+    "/floranDescription": "texts/objects/lunari/shared_lunari/shared_lamp.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/lunari/shared_lunari.json",
+    "/hylotlDescription": "texts/objects/lunari/shared_lunari.json"
+  },
+  "objects/lunari/lunaridrawers.object": {
+    "/avianDescription": "texts/objects.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/lunari/lunaridrawers.object.json"
+  },
+  "objects/lunari/lunariendtable.object": {
+    "/avianDescription": "texts/objects/lunari/shared_lunari.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/lunari/lunariendtable.object.json"
+  },
+  "objects/lunari/lunarifridge.object": {
+    "/avianDescription": "texts/objects/lunari/shared_lunari.json",
+    "/floranDescription": "texts/objects/lunari/shared_ifridge.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/lunari/lunarifridge.object.json",
+    "/hylotlDescription": "texts/objects/lunari/shared_ifridge.object.json",
+    "/novakidDescription": "texts/objects/lunari/shared_ifridge.object.json"
+  },
+  "objects/lunari/lunarilamp.object": {
+    "/avianDescription": "texts/objects/lunari/shared_lunari.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/lunari/shared_lunari.json",
+    "/hylotlDescription": "texts/objects/lunari/shared_lunari.json"
+  },
+  "objects/lunari/lunariminifridge.object": {
+    "/avianDescription": "texts/objects/lunari/shared_lunari.json",
+    "/floranDescription": "texts/objects/lunari/shared_ifridge.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/lunari/lunariminifridge.object.json",
+    "/hylotlDescription": "texts/objects/lunari/shared_ifridge.object.json",
+    "/novakidDescription": "texts/objects/lunari/shared_ifridge.object.json"
+  },
+  "objects/lunari/lunarinightstand.object": {
+    "/avianDescription": "texts/objects/lunari/shared_lunari.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/lunari/lunarinightstand.object.json"
+  },
+  "objects/lunari/lunaristool.object": {
+    "/avianDescription": "texts/objects/lunari/shared_lunari.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/lunari/lunaristool.object.json"
+  },
+  "objects/lunari/lunaritable.object": {
+    "/avianDescription": "texts/objects/lunari/shared_lunari.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/lunari/lunaritable.object.json"
+  },
+  "objects/lunari/lunariwalllamp/lunariwalllamp.object": {
+    "/avianDescription": "texts/objects/lunari/shared_lunari.json",
+    "/floranDescription": "texts/objects/lunari/shared_lunari/shared_lamp.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/lunari/shared_lunari.json",
+    "/hylotlDescription": "texts/objects/lunari/shared_lunari.json"
   },
   "objects/mantizi/imperialbanner1/imperialbanner1.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -20863,6 +21113,15 @@
     "/glitchDescription/glitchEmotedText": "texts/objects/orangejuice/shared_portcullis/shared_portcullis.object.json",
     "/humanDescription": "texts/objects/orangejuice/shared_portcullis/shared_portcullis.object.json",
     "/hylotlDescription": "texts/objects/orangejuice/shared_portcullis/shared_portcullis.object.json"
+  },
+  "objects/orangejuice/ojsecuritygate/ojsecuritygate.object": {
+    "/apexDescription": "texts/wide_spread_fields.json",
+    "/avianDescription": "texts/wide_spread_fields.json",
+    "/floranDescription": "texts/wide_spread_fields.json",
+    "/glitchDescription": "texts/wide_spread_fields.json",
+    "/humanDescription": "texts/wide_spread_fields.json",
+    "/hylotlDescription": "texts/wide_spread_fields.json",
+    "/novakidDescription": "texts/wide_spread_fields.json"
   },
   "objects/orangejuice/rustyportcullis/rustyportcullis.object": {
     "/apexDescription": "texts/objects/orangejuice/shared_portcullis/shared_portcullis.object.json",
@@ -29043,6 +29302,135 @@
     "/hylotlDescription": "texts/objects/wired/smallwallswitch/shared_wallswitch.object.json",
     "/novakidDescription": "texts/objects/wired/smallwallswitch/shared_wallswitch.object.json",
     "/shortdescription": "texts/objects/wired/smallwallswitch/shared_wallswitch.object.json"
+  },
+  "objects/xithricite/xithricitebed/xithricitebed.object": {
+    "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/xithricitebed/xithricitebed.object.json"
+  },
+  "objects/xithricite/xithricitebookcase.object": {
+    "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/shared_xithricite.json"
+  },
+  "objects/xithricite/xithricitecabinet.object": {
+    "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/shared_xithricite.json"
+  },
+  "objects/xithricite/xithriciteceilinglamp/xithriciteceilinglamp.object": {
+    "/apexDescription": "texts/objects/xithricite/shared_xithricite/shared_lamp.object.json",
+    "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
+    "/floranDescription": "texts/objects/xithricite/shared_xithricite/shared_lamp.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/shared_xithricite/shared_lamp.object.json",
+    "/humanDescription": "texts/objects/xithricite/shared_xithricite/shared_lamp.object.json",
+    "/hylotlDescription": "texts/objects/xithricite/shared_xithricite/shared_lamp.object.json",
+    "/novakidDescription": "texts/objects/xithricite/shared_xithricite/shared_lamp.object.json"
+  },
+  "objects/xithricite/xithricitechair.object": {
+    "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/xithricitechair.object.json"
+  },
+  "objects/xithricite/xithricitechestlarge.object": {
+    "/apexDescription": "texts/objects/xithricite/shared_xithricitechest.json",
+    "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
+    "/floranDescription": "texts/objects/xithricite/shared_xithricitechest.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/shared_xithricitechest.json",
+    "/humanDescription": "texts/objects/xithricite/shared_xithricitechest.json",
+    "/hylotlDescription": "texts/objects/xithricite/shared_xithricitechest.json",
+    "/novakidDescription": "texts/objects/xithricite/shared_xithricitechest.json"
+  },
+  "objects/xithricite/xithricitechestsmall.object": {
+    "/apexDescription": "texts/objects/xithricite/shared_xithricitechest.json",
+    "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
+    "/floranDescription": "texts/objects/xithricite/shared_xithricitechest.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/shared_xithricitechest.json",
+    "/humanDescription": "texts/objects/xithricite/shared_xithricitechest.json",
+    "/hylotlDescription": "texts/objects/xithricite/shared_xithricitechest.json",
+    "/novakidDescription": "texts/objects/xithricite/shared_xithricitechest.json"
+  },
+  "objects/xithricite/xithricitecouch/xithricitecouch.object": {
+    "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/xithricitecouch/xithricitecouch.object.json"
+  },
+  "objects/xithricite/xithricitedesk.object": {
+    "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/xithricitedesk.object.json"
+  },
+  "objects/xithricite/xithricitedesklamp/xithricitedesklamp.object": {
+    "/apexDescription": "texts/objects/xithricite/shared_xithricite/shared_lamp.object.json",
+    "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
+    "/floranDescription": "texts/objects/xithricite/shared_xithricite/shared_lamp.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/shared_xithricite/shared_lamp.object.json",
+    "/humanDescription": "texts/objects/xithricite/shared_xithricite/shared_lamp.object.json",
+    "/hylotlDescription": "texts/objects/xithricite/shared_xithricite/shared_lamp.object.json",
+    "/novakidDescription": "texts/objects/xithricite/shared_xithricite/shared_lamp.object.json"
+  },
+  "objects/xithricite/xithricitedrawers.object": {
+    "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/xithricitedrawers.object.json"
+  },
+  "objects/xithricite/xithriciteendtable.object": {
+    "/apexDescription": "texts/objects/xithricite/shared_table.object.json",
+    "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
+    "/floranDescription": "texts/objects/xithricite/shared_table.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/shared_table.object.json",
+    "/humanDescription": "texts/objects/xithricite/shared_table.object.json",
+    "/hylotlDescription": "texts/objects/xithricite/shared_table.object.json",
+    "/novakidDescription": "texts/objects/xithricite/shared_table.object.json"
+  },
+  "objects/xithricite/xithricitefridge.object": {
+    "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/shared_fridge.object.json",
+    "/hylotlDescription": "texts/objects/xithricite/shared_fridge.object.json",
+    "/novakidDescription": "texts/objects/xithricite/shared_fridge.object.json"
+  },
+  "objects/xithricite/xithriciteminifridge.object": {
+    "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/shared_fridge.object.json",
+    "/hylotlDescription": "texts/objects/xithricite/shared_fridge.object.json",
+    "/novakidDescription": "texts/objects/xithricite/shared_fridge.object.json"
+  },
+  "objects/xithricite/xithricitenightstand.object": {
+    "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/xithricitenightstand.object.json"
+  },
+  "objects/xithricite/xithricitestool.object": {
+    "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/xithricitestool.object.json"
+  },
+  "objects/xithricite/xithricitetable.object": {
+    "/apexDescription": "texts/objects/xithricite/shared_table.object.json",
+    "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
+    "/floranDescription": "texts/objects/xithricite/shared_table.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/shared_table.object.json",
+    "/humanDescription": "texts/objects/xithricite/shared_table.object.json",
+    "/hylotlDescription": "texts/objects/xithricite/shared_table.object.json",
+    "/novakidDescription": "texts/objects/xithricite/shared_table.object.json"
+  },
+  "objects/xithricite/xithricitewalllamp/xithricitewalllamp.object": {
+    "/apexDescription": "texts/objects/xithricite/shared_xithricite/shared_lamp.object.json",
+    "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
+    "/floranDescription": "texts/objects/xithricite/shared_xithricite/shared_lamp.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/shared_xithricite/shared_lamp.object.json",
+    "/humanDescription": "texts/objects/xithricite/shared_xithricite/shared_lamp.object.json",
+    "/hylotlDescription": "texts/objects/xithricite/shared_xithricite/shared_lamp.object.json",
+    "/novakidDescription": "texts/objects/xithricite/shared_xithricite/shared_lamp.object.json"
   },
   "objects/zerchesium/zerchesiumbed/zerchesiumbed.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",

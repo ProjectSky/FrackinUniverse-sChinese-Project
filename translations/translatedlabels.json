@@ -754,6 +754,9 @@
         "techshop": {
           "techshop.config.json": 2
         },
+        "tunableoredetector": {
+          "tunableoredetector.config.json": 0
+        },
         "weaponupgrade2": {
           "weaponupgrade2gui.config.json": 3
         },
@@ -1022,7 +1025,7 @@
           "oredetector": {
             "t1": {
               "cavedetector1.activeitem.json": 10,
-              "oredetector1.activeitem.json": 10
+              "oredetector1.activeitem.json": 0
             },
             "t3Khe": {
               "oredetector3.activeitem.json": 2
@@ -1106,6 +1109,9 @@
           },
           "translocator2": {
             "translocator2.activeitem.json": 2
+          },
+          "tunableoredetector": {
+            "tunableoredetector1.activeitem.json": 0
           }
         },
         "vehiclecontroller": {
@@ -3528,7 +3534,6 @@
             "shared_kirhostier4..json": 1
           },
           "irradiumarmor": {
-            "irradiumarmor.chest.json": 1,
             "irradiumarmor.head.json": 1,
             "irradiumarmor.legs.json": 1,
             "shared_irradiumarmor..json": 1
@@ -4478,14 +4483,14 @@
           "fucake.consumable.json": 2,
           "fucake2.consumable.json": 2,
           "fuchocolatebar.consumable.json": 2,
+          "fupeachpie.consumable.json": 0,
+          "fupearpie.consumable.json": 0,
           "grapehoneystraw.consumable.json": 2,
           "honeystraw.consumable.json": 2,
           "icecookie.consumable.json": 2,
           "magmacookie.consumable.json": 2,
           "neonhoneystraw.consumable.json": 2,
           "orangehoneystraw.consumable.json": 2,
-          "peachpie.consumable.json": 1,
-          "pearpie.consumable.json": 1,
           "plutoniumcookie.consumable.json": 2,
           "shared_fuchocolatechipcookie.json": 2,
           "shared_pie.consumable.json": 1,
@@ -4695,6 +4700,7 @@
           "meatsmoothie.consumable.json": 2,
           "murdermeatmysterybox.consumable.json": 2,
           "oilstew.consumable.json": 2,
+          "orphanpaste.consumable.json": 0,
           "pancakes.consumable.json": 1,
           "phaseshake": {
             "phaseshake.consumable.json": 0
@@ -4750,7 +4756,7 @@
           "redhoneyjar.consumable.json": 2,
           "shellhoneyjar.consumable.json": 2,
           "snowhoneyjar.consumable.json": 2,
-          "solariumhoneyjar.consumable.json": 2,
+          "solariumhoneyjar.consumable.json": 1,
           "speedhoneyjar.consumable.json": 2,
           "stronghoneyjar.consumable.json": 2
         },
@@ -8375,7 +8381,7 @@
           "tetherhookseed.object.json": 1
         },
         "thanatite": {
-          "thanatiteseed.object.json": 8
+          "thanatiteseed.object.json": 7
         },
         "thornitoxplant": {
           "shared_thornitoxseed.object.json": 1
@@ -9321,6 +9327,41 @@
           "hylotlshopcounter.object.json": 0
         }
       },
+      "irradium": {
+        "irradiumbed": {
+          "irradiumbed.object.json": 0
+        },
+        "irradiumbookcase.object.json": 0,
+        "irradiumcabinet.object.json": 0,
+        "irradiumchair.object.json": 0,
+        "irradiumchestlarge.object.json": 0,
+        "irradiumchestsmall.object.json": 0,
+        "irradiumcouch": {
+          "irradiumcouch.object.json": 0
+        },
+        "irradiumdesk.object.json": 0,
+        "irradiumdesklamp": {
+          "irradiumdesklamp.object.json": 0
+        },
+        "irradiumdrawers.object.json": 0,
+        "irradiumendtable.object.json": 0,
+        "irradiumfridge.object.json": 0,
+        "irradiumlamp.object.json": 0,
+        "irradiumminifridge.object.json": 0,
+        "irradiumnightstand.object.json": 0,
+        "irradiumstool.object.json": 0,
+        "irradiumtable.object.json": 0,
+        "irradiumwalllamp": {
+          "irradiumwalllamp.object.json": 0
+        },
+        "shared_fridge.object.json": 0,
+        "shared_irradium": {
+          "shared_lamp.object.json": 0
+        },
+        "shared_irradium.json": 0,
+        "shared_irradiumchest.json": 0,
+        "shared_table.object.json": 0
+      },
       "isogen": {
         "isogenbed": {
           "isogenbed.object.json": 0
@@ -9482,6 +9523,43 @@
         "yaynewsstandprop": {
           "yaynewsstandprop.object.json": 0
         }
+      },
+      "lunari": {
+        "lunaribed": {
+          "lunaribed.object.json": 0
+        },
+        "lunaribookcase.object.json": 0,
+        "lunaricabinet.object.json": 0,
+        "lunariceilinglamp": {
+          "lunariceilinglamp.object.json": 0
+        },
+        "lunarichair.object.json": 0,
+        "lunarichestlarge.object.json": 0,
+        "lunarichestsmall.object.json": 0,
+        "lunaricouch": {
+          "lunaricouch.object.json": 0
+        },
+        "lunaridesk.object.json": 0,
+        "lunaridesklamp": {
+          "lunaridesklamp.object.json": 0
+        },
+        "lunaridrawers.object.json": 0,
+        "lunariendtable.object.json": 0,
+        "lunarifridge.object.json": 0,
+        "lunarilamp.object.json": 0,
+        "lunariminifridge.object.json": 0,
+        "lunarinightstand.object.json": 0,
+        "lunaristool.object.json": 0,
+        "lunaritable.object.json": 0,
+        "lunariwalllamp": {
+          "lunariwalllamp.object.json": 0
+        },
+        "shared_ifridge.object.json": 0,
+        "shared_lunari": {
+          "shared_lamp.object.json": 0
+        },
+        "shared_lunari.json": 0,
+        "shared_lunarichest.json": 0
       },
       "mantizi": {
         "imperialbanner1": {
@@ -10621,6 +10699,9 @@
       "orangejuice": {
         "labportcullis": {
           "labportcullis.object.json": 0
+        },
+        "ojsecuritygate": {
+          "ojsecuritygate.object.json": 0
         },
         "rustyportcullis": {
           "rustyportcullis.object.json": 0
@@ -14306,6 +14387,43 @@
           "swtjc_wp_brokenwallswitch.object.json": 1
         }
       },
+      "xithricite": {
+        "shared_fridge.object.json": 0,
+        "shared_table.object.json": 0,
+        "shared_xithricite": {
+          "shared_lamp.object.json": 0
+        },
+        "shared_xithricite.json": 0,
+        "shared_xithricitechest.json": 0,
+        "xithricitebed": {
+          "xithricitebed.object.json": 0
+        },
+        "xithricitebookcase.object.json": 0,
+        "xithricitecabinet.object.json": 0,
+        "xithriciteceilinglamp": {
+          "xithriciteceilinglamp.object.json": 0
+        },
+        "xithricitechair.object.json": 0,
+        "xithricitechestlarge.object.json": 0,
+        "xithricitechestsmall.object.json": 0,
+        "xithricitecouch": {
+          "xithricitecouch.object.json": 0
+        },
+        "xithricitedesk.object.json": 0,
+        "xithricitedesklamp": {
+          "xithricitedesklamp.object.json": 0
+        },
+        "xithricitedrawers.object.json": 0,
+        "xithriciteendtable.object.json": 0,
+        "xithricitefridge.object.json": 0,
+        "xithriciteminifridge.object.json": 0,
+        "xithricitenightstand.object.json": 0,
+        "xithricitestool.object.json": 0,
+        "xithricitetable.object.json": 0,
+        "xithricitewalllamp": {
+          "xithricitewalllamp.object.json": 0
+        }
+      },
       "zerchesium": {
         "shared_zerchesiumlamp.json": 0,
         "zerchesiumbed": {
@@ -14335,7 +14453,7 @@
         }
       }
     },
-    "objects.json": 18,
+    "objects.json": 19,
     "particles": {
       "angryrocketreloaded.particle.json": 1,
       "angryrocketreloadedfull.particle.json": 1,
@@ -15181,7 +15299,7 @@
             "ultrameshsetbonuseffect.statuseffect.json": 1,
             "valkyriesetbonuseffect.statuseffect.json": 1,
             "wanderersetbonuseffect.statuseffect.json": 1,
-            "warangelsetbonuseffect.statuseffect.json": 1,
+            "warangelsetbonuseffect.statuseffect.json": 0,
             "warframesetbonuseffect.statuseffect.json": 1,
             "warphuntersetbonuseffect.statuseffect.json": 1,
             "warriorrobessetbonuseffect.statuseffect.json": 1,
@@ -16233,7 +16351,7 @@
         "sturdyplatform.material.json": 2
       }
     },
-    "wide_spread_fields.json": 159,
+    "wide_spread_fields.json": 160,
     "zb": {
       "newSail": {
         "data.config.json": 6,
