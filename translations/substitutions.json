@@ -962,8 +962,7 @@
     "/description": "texts/codex/precursor/shared_precursor.json"
   },
   "codex/radien/radien1.codex": {
-    "/description": "texts/codex/shared_.codex.json",
-    "/title": "texts/codex/radien/shared_radien.json"
+    "/description": "texts/codex/shared_.codex.json"
   },
   "codex/radien/radien10.codex": {
     "/description": "texts/codex/shared_.codex.json"
@@ -972,12 +971,10 @@
     "/description": "texts/codex/shared_.codex.json"
   },
   "codex/radien/radien2.codex": {
-    "/description": "texts/codex/shared_.codex.json",
-    "/title": "texts/codex/radien/shared_radien.json"
+    "/description": "texts/codex/shared_.codex.json"
   },
   "codex/radien/radien3.codex": {
-    "/description": "texts/codex/shared_.codex.json",
-    "/title": "texts/codex/radien/shared_radien.json"
+    "/description": "texts/codex/shared_.codex.json"
   },
   "codex/radien/radien4.codex": {
     "/description": "texts/codex/shared_.codex.json"
@@ -992,12 +989,10 @@
     "/description": "texts/codex/shared_.codex.json"
   },
   "codex/radien/radien8.codex": {
-    "/description": "texts/codex/shared_.codex.json",
-    "/title": "texts/codex/radien/shared_radien.json"
+    "/description": "texts/codex/shared_.codex.json"
   },
   "codex/radien/radien9.codex": {
-    "/description": "texts/codex/shared_.codex.json",
-    "/title": "texts/codex/radien/shared_radien.json"
+    "/description": "texts/codex/shared_.codex.json"
   },
   "codex/shadow/shadow1.codex": {
     "/description": "texts/codex/shadow/shared_shadow.json"
@@ -1012,24 +1007,6 @@
   "codex/slimeperson/slimepersondiaryINFO.codex": {
     "/description": "texts/codex/slimeperson/shared_slimepersondiary.json",
     "/title": "texts/codex/slimeperson/shared_slimepersondiary.json"
-  },
-  "codex/thelusian/thelusian1.codex": {
-    "/title": "texts/codex/thelusian/shared_thelusian.json"
-  },
-  "codex/thelusian/thelusian2.codex": {
-    "/title": "texts/codex/thelusian/shared_thelusian.json"
-  },
-  "codex/thelusian/thelusian3.codex": {
-    "/title": "texts/codex/thelusian/shared_thelusian.json"
-  },
-  "codex/thelusian/thelusian4.codex": {
-    "/title": "texts/codex/thelusian/shared_thelusian.json"
-  },
-  "codex/thelusian/thelusian5.codex": {
-    "/title": "texts/codex/thelusian/shared_thelusian.json"
-  },
-  "codex/thelusian/thelusian6.codex": {
-    "/title": "texts/codex/thelusian/shared_thelusian.json"
   },
   "collections/fu_plant.collection": {
     "/collectables/aenema/description": "texts/shared_ect.json",
@@ -8770,6 +8747,9 @@
     "/scriptConfig/dialog/merchant/welcome/glitch/default/2/glitchEmote": "texts/glitchEmotes.json",
     "/scriptConfig/dialog/merchant/welcome/glitch/default/2/glitchEmotedText": "texts/npcs/barista.npctype.json"
   },
+  "npcs/barkeep.npctype": {
+    "/scriptConfig/dialog/merchant/end/default/default/0": "texts/npcs/shared_.npctype.json"
+  },
   "npcs/beekeeper.npctype": {
     "/scriptConfig/flee/dialog/encourage/default/0": "texts/shared_npc.json",
     "/scriptConfig/flee/dialog/encourage/glitch/0/glitchEmote": "texts/glitchEmotes.json",
@@ -11896,6 +11876,71 @@
   "npcs/mobs/greg.npctype": {
     "/npcname": "texts/wide_spread_fields.json"
   },
+  "npcs/nightar/friendlykingslayer.npctype": {
+    "/scriptConfig/dialog/outOfSight/default/default/0": "texts/npcs/nightar/shared_.npctype.json"
+  },
+  "npcs/nightar/nightarking.npctype": {
+    "/scriptConfig/dialog/attack/default/default/0": "texts/npcs/nightar/shared_nightarking.json",
+    "/scriptConfig/dialog/cantReach/default/default/0": "texts/npcs/nightar/shared_nightarking.json",
+    "/scriptConfig/dialog/cheerOn/default/default/0": "texts/npcs/nightar/shared_nightarking.json",
+    "/scriptConfig/dialog/killedTarget/default/default/0": "texts/npcs/nightar/shared_nightarking.json",
+    "/scriptConfig/dialog/lostTarget/default/default/0": "texts/npcs/nightar/shared_.npctype.json",
+    "/scriptConfig/dialog/outOfSight/default/default/0": "texts/npcs/nightar/shared_nightarking.json",
+    "/scriptConfig/dialog/reattack/default/default/0": "texts/npcs/nightar/shared_nightarking.json",
+    "/scriptConfig/dialog/reattack/default/default/1": "texts/npcs/nightar/shared_nightarking.json"
+  },
+  "npcs/nightar/nightarking2.npctype": {
+    "/scriptConfig/dialog/attack/default/default/0": "texts/npcs/nightar/shared_nightarking.json",
+    "/scriptConfig/dialog/cantReach/default/default/0": "texts/npcs/nightar/shared_nightarking.json",
+    "/scriptConfig/dialog/cheerOn/default/default/0": "texts/npcs/nightar/shared_nightarking.json",
+    "/scriptConfig/dialog/killedTarget/default/default/0": "texts/npcs/nightar/shared_nightarking.json",
+    "/scriptConfig/dialog/lostTarget/default/default/0": "texts/npcs/nightar/shared_.npctype.json",
+    "/scriptConfig/dialog/outOfSight/default/default/0": "texts/npcs/nightar/shared_nightarking.json",
+    "/scriptConfig/dialog/reattack/default/default/0": "texts/npcs/nightar/shared_nightarking.json",
+    "/scriptConfig/dialog/reattack/default/default/1": "texts/npcs/nightar/shared_nightarking.json"
+  },
+  "npcs/nightar/nightarkingsguard.npctype": {
+    "/scriptConfig/dialog/attack/default/default/0": "texts/wide_spread_fields.json",
+    "/scriptConfig/dialog/attack/nightar/default/0": "texts/npcs/nightar/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/nightar/default/1": "texts/npcs/nightar/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/nightar/default/2": "texts/npcs/nightar/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/nightar/default/3": "texts/npcs/nightar/shared_.npctype.json"
+  },
+  "npcs/nightar/nightarkingslayer.npctype": {
+    "/scriptConfig/dialog/attack/default/default/0": "texts/wide_spread_fields.json",
+    "/scriptConfig/dialog/attack/nightar/default/0": "texts/npcs/nightar/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/nightar/default/1": "texts/npcs/nightar/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/nightar/default/2": "texts/npcs/nightar/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/nightar/default/3": "texts/npcs/nightar/shared_.npctype.json"
+  },
+  "npcs/nightar/nightarknave.npctype": {
+    "/scriptConfig/dialog/attack/default/default/0": "texts/wide_spread_fields.json",
+    "/scriptConfig/dialog/attack/nightar/default/0": "texts/npcs/nightar/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/nightar/default/1": "texts/npcs/nightar/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/nightar/default/2": "texts/npcs/nightar/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/nightar/default/3": "texts/npcs/nightar/shared_.npctype.json"
+  },
+  "npcs/nightar/nightarknight.npctype": {
+    "/scriptConfig/dialog/attack/default/default/0": "texts/wide_spread_fields.json",
+    "/scriptConfig/dialog/attack/nightar/default/0": "texts/npcs/nightar/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/nightar/default/1": "texts/npcs/nightar/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/nightar/default/2": "texts/npcs/nightar/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/nightar/default/3": "texts/npcs/nightar/shared_.npctype.json"
+  },
+  "npcs/nightar/nightarpaladin.npctype": {
+    "/scriptConfig/dialog/attack/default/default/0": "texts/wide_spread_fields.json",
+    "/scriptConfig/dialog/attack/nightar/default/0": "texts/npcs/nightar/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/nightar/default/1": "texts/npcs/nightar/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/nightar/default/2": "texts/npcs/nightar/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/nightar/default/3": "texts/npcs/nightar/shared_.npctype.json"
+  },
+  "npcs/nightar/nightarsoldier.npctype": {
+    "/scriptConfig/dialog/attack/default/default/0": "texts/wide_spread_fields.json",
+    "/scriptConfig/dialog/attack/nightar/default/0": "texts/npcs/nightar/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/nightar/default/1": "texts/npcs/nightar/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/nightar/default/2": "texts/npcs/nightar/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/nightar/default/3": "texts/npcs/nightar/shared_.npctype.json"
+  },
   "npcs/pavillion/pavillionarcher.npctype": {
     "/scriptConfig/dialog/attack/default/default/0": "texts/wide_spread_fields.json",
     "/scriptConfig/dialog/attack/hylotl/default/0": "texts/npcs/pavillion/shared_pavillion.json",
@@ -11919,6 +11964,9 @@
   },
   "npcs/pavillion/pavillionshogun.npctype": {
     "/scriptConfig/dialog/attack/default/default/0": "texts/wide_spread_fields.json"
+  },
+  "npcs/precursorvillager.npctype": {
+    "/scriptConfig/dialog/converse/default/default/0": "texts/wide_spread_fields.json"
   },
   "npcs/scienceoutpost/fuoutpostcivilian.npctype": {
     "/scriptConfig/dialog/converse/apex/default/0": "texts/npcs/scienceoutpost/shared_fuoutpostcivilian.json",
@@ -20630,6 +20678,17 @@
     "/hylotlDescription": "texts/objects/shared_fridge.json",
     "/novakidDescription": "texts/objects/shared_fridge.json"
   },
+  "objects/nightar/nightarmedievalbookcaseswitch/nightarmedievalbookcaseswitch.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/nightar/nightarmedievalbookcaseswitch/nightarmedievalbookcaseswitch.object.json"
+  },
+  "objects/nightar/nightarmedievallargecookingpot/nightarmedievallargecookingpot.object": {
+    "/interactData/paneLayoutOverride/windowtitle/subtitle": "texts/objects.json"
+  },
+  "objects/nightar/nightarmedievalshelf/nightarmedievalshelf.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/nightar/nightarmedievalshelf/nightarmedievalshelf.object.json"
+  },
   "objects/nightar/nightarpedestal/nightarpedestal.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/nightar/nightarpedestal/nightarpedestal.object.json"
@@ -26118,7 +26177,7 @@
   "objects/themed/industrialkitchen/industrialoven/industrialoven.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/themed/industrialkitchen/industrialoven/industrialoven.object.json",
-    "/interactData/paneLayoutOverride/windowtitle/subtitle": "texts/objects/themed/shared_oven/shared_oven.object.json"
+    "/interactData/paneLayoutOverride/windowtitle/subtitle": "texts/objects.json"
   },
   "objects/themed/industrialkitchen/industrialshelf/industrialshelf.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -26477,7 +26536,7 @@
   "objects/themed/protectorate/protectorateoven/protectorateoven.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/themed/protectorate/protectorateoven/protectorateoven.object.json",
-    "/interactData/paneLayoutOverride/windowtitle/subtitle": "texts/objects/themed/shared_oven/shared_oven.object.json"
+    "/interactData/paneLayoutOverride/windowtitle/subtitle": "texts/objects.json"
   },
   "objects/themed/protectorate/protectoratepennant/protectoratepennant.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -29891,7 +29950,9 @@
     "/mamapoptopdoorlocked/senderName": "texts/wide_spread_fields.json",
     "/mamapoptopdoorshoot1/senderName": "texts/wide_spread_fields.json",
     "/mamapoptopdoorshoot2/senderName": "texts/wide_spread_fields.json",
-    "/mamapoptopdoorshoot3/senderName": "texts/wide_spread_fields.json"
+    "/mamapoptopdoorshoot3/senderName": "texts/wide_spread_fields.json",
+    "/precursorDiscovery1/senderName": "texts/wide_spread_fields.json",
+    "/precursorDiscovery2/senderName": "texts/wide_spread_fields.json"
   },
   "radiomessages/fu_genes.radiomessages": {
     "/pickupgene2/text": "texts/radiomessages/shared_es.radiomessages.json"
