@@ -676,6 +676,9 @@
       "mechfuelrefinery": {
         "fuelrefinery.config.json": 0
       },
+      "mechstats": {
+        "mechstats.config.json": 0
+      },
       "mfgstation.config.json": 2,
       "objectcrafting": {
         "aex.config.json": 2,
@@ -810,6 +813,7 @@
         "genesequencer.config.json": 2,
         "kirhosshop.config.json": 2,
         "kitchen.config.json": 4,
+        "lavalampstation.config.json": 0,
         "mash.config.json": 3,
         "medievalworkstation.config.json": 2,
         "platingfood.config.json": 0,
@@ -2043,6 +2047,8 @@
               "aegisaltpistol2.activeitem.json": 2,
               "aegisaltpistol3.activeitem.json": 6,
               "aetheriumassaultrifle.activeitem.json": 0,
+              "aetheriumpistol.activeitem.json": 0,
+              "aetheriumshotgun.activeitem.json": 0,
               "ancientcarbine.activeitem.json": 2,
               "arconcannon.activeitem.json": 3,
               "arconrifle.activeitem.json": 2,
@@ -2114,7 +2120,7 @@
                   "eldershotgun.activeitem.json": 0
                 }
               },
-              "energyassault.activeitem.json": 3,
+              "energyassault.activeitem.json": 2,
               "energycutter.activeitem.json": 2,
               "extrabeams": {
                 "extrachargebeam.activeitem.json": 2,
@@ -2352,7 +2358,7 @@
                   "isn_terawattlaser.activeitem.json": 2
                 }
               },
-              "shared_.activeitem.json": 11,
+              "shared_.activeitem.json": 10,
               "shared_armcannon.json": 1,
               "shared_cien.json": 1,
               "shared_friendmaker.json": 1,
@@ -4840,6 +4846,7 @@
             "fuspikefist2.item.json": 2,
             "fuspikefist3.item.json": 2,
             "fuultracannon.item.json": 2,
+            "mecharmbreachdefense.item.json": 0,
             "mecharmdrill2.item.json": 2,
             "mecharmdrill3.item.json": 2,
             "mecharmdrill4.item.json": 2,
@@ -4905,8 +4912,23 @@
             "mechboostersinhammer.item.json": 2,
             "shared_mechboostersimpleupgrade.json": 1
           },
+          "chips": {
+            "mechchipcontrol.item.json": 0,
+            "mechchipdefense.item.json": 0,
+            "mechchipexpansion1.item.json": 0,
+            "mechchipexpansion2.item.json": 0,
+            "mechchipexpansion3.item.json": 0,
+            "mechchipfeather.item.json": 0,
+            "mechchipfuel.item.json": 0,
+            "mechchiphealth.item.json": 0,
+            "mechchiplight.item.json": 0,
+            "mechchipovercharge.item.json": 0,
+            "mechchippower.item.json": 0,
+            "mechchiprefueler.item.json": 0,
+            "mechchipspeed.item.json": 0
+          },
           "horn": {
-            "mechaimassist.item.json": 2,
+            "mechaimassist.item.json": 1,
             "mechdefensefield.item.json": 0,
             "mechdefensefield2.item.json": 0,
             "mechdefensefield3.item.json": 0,
@@ -4919,10 +4941,15 @@
             "mechenergyfield5.item.json": 0,
             "mechhorndoot.item.json": 2,
             "mechhornnootnoot.item.json": 2,
-            "mechmasscancel.item.json": 2,
-            "mechmasscancel2.item.json": 2,
-            "mechmasscancel3.item.json": 2,
-            "mechmasscancel4.item.json": 2,
+            "mechmasscancel.item.json": 1,
+            "mechmasscancel2.item.json": 1,
+            "mechmasscancel3.item.json": 1,
+            "mechmasscancel4.item.json": 1,
+            "mechmobility.item.json": 0,
+            "mechmobility2.item.json": 0,
+            "mechmobility3.item.json": 0,
+            "mechmobility4.item.json": 0,
+            "mechmobility5.item.json": 0,
             "shared_mechdefensefield.json": 0,
             "shared_mechenergyfield.json": 0
           },
@@ -5163,6 +5190,7 @@
         "avalistairs.matitem.json": 3,
         "avalitechpanel.matitem.json": 1,
         "avalitechplatform.matitem.json": 2,
+        "avianmetalceiling.matitem.json": 0,
         "bamboo.matitem.json": 1,
         "bioblock2material.matitem.json": 2,
         "bioblockmaterial.matitem.json": 1,
@@ -5209,6 +5237,7 @@
         "flowerybars.matitem.json": 1,
         "frozensandmaterial.matitem.json": 1,
         "frozenstonematerial.matitem.json": 1,
+        "fu_copperplatform.matitem.json": 0,
         "fualiengrass.matitem.json": 2,
         "fudarkness.matitem.json": 1,
         "fudarknesssloped.matitem.json": 1,
@@ -5246,6 +5275,7 @@
         "magmawall4.matitem.json": 2,
         "marbleblock.matitem.json": 2,
         "marblepillarblock.matitem.json": 1,
+        "metallicslab.matitem.json": 0,
         "moltenmetal.matitem.json": 1,
         "moltensand.matitem.json": 2,
         "moltensteel.matitem.json": 2,
@@ -5455,6 +5485,9 @@
       "shared_avaliplain.mat.json": 1,
       "shared_avalitechpanel.mat.json": 1,
       "shared_avalitiles.mat.json": 2,
+      "shared_avianmetalceiling.mat.json": 0,
+      "shared_avianmetalfloor.mat.json": 0,
+      "shared_avianmetaltrim.json": 0,
       "shared_bamboo.mat.json": 2,
       "shared_bio.json": 3,
       "shared_blackslime.json": 1,
@@ -5502,6 +5535,9 @@
       "shared_frozensand.json": 1,
       "shared_frozensand2.json": 1,
       "shared_frozenstone.json": 1,
+      "shared_fu_blockIrradium.mat.json": 0,
+      "shared_fu_blockPlutonium.mat.json": 0,
+      "shared_fu_blockUranium.mat.json": 0,
       "shared_fuaetherbrick.mat.json": 2,
       "shared_fuaetherbrick2.mat.json": 2,
       "shared_fuaetherdustbricks.mat.json": 2,
@@ -5562,6 +5598,11 @@
       "shared_marblepillarblock.mat.json": 1,
       "shared_marestone.json": 2,
       "shared_material.json": 12,
+      "shared_metallicbrick.json": 0,
+      "shared_metallicbrick.mat.json": 0,
+      "shared_metallicbrick2.mat.json": 0,
+      "shared_metallicbrick3.mat.json": 0,
+      "shared_metallicslab.mat.json": 0,
       "shared_modernshingle.mat.json": 0,
       "shared_moderntile.mat.json": 0,
       "shared_nightar.json": 1,
@@ -5610,6 +5651,7 @@
       "shared_shroomblock.json": 1,
       "shared_slime.json": 0,
       "shared_slimedirt.json": 2,
+      "shared_slopedavianhullpanel.mat.json": 0,
       "shared_slopedglowglass.mat.json": 1,
       "shared_slopedtintedglowglass.mat.json": 1,
       "shared_speedblock.json": 1,
@@ -7584,6 +7626,9 @@
         },
         "handmill": {
           "handmill.object.json": 3
+        },
+        "lavalampstation": {
+          "lavalampstation.object.json": 0
         },
         "liquidpumpwell": {
           "liquidpumpwell.object.json": 2
@@ -11518,10 +11563,6 @@
         "shadowflowerpot.object.json": 2,
         "shadowflowers.object.json": 2,
         "shadowfridge.object.json": 1,
-        "shadowlamp": {
-          "shadowlampblue.object.json": 1,
-          "shadowlampred.object.json": 1
-        },
         "shadowlight": {
           "shadowlight.object.json": 2
         },
@@ -13770,9 +13811,6 @@
             "fuaetherlampsmall": {
               "fuaetherlampsmall.object.json": 2
             },
-            "fuaetherlavalamp": {
-              "fuaetherlavalamp.object.json": 2
-            },
             "fuaethermonitor": {
               "fuaethermonitor.object.json": 1
             },
@@ -14047,23 +14085,34 @@
             "shared_ff_blisterlight.json": 1
           },
           "fulavalamps": {
+            "aetherlavalamp2.object.json": 0,
             "alienjuicelavalamp.object.json": 2,
             "deuteriumlavalamp.object.json": 2,
             "gravliquidlavalamp.object.json": 2,
             "healinglavalamp.object.json": 2,
             "honeylavalamp.object.json": 2,
             "irradiumlavalamp.object.json": 2,
+            "lavalavalamp.object.json": 0,
             "liquidcrystallavalamp.object.json": 2,
             "m_hydrogenlavalamp.object.json": 2,
             "organicsouplavalamp.object.json": 2,
             "slimelavalamp.object.json": 2,
-            "sparklelavalamps": {
-              "shared_sparklelavalamp.json": 1,
-              "sparklelavalamp1.object.json": 1,
-              "sparklelavalamp2.object.json": 1,
-              "sparklelavalamp3.object.json": 1,
-              "sparklelavalamp4.object.json": 1,
-              "sparklelavalamp5.object.json": 1
+            "specials": {
+              "atropuslavalamp.object.json": 0,
+              "avikanlavalamp.object.json": 0,
+              "centenslavalamp.object.json": 0,
+              "elderlavalamp.object.json": 0,
+              "elduulavalamp.object.json": 0,
+              "fuaetherlavalamp.object.json": 0,
+              "shadowlampblue.object.json": 0,
+              "shadowlampred.object.json": 0,
+              "shared_sparklelavalamp.json": 0,
+              "sparklelavalamp1.object.json": 0,
+              "sparklelavalamp2.object.json": 0,
+              "sparklelavalamp3.object.json": 0,
+              "sparklelavalamp4.object.json": 0,
+              "sparklelavalamp5.object.json": 0,
+              "vaashlavalamp.object.json": 0
             }
           },
           "lavalights": {
@@ -15057,6 +15106,8 @@
     "shared_fect.json": 1,
     "shared_feya.json": 1,
     "shared_fig.json": 1,
+    "shared_fu_copperladder.mat.json": 0,
+    "shared_fu_copperplatform.mat.json": 0,
     "shared_fuaetherdustplatform.mat.json": 1,
     "shared_fuaetherplatform.mat.json": 1,
     "shared_girdirplatform.mat.json": 1,
@@ -16132,6 +16183,7 @@
         "avalihexagons1.material.json": 2,
         "avaliplain.material.json": 1,
         "avalitechpanel.material.json": 1,
+        "avianmetalceiling.material.json": 0,
         "bioworld": {
           "bioblock.material.json": 1,
           "bioblock2.material.json": 1,
@@ -16279,6 +16331,7 @@
         },
         "marblepillarblock.material.json": 1,
         "matterblock.material.json": 5,
+        "metallicslab.material.json": 0,
         "nightarcastleblock.material.json": 0,
         "nightarfloor.material.json": 0,
         "nightarshipblock.material.json": 0,
@@ -16350,6 +16403,7 @@
         "shroomblockwall.material.json": 1,
         "slime2.material.json": 1,
         "slimeshipsupport.material.json": 0,
+        "slopedavianhullpanel.material.json": 0,
         "speedblock.material.json": 1,
         "spidersilkblockmik.material.json": 3,
         "springvines.material.json": 4,
@@ -16431,6 +16485,8 @@
         "avalicable.material.json": 2,
         "avalistairs.material.json": 1,
         "cuteplatform.material.json": 2,
+        "fu_copperladder.material.json": 0,
+        "fu_copperplatform.material.json": 0,
         "girdirplatform.material.json": 1,
         "richplatform.material.json": 2,
         "shared_honeyplatform.material.json": 1,
