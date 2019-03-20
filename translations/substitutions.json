@@ -407,6 +407,9 @@
   "cinematics/respawn/elunite/respawnhardcore.cinematic": {
     "/panels/2/text": "texts/cinematics/respawn/respawnhardcore.cinematic.json"
   },
+  "cinematics/respawn/everis/respawnhardcore.cinematic": {
+    "/panels/2/text": "texts/cinematics/respawn/respawnhardcore.cinematic.json"
+  },
   "cinematics/respawn/familiar/respawnhardcore.cinematic": {
     "/panels/2/text": "texts/cinematics/respawn/respawnhardcore.cinematic.json"
   },
@@ -3258,15 +3261,6 @@
   "items/active/weapons/ranged/sniperrifle/swtjc_ewg_uncommonbeamrifle.activeitem": {
     "/description": "texts/items/active/weapons/shared_rifle.json"
   },
-  "items/active/weapons/ranged/unique/aetheriumassaultrifle.activeitem": {
-    "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
-  },
-  "items/active/weapons/ranged/unique/aetheriumpistol.activeitem": {
-    "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
-  },
-  "items/active/weapons/ranged/unique/aetheriumshotgun.activeitem": {
-    "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
-  },
   "items/active/weapons/ranged/unique/ancientcarbine.activeitem": {
     "/altAbility/name": "texts/items/active/weapons/ranged/unique/shared_cien.json"
   },
@@ -5900,7 +5894,8 @@
     "/glitchDescription/glitchEmotedText": "texts/items/materials/darkstone.matitem.json"
   },
   "items/materials/darkwatercoral.matitem": {
-    "/description": "texts/items/materials/shared_coral.matitem.json"
+    "/description": "texts/items/materials/shared_coral.matitem.json",
+    "/shortdescription": "texts/materials/shared_darkwatercoral.mat.json"
   },
   "items/materials/darkwoodpanelling.matitem": {
     "/description": "texts/materials/shared_wood.json",
@@ -20718,8 +20713,11 @@
     "/novakidDescription": "texts/objects/shared_castledoor/shared_castledoor.json"
   },
   "objects/nightar/nightarchair/nightarchair.object": {
+    "/description": "texts/objects/nightar/shared_nightarc/shared_nightarc.json",
+    "/floranDescription": "texts/objects/nightar/shared_nightarc/shared_nightarc.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/nightar/nightarchair/nightarchair.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/nightar/nightarchair/nightarchair.object.json",
+    "/humanDescription": "texts/objects/nightar/shared_nightarc/shared_nightarc.json"
   },
   "objects/nightar/nightarchandelier/nightarchandelier.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -20740,6 +20738,13 @@
     "/floranDescription": "texts/objects/nightar/shared_nightarco/shared_nightarco.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/nightar/nightarconsole/nightarconsole.object.json"
+  },
+  "objects/nightar/nightarcouch/nightarcouch.object": {
+    "/description": "texts/objects/nightar/shared_nightarc/shared_nightarc.json",
+    "/floranDescription": "texts/objects/nightar/shared_nightarc/shared_nightarc.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/nightar/nightarcouch/nightarcouch.object.json",
+    "/humanDescription": "texts/objects/nightar/shared_nightarc/shared_nightarc.json"
   },
   "objects/nightar/nightardresser/nightardresser.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -34699,7 +34704,8 @@
     "/shortdescription": "texts/wide_spread_fields.json"
   },
   "tiles/materials/darkwatercoral.material": {
-    "/description": "texts/tiles/materials/shared_coral.material.json"
+    "/description": "texts/tiles/materials/shared_coral.material.json",
+    "/shortdescription": "texts/materials/shared_darkwatercoral.mat.json"
   },
   "tiles/materials/darkwood/fudarkcrosshatch.material": {
     "/description": "texts/materials/shared_dark.json",
