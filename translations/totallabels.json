@@ -1323,7 +1323,7 @@
               "zerchesiumaxe.activeitem.json": 2
             },
             "broadsword": {
-              "advalloybroadsword.activeitem.json": 1,
+              "advalloybroadsword.activeitem.json": 2,
               "aetheriumbroadsword.activeitem.json": 2,
               "aetheriumcleaver.activeitem.json": 2,
               "ancientbroadsword.activeitem.json": 3,
@@ -1342,7 +1342,7 @@
               "energyblade.activeitem.json": 2,
               "energyblade2.activeitem.json": 2,
               "fuatropusbroadsword.activeitem.json": 1,
-              "fucultistbroadsword.activeitem.json": 1,
+              "fucultistbroadsword.activeitem.json": 2,
               "fugoldenblade.activeitem.json": 2,
               "hellfireblade.activeitem.json": 2,
               "hylotlgreatscion.activeitem.json": 2,
@@ -1363,7 +1363,6 @@
               "quietusknight.activeitem.json": 2,
               "radienbroadsword.activeitem.json": 2,
               "shared_.activeitem.json": 2,
-              "shared_broadsword.activeitem.json": 1,
               "shared_wavyslimesword.json": 1,
               "slimebroadsword": {
                 "shared_broadsword.activeitem.json": 1,
@@ -2155,6 +2154,7 @@
               "fugaussmachinegun.activeitem.json": 1,
               "fugausspistol.activeitem.json": 1,
               "fugaussrifle.activeitem.json": 1,
+              "fugausssniper.activeitem.json": 1,
               "fugrinder.activeitem.json": 1,
               "fuhuntingrifle.activeitem.json": 1,
               "fuhuntingrifle2.activeitem.json": 1,
@@ -5176,6 +5176,9 @@
       "materials": {
         "aegisaltcrystal.matitem.json": 1,
         "aliensoil.matitem.json": 1,
+        "ancientblockcracked.matitem.json": 2,
+        "ancientblockplain.matitem.json": 2,
+        "ancientbrickplain.matitem.json": 2,
         "andesite.matitem.json": 1,
         "avaliaeroponics.matitem.json": 2,
         "avalicable.matitem.json": 4,
@@ -7185,6 +7188,12 @@
         },
         "ancientdoorshoot": {
           "ancientdoorshoot.object.json": 2
+        },
+        "ancientmonument": {
+          "ancientmonument.object.json": 2
+        },
+        "ancientserpentstatue": {
+          "ancientserpentstatue.object.json": 2
         }
       },
       "apex": {
@@ -7202,6 +7211,40 @@
         "radmodelportrait": {
           "radmodelportrait.object.json": 10
         }
+      },
+      "atropus": {
+        "atropusbed": {
+          "atropusbed.object.json": 6
+        },
+        "atropusbookcase.object.json": 7,
+        "atropuscabinet.object.json": 6,
+        "atropusceilinglamp": {
+          "atropusceilinglamp.object.json": 2
+        },
+        "atropuschair.object.json": 5,
+        "atropuscouch": {
+          "atropuscouch.object.json": 5
+        },
+        "atropusdesk.object.json": 6,
+        "atropusdesklamp": {
+          "atropusdesklamp.object.json": 2
+        },
+        "atropusdrawers.object.json": 8,
+        "atropusendtable.object.json": 2,
+        "atropusfridge.object.json": 2,
+        "atropuslamp": {
+          "atropuslamp.object.json": 2
+        },
+        "atropusminifridge.object.json": 2,
+        "atropusnightstand.object.json": 8,
+        "atropusstool.object.json": 6,
+        "atropustable.object.json": 2,
+        "shared_atropus": {
+          "shared_lamp.object.json": 5
+        },
+        "shared_atropus.json": 6,
+        "shared_fridge.object.json": 5,
+        "shared_table.object.json": 4
       },
       "augmentextractor": {
         "aex.object.json": 10
@@ -10673,32 +10716,32 @@
       },
       "nocxium": {
         "nocxiumbed": {
-          "nocxiumbed.object.json": 8
+          "nocxiumbed.object.json": 7
         },
-        "nocxiumbookcase.object.json": 8,
-        "nocxiumcabinet.object.json": 8,
-        "nocxiumchair.object.json": 8,
+        "nocxiumbookcase.object.json": 7,
+        "nocxiumcabinet.object.json": 7,
+        "nocxiumchair.object.json": 7,
         "nocxiumchest1.object.json": 2,
         "nocxiumchest2.object.json": 2,
         "nocxiumcouch": {
-          "nocxiumcouch.object.json": 8
+          "nocxiumcouch.object.json": 7
         },
-        "nocxiumdesk.object.json": 8,
-        "nocxiumdrawers.object.json": 9,
+        "nocxiumdesk.object.json": 7,
+        "nocxiumdrawers.object.json": 8,
         "nocxiumendtable.object.json": 2,
         "nocxiumfridge.object.json": 2,
         "nocxiumlamp": {
           "nocxiumlamp.object.json": 2
         },
         "nocxiumminifridge.object.json": 2,
-        "nocxiumnightstand.object.json": 9,
+        "nocxiumnightstand.object.json": 8,
         "nocxiumstrip": {
           "shared_nocxiumstrip.json": 4
         },
         "nocxiumtable.object.json": 2,
-        "shared_fridge.object.json": 6,
+        "shared_fridge.object.json": 5,
         "shared_nocxiumchest.json": 6,
-        "shared_table.object.json": 6
+        "shared_table.object.json": 5
       },
       "novakid": {
         "applebarrel": {
@@ -11607,7 +11650,7 @@
       "shared_avali.json": 7,
       "shared_banner.json": 3,
       "shared_bed": {
-        "shared_bed.object.json": 2
+        "shared_bed.object.json": 3
       },
       "shared_biome": {
         "shared_ceiling": {
@@ -11617,22 +11660,23 @@
           "shared_.object.json": 1
         }
       },
-      "shared_bookcase.object.json": 6,
+      "shared_bookcase.object.json": 7,
       "shared_box.json": 3,
       "shared_cabinet": {
         "shared_cabinet.object.json": 2
       },
       "shared_cabinet.json": 12,
+      "shared_cabinet.object.json": 1,
       "shared_captainschair": {
         "shared_captainschair.object.json": 1
       },
       "shared_castledoor": {
         "shared_castledoor.json": 4
       },
-      "shared_chair.object.json": 3,
+      "shared_chair.object.json": 4,
       "shared_console.json": 8,
       "shared_couch": {
-        "shared_couch.object.json": 2
+        "shared_couch.object.json": 3
       },
       "shared_crystalplant": {
         "shared_crystalplant.json": 2
@@ -11642,16 +11686,18 @@
         "shared_desk.object.json": 1
       },
       "shared_desk.json": 1,
-      "shared_desk.object.json": 1,
+      "shared_desk.object.json": 2,
       "shared_door": {
         "shared_.object.json": 3,
         "shared_door.object.json": 1
       },
       "shared_door.json": 7,
+      "shared_drawers.object.json": 1,
       "shared_fridge": {
         "shared_fridge.object.json": 1
       },
       "shared_fridge.json": 10,
+      "shared_fridge.object.json": 1,
       "shared_generator": {
         "shared_generator.config.json": 1
       },
@@ -11678,7 +11724,7 @@
       "shared_locker.json": 1,
       "shared_minifridge.json": 6,
       "shared_nest.json": 2,
-      "shared_nightstand.object.json": 1,
+      "shared_nightstand.object.json": 2,
       "shared_pillar": {
         "shared_.object.json": 2
       },
@@ -11708,7 +11754,7 @@
       "shared_storagelocker.json": 1,
       "shared_t.object.json": 1,
       "shared_table.json": 2,
-      "shared_table.object.json": 1,
+      "shared_table.object.json": 2,
       "shared_teleporter": {
         "shared_teleporter.object.json": 3
       },
@@ -12560,6 +12606,9 @@
       "spawner": {
         "elduukharcolonydeed": {
           "elduukharcolonydeed.object.json": 9
+        },
+        "fu_shoggothspawner": {
+          "fu_shoggothspawner.object.json": 1
         },
         "futinydeed": {
           "fucolonydeed.object.json": 1
@@ -16185,6 +16234,9 @@
       "materials": {
         "aegisaltcrystal.material.json": 1,
         "aliensoil.material.json": 1,
+        "ancientblockcracked.material.json": 1,
+        "ancientblockplain.material.json": 1,
+        "ancientbrickplain.material.json": 2,
         "andesite.material.json": 1,
         "avaliaeroponics.material.json": 2,
         "avalichits.material.json": 1,
@@ -16385,6 +16437,7 @@
         "richlattice.material.json": 1,
         "rottingflesh.material.json": 1,
         "shared_.material.json": 2,
+        "shared_ancientblock.json": 1,
         "shared_avalidarkmetal.json": 1,
         "shared_block.material.json": 1,
         "shared_boneyflesh.material.json": 2,

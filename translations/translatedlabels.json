@@ -1289,7 +1289,7 @@
           },
           "melee": {
             "axe": {
-              "advalloyaxe.activeitem.json": 2,
+              "advalloyaxe.activeitem.json": 1,
               "aetheriumaxe.activeitem.json": 4,
               "bountyaxe.activeitem.json": 1,
               "carbonaxe.activeitem.json": 2,
@@ -1342,7 +1342,7 @@
               "energyblade.activeitem.json": 2,
               "energyblade2.activeitem.json": 2,
               "fuatropusbroadsword.activeitem.json": 1,
-              "fucultistbroadsword.activeitem.json": 1,
+              "fucultistbroadsword.activeitem.json": 2,
               "fugoldenblade.activeitem.json": 2,
               "hellfireblade.activeitem.json": 2,
               "hylotlgreatscion.activeitem.json": 2,
@@ -1363,7 +1363,6 @@
               "quietusknight.activeitem.json": 2,
               "radienbroadsword.activeitem.json": 0,
               "shared_.activeitem.json": 2,
-              "shared_broadsword.activeitem.json": 1,
               "shared_wavyslimesword.json": 1,
               "slimebroadsword": {
                 "shared_broadsword.activeitem.json": 1,
@@ -1486,7 +1485,7 @@
               "zerchesiumhammer.activeitem.json": 2
             },
             "katana": {
-              "advalloykatana.activeitem.json": 2,
+              "advalloykatana.activeitem.json": 1,
               "aetheriumkatana.activeitem.json": 4,
               "blooddiamondkatana.activeitem.json": 2,
               "carbonkatana.activeitem.json": 2,
@@ -1614,7 +1613,7 @@
               "telebriumquarterstaff.activeitem.json": 2,
               "tungstenquarterstaff.activeitem.json": 1,
               "uncommonqs.activeitem.json": 1,
-              "zerchesiumquarterstaff.activeitem.json": 2
+              "zerchesiumquarterstaff.activeitem.json": 1
             },
             "rapier": {
               "advalloyrapier.activeitem.json": 2,
@@ -2155,6 +2154,7 @@
               "fugaussmachinegun.activeitem.json": 1,
               "fugausspistol.activeitem.json": 1,
               "fugaussrifle.activeitem.json": 1,
+              "fugausssniper.activeitem.json": 0,
               "fugrinder.activeitem.json": 1,
               "fuhuntingrifle.activeitem.json": 1,
               "fuhuntingrifle2.activeitem.json": 1,
@@ -5176,6 +5176,9 @@
       "materials": {
         "aegisaltcrystal.matitem.json": 1,
         "aliensoil.matitem.json": 1,
+        "ancientblockcracked.matitem.json": 0,
+        "ancientblockplain.matitem.json": 0,
+        "ancientbrickplain.matitem.json": 0,
         "andesite.matitem.json": 1,
         "avaliaeroponics.matitem.json": 2,
         "avalicable.matitem.json": 4,
@@ -7185,6 +7188,12 @@
         },
         "ancientdoorshoot": {
           "ancientdoorshoot.object.json": 2
+        },
+        "ancientmonument": {
+          "ancientmonument.object.json": 0
+        },
+        "ancientserpentstatue": {
+          "ancientserpentstatue.object.json": 0
         }
       },
       "apex": {
@@ -7202,6 +7211,40 @@
         "radmodelportrait": {
           "radmodelportrait.object.json": 10
         }
+      },
+      "atropus": {
+        "atropusbed": {
+          "atropusbed.object.json": 0
+        },
+        "atropusbookcase.object.json": 0,
+        "atropuscabinet.object.json": 0,
+        "atropusceilinglamp": {
+          "atropusceilinglamp.object.json": 0
+        },
+        "atropuschair.object.json": 0,
+        "atropuscouch": {
+          "atropuscouch.object.json": 0
+        },
+        "atropusdesk.object.json": 0,
+        "atropusdesklamp": {
+          "atropusdesklamp.object.json": 0
+        },
+        "atropusdrawers.object.json": 0,
+        "atropusendtable.object.json": 0,
+        "atropusfridge.object.json": 0,
+        "atropuslamp": {
+          "atropuslamp.object.json": 0
+        },
+        "atropusminifridge.object.json": 0,
+        "atropusnightstand.object.json": 0,
+        "atropusstool.object.json": 0,
+        "atropustable.object.json": 0,
+        "shared_atropus": {
+          "shared_lamp.object.json": 0
+        },
+        "shared_atropus.json": 0,
+        "shared_fridge.object.json": 0,
+        "shared_table.object.json": 0
       },
       "augmentextractor": {
         "aex.object.json": 10
@@ -11623,6 +11666,7 @@
         "shared_cabinet.object.json": 0
       },
       "shared_cabinet.json": 4,
+      "shared_cabinet.object.json": 0,
       "shared_captainschair": {
         "shared_captainschair.object.json": 1
       },
@@ -11648,10 +11692,12 @@
         "shared_door.object.json": 1
       },
       "shared_door.json": 2,
+      "shared_drawers.object.json": 0,
       "shared_fridge": {
         "shared_fridge.object.json": 0
       },
       "shared_fridge.json": 8,
+      "shared_fridge.object.json": 0,
       "shared_generator": {
         "shared_generator.config.json": 1
       },
@@ -12560,6 +12606,9 @@
       "spawner": {
         "elduukharcolonydeed": {
           "elduukharcolonydeed.object.json": 1
+        },
+        "fu_shoggothspawner": {
+          "fu_shoggothspawner.object.json": 0
         },
         "futinydeed": {
           "fucolonydeed.object.json": 1
@@ -16185,6 +16234,9 @@
       "materials": {
         "aegisaltcrystal.material.json": 1,
         "aliensoil.material.json": 1,
+        "ancientblockcracked.material.json": 0,
+        "ancientblockplain.material.json": 0,
+        "ancientbrickplain.material.json": 0,
         "andesite.material.json": 1,
         "avaliaeroponics.material.json": 2,
         "avalichits.material.json": 1,
@@ -16385,6 +16437,7 @@
         "richlattice.material.json": 1,
         "rottingflesh.material.json": 1,
         "shared_.material.json": 2,
+        "shared_ancientblock.json": 0,
         "shared_avalidarkmetal.json": 1,
         "shared_block.material.json": 1,
         "shared_boneyflesh.material.json": 2,
