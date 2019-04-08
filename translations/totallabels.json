@@ -248,11 +248,11 @@
         "atropus3.codex.json": 2,
         "atropus4.codex.json": 3,
         "dark1.codex.json": 2,
-        "penumbra1.codex.json": 2,
+        "penumbra1.codex.json": 3,
         "penumbra2.codex.json": 2,
-        "penumbra3.codex.json": 2,
+        "penumbra3.codex.json": 3,
         "penumbra4.codex.json": 2,
-        "penumbra5.codex.json": 2,
+        "penumbra5.codex.json": 3,
         "penumbra6.codex.json": 2
       },
       "documents": {
@@ -276,7 +276,7 @@
         "random11.codex.json": 3,
         "random12.codex.json": 6,
         "random13.codex.json": 4,
-        "random14.codex.json": 9,
+        "random14.codex.json": 10,
         "random2.codex.json": 3,
         "random3.codex.json": 4,
         "random4.codex.json": 4,
@@ -333,7 +333,7 @@
         "elderwhipbook.codex.json": 3,
         "shared_blackbook.json": 1,
         "shared_book.codex.json": 2,
-        "thesubstance.codex.json": 7
+        "thesubstance.codex.json": 10
       },
       "elduukhar": {
         "elduukhar1.codex.json": 3,
@@ -354,7 +354,7 @@
         "fenerox19.codex.json": 4,
         "fenerox2.codex.json": 4,
         "fenerox20.codex.json": 4,
-        "fenerox3.codex.json": 3,
+        "fenerox3.codex.json": 5,
         "fenerox4.codex.json": 3,
         "fenerox5.codex.json": 4,
         "fenerox6.codex.json": 5,
@@ -384,7 +384,7 @@
         "kirhos5.codex.json": 3,
         "kirhos6.codex.json": 6,
         "kirhos7.codex.json": 3,
-        "shared_kirhos.json": 1
+        "shared_kirhos.json": 2
       },
       "legacy_codex": {
         "bigapecodexannoyance.codex.json": 4,
@@ -494,16 +494,16 @@
         "shared_letheiafacility.json": 2
       },
       "nightar": {
-        "nightardoc1.codex.json": 6,
-        "nightardoc2.codex.json": 8,
+        "nightardoc1.codex.json": 9,
+        "nightardoc2.codex.json": 11,
         "nightardoc3.codex.json": 5,
-        "nightardoc4.codex.json": 3,
-        "nightarhistory1.codex.json": 2,
+        "nightardoc4.codex.json": 4,
+        "nightarhistory1.codex.json": 3,
         "nightarhistory2.codex.json": 5,
-        "nightarhistory3.codex.json": 3,
+        "nightarhistory3.codex.json": 4,
         "nightarhistory4.codex.json": 3,
-        "nightarhistory5.codex.json": 3,
-        "nightarhistory6.codex.json": 5,
+        "nightarhistory5.codex.json": 4,
+        "nightarhistory6.codex.json": 6,
         "shared_nightarhistory.json": 1
       },
       "precursor": {
@@ -527,14 +527,14 @@
         "shared_precursor.json": 1
       },
       "radien": {
-        "radien1.codex.json": 3,
+        "radien1.codex.json": 4,
         "radien10.codex.json": 5,
         "radien11.codex.json": 2,
         "radien2.codex.json": 3,
         "radien3.codex.json": 4,
         "radien4.codex.json": 2,
         "radien5.codex.json": 2,
-        "radien6.codex.json": 2,
+        "radien6.codex.json": 4,
         "radien7.codex.json": 2,
         "radien8.codex.json": 2,
         "radien9.codex.json": 6
@@ -542,7 +542,7 @@
       "shadow": {
         "shadow1.codex.json": 2,
         "shadow2.codex.json": 2,
-        "shadow3.codex.json": 5,
+        "shadow3.codex.json": 6,
         "shadow4.codex.json": 5,
         "shared_shadow.json": 1
       },
@@ -570,8 +570,8 @@
         "thelusian3.codex.json": 3,
         "thelusian4.codex.json": 3,
         "thelusian5.codex.json": 4,
-        "thelusian6.codex.json": 3,
-        "thelusian7.codex.json": 3
+        "thelusian6.codex.json": 4,
+        "thelusian7.codex.json": 5
       },
       "veluuish": {
         "catdiary.codex.json": 4
@@ -628,7 +628,7 @@
       "macready.config.json": 1,
       "plurcombat.config.json": 36,
       "shared_.config.json": 11,
-      "slimenpchuman.config.json": 236,
+      "shared_n.config.json": 236,
       "towndrunk.config.json": 89
     },
     "generic.json": 1,
@@ -2855,6 +2855,16 @@
           "invis": {
             "inviselduu.head.json": 1,
             "shared_inviselduu..json": 1
+          },
+          "templeguard": {
+            "templeguard.chest.json": 2,
+            "templeguard.head.json": 2,
+            "templeguard.legs.json": 2
+          },
+          "worshipper": {
+            "shared_worshipper.json": 2,
+            "worshipper.chest.json": 1,
+            "worshipper.legs.json": 1
           }
         },
         "hider": {
@@ -6230,7 +6240,8 @@
           "shared_.monstertype.json": 1
         },
         "skywhale": {
-          "skywhale.monstertype.json": 2
+          "skywhale.monstertype.json": 2,
+          "skywhale2.monstertype.json": 2
         },
         "squidbeast": {
           "squidbeast.monstertype.json": 2
@@ -6406,9 +6417,12 @@
       },
       "segmented": {
         "burrowers": {
+          "megaburrower": {
+            "megaburrower.monstertype.json": 1
+          },
           "shared_burrower": {
             "shared_.monstertype.json": 1,
-            "shared_burrower.monstertype.json": 1,
+            "shared__burrower.monstertype.json": 1,
             "shared_burrower_segment.json": 1,
             "shared_burrower_tail.monstertype.json": 1
           }
@@ -7773,6 +7787,40 @@
         "xenostationadvnew": {
           "xenostationadvnew.object.json": 2
         }
+      },
+      "densinium": {
+        "densiniumbed": {
+          "densiniumbed.object.json": 6
+        },
+        "densiniumbookcase.object.json": 6,
+        "densiniumcabinet.object.json": 6,
+        "densiniumceilinglamp": {
+          "densiniumceilinglamp.object.json": 2
+        },
+        "densiniumchair.object.json": 6,
+        "densiniumchestlarge.object.json": 2,
+        "densiniumchestsmall.object.json": 2,
+        "densiniumcouch": {
+          "densiniumcouch.object.json": 6
+        },
+        "densiniumdesk.object.json": 6,
+        "densiniumdesklamp": {
+          "densiniumdesklamp.object.json": 2
+        },
+        "densiniumdrawers.object.json": 8,
+        "densiniumendtable.object.json": 5,
+        "densiniumfridge.object.json": 2,
+        "densiniumlamp.object.json": 2,
+        "densiniumminifridge.object.json": 2,
+        "densiniumnightstand.object.json": 6,
+        "densiniumtable.object.json": 5,
+        "densiniumwalllamp": {
+          "densiniumwalllamp.object.json": 2
+        },
+        "shared_densinium.json": 10,
+        "shared_densiniumchest.json": 4,
+        "shared_fridge.object.json": 4,
+        "shared_table.object.json": 1
       },
       "devtools": {
         "ClockTest": {
@@ -10669,7 +10717,7 @@
           "nightarstasispod.object.json": 9
         },
         "nightarstool": {
-          "nightarstool.object.json": 2
+          "nightarstool.object.json": 1
         },
         "nightarstoragelocker": {
           "nightarstoragelocker.object.json": 1
@@ -11646,7 +11694,7 @@
           "tenebrhaeshipdoor.object.json": 2
         }
       },
-      "shared_.object.json": 38,
+      "shared_.object.json": 37,
       "shared_avali.json": 7,
       "shared_banner.json": 3,
       "shared_bed": {
@@ -11746,6 +11794,9 @@
         "shared_slimenpc": {
           "shared_table.object.json": 1
         }
+      },
+      "shared_stool": {
+        "shared_stool.object.json": 1
       },
       "shared_stool.object.json": 1,
       "shared_storage": {
@@ -14619,19 +14670,42 @@
         }
       },
       "zerchesium": {
+        "shared_zerchesium": {
+          "shared_fridge.object.json": 6,
+          "shared_table.object.json": 5,
+          "shared_zerchesium.json": 1
+        },
+        "shared_zerchesiumcrate": {
+          "shared_zerchesiumcrate.json": 6
+        },
         "shared_zerchesiumlamp.json": 3,
         "zerchesiumbed": {
           "zerchesiumbed.object.json": 8
         },
+        "zerchesiumbookcase": {
+          "zerchesiumbookcase.object.json": 8
+        },
         "zerchesiumcabinet.object.json": 8,
         "zerchesiumchair.object.json": 4,
         "zerchesiumconsole.object.json": 9,
+        "zerchesiumcouch": {
+          "zerchesiumcouch.object.json": 8
+        },
+        "zerchesiumcratelarge": {
+          "zerchesiumcratelarge.object.json": 2
+        },
+        "zerchesiumcratesmall": {
+          "zerchesiumcratesmall.object.json": 2
+        },
         "zerchesiumdesk": {
           "zerchesiumdesk.object.json": 9
         },
         "zerchesiumdrawer.object.json": 9,
+        "zerchesiumendtable": {
+          "zerchesiumendtable.object.json": 1
+        },
         "zerchesiumfridge": {
-          "zerchesiumfridge.object.json": 7
+          "zerchesiumfridge.object.json": 1
         },
         "zerchesiumlamplarge.object.json": 1,
         "zerchesiumlampsmall.object.json": 1,
@@ -14641,13 +14715,19 @@
         "zerchesiumlocker": {
           "zerchesiumlocker.object.json": 9
         },
+        "zerchesiumminifridge": {
+          "zerchesiumminifridge.object.json": 1
+        },
         "zerchesiumslidingdoor.object.json": 9,
+        "zerchesiumstool": {
+          "zerchesiumstool.object.json": 7
+        },
         "zerchesiumtable": {
-          "zerchesiumtable.object.json": 6
+          "zerchesiumtable.object.json": 1
         }
       }
     },
-    "objects.json": 41,
+    "objects.json": 42,
     "particles": {
       "angryrocketreloaded.particle.json": 1,
       "angryrocketreloadedfull.particle.json": 1,
@@ -15119,7 +15199,7 @@
       "exploration.radiomessages.json": 34,
       "fu_chemlab.radiomessages.json": 9,
       "fu_elder.radiomessages.json": 34,
-      "fu_exploration.radiomessages.json": 68,
+      "fu_exploration.radiomessages.json": 72,
       "fu_isotopes.radiomessages.json": 8,
       "fu_kevin.radiomessages.json": 9,
       "fu_ore.radiomessages.json": 18,
@@ -15178,7 +15258,6 @@
     "shared_mat.json": 1,
     "shared_matmod.json": 9,
     "shared_nightarsplatform.mat.json": 5,
-    "shared_npc.json": 1,
     "shared_oceanite.json": 1,
     "shared_ost.json": 1,
     "shared_pancakes.json": 1,
@@ -15606,6 +15685,7 @@
           },
           "percentarmorboost": {
             "percentarmorboost.animation.json": 1,
+            "percentarmorboost.statuseffect.json": 1,
             "percentarmorboost10.statuseffect.json": 1,
             "percentarmorboost100.statuseffect.json": 1,
             "percentarmorboost125.statuseffect.json": 1,
@@ -15667,6 +15747,9 @@
           },
           "radiendirt": {
             "radiendirt.statuseffect.json": 1
+          },
+          "shared_energyre": {
+            "shared_.statuseffect.json": 1
           },
           "stealthed": {
             "stealthed.animation.json": 1
@@ -15956,6 +16039,7 @@
           "maxhealthboost70.statuseffect.json": 1,
           "maxhealthboost80.statuseffect.json": 1,
           "maxhealthboost90.statuseffect.json": 1,
+          "maxhealthboostbase.statuseffect.json": 1,
           "maxhealthboostneg10.statuseffect.json": 1,
           "maxhealthboostneg20.statuseffect.json": 1,
           "sulphurattack.statuseffect.json": 1
@@ -16555,7 +16639,7 @@
         "sturdyplatform.material.json": 2
       }
     },
-    "wide_spread_fields.json": 160,
+    "wide_spread_fields.json": 161,
     "zb": {
       "newSail": {
         "data.config.json": 7,

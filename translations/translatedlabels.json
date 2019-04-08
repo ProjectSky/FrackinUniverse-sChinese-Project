@@ -628,7 +628,7 @@
       "macready.config.json": 1,
       "plurcombat.config.json": 36,
       "shared_.config.json": 1,
-      "slimenpchuman.config.json": 63,
+      "shared_n.config.json": 63,
       "towndrunk.config.json": 0
     },
     "generic.json": 1,
@@ -2244,7 +2244,7 @@
                 },
                 "freezecannon": {
                   "fufreezecannon.activeitem.json": 3,
-                  "fufreezecannonKhe.activeitem.json": 3
+                  "fufreezecannonKhe.activeitem.json": 1
                 },
                 "frostcannonarm": {
                   "frostcannonarm.activeitem.json": 3
@@ -2855,6 +2855,16 @@
           "invis": {
             "inviselduu.head.json": 1,
             "shared_inviselduu..json": 1
+          },
+          "templeguard": {
+            "templeguard.chest.json": 0,
+            "templeguard.head.json": 0,
+            "templeguard.legs.json": 0
+          },
+          "worshipper": {
+            "shared_worshipper.json": 0,
+            "worshipper.chest.json": 0,
+            "worshipper.legs.json": 0
           }
         },
         "hider": {
@@ -6230,7 +6240,8 @@
           "shared_.monstertype.json": 1
         },
         "skywhale": {
-          "skywhale.monstertype.json": 2
+          "skywhale.monstertype.json": 2,
+          "skywhale2.monstertype.json": 0
         },
         "squidbeast": {
           "squidbeast.monstertype.json": 2
@@ -6406,9 +6417,12 @@
       },
       "segmented": {
         "burrowers": {
+          "megaburrower": {
+            "megaburrower.monstertype.json": 0
+          },
           "shared_burrower": {
             "shared_.monstertype.json": 0,
-            "shared_burrower.monstertype.json": 0,
+            "shared__burrower.monstertype.json": 0,
             "shared_burrower_segment.json": 0,
             "shared_burrower_tail.monstertype.json": 0
           }
@@ -7773,6 +7787,40 @@
         "xenostationadvnew": {
           "xenostationadvnew.object.json": 2
         }
+      },
+      "densinium": {
+        "densiniumbed": {
+          "densiniumbed.object.json": 0
+        },
+        "densiniumbookcase.object.json": 0,
+        "densiniumcabinet.object.json": 0,
+        "densiniumceilinglamp": {
+          "densiniumceilinglamp.object.json": 0
+        },
+        "densiniumchair.object.json": 0,
+        "densiniumchestlarge.object.json": 0,
+        "densiniumchestsmall.object.json": 0,
+        "densiniumcouch": {
+          "densiniumcouch.object.json": 0
+        },
+        "densiniumdesk.object.json": 0,
+        "densiniumdesklamp": {
+          "densiniumdesklamp.object.json": 0
+        },
+        "densiniumdrawers.object.json": 0,
+        "densiniumendtable.object.json": 0,
+        "densiniumfridge.object.json": 0,
+        "densiniumlamp.object.json": 0,
+        "densiniumminifridge.object.json": 0,
+        "densiniumnightstand.object.json": 0,
+        "densiniumtable.object.json": 0,
+        "densiniumwalllamp": {
+          "densiniumwalllamp.object.json": 0
+        },
+        "shared_densinium.json": 0,
+        "shared_densiniumchest.json": 0,
+        "shared_fridge.object.json": 0,
+        "shared_table.object.json": 0
       },
       "devtools": {
         "ClockTest": {
@@ -11747,6 +11795,9 @@
           "shared_table.object.json": 0
         }
       },
+      "shared_stool": {
+        "shared_stool.object.json": 0
+      },
       "shared_stool.object.json": 0,
       "shared_storage": {
         "shared_locker.json": 7
@@ -14619,17 +14670,40 @@
         }
       },
       "zerchesium": {
+        "shared_zerchesium": {
+          "shared_fridge.object.json": 0,
+          "shared_table.object.json": 0,
+          "shared_zerchesium.json": 0
+        },
+        "shared_zerchesiumcrate": {
+          "shared_zerchesiumcrate.json": 0
+        },
         "shared_zerchesiumlamp.json": 0,
         "zerchesiumbed": {
           "zerchesiumbed.object.json": 0
         },
+        "zerchesiumbookcase": {
+          "zerchesiumbookcase.object.json": 0
+        },
         "zerchesiumcabinet.object.json": 0,
         "zerchesiumchair.object.json": 0,
         "zerchesiumconsole.object.json": 0,
+        "zerchesiumcouch": {
+          "zerchesiumcouch.object.json": 0
+        },
+        "zerchesiumcratelarge": {
+          "zerchesiumcratelarge.object.json": 0
+        },
+        "zerchesiumcratesmall": {
+          "zerchesiumcratesmall.object.json": 0
+        },
         "zerchesiumdesk": {
           "zerchesiumdesk.object.json": 0
         },
         "zerchesiumdrawer.object.json": 0,
+        "zerchesiumendtable": {
+          "zerchesiumendtable.object.json": 0
+        },
         "zerchesiumfridge": {
           "zerchesiumfridge.object.json": 0
         },
@@ -14641,7 +14715,13 @@
         "zerchesiumlocker": {
           "zerchesiumlocker.object.json": 0
         },
+        "zerchesiumminifridge": {
+          "zerchesiumminifridge.object.json": 0
+        },
         "zerchesiumslidingdoor.object.json": 0,
+        "zerchesiumstool": {
+          "zerchesiumstool.object.json": 0
+        },
         "zerchesiumtable": {
           "zerchesiumtable.object.json": 0
         }
@@ -15119,7 +15199,7 @@
       "exploration.radiomessages.json": 34,
       "fu_chemlab.radiomessages.json": 9,
       "fu_elder.radiomessages.json": 34,
-      "fu_exploration.radiomessages.json": 66,
+      "fu_exploration.radiomessages.json": 57,
       "fu_isotopes.radiomessages.json": 8,
       "fu_kevin.radiomessages.json": 9,
       "fu_ore.radiomessages.json": 18,
@@ -15178,7 +15258,6 @@
     "shared_mat.json": 1,
     "shared_matmod.json": 9,
     "shared_nightarsplatform.mat.json": 5,
-    "shared_npc.json": 1,
     "shared_oceanite.json": 1,
     "shared_ost.json": 1,
     "shared_pancakes.json": 1,
@@ -15606,6 +15685,7 @@
           },
           "percentarmorboost": {
             "percentarmorboost.animation.json": 1,
+            "percentarmorboost.statuseffect.json": 0,
             "percentarmorboost10.statuseffect.json": 1,
             "percentarmorboost100.statuseffect.json": 1,
             "percentarmorboost125.statuseffect.json": 1,
@@ -15667,6 +15747,9 @@
           },
           "radiendirt": {
             "radiendirt.statuseffect.json": 1
+          },
+          "shared_energyre": {
+            "shared_.statuseffect.json": 0
           },
           "stealthed": {
             "stealthed.animation.json": 1
@@ -15956,6 +16039,7 @@
           "maxhealthboost70.statuseffect.json": 1,
           "maxhealthboost80.statuseffect.json": 1,
           "maxhealthboost90.statuseffect.json": 1,
+          "maxhealthboostbase.statuseffect.json": 0,
           "maxhealthboostneg10.statuseffect.json": 1,
           "maxhealthboostneg20.statuseffect.json": 1,
           "sulphurattack.statuseffect.json": 1
@@ -16555,7 +16639,7 @@
         "sturdyplatform.material.json": 2
       }
     },
-    "wide_spread_fields.json": 160,
+    "wide_spread_fields.json": 161,
     "zb": {
       "newSail": {
         "data.config.json": 6,
