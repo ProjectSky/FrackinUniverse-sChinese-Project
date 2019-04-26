@@ -1,10 +1,5 @@
 {
   "texts": {
-    "a_notyetadded": {
-      "objects": {
-        "painting_whistler.object.json": 0
-      }
-    },
     "ai": {
       "alienjungle.aimission.json": 3,
       "ancienttemple.aimission.json": 3,
@@ -336,6 +331,8 @@
         "elderstaff2book.codex.json": 3,
         "elderstaff3book.codex.json": 3,
         "elderwhipbook.codex.json": 3,
+        "madness_codex.codex.json": 0,
+        "madness_research1.codex.json": 0,
         "shared_blackbook.json": 1,
         "shared_book.codex.json": 2,
         "thesubstance.codex.json": 0
@@ -829,6 +826,7 @@
         "samplingarray2.config.json": 2,
         "shared_.config.json": 9,
         "teambar.config.json": 1,
+        "tomedais.config.json": 0,
         "xenostation.config.json": 2
       }
     },
@@ -994,8 +992,10 @@
             }
           },
           "botpod": {
-            "botpod.activeitem.json": 2,
-            "npcbotpod.activeitem.json": 2
+            "botpod.activeitem.json": 1,
+            "elderpod.activeitem.json": 0,
+            "npcbotpod.activeitem.json": 2,
+            "shared_pod.activeitem.json": 1
           },
           "bugnet": {
             "bugnet2.activeitem.json": 2
@@ -1022,9 +1022,34 @@
             "gyrostabilizer.activeitem.json": 2
           },
           "madnessvoxel": {
-            "madnesstoken.activeitem.json": 2,
-            "madnesstoken2.activeitem.json": 2,
-            "madnesstoken3.activeitem.json": 2
+            "beachscene.activeitem.json": 0,
+            "blindingenvelope.activeitem.json": 0,
+            "bloodyfinger.activeitem.json": 0,
+            "candleofstench.activeitem.json": 0,
+            "chipotle.activeitem.json": 0,
+            "comb.activeitem.json": 0,
+            "crayonoflies.activeitem.json": 0,
+            "insaneramblings.activeitem.json": 0,
+            "lawbook.activeitem.json": 0,
+            "madmask.activeitem.json": 0,
+            "madness_knowledge.activeitem.json": 0,
+            "madnesstoken.activeitem.json": 0,
+            "madnesstoken2.activeitem.json": 0,
+            "madnesstoken3.activeitem.json": 0,
+            "madstatue.activeitem.json": 0,
+            "mapofdreamland.activeitem.json": 0,
+            "mirrormirror.activeitem.json": 0,
+            "motedust.activeitem.json": 0,
+            "sharpenedmouse.activeitem.json": 0,
+            "stickoftruth.activeitem.json": 0,
+            "terracottastatue.activeitem.json": 0,
+            "threecoins.activeitem.json": 0,
+            "tonsil.activeitem.json": 0,
+            "undulator.activeitem.json": 0,
+            "universalparking.activeitem.json": 0,
+            "vileconch.activeitem.json": 0,
+            "voynich.activeitem.json": 0,
+            "whispercrystal.activeitem.json": 0
           },
           "mechTablet": {
             "mechtablet.activeitem.json": 0
@@ -1109,7 +1134,7 @@
             "statustablet.activeitem.json": 1
           },
           "techtablet": {
-            "techtablet.activeitem.json": 2
+            "techtablet.activeitem.json": 1
           },
           "translocator": {
             "translocator.activeitem.json": 7
@@ -1876,6 +1901,9 @@
             "angryrocket": {
               "angryrocket.activeitem.json": 2
             },
+            "brainharvester": {
+              "brainharvester.activeitem.json": 0
+            },
             "chargegun": {
               "chargegun2.activeitem.json": 2
             },
@@ -2179,6 +2207,7 @@
               "fustingergun2.activeitem.json": 2,
               "futriangliumpistol.activeitem.json": 2,
               "futriangliumsmg.activeitem.json": 2,
+              "futrigun.activeitem.json": 0,
               "futritaniumpistol.activeitem.json": 2,
               "fuvaporizer.activeitem.json": 3,
               "goregun.activeitem.json": 2,
@@ -2384,7 +2413,7 @@
               "spawngun.activeitem.json": 2,
               "stormwarden.activeitem.json": 2,
               "swarmgun.activeitem.json": 1,
-              "swarmgun2.activeitem.json": 2,
+              "swarmgun2.activeitem.json": 1,
               "telebriumpistol.activeitem.json": 1,
               "telebriumrifle.activeitem.json": 2,
               "tentabane.activeitem.json": 4,
@@ -2898,7 +2927,7 @@
           "nightar_suit": {
             "nightar_suit.chest.json": 2,
             "nightar_suit.head.json": 2,
-            "nightar_suit.legs.json": 2
+            "nightar_suit.legs.json": 0
           },
           "nightarcape": {
             "nightarcape.back.json": 2
@@ -4209,9 +4238,40 @@
         }
       },
       "currency": {
-        "fumadnessresource.currency.json": 2,
+        "fumadnessresource.currency.json": 1,
         "fuprecursorresource.currency.json": 1,
         "fuscienceresource.currency.json": 1
+      },
+      "fossils": {
+        "ancientpoptopfossil": {
+          "ancientpoptopfossil1.item.json": 0,
+          "ancientpoptopfossil2.item.json": 0,
+          "ancientpoptopfossil3.item.json": 0,
+          "ancientpoptopfossil4.item.json": 0,
+          "ancientpoptopfossil5.item.json": 0,
+          "shared_ancientpoptopfossil.json": 0
+        },
+        "giantbatfossil": {
+          "giantbatfossil1.item.json": 0,
+          "giantbatfossil3.item.json": 0,
+          "giantbatfossil4.item.json": 0,
+          "giantbatfossil5.item.json": 0,
+          "shared_giantbatfossil.json": 0
+        },
+        "orcamutantfossil": {
+          "orcamutantfossil1.item.json": 0,
+          "orcamutantfossil2.item.json": 0,
+          "orcamutantfossil3.item.json": 0,
+          "orcamutantfossil4.item.json": 0,
+          "orcamutantfossil5.item.json": 0
+        },
+        "stegofossil": {
+          "stegofossil1.item.json": 0,
+          "stegofossil2.item.json": 0,
+          "stegofossil3.item.json": 0,
+          "stegofossil4.item.json": 0,
+          "stegofossil5.item.json": 0
+        }
       },
       "generic": {
         "crafting": {
@@ -4219,10 +4279,13 @@
           "algaegreen.item.json": 2,
           "ammoniumsulfate.item.json": 2,
           "apalite.item.json": 0,
+          "artificialbrain.item.json": 0,
           "bambooshoot.item.json": 2,
           "biospore.item.json": 2,
           "blobbushjelly.item.json": 2,
           "blooddiamond.item.json": 2,
+          "brain.item.json": 0,
+          "brainpeerless.item.json": 0,
           "calciumnitrate.item.json": 2,
           "cellmateria.item.json": 2,
           "chemlab": {
@@ -4287,6 +4350,7 @@
             "zerchesiumbar.item.json": 2
           },
           "fu_carbon.item.json": 2,
+          "fu_carbondioxide.item.json": 0,
           "fu_carbonpure.item.json": 2,
           "fu_holodisc.item.json": 2,
           "fu_hydrogen.item.json": 2,
@@ -4302,6 +4366,8 @@
           "geneticmaterial.item.json": 2,
           "goldenfleece.item.json": 2,
           "graphene.item.json": 2,
+          "hydrogencore.item.json": 0,
+          "inferiorbrain.item.json": 0,
           "iodine.item.json": 2,
           "irradiumore.item.json": 2,
           "isogenore.item.json": 2,
@@ -4323,6 +4389,13 @@
           "koaniteore.item.json": 2,
           "laboil.item.json": 2,
           "lead.item.json": 2,
+          "madness": {
+            "darkmatter.item.json": 0,
+            "matterconverter.item.json": 0,
+            "psionicenergy.item.json": 0,
+            "reanimmationfluid.item.json": 0,
+            "redmatter.item.json": 0
+          },
           "magnesiumore.item.json": 2,
           "magnesiumpowder.item.json": 2,
           "magnesiumsulfate.item.json": 2,
@@ -4364,7 +4437,7 @@
             "elderrelic8.item.json": 2,
             "elderrelic9.item.json": 2,
             "eldertome.item.json": 2,
-            "fugrimoire.item.json": 2
+            "fugrimoire.item.json": 1
           },
           "nhydri.item.json": 1,
           "nocxiumore.item.json": 1,
@@ -4386,7 +4459,7 @@
             "precursordatadrive.item.json": 2,
             "precursorfluid.item.json": 2,
             "precursorfuelcell.item.json": 2,
-            "precursorgel.item.json": 1,
+            "precursorgel.item.json": 0,
             "precursorgrease.item.json": 1,
             "precursorharddrive.item.json": 2,
             "precursorram.item.json": 2,
@@ -4571,11 +4644,16 @@
             "whiterum.consumable.json": 1
           },
           "sodas": {
+            "apejuice.consumable.json": 0,
+            "codezerches.consumable.json": 0,
+            "corvexdrink.consumable.json": 0,
+            "crystalcola.consumable.json": 0,
             "fuaetherade.consumable.json": 1,
             "fuaetherade2.consumable.json": 1,
             "fuaetherade3.consumable.json": 1,
             "fuaetherade4.consumable.json": 1,
-            "shared_fuaetherade.json": 1
+            "shared_fuaetherade.json": 1,
+            "slamrockshake.consumable.json": 0
           },
           "vodka": {
             "appleschnapps.consumable.json": 2,
@@ -4672,6 +4750,7 @@
           "bloodycorpsewaffles.consumable.json": 2,
           "bluejelly.consumable.json": 2,
           "bolbohnjam.consumable.json": 2,
+          "brainyummy.consumable.json": 0,
           "butteronastick.consumable.json": 2,
           "caramelsoggypaper.consumable.json": 2,
           "cattlefeed.consumable.json": 2,
@@ -5407,6 +5486,7 @@
           "crystalliteshard.thrownitem.json": 2,
           "tinselbushsprout.thrownitem.json": 2
         },
+        "madnessbombteam.thrownitem.json": 0,
         "magmabomb.thrownitem.json": 2,
         "nailbomb.thrownitem.json": 2,
         "neutronbomb.thrownitem.json": 2,
@@ -5512,6 +5592,7 @@
       "shared_blackslime.json": 1,
       "shared_blacksteelblock.mat.json": 2,
       "shared_bleachedbonematerial.mat.json": 2,
+      "shared_block.mat.json": 0,
       "shared_bloods.json": 2,
       "shared_bloodstone.json": 1,
       "shared_brittle.json": 1,
@@ -5673,6 +5754,7 @@
       "shared_slimedirt.json": 2,
       "shared_slopedavianhullpanel.mat.json": 0,
       "shared_slopedglowglass.mat.json": 1,
+      "shared_slopednightarblock.mat.json": 0,
       "shared_slopedtintedglowglass.mat.json": 1,
       "shared_speedblock.json": 1,
       "shared_steelhive.json": 2,
@@ -6194,7 +6276,7 @@
             "pteropod2.monstertype.json": 0
           },
           "pteropod3": {
-            "pteropod3.monstertype.json": 1
+            "pteropod3.monstertype.json": 0
           },
           "pteropodsummoned": {
             "pteropodsummoned.monstertype.json": 0
@@ -6609,6 +6691,12 @@
             "juvenilepoptop.monstertype.json": 2
           }
         },
+        "alienspitter": {
+          "alienspitter.monstertype.json": 0
+        },
+        "alienwalker": {
+          "alienwalker.monstertype.json": 0
+        },
         "anglureish": {
           "anglure2": {
             "anglure2.monstertype.json": 0
@@ -6647,7 +6735,7 @@
             "bunnything.monstertype.json": 1
           },
           "bunnythingmeat": {
-            "bunnythingmeat.monstertype.json": 1
+            "bunnythingmeat.monstertype.json": 0
           }
         },
         "coldalabra": {
@@ -6826,7 +6914,7 @@
           "lobster.monstertype.json": 0
         },
         "maggot": {
-          "maggot.monstertype.json": 1
+          "maggot.monstertype.json": 0
         },
         "mamalilodon": {
           "mamalilodon.monstertype.json": 1
@@ -7212,13 +7300,22 @@
           "ancientdoorshoot.object.json": 2
         },
         "ancientmonument": {
-          "ancientmonument.object.json": 0
+          "shared_ancientmonument.json": 0
         },
         "ancientserpentstatue": {
           "ancientserpentstatue.object.json": 0
         }
       },
       "apex": {
+        "apexbrainjar2": {
+          "apexbrainjar2.object.json": 0
+        },
+        "apexbrainjar3": {
+          "apexbrainjar3.object.json": 0
+        },
+        "apexbrainjar4": {
+          "apexbrainjar4.object.json": 0
+        },
         "apexcampshopcounter": {
           "apexcampshopcounter.object.json": 0
         },
@@ -7703,6 +7800,9 @@
         "lobstertrap": {
           "lobstertrap.object.json": 2
         },
+        "madnesscodex": {
+          "madnesscodex.object.json": 0
+        },
         "matterassembler": {
           "prototyper.object.json": 6,
           "shared_prototyper.json": 7
@@ -7740,6 +7840,9 @@
         },
         "ppshoptruck": {
           "ppshoptruck.object.json": 0
+        },
+        "psioniclab": {
+          "psioniclab.object.json": 0
         },
         "radiencrafting": {
           "radiencrafting.object.json": 0
@@ -8131,8 +8234,7 @@
         "elduubannertiny": {
           "elduubannertiny1.object.json": 0,
           "elduubannertiny2.object.json": 0,
-          "elduubannertiny3.object.json": 0,
-          "shared_elduubannertiny.json": 0
+          "elduubannertiny3.object.json": 0
         },
         "elduubed": {
           "elduubed.object.json": 0
@@ -8180,12 +8282,11 @@
           "shared_lamp.object.json": 0
         },
         "shared_elduubanner": {
-          "elduutornbannerlarge.object.json": 0,
-          "elduutornrebelbannerlarge.object.json": 0,
           "shared_.object.json": 0,
-          "shared_bannerlarge.object.json": 0,
           "shared_elduubanner.json": 0,
-          "shared_elduurebelbanner.json": 0
+          "shared_elduurebelbanner.json": 0,
+          "shared_elduutornbanner.json": 0,
+          "shared_elduutornrebelbanner.json": 0
         },
         "shared_elduuchest.json": 0,
         "shared_elduuconsole": {
@@ -9018,6 +9119,19 @@
           "wartweedjamobject.object.json": 0
         }
       },
+      "fossils": {
+        "displaystands": {
+          "fossildisplay6": {
+            "fossildisplay6.object.json": 0
+          },
+          "fossildisplay7": {
+            "fossildisplay7.object.json": 0
+          },
+          "shared_fossildisplay": {
+            "shared_fossildisplay.json": 0
+          }
+        }
+      },
       "fu_watcher": {
         "fu_watcher.object.json": 2
       },
@@ -9395,6 +9509,9 @@
         },
         "medbaybed": {
           "medbaybed.object.json": 2
+        },
+        "paintings": {
+          "painting_whistler.object.json": 0
         },
         "pong": {
           "pong.object.json": 2
@@ -10077,9 +10194,8 @@
           },
           "elderbed.object.json": 2,
           "elderbookstand": {
-            "elderbookstand.object.json": 1,
-            "elderbookstand_normal.object.json": 1,
-            "shared_elderbookstand.json": 1
+            "elderbookstand.object.json": 0,
+            "elderbookstand_normal.object.json": 0
           },
           "eldercabinet.object.json": 2,
           "eldercarving1.object.json": 1,
@@ -10119,12 +10235,12 @@
             "shared_eldertable.json": 1
           },
           "elderscrolldesk": {
-            "elderscrolldesk.object.json": 2
+            "elderscrolldesk.object.json": 0
           },
           "elderstatue.object.json": 2,
           "elderswitches": {
             "elderlightsensor": {
-              "elderlightsensor.object.json": 2
+              "elderlightsensor.object.json": 1
             },
             "wallswitch": {
               "elderwallswitch.object.json": 2
@@ -10142,6 +10258,9 @@
             "shared_elderfloorspike": {
               "shared_elderfloorspike.json": 1
             }
+          },
+          "embalmingtable": {
+            "embalmingtable.object.json": 0
           },
           "mysteriousmachine1.object.json": 2,
           "shared_catacombs.json": 1,
@@ -11088,6 +11207,13 @@
         }
       },
       "power": {
+        "brainbattery": {
+          "brainbattery.object.json": 0
+        },
+        "braingenerator": {
+          "braingenerator.config.json": 0,
+          "braingenerator.object.json": 0
+        },
         "centrifuge": {
           "centrifuge.object.json": 2
         },
@@ -11111,6 +11237,9 @@
         },
         "fu_liquidmixer": {
           "fu_liquidmixer.object.json": 2
+        },
+        "fu_nocturnarray": {
+          "fu_nocturnarray.object.json": 0
         },
         "fu_powersensorlarge": {
           "fu_powersensorlarge.object.json": 2
@@ -11137,7 +11266,8 @@
           "isn_arcsmelter.object.json": 2
         },
         "isn_atmoscondenser": {
-          "isn_atmoscondenser.object.json": 9
+          "isn_atmoscondenser.object.json": 9,
+          "isn_atmoscondensermadness.object.json": 0
         },
         "isn_atmosregulator": {
           "isn_atmosprotection.statuseffect.json": 1,
@@ -11587,6 +11717,14 @@
         "zelpicture.object.json": 9
       },
       "questturnins.json": 9,
+      "radien": {
+        "bed": {
+          "xibed.object.json": 0
+        },
+        "pod": {
+          "xipod.object.json": 0
+        }
+      },
       "scanInteractableExample": {
         "scaninteractionexample.object.json": 2
       },
@@ -14976,9 +15114,9 @@
           "create_hydrotray.questtemplate.json": 4,
           "frozenwastes": {
             "shoggoth_defeat.questtemplate.json": 3,
-            "shoggoth_unlock.questtemplate.json": 4,
-            "shoggoth_unlocknew.questtemplate.json": 4,
-            "shoggoth_wagner.questtemplate.json": 4
+            "shoggoth_unlock.questtemplate.json": 3,
+            "shoggoth_unlocknew.questtemplate.json": 3,
+            "shoggoth_wagner.questtemplate.json": 2
           },
           "precursor": {
             "precursor_unlock.questtemplate.json": 4
@@ -15122,6 +15260,9 @@
       "letheiafacility.questtemplate.json": 4,
       "letheiafleet.questtemplate.json": 3,
       "lethialabs.questtemplate.json": 4,
+      "madness": {
+        "madnessquest.questtemplate.json": 0
+      },
       "magickaforest.questtemplate.json": 4,
       "mechfuel": {
         "fuelData.questtemplate.json": 0
@@ -15244,6 +15385,13 @@
     "shared_elderplatform.mat.json": 2,
     "shared_emera.json": 1,
     "shared_ers": {
+      "shared_bunnythingmeat": {
+        "shared_bunnythingmeat..json": 1
+      },
+      "shared_maggot.json": 1,
+      "shared_pteropod": {
+        "shared_pteropod.json": 1
+      },
       "shared_waterbot.json": 1
     },
     "shared_ers.json": 4,
@@ -15263,6 +15411,7 @@
     "shared_jump.json": 2,
     "shared_lic.json": 1,
     "shared_lobster..json": 1,
+    "shared_madness.json": 1,
     "shared_mat.json": 1,
     "shared_matmod.json": 9,
     "shared_nightarsplatform.mat.json": 5,
@@ -15292,6 +15441,40 @@
     "shared_tion.json": 2,
     "shared_weapon.json": 1,
     "spawners": {
+      "madness": {
+        "gene": {
+          "madnessbrainbeast": {
+            "madnessbrainbeast.object.json": 0
+          },
+          "madnessmaggot": {
+            "madnessmaggot.object.json": 0
+          },
+          "madnessoculob": {
+            "madnessoculob.object.json": 0
+          },
+          "madnessratthing": {
+            "madnessratthing.object.json": 0
+          }
+        },
+        "robo": {
+          "fatalcircuitdroid": {
+            "fatalcircuitdroid.object.json": 0
+          }
+        },
+        "shared_madness": {
+          "shared_madness.json": 0
+        },
+        "summon": {
+          "madnessfleshreaper": {
+            "madnessfleshreaper.object.json": 0
+          }
+        },
+        "undead": {
+          "madnessbunnythingmeat": {
+            "madnessbunnythingmeat.object.json": 0
+          }
+        }
+      },
       "sentrybotcapturebot": {
         "sentrybotcapturebot.object.json": 1
       },
@@ -15607,7 +15790,7 @@
             "drain.statuseffect.json": 1
           },
           "eatself": {
-            "eatself.statuseffect.json": 1
+            "eatself.statuseffect.json": 0
           },
           "energyregenfu": {
             "energyregenfu05.statuseffect.json": 1,
@@ -15829,8 +16012,7 @@
           "shared_ty_effects.json": 1,
           "specialty_effects": {
             "insanity": {
-              "shared_.animation.json": 2,
-              "shared_.statuseffect.json": 1
+              "shared_.animation.json": 2
             },
             "negativemiasma": {
               "negativemiasma.statuseffect.json": 1
@@ -15983,6 +16165,7 @@
         "jumpboost": {
           "jumpboost15.statuseffect.json": 1,
           "jumpboost25.statuseffect.json": 1,
+          "jumpboost25neg.statuseffect.json": 0,
           "jumpboost35.statuseffect.json": 1
         },
         "liquidimmunity": {
@@ -16129,7 +16312,7 @@
           "shadowblock2.statuseffect.json": 1,
           "shadowblock3.statuseffect.json": 1
         },
-        "shared_effect.json": 1,
+        "shared_effect.json": 2,
         "shared_energyboost.json": 1,
         "slimeleech": {
           "slimeleech.statuseffect.json": 1
@@ -16458,7 +16641,6 @@
         "metallicslab.material.json": 0,
         "nightarcastleblock.material.json": 0,
         "nightarfloor.material.json": 0,
-        "nightarshipblock.material.json": 0,
         "nightarswall1.material.json": 0,
         "nightartechblock.material.json": 0,
         "nightarwall2.material.json": 0,
@@ -16620,7 +16802,7 @@
         "sturdyplatform.material.json": 2
       }
     },
-    "wide_spread_fields.json": 161,
+    "wide_spread_fields.json": 162,
     "zb": {
       "newSail": {
         "data.config.json": 6,
