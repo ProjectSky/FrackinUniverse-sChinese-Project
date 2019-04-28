@@ -23,7 +23,7 @@
 #### 协助翻译流程
 
 * 在线编辑（此方法比较方便，编辑器带有语法检查，可以防止语法错误，不过浏览器崩了或其他原因会丢失数据，还是推荐克隆到本地进行编辑。）
-* 请参阅[JOIN_US.md](https://gitlab.imsky.cc/ProjectSky/FrackinUniverse-sChinese-Project/reference/JOIN_US.md)文档
+* 请参阅[JOIN_US.md](https://gitlab.imsky.cc/ProjectSky/FrackinUniverse-sChinese-Project/blob/FAST/reference/JOIN_US.md)文档
 
 #### 链接信息
 
