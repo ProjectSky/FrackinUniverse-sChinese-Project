@@ -847,6 +847,8 @@
           "crewcontract_chemistyellow.activeitem.json": 2,
           "crewcontract_collector.activeitem.json": 2,
           "crewcontract_counsellor.activeitem.json": 2,
+          "crewcontract_counsellor2.activeitem.json": 2,
+          "crewcontract_counsellor3.activeitem.json": 2,
           "crewcontract_cultist.activeitem.json": 2,
           "crewcontract_cyborg.activeitem.json": 2,
           "crewcontract_engineer.activeitem.json": 2,
@@ -1024,6 +1026,7 @@
           },
           "madnessvoxel": {
             "beachscene.activeitem.json": 2,
+            "bizarreerotica.activeitem.json": 2,
             "blindingenvelope.activeitem.json": 2,
             "bloodyfinger.activeitem.json": 2,
             "candleofstench.activeitem.json": 2,
@@ -2333,6 +2336,7 @@
               "protogun.activeitem.json": 2,
               "protopistol.activeitem.json": 2,
               "protorifle.activeitem.json": 2,
+              "psiejector.activeitem.json": 2,
               "radien": {
                 "radienacidgun": {
                   "radienpistol2.activeitem.json": 5
@@ -2854,6 +2858,10 @@
           },
           "sharkmask": {
             "sharkmask.head.json": 1
+          },
+          "startrek": {
+            "startrek.chest.json": 2,
+            "startrek.legs.json": 2
           }
         },
         "crew": {
@@ -4245,12 +4253,11 @@
       },
       "fossils": {
         "ancientpoptopfossil": {
-          "ancientpoptopfossil1.item.json": 3,
-          "ancientpoptopfossil2.item.json": 1,
-          "ancientpoptopfossil3.item.json": 1,
-          "ancientpoptopfossil4.item.json": 1,
-          "ancientpoptopfossil5.item.json": 1,
-          "shared_ancientpoptopfossil.json": 1
+          "ancientpoptopfossil1.item.json": 4,
+          "ancientpoptopfossil2.item.json": 2,
+          "ancientpoptopfossil3.item.json": 2,
+          "ancientpoptopfossil4.item.json": 2,
+          "ancientpoptopfossil5.item.json": 2
         },
         "giantbatfossil": {
           "giantbatfossil1.item.json": 2,
@@ -5433,6 +5440,7 @@
         "shroomblockglow.matitem.json": 1,
         "shroomblockmaterial.matitem.json": 1,
         "slimeshipsupport.matitem.json": 3,
+        "slopednightarblock.matitem.json": 2,
         "speedblockmaterial.matitem.json": 1,
         "springvines.matitem.json": 2,
         "steelmetal.matitem.json": 1,
@@ -5591,7 +5599,6 @@
       "shared_blackslime.json": 1,
       "shared_blacksteelblock.mat.json": 2,
       "shared_bleachedbonematerial.mat.json": 2,
-      "shared_block.mat.json": 2,
       "shared_bloods.json": 2,
       "shared_bloodstone.json": 1,
       "shared_brittle.json": 1,
@@ -5753,7 +5760,6 @@
       "shared_slimedirt.json": 2,
       "shared_slopedavianhullpanel.mat.json": 2,
       "shared_slopedglowglass.mat.json": 1,
-      "shared_slopednightarblock.mat.json": 1,
       "shared_slopedtintedglowglass.mat.json": 1,
       "shared_speedblock.json": 1,
       "shared_steelhive.json": 2,
@@ -7140,7 +7146,9 @@
         "crewmemberchef2.npctype.json": 3,
         "crewmemberchef3.npctype.json": 3,
         "crewmembercollector.npctype.json": 7,
-        "crewmembercounsellor.npctype.json": 7,
+        "crewmembercounsellor.npctype.json": 1,
+        "crewmembercounsellor2.npctype.json": 1,
+        "crewmembercounsellor3.npctype.json": 1,
         "crewmembercultist.npctype.json": 5,
         "crewmembercyborg.npctype.json": 13,
         "crewmemberengineer2.npctype.json": 2,
@@ -7168,6 +7176,7 @@
         "crewmemberwarrior3.npctype.json": 1,
         "shared_crewmember.json": 231,
         "shared_crewmemberchef.json": 11,
+        "shared_crewmembercounsellor.json": 6,
         "shared_crewmemberengineer.json": 1,
         "shared_crewmemberfu.json": 7,
         "shared_crewmemberjanitor.npctype.json": 2
@@ -7731,6 +7740,9 @@
             "shared_trough.object.json": 8
           },
           "shared_.object.json": 2
+        },
+        "elderhealingstation": {
+          "elderhealingstation.object.json": 3
         },
         "elduu": {
           "crystalloom": {
@@ -11966,6 +11978,19 @@
       "shared_vendingmachine": {
         "shared_vendingmachine.object.json": 1
       },
+      "shared_zerchesium": {
+        "shared_.object.json": 1,
+        "shared_bookcase.json": 1,
+        "shared_cabinet.object.json": 1,
+        "shared_endtable.json": 1,
+        "shared_fridge.json": 1,
+        "shared_minifridge.json": 1,
+        "shared_zerch": {
+          "shared_bed.object.json": 1,
+          "shared_couch.object.json": 1
+        },
+        "shared_zerch.json": 3
+      },
       "ship": {
         "apexshipparts": {
           "SIV_shipApexEdgeMed": {
@@ -14826,16 +14851,16 @@
         },
         "shared_zerchesiumlamp.json": 3,
         "zerchesiumbed": {
-          "zerchesiumbed.object.json": 8
+          "zerchesiumbed.object.json": 7
         },
         "zerchesiumbookcase": {
-          "zerchesiumbookcase.object.json": 8
+          "zerchesiumbookcase.object.json": 7
         },
-        "zerchesiumcabinet.object.json": 8,
+        "zerchesiumcabinet.object.json": 7,
         "zerchesiumchair.object.json": 4,
         "zerchesiumconsole.object.json": 9,
         "zerchesiumcouch": {
-          "zerchesiumcouch.object.json": 8
+          "zerchesiumcouch.object.json": 7
         },
         "zerchesiumcratelarge": {
           "zerchesiumcratelarge.object.json": 2
@@ -14844,15 +14869,9 @@
           "zerchesiumcratesmall.object.json": 2
         },
         "zerchesiumdesk": {
-          "zerchesiumdesk.object.json": 9
+          "zerchesiumdesk.object.json": 8
         },
-        "zerchesiumdrawer.object.json": 9,
-        "zerchesiumendtable": {
-          "zerchesiumendtable.object.json": 1
-        },
-        "zerchesiumfridge": {
-          "zerchesiumfridge.object.json": 1
-        },
+        "zerchesiumdrawer.object.json": 8,
         "zerchesiumlamplarge.object.json": 1,
         "zerchesiumlampsmall.object.json": 1,
         "zerchesiumlight": {
@@ -14861,15 +14880,50 @@
         "zerchesiumlocker": {
           "zerchesiumlocker.object.json": 9
         },
-        "zerchesiumminifridge": {
-          "zerchesiumminifridge.object.json": 1
-        },
         "zerchesiumslidingdoor.object.json": 9,
         "zerchesiumstool": {
-          "zerchesiumstool.object.json": 7
+          "zerchesiumstool.object.json": 6
+        }
+      },
+      "zerchesiumalt": {
+        "shared_.object.json": 1,
+        "shared_table.object.json": 1,
+        "shared_zerch": {
+          "shared_lamp.object.json": 6
         },
-        "zerchesiumtable": {
-          "zerchesiumtable.object.json": 1
+        "shared_zerch.json": 1,
+        "shared_zerchc.json": 1,
+        "shared_zerchchest.json": 6,
+        "zerchbed": {
+          "zerchbed.object.json": 7
+        },
+        "zerchbookcase.object.json": 7,
+        "zerchcabinet.object.json": 7,
+        "zerchceilinglamp": {
+          "zerchceilinglamp.object.json": 2
+        },
+        "zerchchair.object.json": 7,
+        "zerchchestlarge.object.json": 2,
+        "zerchchestsmall.object.json": 2,
+        "zerchcouch": {
+          "zerchcouch.object.json": 6
+        },
+        "zerchdesk.object.json": 7,
+        "zerchdesklamp": {
+          "zerchdesklamp.object.json": 2
+        },
+        "zerchdrawers.object.json": 6,
+        "zerchendtable.object.json": 6,
+        "zerchfridge.object.json": 6,
+        "zerchminifridge.object.json": 6,
+        "zerchnightstand.object.json": 7,
+        "zerchstandinglamp": {
+          "zerchstandinglamp.object.json": 2
+        },
+        "zerchstool.object.json": 7,
+        "zerchtable.object.json": 6,
+        "zerchwalllamp": {
+          "zerchwalllamp.object.json": 2
         }
       }
     },
@@ -15351,6 +15405,7 @@
       "fu_exploration.radiomessages.json": 72,
       "fu_isotopes.radiomessages.json": 8,
       "fu_kevin.radiomessages.json": 9,
+      "fu_madness.radiomessages.json": 7,
       "fu_ore.radiomessages.json": 18,
       "fu_quests.radiomessages.json": 12,
       "fu_resources.radiomessages.json": 51,
@@ -15862,7 +15917,9 @@
             "shared_booze.json": 1
           },
           "madness": {
-            "madnessloss.statuseffect.json": 1
+            "madnessloss.statuseffect.json": 1,
+            "madnessloss2.statuseffect.json": 1,
+            "madnessloss3.statuseffect.json": 1
           },
           "mage_shield": {
             "shared_mage_shield_lvl.json": 1,
@@ -16689,7 +16746,7 @@
         "shared_.material.json": 2,
         "shared_ancientblock.json": 1,
         "shared_avalidarkmetal.json": 1,
-        "shared_block.material.json": 1,
+        "shared_block.material.json": 3,
         "shared_boneyflesh.material.json": 2,
         "shared_coral.material.json": 1,
         "shared_crystal.material.json": 1,
@@ -16714,6 +16771,7 @@
         "slime2.material.json": 1,
         "slimeshipsupport.material.json": 5,
         "slopedavianhullpanel.material.json": 4,
+        "slopednightarblock.material.json": 1,
         "speedblock.material.json": 1,
         "spidersilkblockmik.material.json": 3,
         "springvines.material.json": 4,
