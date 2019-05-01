@@ -711,15 +711,11 @@
   "codex/elder/eldergrapplerbook.codex": {
     "/description": "texts/codex/elder/shared_book.codex.json"
   },
-  "codex/elder/eldergrenadelauncherbook.codex": {
-    "/title": "texts/codex/elder/shared_book.codex.json"
-  },
   "codex/elder/eldermacebook.codex": {
     "/description": "texts/codex/elder/shared_book.codex.json"
   },
   "codex/elder/elderpistolbook.codex": {
-    "/description": "texts/codex/elder/shared_book.codex.json",
-    "/title": "texts/codex/elder/shared_book.codex.json"
+    "/description": "texts/codex/elder/shared_book.codex.json"
   },
   "codex/elder/elderrepeaterbook.codex": {
     "/description": "texts/codex/elder/shared_book.codex.json"
@@ -1994,6 +1990,15 @@
     "/gui/countoutput/value": "texts/wide_spread_fields.json",
     "/gui/dragDrop/value": "texts/wide_spread_fields.json"
   },
+  "interface/itemdescriptions/ammogun.itemdescription": {
+    "/damagePerShotTitleLabel/value": "texts/interface.json",
+    "/energyPerShotTitleLabel/value": "texts/interface.json",
+    "/priceLabel/value": "texts/wide_spread_fields.json",
+    "/speedTitleLabel/value": "texts/interface.json"
+  },
+  "interface/itemdescriptions/ammoitem.itemdescription": {
+    "/priceLabel/value": "texts/wide_spread_fields.json"
+  },
   "interface/itemdescriptions/basenew.itemdescription": {
     "/priceLabel/value": "texts/wide_spread_fields.json"
   },
@@ -2057,6 +2062,17 @@
     "/damagePerShotTitleLabel/value": "texts/interface/itemdescriptions/shared_.itemdescription.json",
     "/priceLabel/value": "texts/wide_spread_fields.json",
     "/speedTitleLabel/value": "texts/interface.json"
+  },
+  "interface/itemdescriptions/fuammogun.itemdescription": {
+    "/critBonusTitleLabel/value": "texts/interface.json",
+    "/critChanceTitleLabel/value": "texts/interface.json",
+    "/damagePerShotTitleLabel/value": "texts/interface.json",
+    "/energyPerShotTitleLabel/value": "texts/interface.json",
+    "/priceLabel/value": "texts/wide_spread_fields.json",
+    "/speedTitleLabel/value": "texts/interface.json"
+  },
+  "interface/itemdescriptions/fuammoitem.itemdescription": {
+    "/priceLabel/value": "texts/wide_spread_fields.json"
   },
   "interface/itemdescriptions/gun2.itemdescription": {
     "/critBonusTitleLabel/value": "texts/interface.json",
@@ -2375,6 +2391,17 @@
     "/gui/essenceCost/value": "texts/interface/scripted/shared_.config.json",
     "/gui/itemScrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json"
   },
+  "interface/tooltips/ammogun.tooltip": {
+    "/ammoAmountTitleLabel/value": "texts/interface/tooltips/shared_ammogun.tooltip.json",
+    "/damagePerShotTitleLabel/value": "texts/interface.json",
+    "/energyPerShotTitleLabel/value": "texts/interface.json",
+    "/priceLabel/value": "texts/wide_spread_fields.json",
+    "/speedTitleLabel/value": "texts/interface.json"
+  },
+  "interface/tooltips/ammoitem.tooltip": {
+    "/instructionLabel/value": "texts/interface/tooltips/shared_ammoitem.tooltip.json",
+    "/priceLabel/value": "texts/wide_spread_fields.json"
+  },
   "interface/tooltips/armor_resists.tooltip": {
     "/priceLabel/value": "texts/wide_spread_fields.json"
   },
@@ -2449,6 +2476,19 @@
     "/critChanceTitleLabel/value": "texts/interface.json",
     "/damagePerShotTitleLabel/value": "texts/interface/tooltips/shared_.tooltip.json",
     "/speedTitleLabel/value": "texts/interface.json"
+  },
+  "interface/tooltips/fuammogun.tooltip": {
+    "/ammoAmountTitleLabel/value": "texts/interface/tooltips/shared_ammogun.tooltip.json",
+    "/critBonusTitleLabel/value": "texts/interface.json",
+    "/critChanceTitleLabel/value": "texts/interface.json",
+    "/damagePerShotTitleLabel/value": "texts/interface.json",
+    "/energyPerShotTitleLabel/value": "texts/interface.json",
+    "/priceLabel/value": "texts/wide_spread_fields.json",
+    "/speedTitleLabel/value": "texts/interface.json"
+  },
+  "interface/tooltips/fuammoitem.tooltip": {
+    "/instructionLabel/value": "texts/interface/tooltips/shared_ammoitem.tooltip.json",
+    "/priceLabel/value": "texts/wide_spread_fields.json"
   },
   "interface/tooltips/gun2.tooltip": {
     "/critBonusTitleLabel/value": "texts/interface.json",
@@ -3124,7 +3164,8 @@
     "/description": "texts/items/active/vehiclecontroller/shared_fusubcontroller.json"
   },
   "items/active/weapons/boomerang/aetheriumboomerang.activeitem": {
-    "/description": "texts/items/active/weapons/boomerang/shared_boomerang.activeitem.json"
+    "/description": "texts/items/active/weapons/boomerang/shared_boomerang.activeitem.json",
+    "/upgradeParameters/description": "texts/wide_spread_fields.json"
   },
   "items/active/weapons/boomerang/bonespur.activeitem": {
     "/description": "texts/items/active/weapons/boomerang/shared_.activeitem.json"
@@ -3869,6 +3910,9 @@
   },
   "items/active/weapons/ranged/unique/protorifle.activeitem": {
     "/altAbility/name": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
+  },
+  "items/active/weapons/ranged/unique/psiejector/psiejector.activeitem": {
+    "/shortdescription": "texts/items.json"
   },
   "items/active/weapons/ranged/unique/randomharpoongun.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_randomharpoongun.json"
@@ -5523,6 +5567,93 @@
   "items/armors/uniques/trooperhead2/trooperhead2.head": {
     "/description": "texts/items/armors/uniques/shared_trooperhead/shared_trooperhead.json",
     "/shortdescription": "texts/items/armors/uniques/shared_trooperhead/shared_trooperhead.json"
+  },
+  "items/augments/ammo/psionicammo/psionicammo.augment": {
+    "/description": "texts/items/augments/ammo/shared_psionic/shared_ammo.augment.json"
+  },
+  "items/augments/ammo/psionicammo/psioniccasing.item": {
+    "/description": "texts/items/augments/ammo/shared_psionic/shared_casing.item.json",
+    "/shortdescription": "texts/items/augments/ammo/shared_psionic/shared_casing.item.json"
+  },
+  "items/augments/ammo/psionicblastammo/psionicblastammo.augment": {
+    "/description": "texts/items/augments/ammo/shared_psionic/shared_ammo.augment.json",
+    "/shortdescription": "texts/items/augments/ammo/shared_psionic/shared_ammo.augment.json"
+  },
+  "items/augments/ammo/psionicblastammo/psionicblastcasing.item": {
+    "/description": "texts/items/augments/ammo/shared_psionic/shared_casing.item.json",
+    "/shortdescription": "texts/items/augments/ammo/shared_psionic/shared_casing.item.json"
+  },
+  "items/augments/ammo/psionicblastmagammo/psionicblastmag.item": {
+    "/description": "texts/items/augments/ammo/shared_psionic/shared_mag.item.json",
+    "/shortdescription": "texts/items/augments/ammo/shared_psionic/shared_mag.item.json"
+  },
+  "items/augments/ammo/psionicblastmagammo/psionicblastmagammo.augment": {
+    "/description": "texts/items/augments/ammo/shared_psionic/shared_magammo.augment.json",
+    "/shortdescription": "texts/items.json"
+  },
+  "items/augments/ammo/psionicfreezeammo/psioniccasing.item": {
+    "/description": "texts/items/augments/ammo/shared_psionic/shared_casing.item.json",
+    "/shortdescription": "texts/items/augments/ammo/shared_psionic/shared_casing.item.json"
+  },
+  "items/augments/ammo/psionicfreezeammo/psionicfreezeammo.augment": {
+    "/description": "texts/items/augments/ammo/shared_psionic/shared_ammo.augment.json"
+  },
+  "items/augments/ammo/psionicfreezemagammo/psionicfreezemag.item": {
+    "/description": "texts/items/augments/ammo/shared_psionic/shared_mag.item.json",
+    "/shortdescription": "texts/items/augments/ammo/shared_psionic/shared_mag.item.json"
+  },
+  "items/augments/ammo/psionicfreezemagammo/psionicfreezemagammo.augment": {
+    "/description": "texts/items/augments/ammo/shared_psionic/shared_magammo.augment.json"
+  },
+  "items/augments/ammo/psionicheal/psionichealcasing.item": {
+    "/description": "texts/items/augments/ammo/shared_psionic/shared_casing.item.json",
+    "/shortdescription": "texts/items/augments/ammo/shared_psionic/shared_casing.item.json"
+  },
+  "items/augments/ammo/psionichealmagammo/psionichealmag.item": {
+    "/description": "texts/items/augments/ammo/shared_psionic/shared_mag.item.json",
+    "/shortdescription": "texts/items/augments/ammo/shared_psionic/shared_mag.item.json"
+  },
+  "items/augments/ammo/psionichealmagammo/psionichealmagammo.augment": {
+    "/description": "texts/items/augments/ammo/shared_psionic/shared_magammo.augment.json"
+  },
+  "items/augments/ammo/psionicmagammo/psionicmag.item": {
+    "/description": "texts/items/augments/ammo/shared_psionic/shared_mag.item.json",
+    "/shortdescription": "texts/items/augments/ammo/shared_psionic/shared_mag.item.json"
+  },
+  "items/augments/ammo/psionicmagammo/psionicmagammo.augment": {
+    "/description": "texts/items/augments/ammo/shared_psionic/shared_magammo.augment.json",
+    "/shortdescription": "texts/items/augments/ammo/shared_psionic/shared_ammo.augment.json"
+  },
+  "items/augments/ammo/psionicplatformammo/psionicplatformammo.augment": {
+    "/shortdescription": "texts/items/augments/ammo/shared_psionicplatform/shared_psionicplatform.json"
+  },
+  "items/augments/ammo/psionicplatformammo/psionicplatformcasing.item": {
+    "/description": "texts/items/augments/ammo/shared_psionic/shared_casing.item.json",
+    "/shortdescription": "texts/items/augments/ammo/shared_psionic/shared_casing.item.json"
+  },
+  "items/augments/ammo/psionicplatformmagammo/psionicplatformmag.item": {
+    "/description": "texts/items/augments/ammo/shared_psionic/shared_mag.item.json",
+    "/shortdescription": "texts/items/augments/ammo/shared_psionic/shared_mag.item.json"
+  },
+  "items/augments/ammo/psionicplatformmagammo/psionicplatformmagammo.augment": {
+    "/description": "texts/items/augments/ammo/shared_psionic/shared_magammo.augment.json",
+    "/shortdescription": "texts/items/augments/ammo/shared_psionicplatform/shared_psionicplatform.json"
+  },
+  "items/augments/ammo/psionicpyroammo/psionicpyroammo.augment": {
+    "/description": "texts/items/augments/ammo/shared_psionic/shared_ammo.augment.json",
+    "/shortdescription": "texts/items/augments/ammo/shared_psionicpyro/shared_ammo.augment.json"
+  },
+  "items/augments/ammo/psionicpyroammo/psionicpyrocasing.item": {
+    "/description": "texts/items/augments/ammo/shared_psionic/shared_casing.item.json",
+    "/shortdescription": "texts/items/augments/ammo/shared_psionic/shared_casing.item.json"
+  },
+  "items/augments/ammo/psionicpyromagammo/psionicpyromag.item": {
+    "/description": "texts/items/augments/ammo/shared_psionic/shared_mag.item.json",
+    "/shortdescription": "texts/items/augments/ammo/shared_psionic/shared_mag.item.json"
+  },
+  "items/augments/ammo/psionicpyromagammo/psionicpyromagammo.augment": {
+    "/description": "texts/items/augments/ammo/shared_psionic/shared_magammo.augment.json",
+    "/shortdescription": "texts/items/augments/ammo/shared_psionicpyro/shared_ammo.augment.json"
   },
   "items/augments/back/environment/shadowimmunity1.augment": {
     "/augment/displayName": "texts/items.json",
@@ -7951,6 +8082,31 @@
   "monsters/bees/minerbee/minerbee.monstertype": {
     "/description": "texts/bees/shared_bee/shared_miner.json"
   },
+  "monsters/boss/alienboss/alienboss.monstertype": {
+    "/description": "texts/wide_spread_fields.json",
+    "/shortdescription": "texts/shared_ers.json"
+  },
+  "monsters/boss/alienboss/skills/giantlaserAttack.monsterskill": {
+    "/label": "texts/monsters/skills/shared_.monsterskill.json"
+  },
+  "monsters/boss/alienboss/skills/rotatingalienlasersAttack.monsterskill": {
+    "/label": "texts/monsters/boss/alienboss/skills/shared_Attack.monsterskill.json"
+  },
+  "monsters/boss/alienboss/skills/spawnalienqueenminionAttack.monsterskill": {
+    "/label": "texts/monsters/boss/alienboss/skills/shared_Attack.monsterskill.json"
+  },
+  "monsters/boss/alienboss/skills/spawnenemy1Attack.monsterskill": {
+    "/label": "texts/monsters/boss/alienboss/skills/shared_Attack.monsterskill.json"
+  },
+  "monsters/boss/alienboss/skills/spawnenemy1slow.monsterskill": {
+    "/label": "texts/monsters/skills/shared_.monsterskill.json"
+  },
+  "monsters/boss/alienboss/skills/spawnenemy2Attack.monsterskill": {
+    "/label": "texts/monsters/boss/alienboss/skills/shared_Attack.monsterskill.json"
+  },
+  "monsters/boss/alienboss/skills/spawnenemy2slow.monsterskill": {
+    "/label": "texts/monsters/skills/shared_.monsterskill.json"
+  },
   "monsters/boss/megaspider/bighairyfrankboss.monstertype": {
     "/description": "texts/monsters/shared_bighairyfrank.json"
   },
@@ -7996,6 +8152,9 @@
   },
   "monsters/crawlers/fumechspider/spiderdroid.monstertype": {
     "/description": "texts/monsters/crawlers/fumechspider/shared_.monstertype.json"
+  },
+  "monsters/crawlers/oculob/oculobmadnesspet.monstertype": {
+    "/shortdescription": "texts/shared_ers/shared_madness.json"
   },
   "monsters/crawlers/triplod/triplodpet.monstertype": {
     "/description": "texts/monsters/crawlers/shared_triplod.json"
@@ -8082,17 +8241,42 @@
     "/description": "texts/monsters/shared_bighairyfrank.json"
   },
   "monsters/flyers/eyejellies/eyejelly/eyejelly.monstertype": {
-    "/shortdescription": "texts/monsters/flyers/eyejellies/shared_eyejelly/shared_.monstertype.json"
+    "/description": "texts/monsters/flyers/eyejellies/eyejelly/shared_.monstertype.json",
+    "/shortdescription": "texts/shared_ers/shared_jelly.json"
+  },
+  "monsters/flyers/eyejellies/eyejelly/eyejellypet.monstertype": {
+    "/description": "texts/monsters/flyers/eyejellies/eyejelly/shared_.monstertype.json",
+    "/shortdescription": "texts/shared_ers/shared_jelly.json"
+  },
+  "monsters/flyers/eyejellies/eyejellyking/eyejellyking.monstertype": {
+    "/description": "texts/monsters/flyers/eyejellies/eyejellyking/shared_eyejellyking.json",
+    "/shortdescription": "texts/monsters/flyers/eyejellies/eyejellyking/shared_eyejellyking.json"
+  },
+  "monsters/flyers/eyejellies/eyejellyking/eyejellykingpet.monstertype": {
+    "/description": "texts/monsters/flyers/eyejellies/eyejellyking/shared_eyejellyking.json",
+    "/shortdescription": "texts/monsters/flyers/eyejellies/eyejellyking/shared_eyejellyking.json"
   },
   "monsters/flyers/eyejellies/eyejellykingspawn/eyejellykingspawn.monstertype": {
-    "/shortdescription": "texts/monsters/flyers/eyejellies/shared_eyejelly/shared_.monstertype.json"
+    "/shortdescription": "texts/shared_ers/shared_jelly.json"
   },
   "monsters/flyers/eyejellies/eyeslime/eyeslime.monstertype": {
     "/description": "texts/monsters/shared_eyejell/shared_eye.json",
-    "/shortdescription": "texts/monsters/flyers/eyejellies/shared_eyeslime/shared_.monstertype.json"
+    "/shortdescription": "texts/shared_ers/shared_slime/shared_slime.json"
+  },
+  "monsters/flyers/eyejellies/eyeslime/eyeslimepet.monstertype": {
+    "/description": "texts/monsters/shared_eyejell/shared_eye.json",
+    "/shortdescription": "texts/shared_ers/shared_slime/shared_slime.json"
+  },
+  "monsters/flyers/eyejellies/eyeslimeking/eyeslimeking.monstertype": {
+    "/description": "texts/monsters/flyers/eyejellies/eyeslimeking/shared_eyeslimeking.json",
+    "/shortdescription": "texts/monsters/flyers/eyejellies/eyeslimeking/shared_eyeslimeking.json"
+  },
+  "monsters/flyers/eyejellies/eyeslimeking/eyeslimekingpet.monstertype": {
+    "/description": "texts/monsters/flyers/eyejellies/eyeslimeking/shared_eyeslimeking.json",
+    "/shortdescription": "texts/monsters/flyers/eyejellies/eyeslimeking/shared_eyeslimeking.json"
   },
   "monsters/flyers/eyejellies/eyeslimekingspawn/eyeslimekingspawn.monstertype": {
-    "/shortdescription": "texts/monsters/flyers/eyejellies/shared_eyeslime/shared_.monstertype.json"
+    "/shortdescription": "texts/shared_ers/shared_slime/shared_slime.json"
   },
   "monsters/flyers/fleshreaper/fleshreaper.monstertype": {
     "/description": "texts/monsters/flyers/shared_fleshreaper/shared_fleshreaper.json",
@@ -8229,6 +8413,9 @@
   },
   "monsters/flyers/servitors/servitorcomboscan3.monstertype": {
     "/description": "texts/monsters/flyers/servitors.json"
+  },
+  "monsters/fulegacyscripts/crawling/skills/fuflamethrowerattack.monsterskill": {
+    "/label": "texts/monsters/skills/shared_.monsterskill.json"
   },
   "monsters/fulegacyscripts/ground/skills/blinkattack.monsterskill": {
     "/label": "texts/monsters/shared_skill.json"
@@ -8965,7 +9152,20 @@
     "/shortdescription": "texts/monsters/tentaclecometspore/shared_tentaclecometspore.json"
   },
   "monsters/walkers/adultpoptop/adultpoptop.monstertype": {
-    "/description": "texts/monsters/walkers/shared_adultpoptop/shared_top.json"
+    "/description": "texts/monsters/walkers/shared_adultpoptop/shared_top.json",
+    "/shortdescription": "texts/monsters/walkers/adultpoptop/shared_.monstertype.json"
+  },
+  "monsters/walkers/adultpoptop/adultpoptopmadnesspet.monstertype": {
+    "/description": "texts/monsters/walkers/shared_adultpoptop/shared_top.json",
+    "/shortdescription": "texts/monsters/walkers/adultpoptop/shared_.monstertype.json"
+  },
+  "monsters/walkers/adultpoptop/megatop.monstertype": {
+    "/description": "texts/monsters/walkers/adultpoptop/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/walkers/adultpoptop/shared_.monstertype.json"
+  },
+  "monsters/walkers/adultpoptop/megatopmadnesspet.monstertype": {
+    "/description": "texts/monsters/walkers/adultpoptop/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/walkers/adultpoptop/shared_.monstertype.json"
   },
   "monsters/walkers/adultpoptop/motherpoptop.monstertype": {
     "/description": "texts/monsters/walkers/shared_adultpoptop/shared_top.json",
@@ -8982,6 +9182,10 @@
     "/description": "texts/monsters/walkers/adultpoptopish/adultpoptopfire/shared_adultpoptopfire.json"
   },
   "monsters/walkers/adultpoptopish/adultpoptopfire/adultpoptopfire3.monstertype": {
+    "/description": "texts/monsters/walkers/adultpoptopish/adultpoptopfire/shared_adultpoptopfire.json",
+    "/shortdescription": "texts/shared_ers/shared_poptopfire/shared_poptopfire.json"
+  },
+  "monsters/walkers/adultpoptopish/adultpoptopfire/adultpoptopfiremadness.monstertype": {
     "/description": "texts/monsters/walkers/adultpoptopish/adultpoptopfire/shared_adultpoptopfire.json"
   },
   "monsters/walkers/adultpoptopish/adultpoptopfire/adultpoptopfirepet.monstertype": {
@@ -8991,8 +9195,24 @@
   "monsters/walkers/adultpoptopish/adultshadowtop/adultshadowtop.monstertype": {
     "/description": "texts/monsters/walkers/shared_adultpoptop/shared_top.json"
   },
+  "monsters/walkers/adultpoptopish/juvenilepoptop/juvenilepoptop.monstertype": {
+    "/description": "texts/monsters/walkers/adultpoptopish/juvenilepoptop/shared_juvenilepoptop.json",
+    "/shortdescription": "texts/monsters/walkers/adultpoptopish/juvenilepoptop/shared_juvenilepoptop.json"
+  },
+  "monsters/walkers/adultpoptopish/juvenilepoptop/juvenilepoptopmadnesspet.monstertype": {
+    "/description": "texts/monsters/walkers/adultpoptopish/juvenilepoptop/shared_juvenilepoptop.json",
+    "/shortdescription": "texts/monsters/walkers/adultpoptopish/juvenilepoptop/shared_juvenilepoptop.json"
+  },
   "monsters/walkers/bunnything/bunnythingmeat/bunnythingmeat.monstertype": {
     "/shortdescription": "texts/shared_ers/shared_bunnythingmeat/shared_bunnythingmeat..json"
+  },
+  "monsters/walkers/derrickish/base/derrick.monstertype": {
+    "/description": "texts/monsters/walkers/derrickish/base/shared_.monstertype.json",
+    "/shortdescription": "texts/shared_ers/shared_derrick.json"
+  },
+  "monsters/walkers/derrickish/base/derrickmadnesspet.monstertype": {
+    "/description": "texts/monsters/walkers/derrickish/base/shared_.monstertype.json",
+    "/shortdescription": "texts/shared_ers/shared_derrick.json"
   },
   "monsters/walkers/fatalcircuit/fatalcircuit.monstertype": {
     "/description": "texts/monsters/walkers/fatalcircuit/shared_.monstertype.json",
@@ -9096,6 +9316,10 @@
     "/description": "texts/monsters/walkers/minishoggoths/shared_minishoggoth/shared_minishoggoth.json",
     "/shortdescription": "texts/monsters/walkers/minishoggoths/shared_minishoggoth/shared_minishoggoth.json"
   },
+  "monsters/walkers/poptop/poptopmadnesspet.monstertype": {
+    "/description": "texts/monsters/walkers/shared_poptop/shared_poptopm.json",
+    "/shortdescription": "texts/shared_ers/shared_madnessp.json"
+  },
   "monsters/walkers/poptopish/firetop/firetop.monstertype": {
     "/description": "texts/monsters/walkers/poptopish/firetop/shared_.monstertype.json",
     "/shortdescription": "texts/monsters/walkers/poptopish/firetop/shared_.monstertype.json"
@@ -9103,6 +9327,14 @@
   "monsters/walkers/poptopish/firetop/firetopsummon.monstertype": {
     "/description": "texts/monsters/walkers/poptopish/firetop/shared_.monstertype.json",
     "/shortdescription": "texts/monsters/walkers/poptopish/firetop/shared_.monstertype.json"
+  },
+  "monsters/walkers/poptopish/poptopmicro/poptopmicro.monstertype": {
+    "/description": "texts/monsters/walkers/shared_poptop/shared_poptopm.json",
+    "/shortdescription": "texts/monsters/walkers/poptopish/poptopmicro/shared_.monstertype.json"
+  },
+  "monsters/walkers/poptopish/poptopmicro/poptopmicromadnesspet.monstertype": {
+    "/description": "texts/monsters/walkers/shared_poptop/shared_poptopm.json",
+    "/shortdescription": "texts/monsters/walkers/poptopish/poptopmicro/shared_.monstertype.json"
   },
   "monsters/walkers/poptopish/slimetop/slimetop.monstertype": {
     "/description": "texts/monsters/walkers/poptopish/slimetop/shared_.monstertype.json"
@@ -31223,11 +31455,41 @@
   "radiomessages/fu_stations.radiomessages": {
     "/pickupmatterassembler/text": "texts/radiomessages/shared_.radiomessages.json"
   },
+  "spawners/madness/gene/madnessderrick/madnessderrick.object": {
+    "/shortdescription": "texts/shared_ers/shared_derrick.json"
+  },
+  "spawners/madness/gene/madnesseyejelly/madnesseyejelly.object": {
+    "/description": "texts/spawners/madness/gene/shared_madness/shared_madness.json",
+    "/shortdescription": "texts/shared_ers/shared_jelly.json"
+  },
+  "spawners/madness/gene/madnesseyeslime/madnesseyejelly2.object": {
+    "/description": "texts/spawners/madness/gene/shared_madness/shared_madness.json",
+    "/shortdescription": "texts/shared_ers/shared_jelly.json"
+  },
+  "spawners/madness/gene/madnessjellyking/madnessjellyking.object": {
+    "/description": "texts/spawners/madness/gene/shared_madness/shared_madness.json",
+    "/shortdescription": "texts/shared_ers/shared_jelly.json"
+  },
   "spawners/madness/gene/madnessmaggot/madnessmaggot.object": {
     "/shortdescription": "texts/shared_ers/shared_maggot.json"
   },
+  "spawners/madness/gene/madnessmegapoptopfire/madnessmegapoptopfire.object": {
+    "/shortdescription": "texts/shared_ers/shared_poptopfire/shared_poptopfire.json"
+  },
+  "spawners/madness/gene/madnessoculob/madnessoculob.object": {
+    "/shortdescription": "texts/shared_ers/shared_madness.json"
+  },
+  "spawners/madness/gene/madnesspoptop/madnesspoptop.object": {
+    "/shortdescription": "texts/shared_ers/shared_madnessp.json"
+  },
   "spawners/madness/gene/madnesspteropod/madnesspteropod.object": {
     "/shortdescription": "texts/shared_ers/shared_pteropod/shared_pteropod.json"
+  },
+  "spawners/madness/gene/madnessslimeking/madnessslimeking.object": {
+    "/shortdescription": "texts/shared_ers/shared_slime/shared_slime.json"
+  },
+  "spawners/madness/summon/madnessfleshtyrant/madnessfleshtyrant.object": {
+    "/shortdescription": "texts/shared_ers.json"
   },
   "spawners/madness/undead/madnessbunnythingmeat/madnessbunnythingmeat.object": {
     "/shortdescription": "texts/shared_ers/shared_bunnythingmeat/shared_bunnythingmeat..json"

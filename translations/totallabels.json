@@ -319,9 +319,9 @@
         "elderbroadswordbook.codex.json": 2,
         "eldercarbinebook.codex.json": 4,
         "eldergrapplerbook.codex.json": 2,
-        "eldergrenadelauncherbook.codex.json": 2,
+        "eldergrenadelauncherbook.codex.json": 3,
         "eldermacebook.codex.json": 2,
-        "elderpistolbook.codex.json": 1,
+        "elderpistolbook.codex.json": 2,
         "elderrepeaterbook.codex.json": 2,
         "elderripperbook.codex.json": 2,
         "eldershieldbook.codex.json": 3,
@@ -334,7 +334,7 @@
         "madness_codex.codex.json": 6,
         "madness_research1.codex.json": 5,
         "shared_blackbook.json": 1,
-        "shared_book.codex.json": 2,
+        "shared_book.codex.json": 1,
         "thesubstance.codex.json": 10
       },
       "elduukhar": {
@@ -782,7 +782,9 @@
         "bow2.tooltip.json": 1,
         "gunkevin.tooltip.json": 5,
         "magnorb.tooltip.json": 1,
-        "shared_.tooltip.json": 4
+        "shared_.tooltip.json": 4,
+        "shared_ammogun.tooltip.json": 1,
+        "shared_ammoitem.tooltip.json": 1
       },
       "warping": {
         "fu_outpostteleporter.config.json": 2
@@ -1164,7 +1166,7 @@
         },
         "weapons": {
           "boomerang": {
-            "aetheriumboomerang.activeitem.json": 3,
+            "aetheriumboomerang.activeitem.json": 2,
             "bonespur.activeitem.json": 1,
             "burrowerrang.activeitem.json": 2,
             "cuteboomerang.activeitem.json": 2,
@@ -2336,7 +2338,9 @@
               "protogun.activeitem.json": 2,
               "protopistol.activeitem.json": 2,
               "protorifle.activeitem.json": 2,
-              "psiejector.activeitem.json": 2,
+              "psiejector": {
+                "psiejector.activeitem.json": 1
+              },
               "radien": {
                 "radienacidgun": {
                   "radienpistol2.activeitem.json": 5
@@ -4002,6 +4006,38 @@
         }
       },
       "augments": {
+        "ammo": {
+          "psionicammo": {
+            "psionicammo.augment.json": 1
+          },
+          "psionicfreezeammo": {
+            "psionicfreezeammo.augment.json": 1
+          },
+          "psionicfreezemagammo": {
+            "psionicfreezemagammo.augment.json": 1
+          },
+          "psionicheal": {
+            "psionicheal.augment.json": 2
+          },
+          "psionichealmagammo": {
+            "psionichealmagammo.augment.json": 1
+          },
+          "psionicplatformammo": {
+            "psionicplatformammo.augment.json": 1
+          },
+          "shared_psionic": {
+            "shared_ammo.augment.json": 2,
+            "shared_casing.item.json": 2,
+            "shared_mag.item.json": 2,
+            "shared_magammo.augment.json": 1
+          },
+          "shared_psionicplatform": {
+            "shared_psionicplatform.json": 1
+          },
+          "shared_psionicpyro": {
+            "shared_ammo.augment.json": 1
+          }
+        },
         "back": {
           "environment": {
             "acidimmunity.augment.json": 2,
@@ -4787,6 +4823,7 @@
           "fupestcooked.consumable.json": 2,
           "fusoggypaper.consumable.json": 2,
           "fusushi.consumable.json": 2,
+          "garflipp.consumable.json": 2,
           "glowburger": {
             "glowburger.consumable.json": 2
           },
@@ -5540,7 +5577,7 @@
         "wiretoolfu.wiretool.json": 2
       }
     },
-    "items.json": 2,
+    "items.json": 3,
     "liquids": {
       "alienjuice.liquid.json": 1,
       "beer.liquid.json": 1,
@@ -5870,6 +5907,12 @@
         }
       },
       "boss": {
+        "alienboss": {
+          "skills": {
+            "shared_Attack.monsterskill.json": 1,
+            "smashAttack.monsterskill.json": 1
+          }
+        },
         "ancientsentry": {
           "kluexsentry2.monstertype.json": 2
         },
@@ -5927,6 +5970,9 @@
         },
         "futentaclebarrier": {
           "futentaclebarrier.monstertype.json": 2
+        },
+        "oculob": {
+          "oculobmadnesspet.monstertype.json": 1
         },
         "shared_triplod.json": 1,
         "tarpin": {
@@ -6176,6 +6222,12 @@
         }
       },
       "flyers": {
+        "alienqueenminion": {
+          "alienqueenminion.monstertype.json": 2
+        },
+        "alienqueenminionsmall": {
+          "alienqueenminionsmall.monstertype.json": 2
+        },
         "bighairyfrank": {
           "bighairyfrank.monstertype.json": 1
         },
@@ -6184,25 +6236,19 @@
         },
         "eyejellies": {
           "eyejelly": {
-            "eyejelly.monstertype.json": 1
+            "shared_.monstertype.json": 1
           },
           "eyejellyking": {
-            "eyejellyking.monstertype.json": 2
+            "shared_eyejellyking.json": 2
           },
           "eyejellykingspawn": {
             "eyejellykingspawn.monstertype.json": 1
           },
           "eyeslimeking": {
-            "eyeslimeking.monstertype.json": 2
+            "shared_eyeslimeking.json": 2
           },
           "eyeslimekingspawn": {
             "eyeslimekingspawn.monstertype.json": 1
-          },
-          "shared_eyejelly": {
-            "shared_.monstertype.json": 1
-          },
-          "shared_eyeslime": {
-            "shared_.monstertype.json": 1
           }
         },
         "fearmoth": {
@@ -6351,11 +6397,6 @@
         }
       },
       "fulegacyscripts": {
-        "crawling": {
-          "skills": {
-            "fuflamethrowerattack.monsterskill.json": 1
-          }
-        },
         "ground": {
           "skills": {
             "burrowspecial.monsterskill.json": 1,
@@ -6594,7 +6635,8 @@
           "starspawnspitattack.monsterskill.json": 1,
           "starspawnswarmattack.monsterskill.json": 1,
           "toxicgolemBreathAttack.monsterskill.json": 1
-        }
+        },
+        "shared_.monsterskill.json": 1
       },
       "space": {
         "chiropterror": {
@@ -6678,22 +6720,21 @@
       },
       "walkers": {
         "adultpoptop": {
-          "adultpoptop.monstertype.json": 1,
-          "megatop.monstertype.json": 2,
           "motherpoptop2.monstertype.json": 1,
+          "shared_.monstertype.json": 3,
           "shared_motherpoptop.json": 1
         },
         "adultpoptopish": {
           "adultpoptopfire": {
             "adultpoptopfire2.monstertype.json": 1,
-            "adultpoptopfire3.monstertype.json": 1,
+            "adultpoptopfiremadness.monstertype.json": 1,
             "shared_adultpoptopfire.json": 2
           },
           "adultshadowtop": {
             "adultshadowtop.monstertype.json": 1
           },
           "juvenilepoptop": {
-            "juvenilepoptop.monstertype.json": 2
+            "shared_juvenilepoptop.json": 2
           }
         },
         "alienspitter": {
@@ -6770,7 +6811,7 @@
         },
         "derrickish": {
           "base": {
-            "derrick.monstertype.json": 2
+            "shared_.monstertype.json": 1
           }
         },
         "fatalcircuit": {
@@ -6973,7 +7014,7 @@
             "knifetop.monstertype.json": 2
           },
           "poptopmicro": {
-            "poptopmicro.monstertype.json": 2
+            "shared_.monstertype.json": 1
           },
           "shadowtop": {
             "shadowtop.monstertype.json": 2
@@ -7011,6 +7052,9 @@
         },
         "shared_adultpoptop": {
           "shared_top.json": 1
+        },
+        "shared_poptop": {
+          "shared_poptopm.json": 1
         },
         "slimes": {
           "shared_slime": {
@@ -7802,6 +7846,9 @@
         },
         "handmill": {
           "handmill.object.json": 3
+        },
+        "instafreud": {
+          "instafreud.object.json": 2
         },
         "lavalampstation": {
           "lavalampstation.object.json": 9
@@ -15443,13 +15490,23 @@
       "shared_bunnythingmeat": {
         "shared_bunnythingmeat..json": 1
       },
+      "shared_derrick.json": 1,
+      "shared_jelly.json": 1,
+      "shared_madness.json": 1,
+      "shared_madnessp.json": 1,
       "shared_maggot.json": 1,
+      "shared_poptopfire": {
+        "shared_poptopfire.json": 1
+      },
       "shared_pteropod": {
         "shared_pteropod.json": 1
       },
+      "shared_slime": {
+        "shared_slime.json": 1
+      },
       "shared_waterbot.json": 1
     },
-    "shared_ers.json": 4,
+    "shared_ers.json": 5,
     "shared_fancywoodstairs.mat.json": 1,
     "shared_fect.json": 1,
     "shared_feya.json": 1,
@@ -15498,20 +15555,44 @@
     "spawners": {
       "madness": {
         "gene": {
+          "madnessadultpoptop": {
+            "madnessadultpoptop.object.json": 2
+          },
           "madnessbrainbeast": {
             "madnessbrainbeast.object.json": 2
+          },
+          "madnessderrick": {
+            "madnessderrick.object.json": 1
+          },
+          "madnessjuvenilepoptop": {
+            "madnessjuvenilepoptop.object.json": 2
           },
           "madnessmaggot": {
             "madnessmaggot.object.json": 1
           },
+          "madnessmegapoptop": {
+            "madnessmegapoptop.object.json": 2
+          },
+          "madnessmegapoptopfire": {
+            "madnessmegapoptopfire.object.json": 1
+          },
           "madnessoculob": {
-            "madnessoculob.object.json": 2
+            "madnessoculob.object.json": 1
+          },
+          "madnesspoptop": {
+            "madnesspoptop.object.json": 1
           },
           "madnesspteropod": {
             "madnesspteropod.object.json": 1
           },
           "madnessratthing": {
             "madnessratthing.object.json": 2
+          },
+          "madnessslimeking": {
+            "madnessslimeking.object.json": 1
+          },
+          "shared_madness": {
+            "shared_madness.json": 1
           }
         },
         "robo": {
@@ -15522,6 +15603,9 @@
         "summon": {
           "madnessfleshreaper": {
             "madnessfleshreaper.object.json": 2
+          },
+          "madnessfleshtyrant": {
+            "madnessfleshtyrant.object.json": 1
           }
         },
         "undead": {
@@ -16864,7 +16948,7 @@
         "sturdyplatform.material.json": 2
       }
     },
-    "wide_spread_fields.json": 162,
+    "wide_spread_fields.json": 163,
     "zb": {
       "newSail": {
         "data.config.json": 7,
