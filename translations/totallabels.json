@@ -634,7 +634,7 @@
       "towndrunk.config.json": 89
     },
     "generic.json": 1,
-    "glitchEmotes.json": 323,
+    "glitchEmotes.json": 322,
     "interface": {
       "ai": {
         "ai.config.json": 10,
@@ -656,6 +656,9 @@
       },
       "cockpit": {
         "cockpit.config.json": 413
+      },
+      "extractor": {
+        "brainsiphon.config.json": 2
       },
       "itemdescriptions": {
         "armornew.itemdescription.json": 1,
@@ -823,6 +826,7 @@
         "platingfood.config.json": 4,
         "powerpress.config.json": 2,
         "ppshop.config.json": 3,
+        "psionicbench.config.json": 2,
         "radienshop.config.json": 2,
         "radienshopdrug.config.json": 2,
         "samplingarray2.config.json": 2,
@@ -1551,6 +1555,7 @@
               "advalloylongsword.activeitem.json": 2,
               "aetheriumlongsword.activeitem.json": 2,
               "ancientlongsword.activeitem.json": 2,
+              "bleakblade.activeitem.json": 2,
               "blooddiamondlongsword.activeitem.json": 2,
               "carbonlongsword.activeitem.json": 2,
               "commonlongsword.activeitem.json": 1,
@@ -2339,7 +2344,7 @@
               "protopistol.activeitem.json": 2,
               "protorifle.activeitem.json": 2,
               "psiejector": {
-                "psiejector.activeitem.json": 1
+                "psiejector.activeitem.json": 2
               },
               "radien": {
                 "radienacidgun": {
@@ -3232,7 +3237,7 @@
           "sanguine": {
             "bloodgarb.chest.json": 1,
             "bloodgarb.head.json": 1,
-            "bloodgarb.legs.json": 1,
+            "bloodgarb.legs.json": 2,
             "shared_bloodgarb..json": 1
           },
           "shellplate": {
@@ -4008,10 +4013,16 @@
       "augments": {
         "ammo": {
           "psionicammo": {
-            "psionicammo.augment.json": 1
+            "psionicammo.augment.json": 2
+          },
+          "psionicblastammo": {
+            "psionicblastammo.augment.json": 2
+          },
+          "psionicblastmagammo": {
+            "psionicblastmagammo.augment.json": 1
           },
           "psionicfreezeammo": {
-            "psionicfreezeammo.augment.json": 1
+            "psionicfreezeammo.augment.json": 2
           },
           "psionicfreezemagammo": {
             "psionicfreezemagammo.augment.json": 2
@@ -4023,25 +4034,24 @@
             "psionichealmagammo.augment.json": 2
           },
           "psionicmagammo": {
-            "psionicmagammo.augment.json": 1
+            "psionicmagammo.augment.json": 2
           },
           "psionicplatformammo": {
-            "psionicplatformammo.augment.json": 1
+            "psionicplatformammo.augment.json": 2
+          },
+          "psionicplatformmagammo": {
+            "psionicplatformmagammo.augment.json": 1
+          },
+          "psionicpyroammo": {
+            "psionicpyroammo.augment.json": 2
           },
           "psionicpyromagammo": {
-            "psionicpyromagammo.augment.json": 1
+            "psionicpyromagammo.augment.json": 2
           },
           "shared_psionic": {
-            "shared_ammo.augment.json": 2,
             "shared_casing.item.json": 2,
             "shared_mag.item.json": 2,
             "shared_magammo.augment.json": 1
-          },
-          "shared_psionicplatform": {
-            "shared_psionicplatform.json": 1
-          },
-          "shared_psionicpyro": {
-            "shared_ammo.augment.json": 1
           }
         },
         "back": {
@@ -4512,6 +4522,9 @@
           },
           "protociteore.item.json": 1,
           "psionicenergy.item.json": 2,
+          "psionicenergy2.item.json": 2,
+          "psionicenergy3.item.json": 2,
+          "psionicenergy4.item.json": 2,
           "pureerchius.item.json": 2,
           "pyreiteore.item.json": 2,
           "quietusore.item.json": 2,
@@ -5024,6 +5037,7 @@
             "mechbodybrute2.item.json": 2,
             "mechbodybrute3.item.json": 2,
             "mechbodycatproto.item.json": 2,
+            "mechbodychinook.item.json": 2,
             "mechbodydrakaet.item.json": 2,
             "mechbodyemissary.item.json": 1,
             "mechbodyemissaryproto.item.json": 1,
@@ -5583,7 +5597,7 @@
         "wiretoolfu.wiretool.json": 2
       }
     },
-    "items.json": 3,
+    "items.json": 2,
     "liquids": {
       "alienjuice.liquid.json": 1,
       "beer.liquid.json": 1,
@@ -7367,7 +7381,7 @@
       },
       "apex": {
         "apexbrainjar2": {
-          "apexbrainjar2.object.json": 9
+          "apexbrainjar2.object.json": 2
         },
         "apexbrainjar3": {
           "apexbrainjar3.object.json": 2
@@ -7906,8 +7920,8 @@
         "ppshoptruck": {
           "ppshoptruck.object.json": 16
         },
-        "psioniclab": {
-          "psioniclab.object.json": 2
+        "psionicbench": {
+          "psionicbench.object.json": 2
         },
         "radiencrafting": {
           "radiencrafting.object.json": 4
@@ -11391,6 +11405,9 @@
         },
         "manufacturing": {
           "mfgstation.object.json": 2
+        },
+        "psioniclab": {
+          "psioniclab.object.json": 2
         },
         "quantumextractor": {
           "quantumextractor.object.json": 2
@@ -15570,6 +15587,9 @@
           "madnessderrick": {
             "madnessderrick.object.json": 1
           },
+          "madnessjellyking": {
+            "madnessjellyking.object.json": 1
+          },
           "madnessjuvenilepoptop": {
             "madnessjuvenilepoptop.object.json": 2
           },
@@ -15597,8 +15617,8 @@
           "madnessslimeking": {
             "madnessslimeking.object.json": 1
           },
-          "shared_madness": {
-            "shared_madness.json": 1
+          "shared_madnesseye": {
+            "shared_madnesseyejelly.json": 1
           }
         },
         "robo": {
@@ -16305,7 +16325,8 @@
           "heal_tier6.statuseffect.json": 1,
           "heal_tier7.statuseffect.json": 1,
           "honeysilkheal.statuseffect.json": 1,
-          "mutaviskheal.statuseffect.json": 1
+          "mutaviskheal.statuseffect.json": 1,
+          "shared_.statuseffect.json": 1
         },
         "iceblock": {
           "iceblock1.statuseffect.json": 1,
@@ -16433,6 +16454,7 @@
         "regeneration": {
           "lightregen.statuseffect.json": 1,
           "precursorregeneration.statuseffect.json": 1,
+          "psionicregeneration.statuseffect.json": 1,
           "regeneration2.statuseffect.json": 1,
           "regenerationblock.statuseffect.json": 1,
           "regenerationminor000.statuseffect.json": 1,

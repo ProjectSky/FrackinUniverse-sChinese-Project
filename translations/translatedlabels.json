@@ -657,6 +657,9 @@
       "cockpit": {
         "cockpit.config.json": 404
       },
+      "extractor": {
+        "brainsiphon.config.json": 0
+      },
       "itemdescriptions": {
         "armornew.itemdescription.json": 1,
         "shared_.itemdescription.json": 3
@@ -823,6 +826,7 @@
         "platingfood.config.json": 0,
         "powerpress.config.json": 2,
         "ppshop.config.json": 0,
+        "psionicbench.config.json": 0,
         "radienshop.config.json": 2,
         "radienshopdrug.config.json": 2,
         "samplingarray2.config.json": 2,
@@ -911,7 +915,7 @@
           },
           "iceaxe": {
             "iceaxe.activeitem.json": 2,
-            "iceaxe2.activeitem.json": 2
+            "iceaxe2.activeitem.json": 1
           },
           "lasherhook": {
             "lasherhook.activeitem.json": 2
@@ -1551,6 +1555,7 @@
               "advalloylongsword.activeitem.json": 2,
               "aetheriumlongsword.activeitem.json": 2,
               "ancientlongsword.activeitem.json": 2,
+              "bleakblade.activeitem.json": 0,
               "blooddiamondlongsword.activeitem.json": 2,
               "carbonlongsword.activeitem.json": 2,
               "commonlongsword.activeitem.json": 1,
@@ -4010,6 +4015,12 @@
           "psionicammo": {
             "psionicammo.augment.json": 0
           },
+          "psionicblastammo": {
+            "psionicblastammo.augment.json": 0
+          },
+          "psionicblastmagammo": {
+            "psionicblastmagammo.augment.json": 0
+          },
           "psionicfreezeammo": {
             "psionicfreezeammo.augment.json": 0
           },
@@ -4028,20 +4039,19 @@
           "psionicplatformammo": {
             "psionicplatformammo.augment.json": 0
           },
+          "psionicplatformmagammo": {
+            "psionicplatformmagammo.augment.json": 0
+          },
+          "psionicpyroammo": {
+            "psionicpyroammo.augment.json": 0
+          },
           "psionicpyromagammo": {
             "psionicpyromagammo.augment.json": 0
           },
           "shared_psionic": {
-            "shared_ammo.augment.json": 0,
             "shared_casing.item.json": 0,
             "shared_mag.item.json": 0,
             "shared_magammo.augment.json": 0
-          },
-          "shared_psionicplatform": {
-            "shared_psionicplatform.json": 0
-          },
-          "shared_psionicpyro": {
-            "shared_ammo.augment.json": 0
           }
         },
         "back": {
@@ -4512,6 +4522,9 @@
           },
           "protociteore.item.json": 1,
           "psionicenergy.item.json": 0,
+          "psionicenergy2.item.json": 0,
+          "psionicenergy3.item.json": 0,
+          "psionicenergy4.item.json": 0,
           "pureerchius.item.json": 2,
           "pyreiteore.item.json": 2,
           "quietusore.item.json": 2,
@@ -5024,6 +5037,7 @@
             "mechbodybrute2.item.json": 2,
             "mechbodybrute3.item.json": 2,
             "mechbodycatproto.item.json": 0,
+            "mechbodychinook.item.json": 0,
             "mechbodydrakaet.item.json": 2,
             "mechbodyemissary.item.json": 1,
             "mechbodyemissaryproto.item.json": 1,
@@ -7906,8 +7920,8 @@
         "ppshoptruck": {
           "ppshoptruck.object.json": 0
         },
-        "psioniclab": {
-          "psioniclab.object.json": 0
+        "psionicbench": {
+          "psionicbench.object.json": 0
         },
         "radiencrafting": {
           "radiencrafting.object.json": 0
@@ -11391,6 +11405,9 @@
         },
         "manufacturing": {
           "mfgstation.object.json": 2
+        },
+        "psioniclab": {
+          "psioniclab.object.json": 0
         },
         "quantumextractor": {
           "quantumextractor.object.json": 2
@@ -15570,6 +15587,9 @@
           "madnessderrick": {
             "madnessderrick.object.json": 0
           },
+          "madnessjellyking": {
+            "madnessjellyking.object.json": 0
+          },
           "madnessjuvenilepoptop": {
             "madnessjuvenilepoptop.object.json": 0
           },
@@ -15597,8 +15617,8 @@
           "madnessslimeking": {
             "madnessslimeking.object.json": 0
           },
-          "shared_madness": {
-            "shared_madness.json": 0
+          "shared_madnesseye": {
+            "shared_madnesseyejelly.json": 0
           }
         },
         "robo": {
@@ -16305,7 +16325,8 @@
           "heal_tier6.statuseffect.json": 1,
           "heal_tier7.statuseffect.json": 1,
           "honeysilkheal.statuseffect.json": 1,
-          "mutaviskheal.statuseffect.json": 1
+          "mutaviskheal.statuseffect.json": 1,
+          "shared_.statuseffect.json": 0
         },
         "iceblock": {
           "iceblock1.statuseffect.json": 1,
@@ -16433,6 +16454,7 @@
         "regeneration": {
           "lightregen.statuseffect.json": 1,
           "precursorregeneration.statuseffect.json": 1,
+          "psionicregeneration.statuseffect.json": 0,
           "regeneration2.statuseffect.json": 1,
           "regenerationblock.statuseffect.json": 1,
           "regenerationminor000.statuseffect.json": 1,

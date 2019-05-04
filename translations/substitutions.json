@@ -1979,6 +1979,10 @@
     "/planetTypeNames/urbanwasteland": "texts/wide_spread_fields.json",
     "/threatLevelText/moon/0": "texts/wide_spread_fields.json"
   },
+  "interface/extractor/brainsiphon.config": {
+    "/gui/clear/caption": "texts/wide_spread_fields.json",
+    "/gui/dragDrop/value": "texts/wide_spread_fields.json"
+  },
   "interface/extractor/embalming.config": {
     "/gui/clear/caption": "texts/wide_spread_fields.json",
     "/gui/count/value": "texts/wide_spread_fields.json",
@@ -3055,6 +3059,15 @@
     "/paneLayout/windowtitle/subtitle": "texts/interface/windowconfig/shared_.config.json",
     "/paneLayout/windowtitle/title": "texts/interface/windowconfig/shared_.config.json"
   },
+  "interface/windowconfig/psionicbench.config": {
+    "/paneLayout/btnCraft/caption": "texts/wide_spread_fields.json",
+    "/paneLayout/btnStopCraft/caption": "texts/wide_spread_fields.json",
+    "/paneLayout/filter/hint": "texts/wide_spread_fields.json",
+    "/paneLayout/lblProduct/value": "texts/wide_spread_fields.json",
+    "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
+    "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value": "texts/wide_spread_fields.json",
+    "/paneLayout/tbSpinCount/regex": "texts/wide_spread_fields.json"
+  },
   "interface/windowconfig/radien.config": {
     "/paneLayout/btnCraft/caption": "texts/wide_spread_fields.json",
     "/paneLayout/btnStopCraft/caption": "texts/wide_spread_fields.json",
@@ -3911,9 +3924,6 @@
   "items/active/weapons/ranged/unique/protorifle.activeitem": {
     "/altAbility/name": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
   },
-  "items/active/weapons/ranged/unique/psiejector/psiejector.activeitem": {
-    "/shortdescription": "texts/items.json"
-  },
   "items/active/weapons/ranged/unique/randomharpoongun.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_randomharpoongun.json"
   },
@@ -4504,9 +4514,6 @@
     "/description": "texts/items/armors/tier2/sanguine/shared_bloodgarb..json"
   },
   "items/armors/tier2/sanguine/bloodgarb.head": {
-    "/description": "texts/items/armors/tier2/sanguine/shared_bloodgarb..json"
-  },
-  "items/armors/tier2/sanguine/bloodgarb.legs": {
     "/description": "texts/items/armors/tier2/sanguine/shared_bloodgarb..json"
   },
   "items/armors/tier2/shellplate/test1.chest": {
@@ -5568,16 +5575,9 @@
     "/description": "texts/items/armors/uniques/shared_trooperhead/shared_trooperhead.json",
     "/shortdescription": "texts/items/armors/uniques/shared_trooperhead/shared_trooperhead.json"
   },
-  "items/augments/ammo/psionicammo/psionicammo.augment": {
-    "/description": "texts/items/augments/ammo/shared_psionic/shared_ammo.augment.json"
-  },
   "items/augments/ammo/psionicammo/psioniccasing.item": {
     "/description": "texts/items/augments/ammo/shared_psionic/shared_casing.item.json",
     "/shortdescription": "texts/items/augments/ammo/shared_psionic/shared_casing.item.json"
-  },
-  "items/augments/ammo/psionicblastammo/psionicblastammo.augment": {
-    "/description": "texts/items/augments/ammo/shared_psionic/shared_ammo.augment.json",
-    "/shortdescription": "texts/items/augments/ammo/shared_psionic/shared_ammo.augment.json"
   },
   "items/augments/ammo/psionicblastammo/psionicblastcasing.item": {
     "/description": "texts/items/augments/ammo/shared_psionic/shared_casing.item.json",
@@ -5588,15 +5588,11 @@
     "/shortdescription": "texts/items/augments/ammo/shared_psionic/shared_mag.item.json"
   },
   "items/augments/ammo/psionicblastmagammo/psionicblastmagammo.augment": {
-    "/description": "texts/items/augments/ammo/shared_psionic/shared_magammo.augment.json",
-    "/shortdescription": "texts/items.json"
+    "/description": "texts/items/augments/ammo/shared_psionic/shared_magammo.augment.json"
   },
   "items/augments/ammo/psionicfreezeammo/psioniccasing.item": {
     "/description": "texts/items/augments/ammo/shared_psionic/shared_casing.item.json",
     "/shortdescription": "texts/items/augments/ammo/shared_psionic/shared_casing.item.json"
-  },
-  "items/augments/ammo/psionicfreezeammo/psionicfreezeammo.augment": {
-    "/description": "texts/items/augments/ammo/shared_psionic/shared_ammo.augment.json"
   },
   "items/augments/ammo/psionicfreezemagammo/psionicfreezemag.item": {
     "/description": "texts/items/augments/ammo/shared_psionic/shared_mag.item.json",
@@ -5614,12 +5610,6 @@
     "/description": "texts/items/augments/ammo/shared_psionic/shared_mag.item.json",
     "/shortdescription": "texts/items/augments/ammo/shared_psionic/shared_mag.item.json"
   },
-  "items/augments/ammo/psionicmagammo/psionicmagammo.augment": {
-    "/shortdescription": "texts/items/augments/ammo/shared_psionic/shared_ammo.augment.json"
-  },
-  "items/augments/ammo/psionicplatformammo/psionicplatformammo.augment": {
-    "/shortdescription": "texts/items/augments/ammo/shared_psionicplatform/shared_psionicplatform.json"
-  },
   "items/augments/ammo/psionicplatformammo/psionicplatformcasing.item": {
     "/description": "texts/items/augments/ammo/shared_psionic/shared_casing.item.json",
     "/shortdescription": "texts/items/augments/ammo/shared_psionic/shared_casing.item.json"
@@ -5629,12 +5619,7 @@
     "/shortdescription": "texts/items/augments/ammo/shared_psionic/shared_mag.item.json"
   },
   "items/augments/ammo/psionicplatformmagammo/psionicplatformmagammo.augment": {
-    "/description": "texts/items/augments/ammo/shared_psionic/shared_magammo.augment.json",
-    "/shortdescription": "texts/items/augments/ammo/shared_psionicplatform/shared_psionicplatform.json"
-  },
-  "items/augments/ammo/psionicpyroammo/psionicpyroammo.augment": {
-    "/description": "texts/items/augments/ammo/shared_psionic/shared_ammo.augment.json",
-    "/shortdescription": "texts/items/augments/ammo/shared_psionicpyro/shared_ammo.augment.json"
+    "/description": "texts/items/augments/ammo/shared_psionic/shared_magammo.augment.json"
   },
   "items/augments/ammo/psionicpyroammo/psionicpyrocasing.item": {
     "/description": "texts/items/augments/ammo/shared_psionic/shared_casing.item.json",
@@ -5643,9 +5628,6 @@
   "items/augments/ammo/psionicpyromagammo/psionicpyromag.item": {
     "/description": "texts/items/augments/ammo/shared_psionic/shared_mag.item.json",
     "/shortdescription": "texts/items/augments/ammo/shared_psionic/shared_mag.item.json"
-  },
-  "items/augments/ammo/psionicpyromagammo/psionicpyromagammo.augment": {
-    "/shortdescription": "texts/items/augments/ammo/shared_psionicpyro/shared_ammo.augment.json"
   },
   "items/augments/back/environment/shadowimmunity1.augment": {
     "/augment/displayName": "texts/items.json",
@@ -13189,10 +13171,6 @@
   "objects/ancient/ancientmonument/ancientmonument2.object": {
     "/description": "texts/objects/ancient/ancientmonument/shared_ancientmonument.json",
     "/shortdescription": "texts/objects/ancient/ancientmonument/shared_ancientmonument.json"
-  },
-  "objects/apex/apexbrainjar2/apexbrainjar2.object": {
-    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/apex/apexbrainjar2/apexbrainjar2.object.json"
   },
   "objects/apex/apexcampshopcounter/apexcampshopcounter.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -31451,15 +31429,14 @@
     "/shortdescription": "texts/shared_ers/shared_derrick.json"
   },
   "spawners/madness/gene/madnesseyejelly/madnesseyejelly.object": {
-    "/description": "texts/spawners/madness/gene/shared_madness/shared_madness.json",
+    "/description": "texts/spawners/madness/gene/shared_madnesseye/shared_madnesseyejelly.json",
     "/shortdescription": "texts/shared_ers/shared_jelly.json"
   },
   "spawners/madness/gene/madnesseyeslime/madnesseyejelly2.object": {
-    "/description": "texts/spawners/madness/gene/shared_madness/shared_madness.json",
+    "/description": "texts/spawners/madness/gene/shared_madnesseye/shared_madnesseyejelly.json",
     "/shortdescription": "texts/shared_ers/shared_jelly.json"
   },
   "spawners/madness/gene/madnessjellyking/madnessjellyking.object": {
-    "/description": "texts/spawners/madness/gene/shared_madness/shared_madness.json",
     "/shortdescription": "texts/shared_ers/shared_jelly.json"
   },
   "spawners/madness/gene/madnessmaggot/madnessmaggot.object": {
@@ -35766,6 +35743,15 @@
   },
   "stats/effects/heal/heal_long4.statuseffect": {
     "/label": "texts/shared_fect.json"
+  },
+  "stats/effects/heal/healingbonus.statuseffect": {
+    "/label": "texts/stats/effects/heal/shared_.statuseffect.json"
+  },
+  "stats/effects/heal/healingbonus2.statuseffect": {
+    "/label": "texts/stats/effects/heal/shared_.statuseffect.json"
+  },
+  "stats/effects/heal/healingbonus3.statuseffect": {
+    "/label": "texts/stats/effects/heal/shared_.statuseffect.json"
   },
   "stats/effects/heal/radienheal.statuseffect": {
     "/label": "texts/stats/effects.json"
