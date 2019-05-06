@@ -29,3 +29,4 @@
 
 * [最新版本下载](https://gitlab.imsky.cc/ProjectSky-Translation-Team/FrackinUniverse-sChinese-Project/tags)
 * [翻译进度查阅](https://projectsky.github.io/FrackinUniverse-sChinese)
+* [Telegram群组](https://t.me/joinchat/DR0AV0kjlPgEmltSqwr12Q)
