@@ -1,98 +1,318 @@
 [
+
   {
     "op": "add",
     "path": "/flyingpyramid",
     "value": {
+
+		"warpAction" : "InstanceWorld:flyingpyramid",
+		"skyParameters" : {
+		"seed" : 0,
+		"horizonClouds" : false,
+		"horizonImages" : [ { "left": "/celestial/system/ships/shiphorizonleft.png", "right": "/celestial/system/ships/shiphorizonright.png" } ]
+		},
+
+		"moving" : true,
+		"speed" : 15.0,
+		"orbitRange" : [1, 1],
+		"lifeTime" : [1500, 2100],
+		"parameters" : {
+		"icon" : "/celestial/system/ships/fu_avian.png",
 		"displayName" : "翼族金字塔",
 		"description" : "一座充满着狂热嗜杀者的翼族航天建筑物，金字塔是翼族人最喜欢的传统样式。"
-		},	
+		}
+
+	}
   },
+  
     {
     "op": "add",
     "path": "/ninjapagoda",
     "value": {
+
+		"warpAction" : "InstanceWorld:ninjapagoda",
+		"skyParameters" : {
+		"seed" : 0,
+		"horizonClouds" : false,
+		"horizonImages" : [ { "left": "/celestial/system/spacestation/stationhorizonleft.png", "right": "/celestial/system/spacestation/stationhorizonright.png" } ]
+		},
+
+		"moving" : false,
+		"speed" : 0,
+		"orbitRange" : [0, 0],
+		"lifeTime" : [1500, 2100],
+		"parameters" : {
+		"icon" : "/celestial/system/ships/fu_hylotl.png",
 		"displayName" : "秘传佛塔",
 		"description" : "你肯定听说过关于一些与世隔绝的鲛人的传说，他们仍认为鲛人-叶族战争正在持续。猜猜它们从未收到过消息，嗯？"
-		},
+		}
+
+	}
   },
+  
     {
     "op": "add",
     "path": "/ixolinggrounds",
     "value": {
-		"displayName" : "叶族蜱虫养殖场",
-		"description" : "蜱虫养殖业是叶族之中长期以来备受遵从的行业，奇怪的是，这项事业最适合在太空中进行。"
+
+		"warpAction" : "InstanceWorld:ixolinggrounds",
+		"threatLevel" : 1,
+		"skyParameters" : {
+		"seed" : 0,
+		"horizonClouds" : false,
+		"horizonImages" : [ { "left": "/celestial/system/spacestation/stationhorizonleft.png", "right": "/celestial/system/spacestation/stationhorizonright.png" } ]
 		},
+
+		"moving" : false,
+		"speed" : 0,
+		"orbitRange" : [0, 0],
+		"lifeTime" : [1500, 2100],
+		"parameters" : {
+		"icon" : "/celestial/system/ships/fu_floran.png",
+		"displayName" : "叶族蜱虫养殖场",
+		"description" : "蜱虫养殖业是叶族之中长期以来备受遵从的行业，奇怪的是——这项事业最适合在太空中进行。"
+		}
+
+	}
   },
+  
   {
     "op": "add",
     "path": "/letheiafleet",
     "value": {
+
+		"warpAction" : "InstanceWorld:letheiafleet",
+		"threatLevel" : 6,
+		"skyParameters" : {
+		"seed" : 0,
+		"horizonClouds" : false,
+		"horizonImages" : [ { "left": "/celestial/system/ships/shiphorizonleft.png", "right": "/celestial/system/ships/shiphorizonright.png" } ]
+		},
+
+		"moving" : false,
+		"speed" : 0,
+		"orbitRange" : [0, 0],
+		"lifeTime" : [1500, 2100],
+		"parameters" : {
+		"icon" : "/celestial/system/spacestation/letheia.png",
 		"displayName" : "莱西亚舰队",
 		"description" : "莱西亚公司旗下的一支星际舰队。极其危险，为了保守公司机密不惜杀戮。"
-		},
+		}
+
+	}
   },
+  
     {
     "op": "add",
     "path": "/outlawmine",
     "value": {
+
+		"warpAction" : "InstanceWorld:outlawmine",
+		"skyParameters" : {
+		"seed" : 0,
+		"horizonClouds" : false,
+		"horizonImages" : [ { "left": "/celestial/system/asteroids/horizon/asteroidfield_l.png", "right": "/celestial/system/asteroids/horizon/asteroidfield_r.png" } ]
+		},
+
+		"moving" : false,
+		"speed" : 0,
+		"orbitRange" : [0, 0],
+		"lifeTime" : [1500, 2100],
+		"parameters" : {
+		"icon" : "/celestial/system/spacestation/asteroids_nova.png",
 		"displayName" : "非法矿井",
 		"description" : "这群富含矿物质的小行星吸引了一些众星之子中的不法之徒，他们在上面进行非法开采。"
-		},
+		}
+
+	}
   },
+  
     {
     "op": "add",
     "path": "/wizardabode",
     "value": {
+
+		"warpAction" : "InstanceWorld:wizardabode",
+		"threatLevel" : 1,
+		"skyParameters" : {
+		"seed" : 0,
+		"horizonClouds" : false,
+		"horizonImages" : [ { "left": "/celestial/system/spacestation/stationhorizonleft.png", "right": "/celestial/system/spacestation/stationhorizonright.png" } ]
+		},
+
+		"moving" : false,
+		"speed" : 0,
+		"orbitRange" : [0, 0],
+		"lifeTime" : [1500, 2100],
+		"parameters" : {
+		"icon" : "/celestial/system/ships/fu_glitch.png",
 		"displayName" : "机械族技术巫师塔",
 		"description" : "这是霍格沃兹技术巫师学校的诸多校区之一。在这里，充满希望的机械人们研究关于机器精神争论的艺术。"
-		},
+		}
+
+	}
   },
+  
     {
     "op": "add",
     "path": "/apexweaponsplatform",
     "value": {
+
+		"warpAction" : "InstanceWorld:apexweaponsplatform",
+		"skyParameters" : {
+		"seed" : 0,
+		"horizonClouds" : false,
+		"horizonImages" : [ { "left": "/celestial/system/spacestation/stationhorizonleft.png", "right": "/celestial/system/spacestation/stationhorizonright.png" } ]
+		},
+
+		"moving" : false,
+		"speed" : 0,
+		"orbitRange" : [0, 0],
+		"lifeTime" : [1500, 2100],
+		"parameters" : {
+		"icon" : "/celestial/system/ships/fu_apex.png",
 		"displayName" : "武装平台",
 		"description" : "一个由科技发展部操控的深空武装平台，用于从轨道上发射核弹打击天体。"
-		},
+		}
+
+	}
   },
   {
 		"op": "replace",
 		"path": "/spacestation_food",
 		"value": {
+			"warpAction" : "InstanceWorld:spacestation_food",
+			"threatLevel" : 1,
+			"skyParameters" : {
+				"seed" : 0,
+				"horizonClouds" : false,
+				"horizonImages" : [ { "left": "/celestial/system/spacestation/stationhorizonleft.png", "right": "/celestial/system/spacestation/stationhorizonright.png" } ]
+			},
+			"permanent" : true,
+			"moving" : false,
+			"speed" : 5.0,
+			"orbitRange" : [10, 10],
+			"lifeTime" : [0, 0],
+			"parameters" : {
+				"icon" : "/celestial/system/spacestation/spacestationtrade.png",
+
 				"displayName" : "星际贸易站",
 				"description" : "一间空间站，专门用于交易货物和接受利润投资。",
-			},
+
+				"bookmarkIcon" : "spacestation"
+			}
+		}
 	},
 	{
 		"op": "replace",
 		"path": "/spacestation_medical",
 		"value": {
+			"warpAction" : "InstanceWorld:spacestation_medical",
+			"threatLevel" : 1,
+			"skyParameters" : {
+				"seed" : 0,
+				"horizonClouds" : false,
+				"horizonImages" : [ { "left": "/celestial/system/spacestation/stationhorizonleft.png", "right": "/celestial/system/spacestation/stationhorizonright.png" } ]
+			},
+			"permanent" : true,
+			"moving" : false,
+			"speed" : 5.0,
+			"orbitRange" : [10, 10],
+			"lifeTime" : [0, 0],
+			"parameters" : {
+				"icon" : "/celestial/system/spacestation/spacestationmedical.png",
+
 				"displayName" : "星际医疗站",
 				"description" : "这间空间站提供医疗用品，以及持久的身体增强剂。",
-		},
+
+				"bookmarkIcon" : "spacestation"
+			}
+		}
 	},
 	{
 		"op": "replace",
 		"path": "/spacestation_weapons",
 		"value": {
+			"warpAction" : "InstanceWorld:spacestation_weapons",
+			"threatLevel" : 1,
+			"skyParameters" : {
+				"seed" : 0,
+				"horizonClouds" : false,
+				"horizonImages" : [ { "left": "/celestial/system/spacestation/stationhorizonleft.png", "right": "/celestial/system/spacestation/stationhorizonright.png" } ]
+			},
+			"permanent" : true,
+			"moving" : false,
+			"speed" : 5.0,
+			"orbitRange" : [10, 10],
+			"lifeTime" : [0, 0],
+			"parameters" : {
+				"icon" : "/celestial/system/spacestation/spacestationweapons.png",
+
 				"displayName" : "军事演习场",
 				"description" : "军事机构部署的一个战斗用空间站。作为一个（合法的）购买武器和雇用船员的地方。",
-		},
+
+				"bookmarkIcon" : "spacestation"
+			}
+		}
 	},
 	{
 		"op": "replace",
 		"path": "/spacestation_electronics",
 		"value": {
+			"warpAction" : "InstanceWorld:spacestation_electronics",
+			"threatLevel" : 1,
+			"skyParameters" : {
+				"seed" : 0,
+				"horizonClouds" : false,
+				"horizonImages" : [ { "left": "/celestial/system/spacestation/stationhorizonleft.png", "right": "/celestial/system/spacestation/stationhorizonright.png" } ]
+			},
+			"permanent" : true,
+			"moving" : false,
+			"speed" : 5.0,
+			"orbitRange" : [10, 10],
+			"lifeTime" : [0, 0],
+			"parameters" : {
+				"icon" : "/celestial/system/spacestation/spacestationelectronics.png",
+
 				"displayName" : "科研工作站",
 				"description" : "一个专门研究宇宙奥秘的空间站。^red;临时的坐标，具有随机另外一种空间站的功能。",
-		},
+
+				"bookmarkIcon" : "spacestation"
+			}
+		}
 	},
 	{
-    "op": "replace",
+    "op": "add",
     "path": "/fastfoodspace",
     "value": {
+      "warpAction": "InstanceWorld:fastfoodspace",
+      "threatLevel": 1,
+      "skyParameters": {
+        "seed": 0,
+        "horizonClouds": false,
+        "horizonImages": [
+          {
+            "left": "/celestial/system/spacestation/stationhorizonleft.png",
+            "right": "/celestial/system/spacestation/stationhorizonright.png"
+          }
+        ]
+      },
+      "moving": false,
+      "speed": 0,
+      "orbitRange": [
+        0,
+        0
+      ],
+      "lifeTime": [
+        1500,
+        2100
+      ],
+      "parameters": {
+        "icon": "/celestial/system/spacestation/spacestationicon.png",
         "displayName": "汉堡福",
         "description": "在太空的一家……餐馆！！！"
-      },
+      }
+    }
   }
+
 ]
