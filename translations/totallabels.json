@@ -1077,6 +1077,10 @@
               "oredetector3.activeitem.json": 2
             }
           },
+          "paintingRandom": {
+            "paintingrandom.activeitem.json": 2,
+            "paintingrandom2.activeitem.json": 2
+          },
           "pocketanchor": {
             "pocketanchor.activeitem.json": 2
           },
@@ -1133,6 +1137,9 @@
           },
           "ppboxwizard": {
             "ppboxwizard.activeitem.json": 2
+          },
+          "railplatform": {
+            "futram.activeitem.json": 2
           },
           "researchvoxel": {
             "researchvoxel.activeitem.json": 2,
@@ -2464,10 +2471,12 @@
                 },
                 "sentryguns": {
                   "mobiuspistol.activeitem.json": 2,
-                  "mobiusrifle.activeitem.json": 3,
+                  "mobiusrifle.activeitem.json": 2,
+                  "mobiusrifle2.activeitem.json": 2,
                   "railgun": {
                     "mobiusrailgun.activeitem.json": 2
-                  }
+                  },
+                  "shared_mobiusrifle.json": 1
                 }
               },
               "thornrifle.activeitem.json": 5,
@@ -6240,6 +6249,12 @@
         }
       },
       "fish": {
+        "atropuseye": {
+          "atropuseye.monstertype.json": 2
+        },
+        "atropusfish": {
+          "atropusfish.monstertype.json": 1
+        },
         "deathjelly": {
           "deathjelly.monstertype.json": 2
         },
@@ -6247,6 +6262,9 @@
           "1": {
             "dolphin1.monstertype.json": 2
           }
+        },
+        "veilendrex": {
+          "veilendrex.monstertype.json": 2
         }
       },
       "flyers": {
@@ -10352,24 +10370,12 @@
             "shared_.object.json": 2,
             "shared_elderdoor.json": 1
           },
-          "elderhugepainting.object.json": 2,
           "elderidol.object.json": 2,
           "elderlights": {
             "elderlight1.object.json": 1,
             "elderlight2.object.json": 1,
             "shared_elderlight.json": 1
           },
-          "elderpainting1.object.json": 2,
-          "elderpainting10.object.json": 2,
-          "elderpainting11.object.json": 2,
-          "elderpainting2.object.json": 2,
-          "elderpainting3.object.json": 2,
-          "elderpainting4.object.json": 1,
-          "elderpainting5.object.json": 2,
-          "elderpainting6.object.json": 2,
-          "elderpainting7.object.json": 2,
-          "elderpainting8.object.json": 2,
-          "elderpainting9.object.json": 2,
           "elderpedestal.object.json": 2,
           "elderpillar2": {
             "elderpedestal2.object.json": 1,
@@ -11221,6 +11227,46 @@
         },
         "forumdecorum": {
           "forumdecorum.object.json": 12
+        }
+      },
+      "painting": {
+        "artwork": {
+          "demiurge.object.json": 2,
+          "dreams.object.json": 2,
+          "elderhugepainting.object.json": 2,
+          "elderpainting1.object.json": 2,
+          "elderpainting10.object.json": 2,
+          "elderpainting11.object.json": 2,
+          "elderpainting2.object.json": 2,
+          "elderpainting3.object.json": 2,
+          "elderpainting4.object.json": 1,
+          "elderpainting5.object.json": 2,
+          "elderpainting6.object.json": 2,
+          "elderpainting7.object.json": 2,
+          "elderpainting8.object.json": 2,
+          "elderpainting9.object.json": 2,
+          "flesh.object.json": 2,
+          "home.object.json": 2,
+          "horde.object.json": 2,
+          "kitten.object.json": 2,
+          "logpainting.object.json": 2,
+          "nightmare.object.json": 2,
+          "paintedpuppy.object.json": 2,
+          "starrynight.object.json": 2,
+          "stripe.object.json": 2,
+          "stripe2.object.json": 2,
+          "stripe3.object.json": 2,
+          "stripe4.object.json": 2,
+          "theexpanse.object.json": 2,
+          "thefish.object.json": 1,
+          "thehunt.object.json": 2,
+          "thepalace.object.json": 2,
+          "theroom.object.json": 2,
+          "thingsinthedark.object.json": 2,
+          "vinapainting.object.json": 2
+        },
+        "easel": {
+          "painteasel.object.json": 2
         }
       },
       "penumbrite": {
@@ -15637,6 +15683,7 @@
     "shared_fect.json": 1,
     "shared_feya.json": 1,
     "shared_fig.json": 1,
+    "shared_fish..json": 1,
     "shared_fu_copperladder.mat.json": 2,
     "shared_fu_copperplatform.mat.json": 1,
     "shared_fuaetherdustplatform.mat.json": 1,
@@ -16132,6 +16179,13 @@
             "mad.statuseffect.json": 1
           },
           "madness": {
+            "madnessgain.animation.json": 1,
+            "madnessgainelder1.statuseffect.json": 1,
+            "madnessgainelder2.statuseffect.json": 1,
+            "madnessgainelder3.statuseffect.json": 1,
+            "madnessgainpainting1.statuseffect.json": 1,
+            "madnessgainpainting2.statuseffect.json": 1,
+            "madnessgainpainting3.statuseffect.json": 1,
             "madnessloss.statuseffect.json": 1,
             "madnessloss2.statuseffect.json": 1,
             "madnessloss3.statuseffect.json": 1
@@ -16531,6 +16585,9 @@
           "partytime2.statuseffect.json": 1,
           "shared_.statuseffect.json": 2
         },
+        "passive": {
+          "shared_.statuseffect.json": 1
+        },
         "physicalblock": {
           "physicalblock.statuseffect.json": 1,
           "physicalblock2.statuseffect.json": 1,
@@ -16669,6 +16726,7 @@
         "fadesprint.item.json": 2,
         "fadesprint2.item.json": 2,
         "fadesprint3.item.json": 2,
+        "fragmentblast.item.json": 2,
         "fuarmorboost.item.json": 2,
         "fuarmorboost2.item.json": 2,
         "fuarmorboost3.item.json": 2,
@@ -16739,6 +16797,7 @@
       "other": {
         "emergencybounce.tech.json": 2,
         "emergencybounce2.tech.json": 2,
+        "fragmentblast.tech.json": 2,
         "fuarmorboost.tech.json": 2,
         "fuarmorboost2.tech.json": 2,
         "fuarmorboost3.tech.json": 2,
