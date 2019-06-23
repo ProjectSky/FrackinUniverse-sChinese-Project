@@ -7,6 +7,7 @@
       ]
     },
     "Texts": {
+      "Chs": "一本ITN的初学者指导",
       "Eng": "A Beginner's Guide to ITN"
     }
   },
@@ -18,6 +19,7 @@
       ]
     },
     "Texts": {
+      "Chs": "一种常见的、有用的存储程序是将一排排的容器和存储桥接器全部连接到一个终端(或一系列终端)上 ，这样你就可以从所有的终端中提取物品，附近有一个箱子，它的存储桥接器连接到多个ITDs，这些 ITDs将会自动把你倾倒到网络中的任何物品分类到特定的容器中，而你无需做任何其他事情。",
       "Eng": "A common, useful storage setup is to have rows of containers and storage bridges all linked to a single terminal (or series of terminals) so you can pull from all of them, with a chest nearby and its storage bridge linked to multiple ITDs that will automatically sort any items you dump into it into specific containers in the network without you having to do anything else."
     }
   },
@@ -29,6 +31,7 @@
       ]
     },
     "Texts": {
+      "Chs": "当你开始做更复杂的ITN设置，你可能被跨越大面积的空间的布线孔娆，或者是想要优化你的线路的效率。中继器可以作为布线路径点来扩展你的布线范围，而一个单独的中继器可以连接到你所有的容器，所以你不需要在十几个不同的终端之间单独地连接所有的容器。",
       "Eng": "As you start making more sophisticated ITN setups, you may have trouble getting your wiring across large areas of space without vanishing, or else want to optimize the efficiency of your wiring. Repeaters can serve as wiring waypoints to extend your wiring range, while a single Repeater can be wired to all your containers so that you do not need to wire all of them individually between a dozen different terminals."
     }
   },
@@ -40,6 +43,7 @@
       ]
     },
     "Texts": {
+      "Chs": "初学者的ITN指导",
       "Eng": "Beginner's ITN Guide"
     }
   },
@@ -51,6 +55,7 @@
       ]
     },
     "Texts": {
+      "Chs": "制作人： \n\n  Kherae 创造了这些神秘的屑科技\n  HelloWorld123撰写了原始的指南\n  TP for Steambound重载。\n  Cratesmith编写了限制容器连接代码。\n  Terminal解决如何逆转熵的问题，以及编写这本指南。\n\n  diskrubbish汉化了这本指南(屑汉化，自裁罢)。",
       "Eng": "Credits: \n\n  Kherae for making all this arcane schlock work.\n  HelloWorld123 for writing the original Network Guide.\n  TP for Steambound Reloaded.\n  Cratesmith for the Vesselbound Container Link Code.\n  Terminal for figuring out how to reverse entropy and for writing this guide."
     }
   },
@@ -62,6 +67,7 @@
       ]
     },
     "Texts": {
+      "Chs": "做和不做：\n\n  在必要的时候一定要沿着一系列容器创建分支的ITD树。\n\n  不要创建任何类型的无限前后循环，在相同的容器之间转移相同的项，除非您有非常好的理由来这样做。不然这可能是卡顿的一个重要因素。",
       "Eng": "Dos & Don'ts:\n\n  Do create branching ITD trees along a string of containers where you feel you need to.\n\n  Do Not create any sort of infinite back-and-forth loop that shifts the same items between the same containers unless you have a very good reason to do so. This can be a substantial source of lag."
     }
   },
@@ -73,6 +79,7 @@
       ]
     },
     "Texts": {
+      "Chs": "做和不做：\n\n  使用菊花链拓扑链接多个容器。使用ITD从另一个ITD转储到的容器中提取物品，以在尽可能的情况下自动压缩物品堆栈，并为您提供更多特定于物品的存储空间。\n\n  不要将ITD的输出和输入节点直接链接到彼此。这种做法是多余的，可能是卡顿的原因，而且ITD配置不会在没有分离容器的情况下堆栈。",
       "Eng": "Dos & Don'ts:\n\n  Do daisy-chain multiple containers. Use ITDs to draw items out of a container dumped to by another ITD to help automatically compress item stacks where possible and to give you more item-specific storage space.\n\n  Do Not link the output and input nodes of ITDs directly to one another. This is redundant and can be a source of lag, and ITD configurations do not stack without a separating container."
     }
   },
@@ -84,6 +91,7 @@
       ]
     },
     "Texts": {
+      "Chs": "您可以与ITD进行交互以显示配置菜单。输入插槽指示ITD从容器中拉出物品的格子序号; 输出插槽指示ITD将把物品放入容器中的格子序号。您可以按下红色的 “i”按钮来反转选定的插槽，告诉ITD忽略这些特定的插槽，而不运输它们。还有分割插槽指示ITD是否将项目分成单个堆栈或者在每个指定的输出插槽之间分割物品。",
       "Eng": "ITDs can be interacted with to bring up their configuration menu. Input slots indicate what slots in a container the ITD will pull from; output slots designate what inventory slots in a container the ITD will drop items into. You can press the red I button to invert the selected slots, telling the ITD to ignore those specific slots rather than use them specifically. Even splitting and slot splitting dictate whether the ITD sorts items into single stacks or splits items between every indicated output slot."
     }
   },
@@ -95,6 +103,7 @@
       ]
     },
     "Texts": {
+      "Chs": "为建立基本的ITN网络，请将第一个容器的储存桥接器的红色输出节点连接到ITD的第二个蓝色输入节点，然后将ITD的红色输出节点连接到第二个容器的储存桥接器的蓝色输入节点。现在，所有放入第一个容器的物品将会自动传输到第二个容器。",
       "Eng": "In order to set up a basic ITN network, connect the red output node for a container's storage bridge to the second blue input node for an ITD, and then connect the ITD's red output node to the blue input node of a second container's storage bridge. Now all items put into the first container will be automatically moved to the second one."
     }
   },
@@ -106,6 +115,7 @@
       ]
     },
     "Texts": {
+      "Chs": "物品传输网络(ITN)设备允许您建造一个可以在库存、容器和开放世界之间移动和排序任何项目的自动化的、基于对象的网络。ITN设备使用Starbound的布线系统来工作，建议先熟悉布线系统，而不是先使用ITN。所有ITN设备都可在电子设备制造机(或其升级版本，能源设备制造机)处找到。",
       "Eng": "Inventory Transference Network (ITN) devices allow you to create an automated, object-based network that can move and sort any item between your inventory, containers, and the open world. ITN objects use Starbound's wiring system to function, a familiarity with wiring is recommended but not required to use the ITN. All ITN objects are found at the Electronics Center (or its upgraded version, the Power Center)."
     }
   },
@@ -117,6 +127,7 @@
       ]
     },
     "Texts": {
+      "Chs": "物品和资金传输设备(ITDs & MTDs)是ITN系统的附加核心组件。前者用于移动任何且全部的库存物品，而后者能传输货币，如像素和研究点数。你可以把它们放在任何你想放的地方，只要你能让它们保持直线连线。只有ITD能够配置。掌握ITD能让你对ITN系统信手拈来。",
       "Eng": "Item & Money Transference Devices (ITDs & MTDs) are additional core components of the ITN system. The former is used to move any and all inventory items, while the latter moves currencies, such as pixels & research. You can place them wherever you want as long as you can keep their wiring straight. Only the ITD can be configured. Mastery of the ITD will bring mastery over the entire ITN system."
     }
   },
@@ -128,6 +139,7 @@
       ]
     },
     "Texts": {
+      "Chs": "物品类别：\n宝物(有价值及稀有的物品)\n材料(方块，液体，平台)\n轨道(包括平台和电车)\n书籍(包括蓝图)\n 原材料(工艺原料，矿石) \n家具(容器，工作站，灯和们)\n农作物(大多数农作物)\n武器\n盔甲(包括背部饰品和增强)\n未处理(任何其他类别的物品)",
       "Eng": "Item Categories: \n  Treasure (Valuable & rare items)\n  Materials (Blocks, liquids, platforms)\n  Rails (Including platforms and trams)\n  Books (Including Blueprints)\n  Ingredients (Crafting materials, ores) \n  Objects (Containers, crafting stations, lights & doors)\n  Farm (Most agricultural products)\n  Weapons\n  Armor (Including back items & augments)\n  Unhandled (Anything not in the other categories)"
     }
   },
@@ -139,6 +151,7 @@
       ]
     },
     "Texts": {
+      "Chs": "物品类型：\n 手持工具(手电，绳索，稿子)\n乐器(小提琴，木笛，钢笛)\n 投掷武器(投掷飞刀，炸弹)\nEPP\n项圈\n染料",
       "Eng": "Item Types: \n  Hand Tools (Flashlight, rope, picks)\n  Instruments (Violin, xylaphone, assflute)\n  Thrown weapons (Throwing knives, bombs)\n  Augments\n  Collars\n  Dyes"
     }
   },
@@ -150,6 +163,7 @@
       ]
     },
     "Texts": {
+      "Chs": "一旦您有了一项基本的ITN程序(在第6页有描述) ，你就可以在电子/能源制造机处做一个终端。通过将容器储存桥接器的输出连接到终端的输入节点，您可以查看和搜索存储在该容器中的每一件物品，并将其拉入您的库存中——但您不能通过终端将物品送回。通过这种方式，一个终端可以连接到多个容器，使您可以同时查看和从多个容器中提取物品。",
       "Eng": "Once you have a basic ITN setup (described on page 6), you can make a terminal at the electronics/power center. By connecting the output of a container's storage bridge to a terminal's input node, you can see and search through every item stored in that container, and pull them into your inventory - but you cannot send items back through the terminal. A single terminal can be connected to multiple containers this way, letting you view and pull items from multiple containers at once."
     }
   },
@@ -161,6 +175,7 @@
       ]
     },
     "Texts": {
+      "Chs": "请密切关注各种ITN设备的项目工具提示，它们将准确地告诉您每个设备的节点用于什么。还需注意，一些设备的说明会在被放置后改变，——请在箱子里和放置的时候仔细检查！还有一件事，虽然许多ITN设备都有电源节点，可以用来切换激活和非激活状态，但是ITN对象不需要电源(由生成器创建)也能工作。",
       "Eng": "Pay close attention to the item tooltips for the various ITN objects, these will tell you exactly what each of that object's nodes are used for. Also be aware that some item descriptions will change after being placed - examine them both in your inventory and while placed! Also note that while many of these objects have power nodes that can be used to toggle them between active and inactive, none of the ITN objects require power (as created by generators) to function."
     }
   },
@@ -172,6 +187,7 @@
       ]
     },
     "Texts": {
+      "Chs": "储存桥接器不仅仅只用于普通集装箱工作。几乎任何具有物品槽的交互对象都可以链接到储存桥接器。这包括一些FrackinUniverse 工艺站和一些杂项。可能这些站点已经有电源节点(但没有输入/输出节点)。如果您发现自己不确定要使用哪些节点，请记住，储存桥接器的节点始终作为ITN的输入/输出节点。",
       "Eng": "Storage bridges work with more than just ordinary containers. Almost any object which can be interacted with that has item slots can be linked to a storage bridge. This includes some FrackinUniverse crafting stations and a few misc. objects that might already have power nodes (but no input/output nodes). If you find yourself uncertain about which nodes to use, remember that storage bridge nodes always function as ITN input/output nodes."
     }
   },
@@ -183,6 +199,7 @@
       ]
     },
     "Texts": {
+      "Chs": "ITN的第一个核心部件是储存桥接器，用于通过代理的方式为容器提供输入和输出的连接节点。储存桥接器会环顾四周，寻找最近的容器连接，但如果将它放在多个容器之间，可能会引起其混淆。确保您的储存桥接器尽可能靠近您希望它们连接到的容器，并让它们和其他容器之间保持距离。",
       "Eng": "The first core component of the ITN is the storage bridge, which is used to provide containers with input & output wiring nodes by way of proxy. Storage bridges look around themselves for the nearest container to connect to, but can get confused if you put them right between multiple containers. Make sure your storage bridges are placed as close as possible to the one container you want them linked to, and to leave space between them and other containers."
     }
   },
@@ -194,6 +211,7 @@
       ]
     },
     "Texts": {
+      "Chs": "ITN系统的优点是其允许极其强大，精确，分散和完全自动化的物品存储。你不再需要在几十个不同的容器之间来回奔跑，当你凯旋的时候，你可以把所有的东西放在一个箱子里，然后把它们分类到你需要的地方，或者找回你所需要的材料，而不用离开某个工作站。\n\nITN系统的缺点在于，它需要大量的设置和偶尔比较复杂的连接才能工作，并且需要您希望过滤的项目的示例设置。它也可能是卡顿的一个重要因素，在多个容器之间同时移动和重组超过100堆物品的过程，可能是Starbound目前程序最密集的方面之一。",
       "Eng": "The pros of the ITN system are that it allows for extremely powerful, precise, decentralized and fully automated item storage. No more having to prance between dozens of different containers whenever you get back from a loot haul, you can just drop it all in a single chest and have it all sorted exactly where you need it, or else retrieve exactly the materials you need for crafting without having to leave a crafting station.\n\nThe cons of the ITN system are that that it requires extensive setup and occasionally sophisticated wiring to get working, and requires examples of the items you want it to filter. It can also be a significant source of lag, the process of shifting and reorganizing upwards of a hundred stacks of items between multiple containers at once can be one of the most process-intensive aspects present in Starbound."
     }
   },
@@ -205,6 +223,7 @@
       ]
     },
     "Texts": {
+      "Chs": "您可以将项目放在ITD配置屏幕右上角的空物品栏中，告诉ITD提取特定类型的物品，而忽略其他物品。您可以进一步指定是希望ITD拉取该项，还是该项的相同类型或类别。使用反向逻辑设置告诉ITD 忽略特定的物品、类型或类别。",
       "Eng": "You can place items in the empty item boxes in the top-right corner of an ITD's configuration screen to tell it to pull specific kinds of items and ignore others. You can further specify whether you want the ITD to pull that exact item, or else the same types or categories of that item. Using the Inverted Logic setting tells the ITD to ignore that specific, type, or category of item."
     }
   }
