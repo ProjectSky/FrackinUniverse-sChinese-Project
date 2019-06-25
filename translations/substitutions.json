@@ -3676,9 +3676,6 @@
   "items/active/weapons/melee/spear/deadbeatspear.activeitem": {
     "/shortdescription": "texts/items/active/weapons/melee/spear/shared_spear.activeitem.json"
   },
-  "items/active/weapons/melee/spear/drillspear/fudrillspear.activeitem": {
-    "/shortdescription": "texts/items/active/weapons/shared_spear/shared_drillspear.json"
-  },
   "items/active/weapons/melee/spear/injector.activeitem": {
     "/description": "texts/items/active/weapons/melee/spear/shared_.activeitem.json"
   },
@@ -3767,10 +3764,6 @@
   "items/active/weapons/npc/swtjc_ewg_npcsubmachinegun.activeitem": {
     "/description": "texts/items/active/weapons/shared_machine.json"
   },
-  "items/active/weapons/other/drillspear/drillspear.activeitem": {
-    "/description": "texts/items/active/weapons/other/shared_lspear/shared_lspear.activeitem.json",
-    "/shortdescription": "texts/items/active/weapons/shared_spear/shared_drillspear.json"
-  },
   "items/active/weapons/other/icebreaker/fupixelbreaker.activeitem": {
     "/altAbility/name": "texts/items/active/weapons.json"
   },
@@ -3779,9 +3772,6 @@
   },
   "items/active/weapons/other/magnorbs/magnorbveluu/magnorbveluu.activeitem": {
     "/description": "texts/items/active/weapons/other/magnorbs/shared_magnorb/shared_.activeitem.json"
-  },
-  "items/active/weapons/other/shovelspear/fushovelspear.activeitem": {
-    "/description": "texts/items/active/weapons/other/shared_lspear/shared_lspear.activeitem.json"
   },
   "items/active/weapons/other/skittlegun/skittlegun.activeitem": {
     "/altAbility/name": "texts/wide_spread_fields.json",
@@ -5973,6 +5963,14 @@
   "items/generic/drinks/beer/champagne.consumable": {
     "/description": "texts/generic.json"
   },
+  "items/generic/drinks/kahla.consumable": {
+    "/description": "texts/items/generic/drinks/shared_.consumable.json",
+    "/shortdescription": "texts/items/generic/drinks/shared_.consumable.json"
+  },
+  "items/generic/drinks/kahla2.consumable": {
+    "/description": "texts/items/generic/drinks/shared_.consumable.json",
+    "/shortdescription": "texts/items/generic/drinks/shared_.consumable.json"
+  },
   "items/generic/drinks/rums/agedrum.consumable": {
     "/description": "texts/items/generic/drinks/rums/shared_rum.consumable.json"
   },
@@ -6898,12 +6896,28 @@
     "/description": "texts/materials/shared_fu_blockUranium.mat.json",
     "/shortdescription": "texts/materials/shared_fu_blockUranium.mat.json"
   },
+  "items/materials/fu_blueslopedhullpanel.matitem": {
+    "/description": "texts/materials/shared_fu_blueslopedhullpanel.mat.json",
+    "/shortdescription": "texts/materials/shared_fu_blueslopedhullpanel.mat.json"
+  },
+  "items/materials/fu_cloudplatform.matitem": {
+    "/description": "texts/shared_fu_cloudplatform.mat.json",
+    "/floranDescription": "texts/shared_fu_cloudplatform.mat.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/shared_fu_cloudplatform.mat.json",
+    "/novakidDescription": "texts/shared_fu_cloudplatform.mat.json",
+    "/shortdescription": "texts/shared_fu_cloudplatform.mat.json"
+  },
   "items/materials/fu_copperladder.matitem": {
     "/description": "texts/shared_fu_copperladder.mat.json",
     "/shortdescription": "texts/shared_fu_copperladder.mat.json"
   },
   "items/materials/fu_copperplatform.matitem": {
     "/description": "texts/shared_fu_copperplatform.mat.json"
+  },
+  "items/materials/fu_slopedglitchhull01.matitem": {
+    "/description": "texts/materials/shared_fu_slopedglitchhull01.mat.json",
+    "/shortdescription": "texts/materials/shared_fu_slopedglitchhull01.mat.json"
   },
   "items/materials/fuaetherbrick.matitem": {
     "/description": "texts/materials/shared_fuaetherbrick.mat.json",
@@ -9370,9 +9384,6 @@
     "/description": "texts/monsters/space/fuomnicannon/shared_fuomnicannon.json",
     "/shortdescription": "texts/monsters/space/shared_omnicannon/shared_.monstertype.json"
   },
-  "monsters/space/futrifangle/futrifangle.monstertype": {
-    "/shortdescription": "texts/monsters/space/shared_trifangle/shared_trifangle.monstertype.json"
-  },
   "monsters/space/futwigun/futwigun.monstertype": {
     "/description": "texts/monsters/space/futwigun/shared_.monstertype.json",
     "/shortdescription": "texts/monsters/space/futwigun/shared_.monstertype.json"
@@ -9399,9 +9410,6 @@
   },
   "monsters/space/omnicannon/omnicannon.monstertype": {
     "/shortdescription": "texts/monsters/space/shared_omnicannon/shared_.monstertype.json"
-  },
-  "monsters/space/trifangle/trifangle.monstertype": {
-    "/shortdescription": "texts/monsters/space/shared_trifangle/shared_trifangle.monstertype.json"
   },
   "monsters/space/twigun/twigun.monstertype": {
     "/description": "texts/monsters/space/twigun/shared_.monstertype.json",
@@ -14878,6 +14886,22 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/avaligeneric/terminal/avaliterminal3.object.json"
   },
+  "objects/avian/avianWallLamp/avianWallLamp.object": {
+    "/avianDescription": "texts/objects/avian/shared_avianWallLamp/shared_avianWallLamp.json",
+    "/floranDescription": "texts/objects/avian/shared_avianWallLamp/shared_avianWallLamp.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/avian/avianWallLamp/avianWallLamp.object.json",
+    "/humanDescription": "texts/objects/avian/shared_avianWallLamp/shared_avianWallLamp.json",
+    "/hylotlDescription": "texts/objects/avian/shared_avianWallLamp/shared_avianWallLamp.json"
+  },
+  "objects/avian/avianWallLamp2/avianWallLamp2.object": {
+    "/avianDescription": "texts/objects/avian/shared_avianWallLamp/shared_avianWallLamp.json",
+    "/floranDescription": "texts/objects/avian/shared_avianWallLamp/shared_avianWallLamp.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/avian/avianWallLamp2/avianWallLamp2.object.json",
+    "/humanDescription": "texts/objects/avian/shared_avianWallLamp/shared_avianWallLamp.json",
+    "/hylotlDescription": "texts/objects/avian/shared_avianWallLamp/shared_avianWallLamp.json"
+  },
   "objects/avian/sarcoavian1/sarcoavian1.object": {
     "/apexDescription": "texts/objects/avian/shared_sarcoavian/shared_sarcoavian.json",
     "/avianDescription": "texts/objects/avian/sarcoavian1/shared_sarcoavian1.json",
@@ -16450,6 +16474,143 @@
     "/hylotlDescription": "texts/objects/effigium/shared_effigium/shared_effigium.json",
     "/novakidDescription": "texts/objects/shared_.object.json"
   },
+  "objects/elduucrystal/exonite/exonitebed/exonitebed.object": {
+    "/apexDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/avianDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/elduucrystal/exonite/exonitebed/exonitebed.object.json",
+    "/novakidDescription": "texts/objects/shared_ite/shared_itebed.json"
+  },
+  "objects/elduucrystal/exonite/exonitebookcase.object": {
+    "/apexDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/avianDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/elduucrystal/exonite/exonitebookcase.object.json",
+    "/novakidDescription": "texts/objects/shared_ite.json"
+  },
+  "objects/elduucrystal/exonite/exonitecabinet.object": {
+    "/apexDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/avianDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/elduucrystal/exonite/exonitecabinet.object.json",
+    "/novakidDescription": "texts/objects/shared_ite.json"
+  },
+  "objects/elduucrystal/exonite/exonitechair.object": {
+    "/apexDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/avianDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/elduucrystal/exonite/exonitechair.object.json",
+    "/novakidDescription": "texts/objects/shared_ite.json"
+  },
+  "objects/elduucrystal/exonite/exonitechestlarge.object": {
+    "/apexDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/avianDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/floranDescription": "texts/objects/elduucrystal/exonite/shared_exonitechest.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/elduucrystal/exonite/shared_exonitechest.json",
+    "/humanDescription": "texts/objects/elduucrystal/exonite/shared_exonitechest.json",
+    "/hylotlDescription": "texts/objects/elduucrystal/exonite/shared_exonitechest.json",
+    "/novakidDescription": "texts/objects/shared_ite.json"
+  },
+  "objects/elduucrystal/exonite/exonitechestsmall.object": {
+    "/apexDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/avianDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/floranDescription": "texts/objects/elduucrystal/exonite/shared_exonitechest.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/elduucrystal/exonite/shared_exonitechest.json",
+    "/humanDescription": "texts/objects/elduucrystal/exonite/shared_exonitechest.json",
+    "/hylotlDescription": "texts/objects/elduucrystal/exonite/shared_exonitechest.json",
+    "/novakidDescription": "texts/objects/shared_ite.json"
+  },
+  "objects/elduucrystal/exonite/exonitecouch/exonitecouch.object": {
+    "/apexDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/avianDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/elduucrystal/exonite/exonitecouch/exonitecouch.object.json",
+    "/novakidDescription": "texts/objects/shared_ite/shared_itecouch.json"
+  },
+  "objects/elduucrystal/exonite/exonitedesk.object": {
+    "/apexDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/avianDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/elduucrystal/exonite/exonitedesk.object.json",
+    "/novakidDescription": "texts/objects/shared_ite.json"
+  },
+  "objects/elduucrystal/exonite/exonitedrawers.object": {
+    "/apexDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/elduucrystal/exonite/exonitedrawers.object.json",
+    "/novakidDescription": "texts/objects/shared_ite.json"
+  },
+  "objects/elduucrystal/exonite/exoniteendtable.object": {
+    "/apexDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/avianDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/floranDescription": "texts/objects/elduucrystal/exonite/shared_table.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/elduucrystal/exonite/shared_table.object.json",
+    "/humanDescription": "texts/objects/elduucrystal/exonite/shared_table.object.json",
+    "/hylotlDescription": "texts/objects/elduucrystal/exonite/shared_table.object.json",
+    "/novakidDescription": "texts/objects/shared_ite.json"
+  },
+  "objects/elduucrystal/exonite/exonitefridge.object": {
+    "/apexDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/avianDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/floranDescription": "texts/objects/elduucrystal/exonite/shared_fridge.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/elduucrystal/exonite/shared_fridge.object.json",
+    "/humanDescription": "texts/objects/elduucrystal/exonite/shared_fridge.object.json",
+    "/hylotlDescription": "texts/objects/elduucrystal/exonite/shared_fridge.object.json",
+    "/novakidDescription": "texts/objects/shared_ite.json"
+  },
+  "objects/elduucrystal/exonite/exonitelamp.object": {
+    "/floranDescription": "texts/objects/shared_lamp.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/elduucrystal/exonite/exonitelamp.object.json"
+  },
+  "objects/elduucrystal/exonite/exonitelowtable.object": {
+    "/apexDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/avianDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/floranDescription": "texts/objects/elduucrystal/exonite/shared_table.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/elduucrystal/exonite/shared_table.object.json",
+    "/humanDescription": "texts/objects/elduucrystal/exonite/shared_table.object.json",
+    "/hylotlDescription": "texts/objects/elduucrystal/exonite/shared_table.object.json",
+    "/novakidDescription": "texts/objects/shared_ite.json"
+  },
+  "objects/elduucrystal/exonite/exoniteminifridge.object": {
+    "/apexDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/avianDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/floranDescription": "texts/objects/elduucrystal/exonite/shared_fridge.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/elduucrystal/exonite/shared_fridge.object.json",
+    "/humanDescription": "texts/objects/elduucrystal/exonite/shared_fridge.object.json",
+    "/hylotlDescription": "texts/objects/elduucrystal/exonite/shared_fridge.object.json",
+    "/novakidDescription": "texts/objects/shared_ite.json"
+  },
+  "objects/elduucrystal/exonite/exonitenightstand.object": {
+    "/apexDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/avianDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/elduucrystal/exonite/exonitenightstand.object.json",
+    "/novakidDescription": "texts/objects/shared_ite.json"
+  },
+  "objects/elduucrystal/exonite/exonitestool.object": {
+    "/apexDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/avianDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/elduucrystal/exonite/exonitestool.object.json",
+    "/novakidDescription": "texts/objects/shared_ite.json"
+  },
+  "objects/elduucrystal/exonite/exonitetable.object": {
+    "/apexDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/avianDescription": "texts/objects/elduucrystal/exonite/shared_exonite.json",
+    "/floranDescription": "texts/objects/elduucrystal/exonite/shared_table.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/elduucrystal/exonite/shared_table.object.json",
+    "/humanDescription": "texts/objects/elduucrystal/exonite/shared_table.object.json",
+    "/hylotlDescription": "texts/objects/elduucrystal/exonite/shared_table.object.json",
+    "/novakidDescription": "texts/objects/shared_ite.json"
+  },
   "objects/elduukhar/appleplush.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/elduukhar/appleplush.object.json"
@@ -17259,6 +17420,13 @@
   "objects/farmables/erithianalgae/wilderithianalgaeseed.object": {
     "/description": "texts/shared_ect.json",
     "/shortdescription": "texts/wide_spread_fields.json"
+  },
+  "objects/farmables/exonite/exoniteseed.object": {
+    "/floranDescription": "texts/objects/farmables/shared_seed.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/farmables/shared_seed.object.json",
+    "/humanDescription": "texts/objects/farmables/shared_seed.object.json",
+    "/hylotlDescription": "texts/objects/farmables/shared_seed.object.json"
   },
   "objects/farmables/fayshroom/fayshroomseed.object": {
     "/description": "texts/shared_ect.json",
@@ -18143,6 +18311,109 @@
   "objects/farmables/yellowfoot/yellowfootseed.object": {
     "/description": "texts/shared_ect.json",
     "/shortdescription": "texts/shared_ect.json"
+  },
+  "objects/fenerox/feneroxbookcase.object": {
+    "/floranDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/fenerox/feneroxbookcase.object.json"
+  },
+  "objects/fenerox/feneroxcabinet.object": {
+    "/apexDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/floranDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/fenerox/shared_fenerox.json",
+    "/humanDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/novakidDescription": "texts/objects/fenerox/shared_fenerox.json"
+  },
+  "objects/fenerox/feneroxchestlarge.object": {
+    "/apexDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/avianDescription": "texts/objects/fenerox/shared_feneroxchest.json",
+    "/floranDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/fenerox/shared_fenerox.json",
+    "/humanDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/hylotlDescription": "texts/objects/fenerox/shared_feneroxchest.json",
+    "/novakidDescription": "texts/objects/fenerox/shared_fenerox.json"
+  },
+  "objects/fenerox/feneroxchestsmall.object": {
+    "/apexDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/avianDescription": "texts/objects/fenerox/shared_feneroxchest.json",
+    "/floranDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/fenerox/shared_fenerox.json",
+    "/humanDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/hylotlDescription": "texts/objects/fenerox/shared_feneroxchest.json",
+    "/novakidDescription": "texts/objects/fenerox/shared_fenerox.json"
+  },
+  "objects/fenerox/feneroxcouch/feneroxcouch.object": {
+    "/apexDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/avianDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/floranDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/fenerox/shared_fenerox.json",
+    "/humanDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/hylotlDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/novakidDescription": "texts/objects/fenerox/shared_fenerox.json"
+  },
+  "objects/fenerox/feneroxdesk.object": {
+    "/apexDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/floranDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/fenerox/shared_fenerox.json",
+    "/humanDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/novakidDescription": "texts/objects/fenerox/shared_fenerox.json"
+  },
+  "objects/fenerox/feneroxdrawers.object": {
+    "/apexDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/floranDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/fenerox/shared_fenerox.json"
+  },
+  "objects/fenerox/feneroxendtable.object": {
+    "/apexDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/floranDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/fenerox/shared_fenerox.json",
+    "/humanDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/novakidDescription": "texts/objects/fenerox/shared_fenerox.json"
+  },
+  "objects/fenerox/feneroxfridge.object": {
+    "/apexDescription": "texts/objects/fenerox/shared_fridge.object.json",
+    "/avianDescription": "texts/objects/fenerox/shared_fridge.object.json",
+    "/floranDescription": "texts/objects/fenerox/shared_fridge.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/fenerox/shared_fenerox.json",
+    "/humanDescription": "texts/objects/fenerox/shared_fridge.object.json",
+    "/hylotlDescription": "texts/objects/fenerox/shared_fridge.object.json",
+    "/novakidDescription": "texts/objects/fenerox/shared_fridge.object.json"
+  },
+  "objects/fenerox/feneroxminifridge.object": {
+    "/apexDescription": "texts/objects/fenerox/shared_fridge.object.json",
+    "/avianDescription": "texts/objects/fenerox/shared_fridge.object.json",
+    "/floranDescription": "texts/objects/fenerox/shared_fridge.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/fenerox/shared_fenerox.json",
+    "/humanDescription": "texts/objects/fenerox/shared_fridge.object.json",
+    "/hylotlDescription": "texts/objects/fenerox/shared_fridge.object.json",
+    "/novakidDescription": "texts/objects/fenerox/shared_fridge.object.json"
+  },
+  "objects/fenerox/feneroxnightstand.object": {
+    "/apexDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/floranDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/fenerox/shared_fenerox.json",
+    "/humanDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/novakidDescription": "texts/objects/fenerox/shared_fenerox.json"
+  },
+  "objects/fenerox/feneroxstool.object": {
+    "/apexDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/avianDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/floranDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/fenerox/shared_fenerox.json",
+    "/humanDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/hylotlDescription": "texts/objects/fenerox/shared_fenerox.json",
+    "/novakidDescription": "texts/objects/fenerox/shared_fenerox.json"
   },
   "objects/flagpoles/apexflagpole/apexflagpole.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -19242,6 +19513,9 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/generic/flagslimeperson/flagslimeperson.object.json"
   },
+  "objects/generic/fm_musicplayer/fm_musicplayer.object": {
+    "/description": "texts/objects.json"
+  },
   "objects/generic/fu_Bartable/fu_Bartable.object": {
     "/shortdescription": "texts/objects/shared_.object.json"
   },
@@ -19354,8 +19628,10 @@
     "/interactData/paneLayoutOverride/windowtitle/subtitle": "texts/objects/shared_vendingmachine/shared_vendingmachine.object.json"
   },
   "objects/generic/paintings/painting_whistler.object": {
+    "/bothanDescription": "texts/objects/shared_.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/generic/paintings/painting_whistler.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/generic/paintings/painting_whistler.object.json",
+    "/rodianDescription": "texts/objects/shared_.object.json"
   },
   "objects/generic/raptorneststorage/raptorneststorage.object": {
     "/description": "texts/objects/shared_nest.json",
@@ -19500,6 +19776,15 @@
   "objects/hylotl/hylotlshopcounter/hylotlshopcounter.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/hylotl/hylotlshopcounter/hylotlshopcounter.object.json"
+  },
+  "objects/hylotl/hylotlslidingdoor1/hylotlslidingdoor1.object": {
+    "/apexDescription": "texts/objects/shared_slidingdoor.json",
+    "/avianDescription": "texts/objects/shared_slidingdoor.json",
+    "/floranDescription": "texts/objects/shared_slidingdoor.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/shared_slidingdoor.json",
+    "/humanDescription": "texts/objects/shared_slidingdoor.json",
+    "/novakidDescription": "texts/objects/shared_slidingdoor.json"
   },
   "objects/irradium/irradiumbed/irradiumbed.object": {
     "/avianDescription": "texts/objects/irradium/shared_irradium.json",
@@ -20935,6 +21220,14 @@
     "/description": "texts/objects/minibiome/elder/shared_elderpillar.json",
     "/shortdescription": "texts/objects/minibiome/elder/shared_elderpillar.json"
   },
+  "objects/minibiome/elder/elderpillar1broken.object": {
+    "/description": "texts/objects/minibiome/elder/shared_elderpillar.json",
+    "/shortdescription": "texts/objects/minibiome/elder/shared_elderpillar.json"
+  },
+  "objects/minibiome/elder/elderpillar1corrupt.object": {
+    "/description": "texts/objects/minibiome/elder/shared_elderpillar.json",
+    "/shortdescription": "texts/objects/minibiome/elder/shared_elderpillar.json"
+  },
   "objects/minibiome/elder/elderpillar2.object": {
     "/description": "texts/objects/minibiome/elder/shared_elderpillar.json",
     "/shortdescription": "texts/objects/minibiome/elder/shared_elderpillar.json"
@@ -20952,6 +21245,14 @@
   "objects/minibiome/elder/elderpillar2/eldertable6.object": {
     "/description": "texts/objects/minibiome/elder/elderpillar2/shared_eldertable.json",
     "/shortdescription": "texts/objects/minibiome/elder/shared_elder.json"
+  },
+  "objects/minibiome/elder/elderpillar2broken.object": {
+    "/description": "texts/objects/minibiome/elder/shared_elderpillar.json",
+    "/shortdescription": "texts/objects/minibiome/elder/shared_elderpillar.json"
+  },
+  "objects/minibiome/elder/elderpillar2corrupt.object": {
+    "/description": "texts/objects/minibiome/elder/shared_elderpillar.json",
+    "/shortdescription": "texts/objects/minibiome/elder/shared_elderpillar.json"
   },
   "objects/minibiome/elder/elderpillar3.object": {
     "/description": "texts/objects/minibiome/elder/shared_elderpillar.json",
@@ -22957,6 +23258,13 @@
   },
   "objects/painting/artwork/elderpainting4.object": {
     "/shortdescription": "texts/wide_spread_fields.json"
+  },
+  "objects/painting/artwork/germ.object": {
+    "/bothanDescription": "texts/objects/shared_.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/painting/artwork/germ.object.json",
+    "/rodianDescription": "texts/objects/shared_.object.json",
+    "/shadowDescription": "texts/wide_spread_fields.json"
   },
   "objects/painting/artwork/thefish.object": {
     "/shortdescription": "texts/shared_fish..json"
@@ -25109,6 +25417,66 @@
     "/novakidDescription": "texts/objects/questturnins.json",
     "/shortdescription": "texts/objects/questturnins.json"
   },
+  "objects/racialjukeboxes/apexbox.object": {
+    "/description": "texts/objects.json"
+  },
+  "objects/racialjukeboxes/avianbox.object": {
+    "/description": "texts/objects.json"
+  },
+  "objects/racialjukeboxes/elduukharbox.object": {
+    "/description": "texts/objects.json"
+  },
+  "objects/racialjukeboxes/feneroxbox.object": {
+    "/description": "texts/objects.json"
+  },
+  "objects/racialjukeboxes/floranbox.object": {
+    "/description": "texts/objects.json"
+  },
+  "objects/racialjukeboxes/glitchbox.object": {
+    "/description": "texts/objects.json"
+  },
+  "objects/racialjukeboxes/humanbox.object": {
+    "/description": "texts/objects.json"
+  },
+  "objects/racialjukeboxes/hylotlbox.object": {
+    "/description": "texts/objects.json"
+  },
+  "objects/racialjukeboxes/juuxbox.object": {
+    "/description": "texts/objects.json"
+  },
+  "objects/racialjukeboxes/kirhosbox.object": {
+    "/description": "texts/objects.json"
+  },
+  "objects/racialjukeboxes/mantizibox.object": {
+    "/description": "texts/objects.json"
+  },
+  "objects/racialjukeboxes/nightarbox.object": {
+    "/description": "texts/objects.json"
+  },
+  "objects/racialjukeboxes/novakidbox.object": {
+    "/description": "texts/objects.json"
+  },
+  "objects/racialjukeboxes/peglacibox.object": {
+    "/description": "texts/objects.json"
+  },
+  "objects/racialjukeboxes/radienbox.object": {
+    "/description": "texts/objects.json"
+  },
+  "objects/racialjukeboxes/skathbox.object": {
+    "/description": "texts/objects.json"
+  },
+  "objects/racialjukeboxes/slimebox.object": {
+    "/description": "texts/objects.json"
+  },
+  "objects/racialjukeboxes/tenebrhaebox.object": {
+    "/description": "texts/objects.json"
+  },
+  "objects/racialjukeboxes/thelusianbox.object": {
+    "/description": "texts/objects.json"
+  },
+  "objects/racialjukeboxes/veluubox.object": {
+    "/description": "texts/objects.json"
+  },
   "objects/scb-flametrap/scb-flametrap.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/scb-flametrap/scb-flametrap.object.json"
@@ -26027,6 +26395,42 @@
     "/kirhosDescription": "texts/objects/ship/shared_techstation/shared_techstationtier0.object.json",
     "/shortdescription": "texts/objects/ship/shared_techstation/shared_techstation.json"
   },
+  "objects/ship/fu_booster_large/fu_booster_large.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json"
+  },
+  "objects/ship/fu_booster_medium/fu_booster_medium.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json"
+  },
+  "objects/ship/fu_booster_small/fu_booster_small.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json"
+  },
+  "objects/ship/fu_booster_tiny/fu_booster_tiny.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json"
+  },
   "objects/ship/fu_bootuptemp/fu_bootuptemp.object": {
     "/description": "texts/objects/shared_temp/shared_temp.object.json",
     "/shortdescription": "texts/objects/shared_temp/shared_temp.object.json"
@@ -26295,6 +26699,33 @@
   "objects/ship/fu_elduukharcrewdeed/fu_elduukharcrewdeed.object": {
     "/description": "texts/objects/ship/shared_crewdeed/shared_crewdeed.json"
   },
+  "objects/ship/fu_ftlBooster_large/fu_ftlBooster_large.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json"
+  },
+  "objects/ship/fu_ftlBooster_medium/fu_ftlBooster_medium.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json"
+  },
+  "objects/ship/fu_ftlBooster_small/fu_ftlBooster_small.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json"
+  },
   "objects/ship/fu_ftldrive/fu_ftldrive.object": {
     "/shortdescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json"
   },
@@ -26328,23 +26759,16 @@
     "/description": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
     "/shortdescription": "texts/objects/ship/shared_fu_ftldrivesmall/shared_fu_ftldrivesmalldeco.json"
   },
+  "objects/ship/fu_ftldrivesmall_broken/fu_ftldrivesmall_broken.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_ftldrivesmall_broken/fu_ftldrivesmall_broken.object.json"
+  },
   "objects/ship/fu_ftldrivesmallbroken/fu_ftldrivesmallbroken.object": {
     "/shortdescription": "texts/objects/ship/shared_fu_ftldrivesmall/shared_fu_ftldrivesmall.json"
   },
   "objects/ship/fu_ftldrivesmallbroken/fu_ftldrivesmalldecobroken.object": {
     "/description": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
     "/shortdescription": "texts/objects/ship/shared_fu_ftldrivesmall/shared_fu_ftldrivesmalldeco.json"
-  },
-  "objects/ship/fu_largethruster/fu_largethruster.object": {
-    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
-    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
-    "/description": "texts/objects/ship/shared_thruster/shared_thruster.object.json",
-    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
-    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
-    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
-    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
-    "/shortdescription": "texts/objects/ship/fu_largethruster/shared_fu_largethruster.json"
   },
   "objects/ship/fu_largethruster/fu_largethrusterBroken.object": {
     "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
@@ -26353,19 +26777,7 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
     "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
-    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
-    "/shortdescription": "texts/objects/ship/fu_largethruster/shared_fu_largethruster.json"
-  },
-  "objects/ship/fu_mediumthruster/fu_mediumthruster.object": {
-    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
-    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
-    "/description": "texts/objects/ship/shared_thruster/shared_thruster.object.json",
-    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
-    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
-    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
-    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
-    "/shortdescription": "texts/objects/ship/fu_mediumthruster/shared_fu_mediumthruster.json"
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json"
   },
   "objects/ship/fu_mediumthruster/fu_mediumthrusterBroken.object": {
     "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
@@ -26374,8 +26786,7 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
     "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
-    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
-    "/shortdescription": "texts/objects/ship/fu_mediumthruster/shared_fu_mediumthruster.json"
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json"
   },
   "objects/ship/fu_precursorguns/Bigcannonsml_totalblazing.object": {
     "/description": "texts/objects/ship/fu_precursorguns/shared__totalblazing.object.json"
@@ -26497,16 +26908,6 @@
     "/hylotlDescription": "texts/objects/ship/shared_techstation/shared_techstation.json",
     "/novakidDescription": "texts/objects/ship/shared_techstation/shared_techstation.json"
   },
-  "objects/ship/fu_smallthruster/fu_smallthruster.object": {
-    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
-    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
-    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
-    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
-    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
-    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
-    "/shortdescription": "texts/objects/ship/fu_smallthruster/shared_fu_smallthruster.json"
-  },
   "objects/ship/fu_smallthruster/fu_smallthrusterBroken.object": {
     "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
     "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
@@ -26514,8 +26915,7 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
     "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
-    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
-    "/shortdescription": "texts/objects/ship/fu_smallthruster/shared_fu_smallthruster.json"
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json"
   },
   "objects/ship/fu_thrusters/apex/thruster_apex1.object": {
     "/shortdescription": "texts/objects/ship/fu_thrusters/shared_thruster_.json"
@@ -26705,6 +27105,12 @@
     "/novakidDescription": "texts/objects/ship/shared_teleporter/shared_teleporter.json",
     "/peglaciDescription": "texts/objects/ship/shared_teleporter/shared_teleporter.json",
     "/shortdescription": "texts/objects/ship/shared_teleporter/shared_teleporter.json"
+  },
+  "objects/ship/glitchshipparts/SIV_shipGlitchThrusterPad.object": {
+    "/shortdescription": "texts/objects/ship/glitchshipparts/shared_SIV_shipGlitchThrusterPad.json"
+  },
+  "objects/ship/glitchshipparts/SIV_shipGlitchThrusterPadSmall.object": {
+    "/shortdescription": "texts/objects/ship/glitchshipparts/shared_SIV_shipGlitchThrusterPad.json"
   },
   "objects/ship/hylotlshipparts/SIV_shipBlueMid1/SIV_shipBlueMid1.object": {
     "/description": "texts/objects/ship/hylotlshipparts/shared_SIV_shipBlueMid/shared_SIV_shipBlueMid.json"
@@ -32835,17 +33241,20 @@
   "objects/xithricite/xithricitebed/xithricitebed.object": {
     "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/xithricitebed/xithricitebed.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/xithricitebed/xithricitebed.object.json",
+    "/novakidDescription": "texts/objects/shared_ite/shared_itebed.json"
   },
   "objects/xithricite/xithricitebookcase.object": {
     "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/shared_xithricite.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/shared_xithricite.json",
+    "/novakidDescription": "texts/objects/shared_ite.json"
   },
   "objects/xithricite/xithricitecabinet.object": {
     "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/shared_xithricite.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/shared_xithricite.json",
+    "/novakidDescription": "texts/objects/shared_ite.json"
   },
   "objects/xithricite/xithriciteceilinglamp/xithriciteceilinglamp.object": {
     "/apexDescription": "texts/objects/xithricite/shared_xithricite/shared_lamp.object.json",
@@ -32860,7 +33269,8 @@
   "objects/xithricite/xithricitechair.object": {
     "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/xithricitechair.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/xithricitechair.object.json",
+    "/novakidDescription": "texts/objects/shared_ite.json"
   },
   "objects/xithricite/xithricitechestlarge.object": {
     "/apexDescription": "texts/objects/xithricite/shared_xithricitechest.json",
@@ -32870,7 +33280,7 @@
     "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/shared_xithricitechest.json",
     "/humanDescription": "texts/objects/xithricite/shared_xithricitechest.json",
     "/hylotlDescription": "texts/objects/xithricite/shared_xithricitechest.json",
-    "/novakidDescription": "texts/objects/xithricite/shared_xithricitechest.json"
+    "/novakidDescription": "texts/objects/shared_ite.json"
   },
   "objects/xithricite/xithricitechestsmall.object": {
     "/apexDescription": "texts/objects/xithricite/shared_xithricitechest.json",
@@ -32880,17 +33290,19 @@
     "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/shared_xithricitechest.json",
     "/humanDescription": "texts/objects/xithricite/shared_xithricitechest.json",
     "/hylotlDescription": "texts/objects/xithricite/shared_xithricitechest.json",
-    "/novakidDescription": "texts/objects/xithricite/shared_xithricitechest.json"
+    "/novakidDescription": "texts/objects/shared_ite.json"
   },
   "objects/xithricite/xithricitecouch/xithricitecouch.object": {
     "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/xithricitecouch/xithricitecouch.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/xithricitecouch/xithricitecouch.object.json",
+    "/novakidDescription": "texts/objects/shared_ite/shared_itecouch.json"
   },
   "objects/xithricite/xithricitedesk.object": {
     "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/xithricitedesk.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/xithricitedesk.object.json",
+    "/novakidDescription": "texts/objects/shared_ite.json"
   },
   "objects/xithricite/xithricitedesklamp/xithricitedesklamp.object": {
     "/apexDescription": "texts/objects/xithricite/shared_xithricite/shared_lamp.object.json",
@@ -32905,7 +33317,8 @@
   "objects/xithricite/xithricitedrawers.object": {
     "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/xithricitedrawers.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/xithricitedrawers.object.json",
+    "/novakidDescription": "texts/objects/shared_ite.json"
   },
   "objects/xithricite/xithriciteendtable.object": {
     "/apexDescription": "texts/objects/xithricite/shared_table.object.json",
@@ -32915,31 +33328,33 @@
     "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/shared_table.object.json",
     "/humanDescription": "texts/objects/xithricite/shared_table.object.json",
     "/hylotlDescription": "texts/objects/xithricite/shared_table.object.json",
-    "/novakidDescription": "texts/objects/xithricite/shared_table.object.json"
+    "/novakidDescription": "texts/objects/shared_ite.json"
   },
   "objects/xithricite/xithricitefridge.object": {
     "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/shared_fridge.object.json",
     "/hylotlDescription": "texts/objects/xithricite/shared_fridge.object.json",
-    "/novakidDescription": "texts/objects/xithricite/shared_fridge.object.json"
+    "/novakidDescription": "texts/objects/shared_ite.json"
   },
   "objects/xithricite/xithriciteminifridge.object": {
     "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/shared_fridge.object.json",
     "/hylotlDescription": "texts/objects/xithricite/shared_fridge.object.json",
-    "/novakidDescription": "texts/objects/xithricite/shared_fridge.object.json"
+    "/novakidDescription": "texts/objects/shared_ite.json"
   },
   "objects/xithricite/xithricitenightstand.object": {
     "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/xithricitenightstand.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/xithricitenightstand.object.json",
+    "/novakidDescription": "texts/objects/shared_ite.json"
   },
   "objects/xithricite/xithricitestool.object": {
     "/avianDescription": "texts/objects/xithricite/shared_xithricite.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/xithricitestool.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/xithricitestool.object.json",
+    "/novakidDescription": "texts/objects/shared_ite.json"
   },
   "objects/xithricite/xithricitetable.object": {
     "/apexDescription": "texts/objects/xithricite/shared_table.object.json",
@@ -32949,7 +33364,7 @@
     "/glitchDescription/glitchEmotedText": "texts/objects/xithricite/shared_table.object.json",
     "/humanDescription": "texts/objects/xithricite/shared_table.object.json",
     "/hylotlDescription": "texts/objects/xithricite/shared_table.object.json",
-    "/novakidDescription": "texts/objects/xithricite/shared_table.object.json"
+    "/novakidDescription": "texts/objects/shared_ite.json"
   },
   "objects/xithricite/xithricitewalllamp/xithricitewalllamp.object": {
     "/apexDescription": "texts/objects/xithricite/shared_xithricite/shared_lamp.object.json",
@@ -33093,9 +33508,13 @@
   },
   "objects/zerchesium/zerchesiumslidingdoor.object": {
     "/apexDescription": "texts/objects/shared_slidingdoor.json",
+    "/avianDescription": "texts/objects/shared_slidingdoor.json",
+    "/floranDescription": "texts/objects/shared_slidingdoor.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/shared_slidingdoor.json",
-    "/hylotlDescription": "texts/objects/shared_slidingdoor.json"
+    "/humanDescription": "texts/objects/shared_slidingdoor.json",
+    "/hylotlDescription": "texts/objects/shared_slidingdoor.json",
+    "/novakidDescription": "texts/objects/shared_slidingdoor.json"
   },
   "objects/zerchesium/zerchesiumstool/zerchesiumstool.object": {
     "/avianDescription": "texts/objects/shared_stool/shared_stool.object.json",
@@ -33137,7 +33556,7 @@
   "objects/zerchesiumalt/zerchceilinglamp/zerchceilinglamp.object": {
     "/apexDescription": "texts/objects/zerchesiumalt/shared_zerch/shared_lamp.object.json",
     "/avianDescription": "texts/objects/zerchesiumalt/shared_zerch/shared_lamp.object.json",
-    "/floranDescription": "texts/objects/zerchesiumalt/shared_zerch/shared_lamp.object.json",
+    "/floranDescription": "texts/objects/shared_lamp.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/zerchesiumalt/shared_zerch/shared_lamp.object.json",
     "/humanDescription": "texts/objects/zerchesiumalt/shared_zerch/shared_lamp.object.json",
@@ -33186,7 +33605,7 @@
   "objects/zerchesiumalt/zerchdesklamp/zerchdesklamp.object": {
     "/apexDescription": "texts/objects/zerchesiumalt/shared_zerch/shared_lamp.object.json",
     "/avianDescription": "texts/objects/zerchesiumalt/shared_zerch/shared_lamp.object.json",
-    "/floranDescription": "texts/objects/zerchesiumalt/shared_zerch/shared_lamp.object.json",
+    "/floranDescription": "texts/objects/shared_lamp.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/zerchesiumalt/shared_zerch/shared_lamp.object.json",
     "/humanDescription": "texts/objects/zerchesiumalt/shared_zerch/shared_lamp.object.json",
@@ -33230,7 +33649,7 @@
   "objects/zerchesiumalt/zerchstandinglamp/zerchstandinglamp.object": {
     "/apexDescription": "texts/objects/zerchesiumalt/shared_zerch/shared_lamp.object.json",
     "/avianDescription": "texts/objects/zerchesiumalt/shared_zerch/shared_lamp.object.json",
-    "/floranDescription": "texts/objects/zerchesiumalt/shared_zerch/shared_lamp.object.json",
+    "/floranDescription": "texts/objects/shared_lamp.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/zerchesiumalt/shared_zerch/shared_lamp.object.json",
     "/humanDescription": "texts/objects/zerchesiumalt/shared_zerch/shared_lamp.object.json",
@@ -33253,7 +33672,7 @@
   "objects/zerchesiumalt/zerchwalllamp/zerchwalllamp.object": {
     "/apexDescription": "texts/objects/zerchesiumalt/shared_zerch/shared_lamp.object.json",
     "/avianDescription": "texts/objects/zerchesiumalt/shared_zerch/shared_lamp.object.json",
-    "/floranDescription": "texts/objects/zerchesiumalt/shared_zerch/shared_lamp.object.json",
+    "/floranDescription": "texts/objects/shared_lamp.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/zerchesiumalt/shared_zerch/shared_lamp.object.json",
     "/humanDescription": "texts/objects/zerchesiumalt/shared_zerch/shared_lamp.object.json",
@@ -33527,9 +33946,6 @@
   },
   "quests/letheiafleet.questtemplate": {
     "/scriptConfig/turnInDescription": "texts/quests.json"
-  },
-  "quests/madness/madnessquest.questtemplate": {
-    "/title": "texts/wide_spread_fields.json"
   },
   "quests/mmupgrade/mastermanipulator.questtemplate": {
     "/title": "texts/quests/mmupgrade/shared_.questtemplate.json"
@@ -38737,6 +39153,16 @@
     "/description": "texts/materials/shared_fu_blockUranium.mat.json",
     "/shortdescription": "texts/materials/shared_fu_blockUranium.mat.json"
   },
+  "tiles/materials/fu_blueslopedhullpanel.material": {
+    "/description": "texts/materials/shared_fu_blueslopedhullpanel.mat.json",
+    "/shortdescription": "texts/materials/shared_fu_blueslopedhullpanel.mat.json"
+  },
+  "tiles/materials/fu_slopedglitchhull01.material": {
+    "/description": "texts/materials/shared_fu_slopedglitchhull01.mat.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/tiles/materials/fu_slopedglitchhull01.material.json",
+    "/shortdescription": "texts/materials/shared_fu_slopedglitchhull01.mat.json"
+  },
   "tiles/materials/fuaetherbrick.material": {
     "/description": "texts/materials/shared_fuaetherbrick.mat.json",
     "/shortdescription": "texts/materials/shared_fuaetherbrick.mat.json"
@@ -40507,6 +40933,14 @@
   "tiles/platforms/fancywoodstairs.material": {
     "/description": "texts/shared_.mat.json",
     "/shortdescription": "texts/shared_fancywoodstairs.mat.json"
+  },
+  "tiles/platforms/fu_cloudplatform.material": {
+    "/description": "texts/shared_fu_cloudplatform.mat.json",
+    "/floranDescription": "texts/shared_fu_cloudplatform.mat.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/shared_fu_cloudplatform.mat.json",
+    "/novakidDescription": "texts/shared_fu_cloudplatform.mat.json",
+    "/shortdescription": "texts/shared_fu_cloudplatform.mat.json"
   },
   "tiles/platforms/fu_copperladder.material": {
     "/description": "texts/shared_fu_copperladder.mat.json",
