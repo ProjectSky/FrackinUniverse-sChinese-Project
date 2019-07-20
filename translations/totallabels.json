@@ -1,5 +1,28 @@
 {
   "texts": {
+    "a_notyetadded": {
+      "objects": {
+        "xi": {
+          "xicaptainschair": {
+            "xicaptainschair.object.json": 2
+          },
+          "xishipdoor": {
+            "xidoor.object.json": 1
+          },
+          "xishipdoorbroken": {
+            "xishipdoorBroken.object.json": 3
+          },
+          "xitechstation": {
+            "xitechstation.object.json": 3
+          },
+          "xiteleporter": {
+            "byosxiteleporter.object.json": 1,
+            "shared_xiteleporter.object.json": 1,
+            "xiteleporter.object.json": 1
+          }
+        }
+      }
+    },
     "ai": {
       "alienjungle.aimission.json": 3,
       "ancienttemple.aimission.json": 3,
@@ -661,10 +684,10 @@
       "brewmaster.config.json": 84,
       "catconverse.config.json": 109,
       "catflee.config.json": 6,
+      "eldermerchant.config.json": 12,
       "greg.config.json": 16,
-      "macready.config.json": 1,
       "plurcombat.config.json": 36,
-      "shared_.config.json": 11,
+      "shared_.config.json": 12,
       "shared_n.config.json": 236,
       "towndrunk.config.json": 89
     },
@@ -914,7 +937,7 @@
           "crewcontract_mechanic.activeitem.json": 2,
           "crewcontract_mechanic2.activeitem.json": 2,
           "crewcontract_medic.activeitem.json": 2,
-          "crewcontract_metalhead.activeitem.json": 1,
+          "crewcontract_metalhead.activeitem.json": 2,
           "crewcontract_outlaw.activeitem.json": 2,
           "crewcontract_plur.activeitem.json": 2,
           "crewcontract_radien.activeitem.json": 2,
@@ -4182,6 +4205,9 @@
           "murdermask": {
             "murdermask.head.json": 2
           },
+          "poptoptop": {
+            "poptoptop.head.json": 2
+          },
           "powerhelm": {
             "powerhelm.head.json": 2
           },
@@ -5110,6 +5136,7 @@
           "slew3.consumable.json": 1,
           "slew4.consumable.json": 1,
           "sludgecone.consumable.json": 2,
+          "snarshedgarflipps.consumable.json": 2,
           "solariumbiscuit.consumable.json": 2,
           "solstew": {
             "solstew.consumable.json": 2
@@ -7175,6 +7202,9 @@
         "fusnapper": {
           "fusnapper.monstertype.json": 2
         },
+        "garflipp": {
+          "garflipp.monstertype.json": 2
+        },
         "gleapish": {
           "glarp": {
             "glarp.monstertype.json": 1
@@ -7292,7 +7322,8 @@
             "knifetop.monstertype.json": 2
           },
           "poptopmicro": {
-            "shared_.monstertype.json": 1
+            "poptopmicro.monstertype.json": 2,
+            "poptopmicromadnesspet.monstertype.json": 1
           },
           "shadowtop": {
             "shadowtop.monstertype.json": 2
@@ -7333,7 +7364,7 @@
           "shared_top.json": 1
         },
         "shared_poptop": {
-          "shared_poptopm.json": 1
+          "shared_poptop.json": 1
         },
         "slimes": {
           "shared_slime": {
@@ -7498,7 +7529,7 @@
         "crewmemberwarrior.npctype.json": 1,
         "crewmemberwarrior2.npctype.json": 1,
         "crewmemberwarrior3.npctype.json": 1,
-        "shared_crewmember.json": 231,
+        "shared_crewmember.json": 232,
         "shared_crewmemberchef.json": 11,
         "shared_crewmembercounsellor.json": 6,
         "shared_crewmemberengineer.json": 1,
@@ -7611,7 +7642,7 @@
       },
       "svetlana.npctype.json": 6,
       "tenant": {
-        "fucultistbuilder.npctype.json": 19
+        "fucultistbuilder.npctype.json": 2
       },
       "volcanobase": {
         "shared_volcanobase.json": 2,
@@ -12666,7 +12697,7 @@
           "tenebrhaeshipdoor.object.json": 2
         }
       },
-      "shared_.object.json": 39,
+      "shared_.object.json": 38,
       "shared_avali.json": 7,
       "shared_banner.json": 3,
       "shared_bed": {
@@ -12742,9 +12773,6 @@
       "shared_liquidsensor": {
         "shared_liquidsensor.object.json": 1
       },
-      "shared_locker": {
-        "shared_locker.object.json": 1
-      },
       "shared_locker.json": 1,
       "shared_minifridge.json": 6,
       "shared_nest.json": 2,
@@ -12764,9 +12792,6 @@
       },
       "shared_shelf.json": 2,
       "shared_shiphatch.json": 8,
-      "shared_shiplight": {
-        "shared_shiplight.object.json": 6
-      },
       "shared_slidingdoor.json": 7,
       "shared_slimenpc": {
         "shared_slimenpc": {
@@ -13369,7 +13394,7 @@
           "shared_boosterflamemantizi.object.json": 1
         },
         "shared_captain": {
-          "shared_captain.json": 8
+          "shared_captain.json": 1
         },
         "shared_captainschair": {
           "shared_captainschair.json": 1,
@@ -13407,11 +13432,9 @@
           "shared_fu_sciencetechstation.json": 3
         },
         "shared_fuelhatch": {
-          "shared_fuelhatch.json": 7,
-          "shared_fuelhatch.object.json": 3,
-          "shared_uelhatch.object.json": 2
+          "shared_fuelhatch.json": 2,
+          "shared_fuelhatch.object.json": 1
         },
-        "shared_fuelhatch.json": 9,
         "shared_fupeglacicaptainschair": {
           "shared_captainschair.json": 7
         },
@@ -13452,19 +13475,16 @@
           "shared_shadowtechstation.json": 1
         },
         "shared_shipdoor": {
-          "shared_shipdoor.json": 9,
-          "shared_shipdoor.object.json": 11,
+          "shared_shipdoor.json": 2,
+          "shared_shipdoor.object.json": 5,
           "shared_shiphatch.object.json": 4
         },
         "shared_shipdoorbroken": {
           "shared_shipdoorbroken.object.json": 3
         },
-        "shared_shiplight": {
-          "shared_shiplightBroken.object.json": 9
-        },
         "shared_shiplocker": {
-          "shared_shiplocker.json": 11,
-          "shared_shiplocker.object.json": 14
+          "shared_shiplocker.json": 2,
+          "shared_shiplocker.object.json": 8
         },
         "shared_shiplockerTier0": {
           "shared_shiplockerTier0.object.json": 1
@@ -13479,12 +13499,12 @@
           "shared_ster.json": 6
         },
         "shared_techstation": {
-          "shared_techstation.json": 28,
+          "shared_techstation.json": 2,
           "shared_techstation.object.json": 21,
           "shared_techstationtier0.object.json": 8
         },
         "shared_teleporter": {
-          "shared_teleporter.json": 21,
+          "shared_teleporter.json": 5,
           "shared_teleporter.object.json": 2
         },
         "shared_veluushipdoor": {
@@ -13622,9 +13642,6 @@
         },
         "veluushipdoor": {
           "veluushiphatch.object.json": 1
-        },
-        "veluushiplight": {
-          "veluushiplight.object.json": 2
         },
         "veluutechstation": {
           "veluutechstation.object.json": 3
@@ -16516,10 +16533,10 @@
     },
     "shared_brainslug.json": 1,
     "shared_burrower.json": 1,
+    "shared_captain.json": 7,
     "shared_charredflesh.json": 1,
     "shared_cloud.json": 1,
     "shared_corpsewagon..json": 1,
-    "shared_crew.json": 1,
     "shared_cute": {
       "shared_cute.json": 1
     },
@@ -16533,8 +16550,8 @@
       "shared_derrick.json": 1,
       "shared_jelly.json": 1,
       "shared_madness.json": 1,
-      "shared_madnessp.json": 1,
       "shared_maggot.json": 1,
+      "shared_poptop.json": 1,
       "shared_poptopfire": {
         "shared_poptopfire.json": 1
       },
@@ -16557,6 +16574,7 @@
     "shared_fu_copperplatform.mat.json": 1,
     "shared_fuaetherdustplatform.mat.json": 1,
     "shared_fuaetherplatform.mat.json": 1,
+    "shared_fuelhatch.json": 16,
     "shared_girdirplatform.mat.json": 1,
     "shared_greg.json": 1,
     "shared_hellfire.json": 1,
@@ -16570,6 +16588,7 @@
       }
     },
     "shared_lobster..json": 1,
+    "shared_locker.json": 1,
     "shared_mat.json": 1,
     "shared_matmod.json": 9,
     "shared_nightarsplatform.mat.json": 5,
@@ -16591,13 +16610,19 @@
     "shared_res.json": 1,
     "shared_rial.json": 1,
     "shared_sewerpipe.json": 3,
+    "shared_shipdoor.json": 13,
+    "shared_shiplight.json": 17,
+    "shared_shiplocker.json": 15,
     "shared_skathplatform.mat.json": 2,
     "shared_slimeplatform.mat.json": 5,
     "shared_sphere.json": 1,
     "shared_sulphur.json": 1,
     "shared_t.config.json": 1,
+    "shared_techstation.json": 26,
+    "shared_teleporter.json": 16,
     "shared_thanatite.json": 1,
     "shared_tion.json": 2,
+    "shared_uelhatch.json": 2,
     "shared_weapon.json": 1,
     "spawners": {
       "madness": {
@@ -18035,7 +18060,7 @@
         "sturdyplatform.material.json": 2
       }
     },
-    "wide_spread_fields.json": 167,
+    "wide_spread_fields.json": 168,
     "zb": {
       "newSail": {
         "data.config.json": 7,
