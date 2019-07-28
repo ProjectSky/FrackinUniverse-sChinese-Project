@@ -13,7 +13,7 @@
             "xishipdoorBroken.object.json": 3
           },
           "xitechstation": {
-            "xitechstation.object.json": 3
+            "xitechstation.object.json": 2
           },
           "xiteleporter": {
             "byosxiteleporter.object.json": 1,
@@ -692,7 +692,7 @@
       "towndrunk.config.json": 89
     },
     "generic.json": 1,
-    "glitchEmotes.json": 327,
+    "glitchEmotes.json": 330,
     "interface": {
       "ai": {
         "ai.config.json": 10,
@@ -1157,6 +1157,9 @@
           "ppboxbunny": {
             "ppboxbunny.activeitem.json": 2
           },
+          "ppboxcorsair": {
+            "ppboxcorsair.activeitem.json": 2
+          },
           "ppboxhospital": {
             "ppboxhospital.activeitem.json": 2
           },
@@ -1168,6 +1171,12 @@
           },
           "ppboxjoja": {
             "ppboxjoja.activeitem.json": 2
+          },
+          "ppboxmodernalpine": {
+            "ppboxmodernalpine.activeitem.json": 2
+          },
+          "ppboxmoderncheckered": {
+            "ppboxmoderncheckered.activeitem.json": 2
           },
           "ppboxmonstrous": {
             "ppboxmonstrous.activeitem.json": 2
@@ -4883,9 +4892,6 @@
           "crunchychickpie.consumable.json": 2,
           "eldercookie.consumable.json": 2,
           "fleshcookie.consumable.json": 2,
-          "fuapplehoneypie.consumable.json": 1,
-          "fucake.consumable.json": 2,
-          "fucake2.consumable.json": 2,
           "fuchocolatebar.consumable.json": 2,
           "fupeachpie.consumable.json": 1,
           "fupearpie.consumable.json": 1,
@@ -4898,7 +4904,6 @@
           "plutoniumcookie.consumable.json": 2,
           "redsnow.consumable.json": 2,
           "shared_fuchocolatechipcookie.json": 2,
-          "shared_pie.consumable.json": 1,
           "solariumcookie.consumable.json": 2,
           "tearnutbuttercookie.consumable.json": 2,
           "uraniumcookie.consumable.json": 2
@@ -5116,7 +5121,7 @@
           "meatsmoothie.consumable.json": 2,
           "murdermeatmysterybox.consumable.json": 2,
           "oilstew.consumable.json": 2,
-          "orphanpaste.consumable.json": 2,
+          "orphanpaste.consumable.json": 1,
           "pancakes.consumable.json": 1,
           "phaseshake": {
             "phaseshake.consumable.json": 2
@@ -5136,6 +5141,7 @@
           "slew3.consumable.json": 1,
           "slew4.consumable.json": 1,
           "sludgecone.consumable.json": 2,
+          "smallcrayonbox.consumable.json": 1,
           "snarshedgarflipps.consumable.json": 2,
           "solariumbiscuit.consumable.json": 2,
           "solstew": {
@@ -6005,6 +6011,7 @@
       "shared_fuoldtimber.json": 9,
       "shared_fupipewidget.mat.json": 1,
       "shared_furibboncables.mat.json": 1,
+      "shared_furustediron.mat.json": 2,
       "shared_fusavannahgrass.mat.json": 1,
       "shared_fusewerpipe.mat.json": 1,
       "shared_fuslopedaether.json": 1,
@@ -8388,136 +8395,226 @@
       },
       "doorprops": {
         "bamboodoorprop": {
-          "bamboodoorprop.object.json": 6
+          "bamboodoorprop.object.json": 4,
+          "bamboodoubledoorprop.object.json": 1,
+          "shared_doorprop.object.json": 1
         },
         "bardoorprop": {
-          "bardoorprop.object.json": 9
+          "bardoorprop.object.json": 5,
+          "bardoubledoorprop.object.json": 5,
+          "shared_doorprop.object.json": 4
         },
         "birddoorprop": {
-          "birddoorprop.object.json": 9
+          "birddoorprop.object.json": 8,
+          "birddoubledoorprop.object.json": 8,
+          "shared_doorprop.object.json": 1
         },
         "bonedoorprop": {
-          "bonedoorprop.object.json": 9
+          "bonedoorprop.object.json": 8,
+          "bonedoubledoorprop.object.json": 8,
+          "shared_edoorprop.object.json": 1
+        },
+        "borealdoorprop": {
+          "borealdoorprop.object.json": 1,
+          "borealdoubledoorprop.object.json": 8
         },
         "castledoorprop": {
-          "castledoorprop.object.json": 2
+          "castledoorprop.object.json": 1,
+          "castledoubledoorprop.object.json": 3
         },
         "castledungeondoorprop": {
-          "castledungeondoorprop.object.json": 9
+          "castledungeondoorprop.object.json": 7,
+          "castledungeondoubledoorprop.object.json": 7,
+          "shared_castledungeondo.json": 2
+        },
+        "challengedoorprop": {
+          "challengedoorprop.object.json": 9
         },
         "classicbardoorprop": {
-          "classicbardoorprop.object.json": 9
+          "classicbardoorprop.object.json": 8,
+          "classicbardoubledoorprop.object.json": 8,
+          "shared_doorprop.object.json": 1
         },
         "classicdoorprop": {
-          "classicdoorprop.object.json": 9
+          "classicdoorprop.object.json": 7,
+          "classicdoubledoorprop.object.json": 7,
+          "shared_doorprop.object.json": 2
         },
         "doomdoorprop": {
-          "doomdoorprop.object.json": 9
+          "doomdoorprop.object.json": 9,
+          "doomdoubledoorprop.object.json": 9
         },
         "eyedoorprop": {
-          "eyedoorprop.object.json": 9
+          "eyedoorprop.object.json": 9,
+          "eyedoubledoorprop.object.json": 9
         },
         "florandoorprop": {
-          "florandoorprop.object.json": 8
+          "florandoorprop.object.json": 8,
+          "florandoubledoorprop.object.json": 8
         },
         "foundrydoorprop": {
-          "foundrydoorprop.object.json": 9
+          "foundrydoorprop.object.json": 9,
+          "foundrydoubledoorprop.object.json": 9
         },
         "frontierdoorprop": {
-          "frontierdoorprop.object.json": 9
+          "frontierdoorprop.object.json": 8,
+          "frontierdoubledoorprop.object.json": 8,
+          "shared_doorprop.object.json": 1
         },
         "geodedoorprop": {
-          "geodedoorprop.object.json": 9
+          "geodedoorprop.object.json": 9,
+          "geodedoubledoorprop.object.json": 9
         },
         "geometricdoorprop": {
-          "geometricdoorprop.object.json": 2
+          "geometricdoorprop.object.json": 2,
+          "geometricdoubledoorprop.object.json": 3
         },
         "giantflowerdoorprop": {
-          "giantflowerdoorprop.object.json": 9
+          "giantflowerdoorprop.object.json": 9,
+          "giantflowerdoubledoorprop.object.json": 9
         },
         "gothicdoorprop": {
-          "gothicdoorprop.object.json": 9
+          "gothicdoorprop.object.json": 8,
+          "gothicdoubledoorprop.object.json": 8,
+          "shared_doorprop.object.json": 1
         },
         "huntingdoor1prop": {
-          "huntingdoor1prop.object.json": 5
+          "huntingdoor1prop.object.json": 5,
+          "huntingdoubledoor1prop.object.json": 1
         },
         "hylotlshojidoorprop": {
-          "hylotlshojidoorprop.object.json": 9
+          "hylotlshojidoorprop.object.json": 9,
+          "hylotlshojidoubledoorprop.object.json": 9
         },
         "icedoorprop": {
-          "icedoorprop.object.json": 9
+          "icedoorprop.object.json": 8,
+          "icedoubledoorprop.object.json": 8,
+          "shared_edoorprop.object.json": 1
         },
         "largecastledoorprop": {
-          "largecastledoorprop.object.json": 9
+          "largecastledoorprop.object.json": 8,
+          "largecastledoubledoorprop.object.json": 8,
+          "shared_ledoorprop.object.json": 1
+        },
+        "neondoorprop": {
+          "neondoorprop.object.json": 1,
+          "neondoubledoorprop.object.json": 2
         },
         "pressuredoorprop": {
-          "pressuredoorprop.object.json": 9
+          "pressuredoorprop.object.json": 9,
+          "pressuredoubledoorprop.object.json": 9
         },
         "prisimdoorprop": {
-          "prisimdoorprop.object.json": 9
+          "prisimdoorprop.object.json": 8,
+          "prisimdoubledoorprop.object.json": 8,
+          "shared_doorprop.object.json": 1
+        },
+        "prisondoorprop": {
+          "prisondoorprop.object.json": 2,
+          "prisondoubledoorprop.object.json": 2,
+          "shared_doorprop.object.json": 7
+        },
+        "pristinedoorprop": {
+          "pristinedoorprop.object.json": 1,
+          "pristinedoubledoorprop.object.json": 7
         },
         "rainbowdoorprop": {
-          "rainbowdoorprop.object.json": 9
+          "rainbowdoorprop.object.json": 9,
+          "rainbowdoubledoorprop.object.json": 9
         },
         "rainbowwooddoorprop": {
-          "rainbowwooddoorprop.object.json": 9
+          "rainbowwooddoorprop.object.json": 8,
+          "rainbowwooddoubledoorprop.object.json": 8,
+          "shared_doorprop.object.json": 1
         },
         "reeddoorprop": {
-          "reeddoorprop.object.json": 4
+          "reeddoorprop.object.json": 4,
+          "reeddoubledoorprop.object.json": 4
+        },
+        "romandoorprop": {
+          "romandoorprop.object.json": 1,
+          "romandoubledoorprop.object.json": 8
+        },
+        "roundeddoorprop": {
+          "roundeddoorprop.object.json": 1,
+          "roundeddoubledoorprop.object.json": 8
         },
         "rustdoorprop": {
-          "rustdoorprop.object.json": 8
+          "rustdoorprop.object.json": 7,
+          "rustdoubledoorprop.object.json": 8,
+          "shared_doorprop.object.json": 1
         },
         "saloondoorprop": {
           "saloondoorprop.object.json": 9
         },
         "sandstonedoorprop": {
-          "sandstonedoorprop.object.json": 9
+          "sandstonedoorprop.object.json": 9,
+          "sandstonedoubledoorprop.object.json": 9
         },
         "serenedoorprop": {
-          "serenedoorprop.object.json": 8
+          "serenedoorprop.object.json": 8,
+          "serenedoubledoorprop.object.json": 8
         },
         "sewerflooddoorprop": {
-          "sewerflooddoorprop.object.json": 9
+          "sewerflooddoorprop.object.json": 9,
+          "sewerflooddoubledoorprop.object.json": 9
         },
         "shared_door": {
-          "shared_prop.object.json": 3
+          "shared_prop.object.json": 10
         },
         "shared_doorprop": {
-          "shared_doorprop.object.json": 7
+          "shared_doorprop.object.json": 7,
+          "shared_doubledoorprop.object.json": 19
         },
         "shroomdoorprop": {
-          "shroomdoorprop.object.json": 9
+          "shroomdoorprop.object.json": 9,
+          "shroomdoubledoorprop.object.json": 9
         },
         "steamspringdoorprop": {
-          "steamspringdoorprop.object.json": 9
+          "steamspringdoorprop.object.json": 9,
+          "steamspringdoubledoorprop.object.json": 9
         },
         "tardoorprop": {
-          "tardoorprop.object.json": 9
+          "shared_doorprop.object.json": 1,
+          "tardoorprop.object.json": 8,
+          "tardoubledoorprop.object.json": 8
         },
         "tier1doorprop": {
-          "tier1doorprop.object.json": 4
+          "tier1doorprop.object.json": 4,
+          "tier1doubledoorprop.object.json": 4
         },
         "tier2doorprop": {
-          "tier2doorprop.object.json": 4
+          "tier2doorprop.object.json": 4,
+          "tier2doubledoorprop.object.json": 3
         },
         "tier3doorprop": {
-          "tier3doorprop.object.json": 8
+          "shared_doorprop.object.json": 1,
+          "tier3doorprop.object.json": 7,
+          "tier3doubledoorprop.object.json": 6
         },
         "tribaldoorprop": {
-          "tribaldoorprop.object.json": 9
+          "tribaldoorprop.object.json": 9,
+          "tribaldoubledoorprop.object.json": 9
         },
         "villagedoorprop": {
-          "villagedoorprop.object.json": 7
+          "villagedoorprop.object.json": 7,
+          "villagedoubledoorprop.object.json": 7
+        },
+        "wizardsdoorprop": {
+          "wizardsdoorprop.object.json": 1,
+          "wizardsdoubledoorprop.object.json": 3
         },
         "wooddoorprop": {
-          "wooddoorprop.object.json": 9
+          "wooddoorprop.object.json": 9,
+          "wooddoubledoorprop.object.json": 9
         },
         "woodendoorprop": {
-          "woodendoorprop.object.json": 7
+          "woodendoorprop.object.json": 7,
+          "woodendoubledoorprop.object.json": 7
         },
         "wreckdoorprop": {
-          "wreckdoorprop.object.json": 9
+          "wreckdoorprop.object.json": 9,
+          "wreckdoubledoorprop.object.json": 9
         }
       },
       "doors": {
@@ -8719,7 +8816,7 @@
         "elduudesklamp": {
           "elduudesklamp.object.json": 1
         },
-        "elduudrawers.object.json": 8,
+        "elduudrawers.object.json": 7,
         "elduuendtable.object.json": 1,
         "elduufridge.object.json": 1,
         "elduugemlamp.object.json": 4,
@@ -9181,6 +9278,9 @@
         "avianflagpole": {
           "avianflagpole.object.json": 9
         },
+        "flagpirate": {
+          "flagpirate.object.json": 8
+        },
         "floranflagpole": {
           "floranflagpole.object.json": 9
         },
@@ -9196,11 +9296,17 @@
         "novakidflagpole": {
           "novakidflagpole.object.json": 9
         },
+        "pirateflagpole": {
+          "pirateflagpole.object.json": 8
+        },
         "protectorateflagpole": {
           "protectorateflagpole.object.json": 3
         },
         "shared_flagpole": {
           "shared_flagpole.object.json": 5
+        },
+        "shared_pirate": {
+          "shared_e.object.json": 1
         }
       },
       "floran": {
@@ -9263,8 +9369,14 @@
         "lilyflowerpot": {
           "lilyflowerpot.object.json": 9
         },
+        "lilyofthevalleypot": {
+          "lilyofthevalleypot.object.json": 9
+        },
         "oshroomflowerpot": {
           "oshroomflowerpot.object.json": 9
+        },
+        "pansyflowerpot": {
+          "pansyflowerpot.object.json": 9
         },
         "peonybucket": {
           "peonybucket.object.json": 9
@@ -9500,6 +9612,9 @@
         "omeletteobject": {
           "omeletteobject.object.json": 5
         },
+        "orphanpasteobject": {
+          "orphanpasteobject.object.json": 1
+        },
         "pancakesobject": {
           "pancakesobject.object.json": 4
         },
@@ -9586,6 +9701,9 @@
         },
         "sushitray4": {
           "sushitray4.object.json": 1
+        },
+        "tablecrayonbox": {
+          "tablecrayonbox.object.json": 1
         },
         "tacoobject": {
           "tacoobject.object.json": 5
@@ -10231,7 +10349,8 @@
         "kheAA_terminal": {
           "kheAA_terminal.object.json": 2
         },
-        "kheAA_unhandledToken": {
+        "kheAA_tokens": {
+          "kheAA_currencyToken.item.json": 2,
           "kheAA_unhandledToken.item.json": 2
         }
       },
@@ -11527,7 +11646,7 @@
           "mooshiplush.object.json": 9
         },
         "mooshiskull": {
-          "mooshiskull.object.json": 9
+          "mooshiskull.object.json": 8
         },
         "mooshistable": {
           "mooshistable.object.json": 9
@@ -12301,6 +12420,10 @@
         "ballistaprop": {
           "ballistaprop.object.json": 9
         },
+        "barsectional": {
+          "barsectional.object.json": 8,
+          "shared_barsectional.json": 1
+        },
         "beautifulattemptmovieboard": {
           "beautifulattemptmovieboard.object.json": 9
         },
@@ -12335,16 +12458,22 @@
           "colorfulsign.object.json": 9
         },
         "cookingpot": {
-          "cookingpot.object.json": 8
+          "cookingpot.object.json": 9
         },
         "countertopitems": {
           "countertopitems.object.json": 8
+        },
+        "dinosaurplush": {
+          "dinosaurplush.object.json": 9
         },
         "dishstack": {
           "dishstack.object.json": 9
         },
         "dishstackdirty": {
           "dishstackdirty.object.json": 9
+        },
+        "emptymechpod": {
+          "emptymechpod.object.json": 9
         },
         "fallenmeteorlarge": {
           "fallenmeteorlarge.object.json": 8
@@ -12358,9 +12487,6 @@
         "firewood": {
           "firewood.object.json": 9
         },
-        "flatscreenandconsole": {
-          "flatscreenandconsole.object.json": 1
-        },
         "flatscreentv": {
           "flatscreentv.object.json": 9
         },
@@ -12369,6 +12495,9 @@
         },
         "floursack": {
           "floursack.object.json": 9
+        },
+        "gardeningtools": {
+          "gardeningtools.object.json": 9
         },
         "gaspump": {
           "gaspump.object.json": 9
@@ -12441,7 +12570,7 @@
           "rollingcart.object.json": 9
         },
         "shared_andconsole": {
-          "shared_andconsole.object.json": 8
+          "shared_andconsole.object.json": 9
         },
         "shared_artifactaltarclear": {
           "shared_artifactaltarclear.object.json": 1
@@ -12479,8 +12608,8 @@
         "toycar": {
           "toycar.object.json": 9
         },
-        "tvandconsole": {
-          "tvandconsole.object.json": 1
+        "woodenbroom": {
+          "woodenbroom.object.json": 9
         },
         "yarnbasket": {
           "yarnbasket.object.json": 9
@@ -12712,6 +12841,10 @@
         }
       },
       "shared_bookcase.object.json": 7,
+      "shared_boreal": {
+        "shared_borealdo.json": 1,
+        "shared_borealdoor.json": 7
+      },
       "shared_box.json": 3,
       "shared_cabinet": {
         "shared_cabinet.object.json": 2
@@ -12722,7 +12855,7 @@
         "shared_captainschair.object.json": 1
       },
       "shared_castledoor": {
-        "shared_castledoor.json": 4
+        "shared_castledoor.json": 1
       },
       "shared_chair.object.json": 3,
       "shared_console.json": 8,
@@ -12739,10 +12872,9 @@
       "shared_desk.json": 1,
       "shared_desk.object.json": 2,
       "shared_door": {
-        "shared_.object.json": 3,
         "shared_door.object.json": 1
       },
-      "shared_door.json": 7,
+      "shared_door.json": 14,
       "shared_drain": {
         "shared_drain.object.json": 1
       },
@@ -12775,16 +12907,31 @@
       },
       "shared_locker.json": 1,
       "shared_minifridge.json": 6,
+      "shared_neon": {
+        "shared_neondoor.json": 1
+      },
       "shared_nest.json": 2,
       "shared_nightstand.object.json": 2,
       "shared_pillar": {
         "shared_.object.json": 2
+      },
+      "shared_pristine": {
+        "shared_pristinedo.json": 2,
+        "shared_pristinedoor.json": 6
       },
       "shared_protectorateflag": {
         "shared_protectorateflag.json": 1
       },
       "shared_protectorateshiphatch": {
         "shared_protectorateshiphatch.object.json": 1
+      },
+      "shared_roman": {
+        "shared_romando.json": 1,
+        "shared_romandoor.json": 7
+      },
+      "shared_rounded": {
+        "shared_roundeddo.json": 1,
+        "shared_roundeddoor.json": 7
       },
       "shared_scanner.json": 7,
       "shared_sha": {
@@ -13031,10 +13178,18 @@
         },
         "fu_ftldrive": {
           "fu_ftldrive.object.json": 1,
-          "fu_ftldriveupgrade.object.json": 1
+          "fu_ftldriveupgrade.object.json": 2,
+          "shared_fu_ftldrive.json": 7
+        },
+        "fu_ftldrive2": {
+          "shared_fu_ftldrive2.json": 1
+        },
+        "fu_ftldrive3": {
+          "shared_fu_ftldrive3.json": 1
         },
         "fu_ftldrivesmall": {
-          "fu_ftldrivesmall.object.json": 1
+          "fu_ftldrivesmall.object.json": 1,
+          "shared_fu_ftldrivesmall.json": 7
         },
         "fu_ftldrivesmall_broken": {
           "fu_ftldrivesmall_broken.object.json": 9
@@ -13412,6 +13567,9 @@
         "shared_feneroxshipteleporter": {
           "shared_feneroxshipteleporter.json": 1
         },
+        "shared_fu_booster_": {
+          "shared_fu_booster_.json": 1
+        },
         "shared_fu_byoscaptainschair": {
           "shared_fu_byoscaptainschair.json": 2
         },
@@ -13422,7 +13580,7 @@
           "shared_fu_crewbed.json": 2
         },
         "shared_fu_ftldrive": {
-          "shared_fu_ftldrive.json": 4
+          "shared_fu_ftldrive.json": 10
         },
         "shared_fu_ftldrivesmall": {
           "shared_fu_ftldrivesmall.json": 1,
@@ -13511,32 +13669,50 @@
           "shared_veluushipdoor.json": 1
         },
         "shipbeds": {
-          "apexshipbed": {
-            "apexshipbed.object.json": 2
-          },
-          "avianshipbed": {
-            "avianshipbed.object.json": 2
-          },
-          "floranshipbed": {
-            "floranshipbed.object.json": 2
-          },
-          "glitchshipbed": {
-            "glitchshipbed.object.json": 2
-          },
           "humanshipbed": {
-            "humanshipbed.object.json": 2
+            "humanshipbed.object.json": 1
+          },
+          "humanshipbed2": {
+            "humanshipbed2.object.json": 1
           },
           "hylotlshipbed": {
-            "hylotlshipbed.object.json": 2
+            "hylotlshipbed.object.json": 1
           },
-          "novakidshipbed": {
-            "novakidshipbed.object.json": 2
+          "hylotlshipbed2": {
+            "hylotlshipbed2.object.json": 1
           },
           "protectorateshipbed": {
-            "protectorateshipbed.object.json": 2
+            "protectorateshipbed.object.json": 1
+          },
+          "protectorateshipbed2": {
+            "protectorateshipbed2.object.json": 1
+          },
+          "shared_apexshipbed": {
+            "shared_apexshipbed.json": 2
+          },
+          "shared_avianshipbed": {
+            "shared_avianshipbed.json": 2
+          },
+          "shared_floranshipbed": {
+            "shared_floranshipbed.json": 2
+          },
+          "shared_glitchshipbed": {
+            "shared_glitchshipbed.json": 2
+          },
+          "shared_humanshipbed": {
+            "shared_humanshipbed.json": 1
+          },
+          "shared_hylotlshipbed": {
+            "shared_hylotlshipbed.json": 1
+          },
+          "shared_novakidshipbed": {
+            "shared_novakidshipbed.json": 2
+          },
+          "shared_protectorateshipbed": {
+            "shared_protectorateshipbed.json": 1
           },
           "shared_shipbed": {
-            "shared_shipbed.object.json": 7
+            "shared_shipbed.json": 7
           }
         },
         "shippetbeds": {
@@ -13633,6 +13809,9 @@
         },
         "smallboosterflamemantizi": {
           "smallboosterflamemantizi.object.json": 1
+        },
+        "thelusiantechstation": {
+          "thelusiantechstation.object.json": 3
         },
         "tw_hylotltechstation": {
           "tw_hylotltechstation.object.json": 3
@@ -14096,7 +14275,7 @@
             "borealcounter.object.json": 9
           },
           "borealdoor": {
-            "borealdoor.object.json": 9
+            "borealdoor.object.json": 1
           },
           "borealdresser": {
             "borealdresser.object.json": 9
@@ -14194,6 +14373,41 @@
           },
           "tongandtraystand": {
             "tongandtraystand.object.json": 9
+          }
+        },
+        "corsair": {
+          "assortedbottles": {
+            "assortedbottles.object.json": 9
+          },
+          "corsairsbanner": {
+            "corsairsbanner.object.json": 8
+          },
+          "corsairsbed": {
+            "corsairsbed.object.json": 9
+          },
+          "corsairscabinet": {
+            "corsairscabinet.object.json": 9
+          },
+          "corsairschair": {
+            "corsairschair.object.json": 9
+          },
+          "corsairsdesk": {
+            "corsairsdesk.object.json": 9
+          },
+          "corsairsdresser": {
+            "corsairsdresser.object.json": 9
+          },
+          "corsairsshelf": {
+            "corsairsshelf.object.json": 9
+          },
+          "corsairstable": {
+            "corsairstable.object.json": 9
+          },
+          "corsairstelescope": {
+            "corsairstelescope.object.json": 9
+          },
+          "shipinabottle": {
+            "shipinabottle.object.json": 9
           }
         },
         "diner": {
@@ -14352,6 +14566,73 @@
             "shared_producestand.json": 2
           }
         },
+        "modernalpine": {
+          "modernalpinebed": {
+            "modernalpinebed.object.json": 9
+          },
+          "modernalpinechair": {
+            "modernalpinechair.object.json": 9
+          },
+          "modernalpinecloset": {
+            "modernalpinecloset.object.json": 8
+          },
+          "modernalpinecouch": {
+            "modernalpinecouch.object.json": 9
+          },
+          "modernalpinedresser": {
+            "modernalpinedresser.object.json": 7
+          },
+          "modernalpinekitchencart": {
+            "modernalpinekitchencart.object.json": 9
+          },
+          "modernalpinelamp": {
+            "modernalpinelamp.object.json": 9
+          },
+          "modernalpinelowtable": {
+            "modernalpinelowtable.object.json": 9
+          },
+          "modernalpinepanel": {
+            "modernalpinepanel.object.json": 9
+          },
+          "modernalpineshelf": {
+            "modernalpineshelf.object.json": 9
+          },
+          "modernalpinetable": {
+            "modernalpinetable.object.json": 9
+          },
+          "shared_modernalpine": {
+            "shared_modernalpine.json": 1
+          }
+        },
+        "moderncheckered": {
+          "moderncheckeredbed": {
+            "moderncheckeredbed.object.json": 9
+          },
+          "moderncheckeredcabinet": {
+            "moderncheckeredcabinet.object.json": 9
+          },
+          "moderncheckeredchair": {
+            "moderncheckeredchair.object.json": 9
+          },
+          "moderncheckereddesk": {
+            "moderncheckereddesk.object.json": 9
+          },
+          "moderncheckereddresser": {
+            "moderncheckereddresser.object.json": 9
+          },
+          "moderncheckeredlamp": {
+            "moderncheckeredlamp.object.json": 9
+          },
+          "moderncheckeredsofa": {
+            "moderncheckeredsofa.object.json": 9
+          },
+          "moderncheckeredtable": {
+            "moderncheckeredtable.object.json": 9
+          },
+          "moderncheckeredwardrobe": {
+            "moderncheckeredwardrobe.object.json": 9
+          }
+        },
         "monstrous": {
           "bobottv": {
             "bobottv.object.json": 9
@@ -14401,7 +14682,7 @@
             "neondesk.object.json": 4
           },
           "neondoor": {
-            "neondoor.object.json": 2
+            "neondoor.object.json": 1
           },
           "neondresser": {
             "neondresser.object.json": 8
@@ -14471,7 +14752,7 @@
             "pristinecouch.object.json": 9
           },
           "pristinedoor": {
-            "pristinedoor.object.json": 9
+            "pristinedoor.object.json": 1
           },
           "pristinekitchencounter": {
             "pristinekitchencounter.object.json": 9
@@ -14564,7 +14845,7 @@
             "romanchair.object.json": 8
           },
           "romandoor": {
-            "romandoor.object.json": 9
+            "romandoor.object.json": 1
           },
           "romandresser": {
             "romandresser.object.json": 9
@@ -14611,7 +14892,7 @@
             "roundedcouch.object.json": 7
           },
           "roundeddoor": {
-            "roundeddoor.object.json": 9
+            "roundeddoor.object.json": 1
           },
           "roundedendtable": {
             "roundedendtable.object.json": 9
@@ -14722,6 +15003,9 @@
           },
           "sweetsplayer": {
             "sweetsplayer.object.json": 9
+          },
+          "sweetssofa": {
+            "sweetssofa.object.json": 9
           }
         },
         "theater": {
@@ -14773,6 +15057,9 @@
           },
           "wizardsdesk": {
             "wizardsdesk.object.json": 9
+          },
+          "wizardsdoor": {
+            "wizardsdoor.object.json": 2
           },
           "wizardsdresser": {
             "wizardsdresser.object.json": 9
@@ -15585,6 +15872,12 @@
         "dryeraseboard": {
           "dryeraseboard.object.json": 4
         },
+        "flowerwreath": {
+          "flowerwreath.object.json": 9
+        },
+        "geoposter": {
+          "geoposter.object.json": 9
+        },
         "hangingcoatrack": {
           "hangingcoatrack.object.json": 9
         },
@@ -15609,8 +15902,14 @@
         "leafpainting": {
           "leafpainting.object.json": 9
         },
+        "lifepreserver": {
+          "lifepreserver.object.json": 9
+        },
         "musicposter": {
           "musicposter.object.json": 9
+        },
+        "neocityscape": {
+          "neocityscape.object.json": 9
         },
         "nutmidgetower": {
           "nutmidgetower.object.json": 9
@@ -15686,6 +15985,9 @@
         },
         "toolshelf": {
           "toolshelf.object.json": 11
+        },
+        "wildflowerpainting": {
+          "wildflowerpainting.object.json": 9
         }
       },
       "wasteland": {
@@ -16022,7 +16324,7 @@
         }
       }
     },
-    "objects.json": 51,
+    "objects.json": 53,
     "particles": {
       "angryrocketreloaded.particle.json": 1,
       "angryrocketreloadedfull.particle.json": 1,
@@ -16533,10 +16835,13 @@
     },
     "shared_brainslug.json": 1,
     "shared_burrower.json": 1,
+    "shared_cake..json": 2,
+    "shared_cake.json": 2,
     "shared_captain.json": 7,
     "shared_charredflesh.json": 1,
     "shared_cloud.json": 1,
     "shared_corpsewagon..json": 1,
+    "shared_crayonbox..json": 1,
     "shared_cute": {
       "shared_cute.json": 1
     },
@@ -16574,6 +16879,7 @@
     "shared_fu_copperplatform.mat.json": 1,
     "shared_fuaetherdustplatform.mat.json": 1,
     "shared_fuaetherplatform.mat.json": 1,
+    "shared_fuapplehoneypie.json": 1,
     "shared_fuelhatch.json": 16,
     "shared_girdirplatform.mat.json": 1,
     "shared_greg.json": 1,
@@ -16593,6 +16899,7 @@
     "shared_matmod.json": 9,
     "shared_nightarsplatform.mat.json": 5,
     "shared_oceanite.json": 1,
+    "shared_orphanpaste.json": 1,
     "shared_ost.json": 1,
     "shared_pancakes.json": 1,
     "shared_peglacialloyplatform.mat.json": 2,
@@ -16600,6 +16907,7 @@
     "shared_pethouse": {
       "shared_pethouse..json": 1
     },
+    "shared_pie.json": 1,
     "shared_platform.mat.json": 1,
     "shared_precursor.json": 1,
     "shared_precursorstairs.mat.json": 2,
@@ -16618,7 +16926,7 @@
     "shared_sphere.json": 1,
     "shared_sulphur.json": 1,
     "shared_t.config.json": 1,
-    "shared_techstation.json": 26,
+    "shared_techstation.json": 27,
     "shared_teleporter.json": 16,
     "shared_thanatite.json": 1,
     "shared_tion.json": 2,
