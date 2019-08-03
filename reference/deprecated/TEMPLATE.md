@@ -46,6 +46,8 @@ Cosmic Resist
 Radiation Resist
 * 击退抗性
 Knockback Resist
+* 掉落抗性
+Fall Resist
 
 ### <h4 id="1.2">1.2 属性</h4>
 
@@ -162,6 +164,8 @@ Grenade Launcher
 Mining Beam
 * 赛德瑞瑟武器
 Xithricite weapons
+* 泡荚武器
+Blister weapons
 
 ### <h4 id="1.5">1.5 套装</h4>
 
