@@ -3839,7 +3839,7 @@
           },
           "intersec": {
             "kirhostier4.chest.json": 1,
-            "kirhostier4.head.json": 1,
+            "kirhostier4.head.json": 2,
             "kirhostier4.legs.json": 1,
             "shared_kirhostier4..json": 1
           },
@@ -4304,7 +4304,6 @@
             "biooozeprotection.augment.json": 2,
             "breathprotection.augment.json": 2,
             "coldImmunity.augment.json": 2,
-            "coldImmunity2.augment.json": 2,
             "cosmic.augment.json": 2,
             "darkimmunityaug.augment.json": 2,
             "electric.augment.json": 2,
@@ -4312,14 +4311,12 @@
             "fire.augment.json": 2,
             "ghostimmunity.augment.json": 2,
             "heatImmunity.augment.json": 2,
-            "heatImmunity2.augment.json": 2,
             "ice.augment.json": 2,
             "insanityimmunityaug.augment.json": 2,
             "poison.augment.json": 2,
             "poisonimmunity.augment.json": 2,
             "protoimmunity.augment.json": 2,
             "radImmunity.augment.json": 2,
-            "radImmunity2.augment.json": 2,
             "radienaugment1.augment.json": 2,
             "radioactive.augment.json": 2,
             "shadow.augment.json": 2,
@@ -7622,6 +7619,7 @@
         "fuoutpostcivilian.npctype.json": 38,
         "fuoutpostcivilian2.npctype.json": 1,
         "fuoutposthylotlscientist.npctype.json": 1,
+        "lostandfoundnpc.npctype.json": 8,
         "shared_fuoutpostcivilian.json": 44
       },
       "shared_.npctype.json": 54,
@@ -8079,6 +8077,42 @@
           }
         }
       },
+      "carbon": {
+        "carbonbed": {
+          "carbonbed.object.json": 6
+        },
+        "carbonbookcase.object.json": 6,
+        "carboncabinet.object.json": 5,
+        "carbonchair.object.json": 6,
+        "carbonchestlarge.object.json": 2,
+        "carbonchestsmall.object.json": 2,
+        "carboncouch": {
+          "carboncouch.object.json": 5
+        },
+        "carbondesk.object.json": 6,
+        "carbondesklamp": {
+          "carbondesklamp.object.json": 2
+        },
+        "carbondrawers.object.json": 9,
+        "carbonendtable.object.json": 2,
+        "carbonfridge.object.json": 2,
+        "carbonlamp": {
+          "carbonlamp.object.json": 2
+        },
+        "carbonlowtable.object.json": 2,
+        "carbonminifridge.object.json": 2,
+        "carbonnightstand.object.json": 5,
+        "carbonstool.object.json": 4,
+        "carbontable.object.json": 2,
+        "carbonwalllamp": {
+          "carbonwalllamp.object.json": 2
+        },
+        "shared_.object.json": 1,
+        "shared_carbon.json": 3,
+        "shared_carbonchest.json": 4,
+        "shared_fridge.object.json": 3,
+        "shared_table.object.json": 3
+      },
       "corpsewagon": {
         "corpsewagon.object.json": 1
       },
@@ -8333,10 +8367,6 @@
         "densealloynightstand.object.json": 4,
         "densealloystool.object.json": 4,
         "densealloytable.object.json": 2,
-        "shared_densealloy": {
-          "shared_lamp.object.json": 2
-        },
-        "shared_densealloy.json": 5,
         "shared_densealloychest.json": 2,
         "shared_fridge.object.json": 2,
         "shared_table.object.json": 2
@@ -8370,7 +8400,7 @@
         "densiniumwalllamp": {
           "densiniumwalllamp.object.json": 2
         },
-        "shared_densinium.json": 10,
+        "shared_densinium.json": 3,
         "shared_densiniumchest.json": 4,
         "shared_fridge.object.json": 4,
         "shared_table.object.json": 1
@@ -8810,7 +8840,10 @@
         "elduuchest1.object.json": 2,
         "elduuchest2.object.json": 2,
         "elduucouch": {
-          "elduucouch.object.json": 8
+          "elduucouch.object.json": 7
+        },
+        "elduudecortele": {
+          "elduudecortele.object.json": 1
         },
         "elduudesk.object.json": 6,
         "elduudesklamp": {
@@ -10173,7 +10206,8 @@
         },
         "timeobelisk": {
           "shared_spacetimeobelisk.json": 2,
-          "shared_timeobelisk.json": 2
+          "shared_timeobelisk.json": 2,
+          "spacetimeobeliskmodified.object.json": 2
         },
         "tinylocker": {
           "tinylocker.object.json": 7
@@ -11484,9 +11518,6 @@
         },
         "nightartablechair": {
           "nightartablechair.object.json": 9
-        },
-        "nightarteleporter": {
-          "nightarteleporter.object.json": 5
         },
         "nightarthrone": {
           "nightarthrone.object.json": 9
@@ -12800,7 +12831,7 @@
         "shadowminifridge.object.json": 2,
         "shadownightstand.object.json": 3,
         "shadowsink.object.json": 3,
-        "shadowstool.object.json": 9,
+        "shadowstool.object.json": 8,
         "shadowstoragelocker": {
           "shadowstoragelocker.object.json": 1
         },
@@ -12850,7 +12881,7 @@
         "shared_cabinet.object.json": 2
       },
       "shared_cabinet.json": 12,
-      "shared_cabinet.object.json": 1,
+      "shared_cabinet.object.json": 2,
       "shared_captainschair": {
         "shared_captainschair.object.json": 1
       },
@@ -12860,7 +12891,7 @@
       "shared_chair.object.json": 3,
       "shared_console.json": 8,
       "shared_couch": {
-        "shared_couch.object.json": 3
+        "shared_couch.object.json": 4
       },
       "shared_crystalplant": {
         "shared_crystalplant.json": 2
@@ -12898,6 +12929,10 @@
         "shared_itecouch.json": 1
       },
       "shared_ite.json": 10,
+      "shared_lamp": {
+        "shared_lamp.object.json": 2
+      },
+      "shared_lamp.json": 7,
       "shared_lamp.object.json": 1,
       "shared_large": {
         "shared_.object.json": 1
@@ -12912,6 +12947,7 @@
       },
       "shared_nest.json": 2,
       "shared_nightstand.object.json": 2,
+      "shared_orte.json": 1,
       "shared_pillar": {
         "shared_.object.json": 2
       },
@@ -12933,6 +12969,9 @@
         "shared_roundeddo.json": 1,
         "shared_roundeddoor.json": 7
       },
+      "shared_rtele": {
+        "shared_.object.json": 5
+      },
       "shared_scanner.json": 7,
       "shared_sha": {
         "shared_shadow.json": 2
@@ -12949,7 +12988,7 @@
       "shared_stool": {
         "shared_stool.object.json": 1
       },
-      "shared_stool.object.json": 1,
+      "shared_stool.object.json": 2,
       "shared_storage": {
         "shared_locker.json": 7
       },
@@ -12957,10 +12996,12 @@
       "shared_t.object.json": 1,
       "shared_table.json": 2,
       "shared_table.object.json": 2,
-      "shared_teleporter": {
-        "shared_teleporter.object.json": 3
+      "shared_tele": {
+        "shared_.object.json": 2
       },
-      "shared_teleporter.json": 1,
+      "shared_teleporter": {
+        "shared_teleporter.object.json": 1
+      },
       "shared_temp": {
         "shared_temp.object.json": 2
       },
@@ -16253,7 +16294,7 @@
         "zerchesiumbookcase": {
           "zerchesiumbookcase.object.json": 7
         },
-        "zerchesiumcabinet.object.json": 7,
+        "zerchesiumcabinet.object.json": 6,
         "zerchesiumchair.object.json": 5,
         "zerchesiumconsole.object.json": 9,
         "zerchesiumcouch": {
@@ -16324,7 +16365,7 @@
         }
       }
     },
-    "objects.json": 53,
+    "objects.json": 58,
     "particles": {
       "angryrocketreloaded.particle.json": 1,
       "angryrocketreloadedfull.particle.json": 1,
