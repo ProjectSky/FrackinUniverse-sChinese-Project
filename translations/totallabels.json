@@ -309,6 +309,7 @@
         "random8.codex.json": 3,
         "random9.codex.json": 3,
         "scienceoutpost_kevin.codex.json": 96,
+        "scienceoutpost_khe.codex.json": 16,
         "shared_ffguide.json": 1,
         "shared_luridmagazine.json": 2,
         "tapeworms.codex.json": 3,
@@ -1086,6 +1087,9 @@
           "fu_monsterdetector": {
             "fu_monsterdetector.activeitem.json": 2
           },
+          "fu_monsterinspector": {
+            "fu_monsterinspector.activeitem.json": 2
+          },
           "fu_upgradekit": {
             "upgradekit.activeitem.json": 2
           },
@@ -1254,7 +1258,8 @@
           "fusubcontroller5.activeitem.json": 1,
           "hazardsubcontroller.activeitem.json": 2,
           "hylotlhoverbikecontroller.activeitem.json": 2,
-          "shared_fusubcontroller.json": 1
+          "shared_fusubcontroller.json": 1,
+          "ufocontroller.activeitem.json": 2
         },
         "weapons": {
           "boomerang": {
@@ -2328,6 +2333,7 @@
               "fugaussmachinegun.activeitem.json": 1,
               "fugausspistol.activeitem.json": 1,
               "fugaussrifle.activeitem.json": 1,
+              "fugaussshotgun.activeitem.json": 1,
               "fugausssniper.activeitem.json": 1,
               "fugrinder.activeitem.json": 2,
               "fuhuntingrifle.activeitem.json": 1,
@@ -4304,6 +4310,7 @@
             "biooozeprotection.augment.json": 2,
             "breathprotection.augment.json": 2,
             "coldImmunity.augment.json": 2,
+            "coldImmunity2.augment.json": 2,
             "cosmic.augment.json": 2,
             "darkimmunityaug.augment.json": 2,
             "electric.augment.json": 2,
@@ -4311,12 +4318,14 @@
             "fire.augment.json": 2,
             "ghostimmunity.augment.json": 2,
             "heatImmunity.augment.json": 2,
+            "heatImmunity2.augment.json": 2,
             "ice.augment.json": 2,
             "insanityimmunityaug.augment.json": 2,
             "poison.augment.json": 2,
             "poisonimmunity.augment.json": 2,
             "protoimmunity.augment.json": 2,
             "radImmunity.augment.json": 2,
+            "radImmunity2.augment.json": 2,
             "radienaugment1.augment.json": 2,
             "radioactive.augment.json": 2,
             "shadow.augment.json": 2,
@@ -5392,16 +5401,18 @@
           "wagneridcard.item.json": 2
         },
         "other": {
+          "bluegravball.consumable.json": 2,
           "funeontube.item.json": 2,
           "killpod.consumable.json": 2,
           "medkit2.consumable.json": 1,
           "medkit3.consumable.json": 1,
           "medkit4.consumable.json": 1,
+          "orangegravball.consumable.json": 2,
           "perfectelygenericmedkit.consumable.json": 1,
+          "quantumball.consumable.json": 2,
           "reactivegel.consumable.json": 2,
           "reactivegel2.consumable.json": 2,
           "reactivegel3.consumable.json": 2,
-          "shared_ball.consumable.json": 2,
           "slimegem.item.json": 2,
           "slimegoo.item.json": 2,
           "slimespheretechidea.item.json": 2,
@@ -7732,7 +7743,7 @@
           "shared_lamp.object.json": 5
         },
         "shared_atropus.json": 6,
-        "shared_fridge.object.json": 5,
+        "shared_fridge.object.json": 4,
         "shared_table.object.json": 4
       },
       "augmentextractor": {
@@ -8097,7 +8108,7 @@
         "carbonendtable.object.json": 2,
         "carbonfridge.object.json": 2,
         "carbonlamp": {
-          "carbonlamp.object.json": 2
+          "carbonlamp.object.json": 6
         },
         "carbonlowtable.object.json": 2,
         "carbonminifridge.object.json": 2,
@@ -8105,7 +8116,7 @@
         "carbonstool.object.json": 4,
         "carbontable.object.json": 2,
         "carbonwalllamp": {
-          "carbonwalllamp.object.json": 2
+          "carbonwalllamp.object.json": 6
         },
         "shared_.object.json": 1,
         "shared_carbon.json": 3,
@@ -8400,7 +8411,7 @@
         "densiniumwalllamp": {
           "densiniumwalllamp.object.json": 2
         },
-        "shared_densinium.json": 3,
+        "shared_densinium.json": 10,
         "shared_densiniumchest.json": 4,
         "shared_fridge.object.json": 4,
         "shared_table.object.json": 1
@@ -12254,7 +12265,8 @@
         "isn_atmosregulator": {
           "isn_atmosprotection.statuseffect.json": 1,
           "isn_atmosregulator.object.json": 8,
-          "isn_atmosregulatornew.object.json": 2
+          "isn_atmosregulatornew.object.json": 2,
+          "isn_atmosregulatorwarped.object.json": 2
         },
         "isn_battery_t1": {
           "isn_battery_t1.object.json": 2
@@ -12932,7 +12944,6 @@
       "shared_lamp": {
         "shared_lamp.object.json": 2
       },
-      "shared_lamp.json": 7,
       "shared_lamp.object.json": 1,
       "shared_large": {
         "shared_.object.json": 1
@@ -15126,6 +15137,29 @@
         "extrabonespike": {
           "extrabonespike.object.json": 7
         }
+      },
+      "trianglium": {
+        "shared_trianglium.json": 7,
+        "triangliumbed": {
+          "triangliumbed.object.json": 2
+        },
+        "triangliumbookcase.object.json": 2,
+        "triangliumcabinet.object.json": 2,
+        "triangliumchair.object.json": 2,
+        "triangliumchestlarge.object.json": 2,
+        "triangliumchestsmall.object.json": 2,
+        "triangliumcouch": {
+          "triangliumcouch.object.json": 2
+        },
+        "triangliumdesk.object.json": 2,
+        "triangliumdrawers.object.json": 2,
+        "triangliumendtable.object.json": 2,
+        "triangliumfridge.object.json": 2,
+        "triangliumlamp.object.json": 2,
+        "triangliumminifridge.object.json": 2,
+        "triangliumnightstand.object.json": 2,
+        "triangliumstool.object.json": 2,
+        "triangliumtable.object.json": 2
       },
       "unsmashable": {
         "shared_unsmashable": {
@@ -17366,9 +17400,6 @@
           "drain": {
             "drain.statuseffect.json": 1
           },
-          "eatself": {
-            "eatself.statuseffect.json": 1
-          },
           "energyregenfu": {
             "energyregenfu05.statuseffect.json": 1,
             "energyregenfu10.statuseffect.json": 1,
@@ -17411,6 +17442,17 @@
           "frozenburning": {
             "frozenburning.statuseffect.json": 1
           },
+          "fu_dummyeffects": {
+            "eatself": {
+              "eatself.statuseffect.json": 1
+            },
+            "mad": {
+              "mad.statuseffect.json": 1
+            },
+            "warpedregulatordummy": {
+              "warpedregulatordummy.statuseffect.json": 1
+            }
+          },
           "fu_medicine": {
             "bouncy": {
               "fubouncy.statuseffect.json": 1
@@ -17437,9 +17479,6 @@
           },
           "intoxicated": {
             "shared_booze.json": 1
-          },
-          "mad": {
-            "mad.statuseffect.json": 1
           },
           "madness": {
             "madnessgain.animation.json": 1,
