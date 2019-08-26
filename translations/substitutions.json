@@ -3485,11 +3485,17 @@
   "items/active/flashlights/crystallight/crystallight.activeitem": {
     "/shortdescription": "texts/shared_lights/shared_light/shared_light.json"
   },
+  "items/active/shields/blistershield.activeitem": {
+    "/description": "texts/items/active/shields/shared_shield.activeitem.json"
+  },
   "items/active/shields/leathershield.activeitem": {
     "/description": "texts/items/active/shields/shared_shield.activeitem.json"
   },
   "items/active/shields/shadowshield.activeitem": {
     "/shortdescription": "texts/items.json"
+  },
+  "items/active/shields/telebriumshield.activeitem": {
+    "/description": "texts/items/active/shields/shared_shield.activeitem.json"
   },
   "items/active/shields/tungstenshield.activeitem": {
     "/description": "texts/items/active/shields/shared_shield.activeitem.json"
@@ -4198,6 +4204,9 @@
   "items/active/weapons/ranged/sniperrifle/swtjc_ewg_uncommonbeamrifle.activeitem": {
     "/description": "texts/items/active/weapons/shared_rifle.json"
   },
+  "items/active/weapons/ranged/unique/aetheriumrocketlauncher.activeitem": {
+    "/altAbility/name": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
+  },
   "items/active/weapons/ranged/unique/ancientcarbine.activeitem": {
     "/altAbility/name": "texts/items/active/weapons/ranged/unique/shared_cien.json"
   },
@@ -4215,11 +4224,11 @@
     "/upgradeParameters/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
   },
   "items/active/weapons/ranged/unique/friendmaker.activeitem": {
-    "/altAbility/name": "texts/items/active/weapons/ranged/unique/shared_friendmaker.json",
+    "/altAbility/name": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json",
     "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
   },
   "items/active/weapons/ranged/unique/friendmaker2.activeitem": {
-    "/altAbility/name": "texts/items/active/weapons/ranged/unique/shared_friendmaker.json"
+    "/altAbility/name": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
   },
   "items/active/weapons/ranged/unique/fugaussmachinegun.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
@@ -4329,6 +4338,9 @@
     "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
   },
   "items/active/weapons/ranged/unique/telebriumrifle.activeitem": {
+    "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
+  },
+  "items/active/weapons/ranged/unique/telebriumsniperrifle.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
   },
   "items/active/weapons/ranged/unique/theblackmarket/armcannon/armcannonshock.activeitem": {
@@ -27098,6 +27110,21 @@
     "/novakidDescription": "texts/shared_teleporter.json",
     "/shortdescription": "texts/shared_teleporter.json"
   },
+  "objects/ship/deprecated/fu_ftldrive.object": {
+    "/description": "texts/objects/ship/shared_.object.json",
+    "/shortdescription": "texts/objects/ship/deprecated/shared_fu_ftldrive.json"
+  },
+  "objects/ship/deprecated/fu_ftldrive2.object": {
+    "/description": "texts/objects/ship/shared_.object.json",
+    "/shortdescription": "texts/objects/ship/deprecated/shared_fu_ftldrive.json"
+  },
+  "objects/ship/deprecated/fu_ftldrive3.object": {
+    "/description": "texts/objects/ship/shared_.object.json",
+    "/shortdescription": "texts/objects/ship/deprecated/shared_fu_ftldrive.json"
+  },
+  "objects/ship/deprecated/fu_ftldriveupgrade.object": {
+    "/description": "texts/objects/ship/shared_.object.json"
+  },
   "objects/ship/elduucaptainschair/elduucaptainschair.object": {
     "/apexDescription": "texts/shared_captain.json",
     "/avianDescription": "texts/shared_captain.json",
@@ -27286,6 +27313,87 @@
   "objects/ship/fu_booster_large/fu_booster_large.object": {
     "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
     "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/description": "texts/objects/ship/shared_.object.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_large/fu_booster_large1.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_large/fu_booster_large2.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_large/fu_booster_large3.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_large/fu_booster_large4.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_large/fu_booster_large5.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_large/fu_booster_large6.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_large/fu_booster_large7.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_large/fu_booster_large8.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
     "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
@@ -27294,6 +27402,87 @@
     "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
   },
   "objects/ship/fu_booster_medium/fu_booster_medium.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/description": "texts/objects/ship/shared_.object.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_medium/fu_booster_medium1.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_medium/fu_booster_medium2.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_medium/fu_booster_medium3.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_medium/fu_booster_medium4.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_medium/fu_booster_medium5.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_medium/fu_booster_medium6.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_medium/fu_booster_medium7.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_medium/fu_booster_medium8.object": {
     "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
     "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
     "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
@@ -27306,6 +27495,87 @@
   "objects/ship/fu_booster_small/fu_booster_small.object": {
     "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
     "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/description": "texts/objects/ship/shared_.object.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_small/fu_booster_small1.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_small/fu_booster_small2.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_small/fu_booster_small3.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_small/fu_booster_small4.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_small/fu_booster_small5.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_small/fu_booster_small6.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_small/fu_booster_small7.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_small/fu_booster_small8.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
     "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
@@ -27314,6 +27584,87 @@
     "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
   },
   "objects/ship/fu_booster_tiny/fu_booster_tiny.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/description": "texts/objects/ship/shared_.object.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_tiny/fu_booster_tiny1.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_tiny/fu_booster_tiny2.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_tiny/fu_booster_tiny3.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_tiny/fu_booster_tiny4.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_tiny/fu_booster_tiny5.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_tiny/fu_booster_tiny6.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_tiny/fu_booster_tiny7.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/novakidDescription": "texts/objects/ship/shared_fu_booster_/shared_fu_booster_.json"
+  },
+  "objects/ship/fu_booster_tiny/fu_booster_tiny8.object": {
     "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
     "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
     "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
@@ -27618,110 +27969,169 @@
     "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
     "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json"
   },
-  "objects/ship/fu_ftldrive/fu_ftldrive.object": {
+  "objects/ship/fu_ftldrive/fu_ftldrive2deco.object": {
     "/apexDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
     "/avianDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/description": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
     "/floranDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
     "/humanDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
     "/hylotlDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
     "/novakidDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
-    "/shortdescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json"
+    "/shortdescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json"
+  },
+  "objects/ship/fu_ftldrive/fu_ftldrive3deco.object": {
+    "/apexDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/avianDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/description": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/floranDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/humanDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/hylotlDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/novakidDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/shortdescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json"
   },
   "objects/ship/fu_ftldrive/fu_ftldrivedeco.object": {
     "/apexDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
     "/avianDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
-    "/description": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
+    "/description": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
     "/floranDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
     "/humanDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
     "/hylotlDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
-    "/novakidDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
-    "/shortdescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json"
+    "/shortdescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json"
   },
-  "objects/ship/fu_ftldrive2/fu_ftldrive2.object": {
-    "/apexDescription": "texts/objects/ship/fu_ftldrive2/shared_fu_ftldrive2.json",
-    "/avianDescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
-    "/description": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
-    "/floranDescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
+  "objects/ship/fu_ftldrive/fu_ftldrivemk1a.object": {
+    "/apexDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/avianDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/description": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivemk1.json",
+    "/floranDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
-    "/humanDescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
-    "/hylotlDescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
-    "/novakidDescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
-    "/shortdescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/humanDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/hylotlDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/novakidDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivemk.json"
   },
-  "objects/ship/fu_ftldrive2/fu_ftldrive2deco.object": {
-    "/apexDescription": "texts/objects/ship/fu_ftldrive2/shared_fu_ftldrive2.json",
-    "/avianDescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
-    "/description": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
-    "/floranDescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
+  "objects/ship/fu_ftldrive/fu_ftldrivemk1b.object": {
+    "/apexDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/avianDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/description": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivemk1.json",
+    "/floranDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
-    "/humanDescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
-    "/hylotlDescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
-    "/novakidDescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
-    "/shortdescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/humanDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/hylotlDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/novakidDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json"
   },
-  "objects/ship/fu_ftldrive3/fu_ftldrive3.object": {
-    "/apexDescription": "texts/objects/ship/fu_ftldrive3/shared_fu_ftldrive3.json",
-    "/avianDescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
-    "/description": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
-    "/floranDescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
+  "objects/ship/fu_ftldrive/fu_ftldrivemk1c.object": {
+    "/apexDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/avianDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/description": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivemk1.json",
+    "/floranDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
-    "/humanDescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
-    "/hylotlDescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
-    "/novakidDescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
-    "/shortdescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/humanDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/hylotlDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/novakidDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json"
   },
-  "objects/ship/fu_ftldrive3/fu_ftldrive3deco.object": {
-    "/apexDescription": "texts/objects/ship/fu_ftldrive3/shared_fu_ftldrive3.json",
-    "/avianDescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
-    "/description": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
-    "/floranDescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
+  "objects/ship/fu_ftldrive/fu_ftldrivemk2a.object": {
+    "/apexDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/avianDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/description": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivemk2.json",
+    "/floranDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
-    "/humanDescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
-    "/hylotlDescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
-    "/novakidDescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
-    "/shortdescription": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/humanDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/hylotlDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/novakidDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivemk.json"
   },
-  "objects/ship/fu_ftldrivesmall/fu_ftldrivesmall.object": {
-    "/apexDescription": "texts/objects/ship/fu_ftldrivesmall/shared_fu_ftldrivesmall.json",
-    "/avianDescription": "texts/objects/ship/fu_ftldrivesmall/shared_fu_ftldrivesmall.json",
-    "/floranDescription": "texts/objects/ship/fu_ftldrivesmall/shared_fu_ftldrivesmall.json",
+  "objects/ship/fu_ftldrive/fu_ftldrivemk2b.object": {
+    "/apexDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/avianDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/description": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivemk2.json",
+    "/floranDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_ftldrivesmall/shared_fu_ftldrivesmall.json",
-    "/humanDescription": "texts/objects/ship/fu_ftldrivesmall/shared_fu_ftldrivesmall.json",
-    "/hylotlDescription": "texts/objects/ship/fu_ftldrivesmall/shared_fu_ftldrivesmall.json",
-    "/novakidDescription": "texts/objects/ship/fu_ftldrivesmall/shared_fu_ftldrivesmall.json",
-    "/shortdescription": "texts/objects/ship/shared_fu_ftldrivesmall/shared_fu_ftldrivesmall.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/humanDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/hylotlDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/novakidDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json"
   },
-  "objects/ship/fu_ftldrivesmall/fu_ftldrivesmalldeco.object": {
-    "/apexDescription": "texts/objects/ship/fu_ftldrivesmall/shared_fu_ftldrivesmall.json",
-    "/avianDescription": "texts/objects/ship/fu_ftldrivesmall/shared_fu_ftldrivesmall.json",
-    "/description": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
-    "/floranDescription": "texts/objects/ship/fu_ftldrivesmall/shared_fu_ftldrivesmall.json",
+  "objects/ship/fu_ftldrive/fu_ftldrivemk2c.object": {
+    "/apexDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/avianDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/description": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivemk2.json",
+    "/floranDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_ftldrivesmall/shared_fu_ftldrivesmall.json",
-    "/humanDescription": "texts/objects/ship/fu_ftldrivesmall/shared_fu_ftldrivesmall.json",
-    "/hylotlDescription": "texts/objects/ship/fu_ftldrivesmall/shared_fu_ftldrivesmall.json",
-    "/novakidDescription": "texts/objects/ship/fu_ftldrivesmall/shared_fu_ftldrivesmall.json",
-    "/shortdescription": "texts/objects/ship/shared_fu_ftldrivesmall/shared_fu_ftldrivesmalldeco.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/humanDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/hylotlDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/novakidDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json"
   },
-  "objects/ship/fu_ftldrivesmall_broken/fu_ftldrivesmall_broken.object": {
+  "objects/ship/fu_ftldrive/fu_ftldrivemk3a.object": {
+    "/apexDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/avianDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/description": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivemk3.json",
+    "/floranDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_ftldrivesmall_broken/fu_ftldrivesmall_broken.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/humanDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/hylotlDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/novakidDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivemk.json"
   },
-  "objects/ship/fu_ftldrivesmallbroken/fu_ftldrivesmallbroken.object": {
-    "/shortdescription": "texts/objects/ship/shared_fu_ftldrivesmall/shared_fu_ftldrivesmall.json"
+  "objects/ship/fu_ftldrive/fu_ftldrivemk3b.object": {
+    "/apexDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/avianDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/description": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivemk3.json",
+    "/floranDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/humanDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/hylotlDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/novakidDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json"
   },
-  "objects/ship/fu_ftldrivesmallbroken/fu_ftldrivesmalldecobroken.object": {
-    "/description": "texts/objects/ship/shared_fu_ftldrive/shared_fu_ftldrive.json",
-    "/shortdescription": "texts/objects/ship/shared_fu_ftldrivesmall/shared_fu_ftldrivesmalldeco.json"
+  "objects/ship/fu_ftldrive/fu_ftldrivemk3c.object": {
+    "/apexDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/avianDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/description": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivemk3.json",
+    "/floranDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/humanDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/hylotlDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/novakidDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json"
+  },
+  "objects/ship/fu_ftldrive/fu_ftldrivesmall.object": {
+    "/apexDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivesmall.json",
+    "/avianDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivesmall.json",
+    "/floranDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivesmall.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivesmall.json",
+    "/humanDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivesmall.json",
+    "/hylotlDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivesmall.json",
+    "/novakidDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivesmall.json"
+  },
+  "objects/ship/fu_ftldrive/fu_ftldrivesmall_broken.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_ftldrive/fu_ftldrivesmall_broken.object.json"
+  },
+  "objects/ship/fu_ftldrive/fu_ftldrivesmalldeco.object": {
+    "/apexDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivesmall.json",
+    "/avianDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivesmall.json",
+    "/description": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/floranDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivesmall.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivesmall.json",
+    "/humanDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivesmall.json",
+    "/hylotlDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivesmall.json",
+    "/novakidDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivesmall.json",
+    "/shortdescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivesmalldeco.json"
+  },
+  "objects/ship/fu_ftldrive/fu_ftldrivesmalldecobroken.object": {
+    "/description": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrive.json",
+    "/shortdescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivesmalldeco.json"
   },
   "objects/ship/fu_largethruster/fu_largethrusterBroken.object": {
     "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
