@@ -30,3 +30,5 @@
 * [最新版本下载](https://gitlab.imsky.cc/ProjectSky-Translation-Team/FrackinUniverse-sChinese-Project/tags)
 * [翻译进度查阅](https://projectsky.github.io/FrackinUniverse-sChinese)
 * [Telegram群组](https://t.me/joinchat/DR0AV0kjlPgEmltSqwr12Q)
+* [Telegram web](https://projectsky.github.io/telegram)
+* 无法使用Telegram应用？使用上方WEB版本即可。
