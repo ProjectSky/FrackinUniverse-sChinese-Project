@@ -4,7 +4,7 @@
 # 一个简陋的过滤脚本
 # 区分已翻译完的JSON文件和未翻译完的JSON文件。
 # 脚本允许存放在项目根目录、ADD_FILES、translations、script、texts文件夹下。
-
+6
 # 进度：
 # DONE：初步实现
 # WASTE：使用json模块进行过滤
