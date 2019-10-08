@@ -123,24 +123,23 @@
     "DeniedAlternatives": [],
     "Files": {
       "codex/documents/networkguide.codex": [
-        "/contentPages/4"
-      ]
-    },
-    "Texts": {
-      "Chs": "物品和资金传输设备(ITDs & MTDs)是ITN系统的附加核心组件。前者用于移动任何且全部的库存物品，而后者能传输货币，如像素和研究点数。你可以把它们放在任何你想放的地方，只要你能让它们保持直线连线。只有ITD能够配置。掌握ITD能让你对ITN系统信手拈来。",
-      "Eng": "Item & Money Transference Devices (ITDs & MTDs) are additional core components of the ITN system. The former is used to move any and all inventory items, while the latter moves currencies, such as pixels & research. You can place them wherever you want as long as you can keep their wiring straight. Only the ITD can be configured. Mastery of the ITD will bring mastery over the entire ITN system."
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "codex/documents/networkguide.codex": [
         "/contentPages/9"
       ]
     },
     "Texts": {
       "Chs": "物品类别：\n宝物(有价值及稀有的物品)\n材料(方块，液体，平台)\n轨道(包括平台和电车)\n书籍(包括蓝图)\n 原材料(工艺原料，矿石) \n家具(容器，工作站，灯和们)\n农作物(大多数农作物)\n武器\n盔甲(包括背部饰品和增强)\n未处理(任何其他类别的物品)",
       "Eng": "Item Categories: \n  Treasure (Valuable & rare items)\n  Materials (Blocks, liquids, platforms)\n  Rails (Including platforms and trams)\n  Books (Including Blueprints)\n  Ingredients (Crafting materials, ores) \n  Objects (Containers, crafting stations, lights & doors)\n  Farm (Most agricultural products)\n  Weapons\n  Armor (Including back items & augments)\n  Unhandled (Anything not in the other categories)"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "codex/documents/networkguide.codex": [
+        "/contentPages/4"
+      ]
+    },
+    "Texts": {
+      "Eng": "Item Transference Devices (ITDs) are additional core components of the ITN system. While ITDs are capable of moving all items by default, you will need special token items to filter for currencies or items the ITD does not recognize. You can place them wherever you want as long as you can keep their wiring straight. Mastery of the ITD will bring mastery over the entire ITN system."
     }
   },
   {
@@ -199,8 +198,7 @@
       ]
     },
     "Texts": {
-      "Chs": "ITN的第一个核心部件是储存桥接器，用于通过代理的方式为容器提供输入和输出的连接节点。储存桥接器会环顾四周，寻找最近的容器连接，但如果将它放在多个容器之间，可能会引起其混淆。确保您的储存桥接器尽可能靠近您希望它们连接到的容器，并让它们和其他容器之间保持距离。",
-      "Eng": "The first core component of the ITN is the storage bridge, which is used to provide containers with input & output wiring nodes by way of proxy. Storage bridges look around themselves for the nearest container to connect to, but can get confused if you put them right between multiple containers. Make sure your storage bridges are placed as close as possible to the one container you want them linked to, and to leave space between them and other containers."
+      "Eng": "The first core component of the ITN is the storage bridge, which is used to provide containers with input & output wiring nodes by way of proxy. Storage bridges look around themselves for the nearest container to connect to (by placement point), but can get confused if you put them right between multiple containers. Make sure your storage bridges are placed as close as possible to the one container you want them linked to, and to leave space between them and other containers."
     }
   },
   {
@@ -223,8 +221,7 @@
       ]
     },
     "Texts": {
-      "Chs": "您可以将项目放在ITD配置屏幕右上角的空物品栏中，告诉ITD提取特定类型的物品，而忽略其他物品。您可以进一步指定是希望ITD拉取该项，还是该项的相同类型或类别。使用反向逻辑设置告诉ITD 忽略特定的物品、类型或类别。",
-      "Eng": "You can place items in the empty item boxes in the top-right corner of an ITD's configuration screen to tell it to pull specific kinds of items and ignore others. You can further specify whether you want the ITD to pull that exact item, or else the same types or categories of that item. Using the Inverted Logic setting tells the ITD to ignore that specific, type, or category of item."
+      "Eng": "You can place items in the empty item boxes in the top-right corner of an ITD's configuration screen to tell it to pull specific kinds of items and ignore others. You can further specify whether you want the ITD to pull that exact item, or else the same types or categories of that item. Furthermore, you can specify how many to move at a time by placing stacks of the desired quantity. Using the Inverted Logic setting tells the ITD to ignore that specific, type, or category of item."
     }
   }
 ]

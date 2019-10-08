@@ -2032,6 +2032,21 @@
   {
     "DeniedAlternatives": [],
     "Files": {
+      "items/generic/crafting/fu_hydrogen.item": [
+        "/shortdescription"
+      ],
+      "quests/fu_questlines/tutorial/extractor/extractor6.questtemplate": [
+        "/title"
+      ]
+    },
+    "Texts": {
+      "Chs": "氢气",
+      "Eng": "Hydrogen"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
       "interface/scripted/spaceStation/spaceStation.config": [
         "/gui/text/value"
       ],
@@ -2775,6 +2790,9 @@
       "interface/cockpit/cockpit.config": [
         "/displayOres/neptunium/displayName"
       ],
+      "items/generic/crafting/isotopes/neptuniumore.item": [
+        "/shortdescription"
+      ],
       "tiles/mods/neptunium.matmod": [
         "/description"
       ]
@@ -3350,51 +3368,6 @@
     "Texts": {
       "Chs": "替换",
       "Eng": "Replace Me"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "items/generic/other/medkit2.consumable": [
-        "/description"
-      ],
-      "stats/effects/heal/heal_long.statuseffect": [
-        "/label"
-      ]
-    },
-    "Texts": {
-      "Chs": "在10秒回复125点生命值，并清除大多数状态效果。",
-      "Eng": "Restores 125 health over 10 seconds, and instantly cures most status effects."
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "items/generic/other/medkit3.consumable": [
-        "/description"
-      ],
-      "stats/effects/heal/heal_long2.statuseffect": [
-        "/label"
-      ]
-    },
-    "Texts": {
-      "Chs": "在10秒回复150点生命值，并清除大多数状态效果。",
-      "Eng": "Restores 150 health over 10 seconds, and instantly cures most status effects."
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "items/generic/other/medkit4.consumable": [
-        "/description"
-      ],
-      "stats/effects/heal/heal_long3.statuseffect": [
-        "/label"
-      ]
-    },
-    "Texts": {
-      "Chs": "在10秒回复200点生命值，并清除大多数状态效果。",
-      "Eng": "Restores 200 health over 10 seconds, and instantly cures most status effects."
     }
   },
   {
@@ -4234,6 +4207,9 @@
     "Files": {
       "interface/cockpit/cockpit.config": [
         "/displayOres/thorium/displayName"
+      ],
+      "items/generic/crafting/isotopes/thoriumore.item": [
+        "/shortdescription"
       ],
       "tiles/mods/thorium.matmod": [
         "/description"
