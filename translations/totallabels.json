@@ -313,7 +313,7 @@
         "random7.codex.json": 4,
         "random8.codex.json": 3,
         "random9.codex.json": 3,
-        "scienceoutpost_kevin.codex.json": 96,
+        "scienceoutpost_kevin.codex.json": 100,
         "scienceoutpost_khe.codex.json": 16,
         "shared_ffguide.json": 1,
         "shared_luridmagazine.json": 2,
@@ -747,6 +747,7 @@
       },
       "itemdescriptions": {
         "armornew.itemdescription.json": 1,
+        "gun2.itemdescription.json": 2,
         "shared_.itemdescription.json": 3
       },
       "kheAA": {
@@ -860,6 +861,7 @@
       "shared_bow.json": 1,
       "shared_chakram.json": 1,
       "shared_cockpit.json": 2,
+      "shared_fuammogun..json": 1,
       "shared_gun2.json": 1,
       "shared_gun2overheat.json": 1,
       "shared_hammer.json": 1,
@@ -869,7 +871,7 @@
         "bow2.tooltip.json": 1,
         "gunkevin.tooltip.json": 5,
         "magnorb.tooltip.json": 1,
-        "shared_.tooltip.json": 4,
+        "shared_.tooltip.json": 5,
         "shared_ammogun.tooltip.json": 1,
         "shared_ammoitem.tooltip.json": 1
       },
@@ -929,7 +931,7 @@
         "xenostation.config.json": 2
       }
     },
-    "interface.json": 11,
+    "interface.json": 12,
     "items": {
       "active": {
         "crewcontracts": {
@@ -2077,17 +2079,17 @@
             "shared_.activeitem.json": 1,
             "spiderdriodblast.activeitem.json": 1,
             "spiderdroidbeam.activeitem.json": 1,
-            "swtjc_ewg_npcantimaterialrifle.activeitem.json": 1,
+            "swtjc_ewg_npcantimaterialrifle.activeitem.json": 2,
             "swtjc_ewg_npcautoshotgun.activeitem.json": 1,
-            "swtjc_ewg_npcbattlerifle.activeitem.json": 1,
-            "swtjc_ewg_npcbeampistol.activeitem.json": 1,
-            "swtjc_ewg_npcbeamrifle.activeitem.json": 1,
+            "swtjc_ewg_npcbattlerifle.activeitem.json": 2,
+            "swtjc_ewg_npcbeampistol.activeitem.json": 2,
+            "swtjc_ewg_npcbeamrifle.activeitem.json": 2,
             "swtjc_ewg_npcflakcannon.activeitem.json": 1,
             "swtjc_ewg_npcgrenadelauncher.activeitem.json": 2,
-            "swtjc_ewg_npcminirocketlauncher.activeitem.json": 1,
+            "swtjc_ewg_npcminirocketlauncher.activeitem.json": 2,
             "swtjc_ewg_npcmultigrenadelauncher.activeitem.json": 1,
             "swtjc_ewg_npcrevolver.activeitem.json": 1,
-            "swtjc_ewg_npcsaw.activeitem.json": 1,
+            "swtjc_ewg_npcsaw.activeitem.json": 2,
             "swtjc_ewg_npcsawedoffshotgun.activeitem.json": 1,
             "swtjc_ewg_npcsubmachinegun.activeitem.json": 1
           },
@@ -2214,6 +2216,8 @@
           },
           "ranged": {
             "assaultrifle": {
+              "shared_battlerifle.activeitem.json": 1,
+              "shared_saw.activeitem.json": 1,
               "swtjc_ewg_commonbattlerifle.activeitem.json": 1,
               "swtjc_ewg_commonsaw.activeitem.json": 1,
               "swtjc_ewg_rarebattlerifle.activeitem.json": 1,
@@ -2232,6 +2236,7 @@
               "swtjc_ewg_uncommonsubmachinegun.activeitem.json": 1
             },
             "pistol": {
+              "shared_beampistol.activeitem.json": 1,
               "swtjc_ewg_commonbeampistol.activeitem.json": 1,
               "swtjc_ewg_commonrevolver.activeitem.json": 1,
               "swtjc_ewg_rarebeampistol.activeitem.json": 1,
@@ -2240,6 +2245,7 @@
               "swtjc_ewg_uncommonrevolver.activeitem.json": 1
             },
             "rocketlauncher": {
+              "shared_minirocketlauncher.activeitem.json": 1,
               "swtjc_ewg_commonminirocketlauncher.activeitem.json": 1,
               "swtjc_ewg_rareminirocketlauncher.activeitem.json": 1,
               "swtjc_ewg_uncommonminirocketlauncher.activeitem.json": 1
@@ -2274,7 +2280,9 @@
               }
             },
             "sniperrifle": {
-              "swtjc_ewg_commonantimaterialrifle.activeitem.json": 1,
+              "shared_antimaterialrifle.activeitem.json": 1,
+              "shared_beamrifle.activeitem.json": 1,
+              "swtjc_ewg_commonantimaterialrifle.activeitem.json": 2,
               "swtjc_ewg_commonbeamrifle.activeitem.json": 1,
               "swtjc_ewg_rareantimaterialrifle.activeitem.json": 1,
               "swtjc_ewg_rarebeamrifle.activeitem.json": 1,
@@ -2717,9 +2725,6 @@
           },
           "shared_grenadelauncher.json": 1,
           "shared_machine.json": 1,
-          "shared_pistol.json": 1,
-          "shared_rifle.json": 3,
-          "shared_rocketlauncher.json": 1,
           "shared_shotgun.json": 2,
           "staff": {
             "aetherstaff": {
@@ -2855,7 +2860,7 @@
             "slimewhip3.activeitem.json": 1
           }
         },
-        "weapons.json": 4
+        "weapons.json": 3
       },
       "armor": {
         "decorative": {
@@ -4993,8 +4998,8 @@
           "fuchocolatebar.consumable.json": 2,
           "fuchocolatechipcookie.consumable.json": 1,
           "fuchocolatechipcookie2.consumable.json": 1,
-          "fupeachpie.consumable.json": 1,
-          "fupearpie.consumable.json": 1,
+          "fupeachpie.consumable.json": 2,
+          "fupearpie.consumable.json": 2,
           "grapehoneystraw.consumable.json": 2,
           "honeystraw.consumable.json": 2,
           "icecookie.consumable.json": 2,
@@ -5689,7 +5694,7 @@
         "liquidirradium.liqitem.json": 2,
         "liquidmechfuel.liqitem.json": 2,
         "liquidmercury.liqitem.json": 2,
-        "liquidmetallichydrogen.liqitem.json": 1,
+        "liquidmetallichydrogen.liqitem.json": 2,
         "liquidnitrogenitem.liqitem.json": 2,
         "liquidorangegravrain.liqitem.json": 1,
         "liquidorganicsoup.liqitem.json": 2,
@@ -10122,9 +10127,6 @@
         "fu_craftinfo": {
           "fu_craftinfo.object.json": 3
         },
-        "fu_creepyeyepainting": {
-          "fu_creepyeyepainting.object.json": 2
-        },
         "fu_perfectarmchair": {
           "fu_perfectarmchair.object.json": 2
         },
@@ -11883,6 +11885,9 @@
           "elderpainting8.object.json": 2,
           "elderpainting9.object.json": 2,
           "flesh.object.json": 2,
+          "fu_creepyeyepainting": {
+            "fu_creepyeyepainting.object.json": 2
+          },
           "germ.object.json": 18,
           "home.object.json": 2,
           "horde.object.json": 2,
@@ -17220,6 +17225,7 @@
     "shared_fu_copperplatform.mat.json": 1,
     "shared_fuaetherdustplatform.mat.json": 1,
     "shared_fuaetherplatform.mat.json": 1,
+    "shared_fuapplehoneypie.json": 1,
     "shared_fuelhatch.json": 15,
     "shared_girdirplatform.mat.json": 1,
     "shared_greg.json": 1,
@@ -17247,7 +17253,6 @@
     "shared_pethouse": {
       "shared_pethouse..json": 1
     },
-    "shared_pie.json": 1,
     "shared_platform.mat.json": 1,
     "shared_poison.json": 1,
     "shared_precursor.json": 1,
@@ -17382,12 +17387,15 @@
       "fupeglaci.species.json": 9,
       "fuphotonpoptop.species.json": 3,
       "fuslimeperson.species.json": 1,
+      "fuslimepersonfemalenamegen.config.json": 1318,
       "juux.species.json": 8,
       "kirhosnamegen.config.json": 230,
       "mantizifemalenamegen.config.json": 17,
       "mantizimalenamegen.config.json": 35,
       "nightar.species.json": 5,
-      "peglacinamegen.config.json": 72,
+      "peglacinamegen.config.json": 69,
+      "pharitufemalenamegen.config.json": 24,
+      "pharitumalenamegen.config.json": 53,
       "precursor.species.json": 2,
       "precursornamegen.config.json": 2,
       "radien.species.json": 8,
@@ -17396,9 +17404,8 @@
       "shared_.species.json": 32,
       "shared_femalenamegen.config.json": 3,
       "shared_izku.species.json": 4,
-      "shared_malenamegen.config.json": 40,
-      "shared_namegen.config.json": 239,
-      "shared_slimepersonfemalenamegen.config.json": 1318,
+      "shared_malenamegen.config.json": 83,
+      "shared_namegen.config.json": 242,
       "shared_slimepersonnamegen.config.json": 44,
       "skath.species.json": 4,
       "skathfemalenamegen.config.json": 40,
@@ -17406,6 +17413,8 @@
       "slimenpc.species.json": 1,
       "slimenpchuman.species.json": 2,
       "slimeperson.species.json": 1,
+      "slimepersonfemalenamegen.config.json": 89,
+      "slimepersonmalenamegen.config.json": 74,
       "spiderdroid.species.json": 3,
       "thelusian.species.json": 7,
       "thelusiannamegen.config.json": 27,
@@ -17677,6 +17686,7 @@
             "energyregenfu35.statuseffect.json": 1,
             "energyregenfu50.statuseffect.json": 1,
             "energyregenfu60.statuseffect.json": 1,
+            "energyregenfu75neg.statuseffect.json": 1,
             "energyregenfu_armor40.statuseffect.json": 1,
             "energyregenfu_armor50.statuseffect.json": 1,
             "energyregenfu_armor60.statuseffect.json": 1,
@@ -17955,7 +17965,8 @@
             "burningnapalm.statuseffect.json": 1
           },
           "crithit": {
-            "crithit.animation.json": 1
+            "critReady.animation.json": 1,
+            "reloadReady.animation.json": 1
           },
           "firelight": {
             "firelight.statuseffect.json": 1
