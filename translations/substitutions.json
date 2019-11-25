@@ -2233,6 +2233,7 @@
     "/displayOres/irradium/displayName": "texts/wide_spread_fields.json",
     "/displayOres/isogen/displayName": "texts/wide_spread_fields.json",
     "/displayOres/junkmod/displayName": "texts/wide_spread_fields.json",
+    "/displayOres/koanite/displayName": "texts/wide_spread_fields.json",
     "/displayOres/neptunium/displayName": "texts/wide_spread_fields.json",
     "/displayOres/penumbrite/displayName": "texts/wide_spread_fields.json",
     "/displayOres/protocite/displayName": "texts/wide_spread_fields.json",
@@ -6324,6 +6325,9 @@
     "/shortdescription": "texts/wide_spread_fields.json"
   },
   "items/generic/crafting/isotopes/thoriumore.item": {
+    "/shortdescription": "texts/wide_spread_fields.json"
+  },
+  "items/generic/crafting/koaniteore.item": {
     "/shortdescription": "texts/wide_spread_fields.json"
   },
   "items/generic/crafting/mythos/cthulureward.item": {
@@ -15961,6 +15965,18 @@
     "/humanDescription": "texts/objects/carbon/shared_carbon.json",
     "/hylotlDescription": "texts/objects/carbon/shared_carbon.json",
     "/novakidDescription": "texts/objects/carbon/shared_carbon.json"
+  },
+  "objects/contestEntries/weirdWreaths/fuwreath1.object": {
+    "/description": "texts/objects/contestEntries/weirdWreaths/shared_fuwreath.json"
+  },
+  "objects/contestEntries/weirdWreaths/fuwreath2.object": {
+    "/description": "texts/objects/contestEntries/weirdWreaths/shared_fuwreath.json"
+  },
+  "objects/contestEntries/weirdWreaths/fuwreath3.object": {
+    "/description": "texts/objects/contestEntries/weirdWreaths/shared_fuwreath.json"
+  },
+  "objects/contestEntries/weirdWreaths/fuwreath4.object": {
+    "/description": "texts/objects/contestEntries/weirdWreaths/shared_fuwreath.json"
   },
   "objects/corpsewagon/corpsewagon.object": {
     "/shortdescription": "texts/shared_corpsewagon..json"
@@ -37228,20 +37244,107 @@
   },
   "species/peglacinamegen.config": {
     "/names/1/1/17": "texts/species/shared_namegen.config.json",
-    "/names/1/1/2": "texts/species/shared_namegen.config.json",
-    "/names/1/2/1": "texts/species/shared_namegen.config.json",
-    "/names/1/2/20": "texts/species/shared_namegen.config.json",
-    "/names/1/2/39": "texts/species/shared_namegen.config.json",
-    "/names/1/2/9": "texts/species/shared_namegen.config.json"
+    "/names/1/1/2": "texts/species/shared_namegen.config.json"
   },
   "species/pharitufemalenamegen.config": {
-    "/names/1/2/6": "texts/species/shared_malenamegen.config.json"
+    "/names/1/1/1": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/10": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/11": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/12": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/13": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/14": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/15": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/2": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/3": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/4": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/5": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/6": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/7": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/8": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/9": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/1": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/10": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/11": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/12": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/13": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/14": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/15": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/16": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/17": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/18": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/19": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/2": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/20": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/21": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/22": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/23": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/24": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/3": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/4": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/5": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/6": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/7": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/8": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/9": "texts/species/shared_malenamegen.config.json",
+    "/names/1/3/1": "texts/species/shared_malenamegen.config.json",
+    "/names/1/3/10": "texts/species/shared_malenamegen.config.json",
+    "/names/1/3/2": "texts/species/shared_malenamegen.config.json",
+    "/names/1/3/3": "texts/species/shared_malenamegen.config.json",
+    "/names/1/3/4": "texts/species/shared_malenamegen.config.json",
+    "/names/1/3/5": "texts/species/shared_malenamegen.config.json",
+    "/names/1/3/6": "texts/species/shared_malenamegen.config.json",
+    "/names/1/3/7": "texts/species/shared_malenamegen.config.json",
+    "/names/1/3/9": "texts/species/shared_malenamegen.config.json"
   },
   "species/pharitumalenamegen.config": {
-    "/names/1/2/22": "texts/species/shared_namegen.config.json",
-    "/names/1/2/24": "texts/species/shared_namegen.config.json",
-    "/names/1/2/39": "texts/species/shared_namegen.config.json",
-    "/names/1/3/6": "texts/species/shared_malenamegen.config.json"
+    "/names/1/1/1": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/10": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/11": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/12": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/13": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/14": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/15": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/2": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/3": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/4": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/5": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/6": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/7": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/8": "texts/species/shared_malenamegen.config.json",
+    "/names/1/1/9": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/1": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/10": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/11": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/12": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/13": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/14": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/15": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/16": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/17": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/18": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/19": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/2": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/20": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/21": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/22": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/23": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/24": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/3": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/4": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/5": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/6": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/7": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/8": "texts/species/shared_malenamegen.config.json",
+    "/names/1/2/9": "texts/species/shared_malenamegen.config.json",
+    "/names/1/3/1": "texts/species/shared_malenamegen.config.json",
+    "/names/1/3/10": "texts/species/shared_malenamegen.config.json",
+    "/names/1/3/2": "texts/species/shared_malenamegen.config.json",
+    "/names/1/3/3": "texts/species/shared_malenamegen.config.json",
+    "/names/1/3/4": "texts/species/shared_malenamegen.config.json",
+    "/names/1/3/5": "texts/species/shared_malenamegen.config.json",
+    "/names/1/3/6": "texts/species/shared_malenamegen.config.json",
+    "/names/1/3/7": "texts/species/shared_malenamegen.config.json",
+    "/names/1/3/9": "texts/species/shared_malenamegen.config.json"
   },
   "species/precursor.species": {
     "/charCreationTooltip/subTitle": "texts/species/shared_.species.json",
