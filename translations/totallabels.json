@@ -1,5 +1,14 @@
 {
   "texts": {
+    "a_notyetadded": {
+      "contestentries": {
+        "gramophone": {
+          "mimic": {
+            "mimic_gramophone.monstertype.json": 2
+          }
+        }
+      }
+    },
     "ai": {
       "alienjungle.aimission.json": 3,
       "ancienttemple.aimission.json": 3,
@@ -257,6 +266,7 @@
       },
       "documents": {
         "elduukharsciencenotes.codex.json": 2,
+        "epstein.codex.json": 2,
         "ffguide.codex.json": 24,
         "ffguide2.codex.json": 21,
         "ffguide3.codex.json": 15,
@@ -529,8 +539,8 @@
         "shared_nightarhistory.json": 1
       },
       "pharitu": {
-        "pharitu1.codex.json": 5,
-        "pharitu2.codex.json": 4,
+        "pharitu1.codex.json": 6,
+        "pharitu2.codex.json": 5,
         "pharitu3.codex.json": 8,
         "pharitu4.codex.json": 6,
         "pharitu5.codex.json": 3,
@@ -881,6 +891,7 @@
         "fupetshop.config.json": 2,
         "furniturestation.config.json": 2,
         "fushadowstore.config.json": 1,
+        "fustarbucks.config.json": 2,
         "gemstation.config.json": 2,
         "genesequencer.config.json": 2,
         "kirhosshop.config.json": 2,
@@ -1097,6 +1108,9 @@
           },
           "fu_upgradekit": {
             "upgradekit.activeitem.json": 2
+          },
+          "fumysterioustrashbag": {
+            "fumysterioustrashbag.activeitem.json": 2
           },
           "fusuperrewardbag": {
             "fusuperrewardbag.activeitem.json": 2
@@ -1369,11 +1383,11 @@
             "shadowstring": {
               "shadowstring.activeitem.json": 2
             },
-            "shared_crossbow": {
-              "shared_crossbow.activeitem.json": 2
-            },
             "telebriumbow": {
               "telebriumbow.activeitem.json": 2
+            },
+            "telebriumcrossbow": {
+              "telebriumcrossbow.activeitem.json": 2
             },
             "tungstencrossbow": {
               "tungstencrossbow.activeitem.json": 2
@@ -1383,6 +1397,9 @@
             },
             "xithricitebow": {
               "xithricitebow.activeitem.json": 2
+            },
+            "xithricitecrossbow": {
+              "xithricitecrossbow.activeitem.json": 2
             },
             "zerchesiumbow": {
               "zerchesiumbow.activeitem.json": 2
@@ -1549,6 +1566,7 @@
               "zerchesiumbroadsword.activeitem.json": 2
             },
             "dagger": {
+              "advalloydagger.activeitem.json": 1,
               "aetheriumdagger.activeitem.json": 4,
               "bloodyknife.activeitem.json": 2,
               "carbondagger.activeitem.json": 1,
@@ -1558,6 +1576,7 @@
               "feneroxdagger.activeitem.json": 2,
               "fuatropusdagger.activeitem.json": 1,
               "fubonepickaxe.activeitem.json": 2,
+              "fucultistdagger.activeitem.json": 1,
               "fushadowdagger.activeitem.json": 2,
               "irradiumdagger.activeitem.json": 2,
               "isogendagger.activeitem.json": 2,
@@ -1568,7 +1587,7 @@
               "quietusknave.activeitem.json": 1,
               "quietusrogue.activeitem.json": 1,
               "radiendagger.activeitem.json": 2,
-              "shared_dagger.activeitem.json": 4,
+              "shared_dagger.activeitem.json": 3,
               "shared_e.activeitem.json": 1,
               "silverseablade.activeitem.json": 2,
               "stonedagger.activeitem.json": 1,
@@ -11628,7 +11647,7 @@
           "nightarbox2.object.json": 6
         },
         "nightarcabinet": {
-          "nightarcabinet.object.json": 3
+          "nightarcabinet.object.json": 2
         },
         "nightarcastledoor": {
           "nightarcastledoor.object.json": 2
@@ -13070,6 +13089,9 @@
         },
         "shared_scienceoutpostbanner": {
           "shared_scienceoutpostbanner.json": 2
+        },
+        "starbucks": {
+          "fustarbucks.object.json": 46
         }
       },
       "shadow": {
@@ -13555,7 +13577,11 @@
           "shared_fu_ftldrivesmall.json": 7
         },
         "fu_fuelpurifier": {
-          "fu_fuelpurifier.object.json": 2
+          "fu_fuelpurifier.object.json": 2,
+          "fu_fuelpurifiert2.object.json": 2,
+          "fu_fuelpurifiert3.object.json": 2,
+          "fu_fuelpurifiert4.object.json": 2,
+          "fu_fuelpurifiert5.object.json": 2
         },
         "fu_fueltank": {
           "fu_fueltank.object.json": 2
@@ -17666,7 +17692,6 @@
                 "humantier1setbonus.statuseffect.json": 1,
                 "hylotltier1setbonus.statuseffect.json": 1,
                 "leathersetbonus.statuseffect.json": 1,
-                "leathersetbonusradien.statuseffect.json": 1,
                 "missionarysetbonus.statuseffect.json": 1,
                 "novakidtier1setbonus.statuseffect.json": 1,
                 "plebiansetbonus.statuseffect.json": 1,
@@ -17688,7 +17713,6 @@
                 "slimesetbonus.statuseffect.json": 1,
                 "stalwartsetbonus.statuseffect.json": 1,
                 "swashbucklersetbonus.statuseffect.json": 1,
-                "tungstensetbonusradien.statuseffect.json": 1,
                 "tw_spacesuitsetbonus.statuseffect.json": 1,
                 "vagabondsetbonus.statuseffect.json": 1,
                 "wolfsetbonus.statuseffect.json": 1
@@ -17730,6 +17754,12 @@
               },
               "tier6": {
                 "isogensetbonus.statuseffect.json": 1
+              },
+              "xi_armors": {
+                "chitinsetbonusradien.statuseffect.json": 1,
+                "leathersetbonusradien.statuseffect.json": 1,
+                "pyreitesetbonusradien.statuseffect.json": 1,
+                "tungstensetbonusradien.statuseffect.json": 1
               }
             }
           },
