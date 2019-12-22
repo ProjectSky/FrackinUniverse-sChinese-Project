@@ -82,7 +82,8 @@ foi = {
     ".tooltip": [],
     ".itemdescription": [],
     ".collection": [],
-    ".animation": []
+    ".animation": [],
+    "madness.config":[".+research/.+$"]
 }
 
 files_of_interest = dict()
