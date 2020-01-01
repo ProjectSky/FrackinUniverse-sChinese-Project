@@ -3707,6 +3707,14 @@
   "items/active/weapons/melee/mace/pyreitemace.activeitem": {
     "/description": "texts/items/active/weapons/melee/mace/shared_mace.activeitem.json"
   },
+  "items/active/weapons/melee/mace/stonemace.activeitem": {
+    "/description": "texts/items/active/weapons/melee/mace/shared_.activeitem.json",
+    "/shortdescription": "texts/items/active/weapons/melee/mace/shared_.activeitem.json"
+  },
+  "items/active/weapons/melee/mace/stonemace2.activeitem": {
+    "/description": "texts/items/active/weapons/melee/mace/shared_.activeitem.json",
+    "/shortdescription": "texts/items/active/weapons/melee/mace/shared_.activeitem.json"
+  },
   "items/active/weapons/melee/mace/zerchesiummace.activeitem": {
     "/description": "texts/items/active/weapons/melee/mace/shared_mace.activeitem.json"
   },
@@ -8594,10 +8602,16 @@
     "/description": "texts/wide_spread_fields.json",
     "/shortdescription": "texts/wide_spread_fields.json"
   },
+  "items/throwables/hydrogencorebomb.thrownitem": {
+    "/description": "texts/items/throwables/shared_.thrownitem.json"
+  },
   "items/throwables/ignuschili.thrownitem": {
     "/description": "texts/items/throwables/shared_.thrownitem.json"
   },
   "items/throwables/ignuschili2.thrownitem": {
+    "/description": "texts/items/throwables/shared_.thrownitem.json"
+  },
+  "items/throwables/particlegrenade.thrownitem": {
     "/description": "texts/items/throwables/shared_.thrownitem.json"
   },
   "items/throwables/peglaciball.thrownitem": {
@@ -20576,18 +20590,19 @@
     "/rodianDescription": "texts/objects/shared_.object.json"
   },
   "objects/generic/perfectorgan/perfectorgan.object": {
-    "/avianDescription": "texts/objects/generic.json",
-    "/diathimDescription": "texts/objects/generic.json",
-    "/felinDescription": "texts/objects/generic.json",
+    "/avianDescription": "texts/objects.json",
+    "/diathimDescription": "texts/objects.json",
+    "/felinDescription": "texts/objects.json",
+    "/feneroxDescription": "texts/objects.json",
     "/floranDescription": "texts/objects/generic.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/generic/perfectorgan/perfectorgan.object.json",
-    "/mawgDescription": "texts/objects/generic.json",
+    "/mawgDescription": "texts/objects.json",
     "/novakidDescription": "texts/objects/generic.json",
-    "/sithDescription": "texts/objects/generic.json",
-    "/skathDescription": "texts/objects/generic.json",
+    "/sithDescription": "texts/objects.json",
+    "/skathDescription": "texts/objects.json",
     "/togrutaDescription": "texts/objects/generic.json",
-    "/tuskanDescription": "texts/objects/generic.json",
+    "/tuskanDescription": "texts/objects.json",
     "/zabrakDescription": "texts/objects/generic.json"
   },
   "objects/generic/raptorneststorage/raptorneststorage.object": {
@@ -20693,17 +20708,17 @@
     "/description": "texts/objects/generic/shared_storage/shared_e.object.json"
   },
   "objects/generic/themed/gothic/gothicorgan/organ.object": {
-    "/avianDescription": "texts/objects/generic.json",
-    "/diathimDescription": "texts/objects/generic.json",
-    "/felinDescription": "texts/objects/generic.json",
+    "/avianDescription": "texts/objects.json",
+    "/diathimDescription": "texts/objects.json",
+    "/felinDescription": "texts/objects.json",
     "/floranDescription": "texts/objects/generic.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/generic/themed/gothic/gothicorgan/organ.object.json",
-    "/mawgDescription": "texts/objects/generic.json",
+    "/mawgDescription": "texts/objects.json",
     "/novakidDescription": "texts/objects/generic.json",
-    "/sithDescription": "texts/objects/generic.json",
+    "/sithDescription": "texts/objects.json",
     "/togrutaDescription": "texts/objects/generic.json",
-    "/tuskanDescription": "texts/objects/generic.json",
+    "/tuskanDescription": "texts/objects.json",
     "/zabrakDescription": "texts/objects/generic.json"
   },
   "objects/generic/timeobelisk/spacetimeobelisk.object": {
@@ -29118,7 +29133,6 @@
     "/dialog/wakePlayer/5/0": "texts/objects/ship/shared_techstation/shared_techstation.json",
     "/dialog/wakeUp/0/0": "texts/objects/ship/shared_techstation/shared_techstation.json",
     "/dialog/wakeUp/1/0": "texts/objects/ship/shared_techstation/shared_techstation.json",
-    "/dialog/wakeUp/1/1": "texts/objects/ship/shared_techstation/shared_techstation.object.json",
     "/dialog/wakeUp/2/0": "texts/objects/ship/shared_techstation/shared_techstation.json",
     "/dialog/wakeUp/2/1": "texts/objects/ship/shared_techstation/shared_techstation.object.json",
     "/dialog/wakeUp/3/0": "texts/objects/ship/shared_techstation/shared_techstation.json",
@@ -30432,7 +30446,6 @@
     "/dialog/wakePlayer/4/0": "texts/objects/ship/shared_techstation/shared_techstation.json",
     "/dialog/wakePlayer/5/0": "texts/objects/ship/shared_techstation/shared_techstation.json",
     "/dialog/wakeUp/0/0": "texts/objects/ship/shared_techstation/shared_techstation.json",
-    "/dialog/wakeUp/0/1": "texts/objects/ship/shared_techstation/shared_techstation.object.json",
     "/dialog/wakeUp/1/0": "texts/objects/ship/shared_techstation/shared_techstation.json",
     "/dialog/wakeUp/2/0": "texts/objects/ship/shared_techstation/shared_techstation.json",
     "/dialog/wakeUp/3/0": "texts/objects/ship/shared_techstation/shared_techstation.json",
@@ -30766,19 +30779,12 @@
     "/avianDescription": "texts/objects/ship/shared_techstation/shared_techstation.json",
     "/description": "texts/objects/ship/shared_techstation/shared_techstation.json",
     "/dialog/wakePlayer/0/0": "texts/objects/ship/shared_techstation/shared_techstation.json",
-    "/dialog/wakePlayer/0/1": "texts/objects/ship/shared_techstation/shared_techstation.object.json",
     "/dialog/wakePlayer/1/0": "texts/objects/ship/shared_techstation/shared_techstation.json",
-    "/dialog/wakePlayer/1/1": "texts/objects/ship/shared_techstation/shared_techstation.object.json",
     "/dialog/wakePlayer/2/0": "texts/objects/ship/shared_techstation/shared_techstation.json",
-    "/dialog/wakePlayer/2/1": "texts/objects/ship/shared_techstation/shared_techstation.object.json",
     "/dialog/wakePlayer/3/0": "texts/objects/ship/shared_techstation/shared_techstation.json",
-    "/dialog/wakePlayer/3/1": "texts/objects/ship/shared_techstation/shared_techstation.object.json",
     "/dialog/wakePlayer/4/0": "texts/objects/ship/shared_techstation/shared_techstation.json",
-    "/dialog/wakePlayer/4/1": "texts/objects/ship/shared_techstation/shared_techstation.object.json",
     "/dialog/wakePlayer/5/0": "texts/objects/ship/shared_techstation/shared_techstation.json",
-    "/dialog/wakePlayer/5/1": "texts/objects/ship/shared_techstation/shared_techstation.object.json",
     "/dialog/wakeUp/0/0": "texts/objects/ship/shared_techstation/shared_techstation.json",
-    "/dialog/wakeUp/0/1": "texts/objects/ship/shared_techstation/shared_techstation.object.json",
     "/dialog/wakeUp/1/0": "texts/objects/ship/shared_techstation/shared_techstation.json",
     "/dialog/wakeUp/2/0": "texts/objects/ship/shared_techstation/shared_techstation.json",
     "/dialog/wakeUp/3/0": "texts/objects/ship/shared_techstation/shared_techstation.json",
@@ -32696,6 +32702,17 @@
   "objects/themed/protectorate/protectoratewalldisplay/protectoratewalldisplay.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/themed/protectorate/protectoratewalldisplay/protectoratewalldisplay.object.json"
+  },
+  "objects/themed/rococo/harpsichord/fu_harpsichord.object": {
+    "/avianDescription": "texts/objects.json",
+    "/diathimDescription": "texts/objects.json",
+    "/felinDescription": "texts/objects.json",
+    "/feneroxDescription": "texts/objects.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/themed/rococo/harpsichord/fu_harpsichord.object.json",
+    "/mawgDescription": "texts/objects.json",
+    "/skathDescription": "texts/objects.json",
+    "/tuskanDescription": "texts/objects.json"
   },
   "objects/themed/rococo/rococoarmchair/rococoarmchair.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -38592,6 +38609,15 @@
   },
   "stats/effects/waterwalk/waterwalk2.statuseffect": {
     "/label": "texts/wide_spread_fields.json"
+  },
+  "stats/effects/wet/wet.statuseffect": {
+    "/label": "texts/stats/effects/wet/shared_.statuseffect.json"
+  },
+  "stats/effects/wet/wethealingwater.statuseffect": {
+    "/label": "texts/stats/effects/wet/shared_.statuseffect.json"
+  },
+  "stats/effects/wet/wettar.statuseffect": {
+    "/label": "texts/stats/effects/wet/shared_.statuseffect.json"
   },
   "tech/dash/combatmaneuvering1.tech": {
     "/shortDescription": "texts/wide_spread_fields.json"
