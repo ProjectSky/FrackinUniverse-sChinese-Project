@@ -77,10 +77,18 @@ def trans_patch_no_op(jsons):
         result2 = json.dumps(result1).replace('\\', "").replace(': [{"',': {"').replace('}]','}')
     return str(result2)
 
-"""
+###fuck utf8 bom!(未完成)
+def fuck_utf8_bom(jsons):
+    print(str(jsons))
+    u = str(jsons).decode('utf-8-sig') 
+    s = u.encode('utf-8') 
+    return s
+     
+ 
+
+
 if __name__ == "__main__":
     jsons3 = open_n_decode(
-        'F:/Elithian_Races_Mod/system_objects.config.patch', "r", "utf_8_sig")
-    test = trans_patch_no_op(jsons3)
-    print(test)
-"""
+        'F:/FrackinUniverse/dialog/converse.config.patch', "r", "utf_8_sig")
+    test = fuck_utf8_bom(jsons3)
+
