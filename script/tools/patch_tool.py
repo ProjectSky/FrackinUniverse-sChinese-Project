@@ -4,7 +4,7 @@ import re
 from codecs import open as open_n_decode
 from json_tools import field_by_path, list_field_paths, prepare
 
-
+##网上抄的函数，用来合成json，结果还算可靠
 def add_value(dict_obj, path, value):
     obj = dict_obj
     for i, v in enumerate(path):
@@ -17,7 +17,7 @@ def add_value(dict_obj, path, value):
         obj = obj[v]
     return dict_obj
 
-
+## 稳定筛选文本的必要函数，原理是将文本所在的索引值提取出来
 def op_select(jsons):
     index = 0
     json_text = json.loads(jsons)
@@ -37,7 +37,7 @@ def op_select(jsons):
         index = index+1
     return result
 
-
+## 绝对可靠的扫描方式之一，但是效率过低，目前只对带remove和test的文件使用
 def trans_patch(jsons):
     string = prepare(jsons)
     json_text = json.loads(string)
@@ -58,7 +58,7 @@ def trans_patch(jsons):
         result2 = json.dumps(result1).replace('\\', "")
     return str(result2)
 
-
+###正常的扫描方式，针对普通的patch
 def trans_patch_no_op(jsons):
     string = prepare(jsons)
     json_text = json.loads(string)
@@ -74,12 +74,13 @@ def trans_patch_no_op(jsons):
         dict_result = zip(path_list, value_list)
     for path, value in dict_result:
         add_value(result1, path, value)
-        result2 = json.dumps(result1).replace('\\', "")
+        result2 = json.dumps(result1).replace('\\', "").replace(': [{"',': {"').replace('}]','}')
     return str(result2)
 
-
+"""
 if __name__ == "__main__":
     jsons3 = open_n_decode(
-        'F:/FrackinUniverse - patch/playermodes.config.patch', "r", "utf_8_sig")
-    test = trans_patch(jsons3)
+        'F:/Elithian_Races_Mod/system_objects.config.patch', "r", "utf_8_sig")
+    test = trans_patch_no_op(jsons3)
     print(test)
+"""

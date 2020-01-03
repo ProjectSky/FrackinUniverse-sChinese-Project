@@ -66,7 +66,8 @@ textHandlers = [
 specialSharedPaths = {
     "glitchEmote": "glitchEmotes",
 }
-
+###更改的部分，目前已知bug：如果不加上endswith，就会过滤到lua，而且会过滤.git文件夹的文件，太蠢了，，，。
+### todo：增加输出不能识别的文件的列表能力，和针对UTF_8bom文件的识别能力
 def parseFile(filename):
     chunk = list()
     if basename(filename)not in ignore_filelist and basename(filename).endswith('.lua') is False:
@@ -114,7 +115,7 @@ def parseFile(filename):
                                 break
     return chunk
 
-
+##上面所提的bug应该与对这部分函数的粗暴修改有关，但是黔驴技穷，我能想到的方法就是这样了，目前来看还是能稳定输出结果的
 def construct_db(assets_dir):
     print("Scanning assets at " + assets_dir)
     db = dict()
