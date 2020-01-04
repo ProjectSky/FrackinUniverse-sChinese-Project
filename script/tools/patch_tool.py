@@ -74,7 +74,7 @@ def trans_patch_no_op(jsons):
         dict_result = zip(path_list, value_list)
     for path, value in dict_result:
         add_value(result1, path, value)
-        result2 = json.dumps(result1).replace('\\', "")
+        result2 = json.dumps(result1).replace('\\', "").replace(': [{"',': {"').replace('}]','}')
     return str(result2)
 
 ###fuck utf8 bom!(未完成)

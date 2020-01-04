@@ -29,8 +29,8 @@ else:
 
 root_dir = "F:/FrackinUniverse"
 prefix = "F:/FrackinUniverse-sChinese-Project/translations/"
-texts_prefix = "texts"
-sub_file = normpath(join(prefix, "substitutions.json"))
+texts_prefix = "patch"
+sub_file = normpath(join(prefix, "patch_substitutions.json"))
 
 glitchEmoteExtractor = regex("^([In]{,3}\s?[A-Za-z-]+\.)\s+(.*)")
 glitchIsHere = regex("^.*[gG]litch.*")
@@ -131,6 +131,7 @@ def construct_db(assets_dir):
         r = p.imap_unordered(parseFile, foi)
         for chunk in r:
             for sec, val, fname, path in chunk:
+                path=path.replace("/0",'',1)
                 if sec not in db:
                     db[sec] = dict()
                 if val not in db[sec]:
@@ -140,7 +141,7 @@ def construct_db(assets_dir):
                 if filename not in db[sec][val]:
                     db[sec][val][filename.replace('.patch','')] = list()
                 if path not in db[sec][val][filename]:
-                    insort_left(db[sec][val][filename.replace('.patch','')], path.replace('/0','',1))
+                    insort_left(db[sec][val][filename.replace('.patch','')], path)
         print(db)
         return db
 
@@ -257,7 +258,6 @@ def final_write(file_buffer):
         print('  ' + d)
         print('Writing...')
     with Pool(8) as p:
-        delete_result = p.map_async(remove, danglings)
         write_result = p.starmap_async(write_file, list(file_buffer.items()))
         p.close()
         p.join()
