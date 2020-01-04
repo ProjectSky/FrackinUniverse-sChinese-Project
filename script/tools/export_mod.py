@@ -14,7 +14,7 @@ def uopen(path, mode):
     return copen(path, mode, "utf-8")
 
 
-translations_dir = "FrackinUniverse-sChinese-Project/translations"
+translations_dir = "/FrackinUniverse-sChinese-Project/translations"
 mod_dir = "mods"
 
 checker = regex('([^\n\s\t\r]+|\r?[\n\s\t])')
@@ -77,7 +77,7 @@ specials = dict()
 
 for subdir, dirs, files in walk(translations_dir):
     for thefile in files:
-        if thefile in ["substitutions.json", "totallabels.json", "translatedlabels.json"]:
+        if thefile in ["substitutions.json", "totallabels.json", "translatedlabels.json","patch_substitutions.json"]:
             continue
         filename = normpath(join(subdir, thefile))
         if filename.startswith(others_path):

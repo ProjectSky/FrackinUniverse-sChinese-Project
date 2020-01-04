@@ -19,14 +19,13 @@ from utils import get_answer
 if platform == "win32":
     from os.path import normpath as normpath_old
 
-
     def normpath(path):
         return normpath_old(path).replace('\\', '/')
 else:
     from os.path import normpath
 
-root_dir = "FrackinUniverse/"
-prefix = "FrackinUniverse-sChinese-Project/translations/"
+root_dir = "/FrackinUniverse/"
+prefix = "/FrackinUniverse-sChinese-Project/translations/"
 texts_prefix = "texts"
 sub_file = normpath(join(prefix, "substitutions.json"))
 
@@ -265,7 +264,13 @@ def final_write(file_buffer):
     p.join()
 '''
 
-if __name__ == "__main__":
+def extract_labels(root_dir, prefix):
+    root_dir = root_dir
+    prefix = prefix
     thedatabase = construct_db(root_dir)
     file_buffer = prepare_to_write(thedatabase)
     final_write(file_buffer)
+if __name__ == "__main__":
+    root_dir = "/FrackinUniverse"
+    prefix = "/FrackinUniverse-sChinese-Project/translations/"
+    extract_labels(root_dir, prefix)
