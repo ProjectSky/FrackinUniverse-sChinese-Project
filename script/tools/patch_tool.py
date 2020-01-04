@@ -74,7 +74,7 @@ def trans_patch_no_op(jsons):
         dict_result = zip(path_list, value_list)
     for path, value in dict_result:
         add_value(result1, path, value)
-        result2 = json.dumps(result1).replace('\\', "").replace(': [{"',': {"').replace('}]','}')
+        result2 = json.dumps(result1).replace('\\', "")
     return str(result2)
 
 ###fuck utf8 bom!(未完成)
@@ -90,5 +90,6 @@ def fuck_utf8_bom(jsons):
 if __name__ == "__main__":
     jsons3 = open_n_decode(
         'F:/FrackinUniverse/dialog/converse.config.patch', "r", "utf_8_sig")
-    test = fuck_utf8_bom(jsons3)
+    test = trans_patch_no_op(jsons3)
+    print(test)
 

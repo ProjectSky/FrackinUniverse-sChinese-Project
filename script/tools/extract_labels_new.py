@@ -27,8 +27,8 @@ if platform == "win32":
 else:
     from os.path import normpath
 
-root_dir = "/FrackinUniverse"
-prefix = "/FrackinUniverse-sChinese-Project/translations/"
+root_dir = "F:/FrackinUniverse"
+prefix = "F:/FrackinUniverse-sChinese-Project/translations/"
 texts_prefix = "texts"
 sub_file = normpath(join(prefix, "substitutions.json"))
 
@@ -70,11 +70,11 @@ specialSharedPaths = {
 ### todo：增加输出不能识别的文件的列表能力，和针对UTF_8bom文件的识别能力
 def parseFile(filename):
     chunk = list()
-    if basename(filename)not in ignore_filelist and basename(filename).endswith('.lua') is False:
+    if basename(filename)not in ignore_filelist and basename(filename).endswith('.patch'):
         print(basename(filename))
         with open_n_decode(filename, "r", "utf_8_sig") as f:
             try:
-                if basename(filename).endswith('.patch') is True:
+                if basename(filename).endswith('.patch'):
                     if basename(filename) in patchfile_spciallist1:
                         string = trans_patch(f)
                         jsondata = loads(string)
@@ -121,10 +121,11 @@ def construct_db(assets_dir):
     db = dict()
     db[""] = dict()
     foi = list()
-    endings = tuple(files_of_interest.keys())+tuple('.patch')
+    patch = tuple('.patch')
+    endings = tuple(files_of_interest.keys())
     for subdir, dirs, files in walk(assets_dir):
         for thefile in files:
-            if thefile.endswith(endings):
+            if thefile.endswith(patch):
                 foi.append(normpath(join(subdir, thefile)))
     with Pool(8) as p:
         r = p.imap_unordered(parseFile, foi)
@@ -137,9 +138,10 @@ def construct_db(assets_dir):
                 filename = normpath(
                     relpath(abspath(fname), abspath(assets_dir)))
                 if filename not in db[sec][val]:
-                    db[sec][val][filename] = list()
+                    db[sec][val][filename.replace('.patch','')] = list()
                 if path not in db[sec][val][filename]:
-                    insort_left(db[sec][val][filename], path)
+                    insort_left(db[sec][val][filename.replace('.patch','')], path.replace('/0','',1))
+        print(db)
         return db
 
 
