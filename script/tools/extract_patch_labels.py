@@ -27,8 +27,8 @@ if platform == "win32":
 else:
     from os.path import normpath
 
-root_dir = ""
-prefix = ""
+root_dir = "F:/FrackinUniverse/" 
+prefix = "F:/FrackinUniverse-sChinese-Project/translations/"
 texts_prefix = "patches"
 sub_file = normpath(join(prefix, "patch_substitutions.json"))
 
@@ -292,3 +292,7 @@ def extract_patch_labels(root_dir,prefix):
     thedatabase = construct_db(root_dir)
     file_buffer = prepare_to_write(thedatabase)
     final_write(file_buffer)
+if __name__ == "__main__":
+    root_dir = "/FrackinUniverse"
+    prefix = "/FrackinUniverse-sChinese-Project/translations/" 
+    extract_patch_labels(root_dir, prefix)
