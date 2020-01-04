@@ -25,8 +25,8 @@ if platform == "win32":
 else:
     from os.path import normpath
 
-root_dir = "F:/FrackinUniverse/"
-prefix = "F:/FrackinUniverse-sChinese-Project/translations/"
+root_dir = "/FrackinUniverse/"
+prefix = "/FrackinUniverse-sChinese-Project/translations/"
 texts_prefix = "texts"
 sub_file = normpath(join(prefix, "substitutions.json"))
 

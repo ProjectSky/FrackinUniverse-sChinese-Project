@@ -10,7 +10,7 @@ from re import compile as regex
 from sys import platform
 
 from patch_tool import trans_patch,trans_patch_no_op
-from ignore_file import ignore_filelist
+from ignore_file import ignore_filelist,ignore_filelist_patch
 from patch_spciallist import patchfile_spciallist1,patchfile_spciallist2
 from json_tools import field_by_path, list_field_paths, prepare
 from parser_settings import files_of_interest
@@ -27,9 +27,9 @@ if platform == "win32":
 else:
     from os.path import normpath
 
-root_dir = "F:/FrackinUniverse"
-prefix = "F:/FrackinUniverse-sChinese-Project/translations/"
-texts_prefix = "patch"
+root_dir = "/FrackinUniverse"
+prefix = "/FrackinUniverse-sChinese-Project/translations/"
+texts_prefix = "patches"
 sub_file = normpath(join(prefix, "patch_substitutions.json"))
 
 glitchEmoteExtractor = regex("^([In]{,3}\s?[A-Za-z-]+\.)\s+(.*)")
@@ -70,7 +70,7 @@ specialSharedPaths = {
 ### todo：增加输出不能识别的文件的列表能力，和针对UTF_8bom文件的识别能力
 def parseFile(filename):
     chunk = list()
-    if basename(filename)not in ignore_filelist and basename(filename).endswith('.patch'):
+    if basename(filename)not in ignore_filelist_patch and basename(filename).endswith('.patch'):
         print(basename(filename))
         with open_n_decode(filename, "r", "utf_8_sig") as f:
             try:
@@ -142,7 +142,6 @@ def construct_db(assets_dir):
                     db[sec][val][filename.replace('.patch','')] = list()
                 if path not in db[sec][val][filename]:
                     insort_left(db[sec][val][filename.replace('.patch','')], path)
-        print(db)
         return db
 
 
@@ -252,12 +251,13 @@ def write_file(filename, content):
 
 # auto processing
 def final_write(file_buffer):
-    danglings = catch_danglings(join(prefix, "texts"), file_buffer)
+    danglings = catch_danglings(join(prefix, "patches"), file_buffer)
     print("These files will be deleted:")
     for d in danglings:
         print('  ' + d)
         print('Writing...')
     with Pool(8) as p:
+        delete_result = p.map_async(remove, danglings)
         write_result = p.starmap_async(write_file, list(file_buffer.items()))
         p.close()
         p.join()
