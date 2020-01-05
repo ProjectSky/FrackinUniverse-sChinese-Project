@@ -4,7 +4,7 @@ import re
 from codecs import open as open_n_decode
 from json_tools import field_by_path, list_field_paths, prepare
 
-##网上抄的函数，用来合成json，结果还算可靠
+##网上抄的函数，用来合成json，结果还算可靠尼玛呢坑死我了
 def add_value(dict_obj, path, value):
     obj = dict_obj
     for i, v in enumerate(path):
@@ -37,45 +37,55 @@ def op_select(jsons):
         index = index+1
     return result
 
-## 绝对可靠的扫描方式之一，但是效率过低，目前只对带remove和test的文件使用
+## 绝对可靠的扫描方式，针对普通的patch，摒弃了繁琐的转换和词典筛选！
 def trans_patch(jsons):
     string = prepare(jsons)
     json_text = json.loads(string)
     value_list = list()
     path_list = list()
-    op_list = op_select(string)
-    result1 = {}
+    path_list_2 = list()
+    value_list_2 =list()
+    op_list = list ()
     for i, value in enumerate(json_text):
-        for op in op_list:
-            value_result = list(list(enumerate(json_text))[op])[1]['value']
-            path_result = list(list(enumerate(json_text))[op])[1]['path'].split('/')
-            path_result = [i for i in path_result if(len(str(i)) != 0)]
-            value_list.append(value_result)
-            path_list.append(path_result)
-    dict_result = zip(path_list, value_list)
-    for path, value in dict_result:
-        add_value(result1, path, value)
-        result2 = json.dumps(result1).replace('\\', "")
-    return str(result2)
-
-###正常的扫描方式，针对普通的patch
-def trans_patch_no_op(jsons):
-    string = prepare(jsons)
-    json_text = json.loads(string)
-    value_list = list()
-    path_list = list()
-    result1 = {}
-    for i, value in enumerate(json_text):
-        value_result = value['value']
-        path_result = str(value['path']).split('/')
-        path_result = [i for i in path_result if(len(str(i)) != 0)]
+        path_result =  value['path']
+        op_result = value['op']
+        try:
+            value_result = value['value']
+        except:
+            value_result = ''
         value_list.append(value_result)
         path_list.append(path_result)
-        dict_result = zip(path_list, value_list)
-    for path, value in dict_result:
-        add_value(result1, path, value)
-        result2 = json.dumps(result1).replace('\\', "")
-    return str(result2)
+        op_list.append(op_result)
+        dict_result = tuple(zip(op_list,path_list, value_list))
+    for i in dict_result:
+        if i[0]  == 'add' or  i[0] == 'replace' :
+            path_1 = i[1]
+            path_2 = list_field_paths(i[2])
+            if path_2 == []:
+                path_2 = ['*']
+            else:
+                pass
+            for v in path_2:
+                if path_2 == ['*']:
+                    value = i[2]
+                    path = path_1.replace('/','',1)
+                    value_list_2.append(value)
+                    path_list_2.append(path)
+                else:
+                    value = field_by_path(i[2],v)
+                    path = (path_1+'/'+ v).replace('/','',1)
+                    value_list_2.append(value)
+                    path_list_2.append(path)
+        else:
+            pass
+    result = tuple(zip(path_list_2,value_list_2))
+    return result
+
+def to_a_list (tuple,no):
+    re = list()
+    for i in tuple:
+        re.append(i[no])
+    return re
 
 ###fuck utf8 bom!(未完成)
 def fuck_utf8_bom(jsons):
@@ -89,7 +99,7 @@ def fuck_utf8_bom(jsons):
 
 if __name__ == "__main__":
     jsons3 = open_n_decode(
-        'F:/FrackinUniverse/dialog/converse.config.patch', "r", "utf_8_sig")
-    test = trans_patch_no_op(jsons3)
+        'F:/FrackinUniverse/radiomessages/exploration.radiomessages.patch', "r", "utf_8_sig")
+    test = trans_patch(jsons3)
     print(test)
 
