@@ -126,7 +126,6 @@ def construct_db(assets_dir):
         r = p.imap_unordered(parseFile, foi)
         for chunk in r:
             for sec, val, fname, path in chunk:
-                path = path.replace("/0", '', 1)
                 if sec not in db:
                     db[sec] = dict()
                 if val not in db[sec]:
