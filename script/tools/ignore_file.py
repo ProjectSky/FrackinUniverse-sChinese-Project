@@ -5,5 +5,6 @@ ignore_filelist = [
     'teslagun2.activeitem'
 ]
 ignore_filelist_patch = [
+    'converse.config.patch',
     'converse.config.json'
 ]
