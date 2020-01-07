@@ -1,4 +1,418 @@
 {
+  "patches": {
+    "ai": {
+      "ai.config.json": 2,
+      "enableteleporter.aicommand.json": 2,
+      "givebeamaxe.aicommand.json": 2,
+      "givepainttool.aicommand.json": 2,
+      "givewiretool.aicommand.json": 2,
+      "shared_.aicommand.json": 1,
+      "shared_upgradeship.json": 2,
+      "upgradeship1.aicommand.json": 3,
+      "upgradeship2.aicommand.json": 5,
+      "upgradeship3.aicommand.json": 5,
+      "upgradeship4.aicommand.json": 3,
+      "upgradeship5.aicommand.json": 3,
+      "upgradeship6.aicommand.json": 3,
+      "upgradeship7.aicommand.json": 4,
+      "upgradeship8.aicommand.json": 4
+    },
+    "behaviors": {
+      "nodes": {
+        "farmable.nodes.json": 5,
+        "module.nodes.json": 2,
+        "npc.nodes.json": 1,
+        "position.nodes.json": 1,
+        "world.nodes.json": 1
+      }
+    },
+    "celestial.config.json": 34,
+    "dialog": {
+      "arrivedhome.config.json": 33,
+      "combat.config.json": 96,
+      "crewmember.config.json": 3,
+      "cultist.config.json": 55,
+      "fenerox.config.json": 8,
+      "flee.config.json": 38,
+      "guard.config.json": 11,
+      "merchant.config.json": 183,
+      "quest.config.json": 47,
+      "shared_.config.json": 30,
+      "thief.config.json": 9
+    },
+    "dungeons": {
+      "space": {
+        "playerstation": {
+          "parts.config.json": 6
+        }
+      }
+    },
+    "glitchEmotes.json": 5,
+    "interface": {
+      "itemdescriptions": {
+        "sword.itemdescription.json": 1
+      },
+      "scripted": {
+        "mechassembly": {
+          "mechassemblygui.config.json": 14
+        },
+        "mmupgrade": {
+          "shared_mmupgradegui..json": 1
+        }
+      },
+      "shared_mech.json": 1,
+      "stats": {
+        "stats.config.json": 5
+      },
+      "tooltips": {
+        "sword.tooltip.json": 3
+      },
+      "windowconfig": {
+        "charcreation.config.json": 1
+      }
+    },
+    "interface.json": 4,
+    "items": {
+      "active": {
+        "unsorted": {
+          "oredetector": {
+            "oredetector.activeitem.json": 9
+          },
+          "parasol": {
+            "parasol.activeitem.json": 3
+          },
+          "relocator": {
+            "relocator.activeitem.json": 7
+          }
+        },
+        "weapons": {
+          "bossdrop": {
+            "soluskatana": {
+              "soluskatana.activeitem.json": 2
+            }
+          },
+          "other": {
+            "drillspear": {
+              "drillspear.activeitem.json": 1
+            },
+            "remotegrenadelauncher": {
+              "remotegrenadelauncher.activeitem.json": 1
+            }
+          },
+          "protectorate": {
+            "brokenprotectoratebroadsword.activeitem.json": 2,
+            "protectoratebroadsword": {
+              "protectoratebroadsword.activeitem.json": 3
+            }
+          },
+          "ranged": {
+            "assaultrifle": {
+              "shared_assaultrifle.activeitem.json": 1
+            },
+            "grenadelauncher": {
+              "raregrenadelauncher.activeitem.json": 1,
+              "shared_commongrenadelauncher.activeitem.json": 1,
+              "shared_grenadelauncher.activeitem.json": 1
+            },
+            "machinepistol": {
+              "shared_machinepistol.activeitem.json": 1
+            },
+            "pistol": {
+              "commonpistol.activeitem.json": 1,
+              "rarepistol.activeitem.json": 1,
+              "shared_pistol.activeitem.json": 1,
+              "uncommonpistol.activeitem.json": 1
+            },
+            "rocketlauncher": {
+              "shared_rocketlauncher.activeitem.json": 1
+            },
+            "shotgun": {
+              "shared_shotgun.activeitem.json": 1
+            },
+            "sniperrifle": {
+              "commonsniperrifle.activeitem.json": 1,
+              "raresniperrifle.activeitem.json": 1,
+              "shared_sniperrifle.activeitem.json": 1,
+              "uncommonsniperrifle.activeitem.json": 1
+            }
+          }
+        }
+      },
+      "armors": {
+        "backitems": {
+          "aviangodwings": {
+            "aviangodwings.back.json": 1
+          },
+          "baroncape": {
+            "baroncape.back.json": 1
+          },
+          "batterypackAA": {
+            "batterypackAA.back.json": 1
+          },
+          "bladedwings": {
+            "bladedwings.back.json": 1
+          },
+          "boiler": {
+            "boiler.back.json": 1
+          },
+          "bonewings": {
+            "bonewings.back.json": 1
+          },
+          "crystalpack": {
+            "crystalpack.back.json": 1
+          },
+          "dangerbarrel": {
+            "dangerbarrel.back.json": 1
+          },
+          "demonwings": {
+            "demonwings.back.json": 1
+          },
+          "eye": {
+            "eye.back.json": 1
+          },
+          "oxygentank": {
+            "oxygentank.back.json": 1
+          },
+          "paperwings": {
+            "paperwings.back.json": 1
+          },
+          "parachutepack": {
+            "parachutepack.back.json": 1
+          },
+          "rainbowcape": {
+            "rainbowcape.back.json": 1
+          },
+          "shared_wings": {
+            "shared_wings.back.json": 2
+          },
+          "shortcape": {
+            "shortcape.back.json": 1
+          },
+          "simplecape": {
+            "simplecape.back.json": 1
+          },
+          "tigertail": {
+            "tigertail.back.json": 1
+          },
+          "toxicflower": {
+            "toxicflower.back.json": 1
+          },
+          "toxicwaste": {
+            "toxicwaste.back.json": 1
+          },
+          "turtleshell": {
+            "turtleshell.back.json": 1
+          }
+        },
+        "other": {
+          "hazmat": {
+            "shared_hazmat..json": 1
+          },
+          "spacesuit": {
+            "spacesuit.back.json": 1,
+            "spacesuit.chest.json": 1,
+            "spacesuit.head.json": 1,
+            "spacesuit.legs.json": 1
+          }
+        }
+      },
+      "categories.config.json": 61,
+      "generic": {
+        "crafting": {
+          "uraniumore.item.json": 1
+        },
+        "mechparts": {
+          "arm": {
+            "mecharmshielddrone.item.json": 2
+          }
+        },
+        "other": {
+          "mysterioustrashbag.item.json": 1,
+          "protectorateflyer.item.json": 2
+        },
+        "produce": {
+          "banana.consumable.json": 1,
+          "crystalplant.item.json": 1
+        }
+      },
+      "rotting.config.json": 7
+    },
+    "npcs": {
+      "dungeon": {
+        "apexbase": {
+          "labscientist.npctype.json": 7
+        },
+        "aviantemple": {
+          "templeguard.npctype.json": 14
+        },
+        "aviantomb": {
+          "tombguard.npctype.json": 19
+        },
+        "shared_.npctype.json": 1
+      },
+      "mission": {
+        "protectoratehallstaff.npctype.json": 2,
+        "protectoratehallstudent5.npctype.json": 3,
+        "protectoratelobbylounger.npctype.json": 1,
+        "protectoratelobbystudent2.npctype.json": 2
+      },
+      "statuses.config.json": 149
+    },
+    "objects": {
+      "crafting": {
+        "upgradeablecraftingobjects": {
+          "craftingfurnace": {
+            "craftingfurnace.object.json": 4
+          },
+          "craftingmedical": {
+            "craftingmedical.object.json": 11
+          },
+          "craftingwheel": {
+            "craftingwheel.object.json": 4
+          }
+        },
+        "woodencookingtable": {
+          "woodencookingtable.object.json": 14
+        }
+      },
+      "farmables": {
+        "avikanspiceplant": {
+          "wildavikanspiceplantseed.object.json": 1
+        }
+      },
+      "generic": {
+        "poop": {
+          "poop.object.json": 1
+        }
+      },
+      "outpost": {
+        "penguinbay": {
+          "penguinbay.object.json": 1
+        },
+        "shipyardcaptain": {
+          "shipyardcaptain.object.json": 1
+        },
+        "shipyardwelding": {
+          "shipyardwelding.object.json": 2
+        }
+      },
+      "protectorate": {
+        "objects": {
+          "protectorateincap1": {
+            "protectorateincap1.object.json": 3
+          },
+          "protectorateincap2": {
+            "protectorateincap2.object.json": 3
+          },
+          "protectorateincap3": {
+            "protectorateincap3.object.json": 3
+          },
+          "protectorateincap4": {
+            "protectorateincap4.object.json": 3
+          },
+          "protectorateincap5": {
+            "protectorateincap5.object.json": 3
+          },
+          "protectorateincap6": {
+            "protectorateincap6.object.json": 3
+          }
+        },
+        "protectorateinfobooth": {
+          "protectorateinfobooth.object.json": 1
+        }
+      },
+      "ship": {
+        "techstation": {
+          "techstation.object.json": 2
+        },
+        "techstationtier0": {
+          "techstationTier0.object.json": 3
+        }
+      },
+      "wired": {
+        "logic": {
+          "and.object.json": 3,
+          "delay.object.json": 1,
+          "dlatch.object.json": 3,
+          "not.object.json": 2,
+          "or.object.json": 3,
+          "xor.object.json": 3
+        },
+        "persistentswitch": {
+          "persistentswitch.object.json": 3
+        },
+        "smallwallswitch": {
+          "shared_smallwallswitch.json": 8,
+          "smallwallswitch.object.json": 1,
+          "smallwallswitchlit.object.json": 1
+        }
+      }
+    },
+    "quests": {
+      "generated": {
+        "locations.config.json": 112,
+        "pools": {
+          "weapon.config.json": 7
+        }
+      },
+      "other": {
+        "transponder.questtemplate.json": 1
+      },
+      "outpost": {
+        "outpostclue.questtemplate.json": 1,
+        "techscientist4.questtemplate.json": 1,
+        "techscientist5.questtemplate.json": 2,
+        "techscientist6.questtemplate.json": 2
+      },
+      "story": {
+        "gaterepair.questtemplate.json": 5,
+        "human_mission1.questtemplate.json": 4,
+        "protectorate.questtemplate.json": 3,
+        "shiprepair.questtemplate.json": 4
+      }
+    },
+    "quickbar": {
+      "icons.json.json": 5
+    },
+    "radiomessages": {
+      "exploration.radiomessages.json": 35,
+      "intro.radiomessages.json": 1,
+      "mech.radiomessages.json": 25,
+      "missions.radiomessages.json": 289,
+      "quests.radiomessages.json": 5,
+      "techchallenge.radiomessages.json": 1,
+      "tutorial.radiomessages.json": 2
+    },
+    "shared_ome.json": 1,
+    "species": {
+      "fenerox.species.json": 2,
+      "feneroxnamegen.config.json": 22,
+      "shadow.species.json": 2
+    },
+    "system_objects.config.json": 24,
+    "tiles": {
+      "materials": {
+        "rock01.material.json": 3,
+        "rock02.material.json": 3,
+        "rock03.material.json": 3,
+        "rock04.material.json": 3,
+        "rock12.material.json": 3,
+        "rock14.material.json": 3,
+        "rock15.material.json": 3,
+        "rock17.material.json": 3,
+        "rock19.material.json": 3,
+        "rock20.material.json": 3
+      },
+      "mods": {
+        "moonstone.matmod.json": 1
+      }
+    },
+    "vehicles": {
+      "modularmech": {
+        "modularmech.vehicle.json": 14
+      }
+    }
+  },
   "texts": {
     "a_notyetadded": {
       "contestentries": {
@@ -4819,7 +5233,7 @@
           "cinnabarore.item.json": 1,
           "circuitboard.item.json": 2,
           "corruptionore.item.json": 1,
-          "darkmatter.item.json": 2,
+          "darkmatter.item.json": 1,
           "densiniumore.item.json": 2,
           "dnasample.item.json": 2,
           "duskiline.item.json": 1,
@@ -6973,9 +7387,9 @@
       "generated": {
         "flying": {
           "skills": {
-            "divebombAttack.monsterskill.json": 1,
             "pigeonSwoopAttack.monsterskill.json": 1,
-            "raptorswoopAttack.monsterskill.json": 1
+            "raptorswoopAttack.monsterskill.json": 1,
+            "shared_Attack.monsterskill.json": 1
           }
         },
         "ground": {
@@ -7169,6 +7583,7 @@
           "raptorstrikeattack.monsterskill.json": 1,
           "robotRocketAttack.monsterskill.json": 1,
           "robotgaussAttack.monsterskill.json": 1,
+          "shared_Attack.monsterskill.json": 3,
           "shared_PoisonBlastAttack.monsterskill.json": 1,
           "shared_attack.monsterskill.json": 1,
           "slimePoisonSpewAttack.monsterskill.json": 1,
@@ -11590,10 +12005,9 @@
           "yellowtail.object.json": 1
         },
         "wasteland": {
-          "mechruin.object.json": 2,
           "populationsign.object.json": 2,
           "ruinslamppost.object.json": 2,
-          "shared_.object.json": 2
+          "shared_.object.json": 4
         }
       },
       "minibiome.json": 3,
@@ -17372,7 +17786,6 @@
     },
     "quests.json": 1,
     "radiomessages": {
-      "exploration.radiomessages.json": 34,
       "fu_chemlab.radiomessages.json": 9,
       "fu_elder.radiomessages.json": 34,
       "fu_exploration.radiomessages.json": 72,
@@ -17383,8 +17796,6 @@
       "fu_quests.radiomessages.json": 12,
       "fu_resources.radiomessages.json": 51,
       "fu_stations.radiomessages.json": 2,
-      "mech.radiomessages.json": 25,
-      "missions.radiomessages.json": 267,
       "shared_.radiomessages.json": 1,
       "shared_es.radiomessages.json": 1
     },
@@ -18997,7 +19408,7 @@
         "sturdyplatform.material.json": 2
       }
     },
-    "wide_spread_fields.json": 167,
+    "wide_spread_fields.json": 168,
     "zb": {
       "newSail": {
         "data.config.json": 7,
@@ -19008,6 +19419,7 @@
         "questList.config.json": 2
       },
       "researchTree": {
+        "madness.config.json": 63,
         "researchTree.config.json": 2
       },
       "updateInfoWindow": {
