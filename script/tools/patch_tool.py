@@ -88,18 +88,14 @@ def to_a_list (tuple,no):
     return re
 
 ###fuck utf8 bom!(未完成)
+"""
 def fuck_utf8_bom(jsons):
     print(str(jsons))
     u = str(jsons).decode('utf-8-sig') 
     s = u.encode('utf-8') 
     return s
-     
- 
-
-
-if __name__ == "__main__":
-    jsons3 = open_n_decode(
-        'F:/FrackinUniverse/radiomessages/exploration.radiomessages.patch', "r", "utf_8_sig")
-    test = trans_patch(jsons3)
-    print(test)
-
+"""
+def convert(jsons):
+    raw = jsons.read()
+    newRaw = raw.decode('utf8')
+    print(newRaw)
