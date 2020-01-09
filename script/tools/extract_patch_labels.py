@@ -12,7 +12,6 @@ from sys import platform
 from patch_tool import trans_patch, to_a_list
 from ignore_file import ignore_filelist, ignore_filelist_patch
 from patch_spciallist import patchfile_spciallist1, patchfile_spciallist2
-from json_tools import field_by_path, list_field_paths, prepare
 from parser_settings import files_of_interest
 from shared_path import getSharedPath
 from special_cases import specialSections
@@ -30,6 +29,7 @@ root_dir = "/FrackinUniverse/"
 prefix = "/FrackinUniverse-sChinese-Project/translations/"
 texts_prefix = "patches"
 sub_file = normpath(join(prefix, "patch_substitutions.json"))
+pro_list = normpath(join(prefix, "patch_problem.txt"))
 
 glitchEmoteExtractor = regex("^([In]{,3}\s?[A-Za-z-]+\.)\s+(.*)")
 glitchIsHere = regex("^.*[gG]litch.*")
@@ -65,9 +65,8 @@ textHandlers = [
 specialSharedPaths = {
     "glitchEmote": "glitchEmotes",
 }
-# 更改的部分，目前已知bug：如果不加上endswith，就会过滤到lua，而且会过滤.git文件夹的文件，太蠢了，，，。
-# todo：增加输出不能识别的文件的列表能力，和针对UTF_8bom文件的识别能力
 
+# 增加了输出不能识别的文件的列表能力！utf-8bom byebye！
 
 def parseFile(filename):
     chunk = list()
@@ -83,10 +82,13 @@ def parseFile(filename):
                     string = trans_patch(f)
             except:
                 print("Cannot parse " + filename)
+                problem_file = open(pro_list,'a')
+                problem_file.writelines(filename.replace(root_dir,'')+'\n')
+                problem_file.close()
                 return []
             paths = to_a_list(string, 0)
             dialog = dirname(filename.replace('.patch', '')).endswith("dialog")
-            for i,path in enumerate(paths):
+            for i, path in enumerate(paths):
                 for k in files_of_interest.keys():
                     if filename.replace('.patch', '').endswith(k) or k == "*":
                         for roi in files_of_interest[k]:
@@ -108,7 +110,6 @@ def parseFile(filename):
                                 break
     return chunk
 
-# 上面所提的bug应该与对这部分函数的粗暴修改有关，但是黔驴技穷，我能想到的方法就是这样了，目前来看还是能稳定输出结果的
 
 
 def construct_db(assets_dir):
@@ -285,12 +286,12 @@ if __name__ == "__main__":
 
 
 def extract_patch_labels(root_dir, prefix):
+    open(pro_list,'w').truncate()
     root_dir = root_dir
     prefix = prefix
     thedatabase = construct_db(root_dir)
     file_buffer = prepare_to_write(thedatabase)
     final_write(file_buffer)
-
 
 if __name__ == "__main__":
     root_dir = "/FrackinUniverse/"
