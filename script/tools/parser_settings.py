@@ -83,6 +83,7 @@ foi = {
     ".itemdescription": [],
     ".collection": [],
     ".animation": [],
+    ".aicommand":['.+buttonText/.+$'],
     "madness.config":[".+research/.+$"],
     "system_objects.config":[".*/displayName$"]
 }
