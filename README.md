@@ -5,8 +5,9 @@
 
 #### 注意
 
-* 请不要再往该仓库的任何分支提交拉请求，此仓库仅作为归档使用，远程gitlab仓库的更改均会自动同步至此。
-* 项目移至gitlab 主页：[FrackinUniverse-sChinese-Project](https://gitlab.imsky.cc/ProjectSky-Translation-Team/FrackinUniverse-sChinese-Project)
+* ~~请不要再往该仓库的任何分支提交拉请求，此仓库仅作为归档使用，远程gitlab仓库的更改均会自动同步至此。~~
+* ~~项目移至gitlab 主页：[FrackinUniverse-sChinese-Project](https://gitlab.imsky.cc/ProjectSky-Translation-Team/FrackinUniverse-sChinese-Project)~~
+* 悲报，gitlab炸了，项目暂时整回github了！
 
 #### 停止维护
 
@@ -15,6 +16,7 @@
 #### 自动构建说明
 
 * 自动构建于 Frackin' Universe Release 后自动更新，自动更新最新的 Frackin' Universe 文本，并合并 FAST 分支中已有的文本。
+* 简单的来说就是FU更新了一个版本后，自动构建会输出上个版本的FU汉化mod。
 
 #### 提交拉请求说明
 
@@ -22,12 +24,13 @@
 
 #### 协助翻译流程
 
-* 在线编辑（此方法比较方便，编辑器带有语法检查，可以防止语法错误，不过浏览器崩了或其他原因会丢失数据，还是推荐克隆到本地进行编辑。）
-* 请参阅[JOIN_US.md](https://gitlab.imsky.cc/ProjectSky-Translation-Team/FrackinUniverse-sChinese-Project/blob/FAST/reference/JOIN_US.md)文档
+* ~~在线编辑（此方法比较方便，编辑器带有语法检查，可以防止语法错误，不过浏览器崩了或其他原因会丢失数据，还是推荐克隆到本地进行编辑。）~~
+* 请参阅[JOIN_US.md](https://github.com/ProjectSky/FrackinUniverse-sChinese-Project/blob/FAST/reference/JOIN_US.md)文档
+* 对于汉化小白，请参阅[小白专属教程](https://github.com/ProjectSky/FrackinUniverse-sChinese-Project/blob/FAST/reference/JOIN_US_FRASHMAN.md)（
 
 #### 链接信息
 
-* [最新版本下载](https://gitlab.imsky.cc/ProjectSky-Translation-Team/FrackinUniverse-sChinese-Project/tags)
+* [最新版本下载](https://github.com/ProjectSky/FrackinUniverse-sChinese-Project/releases)
 * [翻译进度查阅](https://projectsky.github.io/FrackinUniverse-sChinese)
 * [Telegram群组](https://t.me/joinchat/DR0AV0kjlPgEmltSqwr12Q)
 * [Telegram web](https://projectsky.github.io/telegram)

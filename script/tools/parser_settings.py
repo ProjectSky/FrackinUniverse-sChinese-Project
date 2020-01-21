@@ -83,8 +83,10 @@ foi = {
     ".itemdescription": [],
     ".collection": [],
     ".animation": [],
+    ".aicommand":['.+buttonText/.+$'],
     "madness.config":[".+research/.+$"],
-    "system_objects.config":[".*/displayName$"]
+    "system_objects.config":[".*/displayName$"],
+    "parts.config":[".*/displayName$"]
 }
 
 files_of_interest = dict()

@@ -9,7 +9,7 @@ from os.path import abspath, basename, dirname, exists, join, relpath
 from re import compile as regex
 from sys import platform
 
-from patch_tool import trans_patch, to_a_list
+from patch_tool import trans_patch, to_a_list, trans_patch_spcial_1
 from ignore_file import ignore_filelist, ignore_filelist_patch
 from patch_spciallist import patchfile_spciallist1, patchfile_spciallist2
 from parser_settings import files_of_interest
@@ -68,22 +68,23 @@ specialSharedPaths = {
 
 # 增加了输出不能识别的文件的列表能力！utf-8bom byebye！
 
+
 def parseFile(filename):
     chunk = list()
     if basename(filename)not in ignore_filelist_patch and basename(filename).endswith('.patch'):
         print(basename(filename))
         with open_n_decode(filename, "r", "utf_8_sig") as f:
             try:
-                if basename(filename) in patchfile_spciallist1:
-                    string = trans_patch(f)
+                if basename(filename) in dict.keys(patchfile_spciallist1):
+                    string = trans_patch_spcial_1(f,patchfile_spciallist1[basename(filename)])
                 elif basename(filename) in patchfile_spciallist2:
                     string = trans_patch(f)
                 else:
                     string = trans_patch(f)
             except:
                 print("Cannot parse " + filename)
-                problem_file = open(pro_list,'a')
-                problem_file.writelines(filename.replace(root_dir,'')+'\n')
+                problem_file = open(pro_list, 'a')
+                problem_file.writelines(filename.replace(root_dir, '')+'\n')
                 problem_file.close()
                 return []
             paths = to_a_list(string, 0)
@@ -109,7 +110,6 @@ def parseFile(filename):
                                         break
                                 break
     return chunk
-
 
 
 def construct_db(assets_dir):
@@ -286,12 +286,13 @@ if __name__ == "__main__":
 
 
 def extract_patch_labels(root_dir, prefix):
-    open(pro_list,'w').truncate()
+    open(pro_list, 'w').truncate()
     root_dir = root_dir
     prefix = prefix
     thedatabase = construct_db(root_dir)
     file_buffer = prepare_to_write(thedatabase)
     final_write(file_buffer)
+
 
 if __name__ == "__main__":
     root_dir = "/FrackinUniverse/"
