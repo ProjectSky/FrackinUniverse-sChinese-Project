@@ -30,24 +30,25 @@
     "dialog": {
       "arrivedhome.config.json": 33,
       "combat.config.json": 96,
+      "converse.config.json": 1090,
       "crewmember.config.json": 3,
       "cultist.config.json": 55,
-      "fenerox.config.json": 8,
+      "fenerox.config.json": 4,
       "flee.config.json": 38,
-      "guard.config.json": 11,
+      "guard.config.json": 10,
       "merchant.config.json": 183,
       "quest.config.json": 47,
-      "shared_.config.json": 30,
+      "shared_.config.json": 35,
       "thief.config.json": 9
     },
     "dungeons": {
       "space": {
         "playerstation": {
-          "parts.config.json": 6
+          "parts.config.json": 12
         }
       }
     },
-    "glitchEmotes.json": 5,
+    "glitchEmotes.json": 47,
     "interface": {
       "itemdescriptions": {
         "sword.itemdescription.json": 1
@@ -383,7 +384,6 @@
       "techchallenge.radiomessages.json": 1,
       "tutorial.radiomessages.json": 2
     },
-    "shared_ome.json": 1,
     "species": {
       "fenerox.species.json": 2,
       "feneroxnamegen.config.json": 22,
@@ -411,7 +411,8 @@
       "modularmech": {
         "modularmech.vehicle.json": 14
       }
-    }
+    },
+    "wide_spread_fields.json": 1
   },
   "texts": {
     "a_notyetadded": {
@@ -1297,6 +1298,7 @@
         "fissionfurnace.config.json": 2,
         "fruitpress.config.json": 2,
         "fu_shipcraftingtable.config.json": 2,
+        "fuburgerfool.config.json": 2,
         "fucorpsewagon.config.json": 1,
         "fuempty.config.json": 2,
         "fufoodshopfloran.config.json": 2,
@@ -6300,6 +6302,7 @@
         "fualiengrass.matitem.json": 2,
         "fudarkness.matitem.json": 1,
         "fudarknesssloped.matitem.json": 1,
+        "fudarkwoodenplatform.matitem.json": 1,
         "fujellyblock.matitem.json": 1,
         "fulabpipe.matitem.json": 1,
         "fulabscreen.matitem.json": 1,
@@ -6391,6 +6394,7 @@
         "shared_platform.matitem.json": 1,
         "shared_precursor.json": 1,
         "shared_unrefined.json": 1,
+        "shared_woodenplatform.matitem.json": 4,
         "shared_woodenwindow1.matitem.json": 1,
         "shojilattice.matitem.json": 1,
         "shroomblockglow.matitem.json": 1,
@@ -6549,7 +6553,7 @@
       "wastewater.liquid.json": 1
     },
     "materials": {
-      "shared_.mat.json": 4,
+      "shared_.mat.json": 3,
       "shared_aegisaltcrystal.mat.json": 1,
       "shared_al.mat.json": 1,
       "shared_aliensoil.mat.json": 1,
@@ -6585,20 +6589,12 @@
       "shared_claytile.mat.json": 4,
       "shared_dark.json": 9,
       "shared_darkwatercoral.mat.json": 1,
-      "shared_darkwood.json": 4,
+      "shared_darkwood.json": 7,
       "shared_darkwoodpanelling.mat.json": 1,
       "shared_deadearth.mat.json": 2,
-      "shared_dollhousecrosshatch.mat.json": 1,
-      "shared_dollhouseflooring.mat.json": 5,
-      "shared_dollhouseroofing.mat.json": 5,
-      "shared_dollhousestriped.mat.json": 1,
-      "shared_dollhousetiles.mat.json": 4,
-      "shared_dollhousewall.mat.json": 1,
-      "shared_dollhousewindow1.mat.json": 2,
-      "shared_dollhousewood.mat.json": 2,
-      "shared_dollhousewood2.mat.json": 4,
+      "shared_dollhouse.json": 25,
       "shared_dynast.json": 9,
-      "shared_dynastwood.json": 4,
+      "shared_dynastwood.json": 7,
       "shared_ebonblock.json": 1,
       "shared_edbonematerial.mat.json": 1,
       "shared_edglass.mat.json": 1,
@@ -6676,7 +6672,7 @@
       "shared_junglestone.json": 1,
       "shared_kt_solpanblock.mat.json": 2,
       "shared_light.json": 8,
-      "shared_lightwood.json": 4,
+      "shared_lightwood.json": 7,
       "shared_magma.json": 2,
       "shared_marbleblock.mat.json": 2,
       "shared_marblepillarblock.mat.json": 1,
@@ -6712,6 +6708,7 @@
       "shared_raincloud.json": 1,
       "shared_rainforestfloorflowers.mat.json": 2,
       "shared_raw.json": 3,
+      "shared_rawwood.json": 2,
       "shared_redhotcobblestone.mat.json": 4,
       "shared_redsand.json": 1,
       "shared_redsand.mat.json": 1,
@@ -6749,15 +6746,16 @@
       "shared_toiletpaperroll.mat.json": 2,
       "shared_treated.json": 3,
       "shared_treatedwood.json": 4,
+      "shared_veluu.json": 13,
       "shared_vinewall.mat.json": 1,
       "shared_violiumcrystal.mat.json": 1,
       "shared_wastestone.mat.json": 2,
       "shared_weathered.json": 10,
       "shared_window.json": 15,
-      "shared_wood.json": 13,
+      "shared_wood.json": 18,
       "shared_woodentrim.mat.json": 2
     },
-    "materials.json": 45,
+    "materials.json": 55,
     "monsters": {
       "bees": {
         "adaptivebee": {
@@ -10810,6 +10808,9 @@
           "electronmicroscope": {
             "electronmicroscope.object.json": 2
           },
+          "fulargeterminal": {
+            "fulargeterminal.object.json": 2
+          },
           "labchair": {
             "labchair.object.json": 2
           },
@@ -11860,6 +11861,9 @@
           "precursorlightstrip": {
             "precursorlightstrip.object.json": 1,
             "precursorlightstripdim.object.json": 2
+          },
+          "precursormainframe": {
+            "precursormainframe.object.json": 2
           },
           "precursormatrix": {
             "precursormatrix.object.json": 2
@@ -13486,6 +13490,9 @@
         "scb-watertrap.object.json": 2
       },
       "scienceoutpost": {
+        "burgerfool": {
+          "burgerfool.object.json": 8
+        },
         "fufoodshop": {
           "fufoodshop.object.json": 2
         },
@@ -17826,6 +17833,7 @@
     "shared_cake.json": 1,
     "shared_charredflesh.json": 1,
     "shared_cloud.json": 1,
+    "shared_cloudplatform.mat.json": 3,
     "shared_corpsewagon..json": 1,
     "shared_crayonbox..json": 1,
     "shared_cute": {
@@ -17861,12 +17869,16 @@
     "shared_feya.json": 1,
     "shared_fig.json": 1,
     "shared_fish..json": 1,
-    "shared_fu_cloudplatform.mat.json": 5,
+    "shared_fu_cloudplatform.mat.json": 2,
     "shared_fu_copperladder.mat.json": 2,
     "shared_fu_copperplatform.mat.json": 1,
+    "shared_fu_raincloudplatform.mat.json": 2,
     "shared_fuaetherdustplatform.mat.json": 1,
     "shared_fuaetherplatform.mat.json": 1,
     "shared_fuapplehoneypie.json": 1,
+    "shared_fudynastwoodenplatform.mat.json": 1,
+    "shared_fulightwoodenplatform.mat.json": 1,
+    "shared_furawwoodenplatform.mat.json": 1,
     "shared_girdirplatform.mat.json": 1,
     "shared_greg.json": 1,
     "shared_hellfire.json": 1,
@@ -19129,10 +19141,12 @@
         "crystalsand.material.json": 2,
         "darkness.material.json": 2,
         "darkstone.material.json": 2,
-        "dollhousepillar.material.json": 5,
-        "dollhousestriped.material.json": 1,
-        "dollhousewindow2.material.json": 2,
-        "dollhousewood2.material.json": 1,
+        "dollhouse": {
+          "dollhousepillar.material.json": 5,
+          "dollhousestriped.material.json": 1,
+          "dollhousewindow2.material.json": 2,
+          "dollhousewood2.material.json": 1
+        },
         "dynastwood": {
           "fudynastornateflooring.material.json": 1,
           "fudynastwoodenwindow1.material.json": 1
@@ -19408,10 +19422,12 @@
         "cuteplatform.material.json": 2,
         "fu_copperladder.material.json": 3,
         "fu_copperplatform.material.json": 4,
+        "fudarkwoodenplatform.material.json": 1,
         "girdirplatform.material.json": 1,
         "richplatform.material.json": 2,
         "shared_honeyplatform.material.json": 1,
         "shared_platform.material.json": 2,
+        "shared_woodenplatform.material.json": 4,
         "somaBridgePlatform.material.json": 2,
         "sturdyplatform.material.json": 2
       }
