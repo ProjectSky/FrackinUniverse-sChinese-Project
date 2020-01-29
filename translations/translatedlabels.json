@@ -1,7 +1,7 @@
 {
   "patches": {
     "ai": {
-      "ai.config.json": 0,
+      "ai.config.json": 1,
       "enableteleporter.aicommand.json": 0,
       "givebeamaxe.aicommand.json": 0,
       "givepainttool.aicommand.json": 0,
@@ -30,6 +30,7 @@
     "dialog": {
       "arrivedhome.config.json": 0,
       "combat.config.json": 0,
+      "converse.config.json": 0,
       "crewmember.config.json": 0,
       "cultist.config.json": 1,
       "fenerox.config.json": 0,
@@ -43,21 +44,21 @@
     "dungeons": {
       "space": {
         "playerstation": {
-          "parts.config.json": 0
+          "parts.config.json": 6
         }
       }
     },
     "glitchEmotes.json": 0,
     "interface": {
       "itemdescriptions": {
-        "sword.itemdescription.json": 0
+        "sword.itemdescription.json": 1
       },
       "scripted": {
         "mechassembly": {
-          "mechassemblygui.config.json": 0
+          "mechassemblygui.config.json": 14
         },
         "mmupgrade": {
-          "shared_mmupgradegui..json": 0
+          "shared_mmupgradegui..json": 1
         }
       },
       "shared_mech.json": 0,
@@ -65,10 +66,10 @@
         "stats.config.json": 0
       },
       "tooltips": {
-        "sword.tooltip.json": 0
+        "sword.tooltip.json": 3
       },
       "windowconfig": {
-        "charcreation.config.json": 0
+        "charcreation.config.json": 1
       }
     },
     "interface.json": 0,
@@ -383,7 +384,6 @@
       "techchallenge.radiomessages.json": 1,
       "tutorial.radiomessages.json": 2
     },
-    "shared_ome.json": 0,
     "species": {
       "fenerox.species.json": 2,
       "feneroxnamegen.config.json": 0,
@@ -411,7 +411,8 @@
       "modularmech": {
         "modularmech.vehicle.json": 0
       }
-    }
+    },
+    "wide_spread_fields.json": 0
   },
   "texts": {
     "a_notyetadded": {
@@ -1297,6 +1298,7 @@
         "fissionfurnace.config.json": 2,
         "fruitpress.config.json": 2,
         "fu_shipcraftingtable.config.json": 2,
+        "fuburgerfool.config.json": 0,
         "fucorpsewagon.config.json": 1,
         "fuempty.config.json": 2,
         "fufoodshopfloran.config.json": 2,
@@ -2777,7 +2779,7 @@
               "crankpistol.activeitem.json": 2,
               "crankrifle.activeitem.json": 2,
               "crossgun": {
-                "crossgun.activeitem.json": 0
+                "crossgun.activeitem.json": 1
               },
               "crystalgun.activeitem.json": 2,
               "curveblaster.activeitem.json": 3,
@@ -5696,7 +5698,7 @@
           "bloodycorpsewaffles.consumable.json": 2,
           "bluejelly.consumable.json": 2,
           "bolbohnjam.consumable.json": 2,
-          "bowlofbrains.consumable.json": 0,
+          "bowlofbrains.consumable.json": 2,
           "brainyummy.consumable.json": 2,
           "butteronastick.consumable.json": 2,
           "caramelsoggypaper.consumable.json": 2,
@@ -6300,6 +6302,7 @@
         "fualiengrass.matitem.json": 2,
         "fudarkness.matitem.json": 1,
         "fudarknesssloped.matitem.json": 1,
+        "fudarkwoodenplatform.matitem.json": 0,
         "fujellyblock.matitem.json": 1,
         "fulabpipe.matitem.json": 1,
         "fulabscreen.matitem.json": 1,
@@ -6391,6 +6394,7 @@
         "shared_platform.matitem.json": 1,
         "shared_precursor.json": 1,
         "shared_unrefined.json": 1,
+        "shared_woodenplatform.matitem.json": 0,
         "shared_woodenwindow1.matitem.json": 1,
         "shojilattice.matitem.json": 1,
         "shroomblockglow.matitem.json": 1,
@@ -6549,7 +6553,7 @@
       "wastewater.liquid.json": 1
     },
     "materials": {
-      "shared_.mat.json": 4,
+      "shared_.mat.json": 3,
       "shared_aegisaltcrystal.mat.json": 1,
       "shared_al.mat.json": 1,
       "shared_aliensoil.mat.json": 1,
@@ -6588,15 +6592,7 @@
       "shared_darkwood.json": 4,
       "shared_darkwoodpanelling.mat.json": 1,
       "shared_deadearth.mat.json": 2,
-      "shared_dollhousecrosshatch.mat.json": 1,
-      "shared_dollhouseflooring.mat.json": 5,
-      "shared_dollhouseroofing.mat.json": 5,
-      "shared_dollhousestriped.mat.json": 1,
-      "shared_dollhousetiles.mat.json": 4,
-      "shared_dollhousewall.mat.json": 1,
-      "shared_dollhousewindow1.mat.json": 2,
-      "shared_dollhousewood.mat.json": 2,
-      "shared_dollhousewood2.mat.json": 4,
+      "shared_dollhouse.json": 25,
       "shared_dynast.json": 9,
       "shared_dynastwood.json": 4,
       "shared_ebonblock.json": 1,
@@ -6712,6 +6708,7 @@
       "shared_raincloud.json": 1,
       "shared_rainforestfloorflowers.mat.json": 2,
       "shared_raw.json": 3,
+      "shared_rawwood.json": 0,
       "shared_redhotcobblestone.mat.json": 4,
       "shared_redsand.json": 1,
       "shared_redsand.mat.json": 1,
@@ -6749,15 +6746,16 @@
       "shared_toiletpaperroll.mat.json": 2,
       "shared_treated.json": 3,
       "shared_treatedwood.json": 4,
+      "shared_veluu.json": 0,
       "shared_vinewall.mat.json": 1,
       "shared_violiumcrystal.mat.json": 1,
       "shared_wastestone.mat.json": 2,
       "shared_weathered.json": 10,
       "shared_window.json": 15,
-      "shared_wood.json": 13,
+      "shared_wood.json": 6,
       "shared_woodentrim.mat.json": 2
     },
-    "materials.json": 45,
+    "materials.json": 53,
     "monsters": {
       "bees": {
         "adaptivebee": {
@@ -10810,6 +10808,9 @@
           "electronmicroscope": {
             "electronmicroscope.object.json": 2
           },
+          "fulargeterminal": {
+            "fulargeterminal.object.json": 0
+          },
           "labchair": {
             "labchair.object.json": 2
           },
@@ -11824,7 +11825,7 @@
             "precursorcorner.object.json": 2
           },
           "precursorcrates": {
-            "shared_precursorcrate.json": 0
+            "shared_precursorcrate.json": 2
           },
           "precursorcrystals": {
             "shared_precursorcrystal.json": 2
@@ -11860,6 +11861,9 @@
           "precursorlightstrip": {
             "precursorlightstrip.object.json": 1,
             "precursorlightstripdim.object.json": 2
+          },
+          "precursormainframe": {
+            "precursormainframe.object.json": 0
           },
           "precursormatrix": {
             "precursormatrix.object.json": 2
@@ -13480,12 +13484,15 @@
         "scb-poisontrap.object.json": 0
       },
       "scb-sewerpipe-end": {
-        "scb-sewerpipe-end.object.json": 1
+        "scb-sewerpipe-end.object.json": 2
       },
       "scb-watertrap": {
         "scb-watertrap.object.json": 2
       },
       "scienceoutpost": {
+        "burgerfool": {
+          "burgerfool.object.json": 0
+        },
         "fufoodshop": {
           "fufoodshop.object.json": 2
         },
@@ -13508,7 +13515,7 @@
           "kirhosshop.object.json": 2
         },
         "moonlit_comet": {
-          "moonlitcomet.object.json": 6,
+          "moonlitcomet.object.json": 11,
           "moonlitcomet2.object.json": 2,
           "shared_moonlitcomet.json": 1,
           "vina_plush.object.json": 2
@@ -17641,7 +17648,7 @@
             "create_mutavisk.questtemplate.json": 4,
             "create_radleaf.questtemplate.json": 4,
             "create_regengene.questtemplate.json": 4,
-            "fuquest_bracken.questtemplate.json": 2,
+            "fuquest_bracken.questtemplate.json": 3,
             "fuquest_cloning.questtemplate.json": 2,
             "fuquest_mutavisk.questtemplate.json": 3,
             "fuquest_oonforta.questtemplate.json": 3
@@ -17826,6 +17833,7 @@
     "shared_cake.json": 1,
     "shared_charredflesh.json": 1,
     "shared_cloud.json": 1,
+    "shared_cloudplatform.mat.json": 3,
     "shared_corpsewagon..json": 1,
     "shared_crayonbox..json": 1,
     "shared_cute": {
@@ -17861,12 +17869,16 @@
     "shared_feya.json": 1,
     "shared_fig.json": 1,
     "shared_fish..json": 1,
-    "shared_fu_cloudplatform.mat.json": 5,
+    "shared_fu_cloudplatform.mat.json": 2,
     "shared_fu_copperladder.mat.json": 2,
     "shared_fu_copperplatform.mat.json": 1,
+    "shared_fu_raincloudplatform.mat.json": 0,
     "shared_fuaetherdustplatform.mat.json": 1,
     "shared_fuaetherplatform.mat.json": 1,
     "shared_fuapplehoneypie.json": 1,
+    "shared_fudynastwoodenplatform.mat.json": 0,
+    "shared_fulightwoodenplatform.mat.json": 0,
+    "shared_furawwoodenplatform.mat.json": 0,
     "shared_girdirplatform.mat.json": 1,
     "shared_greg.json": 1,
     "shared_hellfire.json": 1,
@@ -19129,10 +19141,12 @@
         "crystalsand.material.json": 2,
         "darkness.material.json": 2,
         "darkstone.material.json": 2,
-        "dollhousepillar.material.json": 5,
-        "dollhousestriped.material.json": 1,
-        "dollhousewindow2.material.json": 2,
-        "dollhousewood2.material.json": 1,
+        "dollhouse": {
+          "dollhousepillar.material.json": 0,
+          "dollhousestriped.material.json": 0,
+          "dollhousewindow2.material.json": 0,
+          "dollhousewood2.material.json": 0
+        },
         "dynastwood": {
           "fudynastornateflooring.material.json": 1,
           "fudynastwoodenwindow1.material.json": 1
@@ -19408,10 +19422,12 @@
         "cuteplatform.material.json": 2,
         "fu_copperladder.material.json": 3,
         "fu_copperplatform.material.json": 4,
+        "fudarkwoodenplatform.material.json": 0,
         "girdirplatform.material.json": 1,
         "richplatform.material.json": 2,
         "shared_honeyplatform.material.json": 1,
         "shared_platform.material.json": 2,
+        "shared_woodenplatform.material.json": 0,
         "somaBridgePlatform.material.json": 2,
         "sturdyplatform.material.json": 2
       }
