@@ -8,7 +8,7 @@
 
 # extract_patch_labels.py
 
-用来导出所有指定文件夹内patch的可翻译文本，目前bug较多，但是能用。
+用来导出所有指定文件夹内patch的可翻译文本，目前基本上没有bug，处理能力有待提升。
 
 # ignore_file.py
 
@@ -16,7 +16,7 @@
 
 # patch_spciallist.py
 
-过滤特殊patch的extract_patch_labels，目前尚无作用。
+过滤特殊patch的extract_patch_labels。
 
 # parser_settings.py
 
@@ -25,3 +25,7 @@
 # extract_all_labels.py
 
 很拙略的写了个整合脚本，以后会改的。
+
+# help_translation.py
+
+帮助翻译，但并不能代替全部的汉化工作。
