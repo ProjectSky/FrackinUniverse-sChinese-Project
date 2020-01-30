@@ -185,14 +185,14 @@ def replace_the_path(path, rule):
             else:
                 path_list_3.append(text)
         else:
-            if not re.sFearch(rule[0]+'/'+'-', text) == None:
+            if not re.search(rule[0]+'/'+'-', text) == None:
                 wait = text.replace(rule[0]+'/-', rule[0]+'/'+str(rule[1]))
                 path_list_3.append(wait)
             else:
                 path_list_3.append(text)
     return path_list_3
 
-
+"""
 if __name__ == "__main__":
     jsons3 = open_n_decode(
         'F:/FrackinUniverse-sChinese-Project/translations/others/dialog/converse.config.patch', "r", "utf_8_sig")
@@ -203,3 +203,4 @@ if __name__ == "__main__":
     for i in range(len(test)):
          dict_old['/'+test[i][0]] = test[i][1]
     print(dict_old)
+"""
