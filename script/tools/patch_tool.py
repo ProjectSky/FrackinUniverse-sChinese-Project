@@ -192,11 +192,15 @@ def replace_the_path(path, rule):
                 path_list_3.append(text)
     return path_list_3
 
-
+"""
 if __name__ == "__main__":
     jsons3 = open_n_decode(
-        'F:/FrackinUniverse/npcs/statuses.config.patch', "r", "utf_8_sig")
+        'F:/FrackinUniverse-sChinese-Project/translations/others/dialog/converse.config.patch', "r", "utf_8_sig")
     list233 = [('generic', 70, 1),('cheerful', 31, 1),('jerk', 31, 1),('flirty', 31, 1),('anxious', 31, 1),('easilyspooked',32,1),('clumsy',31,1),('excited',31,1),('intrusive',31,1),('dumb',32,1),('emo',30,1),('fast',31,1),('nocturnal',32,1),('socialite',31,1),('ambitious',30,1)]
 
-    test = trans_patch_spcial_1(jsons3, list233)
-    print(test)
+    test = trans_patch(jsons3)
+    dict_old = dict()
+    for i in range(len(test)):
+         dict_old['/'+test[i][0]] = test[i][1]
+    print(dict_old)
+"""
