@@ -21,7 +21,7 @@ class Interface:
 def tranlate(source, direction):
     url = "http://api.interpreter.caiyunai.com/v1/translator"
     # WARNING, this token is a test token for new developers, and it should be replaced by your token
-    token = "3975l6lr5pcbvidl6jl2"
+    token = "yq7agau781q6ceedn7pn"
     payload = {
         "source": source,
         "trans_type": direction,
@@ -44,8 +44,8 @@ def tanslation(file):
             pass
         else:
             string = jsondata[i]['Texts']['Eng']
-            target = tranlate(string, "auto2zh")
-            jsondata[i]['Texts']['Chs'] = target
+            target_1 = tranlate(string, "auto2zh")
+            jsondata[i]['Texts']['Chs'] = target_1
     result = json.dumps(jsondata, ensure_ascii=False,
                                 sort_keys=True, indent=2)
     return result
