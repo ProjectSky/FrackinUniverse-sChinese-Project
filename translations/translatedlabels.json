@@ -231,11 +231,14 @@
         "biome": {
           "garden": {
             "quiver": {
-              "quiver.back.json": 2
+              "quiver.back.json": 1
             }
           }
         },
         "other": {
+          "bedouin": {
+            "shared_bedouin..json": 0
+          },
           "hazmat": {
             "shared_hazmat..json": 0
           },
@@ -392,7 +395,7 @@
       "outpost": {
         "outpostclue.questtemplate.json": 1,
         "techscientist4.questtemplate.json": 1,
-        "techscientist5.questtemplate.json": 2,
+        "techscientist5.questtemplate.json": 1,
         "techscientist6.questtemplate.json": 2
       },
       "story": {
@@ -408,7 +411,7 @@
     "radiomessages": {
       "exploration.radiomessages.json": 35,
       "intro.radiomessages.json": 1,
-      "mech.radiomessages.json": 25,
+      "mech.radiomessages.json": 24,
       "missions.radiomessages.json": 285,
       "quests.radiomessages.json": 5,
       "techchallenge.radiomessages.json": 1,
@@ -705,14 +708,15 @@
         "penumbra1.codex.json": 3,
         "penumbra2.codex.json": 2,
         "penumbra3.codex.json": 3,
-        "penumbra4.codex.json": 2,
+        "penumbra4.codex.json": 1,
         "penumbra5.codex.json": 3,
         "penumbra6.codex.json": 2
       },
       "documents": {
+        "blank_template_codex.codex.json": 0,
         "elduukharsciencenotes.codex.json": 2,
         "epstein.codex.json": 2,
-        "ffguide.codex.json": 24,
+        "ffguide.codex.json": 1,
         "ffguide2.codex.json": 21,
         "ffguide3.codex.json": 15,
         "ffguide4.codex.json": 2,
@@ -790,7 +794,7 @@
         "elderstaff2book.codex.json": 3,
         "elderstaff3book.codex.json": 3,
         "elderwhipbook.codex.json": 3,
-        "madness_codex.codex.json": 6,
+        "madness_codex.codex.json": 5,
         "madness_research1.codex.json": 5,
         "shared_blackbook.json": 1,
         "shared_book.codex.json": 1,
@@ -1165,6 +1169,17 @@
         "refinery.config.json": 4
       },
       "chests": {
+        "cdx": {
+          "chest12.config.json": 0,
+          "chest16.config.json": 0,
+          "chest24.config.json": 0,
+          "chest32.config.json": 0,
+          "chest40.config.json": 0,
+          "chest48.config.json": 0,
+          "chest56.config.json": 0,
+          "chest9.config.json": 0,
+          "shared_.config.json": 0
+        },
         "chest3.config.json": 1,
         "genechest128.config.json": 1,
         "multitether.config.json": 1
@@ -1282,6 +1297,9 @@
         },
         "weaponupgradetiered": {
           "weaponupgradetieredgui.config.json": 3
+        },
+        "xcustomcodex": {
+          "xcodexui.config.json": 0
         }
       },
       "scripted.json": 1,
@@ -3377,7 +3395,12 @@
             "slimewhip3.activeitem.json": 1
           }
         },
-        "weapons.json": 4
+        "weapons.json": 4,
+        "xcodex": {
+          "logbook": {
+            "logbook.activeitem.json": 0
+          }
+        }
       },
       "armor": {
         "decorative": {
@@ -3570,13 +3593,13 @@
           "garden": {
             "quiver": {
               "airback.back.json": 2,
-              "energyback.back.json": 2,
+              "energyback.back.json": 1,
               "powerback.back.json": 2,
               "quiver2.back.json": 1,
               "quiver3.back.json": 1,
               "quiver4.back.json": 1,
               "quiver5.back.json": 1,
-              "speedback.back.json": 2
+              "speedback.back.json": 1
             }
           }
         },
@@ -5926,6 +5949,7 @@
             "wretchelpoultice.consumable.json": 2
           },
           "honeyboon.consumable.json": 2,
+          "honorcoin.consumable.json": 0,
           "mission": {
             "alien_trophy.item.json": 2,
             "ancient_tech.item.json": 2,
