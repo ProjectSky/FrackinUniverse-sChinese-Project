@@ -2,20 +2,20 @@
   "patches": {
     "ai": {
       "ai.config.json": 2,
-      "enableteleporter.aicommand.json": 2,
-      "givebeamaxe.aicommand.json": 2,
-      "givepainttool.aicommand.json": 2,
-      "givewiretool.aicommand.json": 2,
+      "enableteleporter.aicommand.json": 3,
+      "givebeamaxe.aicommand.json": 3,
+      "givepainttool.aicommand.json": 3,
+      "givewiretool.aicommand.json": 3,
       "shared_.aicommand.json": 1,
       "shared_upgradeship.json": 2,
-      "upgradeship1.aicommand.json": 3,
-      "upgradeship2.aicommand.json": 5,
-      "upgradeship3.aicommand.json": 5,
-      "upgradeship4.aicommand.json": 3,
-      "upgradeship5.aicommand.json": 3,
-      "upgradeship6.aicommand.json": 3,
-      "upgradeship7.aicommand.json": 4,
-      "upgradeship8.aicommand.json": 4
+      "upgradeship1.aicommand.json": 4,
+      "upgradeship2.aicommand.json": 6,
+      "upgradeship3.aicommand.json": 7,
+      "upgradeship4.aicommand.json": 5,
+      "upgradeship5.aicommand.json": 5,
+      "upgradeship6.aicommand.json": 5,
+      "upgradeship7.aicommand.json": 6,
+      "upgradeship8.aicommand.json": 6
     },
     "behaviors": {
       "nodes": {
@@ -236,6 +236,9 @@
           }
         },
         "other": {
+          "bedouin": {
+            "shared_bedouin..json": 1
+          },
           "hazmat": {
             "shared_hazmat..json": 1
           },
@@ -403,7 +406,7 @@
       }
     },
     "quickbar": {
-      "icons.json.json": 5
+      "icons.json.json": 6
     },
     "radiomessages": {
       "exploration.radiomessages.json": 35,
@@ -710,6 +713,7 @@
         "penumbra6.codex.json": 2
       },
       "documents": {
+        "blank_template_codex.codex.json": 3,
         "elduukharsciencenotes.codex.json": 2,
         "epstein.codex.json": 2,
         "ffguide.codex.json": 24,
@@ -743,7 +747,7 @@
         "random7.codex.json": 4,
         "random8.codex.json": 3,
         "random9.codex.json": 3,
-        "scienceoutpost_kevin.codex.json": 100,
+        "scienceoutpost_kevin.codex.json": 101,
         "scienceoutpost_khe.codex.json": 16,
         "shared_ffguide.json": 1,
         "shared_luridmagazine.json": 2,
@@ -1165,6 +1169,17 @@
         "refinery.config.json": 4
       },
       "chests": {
+        "cdx": {
+          "chest12.config.json": 1,
+          "chest16.config.json": 1,
+          "chest24.config.json": 1,
+          "chest32.config.json": 1,
+          "chest40.config.json": 1,
+          "chest48.config.json": 1,
+          "chest56.config.json": 1,
+          "chest9.config.json": 1,
+          "shared_.config.json": 2
+        },
         "chest3.config.json": 1,
         "genechest128.config.json": 1,
         "multitether.config.json": 1
@@ -1282,6 +1297,9 @@
         },
         "weaponupgradetiered": {
           "weaponupgradetieredgui.config.json": 3
+        },
+        "xcustomcodex": {
+          "xcodexui.config.json": 6
         }
       },
       "scripted.json": 1,
@@ -1833,7 +1851,7 @@
               "uncommonbow.activeitem.json": 1
             },
             "rimewind": {
-              "rimewind.activeitem.json": 2
+              "rimewind.activeitem.json": 3
             },
             "shadowstring": {
               "shadowstring.activeitem.json": 2
@@ -3377,7 +3395,12 @@
             "slimewhip3.activeitem.json": 1
           }
         },
-        "weapons.json": 4
+        "weapons.json": 4,
+        "xcodex": {
+          "logbook": {
+            "logbook.activeitem.json": 2
+          }
+        }
       },
       "armor": {
         "decorative": {
@@ -3572,10 +3595,10 @@
               "airback.back.json": 2,
               "energyback.back.json": 2,
               "powerback.back.json": 2,
-              "quiver2.back.json": 1,
-              "quiver3.back.json": 1,
-              "quiver4.back.json": 1,
-              "quiver5.back.json": 1,
+              "quiver2.back.json": 2,
+              "quiver3.back.json": 2,
+              "quiver4.back.json": 2,
+              "quiver5.back.json": 2,
               "speedback.back.json": 2
             }
           }
@@ -5926,6 +5949,7 @@
             "wretchelpoultice.consumable.json": 2
           },
           "honeyboon.consumable.json": 2,
+          "honorcoin.consumable.json": 2,
           "mission": {
             "alien_trophy.item.json": 2,
             "ancient_tech.item.json": 2,
@@ -15059,7 +15083,7 @@
       },
       "spawner": {
         "elduukharcolonydeed": {
-          "elduukharcolonydeed.object.json": 9
+          "elduukharcolonydeed.object.json": 3
         },
         "fu_shoggothspawner": {
           "fu_shoggothspawner.object.json": 1
@@ -15074,7 +15098,10 @@
           "pethouserolliepollie.object.json": 2
         },
         "shared_futinydeed": {
-          "shared_fucolonydeed.json": 8
+          "shared_fucolonydeed.json": 2
+        },
+        "shared_nydeed": {
+          "shared_colonydeed.json": 6
         },
         "tinytether": {
           "multitether.object.json": 2,
