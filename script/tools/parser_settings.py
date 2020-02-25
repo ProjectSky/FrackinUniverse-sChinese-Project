@@ -83,12 +83,14 @@ foi = {
     ".itemdescription": [],
     ".collection": [],
     ".animation": [],
-    ".aicommand":['.+/buttonText$'],
-    "madness.config":[".+research/.+$"],
-    "system_objects.config":[".*/displayName$"],
-    "parts.config":[".*/displayName$"]
+    ".aicommand": ['.+/buttonText$'],
+    "data.config": [".+info/.+$"],
+    "madness.config": [".+research/.+$"],
+    "system_objects.config": [".*/displayName$"],
+    "parts.config": [".*/displayName$"],
+    "extraStatsWindow.config": ["^tooltipBoxes/[0-9]+/tooltip$", "^defaultTooltip$"],
+    "statWindow.config": [".*/name$"]
 }
-
 files_of_interest = dict()
 for ext, poi in foi.items():
     files_of_interest[ext] = list()
