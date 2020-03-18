@@ -3,23 +3,11 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
-        "/gui/windowtitle/title"
-      ]
-    },
-    "Texts": {
-      "Chs": "导航控制台",
-      "Eng": " Navigation Console"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "interface/cockpit/cockpit.config": [
         "/clusterMoons/plural"
       ]
     },
     "Texts": {
-      "Chs": "轨道上有%s颗卫星",
+      "Chs": "在轨卫星%s",
       "Eng": "%s orbiting bodies"
     }
   },
@@ -32,6 +20,7 @@
       ]
     },
     "Texts": {
+      "Chs": "-?[0-9]{0,10}",
       "Eng": "-?[0-9]{0,10}"
     }
   },
@@ -79,8 +68,8 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一颗资源丰富的卫星，不过由于^#505f50;完全没有光^reset;的原因，所以这里异常怪异。请时刻保持警惕。探测到^red;未知生物标志^reset;。",
-      "Eng": "A ^#505f50;complete lack of light^reset; makes this resource-rich moon a rather spooky, dangerous place. Watch your step. ^red;Unknown bio-sign detected^reset;."
+      "Chs": "一颗^#505f50;完全黑暗^reset;的月球，资源储量丰富，但是相当危险，小心台阶！^red;检测到未知生物标识^reset;。",
+      "Eng": "A ^#505f50;Cloying, total darkness^reset; makes this resource-rich moon a rather spooky, dangerous place. Watch your step. ^red;Unknown bio-sign detected^reset;."
     }
   },
   {
@@ -107,8 +96,8 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一颗充满黝黑沥青的^#505f50;暗影卫星^reset;，请仔细探索，这里隐藏着各种^orange;宝贵的资源^reset;。并且探测到了^red;一些未知的生物标志^reset;。",
-      "Eng": "A ^#505f50;shadow moon^reset; is dark as pitch, and hides various ^orange;valuable resources^reset;. I am also detecting ^red;some sort of unknown bio-signature^reset;."
+      "Chs": "一颗^#505f50;暗影卫星^reset;大气中漂浮着光线难以穿透的黑色气体。我检测到了某些^orange;稀有资源^reset;还有^red;一些未知生物标识e^reset;。",
+      "Eng": "A ^#505f50;shadow moon^reset; prevents most light from penetrating its dark miasma. I detect ^orange;valuable resources^reset; and ^red;some sort of unknown bio-signature^reset;."
     }
   },
   {
@@ -157,8 +146,8 @@
       ]
     },
     "Texts": {
-      "Chs": "矿物扫描仪从这一颗^#64616f;无光^reset;星球上扫描到了大量的^#d16fff;幻影矿^reset;。如要探索，请携带照明工具。",
-      "Eng": "A ^#64616f;lightless sphere^reset; with no light but plenty of ^#d16fff;Effigium ore^reset; detected. Bring ample light."
+      "Chs": "一颗^#64616f;无光星球^reset;表面没有任何光亮，地下蕴藏着^#d16fff;幻影矿石^reset;检测到完全的黑暗。",
+      "Eng": "A ^#64616f;lightless sphere^reset; with no light but plenty of ^#d16fff;Effigium ore^reset; detected. Near-total darkness awaits."
     }
   },
   {
@@ -241,7 +230,7 @@
       ]
     },
     "Texts": {
-      "Chs": "某个伟大文明的起源就在这个^#848484;荒漠^reset;星球上。远古时由于某种可怕的事导致了那个文明的灭亡，如今在这些废墟之中还残留有各种^#43a43a;古老的宝藏^reset;。另外还探测到各种^red;极端天气^reset;。",
+      "Chs": "某个伟大文明的起源就在这个^#848484;废土^reset;星球上。远古时由于某种可怕的事导致了那个文明的灭亡，如今在这些废墟之中还残留有各种^#43a43a;古老的宝藏^reset;。另外还探测到各种^red;极端天气^reset;。",
       "Eng": "A ^#848484;wasteland^reset; housing the remains of a once great civilization. Something awful happened here, long ago. ^#43a43a;Ancient ruins^reset; hold many lost treasures. ^red;Violent weather detected^reset;."
     }
   },
@@ -253,7 +242,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一颗^#848484;荒漠^reset;星球。某个湮灭文明的废墟就在^#43a43a;海岸线^reset;上。探测到强烈的^red;致命风暴^reset;。",
+      "Chs": "这是一颗^#848484;废土^reset;星球。某个湮灭文明的废墟就在^#43a43a;海岸线^reset;上。探测到强烈的^red;致命风暴^reset;。",
       "Eng": "A ^#848484;wasteland^reset;. Abundant ruins of ^#43a43a;a dead civilization^reset; located primarily near coastlines. Strange and often ^red;severely deadly^reset; storms form from time to time."
     }
   },
@@ -277,7 +266,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这颗^#8cf387;雨林^reset;星球存在有茂密的植物体系和大量的动物族群。如果你需要^#green;有机资源^reset;，这就是天堂！",
+      "Chs": "这颗^#8cf387;雨林^reset;星球存在有茂密的植物体系和大量的动物族群。如果你需要^green;有机资源^reset;，这就是天堂！",
       "Eng": "A ^#8cf387;rainforest^reset; planet absolutely ripe with organic life. Abundant ^#green;organic resources^reset; detected."
     }
   },
@@ -325,7 +314,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一个^#aa6b48;黑暗阿托罗斯^reset;星球。这颗星球上存在有大量的^#cc8d5a;变种生物^reset;。^red;警告：会诱发恐惧^reset;",
+      "Chs": "这是一个^#aa6b48;黑暗阿托罗斯^reset;星球。这颗星球上存在有大量的^#cc8d5a;变种生物^reset;。^red;警告：混乱灵能大气，会诱发精神错乱^reset;",
       "Eng": "A ^#aa6b48;dark atropus^reset; world. This unusual planet appears to be ^#cc8d5a;biologically mutated^reset; as if created by an insane God. ^red;Warning: Psionically disruptive atmosphere^reset;."
     }
   },
@@ -339,6 +328,18 @@
     "Texts": {
       "Chs": "这颗行星上地形属于^#b398ba;山脉^reset;结构，这会导致你的探索进程异常缓慢。不过这里有着^#e47998;丰富的金属储量^reset;。",
       "Eng": "A ^#b398ba;mountainous^reset; surface makes for slow travel, but it has ^#e47998;abundant sources of metals^reset; that should prove useful."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/visitableTypeDescription/mountainous/3"
+      ]
+    },
+    "Texts": {
+      "Chs": "这颗行星上地形属于^#b398ba;山脉^reset;结构并带有^#e47998;高熔点纹理^reset;。小心频繁的高重力天气。",
+      "Eng": "A ^#b398ba;mountainous^reset;with ^#e47998;zerchesium veins^reset; that should prove useful. High-Gravity weather is frequent. Use caution."
     }
   },
   {
@@ -361,7 +362,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一颗由^#c80000;红色沙漠^reset;构成的异常炎热的星球。炎热和沙子遍布整个地表。^cyan;推荐：致命高温保护^reset;",
+      "Chs": "这是一颗由^#c80000;红色沙漠^reset;构成的异常炎热的星球。炎热和沙子遍布整个地表。^cyan;推荐：致命炎热保护^reset;",
       "Eng": "A ^#c80000;red desert^reset; stretches across almost the entire circumference of this exceptionally hot world. ^cyan;Recommend: Deadly Heat protection^reset;"
     }
   },
@@ -373,7 +374,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一颗由^#c80000;红色沙漠^reset;构成的异常炎热的星球。炎热和沙子遍布整个地表。^cyan;推荐：致命高温保护^reset;",
+      "Chs": "这是一颗由^#c80000;红色沙漠^reset;构成的异常炎热的星球。炎热和沙子遍布整个地表。^cyan;推荐：致命炎热保护^reset;",
       "Eng": "A ^#c80000;red desert^reset; stretches across almost the entire circumference of this exceptionally hot world. ^cyan;Recommend: Extreme heat protection^reset;"
     }
   },
@@ -397,8 +398,8 @@
       ]
     },
     "Texts": {
-      "Chs": "这颗星球被^#da67b8;奇特的海^reset;所覆盖着。系统除了能扫描出存在有大量的液体和气体之外，其他的情报一无所知。探测到^red;潜藏的致命毒气^reset;",
-      "Eng": "A ^#da67b8;strange sea^reset; covers this planet. Scanners reveal little useful info apart from large quantities of liquid and a gaseous, airless atmosphere. ^red;Potentially Lethal Gas!^reset;"
+      "Chs": "这颗星球被^#da67b8;诡之海^reset;所覆盖着。扫描仪除了显示大量的等离子体液体和没有可呼吸空气的大气外，几乎没有什么有用的信息。探测到^red;潜藏的致命毒气！^reset;",
+      "Eng": "A ^#da67b8;strange sea^reset; covers this planet. Scanners reveal little useful info apart from large quantities of plasmic liquid and a gaseous, airless atmosphere. ^red;Potentially Lethal Gas!^reset;"
     }
   },
   {
@@ -453,7 +454,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这颗星球的海洋是由^#ffea00;硫酸^reset;构成的。系统检测到了大量^#772211;朱砂^reset;。^cyan;推荐：硫酸保护^reset;",
+      "Chs": "这颗星球的海洋是由^#ffea00;硫酸^reset;构成的。系统检测到了大量^#772211;朱砂^reset;。^cyan;推荐：酸蚀保护^reset;",
       "Eng": "A ^#ffea00;sulphuric ocean^reset; covers almost the entire surface. Abundant ^#772211;cinnabar^reset; detected. ^cyan;Recommend: Acid protection^reset;"
     }
   },
@@ -465,7 +466,7 @@
       ]
     },
     "Texts": {
-      "Chs": "我不建议你在没有装备保护的情况下，横渡这个星球的^#ffea00;硫酸海^reset;，因为除了硫酸之外，你还要警惕那^red;严峻的天气^reset;状况。^cyan;推荐：硫酸保护^reset;",
+      "Chs": "我不建议你在没有装备保护的情况下，横渡这个星球的^#ffea00;硫酸海^reset;，因为除了硫酸之外，你还要警惕那^red;严峻的天气^reset;状况。^cyan;推荐：酸蚀保护^reset;",
       "Eng": "A ^#ffea00;sulphuric ocean^reset; ripe with ^red;devastatingly brutal weather^reset;. ^cyan;Recommend: Acid protection^reset;"
     }
   },
@@ -477,7 +478,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一颗^#ffea00;硫酸海^reset;星球。这属于^red;非常危险^reset;的星球，如果你要在这里度假，请务必小心。^cyan;推荐：硫酸保护^reset;",
+      "Chs": "这是一颗^#ffea00;硫酸海^reset;星球。这属于^red;非常危险^reset;的星球，如果你要在这里度假，请务必小心。^cyan;推荐：酸蚀保护^reset;",
       "Eng": "A ^#ffea00;sulphuric ocean^reset;. This planet is ^red;extremely dangerous. Use caution^reset;. Likely a terrible vacation spot. ^cyan;Recommend: Acid protection^reset;"
     }
   },
@@ -490,7 +491,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一个^red;致命^reset;的^#ffea00;硫酸^reset;世界，如果你没有防护措施就登陆，那么你将有可能失去生命。^cyan;推荐：硫酸、窒息保护^reset;",
+      "Chs": "这是一个^red;致命^reset;的^#ffea00;硫磺^reset;世界，如果你没有防护措施就登陆，那么你将有可能失去生命。^cyan;推荐：酸蚀、窒息保护^reset;",
       "Eng": "A ^red;deadly^reset; ^#ffea00;sulphuric^reset; world. Exploration without protection will prove fatal. ^cyan;Recommend: Sulphuric Acid and Breath protection^reset;"
     }
   },
@@ -530,7 +531,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这颗奇怪的世界似乎是上帝偶尔发疯时的作品。海洋里既有你梦寐以求的^#e78442;以太^reset;也有让你痛不欲生的硫酸。^cyan;推荐：硫酸、射线系保护^reset;",
+      "Chs": "这颗奇怪的世界似乎是上帝偶尔发疯时的作品。海洋里既有你梦寐以求的^#e78442;以太^reset;也有让你痛不欲生的硫酸。^cyan;推荐：射线、以太保护^reset;",
       "Eng": "A bizarre world that seems to straddle dimensions, this ^#e78442;aether sea^reset; calls to you with its dark serenity. ^cyan;Recommend: Cosmic Resistance/ Aether Protection^reset;"
     }
   },
@@ -639,7 +640,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一颗^#cd5d02;炼狱^reset;星球。上面几乎全是^red;岩浆^reset;和^red;能把生命蒸熟的热气^reset;。^cyan;推荐：致命高温保护^reset;",
+      "Chs": "这是一颗^#cd5d02;炼狱^reset;星球。上面几乎全是^red;岩浆^reset;和^red;能把生命蒸熟的热气^reset;。^cyan;推荐：致命炎热保护^reset;",
       "Eng": "A hellish ^#cd5d02;infernus^reset; planet covered in ^red;lava^reset; and ^red;lethal temperatures^reset;. Bring extreme heat protection. ^cyan;Recommend: Deadly Heat protection^reset;"
     }
   },
@@ -663,7 +664,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一颗毫无生命痕迹的^#b3947c;沙漠卫星^reset;。上面气温有些低，如果不谨慎的话，或许你将会失去生命。",
+      "Chs": "这是一颗毫无生命痕迹的^#b3947c;沙漠卫星^reset;。上面气温^red;有些低^reset;，如果不谨慎的话，或许你将会失去生命。",
       "Eng": "A lifeless ^#b3947c;desert moon^reset;. Take care, as the temperature is ^red;slightly freezing^reset; and will eventually prove fatal if you are not cautious."
     }
   },
@@ -723,7 +724,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一颗^#414556;毒素^reset;卫星。虽然上面不是很危险，但是我还是建议你装备上^cyan;祛毒EPP II^reset;",
+      "Chs": "这是一颗^#414556;毒性^reset;卫星。虽然上面不是很危险，但是我还是建议你装备上^cyan;祛毒EPP II^reset;",
       "Eng": "A putrid and ^#414556;toxic^reset; moon. While not inherently dangerous, I recommend a ^cyan;Poison EPP II^reset;."
     }
   },
@@ -759,23 +760,11 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
-        "/gui/editBookmarkFrame/children/ok/caption"
-      ]
-    },
-    "Texts": {
-      "Chs": "接受",
-      "Eng": "Accept"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "interface/cockpit/cockpit.config": [
         "/displayWeathers/acidrain/displayName"
       ]
     },
     "Texts": {
-      "Chs": "硫酸雨",
+      "Chs": "酸雨",
       "Eng": "Acid Rain"
     }
   },
@@ -825,6 +814,18 @@
     "Texts": {
       "Chs": "这是一个^#571cff;远古庇护所^white;，其内潜藏着巨大且神秘的能量。",
       "Eng": "An ^#571cff;Ancient Gateway^white; of unknown provenance; an edifice of great power and mystery."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/orangegravrain/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "反重力雨",
+      "Eng": "Anti-Gravity Rain"
     }
   },
   {
@@ -904,18 +905,6 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
-        "/visitableTypeDescription/strangesea/2"
-      ]
-    },
-    "Texts": {
-      "Chs": "目前只能知道这颗星球上有一片^#da67b8;奇特的海^reset;，由于某种未知干扰，系统无法分析其构成。探测到^red;有毒气体云^reset;到处都是。",
-      "Eng": "Blocked by our scanners, I am finding it hard to detect the liquid composing this ^#da67b8;strange sea^reset;. ^red;Poisonous gas clouds ^reset; are common."
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "interface/cockpit/cockpit.config": [
         "/displayWeathers/bloodrain/displayName"
       ]
     },
@@ -982,8 +971,32 @@
       ]
     },
     "Texts": {
-      "Chs": "如果你打算登陆这颗^#c80000;红色沙漠^reset;星球，请注意不要暴露太长时间，因为那样会对你的生命造成致命的影响。^cyan;推荐：致命高温保护^reset;",
+      "Chs": "如果你打算登陆这颗^#c80000;红色沙漠^reset;星球，请注意不要暴露太长时间，因为那样会对你的生命造成致命的影响。^cyan;推荐：致命炎热保护^reset;",
       "Eng": "Bring extreme heat protection when exploring this ^#c80000;red desert^reset; as exposure for prolonged periods will prove 100% fatal. ^cyan;Recommend: Deadly Heat protection^reset;"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fububblerain/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "泡沫雨",
+      "Eng": "Bubble Rain"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fupretty/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "蝴蝶迁移",
+      "Eng": "Butterfly Migration"
     }
   },
   {
@@ -1069,6 +1082,18 @@
     "Texts": {
       "Chs": "铜",
       "Eng": "Copper"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/cosmicblast/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "射线爆炸",
+      "Eng": "Cosmic Blasts"
     }
   },
   {
@@ -1175,7 +1200,7 @@
       ]
     },
     "Texts": {
-      "Chs": "危险 (V)",
+      "Chs": "危险(V)",
       "Eng": "Dangerous (V)"
     }
   },
@@ -1225,6 +1250,18 @@
     "Texts": {
       "Chs": "岩浆(黑夜)",
       "Eng": "Dark Magma"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/darkblast/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "暗物质爆炸",
+      "Eng": "Dark Matter Blasts"
     }
   },
   {
@@ -1367,7 +1404,7 @@
       ]
     },
     "Texts": {
-      "Chs": "由密集的树木及其他植物占领，这个^#15ce02;森林^white;着陆点是个拥有生物多样化（—也包括你）的地区。",
+      "Chs": "由密集的树木及其他植物占领，这个^#15ce02;森林^white;着陆点是个拥有生物多样化(—也包括你)的地区。",
       "Eng": "Densely colonized by trees and other flora, this ^#15ce02;forest ^white;landing site is a hospitable location that supports a diversity of life - potentially including your own."
     }
   },
@@ -1473,6 +1510,30 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fuearthquake/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "地震",
+      "Eng": "Earthquakes"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/hurricaneelectric/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "雷电风暴",
+      "Eng": "Electric Storm"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
         "/gui/editBookmarkFrame/children/name/hint"
       ]
     },
@@ -1501,8 +1562,32 @@
       ]
     },
     "Texts": {
-      "Chs": "极端 (VI)",
+      "Chs": "极端(VI)",
       "Eng": "Extreme (VI)"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fusuddenchill3/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "极度寒冷",
+      "Eng": "Extreme Chill"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fuheatblast3/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "极端热浪",
+      "Eng": "Extreme Heatwaves"
     }
   },
   {
@@ -1719,7 +1804,7 @@
       ]
     },
     "Texts": {
-      "Chs": "无害 (I)",
+      "Chs": "无害(I)",
       "Eng": "Harmless (I)"
     }
   },
@@ -1739,7 +1824,32 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
-        "/displayWeathers/hurricane/displayName"
+        "/displayWeathers/fuheatblast/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "热浪",
+      "Eng": "Heatwaves"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/mountainmass/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "大质量事件",
+      "Eng": "High-Mass Event"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/hurricane/displayName",
+        "/displayWeathers/hurricanefungal/displayName"
       ]
     },
     "Texts": {
@@ -1776,6 +1886,18 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
+        "/gui/disabledLabel/value"
+      ]
+    },
+    "Texts": {
+      "Chs": "检测到不兼容的MOD",
+      "Eng": "INCOMPATIBLE MOD DETECTED"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
         "/displayWeathers/icestorm/displayName"
       ]
     },
@@ -1804,7 +1926,7 @@
       ]
     },
     "Texts": {
-      "Chs": "不可估量 (IX)",
+      "Chs": "不可估量(IX)",
       "Eng": "Immeasurable (IX)"
     }
   },
@@ -1816,7 +1938,7 @@
       ]
     },
     "Texts": {
-      "Chs": "极端危险 (VIII)",
+      "Chs": "极端危险(VIII)",
       "Eng": "Impossible (VIII)"
     }
   },
@@ -1842,18 +1964,6 @@
     "Texts": {
       "Chs": "铁",
       "Eng": "Iron"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "interface/cockpit/cockpit.config": [
-        "/displayWeathers/ironstorm/displayName"
-      ]
-    },
-    "Texts": {
-      "Chs": "铁风暴",
-      "Eng": "Iron Storm"
     }
   },
   {
@@ -1900,7 +2010,7 @@
       ]
     },
     "Texts": {
-      "Chs": "绝对死亡 (X)",
+      "Chs": "绝对死亡(X)",
       "Eng": "Just No (X)"
     }
   },
@@ -1960,8 +2070,20 @@
       ]
     },
     "Texts": {
-      "Chs": "致命 (VII)",
+      "Chs": "致命(VII)",
       "Eng": "Lethal (VII)"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/orangegravrainlight/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "小型反重力雨",
+      "Eng": "Light Anti-Gravity Rain"
     }
   },
   {
@@ -2020,7 +2142,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这颗星球是^#cc8d5a;阿托罗斯^reset;地形，这里可不是游乐园，心脏不好的人请止步。^red;警告：会诱发恐惧^reset;",
+      "Chs": "这颗星球是^#cc8d5a;阿托罗斯^reset;地形，这里可不是游乐园，心脏不好的人请止步。^red;警告：混乱灵能大气，会诱发精神错乱^reset;",
       "Eng": "Lovingly called 'worlds born dead', ^#cc8d5a;atropus^reset; planets are not for the faint of heart or the weak-stomached. ^red;Warning: Psionically disruptive atmosphere^reset;."
     }
   },
@@ -2044,7 +2166,7 @@
       ]
     },
     "Texts": {
-      "Chs": "低风险 (II)",
+      "Chs": "低风险(II)",
       "Eng": "Low (II)"
     }
   },
@@ -2152,8 +2274,20 @@
       ]
     },
     "Texts": {
-      "Chs": "中型硫酸风暴",
+      "Chs": "轻度硫酸风暴",
       "Eng": "Mild Sulphuric Storm"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fuearthquakelesser/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "地震",
+      "Eng": "Minor Earthquakes"
     }
   },
   {
@@ -2212,8 +2346,20 @@
       ]
     },
     "Texts": {
-      "Chs": "温和 (III)",
+      "Chs": "温和(III)",
       "Eng": "Moderate (III)"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/ironstorm/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "溶铁风暴",
+      "Eng": "Molten Iron Storm"
     }
   },
   {
@@ -2251,18 +2397,6 @@
     "Texts": {
       "Chs": "神秘之星",
       "Eng": "Mysterious Star"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "interface/cockpit/cockpit.config": [
-        "/gui/disabledLabel/value"
-      ]
-    },
-    "Texts": {
-      "Chs": "导航控制台离线",
-      "Eng": "NAVIGATION OFFLINE"
     }
   },
   {
@@ -2323,6 +2457,18 @@
     "Texts": {
       "Chs": "轨道上无卫星",
       "Eng": "No orbiting bodies"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayOres/nocxium/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "诺克石",
+      "Eng": "Nocxium"
     }
   },
   {
@@ -2426,6 +2572,18 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
+        "/visitableTypeDescription/strangesea/2"
+      ]
+    },
+    "Texts": {
+      "Chs": "血原液构成了这个不寻常世界的绝大部分。^#da67b8;这星球被诡异的海洋所覆盖^reset;。^red;有毒气体云^reset;在这颗星球上普遍存在。",
+      "Eng": "Plasmic Fluid forms the bulk of this unusual world. ^#da67b8;strange sea^reset;. ^red;Poisonous gas clouds ^reset; are common."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
         "/displayOres/plutonium/displayName"
       ]
     },
@@ -2523,12 +2681,24 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fulightningrain/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "雷雨闪电风暴",
+      "Eng": "Rainy Lightning Storm"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
         "/visitableTypeDescription/barren/2"
       ]
     },
     "Texts": {
-      "Chs": "扫描发现这是一颗渺无人烟的星球。不过由于太过^#999966;荒芜^white;，所以这里非常适合建造各种建筑。",
-      "Eng": "Readings indicate that the landing site is of unusual hue. Also, that it is a ^#999966;barren^white; location and would be suitable for construction."
+      "Chs": "读数显示着陆点的色调异常。此外，这是一个^#999966;荒芜^white;的星球，适合建设。子行星扫描不确定。",
+      "Eng": "Readings indicate that the landing site is of unusual hue. Also, that it is a ^#999966;barren^white; location and would be suitable for construction. Sub-planet scans inconclusive."
     }
   },
   {
@@ -2575,7 +2745,7 @@
       ]
     },
     "Texts": {
-      "Chs": "冒险 (IV)",
+      "Chs": "冒险(IV)",
       "Eng": "Risky (IV)"
     }
   },
@@ -2589,6 +2759,18 @@
     "Texts": {
       "Chs": "石块卫星",
       "Eng": "Rocky Moon"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/thunderclaplesser/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "滚雷",
+      "Eng": "Rolling Thunder"
     }
   },
   {
@@ -2719,8 +2901,8 @@
       ]
     },
     "Texts": {
-      "Chs": "在这颗^#69f1fd;冰冷荒原^reset;星球上的温度已经接近^red;绝对零度^reset;，矿石扫描仪发现上面蕴含^orange;寒霜矿^reset;。^cyan;推荐：致命严寒保护^reset;",
-      "Eng": "Scanners show ^red;deadly ice and abolute zero temperatures^reset; on this ^#69f1fd;ice waste^reset;. Proceed with caution. ^orange;Isogen Ore^reset; detected. ^cyan;Recommend: Deadly Cold protection^reset;"
+      "Chs": "在这颗^#69f1fd;冰冷荒原^reset;星球上的温度已经接近^red;绝对零度^reset;。请小心行事。矿石扫描仪发现上面蕴含^orange;寒霜矿^reset;。^cyan;推荐：致命严寒保护^reset;",
+      "Eng": "Scanners show ^red;deadly ice and absolute zero temperatures^reset; on this ^#69f1fd;ice waste^reset;. Proceed with caution. ^orange;Isogen Ore^reset; detected. ^cyan;Recommend: Deadly Cold protection^reset;"
     }
   },
   {
@@ -2731,8 +2913,8 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一颗^#69f1fd;冰冷荒原^reset;星球。上面有^red;致命的冰层^reset;，而温度则是^red;绝对零度^reset;！由于位置关系，无法接受到恒星的照射，整个星球基本处于^red;黑暗^reset;！^cyan;推荐：致命严寒保护^reset;",
-      "Eng": "Scanners show ^red;deadly ice and abolute zero temperatures^reset; on this ^#69f1fd;ice waste^reset;. Sunlight is minimal. ^red;Tread carefully in the dark^reset;. ^cyan;Recommend: Deadly Cold protection^reset;"
+      "Chs": "在这颗^#69f1fd;冰冷荒原^reset;星球上的温度已经接近^red;绝对零度^reset;。阳光在这颗星球上很稀缺。^red;请在黑暗中谨慎行动^reset;。^cyan;推荐：致命严寒保护^reset;",
+      "Eng": "Scanners show ^red;deadly ice and absolute zero temperatures^reset; on this ^#69f1fd;ice waste^reset;. Sunlight is minimal. ^red;Tread carefully in the dark^reset;. ^cyan;Recommend: Deadly Cold protection^reset;"
     }
   },
   {
@@ -2743,8 +2925,8 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一颗^#ba3b04;阿托罗斯海^reset;行星。海里有着^#8e5ca6;未知的有机资源^reset;，扫描仪发现这里蕴含^red;血钻和寂灭矿^reset;。^red;警告：会诱发恐惧^reset;",
-      "Eng": "Scanners show disgusting ^#ba3b04;atropal seas^reset; ripe with ^#8e5ca6;unknown organic^reset; elements. A source of ^red;blood diamonds and quietus ore^reset;. ^red;Warning: Causes Madness^reset;"
+      "Chs": "扫描发现充满^#8e5ca6;未知有机元素^reset;的^#ba3b04;萎缩之海^reset;。产有^red;血钻和寂灭矿reset;。^red;警告：会诱发狂乱(精神错乱)reset;。",
+      "Eng": "Scanners show disgusting ^#ba3b04;atropal seas^reset; ripe with ^#8e5ca6;unknown organic^reset; elements. A source of ^red;Plasmic Crystal and quietus ore^reset;. ^red;Warning: Causes Madness^reset;"
     }
   },
   {
@@ -2757,8 +2939,8 @@
       ]
     },
     "Texts": {
-      "Chs": "扫描仪发现这颗星球有着奇怪的^#ba3b04;血石^reset;构造和某些^#8e5ca6;未知的有机元素^reset;，另外还检测到^red;血钻和寂灭矿^reset;。",
-      "Eng": "Scanners show strange ^#ba3b04;bloodstone^reset; formations and ^#8e5ca6;unknown organic^reset; elements. A source of ^red;blood diamonds and quietus ore^reset;."
+      "Chs": "扫描仪显示出奇怪的^#ba3b04;血石^reset;结构和^#8e5ca6;未知的有机元素^reset;。产有^red;血钻和寂灭矿reset;。",
+      "Eng": "Scanners show strange ^#ba3b04;bloodstone^reset; formations and ^#8e5ca6;unknown organic^reset; elements. A source of ^red;Plasmic Crystal and quietus ore^reset;."
     }
   },
   {
@@ -2817,8 +2999,20 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一个诡谲多变的海洋星球，地貌结构属于^#e78442;以太海^reset;，巨浪持续地拍击着狰狞的礁石！^cyan;推荐：以太、射线系保护^reset;",
+      "Chs": "这是一个诡谲多变的海洋星球，地貌结构属于^#e78442;以太海^reset;，巨浪持续地拍击着狰狞的礁石！^cyan;推荐：以太、射线保护^reset;",
       "Eng": "Serious weather, high-tides and strangeness abound on this bizarre ^#e78442;aether sea^reset;. ^cyan;Recommend: Cosmic Resistance/ Aether Protection^reset;"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fusuddenchill2/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "严寒",
+      "Eng": "Severe Chill"
     }
   },
   {
@@ -2831,6 +3025,30 @@
     "Texts": {
       "Chs": "大型晶体风暴",
       "Eng": "Severe Crystal Storm"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fuearthquakesevere/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "重度地震",
+      "Eng": "Severe Earthquakes"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fuheatblast2/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "重度热浪",
+      "Eng": "Severe Heatwaves"
     }
   },
   {
@@ -2855,6 +3073,42 @@
     "Texts": {
       "Chs": "大型岩浆风暴",
       "Eng": "Severe Magma Storm"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fulightningrain2/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "重度雷雨闪电风暴",
+      "Eng": "Severe Rainy Lightning Storm"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/thunderclapgreater/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "重度雷电",
+      "Eng": "Severe Thunder"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/planetTypeNames/shadow"
+      ]
+    },
+    "Texts": {
+      "Chs": "暗影",
+      "Eng": "Shadow"
     }
   },
   {
@@ -2915,6 +3169,18 @@
     "Texts": {
       "Chs": "小型陨石雨",
       "Eng": "Small Meteorites"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fu_smog/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "烟雾",
+      "Eng": "Smog"
     }
   },
   {
@@ -2993,12 +3259,36 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fusparklejoy/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "闪电",
+      "Eng": "Sparklejoy"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
         "/displayWeathers/spacedustshower/displayName"
       ]
     },
     "Texts": {
       "Chs": "星尘",
       "Eng": "Stardust"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/staticcharge/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "静电",
+      "Eng": "Static Charge"
     }
   },
   {
@@ -3017,12 +3307,36 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
+        "/displayWeathers/fusuddenchill/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "寒冷",
+      "Eng": "Sudden Chill"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
         "/planetTypeNames/sulphuricocean"
       ]
     },
     "Texts": {
       "Chs": "硫酸海",
       "Eng": "Sulphur Sea"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/sulphuriccloud/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "硫酸雾",
+      "Eng": "Sulphuric Fog"
     }
   },
   {
@@ -3045,7 +3359,7 @@
       ]
     },
     "Texts": {
-      "Chs": "小型硫酸风暴",
+      "Chs": "硫酸风暴",
       "Eng": "Sulphuric Storm"
     }
   },
@@ -3165,7 +3479,7 @@
       ]
     },
     "Texts": {
-      "Chs": "特勒贝晶体碎片",
+      "Chs": "特勒贝晶体",
       "Eng": "Telebrium"
     }
   },
@@ -3213,8 +3527,8 @@
       ]
     },
     "Texts": {
-      "Chs": "扫描仪无法作用于这颗^#64616f;无光^reset;星球。",
-      "Eng": "The atmosphere of this ^#64616f;lightless sphere^reset; blocks any source of light from penetrating. Scans inconclusive."
+      "Chs": "这是一颗^#64616f;无光星球^reset;扫面结果：星球表面阻止任何光线穿过。",
+      "Eng": "The atmosphere of this ^#64616f;lightless sphere^reset; blocks any source of light from penetrating completely. Scans inconclusive."
     }
   },
   {
@@ -3373,7 +3687,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这颗行星的绝大部分地表都被^#c80000;红色沙漠^reset;所覆盖。^cyan;推荐：致命高温保护^reset;",
+      "Chs": "这颗行星的绝大部分地表都被^#c80000;红色沙漠^reset;所覆盖。^cyan;推荐：致命炎热保护^reset;",
       "Eng": "The majority of the planet's surface is a scorching ^#c80000;red desert^reset;. Bio-scans reveal interesting flora and fauna. ^cyan;Recommend: Deadly Heat protection^reset;"
     }
   },
@@ -3381,24 +3695,13 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
-        "/visitableTypeDescription/magma/1"
-      ]
-    },
-    "Texts": {
-      "Chs": "这星球的表面^red;极端的热^white;。几乎没有生物能在这星球的庞大^#ff1818;岩浆^white;海里勉强存活。",
-      "Eng": "The planet surface is ^red;dangerously hot^white;. Few creatures eek out an existence amongst the planet's vast oceans of ^#ff1818;magma^white;."
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "interface/cockpit/cockpit.config": [
+        "/visitableTypeDescription/magma/1",
         "/visitableTypeDescription/magmadark/1"
       ]
     },
     "Texts": {
-      "Chs": "这颗行星的温度已突破^red;致命^white;级别，有极少数生物生存在这片辽阔的^#ff1818;岩浆海^white;中！",
-      "Eng": "The planet surface is ^red;dangerously hot^white;. Few creatures eke out an existence amongst the planet's vast oceans of ^#ff1818;magma^white;."
+      "Chs": "这个星球的表面都是^red;致命的高温^reset;。很少有生物能在这个星球上宽广的^#ff1818;岩浆^white;海洋里生存。",
+      "Eng": "The planet surface is ^red;dangerously hot^reset;. Few creatures seek out an existence amongst the planet's vast oceans of ^#ff1818;magma^white;."
     }
   },
   {
@@ -3457,7 +3760,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一个^#00f0ff;伊甸^reset;星球！如果你忍受不了其他星球上的各种恶劣环境，就请来这里玩耍吧！或者把家安置在这里也是个不错选择！",
+      "Chs": "这是一个^#00f0ff;伊甸^reset;星球！如果你忍受不了其他星球上的各种恶劣环境，就请来这里玩耍吧！或者把家安置在这里也是个不错选择！在地表发现^#9dbeef;生命之水^reset;。",
       "Eng": "This ^#00f0ff;eden ^reset;has very little in the way of hostile life and very little darkness. A lovely place to build a home. ^#9dbeef;Healing waters^reset; dot the surface."
     }
   },
@@ -3469,7 +3772,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一个^#00f0ff;伊甸^reset;行星。扫描仪检测到某种生命体和大量的^#9dbeef;生命之泉^reset;，如果你要找一个完美的星球建造一个家来享受阳光和轻风，就选这里吧！",
+      "Chs": "这是一个^#00f0ff;伊甸^reset;行星。扫描仪检测到某种生命体和大量的^#9dbeef;生命之水^reset;，如果你要找一个完美的星球建造一个家来享受阳光和轻风，就选这里吧！",
       "Eng": "This ^#00f0ff;eden^reset; looks incredibly hospitable. I detect few life signs and ample ^#9dbeef;Healing waters^reset;. An ideal place to make a home."
     }
   },
@@ -3565,8 +3868,8 @@
       ]
     },
     "Texts": {
-      "Chs": "这个星球是^#b398ba;山脉^reset;构造，上面蕴藏着^#e47998;各类矿石^reset;，天气也很^red;糟糕^reset;。",
-      "Eng": "This ^#b398ba;mountainous^reset; world is absolutely riddled with ^#e47998;ores of all sorts^reset;, though is plagued by ^red;violent weather patterns^reset;."
+      "Chs": "这个^#b398ba;山脉^reset;世界充斥着^#e47998;不同种类的矿^reset;，虽然受到^red;暴风雨天气模式^reset;的困扰。",
+      "Eng": "This ^#b398ba;mountainous^reset; world is absolutely riddled with ^#e47998;ores of many sorts^reset;, though is plagued by ^red;violent weather patterns^reset;."
     }
   },
   {
@@ -3577,8 +3880,8 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一个^#b398ba;山脉^reset;星球，地形落差极高。扫描仪检测到某种大型原始两足生命体，另外还发现了^#e47998;高熔点矿^reset;。",
-      "Eng": "This ^#b398ba;mountainous^reset; world is studded with immensely tall rocky mountains. Scans show large bipedal primitives. ^#e47998;Zerchesium ore^reset; detected."
+      "Chs": "这个^#b398ba;山脉^reset;世界布满了极高的落基山脉。扫描显示有大量双足原始人。探测到^#e47998;Z高熔点矿^reset;。常常发生高重力事件。",
+      "Eng": "This ^#b398ba;mountainous^reset; world is studded with immensely tall rocky mountains. Scans show large bipedal primitives. ^#e47998;Zerchesium ore^reset; detected. High-Gravity events are common."
     }
   },
   {
@@ -3613,7 +3916,7 @@
       ]
     },
     "Texts": {
-      "Chs": "星球上的^#e78442;以太海^reset;犹如漆黑的死寂一般。另外也检测到了^orange;赛德瑞瑟晶体碎片^reset;的存在。^cyan;推荐：射线系保护^reset;",
+      "Chs": "星球上的^#e78442;以太海^reset;犹如漆黑的死寂一般。另外也检测到了^orange;赛德瑞瑟晶体碎片^reset;的存在。^cyan;推荐：射线保护^reset;",
       "Eng": "This ^#e78442;aether sea^reset; is dark, strange and quiet. ^orange;Xithricite Ore detected^reset;.^cyan; Recommend: Cosmic Resistance^reset;."
     }
   },
@@ -3688,7 +3991,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这是由肉团、筋骨和血块组成的^#cc8d5a;阿托罗斯^reset;世界！矿物扫描仪在这里检测到^#b41c1c;寂灭矿^reset;。^red;警告：会诱发恐惧^reset;。",
+      "Chs": "这是由肉团、筋骨和血块组成的^#cc8d5a;阿托罗斯^reset;世界！矿物扫描仪在这里检测到^#b41c1c;寂灭矿^reset;。^red;警告：会诱发狂乱(精神错乱)和致命幻觉reset;。",
       "Eng": "This horrific ^#cc8d5a;atropus^reset; world appears to be composed of flesh, sinew, and gore. ^#b41c1c;Quietus ore^reset; detected. ^red;Warning: Causes Madness and fatal illusions^reset;."
     }
   },
@@ -3700,7 +4003,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这是由肉团、筋骨和血块组成的^#cc8d5a;阿托罗斯^reset;世界！矿物扫描仪在这里检测到^#b41c1c;寂灭矿^reset;。^red;警告：会诱发恐惧^reset;。",
+      "Chs": "这是由肉团、筋骨和血块组成的^#cc8d5a;阿托罗斯^reset;世界！矿物扫描仪在这里检测到^#b41c1c;寂灭矿^reset;。^red;警告：会诱发狂乱(精神错乱)^reset;。",
       "Eng": "This horrific ^#cc8d5a;atropus^reset; world appears to be composed of flesh, sinew, and gore. ^#b41c1c;Quietus ore^reset; detected. ^red;Warning: Causes Madness^reset;."
     }
   },
@@ -3748,8 +4051,8 @@
       ]
     },
     "Texts": {
-      "Chs": "这颗星球尽是^#999966;荒芜^white;，哪怕连生命体都是奢侈的存在。扫描发现这里什么都没有，就仅仅是一整块空地。",
-      "Eng": "This location is ^#999966;barren^white; and lifeless. Readings show there is nothing here. An empty, empty place."
+      "Chs": "这个地点十分^#999966;荒芜^white;，没有生命。读数显示这里一无所有。不过要小心，因为扫描并非绝对可靠。",
+      "Eng": "This location is ^#999966;barren^white; and lifeless. Readings show there is nothing here. Be cautious however, as scans are not infallible."
     }
   },
   {
@@ -3797,8 +4100,8 @@
       ]
     },
     "Texts": {
-      "Chs": "这个地方是^#999966;荒芜^white;的，不适宜任何形式的生命。这里什么都没有...",
-      "Eng": "This planet is ^#999966;barren^white;, supporting no life of any kind. There is nothing here at all..."
+      "Chs": "这个星球非常 ^#999966;荒芜^white;，不适宜任何形式的生命。但是要注意，当涉及到地下深处时，扫描仪可能会出错。",
+      "Eng": "This planet is ^#999966;barren^white;, supporting no apparent life of any kind. Be aware that scanners can make mistakes, however, when subterranean depths are involved."
     }
   },
   {
@@ -3833,8 +4136,8 @@
       ]
     },
     "Texts": {
-      "Chs": "这个一颗奇怪的^#64616f;无光^reset;星球。矿物扫描仪从上面发现了^#c62c7f;幻影矿^reset;。",
-      "Eng": "This strange ^#64616f;lightless sphere^reset; reflects all sunlight. Reason unknown. ^#c62c7f;Effigium ore^reset; detected."
+      "Chs": "这颗奇怪的^#64616f;无光星球^reset;表面反射任何光亮，原因不明。检测到^#c62c7f;幻影矿石^reset;",
+      "Eng": "This strange ^#64616f;lightless sphere^reset; reflects or absorbs light. Reason unknown. ^#c62c7f;Effigium ore^reset; detected."
     }
   },
   {
@@ -3893,8 +4196,8 @@
       ]
     },
     "Texts": {
-      "Chs": "一片^#da67b8;奇特的海^reset;构成了这个星球，扫描仪无法提供什么有用的信息。探测到^red;致命的毒气！^reset;^cyan;推荐：毒素、气体保护^reset;",
-      "Eng": "This world is covered in a ^#da67b8;strange sea^reset;. Scanners reveal little useful info. ^red;Deadly gas!^reset; ^cyan;Recommend Poison or Gas Immunity^reset;"
+      "Chs": "这个世界被^#da67b8;诡之海^reset;所覆盖，扫描仪显示其中有密集的血原液。探测到^red;致命的毒气！^reset;^cyan;推荐：毒素、气体保护^reset;",
+      "Eng": "This world is covered in a ^#da67b8;strange sea^reset;. Scanners reveal dense concentrations of Plasmic Fluid. ^red;Deadly gas!^reset; ^cyan;Recommend Poison or Gas Immunity^reset;"
     }
   },
   {
@@ -3907,6 +4210,18 @@
     "Texts": {
       "Chs": "威胁：",
       "Eng": "Threat: "
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/displayWeathers/thunderclap/displayName"
+      ]
+    },
+    "Texts": {
+      "Chs": "雷暴",
+      "Eng": "Thunderstorms"
     }
   },
   {
@@ -4025,7 +4340,8 @@
         "/gui/clusterinfo/children/inner/children/view/caption",
         "/gui/systeminfo/children/inner/children/view/caption",
         "/objectInfoBox/bookmarkButtonCaption/unexplored",
-        "/systemInfoBox/viewButtonCaption/disabled"
+        "/systemInfoBox/viewButtonCaption/disabled",
+        "/systemTooltip/exploredLabel/unexplored"
       ]
     },
     "Texts": {
@@ -4043,19 +4359,6 @@
     "Texts": {
       "Chs": "未探索过的星系无法获取到其资料",
       "Eng": "UNMAPPED CELESTIAL OBJECTS UNAVAILABLE"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "interface/cockpit/cockpit.config": [
-        "/planetTypeNames/ffunknown",
-        "/threatLevelText/moon/0"
-      ]
-    },
-    "Texts": {
-      "Chs": "未知",
-      "Eng": "Unknown"
     }
   },
   {
@@ -4081,6 +4384,18 @@
     "Texts": {
       "Chs": "查看",
       "Eng": "VIEW"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/systemTooltip/exploredLabel/explored"
+      ]
+    },
+    "Texts": {
+      "Chs": "访问",
+      "Eng": "VISITED"
     }
   },
   {
@@ -4127,7 +4442,7 @@
       ]
     },
     "Texts": {
-      "Chs": "扫描仪从这颗^#cd5d02;炼狱^reset;行星上检测到流动的岩浆和致命的高温，并且还发现了^#d16fff;超致密矿^reset;。^cyan;推荐：致命高温保护^reset;",
+      "Chs": "扫描仪从这颗^#cd5d02;炼狱^reset;行星上检测到流动的岩浆和致命的高温，并且还发现了^#d16fff;超致密矿^reset;。^cyan;推荐：致命炎热保护^reset;",
       "Eng": "Volatile lava and extreme deadly heat await on ^#cd5d02;infernus^reset; worlds. Protection recommended. ^#d16fff;Densinium ore^reset; detected. ^cyan;Recommend: Deadly Heat protection^reset;"
     }
   },
@@ -4139,7 +4454,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一颗温度极高的^#cd5d02;炼狱^reset;行星，上面岩浆肆虐。矿石扫描仪在上面发现了^orange;永燃矿^reset;。^cyan;推荐：致命高温保护^reset;",
+      "Chs": "这是一颗温度极高的^#cd5d02;炼狱^reset;行星，上面岩浆肆虐。矿石扫描仪在上面发现了^orange;永燃矿^reset;。^cyan;推荐：致命炎热保护^reset;",
       "Eng": "Volatile lava and extreme deadly heat await on ^#cd5d02;infernus^reset; worlds. Protection recommended. ^orange;Pyreite Ore^reset; detected. ^cyan;Recommend: Deadly Heat protection^reset;"
     }
   },
@@ -4153,6 +4468,18 @@
     "Texts": {
       "Chs": "火山",
       "Eng": "Volcanic"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/cockpit/cockpit.config": [
+        "/planetTypeNames/moon_volcanic"
+      ]
+    },
+    "Texts": {
+      "Chs": "火山月亮",
+      "Eng": "Volcanic Moon"
     }
   },
   {
@@ -4227,7 +4554,7 @@
       ]
     },
     "Texts": {
-      "Chs": "虽然在血块里游泳更能展现出你的勇气，但是我还是建议你不要呆在^#ba3b04;阿托罗斯海^reset;里的好。^red;警告：会诱发恐惧^reset;",
+      "Chs": "虽然在血块里游泳更能展现出你的勇气，但是我还是建议你不要呆在^#ba3b04;阿托罗斯海^reset;里的好。^red;警告：会诱发狂乱(精神错乱)^reset;",
       "Eng": "While tempting, avoid the urge to swim in the gore and guts on this ^#ba3b04;atropus sea^reset; planet. ^red;Warning: Causes Madness^reset;"
     }
   },
@@ -4307,6 +4634,7 @@
       ]
     },
     "Texts": {
+      "Chs": "[a-zA-Z0-9 '-?!.]{0,28}",
       "Eng": "[a-zA-Z0-9 '-?!.]{0,28}"
     }
   },
@@ -4486,7 +4814,7 @@
       ]
     },
     "Texts": {
-      "Chs": "^#8cf387;雨林^reset;已经成为这颗行星的主要生态环境。系统检测到无数的^#green;有机资源^reset;。",
+      "Chs": "^#8cf387;雨林^reset;已经成为这颗行星的主要生态环境。系统检测到无数的^green;有机资源^reset;。",
       "Eng": "^#8cf387;Rainforest^reset; has claimed the majority of this organic-rich world. Abundant ^#green;organic resources^reset; detected."
     }
   },
@@ -4542,23 +4870,11 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/cockpit/cockpit.config": [
-        "/gui/windowtitle/subtitle"
-      ]
-    },
-    "Texts": {
-      "Chs": "^#b9b5b2;选择你的目的地",
-      "Eng": "^#b9b5b2; Select your destination"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "interface/cockpit/cockpit.config": [
         "/visitableTypeDescription/bloodstonesea/2"
       ]
     },
     "Texts": {
-      "Chs": "腐烂与丑恶并存的^#ba3b04;阿托罗斯海^reset;是这颗星球的主要地形。系统扫描出海里充满了^#8e5ca6;未知的有机元素^reset;。^red;警告：会诱发恐惧^reset;",
+      "Chs": "腐烂与丑恶并存的^#ba3b04;阿托罗斯海^reset;是这颗星球的主要地形。系统扫描出海里充满了^#8e5ca6;未知的有机元素^reset;。^red;警告：会诱发狂乱(精神错乱)^reset;",
       "Eng": "^#ba3b04;Atropus Seas^reset; are putrid and repulsive, loaded with ^#8e5ca6;unknown organic^reset; elements. ^red;Warning: Causes Madness^reset;"
     }
   },
@@ -4570,8 +4886,8 @@
       ]
     },
     "Texts": {
-      "Chs": "这是^#cc8d5a;阿托罗斯^reset;行星，各种丑陋的生物和死物组成了这炼狱般景象。系统在这颗星球上扫描到^#b41c1c;血钻^reset;。^red;警告：会诱发恐惧^reset;",
-      "Eng": "^#cc8d5a;Atropus^reset; worlds are abhorrent, hellish spheres composed of matter both living and dead. ^#b41c1c;Blood diamond^reset; detected. ^red;Warning: Causes Insanity and fatal hallucinations^reset;."
+      "Chs": "令人厌恶的^#cc8d5a;阿托罗斯^reset;世界是由活物与死物组成的地狱般的球体。检测到^#b41c1c;血钻^reset;。^red;警告：会诱发狂乱(精神错乱)和致命幻觉reset;。",
+      "Eng": "^#cc8d5a;Atropus^reset; worlds are abhorrent, hellish spheres composed of matter both living and dead. ^#b41c1c;Plasmic Crystal^reset; detected. ^red;Warning: Causes Insanity and fatal hallucinations^reset;."
     }
   },
   {
@@ -4582,8 +4898,8 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一颗令人厌恶的^#cc8d5a;阿托罗斯^reset;星球，这里是属于撒旦的领域，死亡就是这里的主旋律。扫描发现了^#b41c1c;血钻^reset;。^red;警告：会诱发恐惧^reset;",
-      "Eng": "^#cc8d5a;Atropus^reset; worlds are abhorrent, hellish spheres composed of matter both living and dead. ^#b41c1c;Blood diamond^reset; detected. ^red;Warning: Insanity-causing agents detected.^reset;"
+      "Chs": "令人厌恶的^#cc8d5a;阿托罗斯^reset;世界是由活物与死物组成的地狱般的球体。检测到^#b41c1c;血钻^reset;。^red;警告：检测到致疯介质reset;。",
+      "Eng": "^#cc8d5a;Atropus^reset; worlds are abhorrent, hellish spheres composed of matter both living and dead. ^#b41c1c;Plasmic Crystal^reset; detected. ^red;Warning: Insanity-causing agents detected.^reset;"
     }
   },
   {
@@ -4594,7 +4910,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一颗^#cd5d02;炼狱^reset;行星，如果你在没有对应保护的情况下登陆，将会导致^red;死亡^reset;！系统从上面扫描到^#d16fff;超致密矿^reset;。^cyan;推荐：致命高温保护^reset;",
+      "Chs": "这是一颗^#cd5d02;炼狱^reset;行星，如果你在没有对应保护的情况下登陆，将会导致^red;死亡^reset;！系统从上面扫描到^#d16fff;超致密矿^reset;。^cyan;推荐：致命炎热保护^reset;",
       "Eng": "^#cd5d02;Infernus^reset; worlds are ^red;exceptionally deadly^reset; and not to be undertaken without protection. ^#d16fff;Densinium ore^reset; detected. ^cyan;Recommend: Deadly Heat protection^reset;"
     }
   },
@@ -4606,7 +4922,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一颗^#cd5d02;炼狱^reset;行星，如果你在没有对应保护的情况下登陆，将会导致^red;死亡^reset;！系统从上面扫描到^orange;永燃矿^reset;。^cyan;推荐：致命高温保护^reset;",
+      "Chs": "这是一颗^#cd5d02;炼狱^reset;行星，如果你在没有对应保护的情况下登陆，将会导致^red;死亡^reset;！系统从上面扫描到^orange;永燃矿^reset;。^cyan;推荐：致命炎热保护^reset;",
       "Eng": "^#cd5d02;Infernus^reset; worlds are ^red;exceptionally deadly^reset; and not to be undertaken without protection. ^orange;Pyreite Ore^reset; detected. ^cyan;Recommend: Deadly Heat protection^reset;"
     }
   },
@@ -4679,7 +4995,7 @@
       ]
     },
     "Texts": {
-      "Chs": "扫描仪发现这颗行星的空气中存在有^#ffea00;硫酸大气^reset;，而地表则有^red;致命的硫酸池^reset;。另外矿物扫描仪在地层内检测出^#772211;丰富的矿物资源^reset;。^cyan;推荐：硫酸保护^reset;",
+      "Chs": "扫描仪发现这颗行星的空气中存在有^#ffea00;酸性大气^reset;，而地表则有^red;致命的硫酸池^reset;。另外矿物扫描仪在地层内检测出^#772211;丰富的矿物资源^reset;。^cyan;推荐：酸蚀保护^reset;",
       "Eng": "^#ffea00;Sulphuric^reset; acid atmosphere detected. ^red;Deadly pools of acid and lethal storms^reset; lie below in abundance. ^cyan;Recommend: Acid Protection^reset;"
     }
   },
@@ -4692,7 +5008,7 @@
       ]
     },
     "Texts": {
-      "Chs": "这是一颗^#ffea00;硫酸^reset;行星。上面没有可供呼吸的氧气，只有各种酸性和毒性的气体！矿物扫描仪在上面检测到丰富的^#772211;朱砂^reset;。^cyan;推荐：硫酸保护^reset;",
+      "Chs": "这是一颗^#ffea00;硫酸^reset;行星。上面没有可供呼吸的氧气，只有各种酸性和毒性的气体！矿物扫描仪在上面检测到丰富的^#772211;朱砂^reset;。^cyan;推荐：酸蚀保护^reset;",
       "Eng": "^#ffea00;Sulphuric^reset; worlds are extremely dangerous. Airless, acidic and toxic atmosphere. Abundant ^#772211;cinnabar^reset; detected. ^cyan;Recommend: Acid Protection^reset;"
     }
   },

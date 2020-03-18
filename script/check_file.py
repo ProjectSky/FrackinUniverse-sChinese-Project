@@ -9,10 +9,10 @@
 '''
 
 import os
+import sys
 import os.path
 import json
 import pathlib
-import traceback
 
 rootdir = "../translations"
 
@@ -30,5 +30,6 @@ def scanAllFile():
                         json.load(f)
                     except ValueError as e:
                         print('[FAIL] ' + os.path.join(parent, filename) + ' 校验失败, 错误信息: ' + str(e))
+                        sys.exit(1)
 
 scanAllFile()

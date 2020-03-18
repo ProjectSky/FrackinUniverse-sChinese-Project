@@ -1,0 +1,9 @@
+Check files:
+  script:
+    - $CHECKSCRIPT
+    
+Update statistics:
+  script:
+    - cd $PROJECT_FOLDER && git fetch --all && git reset --hard origin/FAST && git pull && $EXT
+  only:
+    - FAST

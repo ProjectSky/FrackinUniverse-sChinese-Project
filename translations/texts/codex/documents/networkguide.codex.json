@@ -3,60 +3,36 @@
     "DeniedAlternatives": [],
     "Files": {
       "codex/documents/networkguide.codex": [
-        "/contentPages/9"
-      ]
-    },
-    "Texts": {
-      "Chs": "制作组：\nKherae (对，就是我！)\nTP制作的Steambound Reloaded\nCratesmith的VesselBound项目中的设备链接代码",
-      "Eng": "Credits: Kherae (Me!)\nTP for Steambound Reloaded\nCratesmith for VesselBound's container link code\n"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "codex/documents/networkguide.codex": [
         "/description"
       ]
     },
     "Texts": {
-      "Chs": "如何使用(C)ustomizable_(A)utomatic_(T)ransmit网络",
-      "Eng": "How to work CAT Network Equipment"
+      "Chs": "一本ITN的初学者指导",
+      "Eng": "A Beginner's Guide to ITN"
     }
   },
   {
     "DeniedAlternatives": [],
     "Files": {
       "codex/documents/networkguide.codex": [
-        "/contentPages/7"
+        "/contentPages/11"
       ]
     },
     "Texts": {
-      "Chs": "物品类别：\n通用类：垃圾、任何不属于其他类别的杂物\n珍宝类：任何优秀或精良的物品\n材料类：块、液体、平台、破损物\n轨道类：轨道、轨道平台、任何有关轨道的物品\n消耗品类：与食物有关的物品\n书籍类：制作图、书\n试剂类：试剂、反应物、燃料\n建筑类：箱子、家具、门、制作物、电子设备\n农场繁殖的动物、树苗\n武器类\n护甲类",
-      "Eng": "Item Categories: \nGeneric: junk, anything that doesn't fit a category. \nTreasure: Anything shiny or rare. \nMaterials: block, liquid, platform, breakables! \nRail stuff: rail, railplatform, railpoint \nconsumable: the food category. \nbooks: blueprint, codex \nReagents: materials, ingredients, fuel \nbuilding: storage, crafting, electronics, furniture, doors. \nFarm beast and tree stuff \nWeapons \nArmor"
+      "Chs": "一种常见的、有用的存储程序是将一排排的容器和存储桥接器全部连接到一个终端(或一系列终端)上 ，这样你就可以从所有的终端中提取物品，附近有一个箱子，它的存储桥接器连接到多个ITDs，这些 ITDs将会自动把你倾倒到网络中的任何物品分类到特定的容器中，而你无需做任何其他事情。",
+      "Eng": "A common, useful storage setup is to have rows of containers and storage bridges all linked to a single terminal (or series of terminals) so you can pull from all of them, with a chest nearby and its storage bridge linked to multiple ITDs that will automatically sort any items you dump into it into specific containers in the network without you having to do anything else."
     }
   },
   {
     "DeniedAlternatives": [],
     "Files": {
       "codex/documents/networkguide.codex": [
-        "/contentPages/3"
+        "/contentPages/12"
       ]
     },
     "Texts": {
-      "Chs": "抽水机与开采机放置即可自动收集材料。开采机在无阻碍时向右延伸至多20格距离，然后向下挖掘(按照最基本设置，它的开采深度为200格)。抽水机则是直接往下延伸，直到它在200格距离内接触到液体为止。当它们的储存格装满后，它们会把满溢的物品卸到附近的容器中。",
-      "Eng": "Pump and quarry work out of the box and automatically collect. A Quarry extends up to 20 blocks to the right, then mines in that area downwards (amount based on tier, current depth limit is about 200 tiles). Pumps automatically go down until they find a fluid, up to the same distance. When full, they just offload near the device."
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "codex/documents/networkguide.codex": [
-        "/contentPages/4"
-      ]
-    },
-    "Texts": {
-      "Chs": "开采机可获取除液体之外的所有物品，甚至包括箱子。次要功能则可以作用于背景块。\n抽水机的次要功能可以将抽取的液体泵送到任何与之连接的喷嘴。",
-      "Eng": "Quarries will pick up any items in their way, including chests. Secondary makes it mine background tiles.\nThe second mode for the pump switches it to compress liquids and pump them to any connected spouts.\n"
+      "Chs": "当你开始做更复杂的ITN设置，你可能被跨越大面积的空间的布线孔娆，或者是想要优化你的线路的效率。中继器可以作为布线路径点来扩展你的布线范围，而一个单独的中继器可以连接到你所有的容器，所以你不需要在十几个不同的终端之间单独地连接所有的容器。",
+      "Eng": "As you start making more sophisticated ITN setups, you may have trouble getting your wiring across large areas of space without vanishing, or else want to optimize the efficiency of your wiring. Repeaters can serve as wiring waypoints to extend your wiring range, while a single Repeater can be wired to all your containers so that you do not need to wire all of them individually between a dozen different terminals."
     }
   },
   {
@@ -67,44 +43,44 @@
       ]
     },
     "Texts": {
-      "Chs": "CAT网络指南",
-      "Eng": "The Cat's Network Guide"
+      "Chs": "初学者的ITN指导",
+      "Eng": "Beginner's ITN Guide"
     }
   },
   {
     "DeniedAlternatives": [],
     "Files": {
       "codex/documents/networkguide.codex": [
-        "/contentPages/1"
+        "/contentPages/16"
       ]
     },
     "Texts": {
-      "Chs": "The_(I)tem_(T)ransferrence_(D)evice(物品传输器)只有在部件连接成功后才会开始工作，ITD可以处理简单的物品传输，指定设备间物品的往返传输。你可以选择接入物品传输装置，它将会帮你省下不少时间。",
-      "Eng": "The I(tem) T(ransferrence) D(evice) sets CAT apart from Startech, which only moves items when inserted. CAT Net ITDs handle item movement while turned on, across storage and other connected devices.\nSet your filters before wiring in and outputs. Choose your In- and Outputs carefully."
+      "Chs": "制作人： \n\n  Kherae 创造了这些神秘的屑科技\n  HelloWorld123撰写了原始的指南\n  TP for Steambound重载。\n  Cratesmith编写了限制容器连接代码。\n  Terminal解决如何逆转熵的问题，以及编写这本指南。\n\n  diskrubbish汉化了这本指南(屑汉化，自裁罢)。",
+      "Eng": "Credits: \n\n  Kherae for making all this arcane schlock work.\n  HelloWorld123 for writing the original Network Guide.\n  TP for Steambound Reloaded.\n  Cratesmith for the Vesselbound Container Link Code.\n  Terminal for figuring out how to reverse entropy and for writing this guide."
     }
   },
   {
     "DeniedAlternatives": [],
     "Files": {
       "codex/documents/networkguide.codex": [
-        "/contentPages/2"
+        "/contentPages/14"
       ]
     },
     "Texts": {
-      "Chs": "储存桥接器类似于StarTech中的储存总线，它总是可以自动搜寻距离自身最近的容器，你只需简单地放置在你想连入的容器旁即可。",
-      "Eng": "The Storage Bridge resembles a Startech Storage Bus. Looks for the container nearest to itself, measured between bottom-left corners. They only relay info about their container. Just plug them into any CAT Network devices."
+      "Chs": "做和不做：\n\n  在必要的时候一定要沿着一系列容器创建分支的ITD树。\n\n  不要创建任何类型的无限前后循环，在相同的容器之间转移相同的项，除非您有非常好的理由来这样做。不然这可能是卡顿的一个重要因素。",
+      "Eng": "Dos & Don'ts:\n\n  Do create branching ITD trees along a string of containers where you feel you need to.\n\n  Do Not create any sort of infinite back-and-forth loop that shifts the same items between the same containers unless you have a very good reason to do so. This can be a substantial source of lag."
     }
   },
   {
     "DeniedAlternatives": [],
     "Files": {
       "codex/documents/networkguide.codex": [
-        "/contentPages/5"
+        "/contentPages/13"
       ]
     },
     "Texts": {
-      "Chs": "管理终端可以浏览并获取物品。采集器(由采集工作台制作)可拾取物品。喷嘴则可以让液体喷出。",
-      "Eng": "The Terminal lets you retrieve items. Grabber (Foraging Table) picks things up. The spout ejects any liquids and accepts them from pumps."
+      "Chs": "做和不做：\n\n  使用菊花链拓扑链接多个容器。使用ITD从另一个ITD转储到的容器中提取物品，以在尽可能的情况下自动压缩物品堆栈，并为您提供更多特定于物品的存储空间。\n\n  不要将ITD的输出和输入节点直接链接到彼此。这种做法是多余的，可能是卡顿的原因，而且ITD配置不会在没有分离容器的情况下堆栈。",
+      "Eng": "Dos & Don'ts:\n\n  Do daisy-chain multiple containers. Use ITDs to draw items out of a container dumped to by another ITD to help automatically compress item stacks where possible and to give you more item-specific storage space.\n\n  Do Not link the output and input nodes of ITDs directly to one another. This is redundant and can be a source of lag, and ITD configurations do not stack without a separating container."
     }
   },
   {
@@ -115,8 +91,20 @@
       ]
     },
     "Texts": {
-      "Chs": "ITD由两种过滤方法组成：格数过滤与物品过滤。\n格数过滤，可以让你允许第几格内的物品传输。要使用该过滤功能，你需要连接上物品传输器。在默认情况下，它会传输任何格内的任何物品。物品过滤则有完全匹配，类别匹配(第七页内容作为匹配依据)，分类匹配(物品介面的五大分类作为匹配依据)。反选则是除开该过滤条件物品之外的所有物品。",
-      "Eng": "The current ITD interface has 2 functions, the slot filter and the item filter. The input slot filter, let you pick which slots to take from. Output slot filtering is included. \nTo filter items you need one to base the filter on. On default, only that item is transmitted Inv. Logic takes the condition out, inverts it, and makes it a logical AND. In other words, it excludes that item from transmit. There's also filtering for Exact Match, Type Match (Item Category), and Category Match (Groups of Categories)."
+      "Chs": "您可以与ITD进行交互以显示配置菜单。输入插槽指示ITD从容器中拉出物品的格子序号; 输出插槽指示ITD将把物品放入容器中的格子序号。您可以按下红色的 “i”按钮来反转选定的插槽，告诉ITD忽略这些特定的插槽，而不运输它们。还有分割插槽指示ITD是否将项目分成单个堆栈或者在每个指定的输出插槽之间分割物品。",
+      "Eng": "ITDs can be interacted with to bring up their configuration menu. Input slots indicate what slots in a container the ITD will pull from; output slots designate what inventory slots in a container the ITD will drop items into. You can press the red I button to invert the selected slots, telling the ITD to ignore those specific slots rather than use them specifically. Even splitting and slot splitting dictate whether the ITD sorts items into single stacks or splits items between every indicated output slot."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "codex/documents/networkguide.codex": [
+        "/contentPages/5"
+      ]
+    },
+    "Texts": {
+      "Chs": "为建立基本的ITN网络，请将第一个容器的储存桥接器的红色输出节点连接到ITD的第二个蓝色输入节点，然后将ITD的红色输出节点连接到第二个容器的储存桥接器的蓝色输入节点。现在，所有放入第一个容器的物品将会自动传输到第二个容器。",
+      "Eng": "In order to set up a basic ITN network, connect the red output node for a container's storage bridge to the second blue input node for an ITD, and then connect the ITD's red output node to the blue input node of a second container's storage bridge. Now all items put into the first container will be automatically moved to the second one."
     }
   },
   {
@@ -127,8 +115,116 @@
       ]
     },
     "Texts": {
-      "Chs": "你可以在加工台中制作物品传输网络所需的部件，然后类似于StarTech可以把各部件连接起来，但CAT网络则属于分散式管理。如果部件说明上提到可接开关，那么你可以使用开关来控制该部件。温馨提示：请认真阅读每个部件的说明！",
-      "Eng": "You will find Customizable Automatic Transmit Network devices primarily at the Machining Table. The parts are connected by wiring, like Startech, but Cat Net is decentralized. If there is a power input mentioned on the label, you can toggle it with a switch. Most important: If cat left labeling on it, read the label!"
+      "Chs": "物品传输网络(ITN)设备允许您建造一个可以在库存、容器和开放世界之间移动和排序任何项目的自动化的、基于对象的网络。ITN设备使用Starbound的布线系统来工作，建议先熟悉布线系统，而不是先使用ITN。所有ITN设备都可在电子设备制造机(或其升级版本，能源设备制造机)处找到。",
+      "Eng": "Inventory Transference Network (ITN) devices allow you to create an automated, object-based network that can move and sort any item between your inventory, containers, and the open world. ITN objects use Starbound's wiring system to function, a familiarity with wiring is recommended but not required to use the ITN. All ITN objects are found at the Electronics Center (or its upgraded version, the Power Center)."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "codex/documents/networkguide.codex": [
+        "/contentPages/9"
+      ]
+    },
+    "Texts": {
+      "Chs": "物品类别：\n宝物(有价值及稀有的物品)\n材料(方块，液体，平台)\n轨道(包括平台和电车)\n书籍(包括蓝图)\n 原材料(工艺原料，矿石) \n家具(容器，工作站，灯和们)\n农作物(大多数农作物)\n武器\n盔甲(包括背部饰品和增强)\n未处理(任何其他类别的物品)",
+      "Eng": "Item Categories: \n  Treasure (Valuable & rare items)\n  Materials (Blocks, liquids, platforms)\n  Rails (Including platforms and trams)\n  Books (Including Blueprints)\n  Ingredients (Crafting materials, ores) \n  Objects (Containers, crafting stations, lights & doors)\n  Farm (Most agricultural products)\n  Weapons\n  Armor (Including back items & augments)\n  Unhandled (Anything not in the other categories)"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "codex/documents/networkguide.codex": [
+        "/contentPages/4"
+      ]
+    },
+    "Texts": {
+      "Chs": "物品传输设备(ITDs)是ITN系统的附加核心组件。虽然 ITD 默认情况下能够移动所有项目，但是您将需要特殊的令牌物品来过滤ITD不认可的货币或物品。你可以把它们放在任何你想放的地方，只要你能让它们保持直线连线。只有ITD能够配置。掌握ITD能让你对ITN系统信手拈来。",
+      "Eng": "Item Transference Devices (ITDs) are additional core components of the ITN system. While ITDs are capable of moving all items by default, you will need special token items to filter for currencies or items the ITD does not recognize. You can place them wherever you want as long as you can keep their wiring straight. Mastery of the ITD will bring mastery over the entire ITN system."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "codex/documents/networkguide.codex": [
+        "/contentPages/8"
+      ]
+    },
+    "Texts": {
+      "Chs": "物品类型：\n 手持工具(手电，绳索，稿子)\n乐器(小提琴，木笛，钢笛)\n 投掷武器(投掷飞刀，炸弹)\nEPP\n项圈\n染料",
+      "Eng": "Item Types: \n  Hand Tools (Flashlight, rope, picks)\n  Instruments (Violin, xylaphone, assflute)\n  Thrown weapons (Throwing knives, bombs)\n  Augments\n  Collars\n  Dyes"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "codex/documents/networkguide.codex": [
+        "/contentPages/10"
+      ]
+    },
+    "Texts": {
+      "Chs": "一旦您有了一项基本的ITN程序(在第6页有描述) ，你就可以在电子/能源制造机处做一个终端。通过将容器储存桥接器的输出连接到终端的输入节点，您可以查看和搜索存储在该容器中的每一件物品，并将其拉入您的库存中——但您不能通过终端将物品送回。通过这种方式，一个终端可以连接到多个容器，使您可以同时查看和从多个容器中提取物品。",
+      "Eng": "Once you have a basic ITN setup (described on page 6), you can make a terminal at the electronics/power center. By connecting the output of a container's storage bridge to a terminal's input node, you can see and search through every item stored in that container, and pull them into your inventory - but you cannot send items back through the terminal. A single terminal can be connected to multiple containers this way, letting you view and pull items from multiple containers at once."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "codex/documents/networkguide.codex": [
+        "/contentPages/1"
+      ]
+    },
+    "Texts": {
+      "Chs": "请密切关注各种ITN设备的项目工具提示，它们将准确地告诉您每个设备的节点用于什么。还需注意，一些设备的说明会在被放置后改变，——请在箱子里和放置的时候仔细检查！还有一件事，虽然许多ITN设备都有电源节点，可以用来切换激活和非激活状态，但是ITN对象不需要电源(由生成器创建)也能工作。",
+      "Eng": "Pay close attention to the item tooltips for the various ITN objects, these will tell you exactly what each of that object's nodes are used for. Also be aware that some item descriptions will change after being placed - examine them both in your inventory and while placed! Also note that while many of these objects have power nodes that can be used to toggle them between active and inactive, none of the ITN objects require power (as created by generators) to function."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "codex/documents/networkguide.codex": [
+        "/contentPages/3"
+      ]
+    },
+    "Texts": {
+      "Chs": "储存桥接器不仅仅只用于普通集装箱工作。几乎任何具有物品槽的交互对象都可以链接到储存桥接器。这包括一些FrackinUniverse 工艺站和一些杂项。可能这些站点已经有电源节点(但没有输入/输出节点)。如果您发现自己不确定要使用哪些节点，请记住，储存桥接器的节点始终作为ITN的输入/输出节点。",
+      "Eng": "Storage bridges work with more than just ordinary containers. Almost any object which can be interacted with that has item slots can be linked to a storage bridge. This includes some FrackinUniverse crafting stations and a few misc. objects that might already have power nodes (but no input/output nodes). If you find yourself uncertain about which nodes to use, remember that storage bridge nodes always function as ITN input/output nodes."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "codex/documents/networkguide.codex": [
+        "/contentPages/2"
+      ]
+    },
+    "Texts": {
+      "Chs": "ITN的第一个核心部件是储存桥接器，用于通过代理的方式为容器提供输入和输出的连接节点。储存桥接器会环顾四周，寻找最近的容器连接(按照其放置点)，但如果将它放在多个容器之间，可能会引起其混淆。确保您的储存桥接器尽可能靠近您希望它们连接到的容器，并让它们和其他容器之间保持距离。",
+      "Eng": "The first core component of the ITN is the storage bridge, which is used to provide containers with input & output wiring nodes by way of proxy. Storage bridges look around themselves for the nearest container to connect to (by placement point), but can get confused if you put them right between multiple containers. Make sure your storage bridges are placed as close as possible to the one container you want them linked to, and to leave space between them and other containers."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "codex/documents/networkguide.codex": [
+        "/contentPages/15"
+      ]
+    },
+    "Texts": {
+      "Chs": "ITN系统的优点是其允许极其强大，精确，分散和完全自动化的物品存储。你不再需要在几十个不同的容器之间来回奔跑，当你凯旋的时候，你可以把所有的东西放在一个箱子里，然后把它们分类到你需要的地方，或者找回你所需要的材料，而不用离开某个工作站。\n\nITN系统的缺点在于，它需要大量的设置和偶尔比较复杂的连接才能工作，并且需要您希望过滤的项目的示例设置。它也可能是卡顿的一个重要因素，在多个容器之间同时移动和重组超过100堆物品的过程，可能是Starbound目前程序最密集的方面之一。",
+      "Eng": "The pros of the ITN system are that it allows for extremely powerful, precise, decentralized and fully automated item storage. No more having to prance between dozens of different containers whenever you get back from a loot haul, you can just drop it all in a single chest and have it all sorted exactly where you need it, or else retrieve exactly the materials you need for crafting without having to leave a crafting station.\n\nThe cons of the ITN system are that that it requires extensive setup and occasionally sophisticated wiring to get working, and requires examples of the items you want it to filter. It can also be a significant source of lag, the process of shifting and reorganizing upwards of a hundred stacks of items between multiple containers at once can be one of the most process-intensive aspects present in Starbound."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "codex/documents/networkguide.codex": [
+        "/contentPages/7"
+      ]
+    },
+    "Texts": {
+      "Chs": "您可以将物品放在ITD配置屏幕右上角的空物品框中，告诉ITD提取特定类型的物品，而忽略其他物品。您可以进一步指定是希望ITD拉取该物品，还是该物品的相同类型或分类。此外，您可以通过放置所需数量的堆栈来指定一次要移动的数量。使用反向逻辑设置告诉ITD忽略物品的特点、类型或分类。",
+      "Eng": "You can place items in the empty item boxes in the top-right corner of an ITD's configuration screen to tell it to pull specific kinds of items and ignore others. You can further specify whether you want the ITD to pull that exact item, or else the same types or categories of that item. Furthermore, you can specify how many to move at a time by placing stacks of the desired quantity. Using the Inverted Logic setting tells the ITD to ignore that specific, type, or category of item."
     }
   }
 ]

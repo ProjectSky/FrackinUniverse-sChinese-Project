@@ -6,11 +6,20 @@
         "/gui/editBookmarkFrame/children/close/caption",
         "/gui/jumpDialog/children/cancel/caption"
       ],
+      "interface/objectcrafting/fu_pethouse/fu_pethouse_confirmation.config": [
+        "/cancelCaption"
+      ],
       "interface/scripted/miningbench/miningbench.config": [
         "/gui/cancel/caption"
       ],
       "interface/scripted/weaponupgrade2/weaponupgrade2gui.config": [
         "/gui/cancel/caption"
+      ],
+      "interface/scripted/weaponupgradetiered/weaponupgradetieredgui.config": [
+        "/gui/cancel/caption"
+      ],
+      "interface/windowconfig/charcreation.config": [
+        "/paneLayout/cancel/caption"
       ]
     },
     "Texts": {
@@ -21,16 +30,70 @@
   {
     "DeniedAlternatives": [],
     "Files": {
+      "interface/itemdescriptions/ammogun.itemdescription": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/itemdescriptions/fuammogun.itemdescription": [
+        "/damagePerShotTitleLabel/value"
+      ],
       "interface/itemdescriptions/gun2.itemdescription": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gun2aetherium.itemdescription": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gun2elder.itemdescription": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gun2overheat.itemdescription": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gun2overheatelder.itemdescription": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gunkevin.itemdescription": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gununique.itemdescription": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gununiqueelder.itemdescription": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/tooltips/ammogun.tooltip": [
         "/damagePerShotTitleLabel/value"
       ],
       "interface/tooltips/boomerang.tooltip": [
         "/maxDamageTitleLabel/value"
       ],
+      "interface/tooltips/boomerangaetherium.tooltip": [
+        "/maxDamageTitleLabel/value"
+      ],
       "interface/tooltips/chakram.tooltip": [
         "/maxDamageTitleLabel/value"
       ],
+      "interface/tooltips/chakramaetherium.tooltip": [
+        "/maxDamageTitleLabel/value"
+      ],
+      "interface/tooltips/fuammogun.tooltip": [
+        "/damagePerShotTitleLabel/value"
+      ],
       "interface/tooltips/gun2.tooltip": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/tooltips/gun2aetherium.tooltip": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/tooltips/gun2elder.tooltip": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/tooltips/gun2overheat.tooltip": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/tooltips/gun2overheatelder.tooltip": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/tooltips/gununique.tooltip": [
         "/damagePerShotTitleLabel/value"
       ],
       "interface/tooltips/magnorb.tooltip": [
@@ -45,16 +108,118 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "interface/itemdescriptions/bow2.itemdescription": [
+      "interface/itemdescriptions/hammer.itemdescription": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/itemdescriptions/hammeraetherium.itemdescription": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/itemdescriptions/hammerelder.itemdescription": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/itemdescriptions/hammerunique.itemdescription": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/itemdescriptions/hammervanilla.itemdescription": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/itemdescriptions/sword2.itemdescription": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/itemdescriptions/swordaetherium.itemdescription": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/itemdescriptions/swordelder.itemdescription": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/itemdescriptions/swordunique.itemdescription": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/tooltips/hammer.tooltip": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/tooltips/hammeraetherium.tooltip": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/tooltips/hammerelder.tooltip": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/tooltips/hammerunique.tooltip": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/tooltips/hammervanilla.tooltip": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/tooltips/sword2.tooltip": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/tooltips/swordaetherium.tooltip": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/tooltips/swordelder.tooltip": [
+        "/damagePerShotTitleLabel/value"
+      ],
+      "interface/tooltips/swordunique.tooltip": [
+        "/damagePerShotTitleLabel/value"
+      ]
+    },
+    "Texts": {
+      "Chs": "每击伤害：",
+      "Eng": "Damage Per Swing:"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/itemdescriptions/ammogun.itemdescription": [
+        "/energyPerShotTitleLabel/value"
+      ],
+      "interface/itemdescriptions/bow2bak.itemdescription": [
+        "/energyPerShotTitleLabel/value"
+      ],
+      "interface/itemdescriptions/bowaetherium.itemdescription": [
+        "/energyPerShotTitleLabel/value"
+      ],
+      "interface/itemdescriptions/bowelder.itemdescription": [
+        "/energyPerShotTitleLabel/value"
+      ],
+      "interface/itemdescriptions/fuammogun.itemdescription": [
         "/energyPerShotTitleLabel/value"
       ],
       "interface/itemdescriptions/gun2.itemdescription": [
         "/energyPerShotTitleLabel/value"
       ],
-      "interface/tooltips/bow2.tooltip": [
+      "interface/itemdescriptions/gunkevin.itemdescription": [
+        "/energyPerShotTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gununique.itemdescription": [
+        "/energyPerShotTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gununiqueelder.itemdescription": [
+        "/energyPerShotTitleLabel/value"
+      ],
+      "interface/tooltips/ammogun.tooltip": [
+        "/energyPerShotTitleLabel/value"
+      ],
+      "interface/tooltips/bowaetherium.tooltip": [
+        "/energyPerShotTitleLabel/value"
+      ],
+      "interface/tooltips/bowelder.tooltip": [
+        "/energyPerShotTitleLabel/value"
+      ],
+      "interface/tooltips/fuammogun.tooltip": [
         "/energyPerShotTitleLabel/value"
       ],
       "interface/tooltips/gun2.tooltip": [
+        "/energyPerShotTitleLabel/value"
+      ],
+      "interface/tooltips/gun2aetherium.tooltip": [
+        "/energyPerShotTitleLabel/value"
+      ],
+      "interface/tooltips/gun2elder.tooltip": [
+        "/energyPerShotTitleLabel/value"
+      ],
+      "interface/tooltips/gununique.tooltip": [
         "/energyPerShotTitleLabel/value"
       ]
     },
@@ -66,40 +231,10 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "interface/bees/alveary/alveary.config": [
-        "/gui/count/value"
-      ],
-      "interface/bees/apiary/apiary.config": [
-        "/gui/count/value"
-      ],
-      "interface/bees/industrialcentrifuge/industrialcentrifuge.config": [
-        "/gui/countinput/value"
-      ],
-      "interface/bees/ironcentrifuge/ironcentrifuge.config": [
-        "/gui/countinput/value"
-      ],
-      "interface/bees/woodencentrifuge/woodencentrifuge.config": [
-        "/gui/countinput/value"
-      ],
-      "interface/extractor/elderaltar.config": [
-        "/gui/count/value"
-      ],
-      "interface/extractor/extractor.config": [
-        "/gui/count/value"
-      ],
-      "interface/xenolab/xenolab.config": [
-        "/gui/count/value"
-      ]
-    },
-    "Texts": {
-      "Chs": "输入",
-      "Eng": "Input"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
       "interface/itemdescriptions/boomerang.itemdescription": [
+        "/knockbackTitleLabel/value"
+      ],
+      "interface/itemdescriptions/boomerangaetherium.itemdescription": [
         "/knockbackTitleLabel/value"
       ],
       "interface/itemdescriptions/chakram.itemdescription": [
@@ -111,7 +246,13 @@
       "interface/tooltips/boomerang.tooltip": [
         "/knockbackTitleLabel/value"
       ],
+      "interface/tooltips/boomerangaetherium.tooltip": [
+        "/knockbackTitleLabel/value"
+      ],
       "interface/tooltips/chakram.tooltip": [
+        "/knockbackTitleLabel/value"
+      ],
+      "interface/tooltips/chakramaetherium.tooltip": [
         "/knockbackTitleLabel/value"
       ]
     },
@@ -123,58 +264,103 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "interface/itemdescriptions/bow2.itemdescription": [
-        "/levelTitleLabel/value"
+      "interface/objectcrafting/fu_pethouse/fu_pethouse.config": [
+        "/gui/petName/hint"
       ],
-      "interface/itemdescriptions/fist2.itemdescription": [
-        "/levelTitleLabel/value"
+      "interface/objectcrafting/fu_petnamer/fu_petnamer.config": [
+        "/gui/nameTextbox/hint"
       ],
-      "interface/itemdescriptions/gun2.itemdescription": [
-        "/levelTitleLabel/value"
+      "interface/objectcrafting/fu_petrenamer/fu_petrenamer.config": [
+        "/gui/nameTextbox/hint"
       ],
-      "interface/itemdescriptions/sword2.itemdescription": [
-        "/levelTitleLabel/value"
-      ],
-      "interface/tooltips/bow2.tooltip": [
-        "/levelTitleLabel/value"
-      ],
-      "interface/tooltips/fist2.tooltip": [
-        "/levelTitleLabel/value"
-      ],
-      "interface/tooltips/gun2.tooltip": [
-        "/levelTitleLabel/value"
-      ],
-      "interface/tooltips/sword2.tooltip": [
-        "/levelTitleLabel/value"
+      "interface/windowconfig/charcreation.config": [
+        "/paneLayout/name/hint"
       ]
     },
     "Texts": {
-      "Chs": "Lv ",
-      "Eng": "Lvl "
+      "Chs": "命名",
+      "Eng": "Name"
     }
   },
   {
     "DeniedAlternatives": [],
     "Files": {
-      "interface/bees/alveary/alveary.config": [
-        "/gui/countoutput/value"
+      "interface/itemdescriptions/ammogun.itemdescription": [
+        "/speedTitleLabel/value"
       ],
-      "interface/bees/apiary/apiary.config": [
-        "/gui/countoutput/value"
+      "interface/itemdescriptions/fuammogun.itemdescription": [
+        "/speedTitleLabel/value"
       ],
-      "interface/extractor/elderaltar.config": [
-        "/gui/countoutput/value"
+      "interface/itemdescriptions/gun2.itemdescription": [
+        "/speedTitleLabel/value"
       ],
-      "interface/extractor/extractor.config": [
-        "/gui/countoutput/value"
+      "interface/itemdescriptions/gun2aetherium.itemdescription": [
+        "/speedTitleLabel/value"
       ],
-      "interface/xenolab/xenolab.config": [
-        "/gui/countoutput/value"
+      "interface/itemdescriptions/gun2elder.itemdescription": [
+        "/speedTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gun2overheat.itemdescription": [
+        "/speedTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gun2overheatelder.itemdescription": [
+        "/speedTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gunkevin.itemdescription": [
+        "/speedTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gununique.itemdescription": [
+        "/speedTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gununiqueelder.itemdescription": [
+        "/speedTitleLabel/value"
+      ],
+      "interface/itemdescriptions/hammer.itemdescription": [
+        "/speedTitleLabel/value"
+      ],
+      "interface/itemdescriptions/hammeraetherium.itemdescription": [
+        "/speedTitleLabel/value"
+      ],
+      "interface/itemdescriptions/hammerelder.itemdescription": [
+        "/speedTitleLabel/value"
+      ],
+      "interface/itemdescriptions/hammerunique.itemdescription": [
+        "/speedTitleLabel/value"
+      ],
+      "interface/itemdescriptions/hammervanilla.itemdescription": [
+        "/speedTitleLabel/value"
+      ],
+      "interface/tooltips/ammogun.tooltip": [
+        "/speedTitleLabel/value"
+      ],
+      "interface/tooltips/fuammogun.tooltip": [
+        "/speedTitleLabel/value"
+      ],
+      "interface/tooltips/gun2.tooltip": [
+        "/speedTitleLabel/value"
+      ],
+      "interface/tooltips/gun2aetherium.tooltip": [
+        "/speedTitleLabel/value"
+      ],
+      "interface/tooltips/gun2elder.tooltip": [
+        "/speedTitleLabel/value"
+      ],
+      "interface/tooltips/gun2overheat.tooltip": [
+        "/speedTitleLabel/value"
+      ],
+      "interface/tooltips/gun2overheatelder.tooltip": [
+        "/speedTitleLabel/value"
+      ],
+      "interface/tooltips/gununique.tooltip": [
+        "/speedTitleLabel/value"
+      ],
+      "interface/tooltips/hammervanilla.tooltip": [
+        "/speedTitleLabel/value"
       ]
     },
     "Texts": {
-      "Chs": "输出",
-      "Eng": "Output"
+      "Chs": "射速：",
+      "Eng": "Rate of Fire:"
     }
   },
   {
@@ -194,7 +380,7 @@
       ]
     },
     "Texts": {
-      "Chs": "盾牌防护值：",
+      "Chs": "盾牌耐久：",
       "Eng": "Shield Health:"
     }
   },
@@ -204,10 +390,25 @@
       "interface/itemdescriptions/fist2.itemdescription": [
         "/speedTitleLabel/value"
       ],
+      "interface/itemdescriptions/fist2aetherium.itemdescription": [
+        "/speedTitleLabel/value"
+      ],
       "interface/itemdescriptions/sword2.itemdescription": [
         "/speedTitleLabel/value"
       ],
+      "interface/itemdescriptions/swordaetherium.itemdescription": [
+        "/speedTitleLabel/value"
+      ],
+      "interface/itemdescriptions/swordelder.itemdescription": [
+        "/speedTitleLabel/value"
+      ],
+      "interface/itemdescriptions/swordunique.itemdescription": [
+        "/speedTitleLabel/value"
+      ],
       "interface/tooltips/fist2.tooltip": [
+        "/speedTitleLabel/value"
+      ],
+      "interface/tooltips/fist2aetherium.tooltip": [
         "/speedTitleLabel/value"
       ]
     },
@@ -222,7 +423,25 @@
       "interface/itemdescriptions/boomerang.itemdescription": [
         "/critChanceTitleLabel/value"
       ],
+      "interface/itemdescriptions/boomerangaetherium.itemdescription": [
+        "/critChanceTitleLabel/value"
+      ],
       "interface/itemdescriptions/bow2.itemdescription": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/itemdescriptions/bow2bak.itemdescription": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/itemdescriptions/bowaetherium.itemdescription": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/itemdescriptions/bowaetherium2.itemdescription": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/itemdescriptions/bowelder.itemdescription": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/itemdescriptions/bowelder2.itemdescription": [
         "/critChanceTitleLabel/value"
       ],
       "interface/itemdescriptions/chakram.itemdescription": [
@@ -231,28 +450,112 @@
       "interface/itemdescriptions/fist2.itemdescription": [
         "/critChanceTitleLabel/value"
       ],
+      "interface/itemdescriptions/fist2aetherium.itemdescription": [
+        "/critChanceTitleLabel/value"
+      ],
       "interface/itemdescriptions/gun2.itemdescription": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gun2aetherium.itemdescription": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gun2elder.itemdescription": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gun2overheat.itemdescription": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gun2overheatelder.itemdescription": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gunkevin.itemdescription": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gununique.itemdescription": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gununiqueelder.itemdescription": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/itemdescriptions/hammer.itemdescription": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/itemdescriptions/hammeraetherium.itemdescription": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/itemdescriptions/hammerelder.itemdescription": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/itemdescriptions/hammerunique.itemdescription": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/itemdescriptions/hammervanilla.itemdescription": [
         "/critChanceTitleLabel/value"
       ],
       "interface/itemdescriptions/magnorb.itemdescription": [
         "/critChanceTitleLabel/value"
       ],
+      "interface/itemdescriptions/neb-randombow.itemdescription": [
+        "/critChanceTitleLabel/value"
+      ],
       "interface/itemdescriptions/sword2.itemdescription": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/itemdescriptions/swordaetherium.itemdescription": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/itemdescriptions/swordelder.itemdescription": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/itemdescriptions/swordunique.itemdescription": [
         "/critChanceTitleLabel/value"
       ],
       "interface/tooltips/boomerang.tooltip": [
         "/critChanceTitleLabel/value"
       ],
+      "interface/tooltips/boomerangaetherium.tooltip": [
+        "/critChanceTitleLabel/value"
+      ],
       "interface/tooltips/bow2.tooltip": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/tooltips/bowaetherium.tooltip": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/tooltips/bowaetherium2.tooltip": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/tooltips/bowelder.tooltip": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/tooltips/bowelder2.tooltip": [
         "/critChanceTitleLabel/value"
       ],
       "interface/tooltips/chakram.tooltip": [
         "/critChanceTitleLabel/value"
       ],
+      "interface/tooltips/chakramaetherium.tooltip": [
+        "/critChanceTitleLabel/value"
+      ],
       "interface/tooltips/fist2.tooltip": [
         "/critChanceTitleLabel/value"
       ],
-      "interface/tooltips/gun2.tooltip": [
+      "interface/tooltips/fist2aetherium.tooltip": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/tooltips/hammer.tooltip": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/tooltips/hammeraetherium.tooltip": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/tooltips/hammerelder.tooltip": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/tooltips/hammerunique.tooltip": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/tooltips/hammervanilla.tooltip": [
         "/critChanceTitleLabel/value"
       ],
       "interface/tooltips/magnorb.tooltip": [
@@ -260,11 +563,20 @@
       ],
       "interface/tooltips/sword2.tooltip": [
         "/critChanceTitleLabel/value"
+      ],
+      "interface/tooltips/swordaetherium.tooltip": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/tooltips/swordelder.tooltip": [
+        "/critChanceTitleLabel/value"
+      ],
+      "interface/tooltips/swordunique.tooltip": [
+        "/critChanceTitleLabel/value"
       ]
     },
     "Texts": {
-      "Chs": "^orange;暴击几率+^reset;",
-      "Eng": "^orange;Crit %^reset;"
+      "Chs": "^#ee1414;暴击率^reset;",
+      "Eng": "^#ee1414;Crit %^reset;"
     }
   },
   {
@@ -273,7 +585,25 @@
       "interface/itemdescriptions/boomerang.itemdescription": [
         "/critBonusTitleLabel/value"
       ],
+      "interface/itemdescriptions/boomerangaetherium.itemdescription": [
+        "/critBonusTitleLabel/value"
+      ],
       "interface/itemdescriptions/bow2.itemdescription": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/itemdescriptions/bow2bak.itemdescription": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/itemdescriptions/bowaetherium.itemdescription": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/itemdescriptions/bowaetherium2.itemdescription": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/itemdescriptions/bowelder.itemdescription": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/itemdescriptions/bowelder2.itemdescription": [
         "/critBonusTitleLabel/value"
       ],
       "interface/itemdescriptions/chakram.itemdescription": [
@@ -282,28 +612,118 @@
       "interface/itemdescriptions/fist2.itemdescription": [
         "/critBonusTitleLabel/value"
       ],
+      "interface/itemdescriptions/fist2aetherium.itemdescription": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/itemdescriptions/fuammogun.itemdescription": [
+        "/critBonusTitleLabel/value"
+      ],
       "interface/itemdescriptions/gun2.itemdescription": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gun2aetherium.itemdescription": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gun2elder.itemdescription": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gun2overheat.itemdescription": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gun2overheatelder.itemdescription": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gunkevin.itemdescription": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gununique.itemdescription": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gununiqueelder.itemdescription": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/itemdescriptions/hammer.itemdescription": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/itemdescriptions/hammeraetherium.itemdescription": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/itemdescriptions/hammerelder.itemdescription": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/itemdescriptions/hammerunique.itemdescription": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/itemdescriptions/hammervanilla.itemdescription": [
         "/critBonusTitleLabel/value"
       ],
       "interface/itemdescriptions/magnorb.itemdescription": [
         "/critBonusTitleLabel/value"
       ],
+      "interface/itemdescriptions/neb-randombow.itemdescription": [
+        "/critBonusTitleLabel/value"
+      ],
       "interface/itemdescriptions/sword2.itemdescription": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/itemdescriptions/swordaetherium.itemdescription": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/itemdescriptions/swordelder.itemdescription": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/itemdescriptions/swordunique.itemdescription": [
         "/critBonusTitleLabel/value"
       ],
       "interface/tooltips/boomerang.tooltip": [
         "/critBonusTitleLabel/value"
       ],
+      "interface/tooltips/boomerangaetherium.tooltip": [
+        "/critBonusTitleLabel/value"
+      ],
       "interface/tooltips/bow2.tooltip": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/tooltips/bowaetherium.tooltip": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/tooltips/bowaetherium2.tooltip": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/tooltips/bowelder.tooltip": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/tooltips/bowelder2.tooltip": [
         "/critBonusTitleLabel/value"
       ],
       "interface/tooltips/chakram.tooltip": [
         "/critBonusTitleLabel/value"
       ],
+      "interface/tooltips/chakramaetherium.tooltip": [
+        "/critBonusTitleLabel/value"
+      ],
       "interface/tooltips/fist2.tooltip": [
         "/critBonusTitleLabel/value"
       ],
-      "interface/tooltips/gun2.tooltip": [
+      "interface/tooltips/fist2aetherium.tooltip": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/tooltips/fuammogun.tooltip": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/tooltips/hammer.tooltip": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/tooltips/hammeraetherium.tooltip": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/tooltips/hammerelder.tooltip": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/tooltips/hammerunique.tooltip": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/tooltips/hammervanilla.tooltip": [
         "/critBonusTitleLabel/value"
       ],
       "interface/tooltips/magnorb.tooltip": [
@@ -311,11 +731,170 @@
       ],
       "interface/tooltips/sword2.tooltip": [
         "/critBonusTitleLabel/value"
+      ],
+      "interface/tooltips/swordaetherium.tooltip": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/tooltips/swordelder.tooltip": [
+        "/critBonusTitleLabel/value"
+      ],
+      "interface/tooltips/swordunique.tooltip": [
+        "/critBonusTitleLabel/value"
       ]
     },
     "Texts": {
-      "Chs": "^yellow;伤害+^reset;",
+      "Chs": "^yellow;暴击伤害^reset;",
       "Eng": "^yellow;Dmg +^reset;"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/itemdescriptions/boomerang.itemdescription": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/itemdescriptions/boomerangaetherium.itemdescription": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/itemdescriptions/bow2.itemdescription": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/itemdescriptions/bow2bak.itemdescription": [
+        "/levelLabelTitle/value"
+      ],
+      "interface/itemdescriptions/bowaetherium.itemdescription": [
+        "/levelLabelTitle/value"
+      ],
+      "interface/itemdescriptions/bowaetherium2.itemdescription": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/itemdescriptions/bowelder.itemdescription": [
+        "/levelLabelTitle/value"
+      ],
+      "interface/itemdescriptions/bowelder2.itemdescription": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/itemdescriptions/chakram.itemdescription": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/itemdescriptions/fist2.itemdescription": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/itemdescriptions/fist2aetherium.itemdescription": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/itemdescriptions/gun2.itemdescription": [
+        "/levelLabelTitle/value"
+      ],
+      "interface/itemdescriptions/gun2aetherium.itemdescription": [
+        "/levelLabelTitle/value"
+      ],
+      "interface/itemdescriptions/gun2elder.itemdescription": [
+        "/levelLabelTitle/value"
+      ],
+      "interface/itemdescriptions/gun2overheat.itemdescription": [
+        "/levelLabelTitle/value"
+      ],
+      "interface/itemdescriptions/gun2overheatelder.itemdescription": [
+        "/levelLabelTitle/value"
+      ],
+      "interface/itemdescriptions/gunkevin.itemdescription": [
+        "/levelLabelTitle/value"
+      ],
+      "interface/itemdescriptions/gununique.itemdescription": [
+        "/levelLabelTitle/value"
+      ],
+      "interface/itemdescriptions/gununiqueelder.itemdescription": [
+        "/levelLabelTitle/value"
+      ],
+      "interface/itemdescriptions/hammer.itemdescription": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/itemdescriptions/hammeraetherium.itemdescription": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/itemdescriptions/hammerelder.itemdescription": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/itemdescriptions/hammerunique.itemdescription": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/itemdescriptions/hammervanilla.itemdescription": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/itemdescriptions/magnorb.itemdescription": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/itemdescriptions/neb-randombow.itemdescription": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/itemdescriptions/sword2.itemdescription": [
+        "/levelLabelTitle/value"
+      ],
+      "interface/itemdescriptions/swordaetherium.itemdescription": [
+        "/levelLabelTitle/value"
+      ],
+      "interface/itemdescriptions/swordelder.itemdescription": [
+        "/levelLabelTitle/value"
+      ],
+      "interface/itemdescriptions/swordunique.itemdescription": [
+        "/levelLabelTitle/value"
+      ],
+      "interface/tooltips/boomerang.tooltip": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/tooltips/boomerangaetherium.tooltip": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/tooltips/bow2.tooltip": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/tooltips/bowaetherium.tooltip": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/tooltips/bowaetherium2.tooltip": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/tooltips/bowelder.tooltip": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/tooltips/bowelder2.tooltip": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/tooltips/chakram.tooltip": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/tooltips/chakramaetherium.tooltip": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/tooltips/fist2.tooltip": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/tooltips/fist2aetherium.tooltip": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/tooltips/hammer.tooltip": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/tooltips/hammeraetherium.tooltip": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/tooltips/hammerelder.tooltip": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/tooltips/hammerunique.tooltip": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/tooltips/hammervanilla.tooltip": [
+        "/levelTitleLabel/value"
+      ],
+      "interface/tooltips/neb-randombow.tooltip": [
+        "/levelTitleLabel/value"
+      ]
+    },
+    "Texts": {
+      "Chs": "^yellow;品级^reset;",
+      "Eng": "^yellow;Tier ^reset;"
     }
   }
 ]
