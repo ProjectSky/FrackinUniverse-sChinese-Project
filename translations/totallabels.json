@@ -294,6 +294,11 @@
       "statuses.config.json": 149
     },
     "objects": {
+      "apex": {
+        "microscope": {
+          "microscope.object.json": 2
+        }
+      },
       "crafting": {
         "upgradeablecraftingobjects": {
           "craftingfurnace": {
@@ -316,6 +321,9 @@
         }
       },
       "generic": {
+        "hazardmicroscope": {
+          "hazardmicroscope.object.json": 1
+        },
         "poop": {
           "poop.object.json": 1
         }
@@ -628,6 +636,7 @@
       },
       "monsters": {
         "aquarum.monstertype.json": 1,
+        "artisan.monstertype.json": 1,
         "assassin.monstertype.json": 1,
         "bumblebee.monstertype.json": 1,
         "carpenter.monstertype.json": 1,
@@ -672,8 +681,7 @@
         },
         "beeexaminer": {
           "beeExaminer.object.json": 2,
-          "beeExaminer2.object.json": 2,
-          "shared_beeExaminer.json": 1
+          "beeExaminer2.object.json": 2
         }
       },
       "shared_bee": {
@@ -1511,6 +1519,7 @@
       "shared_magnorb..json": 1,
       "shared_shieldnew..json": 4,
       "tooltips": {
+        "bee.tooltip.json": 8,
         "gunkevin.tooltip.json": 4,
         "magnorb.tooltip.json": 1,
         "shared_.tooltip.json": 7,
@@ -5658,7 +5667,7 @@
           "mutavisksilk.item.json": 2,
           "mutaviskthread.item.json": 2,
           "mythos": {
-            "cthulureward.item.json": 1,
+            "cthulureward.item.json": 2,
             "elderrelic1.item.json": 2,
             "elderrelic10.item.json": 2,
             "elderrelic11.item.json": 2,
@@ -5703,6 +5712,7 @@
             "precursorram.item.json": 2,
             "unknowngene.item.json": 2
           },
+          "protheonshard.item.json": 2,
           "protociteore.item.json": 1,
           "psionicenergy.item.json": 2,
           "psionicenergy2.item.json": 2,
@@ -6123,7 +6133,7 @@
         },
         "loot": {
           "artifacts": {
-            "shared_artifact.json": 1
+            "shared_artifact.json": 2
           },
           "babyheadonastick.consumable.json": 2,
           "bagoffarts.item.json": 2,
@@ -6484,7 +6494,6 @@
           "yellowfoot.consumable.json": 2,
           "zathitails.consumable.json": 2
         },
-        "shared_.item.json": 1,
         "shop": {
           "bananamilk.consumable.json": 2,
           "jojacola.consumable.json": 1
@@ -7278,7 +7287,7 @@
           "fubat.monstertype.json": 2
         },
         "fudrone": {
-          "fudrone.monstertype.json": 2
+          "fudrone.monstertype.json": 1
         },
         "fufireball": {
           "fufireball.monstertype.json": 2
@@ -7889,6 +7898,9 @@
         "shared_metal.json": 1
       },
       "shared_bighairyfrank.json": 1,
+      "shared_drone": {
+        "shared_ne.monstertype.json": 1
+      },
       "shared_skill.json": 2,
       "shared_ttack.monsterskill.json": 6,
       "skills": {
@@ -18019,11 +18031,10 @@
             "extractor5.questtemplate.json": 4,
             "extractor6.questtemplate.json": 3
           },
-          "shared_.questtemplate.json": 1,
           "start_basics.questtemplate.json": 4,
           "start_basics2.questtemplate.json": 4,
-          "start_basics3.questtemplate.json": 3,
-          "start_basics4.questtemplate.json": 3,
+          "start_basics3.questtemplate.json": 4,
+          "start_basics4.questtemplate.json": 4,
           "start_basics5.questtemplate.json": 4,
           "vinj": {
             "bonespear.questtemplate.json": 3,
@@ -18189,7 +18200,7 @@
       "shared_cute.json": 1
     },
     "shared_duskiline.json": 1,
-    "shared_ect.json": 174,
+    "shared_ect.json": 175,
     "shared_elderplatform.mat.json": 2,
     "shared_emera.json": 1,
     "shared_ers": {
