@@ -950,7 +950,7 @@
         "random8.codex.json": 3,
         "random9.codex.json": 3,
         "scienceoutpost_kevin.codex.json": 101,
-        "scienceoutpost_khe.codex.json": 16,
+        "scienceoutpost_khe.codex.json": 19,
         "shared_.codex.json": 1,
         "shared_ffguide.json": 1,
         "shared_luridmagazine.json": 2,
@@ -1356,6 +1356,19 @@
       "shared_.config.json": 12,
       "shared_n.config.json": 236,
       "towndrunk.config.json": 89
+    },
+    "dungeons": {
+      "objects": {
+        "minibiome": {
+          "elder": {
+            "dungeondeco": {
+              "elderblood5_noeffect.object.json": 1,
+              "elderblood6_noeffect.object.json": 1,
+              "elderleggore_noeffect.object.json": 1
+            }
+          }
+        }
+      }
     },
     "glitchEmotes.json": 334,
     "interface": {
@@ -5544,12 +5557,14 @@
             "ff_fertilizer2.item.json": 2,
             "ff_fertilizer3.item.json": 2,
             "fu_mulch.item.json": 2,
+            "genesiextract.item.json": 2,
             "methyliodide.item.json": 2,
             "morphiteore.item.json": 2,
             "mutagene1.item.json": 2,
             "mutagene2.item.json": 2,
             "mutagene3.item.json": 2,
             "mutagene4.item.json": 2,
+            "soulleafextract.item.json": 2,
             "unstableparticles.item.json": 2
           },
           "cinnabarore.item.json": 1,
@@ -5653,6 +5668,7 @@
             "electromagnet.item.json": 2,
             "ff_focusingarray.item.json": 2,
             "fuprocessor.item.json": 2,
+            "kheWarpedRegulatorChip.item.json": 2,
             "magneticshielding.item.json": 2,
             "microchip.item.json": 2,
             "nuclearcore.item.json": 2,
@@ -5880,10 +5896,12 @@
             "applecider.consumable.json": 2,
             "mantizanwine.consumable.json": 2,
             "meadbottle.consumable.json": 2,
+            "miracleambrosia.consumable.json": 2,
             "perry.consumable.json": 2,
             "perrybottle.consumable.json": 2,
             "premiumcyanider.consumable.json": 2,
-            "pukacolaquantum.consumable.json": 2
+            "pukacolaquantum.consumable.json": 2,
+            "soulleafspritz.consumable.json": 2
           },
           "coffeemachine": {
             "americancoffee.consumable.json": 2,
@@ -6157,11 +6175,14 @@
           "honorcoin.consumable.json": 2,
           "mission": {
             "alien_trophy.item.json": 2,
+            "alien_trophy_Khe.item.json": 2,
             "ancient_tech.item.json": 2,
             "greenfinger_trophy.item.json": 2,
             "luckycoin.item.json": 1,
+            "luckycoin_khe.item.json": 2,
             "radien_trophy.item.json": 2,
-            "temple_trophy.item.json": 2
+            "temple_trophy.item.json": 2,
+            "temple_trophy_khe.item.json": 2
           },
           "myphisinjector.consumable.json": 2,
           "novaglowjuice.consumable.json": 2,
@@ -11873,24 +11894,20 @@
             "elderblood6.object.json": 1,
             "elderblood7.object.json": 2,
             "elderblood8.object.json": 1,
-            "elderblood9.object.json": 1,
-            "elderbloodychunks.object.json": 2,
             "eldercage.object.json": 1,
             "eldercage2.object.json": 1,
             "eldercage3.object.json": 1,
             "eldercage4.object.json": 1,
             "elderhanging.object.json": 1,
             "elderhanging2.object.json": 1,
-            "elderleggore.object.json": 2,
+            "elderleggore.object.json": 1,
             "elderoutpostchair": {
               "elderoutpostchair1.object.json": 2
             },
-            "elderskullgore.object.json": 2,
             "researchnotes": {
               "researchnotes.object.json": 2
             },
             "shared_.object.json": 2,
-            "shared_elderblood.json": 1,
             "shared_eldercage.json": 1,
             "shared_elderhanging.json": 1,
             "tortured1.object.json": 2,
@@ -17965,12 +17982,15 @@
             "create_clothingfabricator3e.questtemplate.json": 4,
             "create_clothingfabricator4.questtemplate.json": 4
           },
+          "khecoinbreadcrumb.questtemplate.json": 1,
+          "khecrystalbreadcrumb.questtemplate.json": 1,
           "scienceoutpost_floranShop.questtemplate.json": 4,
           "scienceoutpost_foodShop.questtemplate.json": 3,
           "scienceoutpost_gemShop.questtemplate.json": 4,
           "scienceoutpost_kirhosShop.questtemplate.json": 4,
           "scienceoutpost_radienShop.questtemplate.json": 4,
-          "scienceoutpost_shadowShop.questtemplate.json": 3
+          "scienceoutpost_shadowShop.questtemplate.json": 3,
+          "shared_breadcrumb.questtemplate.json": 1
         },
         "science": {
           "chemistry": {
@@ -19796,7 +19816,7 @@
         "sturdyplatform.material.json": 2
       }
     },
-    "wide_spread_fields.json": 176,
+    "wide_spread_fields.json": 183,
     "zb": {
       "newSail": {
         "data.config.json": 7,

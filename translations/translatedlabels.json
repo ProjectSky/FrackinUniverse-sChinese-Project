@@ -296,7 +296,7 @@
     "objects": {
       "apex": {
         "microscope": {
-          "microscope.object.json": 0
+          "microscope.object.json": 2
         }
       },
       "crafting": {
@@ -322,7 +322,7 @@
       },
       "generic": {
         "hazardmicroscope": {
-          "hazardmicroscope.object.json": 0
+          "hazardmicroscope.object.json": 1
         },
         "poop": {
           "poop.object.json": 1
@@ -615,7 +615,7 @@
         "iron.item.json": 1,
         "irradiated.item.json": 2,
         "narcotic.item.json": 2,
-        "protective.item.json": 1,
+        "protective.item.json": 2,
         "radioactive.item.json": 2,
         "scented.item.json": 1,
         "scented2.item.json": 2,
@@ -636,7 +636,7 @@
       },
       "monsters": {
         "aquarum.monstertype.json": 1,
-        "artisan.monstertype.json": 0,
+        "artisan.monstertype.json": 1,
         "assassin.monstertype.json": 1,
         "bumblebee.monstertype.json": 1,
         "carpenter.monstertype.json": 1,
@@ -950,7 +950,7 @@
         "random8.codex.json": 3,
         "random9.codex.json": 3,
         "scienceoutpost_kevin.codex.json": 101,
-        "scienceoutpost_khe.codex.json": 16,
+        "scienceoutpost_khe.codex.json": 15,
         "shared_.codex.json": 1,
         "shared_ffguide.json": 1,
         "shared_luridmagazine.json": 2,
@@ -1356,6 +1356,19 @@
       "shared_.config.json": 12,
       "shared_n.config.json": 236,
       "towndrunk.config.json": 89
+    },
+    "dungeons": {
+      "objects": {
+        "minibiome": {
+          "elder": {
+            "dungeondeco": {
+              "elderblood5_noeffect.object.json": 0,
+              "elderblood6_noeffect.object.json": 0,
+              "elderleggore_noeffect.object.json": 0
+            }
+          }
+        }
+      }
     },
     "glitchEmotes.json": 334,
     "interface": {
@@ -5544,12 +5557,14 @@
             "ff_fertilizer2.item.json": 2,
             "ff_fertilizer3.item.json": 2,
             "fu_mulch.item.json": 2,
+            "genesiextract.item.json": 0,
             "methyliodide.item.json": 2,
             "morphiteore.item.json": 2,
             "mutagene1.item.json": 2,
             "mutagene2.item.json": 2,
             "mutagene3.item.json": 2,
             "mutagene4.item.json": 2,
+            "soulleafextract.item.json": 0,
             "unstableparticles.item.json": 2
           },
           "cinnabarore.item.json": 1,
@@ -5653,6 +5668,7 @@
             "electromagnet.item.json": 2,
             "ff_focusingarray.item.json": 2,
             "fuprocessor.item.json": 2,
+            "kheWarpedRegulatorChip.item.json": 0,
             "magneticshielding.item.json": 2,
             "microchip.item.json": 2,
             "nuclearcore.item.json": 2,
@@ -5712,7 +5728,7 @@
             "precursorram.item.json": 2,
             "unknowngene.item.json": 2
           },
-          "protheonshard.item.json": 0,
+          "protheonshard.item.json": 2,
           "protociteore.item.json": 1,
           "psionicenergy.item.json": 2,
           "psionicenergy2.item.json": 2,
@@ -5880,10 +5896,12 @@
             "applecider.consumable.json": 2,
             "mantizanwine.consumable.json": 2,
             "meadbottle.consumable.json": 2,
+            "miracleambrosia.consumable.json": 0,
             "perry.consumable.json": 2,
             "perrybottle.consumable.json": 2,
             "premiumcyanider.consumable.json": 2,
-            "pukacolaquantum.consumable.json": 2
+            "pukacolaquantum.consumable.json": 2,
+            "soulleafspritz.consumable.json": 0
           },
           "coffeemachine": {
             "americancoffee.consumable.json": 2,
@@ -6133,7 +6151,7 @@
         },
         "loot": {
           "artifacts": {
-            "shared_artifact.json": 1
+            "shared_artifact.json": 2
           },
           "babyheadonastick.consumable.json": 2,
           "bagoffarts.item.json": 2,
@@ -6156,12 +6174,15 @@
           "honeyboon.consumable.json": 2,
           "honorcoin.consumable.json": 2,
           "mission": {
-            "alien_trophy.item.json": 1,
-            "ancient_tech.item.json": 1,
-            "greenfinger_trophy.item.json": 1,
-            "luckycoin.item.json": 0,
-            "radien_trophy.item.json": 1,
-            "temple_trophy.item.json": 1
+            "alien_trophy.item.json": 2,
+            "alien_trophy_Khe.item.json": 0,
+            "ancient_tech.item.json": 2,
+            "greenfinger_trophy.item.json": 2,
+            "luckycoin.item.json": 1,
+            "luckycoin_khe.item.json": 0,
+            "radien_trophy.item.json": 2,
+            "temple_trophy.item.json": 2,
+            "temple_trophy_khe.item.json": 0
           },
           "myphisinjector.consumable.json": 2,
           "novaglowjuice.consumable.json": 2,
@@ -9669,94 +9690,94 @@
       },
       "drinks": {
         "alienfruitjuiceobject": {
-          "alienfruitjuiceobject.object.json": 0
+          "alienfruitjuiceobject.object.json": 5
         },
         "automatoshakeobject": {
-          "automatoshakeobject.object.json": 0
+          "automatoshakeobject.object.json": 5
         },
         "avesmingojuiceobject": {
-          "avesmingojuiceobject.object.json": 0
+          "avesmingojuiceobject.object.json": 5
         },
         "bloodypussobject": {
-          "bloodypussobject.object.json": 0
+          "bloodypussobject.object.json": 5
         },
         "cactusjuiceobject": {
-          "cactusjuiceobject.object.json": 0
+          "cactusjuiceobject.object.json": 5
         },
         "carrotjuiceobject": {
-          "carrotjuiceobject.object.json": 0
+          "carrotjuiceobject.object.json": 5
         },
         "coconutmilkobject": {
-          "coconutmilkobject.object.json": 0
+          "coconutmilkobject.object.json": 5
         },
         "coffeeobject": {
-          "coffeeobject.object.json": 0
+          "coffeeobject.object.json": 4
         },
         "flatwhiteobject": {
-          "flatwhiteobject.object.json": 0
+          "flatwhiteobject.object.json": 4
         },
         "grapejuiceobject": {
-          "grapejuiceobject.object.json": 0
+          "grapejuiceobject.object.json": 5
         },
         "kiwijuiceobject": {
-          "kiwijuiceobject.object.json": 0
+          "kiwijuiceobject.object.json": 5
         },
         "milkcarton": {
-          "milkcarton.object.json": 0
+          "milkcarton.object.json": 9
         },
         "mochaobject": {
-          "mochaobject.object.json": 0
+          "mochaobject.object.json": 4
         },
         "oculemonadeobject": {
-          "oculemonadeobject.object.json": 0
+          "oculemonadeobject.object.json": 5
         },
         "pineapplejuiceobject": {
-          "pineapplejuiceobject.object.json": 0
+          "pineapplejuiceobject.object.json": 5
         },
         "pozestobject": {
-          "pozestobject.object.json": 0
+          "pozestobject.object.json": 5
         },
         "reefcolaobject": {
-          "reefcolaobject.object.json": 0
+          "reefcolaobject.object.json": 5
         },
         "reefjuiceobject": {
-          "reefjuiceobject.object.json": 0
+          "reefjuiceobject.object.json": 5
         },
         "reefshakeobject": {
-          "reefshakeobject.object.json": 0
+          "reefshakeobject.object.json": 5
         },
         "sodaobject": {
-          "sodaobject.object.json": 0
+          "sodaobject.object.json": 5
         },
         "softdrink": {
-          "softdrink.object.json": 0
+          "softdrink.object.json": 9
         },
         "strawberryshakeobject": {
-          "strawberryshakeobject.object.json": 0
+          "strawberryshakeobject.object.json": 5
         },
         "sweetpunchobject": {
-          "sweetpunchobject.object.json": 0
+          "sweetpunchobject.object.json": 5
         },
         "teatray": {
-          "teatray.object.json": 0
+          "teatray.object.json": 9
         },
         "togocoffee": {
-          "togocoffee.object.json": 0
+          "togocoffee.object.json": 5
         },
         "tomatojuiceobject": {
-          "tomatojuiceobject.object.json": 0
+          "tomatojuiceobject.object.json": 5
         },
         "toxicjuiceobject": {
-          "toxicjuiceobject.object.json": 0
+          "toxicjuiceobject.object.json": 5
         },
         "tropicalpunchobject": {
-          "tropicalpunchobject.object.json": 0
+          "tropicalpunchobject.object.json": 5
         },
         "ultimatejuiceobject": {
-          "ultimatejuiceobject.object.json": 0
+          "ultimatejuiceobject.object.json": 5
         },
         "zenteatray": {
-          "zenteatray.object.json": 0
+          "zenteatray.object.json": 9
         }
       },
       "effigium": {
@@ -11873,24 +11894,20 @@
             "elderblood6.object.json": 1,
             "elderblood7.object.json": 2,
             "elderblood8.object.json": 1,
-            "elderblood9.object.json": 1,
-            "elderbloodychunks.object.json": 2,
             "eldercage.object.json": 1,
             "eldercage2.object.json": 1,
             "eldercage3.object.json": 1,
             "eldercage4.object.json": 1,
             "elderhanging.object.json": 1,
             "elderhanging2.object.json": 1,
-            "elderleggore.object.json": 2,
+            "elderleggore.object.json": 1,
             "elderoutpostchair": {
               "elderoutpostchair1.object.json": 2
             },
-            "elderskullgore.object.json": 2,
             "researchnotes": {
               "researchnotes.object.json": 2
             },
             "shared_.object.json": 2,
-            "shared_elderblood.json": 1,
             "shared_eldercage.json": 1,
             "shared_elderhanging.json": 1,
             "tortured1.object.json": 2,
@@ -17677,7 +17694,7 @@
         "silverdamagenumberweak.particle.json": 0
       },
       "energydrainmessage.particle.json": 1,
-      "freedomdamagenumber.particle.json": 1,
+      "freedomdamagenumber.particle.json": 0,
       "freezingwatermessage.particle.json": 1,
       "frozenslowmessage.particle.json": 1,
       "hungerstopmessage.particle.json": 1,
@@ -17965,12 +17982,15 @@
             "create_clothingfabricator3e.questtemplate.json": 4,
             "create_clothingfabricator4.questtemplate.json": 4
           },
+          "khecoinbreadcrumb.questtemplate.json": 0,
+          "khecrystalbreadcrumb.questtemplate.json": 0,
           "scienceoutpost_floranShop.questtemplate.json": 4,
           "scienceoutpost_foodShop.questtemplate.json": 3,
           "scienceoutpost_gemShop.questtemplate.json": 4,
           "scienceoutpost_kirhosShop.questtemplate.json": 4,
           "scienceoutpost_radienShop.questtemplate.json": 4,
-          "scienceoutpost_shadowShop.questtemplate.json": 3
+          "scienceoutpost_shadowShop.questtemplate.json": 3,
+          "shared_breadcrumb.questtemplate.json": 0
         },
         "science": {
           "chemistry": {
@@ -18033,9 +18053,9 @@
           },
           "start_basics.questtemplate.json": 4,
           "start_basics2.questtemplate.json": 4,
-          "start_basics3.questtemplate.json": 3,
-          "start_basics4.questtemplate.json": 3,
-          "start_basics5.questtemplate.json": 1,
+          "start_basics3.questtemplate.json": 4,
+          "start_basics4.questtemplate.json": 4,
+          "start_basics5.questtemplate.json": 4,
           "vinj": {
             "bonespear.questtemplate.json": 3,
             "create_alchemy.questtemplate.json": 4,
@@ -18200,7 +18220,7 @@
       "shared_cute.json": 1
     },
     "shared_duskiline.json": 1,
-    "shared_ect.json": 174,
+    "shared_ect.json": 175,
     "shared_elderplatform.mat.json": 2,
     "shared_emera.json": 1,
     "shared_ers": {
@@ -19796,7 +19816,7 @@
         "sturdyplatform.material.json": 2
       }
     },
-    "wide_spread_fields.json": 176,
+    "wide_spread_fields.json": 183,
     "zb": {
       "newSail": {
         "data.config.json": 7,
