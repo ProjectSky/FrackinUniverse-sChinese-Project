@@ -43,12 +43,6 @@
   "bees/monsters/aquarum.monstertype": {
     "/shortdescription": "texts/bees/monsters/shared_.monstertype.json"
   },
-  "bees/monsters/artisan.monstertype": {
-    "/shortdescription": "texts/bees/monsters/shared_.monstertype.json"
-  },
-  "bees/monsters/assassin.monstertype": {
-    "/shortdescription": "texts/bees/monsters/shared_.monstertype.json"
-  },
   "bees/monsters/bumblebee.monstertype": {
     "/shortdescription": "texts/bees/monsters/shared_.monstertype.json"
   },
@@ -830,37 +824,37 @@
   "cinematics/respawn/zombie/respawnhardcore.cinematic": {
     "/panels/2/text": "texts/cinematics/respawn/shared_.cinematic.json"
   },
-  "codex/biome/atropus1.codex": {
+  "codex/biome/atropusbiome.codex": {
     "/description": "texts/codex/shared_.codex.json"
   },
-  "codex/biome/atropus2.codex": {
+  "codex/biome/atropusbiome2.codex": {
     "/description": "texts/codex/shared_.codex.json"
   },
-  "codex/biome/atropus3.codex": {
+  "codex/biome/atropusbiome3.codex": {
     "/description": "texts/codex/shared_.codex.json"
   },
-  "codex/biome/atropus4.codex": {
+  "codex/biome/atropusbiome4.codex": {
     "/description": "texts/codex/shared_.codex.json"
   },
   "codex/biome/dark1.codex": {
     "/description": "texts/codex/shared_.codex.json"
   },
-  "codex/biome/penumbra1.codex": {
+  "codex/biome/penumbrabiome1.codex": {
     "/description": "texts/codex/shared_.codex.json"
   },
-  "codex/biome/penumbra2.codex": {
+  "codex/biome/penumbrabiome2.codex": {
     "/description": "texts/codex/shared_.codex.json"
   },
-  "codex/biome/penumbra3.codex": {
+  "codex/biome/penumbrabiome3.codex": {
     "/description": "texts/codex/shared_.codex.json"
   },
-  "codex/biome/penumbra4.codex": {
+  "codex/biome/penumbrabiome4.codex": {
     "/description": "texts/codex/shared_.codex.json"
   },
-  "codex/biome/penumbra5.codex": {
+  "codex/biome/penumbrabiome5.codex": {
     "/description": "texts/codex/shared_.codex.json"
   },
-  "codex/biome/penumbra6.codex": {
+  "codex/biome/penumbrabiome6.codex": {
     "/description": "texts/codex/shared_.codex.json"
   },
   "codex/documents/blank_template_codex.codex": {
@@ -3524,6 +3518,17 @@
     "/paneLayout/filter/hint": "texts/wide_spread_fields.json",
     "/paneLayout/lblProduct/value": "texts/wide_spread_fields.json",
     "/paneLayout/lblProducttitle/value": "texts/interface/windowconfig/shared_.config.json",
+    "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
+    "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value": "texts/wide_spread_fields.json",
+    "/paneLayout/tbSpinCount/regex": "texts/wide_spread_fields.json"
+  },
+  "interface/windowconfig/hypercompressor.config": {
+    "/paneLayout/btnCraft/caption": "texts/wide_spread_fields.json",
+    "/paneLayout/btnStopCraft/caption": "texts/wide_spread_fields.json",
+    "/paneLayout/filter/hint": "texts/wide_spread_fields.json",
+    "/paneLayout/lblProduct/value": "texts/wide_spread_fields.json",
+    "/paneLayout/lblProducttitle/value": "texts/interface/windowconfig/shared_.config.json",
+    "/paneLayout/lblSchematics/value": "texts/interface/windowconfig/shared_.config.json",
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value": "texts/wide_spread_fields.json",
     "/paneLayout/tbSpinCount/regex": "texts/wide_spread_fields.json"
@@ -6659,12 +6664,6 @@
   "items/generic/crafting/fuheartalien.item": {
     "/description": "texts/items/generic/crafting/shared_fuheart.json"
   },
-  "items/generic/crafting/isotopes/neptuniumore.item": {
-    "/shortdescription": "texts/wide_spread_fields.json"
-  },
-  "items/generic/crafting/isotopes/thoriumore.item": {
-    "/shortdescription": "texts/wide_spread_fields.json"
-  },
   "items/generic/crafting/koaniteore.item": {
     "/shortdescription": "texts/wide_spread_fields.json"
   },
@@ -7268,7 +7267,10 @@
     "/shortdescription": "texts/materials/shared_avalidarkmetal3.mat.json"
   },
   "items/materials/avalidisplay.matitem": {
-    "/shortdescription": "texts/materials/shared_avali.json"
+    "/shortdescription": "texts/materials/shared_avalidisplay.mat.json"
+  },
+  "items/materials/avaliglass.matitem": {
+    "/description": "texts/materials/shared_avaliglass.mat.json"
   },
   "items/materials/avalipaneling.matitem": {
     "/description": "texts/materials/shared_avalipaneling.json",
@@ -7397,7 +7399,7 @@
     "/shortdescription": "texts/materials/shared_material.json"
   },
   "items/materials/coralmaterial.matitem": {
-    "/shortdescription": "texts/materials/shared_al.mat.json"
+    "/shortdescription": "texts/materials/shared_material.json"
   },
   "items/materials/corruptslimematerial.matitem": {
     "/shortdescription": "texts/wide_spread_fields.json"
@@ -8317,8 +8319,7 @@
     "/shortdescription": "texts/materials/shared_kt_solpanblock.mat.json"
   },
   "items/materials/livecoral.matitem": {
-    "/description": "texts/items/materials/shared_coral.matitem.json",
-    "/shortdescription": "texts/materials/shared_al.mat.json"
+    "/description": "texts/items/materials/shared_coral.matitem.json"
   },
   "items/materials/magmawall1.matitem": {
     "/description": "texts/items/materials/shared_magmawall.json",
@@ -8496,8 +8497,7 @@
     "/description": "texts/materials/shared_peglaci.json",
     "/floranDescription": "texts/materials/shared_peglaci.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/materials/shared_peglaci.json",
-    "/shortdescription": "texts/materials/shared_peglaci.json"
+    "/glitchDescription/glitchEmotedText": "texts/materials/shared_peglaci.json"
   },
   "items/materials/peglaciicecolumn.matitem": {
     "/description": "texts/materials/shared_peglaci.json",
@@ -8577,8 +8577,7 @@
     "/description": "texts/materials/shared_peglaci.json",
     "/floranDescription": "texts/materials/shared_peglaci.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/materials/shared_peglaci.json",
-    "/shortdescription": "texts/materials/shared_peglaci.json"
+    "/glitchDescription/glitchEmotedText": "texts/materials/shared_peglaci.json"
   },
   "items/materials/plaidwallpaper.matitem": {
     "/description": "texts/materials/shared_plaidwallpaper.mat.json",
@@ -8599,14 +8598,22 @@
   },
   "items/materials/precursorfloor.matitem": {
     "/description": "texts/items/materials/shared_precursor.json",
-    "/shortdescription": "texts/materials/shared_precursorfloor.json"
+    "/shortdescription": "texts/materials/shared_precursorfloor.mat.json"
   },
   "items/materials/precursorfloor2.matitem": {
-    "/shortdescription": "texts/materials/shared_precursorfloor.json"
+    "/shortdescription": "texts/materials/shared_precursorfloor2.mat.json"
+  },
+  "items/materials/precursorgirder.matitem": {
+    "/description": "texts/materials/shared_precursorgirder.mat.json",
+    "/shortdescription": "texts/materials/shared_precursorgirder.mat.json"
+  },
+  "items/materials/precursorgirdir.matitem": {
+    "/description": "texts/materials/shared_precursorgirdir.mat.json",
+    "/shortdescription": "texts/materials/shared_precursorgirdir.mat.json"
   },
   "items/materials/precursorpanel.matitem": {
     "/description": "texts/items/materials/shared_precursor.json",
-    "/shortdescription": "texts/materials/shared_precursor.json"
+    "/shortdescription": "texts/materials/shared_precursorpanel.mat.json"
   },
   "items/materials/precursorpillar.matitem": {
     "/shortdescription": "texts/shared_precursor.json"
@@ -8624,7 +8631,7 @@
   },
   "items/materials/precursorwall.matitem": {
     "/description": "texts/items/materials/shared_precursor.json",
-    "/shortdescription": "texts/materials/shared_precursor.json"
+    "/shortdescription": "texts/materials/shared_precursorwall.mat.json"
   },
   "items/materials/protorockmaterial.matitem": {
     "/shortdescription": "texts/materials/shared_protorock.json"
@@ -8745,10 +8752,6 @@
     "/shortdescription": "texts/materials/shared_rottingflesh.json"
   },
   "items/materials/sandpillar1.matitem": {
-    "/description": "texts/materials/shared_sandpillar.json",
-    "/shortdescription": "texts/materials/shared_sandpillar.json"
-  },
-  "items/materials/sandpillar2.matitem": {
     "/description": "texts/materials/shared_sandpillar.json",
     "/shortdescription": "texts/materials/shared_sandpillar.json"
   },
@@ -8997,24 +9000,20 @@
     "/glitchDescription/glitchEmotedText": "texts/items/materials/unrefinedmudstone.matitem.json"
   },
   "items/materials/veluugoldenpanel.matitem": {
-    "/description": "texts/materials/shared_veluu.json",
-    "/shortdescription": "texts/materials/shared_veluu.json"
+    "/description": "texts/materials/shared_veluu.json"
   },
   "items/materials/veluugoldensloppedpanel.matitem": {
-    "/description": "texts/materials.json",
-    "/shortdescription": "texts/materials/shared_veluu.json"
+    "/description": "texts/materials.json"
   },
   "items/materials/veluugoldensolarpanel.matitem": {
     "/description": "texts/materials/shared_veluu.json",
     "/shortdescription": "texts/materials/shared_veluu.json"
   },
   "items/materials/veluuornatemetalplating.matitem": {
-    "/description": "texts/materials/shared_veluu.json",
-    "/shortdescription": "texts/materials/shared_veluu.json"
+    "/description": "texts/materials/shared_veluu.json"
   },
   "items/materials/veluuornatemetalplating2.matitem": {
-    "/description": "texts/materials/shared_veluu.json",
-    "/shortdescription": "texts/materials/shared_veluu.json"
+    "/description": "texts/materials/shared_veluu.json"
   },
   "items/materials/veluusloppedpanel.matitem": {
     "/description": "texts/materials/shared_veluu.json",
@@ -9053,8 +9052,7 @@
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_weathered.json",
     "/humanDescription": "texts/materials/shared_weathered.json",
     "/hylotlDescription": "texts/materials/shared_weathered.json",
-    "/novakidDescription": "texts/materials/shared_weathered.json",
-    "/shortdescription": "texts/materials/shared_weathered.json"
+    "/novakidDescription": "texts/materials/shared_weathered.json"
   },
   "items/materials/weatheredvertical.matitem": {
     "/apexDescription": "texts/materials/shared_weathered.json",
@@ -9065,8 +9063,7 @@
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_weathered.json",
     "/humanDescription": "texts/materials/shared_weathered.json",
     "/hylotlDescription": "texts/materials/shared_weathered.json",
-    "/novakidDescription": "texts/materials/shared_weathered.json",
-    "/shortdescription": "texts/materials/shared_weathered.json"
+    "/novakidDescription": "texts/materials/shared_weathered.json"
   },
   "items/materials/woodentrim.matitem": {
     "/description": "texts/materials/shared_woodentrim.mat.json",
@@ -14521,7 +14518,7 @@
     "/glitchDescription/glitchEmotedText": "texts/objects/augmentextractor/aex.object.json"
   },
   "objects/avaliaerostat/sails/aerostatsail1.object": {
-    "/apexDescription": "texts/objects/shared_avali.json",
+    "/apexDescription": "texts/objects/avaliaerostat/sails/shared_aerostatsail.json",
     "/avaliDescription": "texts/objects/shared_avali.json",
     "/avianDescription": "texts/objects/shared_avali.json",
     "/description": "texts/objects/avaliaerostat/sails/shared_aerostatsail.json",
@@ -14533,7 +14530,7 @@
     "/shortdescription": "texts/objects/avaliaerostat/sails/shared_aerostatsail.json"
   },
   "objects/avaliaerostat/sails/aerostatsail2.object": {
-    "/apexDescription": "texts/objects/shared_avali.json",
+    "/apexDescription": "texts/objects/avaliaerostat/sails/shared_aerostatsail.json",
     "/avaliDescription": "texts/objects/shared_avali.json",
     "/avianDescription": "texts/objects/shared_avali.json",
     "/description": "texts/objects/avaliaerostat/sails/shared_aerostatsail.json",
@@ -14545,7 +14542,7 @@
     "/shortdescription": "texts/objects/avaliaerostat/sails/shared_aerostatsail.json"
   },
   "objects/avaliaerostat/sails/aerostatsail3.object": {
-    "/apexDescription": "texts/objects/shared_avali.json",
+    "/apexDescription": "texts/objects/avaliaerostat/sails/shared_aerostatsail.json",
     "/avaliDescription": "texts/objects/shared_avali.json",
     "/avianDescription": "texts/objects/shared_avali.json",
     "/description": "texts/objects/avaliaerostat/sails/shared_aerostatsail.json",
@@ -14557,7 +14554,7 @@
     "/shortdescription": "texts/objects/avaliaerostat/sails/shared_aerostatsail.json"
   },
   "objects/avaliaerostat/sails/aerostatsail4.object": {
-    "/apexDescription": "texts/objects/shared_avali.json",
+    "/apexDescription": "texts/objects/avaliaerostat/sails/shared_aerostatsail.json",
     "/avaliDescription": "texts/objects/shared_avali.json",
     "/avianDescription": "texts/objects/shared_avali.json",
     "/description": "texts/objects/avaliaerostat/sails/shared_aerostatsail.json",
@@ -14583,7 +14580,6 @@
   "objects/avalicamp/hammocks/avalihammock1.object": {
     "/apexDescription": "texts/objects/shared_hammock/shared_hammock.json",
     "/avaliDescription": "texts/objects/shared_hammock/shared_hammock.json",
-    "/avianDescription": "texts/objects/shared_hammock/shared_hammock.json",
     "/floranDescription": "texts/objects/shared_hammock/shared_hammock.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/shared_hammock/shared_hammock.json",
@@ -14615,7 +14611,7 @@
     "/hylotlDescription": "texts/objects/shared_avali.json"
   },
   "objects/avalicamp/modulartent/largewall/camplargewall1.object": {
-    "/apexDescription": "texts/objects/shared_avali.json",
+    "/apexDescription": "texts/objects/avalicamp/modulartent/shared_.object.json",
     "/avaliDescription": "texts/objects/shared_avali.json",
     "/avianDescription": "texts/objects/shared_avali.json",
     "/floranDescription": "texts/objects/shared_avali.json",
@@ -14625,7 +14621,7 @@
     "/hylotlDescription": "texts/objects/shared_avali.json"
   },
   "objects/avalicamp/modulartent/largewall/camplargewall2.object": {
-    "/apexDescription": "texts/objects/shared_avali.json",
+    "/apexDescription": "texts/objects/avalicamp/modulartent/shared_.object.json",
     "/avaliDescription": "texts/objects/shared_avali.json",
     "/avianDescription": "texts/objects/avalicamp/modulartent/shared_.object.json",
     "/floranDescription": "texts/objects/shared_avali.json",
@@ -14645,7 +14641,7 @@
     "/hylotlDescription": "texts/objects/shared_avali.json"
   },
   "objects/avalicamp/modulartent/slope/campslope2.object": {
-    "/apexDescription": "texts/objects/shared_avali.json",
+    "/apexDescription": "texts/objects/avalicamp/modulartent/shared_.object.json",
     "/avaliDescription": "texts/objects/shared_avali.json",
     "/avianDescription": "texts/objects/shared_avali.json",
     "/floranDescription": "texts/objects/shared_avali.json",
@@ -16488,6 +16484,12 @@
     "/upgradeStages/2/itemSpawnParameters/description": "texts/objects/crafting/armory/shared_.object.json",
     "/upgradeStages/2/itemSpawnParameters/shortdescription": "texts/objects/crafting/armory/shared_.object.json"
   },
+  "objects/crafting/bothealingstation/pethealingstation.object": {
+    "/subtitle": "texts/objects/crafting/shared_thealingstation/shared_pethealingstation.json"
+  },
+  "objects/crafting/bothealingstation/pethealingstationauto.object": {
+    "/subtitle": "texts/objects/crafting/shared_thealingstation/shared_pethealingstation.json"
+  },
   "objects/crafting/chemlab/chemlab.object": {
     "/description": "texts/objects/crafting/chemlab/shared_chemlab.json",
     "/shortdescription": "texts/objects/crafting/chemlab/shared_chemlab.json",
@@ -16561,6 +16563,12 @@
     "/humanDescription": "texts/objects/crafting/eggstra/largetrough/shared_trough.object.json",
     "/hylotlDescription": "texts/objects/crafting/eggstra/largetrough/shared_trough.object.json",
     "/novakidDescription": "texts/objects/crafting/eggstra/largetrough/shared_trough.object.json"
+  },
+  "objects/crafting/elderhealingstation/elderhealingstation.object": {
+    "/subtitle": "texts/objects/crafting/elderhealingstation/shared_healingstation.json"
+  },
+  "objects/crafting/elderhealingstation/pethealingstationauto.object": {
+    "/subtitle": "texts/objects/crafting/elderhealingstation/shared_healingstation.json"
   },
   "objects/crafting/elduu/crystalloom/crystalloom.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -16642,6 +16650,9 @@
     "/upgradeStages/1/itemSpawnParameters/shortdescription": "texts/objects/crafting/nanofabricator/shared_nanofabricator.json",
     "/upgradeStages/2/itemSpawnParameters/description": "texts/objects/crafting/nanofabricator/shared_nanofabricator.json",
     "/upgradeStages/2/itemSpawnParameters/shortdescription": "texts/objects/crafting/nanofabricator/shared_nanofabricator.json"
+  },
+  "objects/crafting/pethealingstation/pethealingstationauto.object": {
+    "/subtitle": "texts/objects/crafting/shared_thealingstation/shared_pethealingstation.json"
   },
   "objects/crafting/platingtable/platingtable.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -18371,7 +18382,6 @@
   "objects/elduukhar/elduuhammock/elduuhammock.object": {
     "/apexDescription": "texts/objects/shared_hammock/shared_hammock.json",
     "/avaliDescription": "texts/objects/shared_hammock/shared_hammock.json",
-    "/avianDescription": "texts/objects/shared_hammock/shared_hammock.json",
     "/floranDescription": "texts/objects/shared_hammock/shared_hammock.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/shared_hammock/shared_hammock.json",
@@ -39362,6 +39372,12 @@
   "stats/effects/fu_effects/intoxicated/booze3.statuseffect": {
     "/label": "texts/stats/effects/fu_effects/intoxicated/shared_booze.json"
   },
+  "stats/effects/fu_effects/madness/buffStatMentalProtection.animation": {
+    "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects/fu_effects/madness/shared_n.animation.json"
+  },
+  "stats/effects/fu_effects/madness/madnessgain.animation": {
+    "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects/fu_effects/madness/shared_n.animation.json"
+  },
   "stats/effects/fu_effects/mage_shield/mage_shield_lvl1.statuseffect": {
     "/label": "texts/stats/effects/fu_effects/mage_shield/shared_mage_shield_lvl.json"
   },
@@ -39897,12 +39913,10 @@
     "/shortdescription": "texts/materials/shared_avalidarkmetal3.mat.json"
   },
   "tiles/materials/avalidisplay.material": {
-    "/description": "texts/tiles/materials/shared_.material.json",
-    "/shortdescription": "texts/materials/shared_avali.json"
+    "/shortdescription": "texts/materials/shared_avalidisplay.mat.json"
   },
   "tiles/materials/avaliglass.material": {
-    "/description": "texts/tiles/materials/shared_.material.json",
-    "/shortdescription": "texts/materials/shared_avali.json"
+    "/description": "texts/materials/shared_avaliglass.mat.json"
   },
   "tiles/materials/avalipaneling.material": {
     "/description": "texts/materials/shared_avalipaneling.json",
@@ -40029,7 +40043,7 @@
     "/glitchDescription/glitchEmotedText": "texts/tiles/materials/cookedflesh.material.json"
   },
   "tiles/materials/coral.material": {
-    "/shortdescription": "texts/materials/shared_al.mat.json"
+    "/shortdescription": "texts/materials/shared_material.json"
   },
   "tiles/materials/coral2.material": {
     "/shortdescription": "texts/materials/shared_material.json"
@@ -41063,7 +41077,7 @@
   },
   "tiles/materials/livecoral.material": {
     "/description": "texts/tiles/materials/shared_coral.material.json",
-    "/shortdescription": "texts/materials/shared_al.mat.json"
+    "/shortdescription": "texts/materials/shared_material.json"
   },
   "tiles/materials/magmatile/magmatile1.material": {
     "/description": "texts/tiles/materials/magmatile/shared_magmatile.json",
@@ -41240,7 +41254,7 @@
     "/floranDescription": "texts/materials/shared_peglaci.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_peglaci.json",
-    "/shortdescription": "texts/materials/shared_peglaci.json"
+    "/shortdescription": "texts/tiles/materials/peglaci/shared_cable.material.json"
   },
   "tiles/materials/peglaci/peglaciicecolumn.material": {
     "/description": "texts/materials/shared_peglaci.json",
@@ -41278,7 +41292,7 @@
     "/floranDescription": "texts/materials/shared_peglaci.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_peglaci.json",
-    "/shortdescription": "texts/materials/shared_peglaci.json"
+    "/shortdescription": "texts/tiles/materials/peglaci/shared_cable.material.json"
   },
   "tiles/materials/pixelgoods/fujellyblock2.material": {
     "/description": "texts/tiles/materials.json",
@@ -41306,11 +41320,11 @@
   },
   "tiles/materials/pixelgoods/fuokeahitechwall2.material": {
     "/description": "texts/tiles/materials/pixelgoods/shared_fuokeahitechwall.json",
-    "/shortdescription": "texts/tiles/materials/shared_wall.json"
+    "/shortdescription": "texts/tiles/materials/pixelgoods/shared_fuokeahitechwall2.mat.json"
   },
   "tiles/materials/pixelgoods/fuokeahitechwall2.matitem": {
     "/description": "texts/tiles/materials/pixelgoods/shared_fuokeahitechwall.json",
-    "/shortdescription": "texts/tiles/materials/shared_wall.json"
+    "/shortdescription": "texts/tiles/materials/pixelgoods/shared_fuokeahitechwall2.mat.json"
   },
   "tiles/materials/pixelgoods/fuokeamagmabrick.material": {
     "/description": "texts/tiles/materials/pixelgoods/shared_fuokeamagmabrick.mat.json",
@@ -41347,14 +41361,23 @@
   },
   "tiles/materials/precursorfloor.material": {
     "/description": "texts/tiles/materials/shared_precursor.json",
-    "/shortdescription": "texts/materials/shared_precursorfloor.json"
+    "/shortdescription": "texts/materials/shared_precursorfloor.mat.json"
   },
   "tiles/materials/precursorfloor2.material": {
-    "/description": "texts/tiles/materials/shared_precursor.json"
+    "/description": "texts/tiles/materials/shared_precursor.json",
+    "/shortdescription": "texts/materials/shared_precursorfloor2.mat.json"
+  },
+  "tiles/materials/precursorgirder.material": {
+    "/description": "texts/materials/shared_precursorgirder.mat.json",
+    "/shortdescription": "texts/materials/shared_precursorgirder.mat.json"
+  },
+  "tiles/materials/precursorgirdir.material": {
+    "/description": "texts/materials/shared_precursorgirdir.mat.json",
+    "/shortdescription": "texts/materials/shared_precursorgirdir.mat.json"
   },
   "tiles/materials/precursorpanel.material": {
     "/description": "texts/tiles/materials/shared_precursor.json",
-    "/shortdescription": "texts/materials/shared_precursor.json"
+    "/shortdescription": "texts/materials/shared_precursorpanel.mat.json"
   },
   "tiles/materials/precursorpillar.material": {
     "/shortdescription": "texts/shared_precursor.json"
@@ -41367,7 +41390,8 @@
     "/shortdescription": "texts/materials/shared_precursorsloped.mat.json"
   },
   "tiles/materials/precursorwall.material": {
-    "/description": "texts/tiles/materials/shared_precursor.json"
+    "/description": "texts/tiles/materials/shared_precursor.json",
+    "/shortdescription": "texts/materials/shared_precursorwall.mat.json"
   },
   "tiles/materials/protorock.material": {
     "/shortdescription": "texts/materials/shared_protorock.json"
@@ -41831,12 +41855,10 @@
     "/shortdescription": "texts/tiles/materials/tilesandgreebles/shared_labbeam.mat.json"
   },
   "tiles/materials/tilesandgreebles/labframedglass.material": {
-    "/description": "texts/tiles/materials/tilesandgreebles/shared_labframedglass.mat.json",
-    "/shortdescription": "texts/tiles/materials/tilesandgreebles/shared_labframedglass.mat.json"
+    "/description": "texts/tiles/materials/tilesandgreebles/shared_labframedglass.mat.json"
   },
   "tiles/materials/tilesandgreebles/labframedglass.matitem": {
-    "/description": "texts/tiles/materials/tilesandgreebles/shared_labframedglass.mat.json",
-    "/shortdescription": "texts/tiles/materials/tilesandgreebles/shared_labframedglass.mat.json"
+    "/description": "texts/tiles/materials/tilesandgreebles/shared_labframedglass.mat.json"
   },
   "tiles/materials/tilesandgreebles/labgirdir.material": {
     "/description": "texts/tiles/materials/tilesandgreebles/shared_labgirdir.mat.json",
@@ -41863,12 +41885,10 @@
     "/shortdescription": "texts/tiles/materials/tilesandgreebles/shared_labsupport.mat.json"
   },
   "tiles/materials/tilesandgreebles/labtechpanel.material": {
-    "/description": "texts/tiles/materials/tilesandgreebles/shared_labtechpanel.mat.json",
-    "/shortdescription": "texts/tiles/materials/tilesandgreebles/shared_labtechpanel.mat.json"
+    "/description": "texts/tiles/materials/tilesandgreebles/shared_labtechpanel.mat.json"
   },
   "tiles/materials/tilesandgreebles/labtechpanel.matitem": {
-    "/description": "texts/tiles/materials/tilesandgreebles/shared_labtechpanel.mat.json",
-    "/shortdescription": "texts/tiles/materials/tilesandgreebles/shared_labtechpanel.mat.json"
+    "/description": "texts/tiles/materials/tilesandgreebles/shared_labtechpanel.mat.json"
   },
   "tiles/materials/tilesandgreebles/labtile.material": {
     "/description": "texts/tiles/materials/tilesandgreebles/shared_.mat.json",
@@ -41883,24 +41903,20 @@
     "/shortdescription": "texts/tiles/materials/shared_wall.json"
   },
   "tiles/materials/tilesandgreebles/labwall.matitem": {
-    "/description": "texts/tiles/materials/tilesandgreebles/shared_.mat.json",
-    "/shortdescription": "texts/tiles/materials/shared_wall.json"
+    "/description": "texts/tiles/materials/tilesandgreebles/shared_.mat.json"
   },
   "tiles/materials/tilesandgreebles/labwall1.material": {
     "/description": "texts/tiles/materials/tilesandgreebles/shared_.mat.json",
     "/shortdescription": "texts/tiles/materials/shared_wall.json"
   },
   "tiles/materials/tilesandgreebles/labwall1.matitem": {
-    "/description": "texts/tiles/materials/tilesandgreebles/shared_.mat.json",
-    "/shortdescription": "texts/tiles/materials/shared_wall.json"
+    "/description": "texts/tiles/materials/tilesandgreebles/shared_.mat.json"
   },
   "tiles/materials/tilesandgreebles/labwallfence.material": {
-    "/description": "texts/tiles/materials/tilesandgreebles/shared_.mat.json",
-    "/shortdescription": "texts/tiles/materials/tilesandgreebles/shared_labwallfence.mat.json"
+    "/description": "texts/tiles/materials/tilesandgreebles/shared_.mat.json"
   },
   "tiles/materials/tilesandgreebles/labwallfence.matitem": {
-    "/description": "texts/tiles/materials/tilesandgreebles/shared_.mat.json",
-    "/shortdescription": "texts/tiles/materials/tilesandgreebles/shared_labwallfence.mat.json"
+    "/description": "texts/tiles/materials/tilesandgreebles/shared_.mat.json"
   },
   "tiles/materials/tilesandgreebles/steelgirdir2.material": {
     "/description": "texts/tiles/materials/tilesandgreebles/shared_steelgirdir2.mat.json",
@@ -41969,24 +41985,20 @@
     "/shortdescription": "texts/materials/shared_treatedwood.json"
   },
   "tiles/materials/veluuish/veluugoldenpanel.material": {
-    "/description": "texts/materials/shared_veluu.json",
     "/shortdescription": "texts/materials/shared_veluu.json"
   },
   "tiles/materials/veluuish/veluugoldensloppedpanel.material": {
-    "/description": "texts/materials.json",
-    "/shortdescription": "texts/materials/shared_veluu.json"
+    "/description": "texts/materials.json"
   },
   "tiles/materials/veluuish/veluugoldensolarpanel.material": {
     "/description": "texts/materials/shared_veluu.json",
     "/shortdescription": "texts/materials/shared_veluu.json"
   },
   "tiles/materials/veluuish/veluuornatemetalplating.material": {
-    "/description": "texts/materials/shared_veluu.json",
-    "/shortdescription": "texts/materials/shared_veluu.json"
+    "/description": "texts/materials/shared_veluu.json"
   },
   "tiles/materials/veluuish/veluuornatemetalplating2.material": {
-    "/description": "texts/materials/shared_veluu.json",
-    "/shortdescription": "texts/materials/shared_veluu.json"
+    "/description": "texts/materials/shared_veluu.json"
   },
   "tiles/materials/veluuish/veluusloppedpanel.material": {
     "/description": "texts/materials/shared_veluu.json",
@@ -42020,8 +42032,7 @@
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_weathered.json",
     "/humanDescription": "texts/materials/shared_weathered.json",
     "/hylotlDescription": "texts/materials/shared_weathered.json",
-    "/novakidDescription": "texts/materials/shared_weathered.json",
-    "/shortdescription": "texts/materials/shared_weathered.json"
+    "/novakidDescription": "texts/materials/shared_weathered.json"
   },
   "tiles/materials/weathered wood/weatheredvertical.material": {
     "/apexDescription": "texts/materials/shared_weathered.json",
@@ -42032,8 +42043,7 @@
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_weathered.json",
     "/humanDescription": "texts/materials/shared_weathered.json",
     "/hylotlDescription": "texts/materials/shared_weathered.json",
-    "/novakidDescription": "texts/materials/shared_weathered.json",
-    "/shortdescription": "texts/materials/shared_weathered.json"
+    "/novakidDescription": "texts/materials/shared_weathered.json"
   },
   "tiles/materials/windows/copperwindowdim.material": {
     "/description": "texts/materials/shared_window.json",
