@@ -12,6 +12,7 @@ from sys import platform
 from patch_tool import trans_patch, to_a_list, trans_patch_spcial_1
 from ignore_file import ignore_filelist, ignore_filelist_patch
 from patch_spciallist import patchfile_spciallist1, patchfile_spciallist2
+from blacklist_patch import dir_blacklist, path_blacklist
 from parser_settings import files_of_interest
 from shared_path import getSharedPath
 from special_cases import specialSections
@@ -29,7 +30,7 @@ root_dir = "/FrackinUniverse/"
 prefix = "/FrackinUniverse-sChinese-Project/translations/"
 texts_prefix = "patches"
 sub_file = normpath(join(prefix, "patch_substitutions.json"))
-pro_list = normpath(join(prefix, "patch_problem.txt"))
+error_list_file = normpath(join(prefix, "patch_problem.txt"))
 
 glitchEmoteExtractor = regex("^([In]{,3}\s?[A-Za-z-]+\.)\s+(.*)")
 glitchIsHere = regex("^.*[gG]litch.*")
@@ -76,14 +77,15 @@ def parseFile(filename):
         with open_n_decode(filename, "r", "utf_8_sig") as f:
             try:
                 if basename(filename) in dict.keys(patchfile_spciallist1):
-                    string = trans_patch_spcial_1(f,patchfile_spciallist1[basename(filename)])
+                    string = trans_patch_spcial_1(
+                        f, patchfile_spciallist1[basename(filename)])
                 elif basename(filename) in patchfile_spciallist2:
                     string = trans_patch(f)
                 else:
                     string = trans_patch(f)
             except:
                 print("Cannot parse " + filename)
-                problem_file = open(pro_list, 'a')
+                problem_file = open(error_list_file, 'a')
                 problem_file.writelines(filename.replace(root_dir, '')+'\n')
                 problem_file.close()
                 return []
@@ -121,12 +123,18 @@ def construct_db(assets_dir):
     endings = tuple(files_of_interest.keys())
     for subdir, dirs, files in walk(assets_dir):
         for thefile in files:
+            if subdir.replace('\\', '/').replace(root_dir, "")in dir_blacklist:
+                break
             if thefile.endswith(patch):
                 foi.append(normpath(join(subdir, thefile)))
     with Pool(8) as p:
         r = p.imap_unordered(parseFile, foi)
         for chunk in r:
+            
             for sec, val, fname, path in chunk:
+                if fname.replace('\\', '/').replace(root_dir, "") in path_blacklist.keys():
+                    if path in path_blacklist[fname.replace('\\', '/').replace(root_dir, "")]:
+                        continue
                 if sec not in db:
                     db[sec] = dict()
                 if val not in db[sec]:
@@ -137,7 +145,7 @@ def construct_db(assets_dir):
                     db[sec][val][filename.replace('.patch', '')] = list()
                 if path not in db[sec][val][filename]:
                     insort_left(
-                        db[sec][val][filename.replace('.patch', '')], path)
+                        db[sec][val][filename.replace('.patch', '')], path)           
         return db
 
 
@@ -286,7 +294,7 @@ if __name__ == "__main__":
 
 
 def extract_patch_labels(root_dir, prefix):
-    open(pro_list, 'w').truncate()
+    open(error_list_file, 'w').truncate()
     root_dir = root_dir
     prefix = prefix
     thedatabase = construct_db(root_dir)

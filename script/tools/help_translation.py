@@ -36,14 +36,15 @@ def tranlate(source, direction):
         "POST", url, data=json.dumps(payload), headers=headers)
     return json.loads(response.text)['target']
 
-
+#添加了自动删除颜色标识的功能！
 def tanslation(file):
     jsondata = json.loads(prepare(file))
     for i, v in enumerate(jsondata):
         if 'Chs' in jsondata[i]['Texts']:
             pass
         else:
-            string = jsondata[i]['Texts']['Eng']
+            string = re.sub(re.compile(r'\^.*?\;'),"",jsondata[i]['Texts']['Eng'])
+            #string = jsondata[i]['Texts']['Eng']
             target_1 = tranlate(string, "auto2zh")
             jsondata[i]['Texts']['Chs'] = target_1
     result = json.dumps(jsondata, ensure_ascii=False,
