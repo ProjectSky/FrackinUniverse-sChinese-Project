@@ -23,7 +23,8 @@
 # parser_settings.py
 
 过滤规则列表。
-更新：2020 5-4 修正以前的规则，现在应该不会过滤到界面坐标了;新增增强典键文本的过滤规则 by diskrubbish1
+更新：2020 5-4 修正以前的规则，现在应该不会过滤到界面坐标了;新增增强典籍文本的过滤规则 by diskrubbish
+    2020 5-14 添加 spaceStationData.config 的有关规则
 
 # extract_all_labels.py
 
