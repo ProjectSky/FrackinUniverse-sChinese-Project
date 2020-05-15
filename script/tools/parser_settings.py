@@ -89,7 +89,8 @@ foi = {
     "system_objects.config": [".*/displayName$"],
     "parts.config": [".*/displayName$"],
     "extraStatsWindow.config": ["^tooltipBoxes/[0-9]+/tooltip$", "^defaultTooltip$"],
-    "statWindow.config": [".*/name$"]
+    "statWindow.config": [".*/name$"],
+    "spaceStationData.config":["^medical/[0-9]+/(0|4)$","^military/[0-9]+/(0|4)$","^quests/.+/(objective|time|reward)$"]
 }
 files_of_interest = dict()
 for ext, poi in foi.items():
