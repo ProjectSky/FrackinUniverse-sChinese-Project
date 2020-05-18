@@ -972,7 +972,7 @@
         "randombook8.codex.json": 3,
         "randombook9.codex.json": 3,
         "scienceoutpost_kevin.codex.json": 115,
-        "scienceoutpost_khe.codex.json": 19,
+        "scienceoutpost_khe.codex.json": 24,
         "shared_.codex.json": 1,
         "shared_ffguide.json": 1,
         "shared_luridmagazine.json": 2,
@@ -999,7 +999,7 @@
         "blackbook8.codex.json": 4,
         "cultarmorchest.codex.json": 3,
         "cultarmorhead.codex.json": 3,
-        "cultarmorpants.codex.json": 3,
+        "cultarmorpantsbook.codex.json": 3,
         "elderarmorbook.codex.json": 3,
         "elderaxebook.codex.json": 2,
         "elderbladebook.codex.json": 2,
@@ -1015,9 +1015,9 @@
         "eldershieldbook.codex.json": 3,
         "eldershotgunbook.codex.json": 2,
         "elderspearbook.codex.json": 2,
-        "elderstaff1book.codex.json": 3,
-        "elderstaff2book.codex.json": 3,
-        "elderstaff3book.codex.json": 3,
+        "elderstaffbook1.codex.json": 3,
+        "elderstaffbook2.codex.json": 3,
+        "elderstaffbook3.codex.json": 3,
         "elderwhipbook.codex.json": 3,
         "madness_codex.codex.json": 7,
         "madness_research1.codex.json": 5,
@@ -1145,7 +1145,6 @@
         "fucastle9.codex.json": 3,
         "fugreenfingercodexban.codex.json": 4,
         "fugreenfingercodexbeast.codex.json": 3,
-        "fugreenfingercodexbigape.codex.json": 3,
         "fugreenfingercodexcorpse.codex.json": 3,
         "fugreenfingercodexdry1.codex.json": 3,
         "fugreenfingercodexdry2.codex.json": 4,
@@ -1164,6 +1163,7 @@
         "fuhca6.codex.json": 5,
         "fuhca7.codex.json": 3,
         "fuhca8.codex.json": 5,
+        "greenfingercodexbigape.codex.json": 3,
         "greenguardcodex1.codex.json": 4,
         "greenguardcodex12.codex.json": 4,
         "greenguardcodex2.codex.json": 2,
@@ -1501,6 +1501,9 @@
         "fugravgen": {
           "fugravgenui.config.json": 3
         },
+        "fuweaponupgrade": {
+          "fuweaponupgradegui.config.json": 4
+        },
         "logicgates": {
           "3statecyclerGUI.config.json": 9
         },
@@ -1519,7 +1522,8 @@
           "shared_upgrade.json": 2
         },
         "spaceStation": {
-          "spaceStation.config.json": 16
+          "spaceStation.config.json": 16,
+          "spaceStationData.config.json": 72
         },
         "statWindow": {
           "extraStatsWindow.config.json": 21,
@@ -1533,9 +1537,6 @@
         },
         "tunableoredetector": {
           "tunableoredetector.config.json": 4
-        },
-        "weaponupgrade2": {
-          "weaponupgrade2gui.config.json": 4
         },
         "xcustomcodex": {
           "xcodexui.config.json": 6
@@ -2236,7 +2237,7 @@
             },
             "broadsword": {
               "advalloybroadsword.activeitem.json": 2,
-              "aetheriumbroadsword.activeitem.json": 2,
+              "aetheriumbroadsword.activeitem.json": 1,
               "aetheriumcleaver.activeitem.json": 2,
               "ancientbroadsword.activeitem.json": 3,
               "coralstinger.activeitem.json": 2,
@@ -2250,6 +2251,7 @@
               "densiniumsword": {
                 "densiniumsword.activeitem.json": 2
               },
+              "effigiumbroadsword.activeitem.json": 1,
               "elderbroadsword.activeitem.json": 3,
               "energyblade.activeitem.json": 2,
               "energyblade2.activeitem.json": 2,
@@ -2289,8 +2291,8 @@
               "spikesword.activeitem.json": 2,
               "stonebroadsword.activeitem.json": 1,
               "telebriumbroadsword.activeitem.json": 2,
-              "titaniumlongsword.activeitem.json": 1,
-              "tungstenlongsword.activeitem.json": 1,
+              "titaniumbroadsword.activeitem.json": 2,
+              "tungstenbroadsword.activeitem.json": 1,
               "uraniumbroadsword.activeitem.json": 2,
               "warcleaver.activeitem.json": 2,
               "wavyslimesword.activeitem.json": 1,
@@ -2452,7 +2454,7 @@
               "cutelongsword.activeitem.json": 2,
               "deadbeatlongsword.activeitem.json": 1,
               "densiniumlongsword.activeitem.json": 2,
-              "effigiumbroadsword.activeitem.json": 2,
+              "effigiumlongsword.activeitem.json": 1,
               "fiendefeller.activeitem.json": 2,
               "fuambersword.activeitem.json": 2,
               "fubonesword.activeitem.json": 2,
@@ -2470,9 +2472,9 @@
               "solarisword.activeitem.json": 2,
               "telebriumlongsword.activeitem.json": 2,
               "theluslongsword.activeitem.json": 2,
-              "titaniumbroadsword.activeitem.json": 1,
+              "titaniumlongsword.activeitem.json": 2,
               "triangliumlongsword.activeitem.json": 2,
-              "tungstenbroadsword.activeitem.json": 1,
+              "tungstenlongsword.activeitem.json": 1,
               "uncommonlongsword.activeitem.json": 1,
               "vai.activeitem.json": 3,
               "veluulongsword.activeitem.json": 1,
@@ -2482,7 +2484,7 @@
               "zerchesiumlongsword.activeitem.json": 2
             },
             "mace": {
-              "aegisaltmace.activeitem.json": 1,
+              "aegisaltmace.activeitem.json": 2,
               "aetheriummace.activeitem.json": 4,
               "ballmace.activeitem.json": 2,
               "bonemace.activeitem.json": 2,
@@ -2496,7 +2498,7 @@
               "facebreaker.activeitem.json": 2,
               "fu_wrenchweapon.activeitem.json": 2,
               "fucommonmace.activeitem.json": 1,
-              "fucultistmace.activeitem.json": 1,
+              "fucultistmace.activeitem.json": 2,
               "furaremace.activeitem.json": 1,
               "fuuncommonmace.activeitem.json": 1,
               "goldmace.activeitem.json": 2,
@@ -2513,7 +2515,6 @@
               "quietusmace.activeitem.json": 2,
               "shared_.activeitem.json": 2,
               "shared_mace.activeitem.json": 2,
-              "shared_tmace.activeitem.json": 1,
               "solariummace.activeitem.json": 2,
               "telebriummace.activeitem.json": 2,
               "titaniummace.activeitem.json": 2,
@@ -3213,7 +3214,7 @@
               "invisiswarmgun.activeitem.json": 1,
               "ionrifle.activeitem.json": 3,
               "irradiumpistol2.activeitem.json": 2,
-              "irradiumrifle.activeitem.json": 3,
+              "irradiumrifle.activeitem.json": 2,
               "isn_magmavulcan.activeitem.json": 2,
               "k3rifle.activeitem.json": 4,
               "kirhos": {
@@ -3347,6 +3348,12 @@
               "psiejector": {
                 "psiejector.activeitem.json": 2
               },
+              "quietusassaultrifle.activeitem.json": 1,
+              "quietuspistol.activeitem.json": 1,
+              "quietusrocketlauncher.activeitem.json": 1,
+              "quietusshotgun.activeitem.json": 1,
+              "quietussmg.activeitem.json": 1,
+              "quietussniper.activeitem.json": 1,
               "radien": {
                 "radienacidgun": {
                   "radienpistol2.activeitem.json": 5
@@ -3371,7 +3378,6 @@
               "rifleeffigiumfu.activeitem.json": 1,
               "rifleferoziumfu.activeitem.json": 1,
               "rifleironfu.activeitem.json": 1,
-              "rifleirradiumfu.activeitem.json": 1,
               "riflequietusfu.activeitem.json": 1,
               "rifletitaniumfu.activeitem.json": 1,
               "rifletriangliumfu.activeitem.json": 1,
@@ -3420,7 +3426,7 @@
                   "isn_terawattlaser.activeitem.json": 2
                 }
               },
-              "shared_.activeitem.json": 14,
+              "shared_.activeitem.json": 16,
               "shared_armcannon.json": 1,
               "shared_cien.json": 1,
               "shared_fu.activeitem.json": 2,
@@ -5038,6 +5044,12 @@
             "fuxithricite.legs.json": 1,
             "shared_fuxithricite..json": 1
           },
+          "fuxithricitearmor_khe": {
+            "fuxithricite.chest.json": 1,
+            "fuxithricite.head.json": 1,
+            "fuxithricite.legs.json": 1,
+            "shared_fuxithricite..json": 1
+          },
           "geist": {
             "shared_test1..json": 1,
             "test1.chest.json": 1,
@@ -5092,12 +5104,6 @@
             "fu_exosuit.head.json": 1,
             "fu_exosuit.legs.json": 1,
             "shared_fu_exosuit..json": 1
-          },
-          "fuxithricitearmor_khe": {
-            "fuxithricite.chest.json": 1,
-            "fuxithricite.head.json": 1,
-            "fuxithricite.legs.json": 1,
-            "shared_fuxithricite..json": 1
           },
           "phase": {
             "shared_tritaniumstar..json": 1,
@@ -6085,6 +6091,7 @@
             "ancient_tech.item.json": 2,
             "greenfinger_trophy.item.json": 2,
             "luckycoin.item.json": 1,
+            "luckycoin_ghost.item.json": 2,
             "luckycoin_khe.item.json": 2,
             "radien_trophy.item.json": 2,
             "temple_trophy.item.json": 2,
@@ -8376,7 +8383,7 @@
             "shared_slime.json": 2
           },
           "slimemagma": {
-            "magmaslime.monstertype.json": 2
+            "shared_.monstertype.json": 2
           }
         },
         "smoglinish": {
@@ -8494,7 +8501,7 @@
         "catcrewmembertailor.npctype.json": 4,
         "crewmemberLoveliusSmythe.npctype.json": 16,
         "crewmember_spacestationassassin.npctype.json": 3,
-        "crewmember_spacestationcaptain.npctype.json": 6,
+        "crewmember_spacestationcaptain.npctype.json": 5,
         "crewmember_spacestationcommander.npctype.json": 5,
         "crewmember_spacestationdevastator.npctype.json": 5,
         "crewmember_spacestationmercenary.npctype.json": 5,
@@ -9314,6 +9321,9 @@
         "shared_.object.json": 3,
         "shared_thealingstation": {
           "shared_pethealingstation.json": 1
+        },
+        "shrineofsouls": {
+          "shrineofsouls.object.json": 2
         },
         "slimecookingtable": {
           "slimecookingtable.object.json": 13
@@ -12011,7 +12021,10 @@
           "starspawnstatue2.object.json": 1,
           "starspawnstatue3.object.json": 1,
           "strangedevice1.object.json": 2,
-          "tentaclestatue.object.json": 2
+          "tentaclestatue.object.json": 2,
+          "theTome": {
+            "theTome.object.json": 2
+          }
         },
         "fireflies1.object.json": 2,
         "fleshplants": {
@@ -18307,6 +18320,7 @@
     "shared_sphere.json": 1,
     "shared_sulphur.json": 1,
     "shared_t.config.json": 1,
+    "shared_tation.json": 1,
     "shared_thanatite.json": 1,
     "shared_tion.json": 2,
     "shared_weapon.json": 1,
@@ -18453,8 +18467,9 @@
       "effects": {
         "augments": {
           "8bitpowerup.statuseffect.json": 1,
+          "berserker.statuseffect.json": 1,
+          "fuberserker.statuseffect.json": 1,
           "shared_.statuseffect.json": 1,
-          "shared_berserker.statuseffect.json": 1,
           "shared_fu_pickuprange.json": 1,
           "sourmilk.statuseffect.json": 1
         },
@@ -18556,7 +18571,8 @@
             "critbonus1.statuseffect.json": 1,
             "critchance.animation.json": 1,
             "critchance1.statuseffect.json": 1,
-            "critchance2.statuseffect.json": 1
+            "critchance2.statuseffect.json": 1,
+            "critdamage1.statuseffect.json": 1
           },
           "detectmonster": {
             "detectmonster.statuseffect.json": 1
@@ -19004,7 +19020,7 @@
           "jumpboost35.statuseffect.json": 1
         },
         "liquidimmunity": {
-          "gasimmunity.statuseffect.json": 1
+          "shared_.statuseffect.json": 1
         },
         "lowgrav": {
           "lowgrav_supergrav.statuseffect.json": 1,
@@ -19133,9 +19149,6 @@
           "regenerationblock.statuseffect.json": 1,
           "regenerationminor000.statuseffect.json": 1,
           "regenerationminor2.statuseffect.json": 1,
-          "regenerationminor2augment.statuseffect.json": 1,
-          "regenerationminor3augment.statuseffect.json": 1,
-          "regenerationminoraugment.statuseffect.json": 1,
           "regenerationminorcellular.statuseffect.json": 1,
           "regenerationmiraclegrass.statuseffect.json": 1,
           "regenerationsanguine.statuseffect.json": 1,
