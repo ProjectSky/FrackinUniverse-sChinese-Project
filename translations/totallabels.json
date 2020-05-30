@@ -44,7 +44,9 @@
         "stats.config.json": 5
       },
       "tooltips": {
-        "sword.tooltip.json": 2
+        "fistweapon.tooltip.json": 1,
+        "shared_.tooltip.json": 1,
+        "sword.tooltip.json": 1
       },
       "windowconfig": {
         "charcreation.config.json": 1
@@ -229,6 +231,31 @@
           }
         }
       },
+      "augments": {
+        "back": {
+          "damageaugment1.augment.json": 1,
+          "damageaugment2.augment.json": 1,
+          "damageaugment3.augment.json": 1,
+          "electricblockaugment.augment.json": 1,
+          "energyaugment1.augment.json": 1,
+          "energyaugment2.augment.json": 1,
+          "energyaugment3.augment.json": 1,
+          "fireblockaugment.augment.json": 1,
+          "healingaugment1.augment.json": 1,
+          "healingaugment2.augment.json": 1,
+          "healingaugment3.augment.json": 1,
+          "healthaugment1.augment.json": 1,
+          "healthaugment2.augment.json": 1,
+          "healthaugment3.augment.json": 1,
+          "iceblockaugment.augment.json": 1,
+          "jumpaugment.augment.json": 1,
+          "mobilityaugment.augment.json": 1,
+          "peacekeeper1.augment.json": 1,
+          "peacekeeper2.augment.json": 1,
+          "peacekeeper3.augment.json": 1,
+          "poisonblockaugment.augment.json": 1
+        }
+      },
       "categories.config.json": 61,
       "generic": {
         "crafting": {
@@ -390,6 +417,7 @@
         "techscientist5.questtemplate.json": 2,
         "techscientist6.questtemplate.json": 2
       },
+      "quests.config.json": 1,
       "story": {
         "gaterepair.questtemplate.json": 5,
         "human_mission1.questtemplate.json": 4,
@@ -404,7 +432,7 @@
       "exploration.radiomessages.json": 35,
       "intro.radiomessages.json": 1,
       "mech.radiomessages.json": 25,
-      "missions.radiomessages.json": 289,
+      "missions.radiomessages.json": 293,
       "quests.radiomessages.json": 5,
       "techchallenge.radiomessages.json": 1,
       "tutorial.radiomessages.json": 2
@@ -943,7 +971,7 @@
         "ffguide3.codex.json": 16,
         "ffguide4.codex.json": 2,
         "ffguide5.codex.json": 26,
-        "ffguide6.codex.json": 3,
+        "ffguide6.codex.json": 4,
         "fleshweave.codex.json": 3,
         "foodprep.codex.json": 3,
         "lotus1.codex.json": 8,
@@ -1202,17 +1230,17 @@
         "shared_letheiafacility.json": 2
       },
       "nightar": {
-        "nightardoc1.codex.json": 9,
-        "nightardoc2.codex.json": 11,
-        "nightardoc3.codex.json": 5,
-        "nightardoc4.codex.json": 4,
-        "nightarhistory1.codex.json": 3,
-        "nightarhistory2.codex.json": 5,
-        "nightarhistory3.codex.json": 4,
-        "nightarhistory4.codex.json": 3,
-        "nightarhistory5.codex.json": 4,
-        "nightarhistory6.codex.json": 6,
-        "shared_nightarhistory.json": 1
+        "funightardoc1.codex.json": 9,
+        "funightardoc2.codex.json": 11,
+        "funightardoc3.codex.json": 5,
+        "funightardoc4.codex.json": 4,
+        "funightarhistory1.codex.json": 3,
+        "funightarhistory2.codex.json": 5,
+        "funightarhistory3.codex.json": 4,
+        "funightarhistory4.codex.json": 3,
+        "funightarhistory5.codex.json": 4,
+        "funightarhistory6.codex.json": 6,
+        "shared_funightarhistory.json": 1
       },
       "pharitu": {
         "pharitu1.codex.json": 6,
@@ -4451,7 +4479,7 @@
         "tier3": {
           "assaultarmor": {
             "fuexplorer.chest.json": 1,
-            "fuexplorer.head.json": 1,
+            "fuexplorer.head.json": 2,
             "fuexplorer.legs.json": 1,
             "shared_fuexplorer..json": 1
           },
@@ -4715,7 +4743,7 @@
           },
           "fudiver2": {
             "fudiver2.chest.json": 1,
-            "fudiver2.head.json": 1,
+            "fudiver2.head.json": 2,
             "fudiver2.legs.json": 1,
             "shared_fudiver2..json": 1
           },
@@ -4913,7 +4941,7 @@
           },
           "fuwarphunter": {
             "fuwarphunter.chest.json": 1,
-            "fuwarphunter.head.json": 1,
+            "fuwarphunter.head.json": 2,
             "fuwarphunter.legs.json": 1,
             "shared_fuwarphunter..json": 1
           },
@@ -6328,6 +6356,7 @@
           "erithianalgae.item.json": 1,
           "fayshroom.consumable.json": 1,
           "floralytcandy.consumable.json": 2,
+          "fuavikanspices.consumable.json": 2,
           "fusnowberry.consumable.json": 1,
           "fuspongeweed.consumable.json": 2,
           "garpberry.consumable.json": 1,
@@ -7827,6 +7856,11 @@
       },
       "ground": {
         "shared_skill.json": 1
+      },
+      "mission": {
+        "fuhelicultist": {
+          "fuhelicultist.monstertype.json": 2
+        }
       },
       "pandorasboxuniques": {
         "ghosts": {
@@ -11226,7 +11260,7 @@
             "shiphatch.object.json": 1
           },
           "vendingmachine": {
-            "labvendingmachine.object.json": 10
+            "labvendingmachine.object.json": 6
           }
         },
         "medbaybed": {
@@ -13987,7 +14021,7 @@
           "tenebrhaeshipdoor.object.json": 2
         }
       },
-      "shared_.object.json": 39,
+      "shared_.object.json": 44,
       "shared_avali.json": 6,
       "shared_banner.json": 3,
       "shared_bed": {
@@ -14141,9 +14175,6 @@
       "shared_tra.json": 2,
       "shared_vase": {
         "shared_.object.json": 4
-      },
-      "shared_vendingmachine": {
-        "shared_vendingmachine.object.json": 1
       },
       "shared_zerchesium": {
         "shared_.object.json": 1,
@@ -15756,7 +15787,7 @@
             "corsairsdresser.object.json": 9
           },
           "corsairsshelf": {
-            "corsairsshelf.object.json": 9
+            "corsairsshelf.object.json": 6
           },
           "corsairstable": {
             "corsairstable.object.json": 9
@@ -17890,6 +17921,9 @@
       "alienjungle.questtemplate.json": 4,
       "ancienttemple.questtemplate.json": 4,
       "avianhydro.questtemplate.json": 4,
+      "bounty": {
+        "fu_asraNoxSailFix.questtemplate.json": 3
+      },
       "byos": {
         "fu_byos.questtemplate.json": 3,
         "fu_shipupgrades.questtemplate.json": 3
@@ -17907,7 +17941,7 @@
             "create_laspistol.questtemplate.json": 4,
             "create_steelwarblade.questtemplate.json": 4,
             "create_warcleaver.questtemplate.json": 4,
-            "plebiancap.questtemplate.json": 2
+            "plebiancap.questtemplate.json": 3
           },
           "monsters": {
             "fuquest_ancientsentry.questtemplate.json": 4,
@@ -18463,6 +18497,11 @@
       "thelusiannamegen.config.json": 27,
       "veluu.species.json": 4
     },
+    "stagehands": {
+      "mission": {
+        "glitchmissionmanager.stagehand.json": 12
+      }
+    },
     "stats": {
       "effects": {
         "augments": {
@@ -18698,6 +18737,7 @@
             "percentenergyboost10.statuseffect.json": 1,
             "percentenergyboost15.statuseffect.json": 1,
             "percentenergyboost2.animation.json": 1,
+            "percentenergyboost20.statuseffect.json": 1,
             "percentenergyboost35.statuseffect.json": 1,
             "percentenergyboost40.statuseffect.json": 1,
             "percentenergyboost5.statuseffect.json": 1,
@@ -19725,7 +19765,7 @@
         "sturdyplatform.material.json": 2
       }
     },
-    "wide_spread_fields.json": 174,
+    "wide_spread_fields.json": 173,
     "zb": {
       "newSail": {
         "data.config.json": 7,
