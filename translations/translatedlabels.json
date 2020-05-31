@@ -968,7 +968,7 @@
         "epsteinbook.codex.json": 2,
         "ffguide.codex.json": 25,
         "ffguide2.codex.json": 22,
-        "ffguide3.codex.json": 16,
+        "ffguide3.codex.json": 14,
         "ffguide4.codex.json": 2,
         "ffguide5.codex.json": 26,
         "ffguide6.codex.json": 1,
@@ -6550,7 +6550,7 @@
         "bloodstonewall2.matitem.json": 2,
         "bonemealmaterial.matitem.json": 2,
         "boneyflesh.matitem.json": 2,
-        "calichewall.matitem.json": 1,
+        "calichewall.matitem.json": 0,
         "campbigpole.matitem.json": 1,
         "campcanvas.matitem.json": 2,
         "camppole.matitem.json": 2,
@@ -7863,6 +7863,14 @@
         }
       },
       "pandorasboxuniques": {
+        "flyers": {
+          "pandorasboxglofae": {
+            "pandorasboxglofae.monstertype.json": 0
+          },
+          "pandorasboxhummingbug": {
+            "pandorasboxhummingbug.monstertype.json": 0
+          }
+        },
         "ghosts": {
           "pandorasboxerchit": {
             "pandorasboxerchit.monstertype.json": 2
@@ -7874,6 +7882,17 @@
           }
         },
         "walkers": {
+          "pandorasboxadultnocttop": {
+            "shared_nocttop.monstertype.json": 0
+          },
+          "pandorasboxaliep": {
+            "pandorasboxaliep.monstertype.json": 0
+          },
+          "pandorasboxcaketop": {
+            "pandorasboxcaketop.monstertype.json": 0,
+            "pandorasboxcupcaketop.monstertype.json": 0,
+            "pandorasboxmamacaketop.monstertype.json": 0
+          },
           "pandorasboxcottonbop": {
             "shared_pandorasboxcottonbop.json": 2
           },
@@ -7888,6 +7907,9 @@
           },
           "pandorasboxmushtop": {
             "pandorasboxmushtop.monstertype.json": 2
+          },
+          "pandorasboxnocttop": {
+            "shared_pandorasboxnocttop.json": 0
           },
           "pandorasboxshroombop": {
             "pandorasboxshroombop.monstertype.json": 2
@@ -10916,10 +10938,6 @@
         "referencegenerator.object.json": 8
       },
       "generic": {
-        "antigravgenerator": {
-          "antigravgen.object.json": 2,
-          "antigravgen.statuseffect.json": 1
-        },
         "boozekit": {
           "boozekit.object.json": 1
         },
@@ -11200,7 +11218,8 @@
           "shared_futoolbox.json": 2
         },
         "gravgenerator": {
-          "gravgen.object.json": 2
+          "antigravgen.object.json": 0,
+          "gravgen.object.json": 0
         },
         "labfurniture": {
           "electronmicroscope": {
@@ -14077,9 +14096,6 @@
       "shared_drawers.object.json": 1,
       "shared_fridge.json": 10,
       "shared_fridge.object.json": 1,
-      "shared_gravgen": {
-        "shared_gravgenfield.statuseffect.json": 1
-      },
       "shared_hammock": {
         "shared_hammock.json": 6
       },
@@ -18241,7 +18257,7 @@
       "fu_madness.radiomessages.json": 7,
       "fu_ore.radiomessages.json": 18,
       "fu_quests.radiomessages.json": 12,
-      "fu_resources.radiomessages.json": 51,
+      "fu_resources.radiomessages.json": 48,
       "fu_stations.radiomessages.json": 2,
       "shared_.radiomessages.json": 1,
       "shared_es.radiomessages.json": 1
@@ -18313,6 +18329,7 @@
     "shared_fuapplehoneypie.json": 1,
     "shared_fudynastwoodenplatform.mat.json": 1,
     "shared_girdirplatform.mat.json": 2,
+    "shared_gravgenfield.statuseffect.json": 1,
     "shared_greg.json": 1,
     "shared_hellfire.json": 1,
     "shared_honeyplatform.mat.json": 1,
@@ -19063,6 +19080,8 @@
           "shared_.statuseffect.json": 1
         },
         "lowgrav": {
+          "antigravgen.statuseffect.json": 0,
+          "gravitynormalization.statuseffect.json": 0,
           "lowgrav_supergrav.statuseffect.json": 1,
           "lowgrav_wretchel.statuseffect.json": 1,
           "lowgravavian.animation.json": 1,
@@ -19417,7 +19436,7 @@
         },
         "bonemealblock.material.json": 2,
         "caliche": {
-          "calichestone.material.json": 1
+          "calichestone.material.json": 0
         },
         "campbigpole.material.json": 1,
         "campcanvas.material.json": 2,

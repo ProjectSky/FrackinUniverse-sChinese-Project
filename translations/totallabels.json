@@ -7863,6 +7863,14 @@
         }
       },
       "pandorasboxuniques": {
+        "flyers": {
+          "pandorasboxglofae": {
+            "pandorasboxglofae.monstertype.json": 2
+          },
+          "pandorasboxhummingbug": {
+            "pandorasboxhummingbug.monstertype.json": 2
+          }
+        },
         "ghosts": {
           "pandorasboxerchit": {
             "pandorasboxerchit.monstertype.json": 2
@@ -7874,6 +7882,17 @@
           }
         },
         "walkers": {
+          "pandorasboxadultnocttop": {
+            "shared_nocttop.monstertype.json": 2
+          },
+          "pandorasboxaliep": {
+            "pandorasboxaliep.monstertype.json": 2
+          },
+          "pandorasboxcaketop": {
+            "pandorasboxcaketop.monstertype.json": 2,
+            "pandorasboxcupcaketop.monstertype.json": 2,
+            "pandorasboxmamacaketop.monstertype.json": 2
+          },
           "pandorasboxcottonbop": {
             "shared_pandorasboxcottonbop.json": 2
           },
@@ -7888,6 +7907,9 @@
           },
           "pandorasboxmushtop": {
             "pandorasboxmushtop.monstertype.json": 2
+          },
+          "pandorasboxnocttop": {
+            "shared_pandorasboxnocttop.json": 2
           },
           "pandorasboxshroombop": {
             "pandorasboxshroombop.monstertype.json": 2
@@ -10916,10 +10938,6 @@
         "referencegenerator.object.json": 8
       },
       "generic": {
-        "antigravgenerator": {
-          "antigravgen.object.json": 2,
-          "antigravgen.statuseffect.json": 1
-        },
         "boozekit": {
           "boozekit.object.json": 1
         },
@@ -11200,6 +11218,7 @@
           "shared_futoolbox.json": 2
         },
         "gravgenerator": {
+          "antigravgen.object.json": 2,
           "gravgen.object.json": 2
         },
         "labfurniture": {
@@ -14077,9 +14096,6 @@
       "shared_drawers.object.json": 1,
       "shared_fridge.json": 10,
       "shared_fridge.object.json": 1,
-      "shared_gravgen": {
-        "shared_gravgenfield.statuseffect.json": 1
-      },
       "shared_hammock": {
         "shared_hammock.json": 6
       },
@@ -18241,7 +18257,7 @@
       "fu_madness.radiomessages.json": 7,
       "fu_ore.radiomessages.json": 18,
       "fu_quests.radiomessages.json": 12,
-      "fu_resources.radiomessages.json": 51,
+      "fu_resources.radiomessages.json": 48,
       "fu_stations.radiomessages.json": 2,
       "shared_.radiomessages.json": 1,
       "shared_es.radiomessages.json": 1
@@ -18313,6 +18329,7 @@
     "shared_fuapplehoneypie.json": 1,
     "shared_fudynastwoodenplatform.mat.json": 1,
     "shared_girdirplatform.mat.json": 2,
+    "shared_gravgenfield.statuseffect.json": 1,
     "shared_greg.json": 1,
     "shared_hellfire.json": 1,
     "shared_honeyplatform.mat.json": 1,
@@ -19063,6 +19080,8 @@
           "shared_.statuseffect.json": 1
         },
         "lowgrav": {
+          "antigravgen.statuseffect.json": 1,
+          "gravitynormalization.statuseffect.json": 1,
           "lowgrav_supergrav.statuseffect.json": 1,
           "lowgrav_wretchel.statuseffect.json": 1,
           "lowgravavian.animation.json": 1,
