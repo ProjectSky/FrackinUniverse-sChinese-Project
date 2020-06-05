@@ -3962,12 +3962,6 @@
     "/description": "texts/items/active/weapons/melee/flail/shared_.activeitem.json",
     "/shortdescription": "texts/items/active/weapons/melee/flail/shared_.activeitem.json"
   },
-  "items/active/weapons/melee/flail/flailxithricite.activeitem": {
-    "/description": "texts/items/active/weapons/melee/flail/shared_.activeitem.json"
-  },
-  "items/active/weapons/melee/flail/flailzerchesium.activeitem": {
-    "/description": "texts/items/active/weapons/melee/flail/shared_.activeitem.json"
-  },
   "items/active/weapons/melee/greataxe/fuatropusgreataxe.activeitem": {
     "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
   },
@@ -4872,9 +4866,6 @@
   "items/active/weapons/whip/slimewhip3.activeitem": {
     "/description": "texts/items/active/weapons/whip/shared_.activeitem.json"
   },
-  "items/armors/backitems/guardianwings/blueguardian/blueguardian.back": {
-    "/description": "texts/items/armors/backitems/guardianwings/shared_guardian/shared_guardian.back.json"
-  },
   "items/armors/backitems/guardianwings/greenguardian/greenguardian.back": {
     "/description": "texts/items/armors/backitems/guardianwings/shared_guardian/shared_guardian.back.json"
   },
@@ -4922,6 +4913,12 @@
   },
   "items/armors/bees/fuqueen/fuqueenslegs.legs": {
     "/description": "texts/items/armors/bees/fuqueen/shared_fuqueens.json"
+  },
+  "items/armors/cat/cat-tier1/collar-holder.chest": {
+    "/description": "texts/items/armors/cat/cat-tier1/shared_.chest.json"
+  },
+  "items/armors/cat/cat-tier1/veluutier1.chest": {
+    "/description": "texts/items/armors/cat/cat-tier1/shared_.chest.json"
   },
   "items/armors/costumes/colourful/colourful.chest": {
     "/description": "texts/items/armors/costumes/shared_colourful/shared_colourful.json",
@@ -6532,6 +6529,12 @@
   "items/generic/crafting/imperviumfurnitureplating.item": {
     "/shortdescription": "texts/shared_eri.json"
   },
+  "items/generic/crafting/isotopes/neptuniumradien.consumable": {
+    "/description": "texts/items/generic/crafting.json"
+  },
+  "items/generic/crafting/isotopes/thoriumradien.consumable": {
+    "/description": "texts/items/generic/crafting.json"
+  },
   "items/generic/crafting/koaniteore.item": {
     "/shortdescription": "texts/wide_spread_fields.json"
   },
@@ -6540,6 +6543,9 @@
   },
   "items/generic/crafting/oceanite.item": {
     "/description": "texts/shared_oceanite.json"
+  },
+  "items/generic/crafting/plutoniumradien.consumable": {
+    "/description": "texts/items/generic/crafting.json"
   },
   "items/generic/crafting/protociteore.item": {
     "/shortdescription": "texts/wide_spread_fields.json"
@@ -6590,6 +6596,9 @@
   },
   "items/generic/crafting/thanatite.item": {
     "/description": "texts/shared_thanatite.json"
+  },
+  "items/generic/crafting/uraniumradien.consumable": {
+    "/description": "texts/items/generic/crafting.json"
   },
   "items/generic/crafting/xenostation/gene_poisonous.item": {
     "/shortdescription": "texts/shared_poison.json"
@@ -9018,6 +9027,15 @@
   },
   "items/throwables/whiteglowstick.thrownitem": {
     "/description": "texts/items/throwables/shared_glowstick.thrownitem.json"
+  },
+  "items/tools/miningtools/beamaxeapex.beamaxe": {
+    "/description": "texts/items/tools/miningtools/shared_.beamaxe.json"
+  },
+  "items/tools/miningtools/beamaxeelunite.beamaxe": {
+    "/description": "texts/items/tools/miningtools/shared_.beamaxe.json"
+  },
+  "items/tools/miningtools/beamaxehylotl.beamaxe": {
+    "/description": "texts/items/tools/miningtools/shared_.beamaxe.json"
   },
   "items/tools/stickynotepadfu/stickynotepadfu.activeitem": {
     "/shortdescription": "texts/stickynotepadfu/shared_stickynotepadfu..json"
@@ -23301,6 +23319,7 @@
     "/shortdescription": "texts/objects/minibiome/elder/elderbookstand/shared_elderbookstand.json"
   },
   "objects/minibiome/elder/elderbookstand/elderbookstandrelic.object": {
+    "/interactData/paneLayoutOverride/windowtitle/title": "texts/objects/minibiome/elder/elderbookstand/shared_elderbookstand.json",
     "/shortdescription": "texts/objects/minibiome/elder/elderbookstand/shared_elderbookstand.json"
   },
   "objects/minibiome/elder/eldercarving1.object": {
@@ -37697,6 +37716,31 @@
   "quests/mmupgrade/mmgravgun3.questtemplate": {
     "/scriptConfig/turnInDescription": "texts/quests/mmupgrade/shared_.questtemplate.json"
   },
+  "quests/story/protectorateapex.questtemplate": {
+    "/completionText": "texts/quests/story/shared_.questtemplate.json",
+    "/scriptConfig/descriptions/escape": "texts/quests/story/shared_.questtemplate.json",
+    "/scriptConfig/descriptions/graduate": "texts/quests/story/shared_.questtemplate.json",
+    "/scriptConfig/descriptions/matterManipulator": "texts/quests/story/shared_.questtemplate.json",
+    "/text": "texts/quests/story/shared_.questtemplate.json"
+  },
+  "quests/story/protectorateelunite.questtemplate": {
+    "/completionText": "texts/quests/story/shared_.questtemplate.json",
+    "/scriptConfig/descriptions/escape": "texts/quests/story/shared_.questtemplate.json",
+    "/scriptConfig/descriptions/graduate": "texts/quests/story/shared_.questtemplate.json",
+    "/scriptConfig/descriptions/matterManipulator": "texts/quests/story/shared_.questtemplate.json",
+    "/text": "texts/quests/story/shared_.questtemplate.json"
+  },
+  "quests/story/protectoratefu.questtemplate": {
+    "/scriptConfig/descriptions/escape": "texts/quests/story/shared_.questtemplate.json",
+    "/scriptConfig/descriptions/matterManipulator": "texts/quests/story/shared_.questtemplate.json"
+  },
+  "quests/story/protectoratehylotl.questtemplate": {
+    "/completionText": "texts/quests/story/shared_.questtemplate.json",
+    "/scriptConfig/descriptions/escape": "texts/quests/story/shared_.questtemplate.json",
+    "/scriptConfig/descriptions/graduate": "texts/quests/story/shared_.questtemplate.json",
+    "/scriptConfig/descriptions/matterManipulator": "texts/quests/story/shared_.questtemplate.json",
+    "/text": "texts/quests/story/shared_.questtemplate.json"
+  },
   "quests/tech/dash/combatmaneuvering1.questtemplate": {
     "/title": "texts/wide_spread_fields.json"
   },
@@ -39172,6 +39216,12 @@
   "stats/effects/camouflage/camouflage99.statuseffect": {
     "/label": "texts/stats/effects/camouflage/shared_.statuseffect.json"
   },
+  "stats/effects/damageboost/damagebonusavian.statuseffect": {
+    "/label": "texts/stats/effects/damageboost/shared_n.statuseffect.json"
+  },
+  "stats/effects/damageboost/damagebonusfelin.statuseffect": {
+    "/label": "texts/stats/effects/damageboost/shared_n.statuseffect.json"
+  },
   "stats/effects/defenseboost/defense4.statuseffect": {
     "/label": "texts/stats/effects/defenseboost/shared_.statuseffect.json"
   },
@@ -39237,12 +39287,6 @@
   },
   "stats/effects/fu_effects/draingroup/draingroup.statuseffect": {
     "/label": "texts/stats/effects/fu_effects/shared_drain/shared_.statuseffect.json"
-  },
-  "stats/effects/fu_effects/energyregenfu/energyregenfu.statuseffect": {
-    "/label": "texts/stats/effects/fu_effects/energyregenfu/shared_energyregenfu.json"
-  },
-  "stats/effects/fu_effects/energyregenfu/energyregenfu05.statuseffect": {
-    "/label": "texts/stats/effects/fu_effects/energyregenfu/shared_energyregenfu.json"
   },
   "stats/effects/fu_effects/energyrestorepercentage/energy_10.statuseffect": {
     "/label": "texts/stats/effects/fu_effects/energyrestorepercentage/shared_.statuseffect.json"
@@ -39455,16 +39499,16 @@
     "/label": "texts/wide_spread_fields.json"
   },
   "stats/effects/fu_tileeffects/gas_effects/shadowgas/gasfx.animation": {
-    "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects/fu_tileeffects/gas_effects/shadowgas/shared_.animation.json"
+    "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects.json"
   },
   "stats/effects/fu_tileeffects/gas_effects/shadowgas/shadowgasfx.animation": {
-    "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects/fu_tileeffects/gas_effects/shadowgas/shared_.animation.json"
+    "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects.json"
   },
   "stats/effects/fu_tileeffects/gas_effects/shadowgas/shadowgasfx.statuseffect": {
     "/label": "texts/stats/effects/fu_tileeffects/gas_effects/shadowgas/shared_.statuseffect.json"
   },
   "stats/effects/fu_tileeffects/gas_effects/shadowgas/shadowgasfx2.animation": {
-    "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects/fu_tileeffects/gas_effects/shadowgas/shared_.animation.json"
+    "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects.json"
   },
   "stats/effects/fu_tileeffects/gas_effects/shadowgas/shadowgasfx2.statuseffect": {
     "/label": "texts/stats/effects/fu_tileeffects/gas_effects/shadowgas/shared_.statuseffect.json"
@@ -39699,6 +39743,9 @@
   "stats/effects/lowgrav/lowgrav_stim.statuseffect": {
     "/label": "texts/stats/effects/lowgrav/shared_.statuseffect.json"
   },
+  "stats/effects/movement/raceavianmovement.animation": {
+    "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects.json"
+  },
   "stats/effects/paralysis/fuparalysis.statuseffect": {
     "/label": "texts/stats/effects/paralysis/shared_paralysis.statuseffect.json"
   },
@@ -39753,9 +39800,6 @@
   "stats/effects/regeneration/lightregenproduce.statuseffect": {
     "/label": "texts/stats/effects.json"
   },
-  "stats/effects/regeneration/regeneration01.statuseffect": {
-    "/label": "texts/stats/effects/regeneration/shared_.statuseffect.json"
-  },
   "stats/effects/regeneration/regeneration3.statuseffect": {
     "/label": "texts/stats/effects/regeneration/shared_.statuseffect.json"
   },
@@ -39767,9 +39811,6 @@
   },
   "stats/effects/regeneration/regenerationAtmosRegen.statuseffect": {
     "/label": "texts/shared_reg/shared_egen.statuseffect.json"
-  },
-  "stats/effects/regeneration/regenerationminor.statuseffect": {
-    "/label": "texts/stats/effects/regeneration/shared_.statuseffect.json"
   },
   "stats/effects/regeneration/regenerationminor3.statuseffect": {
     "/label": "texts/stats/effects/regeneration/shared_regenerationm.json"
@@ -39879,11 +39920,45 @@
   "tech/jump/quintjump.tech": {
     "/shortDescription": "texts/shared_jump.json"
   },
+  "tech/other/avaliglide.tech": {
+    "/description": "texts/tech/other/shared_glide.tech.json",
+    "/shortDescription": "texts/tech/other/shared_avali.json"
+  },
+  "tech/other/dragonfireburst.tech": {
+    "/description": "texts/tech/other/shared_burst.tech.json"
+  },
+  "tech/other/elduukharburst.tech": {
+    "/description": "texts/tech/other/shared_burst.tech.json"
+  },
+  "tech/other/flight_avali.tech": {
+    "/description": "texts/tech/other/shared_flight_.json",
+    "/shortDescription": "texts/tech/other/shared_avali.json"
+  },
+  "tech/other/flight_moogle.tech": {
+    "/description": "texts/tech/other/shared_flight_.json",
+    "/shortDescription": "texts/tech/other/shared_moogle.json"
+  },
+  "tech/other/flight_saturnian.tech": {
+    "/shortDescription": "texts/tech/other/shared_flight_saturnian.json"
+  },
+  "tech/other/flight_saturnianmoth.tech": {
+    "/shortDescription": "texts/tech/other/shared_flight_saturnian.json"
+  },
+  "tech/other/huntersclaw.tech": {
+    "/description": "texts/tech/other/shared_claw.tech.json"
+  },
+  "tech/other/moogleglide.tech": {
+    "/description": "texts/tech/other/shared_glide.tech.json",
+    "/shortDescription": "texts/tech/other/shared_moogle.json"
+  },
   "tech/other/physicsfield.tech": {
     "/shortDescription": "texts/tech/other/shared_physicsfield.json"
   },
   "tech/other/physicsfield1.tech": {
     "/shortDescription": "texts/tech/other/shared_physicsfield.json"
+  },
+  "tech/other/veluuclaw.tech": {
+    "/description": "texts/tech/other/shared_claw.tech.json"
   },
   "tiles/materials/aegisaltcrystal.material": {
     "/description": "texts/tiles/materials/shared_crystal.material.json",
