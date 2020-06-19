@@ -3,13 +3,22 @@
     "DeniedAlternatives": [],
     "Files": {
       "quests/fu_questlines/deprecated/fuquest_craftinfo.questtemplate": [
-        "/completionText",
         "/text"
       ]
     },
     "Texts": {
-      "Chs": "^orange;Frackin'Universe数据库^reset;可显示出^green;萃取设备^reset;对于不同物质的产生结果。如果你不知道如何生成某种物质或是不知道这种物质可以生成什么，请使用^orange;Frackin'Universe数据库^reset;！",
-      "Eng": "A ^orange;Lab Directory^reset; does only one thing: ^green;Telling you what makes what^reset; in your extractor and xeno lab. If you need ingredient X but don't know how to get it...check here!"
+      "Eng": "A ^orange;Lab Directory^reset; does only one thing: ^green;Telling you what makes what^reset; in your production stations. Try making one now in your ^orange;Auto-Assembler^reset;. Show me it when you're done."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "quests/fu_questlines/deprecated/fuquest_craftinfo.questtemplate": [
+        "/scriptConfig/turnInDescription"
+      ]
+    },
+    "Texts": {
+      "Eng": "Bring the ^orange;Lab Directory^reset; to the scientist at the ^orange;Science Outpost^reset;"
     }
   },
   {
@@ -20,8 +29,18 @@
       ]
     },
     "Texts": {
-      "Chs": "Frackin'Universe数据库",
-      "Eng": "Lab Directory"
+      "Eng": "New Directions"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "quests/fu_questlines/deprecated/fuquest_craftinfo.questtemplate": [
+        "/completionText"
+      ]
+    },
+    "Texts": {
+      "Eng": "Now take that to your base and place it next to an extractor, centrifuge or other production station. Access it, and you'll soon see just how amazing a device it truly is."
     }
   }
 ]
