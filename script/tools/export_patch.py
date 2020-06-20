@@ -41,14 +41,16 @@ if __name__ == "__main__":
     print("该脚本可以将patch文件的老文本导入指定json文件，")
     ##old = input("现在，请输入patch文件路径：").replace("\\", "/")
     ##new = input("现在, 请输入json文件夹路径：").replace("\\", "/")
-    old = "F:/FrackinRaces-sChinese-Project/release/Fr sChinese"
-    new = "F:/FrackinUniverse-sChinese-Project/translations/texts/tech"
+    old = "G:/Fu Schinese/items/generic/produce"
+    old_dir = "G:/Fu Schinese"
+    new = "F:/FrackinUniverse-sChinese-Project/translations/texts/items/generic/produce"
     ##old_f = trans_patch(open(old, "r", "utf-8-sig"))
     for path_old, d_old, filelist_old in os.walk(old):
         for filename_old in filelist_old:
             if filename_old.endswith(".patch"):
                 w_old = os.path.join(path_old, filename_old)
-                path_1 = w_old.replace(old+"\\", "").replace(".patch", "").replace("\\","/")
+                path_1 = w_old.replace(
+                    old_dir+"/", "").replace(".patch", "").replace("\\", "/")
                 print(path_1)
                 old_f = trans_patch(open(w_old, "r", "utf-8-sig"))
                 for path, d, filelist in os.walk(new):
