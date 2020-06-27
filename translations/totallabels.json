@@ -1,7 +1,8 @@
 {
   "patches": {
     "ai": {
-      "ai.config.json": 1
+      "ai.config.json": 1,
+      "missionhuman1.aimission.json": 3
     },
     "celestial.config.json": 34,
     "dialog": {
@@ -253,13 +254,170 @@
           "peacekeeper1.augment.json": 1,
           "peacekeeper2.augment.json": 1,
           "peacekeeper3.augment.json": 1,
-          "poisonblockaugment.augment.json": 1
+          "poisonblockaugment.augment.json": 1,
+          "speedaugment.augment.json": 1
         }
       },
       "categories.config.json": 61,
       "generic": {
         "crafting": {
           "uraniumore.item.json": 1
+        },
+        "drinks": {
+          "chestojuice": {
+            "chestojuice.consumable.json": 1
+          },
+          "pechajuice": {
+            "pechajuice.consumable.json": 1
+          }
+        },
+        "food": {
+          "shared_tier": {
+            "shared_.consumable.json": 1
+          },
+          "tier1": {
+            "bakedpotato.consumable.json": 1,
+            "boiledpearlpeas.consumable.json": 1,
+            "boiledrice.consumable.json": 1,
+            "bread.consumable.json": 1,
+            "cookedtomato.consumable.json": 1,
+            "corncob.consumable.json": 1,
+            "fishdumplings.consumable.json": 1,
+            "fishfingers.consumable.json": 1,
+            "fishnchips.consumable.json": 1,
+            "fishpie.consumable.json": 1,
+            "fishstew.consumable.json": 1,
+            "mashedpotato.consumable.json": 1,
+            "meatdumplings.consumable.json": 1,
+            "meatpie.consumable.json": 1,
+            "meatstew.consumable.json": 1,
+            "oilstew.consumable.json": 1,
+            "pearlpeabroth.consumable.json": 1,
+            "pearlpearisotto.consumable.json": 1,
+            "popcorn.consumable.json": 1,
+            "potatogrids.consumable.json": 1,
+            "roastedcarrot.consumable.json": 1,
+            "toast.consumable.json": 1
+          },
+          "tier2": {
+            "applecrumble.consumable.json": 1,
+            "baconpancakes.consumable.json": 1,
+            "beakseedbread.consumable.json": 1,
+            "beakseedjam.consumable.json": 1,
+            "bonbonbonbons.consumable.json": 1,
+            "bonbons.consumable.json": 1,
+            "cactusjuice.consumable.json": 1,
+            "candiedcorn.consumable.json": 1,
+            "candyapple.consumable.json": 1,
+            "carrotbread.consumable.json": 1,
+            "carrotjuice.consumable.json": 1,
+            "cheeseburger.consumable.json": 1,
+            "coffee.consumable.json": 1,
+            "cornpeckers.consumable.json": 1,
+            "feathercrownjam.consumable.json": 1,
+            "featherfood.consumable.json": 1,
+            "gardensalad.consumable.json": 1,
+            "hamburger.consumable.json": 1,
+            "kiwijam.consumable.json": 1,
+            "kiwijuice.consumable.json": 1,
+            "mushroombread.consumable.json": 1,
+            "omelette.consumable.json": 1,
+            "pasty.consumable.json": 1,
+            "pearlpeajam.consumable.json": 1,
+            "pizza.consumable.json": 1,
+            "pizzaslice.consumable.json": 1,
+            "quichelorraine.consumable.json": 1,
+            "relish.consumable.json": 1,
+            "roastdinner.consumable.json": 1,
+            "rustchowder.consumable.json": 1,
+            "stickyribs.consumable.json": 1,
+            "sweetmeat.consumable.json": 1,
+            "tomatojuice.consumable.json": 1
+          },
+          "tier3": {
+            "apegrapes.consumable.json": 1,
+            "automatoshake.consumable.json": 1,
+            "automatostew.consumable.json": 1,
+            "bananacon.consumable.json": 1,
+            "batteredbanana.consumable.json": 1,
+            "campfirebanana.consumable.json": 1,
+            "candyautomato.consumable.json": 1,
+            "coconutmilk.consumable.json": 1,
+            "coconutrice.consumable.json": 1,
+            "desertsalsa.consumable.json": 1,
+            "fishinabone.consumable.json": 1,
+            "fruitsalad.consumable.json": 1,
+            "grapejuice.consumable.json": 1,
+            "luckydip.consumable.json": 1,
+            "pineapplejam.consumable.json": 1,
+            "pineapplejuice.consumable.json": 1,
+            "pineapplepizzaslice.consumable.json": 1,
+            "spookypie.consumable.json": 1,
+            "stuffedautomato.consumable.json": 1,
+            "sweetpunch.consumable.json": 1,
+            "thornjuice.consumable.json": 1,
+            "tropicalpunch.consumable.json": 1
+          },
+          "tier4": {
+            "alienfruitjam.consumable.json": 1,
+            "alienfruitjuice.consumable.json": 1,
+            "bloodypuss.consumable.json": 1,
+            "brineapple.consumable.json": 1,
+            "cyanider.consumable.json": 1,
+            "oceanrisotto.consumable.json": 1,
+            "oceansalsa.consumable.json": 1,
+            "oceansurprise.consumable.json": 1,
+            "oculemonstew.consumable.json": 1,
+            "pussplumjam.consumable.json": 1,
+            "pussplumtart.consumable.json": 1,
+            "reefjuice.consumable.json": 1,
+            "reefpodsurprise.consumable.json": 1,
+            "ricecake.consumable.json": 1,
+            "saltsalad.consumable.json": 1,
+            "seafoodgratin.consumable.json": 1,
+            "soggysack.consumable.json": 1,
+            "sushi.consumable.json": 1,
+            "toxicjuice.consumable.json": 1,
+            "toxictopjam.consumable.json": 1,
+            "toxictoptart.consumable.json": 1
+          },
+          "tier5": {
+            "8gbpizzap.consumable.json": 1,
+            "boltos.consumable.json": 1,
+            "eggshootsalad.consumable.json": 1,
+            "eyebowls.consumable.json": 1,
+            "nutsandbolts.consumable.json": 1,
+            "piodia.consumable.json": 1,
+            "smash.consumable.json": 1
+          },
+          "tier6": {
+            "burningeyeballs.consumable.json": 1,
+            "coralcreepcurry.consumable.json": 1,
+            "hotbone.consumable.json": 1,
+            "hothothotpot.consumable.json": 1,
+            "neonmelonjam.consumable.json": 1,
+            "pearlpeaparcels.consumable.json": 1,
+            "pozest.consumable.json": 1,
+            "spicyribs.consumable.json": 1,
+            "ultimatejuice.consumable.json": 1,
+            "volcanicsalsa.consumable.json": 1,
+            "wartweedjam.consumable.json": 1,
+            "wartweedstew.consumable.json": 1
+          }
+        },
+        "meat": {
+          "cookedalienmeat.consumable.json": 1,
+          "cookedbacon.consumable.json": 1,
+          "cookedfish.consumable.json": 1,
+          "cookedham.consumable.json": 1,
+          "cookedpoultry.consumable.json": 1,
+          "cookedribmeat.consumable.json": 1,
+          "cookedtentacle.consumable.json": 1,
+          "rawbacon.consumable.json": 1,
+          "rawfish.consumable.json": 1,
+          "rawham.consumable.json": 1,
+          "rawpoultry.consumable.json": 1,
+          "rawribmeat.consumable.json": 1
         },
         "mechparts": {
           "arm": {
@@ -271,13 +429,16 @@
           "protectorateflyer.item.json": 2
         },
         "produce": {
-          "banana.consumable.json": 1,
           "crystalplant.item.json": 1
         },
         "salvage": {
           "salvagetier4.item.json": 1,
           "salvagetier5.item.json": 1,
           "salvagetier6.item.json": 1
+        },
+        "shop": {
+          "egg.consumable.json": 1,
+          "milk.consumable.json": 1
         }
       },
       "rotting.config.json": 7
@@ -429,7 +590,7 @@
       "icons.json.json": 6
     },
     "radiomessages": {
-      "exploration.radiomessages.json": 35,
+      "exploration.radiomessages.json": 38,
       "intro.radiomessages.json": 1,
       "mech.radiomessages.json": 25,
       "missions.radiomessages.json": 293,
@@ -438,11 +599,100 @@
       "tutorial.radiomessages.json": 2
     },
     "species": {
+      "aegi.species.json": 1,
+      "akkimari.species.json": 1,
+      "alicorn.species.json": 1,
+      "apex.species.json": 1,
+      "arachne.species.json": 1,
+      "argonian.species.json": 1,
+      "attarran.species.json": 1,
+      "avali.species.json": 1,
+      "avian.species.json": 1,
+      "avikan.species.json": 1,
+      "batpony.species.json": 1,
+      "bunnykin.species.json": 1,
+      "callistan.species.json": 1,
+      "carakinox.species.json": 1,
+      "cat.species.json": 1,
+      "changeling.species.json": 1,
+      "changenykt.species.json": 1,
+      "deerfolk.species.json": 1,
+      "deerkin.species.json": 1,
+      "demon.species.json": 1,
+      "dragon.species.json": 1,
+      "droden.species.json": 1,
+      "eevee.species.json": 1,
+      "elunite.species.json": 1,
+      "elysian.species.json": 1,
+      "everis.species.json": 1,
+      "familiar.species.json": 1,
+      "felin.species.json": 1,
       "fenerox.species.json": 2,
       "feneroxnamegen.config.json": 22,
-      "shadow.species.json": 2
+      "fennix.species.json": 1,
+      "floran.species.json": 1,
+      "fragmentedruin.species.json": 1,
+      "gardevan.species.json": 1,
+      "glitch.species.json": 1,
+      "greckan.species.json": 1,
+      "gyrusen.species.json": 1,
+      "harpy.species.json": 1,
+      "hippogriff.species.json": 1,
+      "human.species.json": 1,
+      "hylotl.species.json": 1,
+      "indix.species.json": 1,
+      "irken.species.json": 1,
+      "kazdra.species.json": 1,
+      "kemono.species.json": 1,
+      "kineptic.species.json": 1,
+      "kirhos.species.json": 1,
+      "kitsune.species.json": 1,
+      "lamia.species.json": 1,
+      "lastree.species.json": 1,
+      "lucario.species.json": 1,
+      "lyru.species.json": 1,
+      "mantid.species.json": 1,
+      "mantizi.species.json": 1,
+      "mauskin.species.json": 1,
+      "merrkin.species.json": 1,
+      "moogle.species.json": 1,
+      "munari.species.json": 1,
+      "neko.species.json": 1,
+      "nightar.species.json": 1,
+      "ningen.species.json": 1,
+      "novakid.species.json": 1,
+      "novali.species.json": 1,
+      "orcana.species.json": 1,
+      "pegasus.species.json": 1,
+      "peglaci.species.json": 1,
+      "phox.species.json": 1,
+      "ponex.species.json": 1,
+      "pony.species.json": 1,
+      "protogenrace1.species.json": 1,
+      "pygs.species.json": 1,
+      "remorian.species.json": 1,
+      "satkyterran.species.json": 1,
+      "saturn.species.json": 1,
+      "saturn2.species.json": 1,
+      "sergal.species.json": 1,
+      "shade.species.json": 1,
+      "shadow.species.json": 2,
+      "shared_ed.species.json": 1,
+      "skelekin.species.json": 1,
+      "spiritguardian.species.json": 1,
+      "tauren.species.json": 1,
+      "terrakin.species.json": 1,
+      "tirastrolls.species.json": 1,
+      "trink.species.json": 1,
+      "unicorn.species.json": 1,
+      "vespoid.species.json": 1,
+      "viera.species.json": 1,
+      "vulpes.species.json": 1,
+      "wasphive.species.json": 1,
+      "webber.species.json": 1,
+      "woggle.species.json": 1
     },
-    "system_objects.config.json": 24,
+    "system_objects.config.json": 22,
     "tiles": {
       "materials": {
         "rock01.material.json": 3,
@@ -1885,6 +2135,7 @@
             "mapofdreamland.activeitem.json": 2,
             "mirrormirror.activeitem.json": 2,
             "motedust.activeitem.json": 2,
+            "mysteriousparcel.activeitem.json": 2,
             "sharpenedmouse.activeitem.json": 2,
             "stickoftruth.activeitem.json": 2,
             "terracottastatue.activeitem.json": 2,
@@ -5043,13 +5294,13 @@
           },
           "densiniumarmor": {
             "alt helm": {
-              "densinium2.head.json": 2
+              "densinium2.head.json": 1
             },
             "densinium.chest.json": 1,
             "densinium.head.json": 1,
-            "densinium.legs.json": 1,
-            "shared_densinium..json": 1
+            "densinium.legs.json": 1
           },
+          "densiniumarmor.json": 1,
           "fuisogenarmor": {
             "fuisogen.chest.json": 1,
             "fuisogen.head.json": 1,
@@ -13439,7 +13690,6 @@
           "isn_atmoscondensermadness.object.json": 2
         },
         "isn_atmosregulator": {
-          "isn_atmosprotection.statuseffect.json": 1,
           "isn_atmosregulator.object.json": 8,
           "isn_atmosregulatornew.object.json": 2,
           "isn_atmosregulatorwarped.object.json": 2
@@ -18387,9 +18637,6 @@
     "shared_precursorstairs.mat.json": 2,
     "shared_rasiline.json": 1,
     "shared_redhoneyplatform.mat.json": 1,
-    "shared_reg": {
-      "shared_egen.statuseffect.json": 1
-    },
     "shared_res.json": 1,
     "shared_rial.json": 1,
     "shared_sewerpipe.json": 3,
@@ -18867,6 +19114,7 @@
           "foodimmunity.statuseffect.json": 1,
           "gravrainimmunity.statuseffect.json": 1,
           "insanityimmunity.statuseffect.json": 1,
+          "isn_atmosprotection.statuseffect.json": 1,
           "pusimmunity.statuseffect.json": 1,
           "radiationimmunityicon.statuseffect.json": 1,
           "shadowimmunity.statuseffect.json": 1,
@@ -19291,6 +19539,7 @@
           "psionicregeneration.statuseffect.json": 1,
           "regeneration01.statuseffect.json": 1,
           "regeneration2.statuseffect.json": 1,
+          "regenerationAtmosRegen.statuseffect.json": 1,
           "regenerationblock.statuseffect.json": 1,
           "regenerationminor000.statuseffect.json": 1,
           "regenerationminor2.statuseffect.json": 1,
