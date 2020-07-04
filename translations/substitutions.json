@@ -3,15 +3,6 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/a_notyetadded/objects/tw_hatch/objects/outpostairlockrailhatchsmall.object.json"
   },
-  "bees/combs/plutoniumcomb.item": {
-    "/description": "texts/bees/combs/shared_comb.item.json"
-  },
-  "bees/combs/radioactivecomb.item": {
-    "/description": "texts/bees/combs/shared_comb.item.json"
-  },
-  "bees/combs/solariumcomb.item": {
-    "/description": "texts/bees/combs/shared_comb.item.json"
-  },
   "bees/frames/basic.item": {
     "/shortdescription": "texts/wide_spread_fields.json"
   },
@@ -3682,6 +3673,15 @@
   "items/active/shields/tungstenshield.activeitem": {
     "/description": "texts/items/active/shields/shared_shield.activeitem.json"
   },
+  "items/active/unsorted/HarvesterBeam/1/HarvesterBeam.activeitem": {
+    "/description": "texts/items/active/unsorted/HarvesterBeam/shared_HarvesterBeam.json"
+  },
+  "items/active/unsorted/HarvesterBeam/2/HarvesterBeam2.activeitem": {
+    "/description": "texts/items/active/unsorted/HarvesterBeam/shared_HarvesterBeam.json"
+  },
+  "items/active/unsorted/HarvesterBeam/3/HarvesterBeam3.activeitem": {
+    "/description": "texts/items/active/unsorted/HarvesterBeam/shared_HarvesterBeam.json"
+  },
   "items/active/unsorted/botpod/botpod.activeitem": {
     "/description": "texts/items/active/unsorted/botpod/shared_pod.activeitem.json"
   },
@@ -6082,9 +6082,6 @@
   "items/armors/tier6/biomorph/test1.chest": {
     "/description": "texts/items/armors/tier6/biomorph/shared_test1..json"
   },
-  "items/armors/tier6/biomorph/test1.head": {
-    "/description": "texts/items/armors/tier6/biomorph/shared_test1..json"
-  },
   "items/armors/tier6/biomorph/test1.legs": {
     "/description": "texts/items/armors/tier6/biomorph/shared_test1..json"
   },
@@ -7377,7 +7374,6 @@
     "/shortdescription": "texts/materials/shared_eldertile.mat.json"
   },
   "items/materials/energywood.matitem": {
-    "/description": "texts/materials/shared_energywood.mat.json",
     "/floranDescription": "texts/materials/shared_energywood.mat.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_energywood.mat.json",
@@ -10633,6 +10629,26 @@
     "/scriptConfig/dialog/converse/apex/apex/0": "texts/npcs/shared_nge.json",
     "/scriptConfig/dialog/converse/apex/default/0": "texts/npcs/shared_nge.json",
     "/scriptConfig/dialog/converse/default/default/0": "texts/npcs/shared_nge.json"
+  },
+  "npcs/banditrocket.npctype": {
+    "/scriptConfig/dialog/attack/default/default/0": "texts/wide_spread_fields.json",
+    "/scriptConfig/dialog/attack/human/default/0": "texts/npcs/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/human/default/1": "texts/npcs/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/human/default/2": "texts/npcs/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/human/default/3": "texts/npcs/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/human/default/4": "texts/npcs/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/human/default/5": "texts/npcs/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/human/default/6": "texts/npcs/shared_.npctype.json"
+  },
+  "npcs/banditsniper.npctype": {
+    "/scriptConfig/dialog/attack/default/default/0": "texts/wide_spread_fields.json",
+    "/scriptConfig/dialog/attack/human/default/0": "texts/npcs/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/human/default/1": "texts/npcs/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/human/default/2": "texts/npcs/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/human/default/3": "texts/npcs/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/human/default/4": "texts/npcs/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/human/default/5": "texts/npcs/shared_.npctype.json",
+    "/scriptConfig/dialog/attack/human/default/6": "texts/npcs/shared_.npctype.json"
   },
   "npcs/barista.npctype": {
     "/scriptConfig/dialog/merchant/end/glitch/default/0/glitchEmote": "texts/glitchEmotes.json",
@@ -16687,6 +16703,10 @@
     "/glitchDescription/glitchEmotedText": "texts/objects/crafting/xenostation/xenolab.object.json",
     "/subtitle": "texts/objects/crafting/shared_.object.json"
   },
+  "objects/cultist/cultisttent.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/shared_ttent.json"
+  },
   "objects/decor/ccccc_potter/Glass/B/GlassLampB.object": {
     "/apexDescription": "texts/objects/decor/ccccc_potter/Glass.json",
     "/avianDescription": "texts/objects/decor/ccccc_potter/Glass.json",
@@ -20732,7 +20752,7 @@
     "/description": "texts/objects/generic/shared_bandittent/shared_bandittent.json",
     "/floranDescription": "texts/objects/generic/shared_bandittent/shared_bandittent.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/generic/shared_bandittent/shared_bandittent.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/shared_ttent.json",
     "/humanDescription": "texts/objects/generic/shared_bandittent/shared_bandittent.json",
     "/hylotlDescription": "texts/objects/generic/shared_bandittent/shared_bandittent.json",
     "/shortdescription": "texts/objects/generic/shared_bandittent/shared_bandittent.json"
@@ -20743,7 +20763,7 @@
     "/description": "texts/objects/generic/shared_bandittent/shared_bandittent.json",
     "/floranDescription": "texts/objects/generic/shared_bandittent/shared_bandittent.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/generic/shared_bandittent/shared_bandittent.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/shared_ttent.json",
     "/humanDescription": "texts/objects/generic/shared_bandittent/shared_bandittent.json",
     "/hylotlDescription": "texts/objects/generic/shared_bandittent/shared_bandittent.json",
     "/shortdescription": "texts/objects/generic/shared_bandittent/shared_bandittent.json"
@@ -32548,6 +32568,9 @@
     "/hylotlDescription": "texts/objects/spawner/shared_nydeed/shared_colonydeed.json",
     "/novakidDescription": "texts/objects/spawner/shared_futinydeed/shared_fucolonydeed.json"
   },
+  "objects/spawner/invisiblemonsterspawnerworld.object": {
+    "/description": "texts/wide_spread_fields.json"
+  },
   "objects/spawner/tinytether/multitether.object": {
     "/apexDescription": "texts/objects/spawner/tinytether/shared_tether.object.json",
     "/avianDescription": "texts/objects/spawner/tinytether/shared_tether.object.json",
@@ -36249,10 +36272,15 @@
     "/glitchDescription/glitchEmotedText": "texts/objects/wired/extraforcepad/extrajumppad.object.json"
   },
   "objects/wired/extranpcspawner/extrainvisiblenpcspawner.object": {
-    "/description": "texts/objects/wired/extranpcspawner/shared_npcspawner.object.json"
+    "/description": "texts/objects/wired/extranpcspawner/shared_npcspawner.json",
+    "/shortdescription": "texts/objects/wired/extranpcspawner/shared_extrainvisiblenpcspawner.json"
+  },
+  "objects/wired/extranpcspawner/extrainvisiblenpcspawnerworld.object": {
+    "/description": "texts/objects/wired/extranpcspawner/shared_npcspawner.json",
+    "/shortdescription": "texts/objects/wired/extranpcspawner/shared_extrainvisiblenpcspawner.json"
   },
   "objects/wired/extranpcspawner/extranpcspawner.object": {
-    "/description": "texts/objects/wired/extranpcspawner/shared_npcspawner.object.json"
+    "/description": "texts/objects/wired/extranpcspawner/shared_npcspawner.json"
   },
   "objects/wired/extrasmashablepersistentswitch/extrasmashablepersistentswitch.object": {
     "/description": "texts/wide_spread_fields.json"
@@ -40423,7 +40451,6 @@
     "/shortdescription": "texts/materials/shared_eldertile.mat.json"
   },
   "tiles/materials/energywood.material": {
-    "/description": "texts/materials/shared_energywood.mat.json",
     "/floranDescription": "texts/materials/shared_energywood.mat.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_energywood.mat.json",

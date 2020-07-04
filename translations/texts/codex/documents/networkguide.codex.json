@@ -15,7 +15,7 @@
     "DeniedAlternatives": [],
     "Files": {
       "codex/documents/networkguide.codex": [
-        "/contentPages/11"
+        "/contentPages/14"
       ]
     },
     "Texts": {
@@ -27,7 +27,7 @@
     "DeniedAlternatives": [],
     "Files": {
       "codex/documents/networkguide.codex": [
-        "/contentPages/12"
+        "/contentPages/15"
       ]
     },
     "Texts": {
@@ -51,7 +51,7 @@
     "DeniedAlternatives": [],
     "Files": {
       "codex/documents/networkguide.codex": [
-        "/contentPages/16"
+        "/contentPages/20"
       ]
     },
     "Texts": {
@@ -63,7 +63,7 @@
     "DeniedAlternatives": [],
     "Files": {
       "codex/documents/networkguide.codex": [
-        "/contentPages/14"
+        "/contentPages/17"
       ]
     },
     "Texts": {
@@ -75,19 +75,18 @@
     "DeniedAlternatives": [],
     "Files": {
       "codex/documents/networkguide.codex": [
-        "/contentPages/13"
+        "/contentPages/16"
       ]
     },
     "Texts": {
-      "Chs": "做和不做：\n\n  使用菊花链拓扑链接多个容器。使用ITD从另一个ITD转储到的容器中提取物品，以在尽可能的情况下自动压缩物品堆栈，并为您提供更多特定于物品的存储空间。\n\n  不要将ITD的输出和输入节点直接链接到彼此。这种做法是多余的，可能是卡顿的原因，而且ITD配置不会在没有分离容器的情况下堆栈。",
-      "Eng": "Dos & Don'ts:\n\n  Do daisy-chain multiple containers. Use ITDs to draw items out of a container dumped to by another ITD to help automatically compress item stacks where possible and to give you more item-specific storage space.\n\n  Do Not link the output and input nodes of ITDs directly to one another. This is redundant and can be a source of lag, and ITD configurations do not stack without a separating container."
+      "Eng": "Dos & Don'ts:\n\n  Do daisy-chain multiple containers. Use ITDs to draw items out of a container dumped to by another ITD to help automatically compress item stacks where possible and to give you more item-specific storage space.\n  \n  Do not try to move large amounts of items into a container which already has many items in it. Do not daisy-chain ITDs. These are sources of lag, and ITD configurations do not stack without a separating container."
     }
   },
   {
     "DeniedAlternatives": [],
     "Files": {
       "codex/documents/networkguide.codex": [
-        "/contentPages/6"
+        "/contentPages/9"
       ]
     },
     "Texts": {
@@ -99,7 +98,7 @@
     "DeniedAlternatives": [],
     "Files": {
       "codex/documents/networkguide.codex": [
-        "/contentPages/5"
+        "/contentPages/8"
       ]
     },
     "Texts": {
@@ -123,7 +122,7 @@
     "DeniedAlternatives": [],
     "Files": {
       "codex/documents/networkguide.codex": [
-        "/contentPages/9"
+        "/contentPages/12"
       ]
     },
     "Texts": {
@@ -135,7 +134,7 @@
     "DeniedAlternatives": [],
     "Files": {
       "codex/documents/networkguide.codex": [
-        "/contentPages/4"
+        "/contentPages/5"
       ]
     },
     "Texts": {
@@ -147,7 +146,7 @@
     "DeniedAlternatives": [],
     "Files": {
       "codex/documents/networkguide.codex": [
-        "/contentPages/8"
+        "/contentPages/11"
       ]
     },
     "Texts": {
@@ -159,12 +158,22 @@
     "DeniedAlternatives": [],
     "Files": {
       "codex/documents/networkguide.codex": [
-        "/contentPages/10"
+        "/contentPages/13"
       ]
     },
     "Texts": {
-      "Chs": "一旦您有了一项基本的ITN程序(在第6页有描述) ，你就可以在电子/能源制造机处做一个终端。通过将容器储存桥接器的输出连接到终端的输入节点，您可以查看和搜索存储在该容器中的每一件物品，并将其拉入您的库存中——但您不能通过终端将物品送回。通过这种方式，一个终端可以连接到多个容器，使您可以同时查看和从多个容器中提取物品。",
-      "Eng": "Once you have a basic ITN setup (described on page 6), you can make a terminal at the electronics/power center. By connecting the output of a container's storage bridge to a terminal's input node, you can see and search through every item stored in that container, and pull them into your inventory - but you cannot send items back through the terminal. A single terminal can be connected to multiple containers this way, letting you view and pull items from multiple containers at once."
+      "Eng": "Once you have a basic ITN setup (described on page 9), you can make a terminal at the electronics/power center. By connecting the output of a container's storage bridge to a terminal's input node, you can see and search through every item stored in that container, and pull them into your inventory - but you cannot send items back through the terminal. A single terminal can be connected to multiple containers this way, letting you view and pull items from multiple containers at once."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "codex/documents/networkguide.codex": [
+        "/contentPages/6"
+      ]
+    },
+    "Texts": {
+      "Eng": "Overflow: ITDs will sound off alarms if you are trying to move too much into a container that does not have space. They will also slow down their processing speed. If you have alarms sounding and periodic lag, you should work on improving flow control."
     }
   },
   {
@@ -183,12 +192,45 @@
     "DeniedAlternatives": [],
     "Files": {
       "codex/documents/networkguide.codex": [
+        "/contentPages/4"
+      ]
+    },
+    "Texts": {
+      "Eng": "Point Sensor: Made in the nanofabricator. Detects object placement points, to allow for more precise placement of Storage Bridges. Bridges select a single container based on the distance between themselves and object placement points."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "codex/documents/networkguide.codex": [
+        "/contentPages/7"
+      ]
+    },
+    "Texts": {
+      "Eng": "Stack Move: To move stacks of specific sizes, place the desired stack size in your filter area. This works well with Even Split and Slot Split, as it will only move stacks there are enough to do so equally. It does not, however, account for amounts in the destination."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "codex/documents/networkguide.codex": [
         "/contentPages/3"
       ]
     },
     "Texts": {
       "Chs": "储存桥接器不仅仅只用于普通集装箱工作。几乎任何具有物品槽的交互对象都可以链接到储存桥接器。这包括一些FrackinUniverse 工艺站和一些杂项。可能这些站点已经有电源节点(但没有输入/输出节点)。如果您发现自己不确定要使用哪些节点，请记住，储存桥接器的节点始终作为ITN的输入/输出节点。",
       "Eng": "Storage bridges work with more than just ordinary containers. Almost any object which can be interacted with that has item slots can be linked to a storage bridge. This includes some FrackinUniverse crafting stations and a few misc. objects that might already have power nodes (but no input/output nodes). If you find yourself uncertain about which nodes to use, remember that storage bridge nodes always function as ITN input/output nodes."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "codex/documents/networkguide.codex": [
+        "/contentPages/19"
+      ]
+    },
+    "Texts": {
+      "Eng": "The cons of the ITN system are that that it requires extensive setup and occasionally sophisticated wiring to get working, and requires examples of the items you want it to filter. It can also be a significant source of lag, the process of shifting and reorganizing upwards of a hundred stacks of items between multiple containers at once can be one of the most process-intensive aspects present in Starbound."
     }
   },
   {
@@ -207,19 +249,18 @@
     "DeniedAlternatives": [],
     "Files": {
       "codex/documents/networkguide.codex": [
-        "/contentPages/15"
+        "/contentPages/18"
       ]
     },
     "Texts": {
-      "Chs": "ITN系统的优点是其允许极其强大，精确，分散和完全自动化的物品存储。你不再需要在几十个不同的容器之间来回奔跑，当你凯旋的时候，你可以把所有的东西放在一个箱子里，然后把它们分类到你需要的地方，或者找回你所需要的材料，而不用离开某个工作站。\n\nITN系统的缺点在于，它需要大量的设置和偶尔比较复杂的连接才能工作，并且需要您希望过滤的项目的示例设置。它也可能是卡顿的一个重要因素，在多个容器之间同时移动和重组超过100堆物品的过程，可能是Starbound目前程序最密集的方面之一。",
-      "Eng": "The pros of the ITN system are that it allows for extremely powerful, precise, decentralized and fully automated item storage. No more having to prance between dozens of different containers whenever you get back from a loot haul, you can just drop it all in a single chest and have it all sorted exactly where you need it, or else retrieve exactly the materials you need for crafting without having to leave a crafting station.\n\nThe cons of the ITN system are that that it requires extensive setup and occasionally sophisticated wiring to get working, and requires examples of the items you want it to filter. It can also be a significant source of lag, the process of shifting and reorganizing upwards of a hundred stacks of items between multiple containers at once can be one of the most process-intensive aspects present in Starbound."
+      "Eng": "The pros of the ITN system are that it allows for extremely powerful, precise, decentralized and fully automated item storage. No more having to prance between dozens of different containers whenever you get back from a loot haul, you can just drop it all in a single chest and have it all sorted exactly where you need it, or else retrieve exactly the materials you need for crafting without having to leave a crafting station."
     }
   },
   {
     "DeniedAlternatives": [],
     "Files": {
       "codex/documents/networkguide.codex": [
-        "/contentPages/7"
+        "/contentPages/10"
       ]
     },
     "Texts": {

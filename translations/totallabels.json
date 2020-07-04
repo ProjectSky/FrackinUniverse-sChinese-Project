@@ -883,14 +883,13 @@
         "mythicalcomb.consumable.json": 2,
         "nocturnalcomb.consumable.json": 2,
         "normalcomb.consumable.json": 2,
-        "plutoniumcomb.item.json": 1,
+        "plutoniumcomb.item.json": 2,
         "preciouscomb.consumable.json": 2,
-        "radioactivecomb.item.json": 1,
+        "radioactivecomb.item.json": 2,
         "redcomb.consumable.json": 2,
-        "shared_comb.item.json": 1,
         "silkcomb.consumable.json": 2,
         "silvercomb.consumable.json": 2,
-        "solariumcomb.item.json": 1,
+        "solariumcomb.item.json": 2,
         "suncomb.item.json": 2,
         "titaniumcomb.consumable.json": 2,
         "tungstencomb.consumable.json": 2,
@@ -1228,7 +1227,7 @@
         "luridmagazine2.codex.json": 1,
         "luridmagazine3.codex.json": 1,
         "luridmagazine4.codex.json": 1,
-        "networkguide.codex.json": 19,
+        "networkguide.codex.json": 23,
         "networkguide2.codex.json": 3,
         "randombook1.codex.json": 3,
         "randombook10.codex.json": 9,
@@ -2059,14 +2058,15 @@
         "unsorted": {
           "HarvesterBeam": {
             "1": {
-              "HarvesterBeam.activeitem.json": 2
+              "HarvesterBeam.activeitem.json": 1
             },
             "2": {
-              "HarvesterBeam2.activeitem.json": 2
+              "HarvesterBeam2.activeitem.json": 1
             },
             "3": {
-              "HarvesterBeam3.activeitem.json": 2
-            }
+              "HarvesterBeam3.activeitem.json": 1
+            },
+            "shared_HarvesterBeam.json": 1
           },
           "botpod": {
             "botpod.activeitem.json": 1,
@@ -5277,7 +5277,7 @@
           "biomorph": {
             "shared_test1..json": 1,
             "test1.chest.json": 1,
-            "test1.head.json": 1,
+            "test1.head.json": 2,
             "test1.legs.json": 1
           },
           "champion": {
@@ -6850,6 +6850,7 @@
         "elderroof.matitem.json": 1,
         "elderstone2material.matitem.json": 1,
         "eldertile.matitem.json": 1,
+        "energywood.matitem.json": 1,
         "erchiuspillar.matitem.json": 1,
         "fancywoodstairs.matitem.json": 1,
         "flowerybars.matitem.json": 1,
@@ -7203,7 +7204,7 @@
       "shared_elderroof.mat.json": 1,
       "shared_elderstone.json": 1,
       "shared_eldertile.mat.json": 1,
-      "shared_energywood.mat.json": 3,
+      "shared_energywood.mat.json": 2,
       "shared_erchiuspillar.mat.json": 1,
       "shared_flowerybars.mat.json": 1,
       "shared_frozensand.json": 1,
@@ -7888,6 +7889,9 @@
           "lightsprite": {
             "lightsprite.monstertype.json": 2
           }
+        },
+        "paratail": {
+          "pandorasboxspentparatail.monstertype.json": 2
         },
         "precursorsentry": {
           "precursorsentry.monstertype.json": 2
@@ -8959,7 +8963,7 @@
         "lostandfoundnpc.npctype.json": 8,
         "shared_fuoutpostcivilian.json": 44
       },
-      "shared_.npctype.json": 54,
+      "shared_.npctype.json": 61,
       "shared_nge.json": 3,
       "skytemple": {
         "shared_skytemple.json": 2,
@@ -9693,6 +9697,9 @@
         "xiwell": {
           "xiwell.object.json": 2
         }
+      },
+      "cultist": {
+        "cultisttent.object.json": 8
       },
       "decor": {
         "ccccc_potter": {
@@ -11566,7 +11573,7 @@
           "pong.object.json": 2
         },
         "shared_bandittent": {
-          "shared_bandittent.json": 8
+          "shared_bandittent.json": 7
         },
         "shared_storage": {
           "shared_.object.json": 6,
@@ -14459,6 +14466,7 @@
         "shared_temp.object.json": 2
       },
       "shared_tra.json": 2,
+      "shared_ttent.json": 1,
       "shared_vase": {
         "shared_.object.json": 4
       },
@@ -15683,6 +15691,7 @@
         "futinydeedinvis": {
           "fucolonydeedinvis.object.json": 1
         },
+        "invisiblemonsterspawnerworld.object.json": 1,
         "rolliepollie_pethouse": {
           "pethouserolliepollie.object.json": 2
         },
@@ -17749,9 +17758,9 @@
           "extrajumppad.object.json": 4
         },
         "extranpcspawner": {
-          "extrainvisiblenpcspawner.object.json": 1,
           "extranpcspawner.object.json": 1,
-          "shared_npcspawner.object.json": 1
+          "shared_extrainvisiblenpcspawner.json": 1,
+          "shared_npcspawner.json": 1
         },
         "extrasmashablepersistentswitch": {
           "extrasmashablepersistentswitch.object.json": 1
@@ -19844,6 +19853,7 @@
         "elderroof.material.json": 1,
         "elderrubble.material.json": 2,
         "eldertile.material.json": 1,
+        "energywood.material.json": 1,
         "erchiuspillar.material.json": 1,
         "ff_diamondblock.material.json": 2,
         "flowerybars.material.json": 1,
