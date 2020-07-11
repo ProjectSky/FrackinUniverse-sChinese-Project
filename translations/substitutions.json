@@ -3860,7 +3860,8 @@
     "/shortdescription": "texts/items/active/weapons/melee/dagger/shared_dagger.activeitem.json"
   },
   "items/active/weapons/melee/dagger/nightardagger.activeitem": {
-    "/upgradeParameters/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
+    "/upgradeParameters/shortdescription": "texts/items/active/weapons/melee/shared_.activeitem.json",
+    "/upgradeParameters2/description": "texts/items/active/weapons.json"
   },
   "items/active/weapons/melee/dagger/quietusknave.activeitem": {
     "/description": "texts/items/active/weapons/melee/dagger/shared_e.activeitem.json"
@@ -4079,7 +4080,10 @@
     "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
   },
   "items/active/weapons/melee/shortsword/nightarshortsword.activeitem": {
-    "/upgradeParameters2/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
+    "/improvedParameters/description": "texts/items/active/weapons.json",
+    "/upgradeParameters/description": "texts/items/active/weapons.json",
+    "/upgradeParameters/shortdescription": "texts/items/active/weapons/melee/shared_.activeitem.json",
+    "/upgradeParameters2/description": "texts/items/active/weapons.json"
   },
   "items/active/weapons/melee/shortsword/stoneshortsword.activeitem": {
     "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
@@ -4142,6 +4146,11 @@
   "items/active/weapons/melee/spear/tristab.activeitem": {
     "/altAbility/name": "texts/items/active/weapons/melee/spear/shared_.activeitem.json",
     "/description": "texts/items/active/weapons/melee/spear/shared_.activeitem.json"
+  },
+  "items/active/weapons/nightar/nightarsaber.activeitem": {
+    "/improvedParameters/description": "texts/items/active/weapons.json",
+    "/upgradeParameters/description": "texts/items/active/weapons.json",
+    "/upgradeParameters2/description": "texts/items/active/weapons.json"
   },
   "items/active/weapons/novakid/durasteelmachinepistol.activeitem": {
     "/description": "texts/items/active/weapons/novakid/shared_machinepistol.activeitem.json"
@@ -4797,6 +4806,9 @@
   },
   "items/active/weapons/whip/slimewhip3.activeitem": {
     "/description": "texts/items/active/weapons/whip/shared_.activeitem.json"
+  },
+  "items/armors/backitems/fieldgenerator/fieldgenerator.back": {
+    "/shortdescription": "texts/wide_spread_fields.json"
   },
   "items/armors/backitems/guardianwings/greenguardian/greenguardian.back": {
     "/description": "texts/items/armors/backitems/guardianwings/shared_guardian/shared_guardian.back.json"
@@ -13908,6 +13920,24 @@
     "/scriptConfig/dialog/hail/default/default/7": "texts/npcs/mobs/shared_.npctype.json",
     "/scriptConfig/dialog/hail/default/default/8": "texts/npcs/mobs/shared_.npctype.json",
     "/scriptConfig/dialog/hail/default/default/9": "texts/npcs/mobs/shared_.npctype.json"
+  },
+  "npcs/mobs/fuevilchef.npctype": {
+    "/scriptConfig/dialog/attack/glitch/default/0/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/attack/glitch/default/0/glitchEmotedText": "texts/npcs/mobs/fuevilchef.npctype.json",
+    "/scriptConfig/dialog/attack/glitch/default/1/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/attack/glitch/default/1/glitchEmotedText": "texts/npcs/mobs/fuevilchef.npctype.json",
+    "/scriptConfig/dialog/attack/glitch/default/2/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/attack/glitch/default/2/glitchEmotedText": "texts/npcs/mobs/fuevilchef.npctype.json",
+    "/scriptConfig/dialog/attack/glitch/default/3/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/attack/glitch/default/3/glitchEmotedText": "texts/npcs/mobs/fuevilchef.npctype.json",
+    "/scriptConfig/dialog/attack/glitch/default/4/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/attack/glitch/default/4/glitchEmotedText": "texts/npcs/mobs/fuevilchef.npctype.json",
+    "/scriptConfig/dialog/attack/glitch/default/5/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/attack/glitch/default/5/glitchEmotedText": "texts/npcs/mobs/fuevilchef.npctype.json",
+    "/scriptConfig/dialog/attack/glitch/default/6/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/attack/glitch/default/6/glitchEmotedText": "texts/npcs/mobs/fuevilchef.npctype.json",
+    "/scriptConfig/dialog/attack/glitch/default/7/glitchEmote": "texts/glitchEmotes.json",
+    "/scriptConfig/dialog/attack/glitch/default/7/glitchEmotedText": "texts/npcs/mobs/fuevilchef.npctype.json"
   },
   "npcs/mobs/greg.npctype": {
     "/npcname": "texts/wide_spread_fields.json"
@@ -26276,6 +26306,17 @@
     "/humanDescription": "texts/objects/penumbrite/shared_table.object.json",
     "/hylotlDescription": "texts/objects/penumbrite/shared_table.object.json",
     "/novakidDescription": "texts/objects/penumbrite/shared_table.object.json"
+  },
+  "objects/pilch_shieldadminconsole/pilch_shieldadminconsole.config": {
+    "/gui/windowtitle/subtitle": "texts/objects/shared_pilch_shield/shared_pilch_shield.json",
+    "/gui/windowtitle/title": "texts/objects/shared_pilch_shield/shared_pilch_shield.json"
+  },
+  "objects/pilch_shieldgenerator/pilch_shieldgenerator.config": {
+    "/gui/windowtitle/subtitle": "texts/objects/shared_pilch_shield/shared_pilch_shield.json",
+    "/gui/windowtitle/title": "texts/objects/shared_pilch_shield/shared_pilch_shield.json"
+  },
+  "objects/pilch_shieldgenerator/pilch_shieldgenerator.object": {
+    "/shortdescription": "texts/wide_spread_fields.json"
   },
   "objects/pixelgoods/fudragonbed.object": {
     "/description": "texts/objects/pixelgoods/shared_bed.object.json"

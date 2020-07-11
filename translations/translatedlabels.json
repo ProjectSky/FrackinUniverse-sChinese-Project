@@ -2037,6 +2037,9 @@
           "lunarishield.activeitem.json": 2,
           "nightar1.activeitem.json": 2,
           "nightar2.activeitem.json": 2,
+          "pandorasboxeyevalveshield.activeitem.json": 0,
+          "pandorasboxnutmidgeshield.activeitem.json": 0,
+          "pandorasboxprotectorateshield.activeitem.json": 0,
           "penumbriteshield.activeitem.json": 2,
           "primitiveshield.activeitem.json": 2,
           "quantumshield.activeitem.json": 2,
@@ -2436,7 +2439,7 @@
           "elduukhar": {
             "broadsword": {
               "elduukharstarter.activeitem.json": 2,
-              "elduukhartier1broadsword.activeitem.json": 2,
+              "elduukhartier1broadsword.activeitem.json": 1,
               "elduukhartier2broadsword.activeitem.json": 2,
               "elduukhartier3broadsword.activeitem.json": 2,
               "elduukhartier4broadsword.activeitem.json": 2,
@@ -2444,7 +2447,7 @@
               "elduukhartier6broadsword.activeitem.json": 2,
               "elduukhartier7broadsword.activeitem.json": 2,
               "elduukhartier8broadsword.activeitem.json": 2,
-              "elduukhartier9broadsword.activeitem.json": 2
+              "elduukhartier9broadsword.activeitem.json": 0
             },
             "shortsword": {
               "elduukhartier1shortsword.activeitem.json": 2,
@@ -2597,7 +2600,7 @@
               "irradiumdagger.activeitem.json": 2,
               "isogendagger.activeitem.json": 2,
               "lunaridagger.activeitem.json": 2,
-              "nightardagger.activeitem.json": 5,
+              "nightardagger.activeitem.json": 4,
               "penumbriredagger.activeitem.json": 2,
               "pyreitedagger.activeitem.json": 2,
               "quietusknave.activeitem.json": 1,
@@ -2959,7 +2962,7 @@
               "isogenshortsword.activeitem.json": 2,
               "moltenblade.activeitem.json": 2,
               "murdermachete.activeitem.json": 2,
-              "nightarshortsword.activeitem.json": 7,
+              "nightarshortsword.activeitem.json": 4,
               "obsidianblade.activeitem.json": 2,
               "penumbriteshortsword.activeitem.json": 2,
               "pyreiteshortsword.activeitem.json": 2,
@@ -3071,7 +3074,7 @@
           "melee.json": 1,
           "nightar": {
             "brokennightarsaber.activeitem.json": 2,
-            "fubrokennightarblade.activeitem.json": 2,
+            "fubrokennightarblade.activeitem.json": 1,
             "nightarsaber.activeitem.json": 2
           },
           "novakid": {
@@ -3948,7 +3951,7 @@
             "slimewhip3.activeitem.json": 1
           }
         },
-        "weapons.json": 4,
+        "weapons.json": 7,
         "xcodex": {
           "logbook": {
             "logbook.activeitem.json": 2
@@ -3988,7 +3991,7 @@
             "batterypack_erithian.back.json": 2
           },
           "fieldgenerator": {
-            "fieldgenerator.back.json": 2
+            "fieldgenerator.back.json": 1
           },
           "flexcape": {
             "flexcape.back.json": 2
@@ -8929,6 +8932,7 @@
         "hydroquestgiver.npctype.json": 3
       },
       "mobs": {
+        "fuevilchef.npctype.json": 0,
         "fuhobo.npctype.json": 1,
         "shared_.npctype.json": 11
       },
@@ -12510,7 +12514,7 @@
             "precursorbed.object.json": 2
           },
           "precursorbed2": {
-            "precursorbed2.object.json": 2
+            "precursorbed2.object.json": 1
           },
           "precursorchest": {
             "precursorchest.object.json": 1,
@@ -13569,6 +13573,20 @@
           "weaselpetspawner.object.json": 0
         }
       },
+      "pilch_shieldadminconsole": {
+        "pilch_shieldadminconsole.config.json": 0,
+        "pilch_shieldadminconsole.object.json": 0
+      },
+      "pilch_shieldextender": {
+        "pilch_shieldextender.object.json": 0
+      },
+      "pilch_shieldgenerator": {
+        "pilch_shieldgenerator.config.json": 0,
+        "pilch_shieldgenerator.object.json": 0
+      },
+      "pilch_shieldmarker": {
+        "pilch_shieldmarker.object.json": 0
+      },
       "pixelgoods": {
         "fudragonbed.object.json": 1,
         "fudragonchair.object.json": 2,
@@ -14405,6 +14423,9 @@
       "shared_nest.json": 2,
       "shared_nightstand.object.json": 2,
       "shared_orte.json": 1,
+      "shared_pilch_shield": {
+        "shared_pilch_shield.json": 0
+      },
       "shared_pillar": {
         "shared_.object.json": 2
       },
@@ -20159,7 +20180,7 @@
         "sturdyplatform.material.json": 2
       }
     },
-    "wide_spread_fields.json": 170,
+    "wide_spread_fields.json": 171,
     "zb": {
       "newSail": {
         "data.config.json": 7,
