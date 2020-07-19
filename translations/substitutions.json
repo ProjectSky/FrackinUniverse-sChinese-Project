@@ -3841,7 +3841,7 @@
     "/description": "texts/items/active/weapons/melee/shared_sword/shared_sword.activeitem.json"
   },
   "items/active/weapons/melee/dagger/advalloydagger.activeitem": {
-    "/description": "texts/items/active/weapons/melee/dagger/shared_dagger.activeitem.json"
+    "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
   },
   "items/active/weapons/melee/dagger/carbondagger.activeitem": {
     "/description": "texts/items/active/weapons/melee/dagger/shared_dagger.activeitem.json"
@@ -3865,7 +3865,8 @@
   },
   "items/active/weapons/melee/dagger/nightardagger.activeitem": {
     "/upgradeParameters/shortdescription": "texts/items/active/weapons/melee/shared_.activeitem.json",
-    "/upgradeParameters2/description": "texts/items/active/weapons.json"
+    "/upgradeParameters2/description": "texts/items/active/weapons.json",
+    "/upgradeParameters2/shortdescription": "texts/items/active/weapons/melee/shared_.activeitem.json"
   },
   "items/active/weapons/melee/dagger/quietusknave.activeitem": {
     "/description": "texts/items/active/weapons/melee/dagger/shared_e.activeitem.json"
@@ -4062,6 +4063,9 @@
   "items/active/weapons/melee/shortsword/advalloyshortsword.activeitem": {
     "/description": "texts/items/active/weapons/melee/shortsword/shared_.activeitem.json"
   },
+  "items/active/weapons/melee/shortsword/blackedge.activeitem": {
+    "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
+  },
   "items/active/weapons/melee/shortsword/carbonblade.activeitem": {
     "/description": "texts/items/active/weapons/melee/shortsword/shared_.activeitem.json"
   },
@@ -4087,7 +4091,8 @@
     "/improvedParameters/description": "texts/items/active/weapons.json",
     "/upgradeParameters/description": "texts/items/active/weapons.json",
     "/upgradeParameters/shortdescription": "texts/items/active/weapons/melee/shared_.activeitem.json",
-    "/upgradeParameters2/description": "texts/items/active/weapons.json"
+    "/upgradeParameters2/description": "texts/items/active/weapons.json",
+    "/upgradeParameters2/shortdescription": "texts/items/active/weapons/melee/shared_.activeitem.json"
   },
   "items/active/weapons/melee/shortsword/stoneshortsword.activeitem": {
     "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
@@ -7058,12 +7063,6 @@
   "items/liquids/liquidblood.liqitem": {
     "/shortdescription": "texts/wide_spread_fields.json"
   },
-  "items/liquids/liquidgravrain.liqitem": {
-    "/description": "texts/items/liquids/shared_gravrain.liqitem.json"
-  },
-  "items/liquids/liquidorangegravrain.liqitem": {
-    "/description": "texts/items/liquids/shared_gravrain.liqitem.json"
-  },
   "items/materials/aegisaltcrystal.matitem": {
     "/description": "texts/items/materials/shared_crystal.matitem.json",
     "/floranDescription": "texts/items/materials/shared_crystal.matitem.json",
@@ -8986,12 +8985,6 @@
   },
   "items/tools/stickynotepadfu/stickynotepadfu.activeitem": {
     "/shortdescription": "texts/stickynotepadfu/shared_stickynotepadfu..json"
-  },
-  "liquids/gravrain.liquid": {
-    "/description": "texts/liquids/shared_gravrain.liquid.json"
-  },
-  "liquids/orangegravrain.liquid": {
-    "/description": "texts/liquids/shared_gravrain.liquid.json"
   },
   "monsters/bees/metalbee/metalbee.monstertype": {
     "/shortdescription": "texts/monsters/shared_bee/shared_metal.json"
@@ -39739,10 +39732,7 @@
   "stats/effects/heal/healingbonus.statuseffect": {
     "/label": "texts/stats/effects/heal/shared_.statuseffect.json"
   },
-  "stats/effects/heal/healingbonus2.statuseffect": {
-    "/label": "texts/stats/effects/heal/shared_.statuseffect.json"
-  },
-  "stats/effects/heal/healingbonus3.statuseffect": {
+  "stats/effects/heal/healingpenalty.statuseffect": {
     "/label": "texts/stats/effects/heal/shared_.statuseffect.json"
   },
   "stats/effects/heal/radienheal.statuseffect": {
