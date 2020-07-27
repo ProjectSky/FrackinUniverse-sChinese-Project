@@ -79,6 +79,7 @@
       ]
     },
     "Texts": {
+      "Chs": "做和不做：\n\n  使用菊花链拓扑链接多个容器。使用ITD从另一个ITD转储到的容器中提取物品，以在尽可能的情况下自动压缩物品堆栈，并为您提供更多特定于物品的存储空间。\n\n  不要试图将大量物品移入已经有很多物品的容器中。不要将ITD彼此之间菊花链拓扑链接。这种做法百无一益，并且如果没有单独的容器，ITS配置不会堆叠。",
       "Eng": "Dos & Don'ts:\n\n  Do daisy-chain multiple containers. Use ITDs to draw items out of a container dumped to by another ITD to help automatically compress item stacks where possible and to give you more item-specific storage space.\n  \n  Do not try to move large amounts of items into a container which already has many items in it. Do not daisy-chain ITDs. These are sources of lag, and ITD configurations do not stack without a separating container."
     }
   },
@@ -162,6 +163,7 @@
       ]
     },
     "Texts": {
+      "Chs": "一旦您有了一项基本的ITN程序(在第9页有描述) ，你就可以在电子/能源制造机处做一个终端。通过将容器储存桥接器的输出连接到终端的输入节点，您可以查看和搜索存储在该容器中的每一件物品，并将其拉入您的库存中——但您不能通过终端将物品送回。通过这种方式，一个终端可以连接到多个容器，使您可以同时查看和从多个容器中提取物品。",
       "Eng": "Once you have a basic ITN setup (described on page 9), you can make a terminal at the electronics/power center. By connecting the output of a container's storage bridge to a terminal's input node, you can see and search through every item stored in that container, and pull them into your inventory - but you cannot send items back through the terminal. A single terminal can be connected to multiple containers this way, letting you view and pull items from multiple containers at once."
     }
   },
@@ -173,6 +175,7 @@
       ]
     },
     "Texts": {
+      "Chs": "溢出：如果您试图将太多的东西移入没有空间的容器，ITD将发出警报。为此它们还会降低处理速度。 如果您听到警报声或者传输周期性滞后，则应努力改善流量控制。",
       "Eng": "Overflow: ITDs will sound off alarms if you are trying to move too much into a container that does not have space. They will also slow down their processing speed. If you have alarms sounding and periodic lag, you should work on improving flow control."
     }
   },
@@ -196,6 +199,7 @@
       ]
     },
     "Texts": {
+      "Chs": "点传感器：在纳米加工器中制造。检测对象的放置点，以便更精确地放置存储、桥接。 桥接会根据其自身与对象放置点之间的距离选择一个容器。",
       "Eng": "Point Sensor: Made in the nanofabricator. Detects object placement points, to allow for more precise placement of Storage Bridges. Bridges select a single container based on the distance between themselves and object placement points."
     }
   },
@@ -207,6 +211,7 @@
       ]
     },
     "Texts": {
+      "Chs":"堆栈移动：要移动特定大小的堆栈，请将所需的堆栈大小输入过滤器区域。 这在“偶数拆分”和“插槽拆分”中效果很好，因为它只会移动有足够数量的堆栈来平等地进行操作。但是，它不考虑目的容器的空间。",
       "Eng": "Stack Move: To move stacks of specific sizes, place the desired stack size in your filter area. This works well with Even Split and Slot Split, as it will only move stacks there are enough to do so equally. It does not, however, account for amounts in the destination."
     }
   },
@@ -230,6 +235,7 @@
       ]
     },
     "Texts": {
+      "Chs": "ITN系统的优点是其允许极其强大，精确，分散和完全自动化的物品存储。你不再需要在几十个不同的容器之间来回奔跑，当你凯旋的时候，你可以把所有的东西放在一个箱子里，然后把它们分类到你需要的地方，或者找回你所需要的材料，而不用离开某个工作站。",
       "Eng": "The cons of the ITN system are that that it requires extensive setup and occasionally sophisticated wiring to get working, and requires examples of the items you want it to filter. It can also be a significant source of lag, the process of shifting and reorganizing upwards of a hundred stacks of items between multiple containers at once can be one of the most process-intensive aspects present in Starbound."
     }
   },
