@@ -2251,15 +2251,6 @@
     "/gui/countoutput/value": "texts/wide_spread_fields.json",
     "/gui/dragDrop/value": "texts/wide_spread_fields.json"
   },
-  "interface/itemdescriptions/ammogun.itemdescription": {
-    "/damagePerShotTitleLabel/value": "texts/interface.json",
-    "/energyPerShotTitleLabel/value": "texts/interface.json",
-    "/priceLabel/value": "texts/wide_spread_fields.json",
-    "/speedTitleLabel/value": "texts/interface.json"
-  },
-  "interface/itemdescriptions/ammoitem.itemdescription": {
-    "/priceLabel/value": "texts/wide_spread_fields.json"
-  },
   "interface/itemdescriptions/armornew.itemdescription": {
     "/levelLabelTitle/value": "texts/interface/itemdescriptions/shared_new.itemdescription.json"
   },
@@ -2382,7 +2373,16 @@
     "/priceLabel/value": "texts/wide_spread_fields.json",
     "/speedTitleLabel/value": "texts/interface.json"
   },
+  "interface/itemdescriptions/fuammogun2.itemdescription": {
+    "/damagePerShotTitleLabel/value": "texts/interface.json",
+    "/energyPerShotTitleLabel/value": "texts/interface.json",
+    "/priceLabel/value": "texts/wide_spread_fields.json",
+    "/speedTitleLabel/value": "texts/interface.json"
+  },
   "interface/itemdescriptions/fuammoitem.itemdescription": {
+    "/priceLabel/value": "texts/wide_spread_fields.json"
+  },
+  "interface/itemdescriptions/fuammoitem2.itemdescription": {
     "/priceLabel/value": "texts/wide_spread_fields.json"
   },
   "interface/itemdescriptions/gun2.itemdescription": {
@@ -2748,17 +2748,6 @@
     "/gui/scrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
     "/gui/scrollArea/children/itemList/schema/listTemplate/priceLabel/value": "texts/wide_spread_fields.json"
   },
-  "interface/tooltips/ammogun.tooltip": {
-    "/ammoAmountTitleLabel/value": "texts/interface/tooltips/shared_ammogun.tooltip.json",
-    "/damagePerShotTitleLabel/value": "texts/interface.json",
-    "/energyPerShotTitleLabel/value": "texts/interface.json",
-    "/priceLabel/value": "texts/wide_spread_fields.json",
-    "/speedTitleLabel/value": "texts/interface.json"
-  },
-  "interface/tooltips/ammoitem.tooltip": {
-    "/instructionLabel/value": "texts/interface/tooltips/shared_ammoitem.tooltip.json",
-    "/priceLabel/value": "texts/wide_spread_fields.json"
-  },
   "interface/tooltips/armor_resists.tooltip": {
     "/priceLabel/value": "texts/wide_spread_fields.json"
   },
@@ -2877,7 +2866,7 @@
     "/speedTitleLabel/value": "texts/interface.json"
   },
   "interface/tooltips/fuammogun.tooltip": {
-    "/ammoAmountTitleLabel/value": "texts/interface/tooltips/shared_ammogun.tooltip.json",
+    "/ammoAmountTitleLabel/value": "texts/interface/tooltips/shared_fuammogun.json",
     "/critBonusTitleLabel/value": "texts/interface.json",
     "/critChanceTitleLabel/value": "texts/interface/shared_fuammogun..json",
     "/damagePerShotTitleLabel/value": "texts/interface.json",
@@ -2885,8 +2874,19 @@
     "/priceLabel/value": "texts/wide_spread_fields.json",
     "/speedTitleLabel/value": "texts/interface.json"
   },
+  "interface/tooltips/fuammogun2.tooltip": {
+    "/ammoAmountTitleLabel/value": "texts/interface/tooltips/shared_fuammogun.json",
+    "/damagePerShotTitleLabel/value": "texts/interface.json",
+    "/energyPerShotTitleLabel/value": "texts/interface.json",
+    "/priceLabel/value": "texts/wide_spread_fields.json",
+    "/speedTitleLabel/value": "texts/interface.json"
+  },
   "interface/tooltips/fuammoitem.tooltip": {
-    "/instructionLabel/value": "texts/interface/tooltips/shared_ammoitem.tooltip.json",
+    "/instructionLabel/value": "texts/interface/tooltips/shared_fuammoitem.json",
+    "/priceLabel/value": "texts/wide_spread_fields.json"
+  },
+  "interface/tooltips/fuammoitem2.tooltip": {
+    "/instructionLabel/value": "texts/interface/tooltips/shared_fuammoitem.json",
     "/priceLabel/value": "texts/wide_spread_fields.json"
   },
   "interface/tooltips/gun2.tooltip": {
@@ -39471,12 +39471,6 @@
   },
   "stats/effects/fu_effects/mage_shield/mage_shield_lvl4starspawn.statuseffect": {
     "/label": "texts/stats/effects/fu_effects/mage_shield/shared_mage_shield_lvl.json"
-  },
-  "stats/effects/fu_effects/percentarmorboost/percentarmorboostneg1.statuseffect": {
-    "/label": "texts/stats/effects/fu_effects/percentarmorboost/shared_percentarmorboostneg.json"
-  },
-  "stats/effects/fu_effects/percentarmorboost/percentarmorboostnegproto.statuseffect": {
-    "/label": "texts/stats/effects/fu_effects/percentarmorboost/shared_percentarmorboostneg.json"
   },
   "stats/effects/fu_effects/percentenergyboost/percentenergyboost25.statuseffect": {
     "/label": "texts/stats/effects/fu_effects/percentenergyboost/shared_percentenergyboost.json"

@@ -1837,8 +1837,8 @@
         "gunkevin.tooltip.json": 4,
         "magnorb.tooltip.json": 1,
         "shared_.tooltip.json": 7,
-        "shared_ammogun.tooltip.json": 1,
-        "shared_ammoitem.tooltip.json": 1,
+        "shared_fuammogun.json": 1,
+        "shared_fuammoitem.json": 1,
         "shared_unique.tooltip.json": 1
       },
       "warping": {
@@ -5699,10 +5699,9 @@
           "ancientpoptopfossil5.item.json": 2
         },
         "giantbatfossil": {
-          "giantbatfossil1.item.json": 2,
           "giantbatfossil3.item.json": 2,
           "giantbatfossil4.item.json": 2,
-          "giantbatfossil5.item.json": 2,
+          "giantbatfossil5.item.json": 4,
           "shared_giantbatfossil.json": 2
         },
         "orcamutantfossil": {
@@ -7519,6 +7518,7 @@
         },
         "fumechspider": {
           "fumechspider.monstertype.json": 1,
+          "fumechspiderletheiafacility.monstertype.json": 2,
           "shared_.monstertype.json": 1,
           "spiderdroid.monstertype.json": 1
         },
@@ -19085,11 +19085,12 @@
             "percentarmorboost15.statuseffect.json": 1,
             "percentarmorboost30.statuseffect.json": 1,
             "percentarmorboostdebuff.animation.json": 1,
+            "percentarmorboostneg1.statuseffect.json": 1,
             "percentarmorboostneg2.statuseffect.json": 1,
             "percentarmorboostneg3.statuseffect.json": 1,
             "percentarmorboostneg4.statuseffect.json": 1,
             "percentarmorboostneg5.statuseffect.json": 1,
-            "shared_percentarmorboostneg.json": 1
+            "percentarmorboostnegproto.statuseffect.json": 1
           },
           "percentenergyboost": {
             "percentenergyboost.animation.json": 1,
@@ -19125,6 +19126,9 @@
           },
           "radiendirt": {
             "radiendirt.statuseffect.json": 1
+          },
+          "resourceconvert": {
+            "precursorregeneration.statuseffect.json": 1
           },
           "resourcerestorepercentage": {
             "heal_50.statuseffect.json": 1
@@ -19299,6 +19303,9 @@
           "gravgun": {
             "gravgun.statuseffect.json": 1,
             "lowgrav.animation.json": 1
+          },
+          "hammerbonus": {
+            "hammerbonus.statuseffect.json": 1
           },
           "quiver": {
             "quiverbonus.statuseffect.json": 1
@@ -19574,7 +19581,6 @@
           "fucrewmedicshipregeneration2.statuseffect.json": 1,
           "indixregen.statuseffect.json": 1,
           "lightregen.statuseffect.json": 1,
-          "precursorregeneration.statuseffect.json": 1,
           "psionicregeneration.statuseffect.json": 1,
           "regeneration01.statuseffect.json": 1,
           "regeneration2.statuseffect.json": 1,
