@@ -1270,15 +1270,15 @@
     "/collectables/floweryellow/description": "texts/shared_ect.json",
     "/collectables/floweryellow/title": "texts/shared_ect.json",
     "/collectables/fubioshroomblue/description": "texts/shared_ect.json",
-    "/collectables/fubioshroomblue/title": "texts/wide_spread_fields.json",
+    "/collectables/fubioshroomblue/title": "texts/shared_ect.json",
     "/collectables/fubioshroomgreen/description": "texts/shared_ect.json",
-    "/collectables/fubioshroomgreen/title": "texts/wide_spread_fields.json",
+    "/collectables/fubioshroomgreen/title": "texts/shared_ect.json",
     "/collectables/fubioshroompurple/description": "texts/shared_ect.json",
-    "/collectables/fubioshroompurple/title": "texts/wide_spread_fields.json",
+    "/collectables/fubioshroompurple/title": "texts/shared_ect.json",
     "/collectables/fubioshroomred/description": "texts/shared_ect.json",
-    "/collectables/fubioshroomred/title": "texts/wide_spread_fields.json",
+    "/collectables/fubioshroomred/title": "texts/shared_ect.json",
     "/collectables/fubioshroomyellow/description": "texts/shared_ect.json",
-    "/collectables/fubioshroomyellow/title": "texts/wide_spread_fields.json",
+    "/collectables/fubioshroomyellow/title": "texts/shared_ect.json",
     "/collectables/garikleaf/description": "texts/shared_ect.json",
     "/collectables/garikleaf/title": "texts/shared_ect.json",
     "/collectables/garpberry/title": "texts/wide_spread_fields.json",
@@ -2139,6 +2139,10 @@
     "/gui/countinput/value": "texts/wide_spread_fields.json",
     "/gui/countoutput/value": "texts/interface/bees/shared_centrifuge/shared_.config.json",
     "/gui/dragDrop/value": "texts/wide_spread_fields.json"
+  },
+  "interface/chests/cdx/chest1.config": {
+    "/gui/clear/caption": "texts/wide_spread_fields.json",
+    "/gui/count/value": "texts/shared_.config.json"
   },
   "interface/chests/cdx/chest12.config": {
     "/gui/clear/caption": "texts/wide_spread_fields.json",
@@ -3859,17 +3863,11 @@
   "items/active/weapons/melee/dagger/advalloydagger.activeitem": {
     "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
   },
-  "items/active/weapons/melee/dagger/carbondagger.activeitem": {
-    "/description": "texts/items/active/weapons/melee/dagger/shared_dagger.activeitem.json"
-  },
   "items/active/weapons/melee/dagger/effigiumdagger.activeitem": {
     "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
   },
   "items/active/weapons/melee/dagger/fuatropusdagger.activeitem": {
     "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
-  },
-  "items/active/weapons/melee/dagger/fucultistdagger.activeitem": {
-    "/description": "texts/items/active/weapons/melee/dagger/shared_dagger.activeitem.json"
   },
   "items/active/weapons/melee/dagger/glowstickgreendagger.activeitem": {
     "/description": "texts/items/active/weapons/melee/dagger/shared_dagger.activeitem.json",
@@ -4076,14 +4074,8 @@
   "items/active/weapons/melee/shortspear/uncommonshortspear.activeitem": {
     "/description": "texts/items/active/weapons/melee/shared_r.activeitem.json"
   },
-  "items/active/weapons/melee/shortsword/advalloyshortsword.activeitem": {
-    "/description": "texts/items/active/weapons/melee/shortsword/shared_.activeitem.json"
-  },
   "items/active/weapons/melee/shortsword/blackedge.activeitem": {
     "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
-  },
-  "items/active/weapons/melee/shortsword/carbonblade.activeitem": {
-    "/description": "texts/items/active/weapons/melee/shortsword/shared_.activeitem.json"
   },
   "items/active/weapons/melee/shortsword/cat/veluushortsword.activeitem": {
     "/description": "texts/items/active/weapons/melee/shortsword/cat/shared_veluushortsword.json"
@@ -6436,12 +6428,6 @@
   "items/augments/back/protection/fureloadaugment.augment": {
     "/description": "texts/items/augments/back/protection/shared_augment.augment.json"
   },
-  "items/augments/back/protection/fureloadaugment3.augment": {
-    "/description": "texts/items/augments/back/protection/shared_fureloadaugment.json"
-  },
-  "items/augments/back/protection/fureloadaugment4.augment": {
-    "/description": "texts/items/augments/back/protection/shared_fureloadaugment.json"
-  },
   "items/augments/extraresistanceaugment.augment": {
     "/augment/displayName": "texts/items.json"
   },
@@ -8616,7 +8602,7 @@
     "/shortdescription": "texts/materials/shared_shingles.mat.json"
   },
   "items/materials/shroomblockglow.matitem": {
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/shortdescription": "texts/materials/shared_shroomblockglow.mat.json"
   },
   "items/materials/shroomblockmaterial.matitem": {
     "/shortdescription": "texts/materials/shared_shroomblock.json"
@@ -8638,6 +8624,10 @@
     "/shortdescription": "texts/materials/shared_skath.json"
   },
   "items/materials/skathcleanwall.matitem": {
+    "/description": "texts/materials/shared_skath.json",
+    "/shortdescription": "texts/materials/shared_skath.json"
+  },
+  "items/materials/skathcleanwallpanels.matitem": {
     "/description": "texts/materials/shared_skath.json",
     "/shortdescription": "texts/materials/shared_skath.json"
   },
@@ -11757,10 +11747,9 @@
     "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/2/glitchEmotedText": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/3/glitchEmote": "texts/glitchEmotes.json",
     "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/3/glitchEmotedText": "texts/npcs/crew/shared_crewmember.json",
-    "/scriptConfig/dialog/crewmember/roleDescription/default/default/0": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/roleDescription/floran/default/0": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0/glitchEmote": "texts/glitchEmotes.json",
-    "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0/glitchEmotedText": "texts/npcs/crew/shared_crewmember.json"
+    "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0/glitchEmotedText": "texts/npcs/crew/crewmemberarctic.npctype.json"
   },
   "npcs/crew/crewmemberbiohazard.npctype": {
     "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1": "texts/npcs/crew/shared_crewmember.json",
@@ -12870,10 +12859,9 @@
     "/scriptConfig/dialog/crewmember/unfollow/penguin/default/0": "texts/glitchEmotes.json"
   },
   "npcs/crew/crewmemberguardian.npctype": {
-    "/scriptConfig/dialog/crewmember/roleDescription/default/default/0": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/roleDescription/floran/default/0": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0/glitchEmote": "texts/glitchEmotes.json",
-    "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0/glitchEmotedText": "texts/npcs/crew/shared_crewmember.json"
+    "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0/glitchEmotedText": "texts/npcs/crew/crewmemberguardian.npctype.json"
   },
   "npcs/crew/crewmemberhobo.npctype": {
     "/scriptConfig/dialog/crewmember/combatBenefit/glitch/default/0/glitchEmote": "texts/glitchEmotes.json",
@@ -18586,43 +18574,43 @@
   },
   "objects/farmables/bioshrooms/fubioshroomblue.object": {
     "/description": "texts/shared_ect.json",
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/shortdescription": "texts/shared_ect.json"
   },
   "objects/farmables/bioshrooms/fubioshroomgreen.object": {
     "/description": "texts/shared_ect.json",
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/shortdescription": "texts/shared_ect.json"
   },
   "objects/farmables/bioshrooms/fubioshroompurple.object": {
     "/description": "texts/shared_ect.json",
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/shortdescription": "texts/shared_ect.json"
   },
   "objects/farmables/bioshrooms/fubioshroomred.object": {
     "/description": "texts/shared_ect.json",
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/shortdescription": "texts/shared_ect.json"
   },
   "objects/farmables/bioshrooms/fubioshroomyellow.object": {
     "/description": "texts/shared_ect.json",
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/shortdescription": "texts/shared_ect.json"
   },
   "objects/farmables/bioshrooms/wildfubioshroomblue.object": {
     "/description": "texts/shared_ect.json",
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/shortdescription": "texts/shared_ect.json"
   },
   "objects/farmables/bioshrooms/wildfubioshroomgreen.object": {
     "/description": "texts/shared_ect.json",
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/shortdescription": "texts/shared_ect.json"
   },
   "objects/farmables/bioshrooms/wildfubioshroompurple.object": {
     "/description": "texts/shared_ect.json",
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/shortdescription": "texts/shared_ect.json"
   },
   "objects/farmables/bioshrooms/wildfubioshroomred.object": {
     "/description": "texts/shared_ect.json",
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/shortdescription": "texts/shared_ect.json"
   },
   "objects/farmables/bioshrooms/wildfubioshroomyellow.object": {
     "/description": "texts/shared_ect.json",
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/shortdescription": "texts/shared_ect.json"
   },
   "objects/farmables/biscorn/biscornseed.object": {
     "/description": "texts/shared_ect.json",
@@ -21703,6 +21691,9 @@
   },
   "objects/kheAA/kheAA_quarry/kheAA_quarrytitanium.object": {
     "/description": "texts/objects/kheAA/kheAA_quarry/shared_kheAA_quarry.json"
+  },
+  "objects/kheAA/kheAA_spout/kheAA_spout.config": {
+    "/gui/count/value": "texts/shared_.config.json"
   },
   "objects/legacy/aviansentryprop/aviansentryprop.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -41762,7 +41753,7 @@
     "/shortdescription": "texts/materials/shared_shingles.mat.json"
   },
   "tiles/materials/shroomblockglow.material": {
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/shortdescription": "texts/materials/shared_shroomblockglow.mat.json"
   },
   "tiles/materials/shroomblockwall.material": {
     "/shortdescription": "texts/materials/shared_shroomblock.json"
@@ -41784,6 +41775,10 @@
     "/shortdescription": "texts/materials/shared_skath.json"
   },
   "tiles/materials/skath/skathcleanwall.material": {
+    "/description": "texts/materials/shared_skath.json",
+    "/shortdescription": "texts/materials/shared_skath.json"
+  },
+  "tiles/materials/skath/skathcleanwallpanels.material": {
     "/description": "texts/materials/shared_skath.json",
     "/shortdescription": "texts/materials/shared_skath.json"
   },
