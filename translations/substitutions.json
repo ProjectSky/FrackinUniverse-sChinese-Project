@@ -41,9 +41,6 @@
   "biomes/space/iceasteroids.biome": {
     "/friendlyName": "texts/wide_spread_fields.json"
   },
-  "biomes/surface/aethersea.biome": {
-    "/friendlyName": "texts/wide_spread_fields.json"
-  },
   "biomes/surface/arboreal.biome": {
     "/friendlyName": "texts/wide_spread_fields.json"
   },
@@ -2221,7 +2218,6 @@
     "/gui/jumpDialog/children/cancel/caption": "texts/interface.json",
     "/gui/windowtitle/subtitle": "texts/interface/shared_cockpit.json",
     "/gui/windowtitle/title": "texts/interface/shared_cockpit.json",
-    "/planetTypeNames/aethersea": "texts/wide_spread_fields.json",
     "/planetTypeNames/arboreal": "texts/wide_spread_fields.json",
     "/planetTypeNames/arctic": "texts/wide_spread_fields.json",
     "/planetTypeNames/asteroids": "texts/wide_spread_fields.json",
@@ -4953,6 +4949,12 @@
   },
   "items/armors/crew/scienceparkanpc/sciencefunpc.legs": {
     "/shortdescription": "texts/items/armors/shared_sciencefu.json"
+  },
+  "items/armors/decorative/pandorasboxmonstermasks/pandorasboxcaketopmask/pandorasboxcaketopmask.head": {
+    "/description": "texts/items/armors/decorative/pandorasboxmonstermasks/shared_pandorasboxc/shared_caketopmask.head.json"
+  },
+  "items/armors/decorative/pandorasboxmonstermasks/pandorasboxchocolatecaketopmask/pandorasboxchocolatecaketopmask.head": {
+    "/description": "texts/items/armors/decorative/pandorasboxmonstermasks/shared_pandorasboxc/shared_caketopmask.head.json"
   },
   "items/armors/elduukhar/invis/inviselduu.chest": {
     "/description": "texts/items/armors/elduukhar/invis/shared_inviselduu..json",
@@ -8424,6 +8426,10 @@
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_plaidwallpaper.mat.json",
     "/novakidDescription": "texts/materials/shared_plaidwallpaper.mat.json",
     "/shortdescription": "texts/materials/shared_plaidwallpaper.mat.json"
+  },
+  "items/materials/plasmamaterial.matitem": {
+    "/description": "texts/materials/shared_plasmamaterial.mat.json",
+    "/shortdescription": "texts/materials/shared_plasmamaterial.mat.json"
   },
   "items/materials/precursorchain.matitem": {
     "/shortdescription": "texts/materials/shared_precursorchain.mat.json"
@@ -14213,6 +14219,9 @@
     "/scriptConfig/dialog/converse/veluu/default/0": "texts/npcs/scienceoutpost/shared_fuoutpostcivilian.json",
     "/scriptConfig/dialog/converse/veluu/default/1": "texts/npcs/scienceoutpost/shared_fuoutpostcivilian.json",
     "/scriptConfig/dialog/converse/veluu/default/2": "texts/npcs/scienceoutpost/shared_fuoutpostcivilian.json"
+  },
+  "npcs/scienceoutpost/fuoutposthylotlscientist.npctype": {
+    "/npcname": "texts/wide_spread_fields.json"
   },
   "npcs/skytemple/skytemplegrower.npctype": {
     "/scriptConfig/dialog/attack/avian/default/0": "texts/npcs/skytemple/shared_skytemple.json",
@@ -37677,11 +37686,11 @@
   "quests/fu_questlines/outpost/booze/5wort.questtemplate": {
     "/title": "texts/shared_booze/shared_wort..json"
   },
-  "quests/fu_questlines/outpost/khecoinbreadcrumb.questtemplate": {
-    "/title": "texts/quests/fu_questlines/outpost/shared_breadcrumb.questtemplate.json"
+  "quests/fu_questlines/outpost/khe_stuff/khecoinbreadcrumb.questtemplate": {
+    "/title": "texts/quests/fu_questlines/outpost/khe_stuff/shared_breadcrumb.questtemplate.json"
   },
-  "quests/fu_questlines/outpost/khecrystalbreadcrumb.questtemplate": {
-    "/title": "texts/quests/fu_questlines/outpost/shared_breadcrumb.questtemplate.json"
+  "quests/fu_questlines/outpost/khe_stuff/khecrystalbreadcrumb.questtemplate": {
+    "/title": "texts/quests/fu_questlines/outpost/khe_stuff/shared_breadcrumb.questtemplate.json"
   },
   "quests/fu_questlines/outpost/scienceoutpost_foodShop.questtemplate": {
     "/title": "texts/wide_spread_fields.json"
@@ -37895,6 +37904,9 @@
     "/fu_kevin_insanity4/senderName": "texts/wide_spread_fields.json",
     "/fu_kevin_insanity5/senderName": "texts/wide_spread_fields.json",
     "/fu_kevin_insanity6/senderName": "texts/wide_spread_fields.json"
+  },
+  "radiomessages/fu_madness.radiomessages": {
+    "/crazycarry/senderName": "texts/wide_spread_fields.json"
   },
   "radiomessages/fu_quests.radiomessages": {
     "/fu_outpost1/senderName": "texts/wide_spread_fields.json",
@@ -39342,6 +39354,15 @@
   "stats/effects/deprecated/gravgenfield.statuseffect": {
     "/label": "texts/shared_gravgenfield.statuseffect.json"
   },
+  "stats/effects/doomed/pandorasboxsmoderatedoomed.statuseffect": {
+    "/label": "texts/stats/effects/shared_pandorasbox.json"
+  },
+  "stats/effects/doomed/pandorasboxstrongdoomed.statuseffect": {
+    "/label": "texts/stats/effects/shared_pandorasbox.json"
+  },
+  "stats/effects/doomed/pandorasboxweakdoomed.statuseffect": {
+    "/label": "texts/stats/effects/shared_pandorasbox.json"
+  },
   "stats/effects/fu_effects/bandage2/bandage2fu.statuseffect": {
     "/label": "texts/stats/effects.json"
   },
@@ -39423,7 +39444,7 @@
   "stats/effects/fu_effects/freeze/freezefu2.statuseffect": {
     "/label": "texts/stats/effects/fu_effects/freeze/shared_.statuseffect.json"
   },
-  "stats/effects/fu_effects/fu_dummyeffects/mad/mad.animation": {
+  "stats/effects/fu_effects/fu_dummyeffects/madnessstuffindicators/mad/mad.animation": {
     "/particleEmitters/statustext/particles/0/particle/text": "texts/wide_spread_fields.json"
   },
   "stats/effects/fu_effects/glow/glowblue.statuseffect": {
@@ -39787,6 +39808,18 @@
   },
   "stats/effects/movement/raceavianmovement.animation": {
     "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects.json"
+  },
+  "stats/effects/pandorasbox/pandorasboxglitchtopglitch/pandorasboxglitchtopglitched.statuseffect": {
+    "/label": "texts/stats/effects/pandorasbox/pandorasboxglitchtopglitch/shared_pandorasboxglitchtopglitched.json"
+  },
+  "stats/effects/pandorasbox/pandorasboxglitchtopglitch/pandorasboxglitchtopglitched2.statuseffect": {
+    "/label": "texts/stats/effects/pandorasbox/pandorasboxglitchtopglitch/shared_pandorasboxglitchtopglitched.json"
+  },
+  "stats/effects/pandorasbox/pandorasboxmonsterdoomed/pandorasboxmonsterl1doomed.statuseffect": {
+    "/label": "texts/stats/effects/shared_pandorasbox.json"
+  },
+  "stats/effects/pandorasbox/pandorasboxmonsterdoomed/pandorasboxmonsterweakdoomed.statuseffect": {
+    "/label": "texts/stats/effects/shared_pandorasbox.json"
   },
   "stats/effects/paralysis/fuparalysis.statuseffect": {
     "/label": "texts/stats/effects/paralysis/shared_paralysis.statuseffect.json"
@@ -41470,6 +41503,10 @@
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_plaidwallpaper.mat.json",
     "/novakidDescription": "texts/materials/shared_plaidwallpaper.mat.json",
     "/shortdescription": "texts/materials/shared_plaidwallpaper.mat.json"
+  },
+  "tiles/materials/plasmamaterial.material": {
+    "/description": "texts/materials/shared_plasmamaterial.mat.json",
+    "/shortdescription": "texts/materials/shared_plasmamaterial.mat.json"
   },
   "tiles/materials/precursorchain.material": {
     "/shortdescription": "texts/materials/shared_precursorchain.mat.json"
