@@ -8,7 +8,7 @@
     "dialog": {
       "arrivedhome.config.json": 33,
       "combat.config.json": 96,
-      "converse.config.json": 1090,
+      "converse.config.json": 947,
       "crewmember.config.json": 3,
       "cultist.config.json": 55,
       "fenerox.config.json": 4,
@@ -426,7 +426,8 @@
         },
         "other": {
           "mysterioustrashbag.item.json": 1,
-          "protectorateflyer.item.json": 2
+          "protectorateflyer.item.json": 2,
+          "rottenfood.item.json": 1
         },
         "produce": {
           "crystalplant.item.json": 1
@@ -442,6 +443,18 @@
         }
       },
       "rotting.config.json": 7
+    },
+    "monsters": {
+      "flyers": {
+        "monopus": {
+          "monopus.monstertype.json": 1
+        }
+      },
+      "ghosts": {
+        "nautileech": {
+          "nautileech.monstertype.json": 1
+        }
+      }
     },
     "npcs": {
       "dungeon": {
@@ -581,19 +594,18 @@
       "quests.config.json": 1,
       "story": {
         "gaterepair.questtemplate.json": 5,
-        "human_mission1.questtemplate.json": 4,
         "protectorate.questtemplate.json": 3,
         "shiprepair.questtemplate.json": 4
       }
     },
     "quickbar": {
-      "icons.json.json": 6
+      "icons.json.json": 3
     },
     "radiomessages": {
-      "exploration.radiomessages.json": 38,
+      "exploration.radiomessages.json": 39,
       "intro.radiomessages.json": 1,
       "mech.radiomessages.json": 25,
-      "missions.radiomessages.json": 293,
+      "missions.radiomessages.json": 298,
       "quests.radiomessages.json": 5,
       "techchallenge.radiomessages.json": 1,
       "tutorial.radiomessages.json": 2
@@ -602,16 +614,16 @@
       "aegi.species.json": 1,
       "akkimari.species.json": 1,
       "alicorn.species.json": 1,
+      "alrune.species.json": 1,
       "apex.species.json": 1,
       "arachne.species.json": 1,
       "argonian.species.json": 1,
       "attarran.species.json": 1,
-      "avali.species.json": 1,
       "avian.species.json": 1,
       "avikan.species.json": 1,
       "batpony.species.json": 1,
       "bunnykin.species.json": 1,
-      "callistan.species.json": 1,
+      "candavaswebber.species.json": 1,
       "carakinox.species.json": 1,
       "cat.species.json": 1,
       "changeling.species.json": 1,
@@ -650,6 +662,7 @@
       "lamia.species.json": 1,
       "lastree.species.json": 1,
       "lucario.species.json": 1,
+      "lutrin.species.json": 1,
       "lyru.species.json": 1,
       "mantid.species.json": 1,
       "mantizi.species.json": 1,
@@ -677,10 +690,14 @@
       "sergal.species.json": 1,
       "shade.species.json": 1,
       "shadow.species.json": 2,
+      "shared_.species.json": 1,
+      "shared_avali.species.json": 1,
       "shared_ed.species.json": 1,
+      "shoggoth.species.json": 1,
       "skelekin.species.json": 1,
       "spiritguardian.species.json": 1,
       "tauren.species.json": 1,
+      "taurikin.species.json": 1,
       "terrakin.species.json": 1,
       "tirastrolls.species.json": 1,
       "trink.species.json": 1,
@@ -690,7 +707,15 @@
       "vulpes.species.json": 1,
       "wasphive.species.json": 1,
       "webber.species.json": 1,
-      "woggle.species.json": 1
+      "woggle.species.json": 1,
+      "zoroark.species.json": 1
+    },
+    "stats": {
+      "effects": {
+        "heal": {
+          "heal.animation.json": 2
+        }
+      }
     },
     "system_objects.config.json": 22,
     "tiles": {
@@ -1783,7 +1808,7 @@
           "fugravgenui.config.json": 3
         },
         "fuweaponupgrade": {
-          "fuweaponupgradegui.config.json": 5
+          "fuweaponupgradegui.config.json": 4
         },
         "logicgates": {
           "3statecyclerGUI.config.json": 9
@@ -1800,7 +1825,7 @@
         },
         "shared_.config.json": 1,
         "shared_upgrade": {
-          "shared_upgrade.json": 2
+          "shared_upgrade.json": 3
         },
         "spaceStation": {
           "spaceStation.config.json": 16,
@@ -9324,6 +9349,47 @@
         },
         "radmodelportrait": {
           "radmodelportrait.object.json": 10
+        }
+      },
+      "astral": {
+        "astralbar": {
+          "astralbar.object.json": 2
+        },
+        "astralbed": {
+          "astralbed.object.json": 2
+        },
+        "astralbookcase": {
+          "astralbookcase.object.json": 2
+        },
+        "astralcabinet": {
+          "astralcabinet.object.json": 2
+        },
+        "astralchair": {
+          "astralchair.object.json": 2
+        },
+        "astralchest": {
+          "astralchest.object.json": 2
+        },
+        "astraldesk": {
+          "astraldesk.object.json": 2
+        },
+        "astraldoor": {
+          "astraldoor.object.json": 2
+        },
+        "astralendtable": {
+          "astralendtable.object.json": 2
+        },
+        "astrallamp": {
+          "astrallamp.object.json": 2
+        },
+        "astralnebulabed": {
+          "astralnebulabed.object.json": 2
+        },
+        "astralstool": {
+          "astralstool.object.json": 2
+        },
+        "astraltable": {
+          "astraltable.object.json": 2
         }
       },
       "atropus": {
@@ -19136,6 +19202,9 @@
           "shared_.statuseffect.json": 1,
           "shared_fu_pickuprange.json": 1,
           "sourmilk.statuseffect.json": 1
+        },
+        "bed": {
+          "nebulasleep.statuseffect.json": 1
         },
         "camouflage": {
           "camouflage100.statuseffect.json": 1,
