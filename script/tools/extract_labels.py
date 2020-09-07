@@ -2,7 +2,7 @@
 
 from bisect import insort_left
 from codecs import open as open_n_decode
-from json import dump, load, loads
+from json import dump, load, loads, dumps
 from multiprocessing import Pool
 from os import makedirs, remove, walk
 from os.path import abspath, basename, dirname, exists, join, relpath
@@ -306,8 +306,8 @@ def extract_labels(root_dir, prefix):
 """
 
 
-
 if __name__ == "__main__":
+    open(error_list_file, 'w').close
     thedatabase = construct_db(root_dir)
     file_buffer = prepare_to_write(thedatabase[0], sub_file, texts_prefix)
     patch_file_buffer = prepare_to_write(
