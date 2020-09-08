@@ -1,0 +1,24 @@
+type: array
+items:
+  type: object
+  properties:
+    DeniedAlternatives:
+      type: array
+      items:
+        type: string
+    Files:
+      type: object
+      patternProperties:
+        ".*":
+          type: array
+          items:
+            type: string
+    Texts:
+      type: object
+      properties:
+        Chs:
+          type: string
+          description: 中文文本。
+        Eng:
+          type: string
+          description: 英文文本。

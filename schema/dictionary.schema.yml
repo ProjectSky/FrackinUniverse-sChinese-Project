@@ -1,0 +1,10 @@
+type: [ array, object ] # 允许object以兼容空文件
+items:
+  type: object
+  properties:
+    Chs:
+      type: string
+      description: 中文文本。
+    Eng:
+      type: string
+      description: 英文文本。
