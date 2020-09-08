@@ -6,5 +6,10 @@ items:
       type: string
       description: 中文文本。
     Eng:
-      type: string
-      description: 英文文本。
+      oneOf:
+      - type: string
+        description: 英文文本。
+      - type: array
+        items:
+          type: string
+          description: 英文文本。

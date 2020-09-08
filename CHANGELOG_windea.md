@@ -4,3 +4,4 @@
 * [X] 添加schema文件，用于验证json文件
 * [X] 添加dictionary文件，用于记录中英文对照翻译
 * [X] 修复缺失分号的颜色标记
+* [X] 完善dictionary文件
