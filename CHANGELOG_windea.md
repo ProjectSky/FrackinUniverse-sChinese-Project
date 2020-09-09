@@ -5,3 +5,8 @@
 * [X] 添加dictionary文件，用于记录中英文对照翻译
 * [X] 修复缺失分号的颜色标记
 * [X] 完善dictionary文件
+
+# 2020.09.09
+
+* [X] 完善dictionary文件
+* [X] 编写一个json_yaml_converter脚本
