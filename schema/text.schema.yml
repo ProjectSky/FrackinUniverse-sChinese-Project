@@ -1,3 +1,4 @@
+### 用于翻译文本文件
 type: array
 items:
   type: object
@@ -19,6 +20,8 @@ items:
         Chs:
           type: string
           description: 中文文本。
+          x-intellij-language-injection: Starbound Text
         Eng:
           type: string
           description: 英文文本。
+          x-intellij-language-injection: Starbound Text

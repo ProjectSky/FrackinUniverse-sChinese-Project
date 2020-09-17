@@ -1,18 +1,20 @@
 小白版的协助汉化教程！
 
-​	Created By 微风的龙骑士 风游迩
+Created By 微风的龙骑士 风游迩
 
-​	Updated By diskrubbish 鸽子
+Updated By diskrubbish 鸽子
 
 # 建议
 
 推荐的软件：
 
 * VSCode，非常好用的IDE，~~VSC天下第一！~~
-* copytranslator，翻译的利器，偷懒的不二之选（
+* IDEA插件：Starbound Text，提供Starbound富文本的语法高亮和颜色高亮。
+* IDEA插件：Translations，提供快捷翻译。
+* copytranslator，翻译的利器，偷懒的不二之选。
 * capslock+，快速的光标移动、选择以及翻译。
 
-推荐学习： 
+推荐学习：
 
 * Git
 * Markdown
@@ -32,7 +34,7 @@
 
 ## 教程正式开始！
 
-##### 一、事前准备
+### 一、事前准备
 
 1. ~~创建一个Github帐号，并验证邮箱，登陆。（我觉得这个应该不用我说了吧）~~
 
@@ -46,9 +48,9 @@
 
 6. ~~最好借助文本编辑软件，最好是专门的IDE（我推荐VSCode，因为Atom我更不知道怎样才能使用自如）。~~
 
-   VscodeNB！这边强烈推荐使用VSC来进行汉化，去[VScode官网](https://code.visualstudio.com/)，下载安装就可以了。
+VscodeNB！这边强烈推荐使用VSC来进行汉化，去[VScode官网](https://code.visualstudio.com/)，下载安装就可以了。
 
-##### 二、开始整活
+### 二、开始整活
 
 1. 打开Vscode，~~是不是被满眼e文弄得发慌~~ ，点击左侧的![1QxGlR.png](https://s2.ax1x.com/2020/01/29/1QxGlR.png)搜索并安装以下插件：
 
@@ -80,8 +82,6 @@
    git config --global --unset https.proxy
    ```
 
-   
-
 5. 克隆完成后，依照上面的方法打开拷贝到本地的项目文件夹。
 
 6. 接下来就可以编辑`translation/texts`和`translation/patch`下的JSON文件了。
@@ -106,9 +106,10 @@
 
 # 一些需要注意的地方：
 
-* ***再说一遍！引号和引号后面的冒号和逗号都一定要是英文的嗷！***
+* **再说一遍！引号和引号后面的冒号和逗号都一定要是英文的嗷！**
 * 对于 `前面^red; 中间^reset;后面` 一类的文本，把其看成`前面中间后面`拿出来翻译，翻译完一定要在相应的地方插入两端的**颜色识别符**
 * 善加利用全局搜索（Ctrl+Shift+F）和全局替换（Ctrl+Shift+H）。
 * 特殊名词请参考`REFERENCE.md`和 `TEMPLATE.md`这两个文档。
 * 如果使用Windows系统，由于对文件的大小写不敏感，源代码管理中的更改一栏下面，可能会存在一些怎么也提交不了的含有大写字母的文档。忽略即可。
+* 文本中换行符太多了，眼花看不清怎么办：如果你使用的是IDEA并且安装了Starbound Text插件的话，可以将鼠标移到文本上，输入Alt+Enter，然后选择"Edit Starbound Text Fragment"，在临时窗口中编辑文本。
 
