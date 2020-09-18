@@ -9,6 +9,7 @@ Updated By diskrubbish 鸽子
 推荐的软件：
 
 * VSCode，非常好用的IDE，~~VSC天下第一！~~
+* IDEA，更加强大的IDE。
 * IDEA插件：Starbound Text，提供Starbound富文本的语法高亮和颜色高亮。
 * IDEA插件：Translations，提供快捷翻译。
 * copytranslator，翻译的利器，偷懒的不二之选。
