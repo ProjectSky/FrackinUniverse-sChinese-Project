@@ -3,36 +3,88 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/ai/fu_byosai.config": [
-        "/gui/showMissions/caption"
+        "/gui/buttonBack/caption"
       ]
     },
     "Texts": {
-      "Chs": "建造飞船",
-      "Eng": "BUILD YOUR SHIP"
+      "Eng": "Back"
     }
   },
   {
     "DeniedAlternatives": [],
     "Files": {
       "interface/ai/fu_byosai.config": [
-        "/gui/showCrew/caption"
+        "/states/shipChosen/text"
       ]
     },
     "Texts": {
-      "Chs": "默认飞船",
-      "Eng": "DEFAULT SHIP"
+      "Eng": "Constructing ship, please wait"
     }
   },
   {
     "DeniedAlternatives": [],
     "Files": {
       "interface/ai/fu_byosai.config": [
-        "/shipStatus"
+        "/states/initial/text"
       ]
     },
     "Texts": {
-      "Chs": "^#6f6f6f;$ 状态\n^cyan;> 飞船在逃离地球时受到了严重的破坏。\n> 启动飞船自律修理系统。\n> 请输入修复方法。\n> 选项1：建造飞船。请在获得三度仪后检查其中的任务。需要安装一个新的FTL引擎。\n> 选项2：默认飞船。",
-      "Eng": "^#6f6f6f;$ status\n^cyan;> Ship has sustained major damage when escaping earth.\n> Initiating ship auto-repair systems.\n> Please input repair method.\n> Option 1: Build your ship. See Tricorder quests when obtained. Requires installation of a new FTL Drive.\n> Option 2: Default ship."
+      "Eng": "Ship has sustained major damage when escaping earth. Please select which ship type you want:\n\nFrackin Ship:\nBuild your ship. See tricorder quests when obtained. Requires installation of a new FTL Drive.\n\nVanilla Ship:\nThe default starbound ship for your race."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/ai/fu_byosai.config": [
+        "/states/frackinShipSelected/text"
+      ]
+    },
+    "Texts": {
+      "Eng": "The frackin ship. Upgraded differently. This ship type has access to features that the vanilla ship does not have access to.\n\nCurrently Selected Ship: <shipName>\nCurrently Selected Ship Mode: <shipMode>"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/ai/fu_byosai.config": [
+        "/states/vanillaShipSelected/text"
+      ]
+    },
+    "Texts": {
+      "Eng": "The normal vanilla ship. Upgraded normally. This ship type won't have access to some of the features the frackin ship will have access to."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/ai/fu_byosai.config": [
+        "/gui/buttonByos/caption"
+      ]
+    },
+    "Texts": {
+      "Eng": "^white;Buildable^reset;"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/ai/fu_byosai.config": [
+        "/gui/buttonUpgradable/caption"
+      ]
+    },
+    "Texts": {
+      "Eng": "^white;Upgradable^reset;"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/ai/fu_byosai.config": [
+        "/gui/path/value"
+      ]
+    },
+    "Texts": {
+      "Eng": "root/sail/ui/replaceship"
     }
   }
 ]

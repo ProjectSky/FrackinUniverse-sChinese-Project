@@ -14,6 +14,16 @@
     "/gui/labelinput/value": "texts/wide_spread_fields.json",
     "/gui/labeloutput/value": "texts/wide_spread_fields.json"
   },
+  "bees/interface/beeexaminer/beeexaminer.config": {
+    "/gui/inputLabel/value": "texts/bees/interface/beeexaminer/shared_beeexaminer.json",
+    "/gui/outputLabel/value": "texts/bees/interface/beeexaminer/shared_beeexaminer.json",
+    "/gui/statuslabel/value": "texts/bees/interface/beeexaminer/shared_beeexaminer.json"
+  },
+  "bees/interface/beeexaminer/beeexaminer2.config": {
+    "/gui/inputLabel/value": "texts/bees/interface/beeexaminer/shared_beeexaminer.json",
+    "/gui/outputLabel/value": "texts/bees/interface/beeexaminer/shared_beeexaminer.json",
+    "/gui/statuslabel/value": "texts/bees/interface/beeexaminer/shared_beeexaminer.json"
+  },
   "bees/monsters/honey.monstertype": {
     "/shortdescription": "texts/wide_spread_fields.json"
   },
@@ -750,13 +760,22 @@
     "/description": "texts/codex/documents/shared_.codex.json"
   },
   "codex/documents/ffguide.codex": {
+    "/contentPages/0": "texts/codex/documents/shared_ffguide.json",
     "/description": "texts/codex/documents/shared_ffguide.json"
   },
   "codex/documents/ffguide2.codex": {
+    "/contentPages/0": "texts/codex/documents/shared_ffguide.json",
     "/description": "texts/codex/documents/shared_ffguide.json"
   },
+  "codex/documents/ffguide3.codex": {
+    "/contentPages/0": "texts/codex/documents/shared_ffguide.json"
+  },
   "codex/documents/ffguide4.codex": {
+    "/contentPages/0": "texts/codex/documents/shared_ffguide.json",
     "/description": "texts/codex/documents/shared_ffguide.json"
+  },
+  "codex/documents/ffguide5.codex": {
+    "/contentPages/0": "texts/codex/documents/shared_ffguide.json"
   },
   "codex/documents/luridmagazine.codex": {
     "/contentPages/0": "texts/codex/documents/shared_luridmagazine.json",
@@ -1293,7 +1312,7 @@
     "/collectables/goldenroot/description": "texts/shared_ect.json",
     "/collectables/goldenroot/title": "texts/wide_spread_fields.json",
     "/collectables/goldenseasponge/description": "texts/shared_ect.json",
-    "/collectables/goldenseasponge/title": "texts/shared_ect.json",
+    "/collectables/goldenseasponge/title": "texts/wide_spread_fields.json",
     "/collectables/goldshroom/description": "texts/shared_ect.json",
     "/collectables/goldshroom/title": "texts/wide_spread_fields.json",
     "/collectables/greenleaf/description": "texts/shared_ect.json",
@@ -1391,7 +1410,6 @@
     "/collectables/vashta/title": "texts/shared_ect.json",
     "/collectables/vextongue/description": "texts/shared_ect.json",
     "/collectables/victorbush/description": "texts/shared_ect.json",
-    "/collectables/victorbush/title": "texts/shared_ect.json",
     "/collectables/whitespine/description": "texts/shared_ect.json",
     "/collectables/whitespine/title": "texts/shared_ect.json",
     "/collectables/wretchel/description": "texts/shared_ect.json",
@@ -2080,16 +2098,18 @@
   },
   "interface/ai/ai.config": {
     "/crewBreadcrumbText": "texts/wide_spread_fields.json",
-    "/guiConfig/homeBreadcrumb/value": "texts/interface/ai/shared_ai.config.json",
+    "/guiConfig/backButton/caption": "texts/interface.json",
     "/guiConfig/showCrew/caption": "texts/wide_spread_fields.json",
     "/guiConfig/showMissions/caption": "texts/wide_spread_fields.json",
-    "/guiConfig/windowtitle/subtitle": "texts/wide_spread_fields.json",
-    "/guiConfig/windowtitle/title": "texts/interface/ai/shared_ai.config.json"
+    "/guiConfig/windowtitle/subtitle": "texts/wide_spread_fields.json"
   },
   "interface/ai/fu_byosai.config": {
-    "/gui/homeBreadcrumb/value": "texts/interface/ai/shared_ai.config.json",
-    "/gui/windowtitle/subtitle": "texts/wide_spread_fields.json",
-    "/gui/windowtitle/title": "texts/interface/ai/shared_ai.config.json"
+    "/gui/windowSubtitle/value": "texts/wide_spread_fields.json",
+    "/gui/windowTitle/value": "texts/wide_spread_fields.json",
+    "/states/frackinShipChoice/text": "texts/interface.json",
+    "/states/frackinShipChosen/text": "texts/interface.json",
+    "/states/frackinShipPreview/text": "texts/interface.json",
+    "/states/vanillaShipChosen/text": "texts/interface.json"
   },
   "interface/bees/alveary/alveary.config": {
     "/gui/count/value": "texts/wide_spread_fields.json",
@@ -2214,7 +2234,7 @@
     "/displayWeathers/gravrain/displayName": "texts/wide_spread_fields.json",
     "/displayWeathers/snow/displayName": "texts/wide_spread_fields.json",
     "/gui/editBookmarkFrame/children/close/caption": "texts/interface.json",
-    "/gui/editBookmarkFrame/children/ok/caption": "texts/shared_t.config.json",
+    "/gui/editBookmarkFrame/children/ok/caption": "texts/shared_.config.json",
     "/gui/jumpDialog/children/cancel/caption": "texts/interface.json",
     "/gui/windowtitle/subtitle": "texts/interface/shared_cockpit.json",
     "/gui/windowtitle/title": "texts/interface/shared_cockpit.json",
@@ -2266,6 +2286,10 @@
     "/gui/count/value": "texts/wide_spread_fields.json",
     "/gui/countoutput/value": "texts/wide_spread_fields.json",
     "/gui/dragDrop/value": "texts/wide_spread_fields.json"
+  },
+  "interface/gnomefactory.config": {
+    "/gui/input label/value": "texts/interface/shared_.config.json",
+    "/gui/prototype label/value": "texts/interface/shared_.config.json"
   },
   "interface/itemdescriptions/armornew.itemdescription": {
     "/levelLabelTitle/value": "texts/interface/itemdescriptions/shared_new.itemdescription.json"
@@ -2606,6 +2630,21 @@
   "interface/mechfuelrefinery/fuelrefinery.config": {
     "/gui/toggleCrafting/caption": "texts/interface/shared_.config.json"
   },
+  "interface/mfgstation.config": {
+    "/gui/input label/value": "texts/interface/shared_.config.json",
+    "/gui/prototype label/value": "texts/interface/shared_.config.json"
+  },
+  "interface/objectcrafting/colonystation.config": {
+    "/paneLayout/btnCraft/caption": "texts/wide_spread_fields.json",
+    "/paneLayout/btnStopCraft/caption": "texts/wide_spread_fields.json",
+    "/paneLayout/filter/hint": "texts/wide_spread_fields.json",
+    "/paneLayout/lblProduct/value": "texts/wide_spread_fields.json",
+    "/paneLayout/lblProducttitle/value": "texts/wide_spread_fields.json",
+    "/paneLayout/lblSchematics/value": "texts/interface/shared_.config.json",
+    "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
+    "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value": "texts/wide_spread_fields.json",
+    "/paneLayout/tbSpinCount/regex": "texts/wide_spread_fields.json"
+  },
   "interface/objectcrafting/fu_atmosfilter0.config": {
     "/gui/lblText/value": "texts/interface/objectcrafting/shared_fu_atmosfilter.json"
   },
@@ -2650,7 +2689,7 @@
   },
   "interface/scripted/fm_musicplayer/fm_musicplayer.config": {
     "/gui/search/hint": "texts/wide_spread_fields.json",
-    "/gui/settings/children/offsetter/value": "texts/interface/scripted.json"
+    "/gui/settings/children/offsetter/value": "texts/interface.json"
   },
   "interface/scripted/fu_matmodplacer/fu_matmodplacer.config": {
     "/gui/filter/hint": "texts/wide_spread_fields.json",
@@ -2707,10 +2746,125 @@
   "interface/scripted/sbvn/games/cthululove/deepone.sbvn": {
     "/scenes/art10/text": "texts/wide_spread_fields.json",
     "/scenes/art13/options/0/0": "texts/wide_spread_fields.json",
-    "/scenes/badEnding6/text": "texts/interface/scripted.json",
-    "/scenes/goodEnding9/text": "texts/interface/scripted.json",
+    "/scenes/badEnding6/text": "texts/interface.json",
+    "/scenes/goodEnding9/text": "texts/interface.json",
     "/scenes/hockey2/text": "texts/wide_spread_fields.json",
     "/scenes/song1/options/0/0": "texts/wide_spread_fields.json"
+  },
+  "interface/scripted/sbvn/games/pandorasboxmonsterfieldguide/pandorasboxmonsterfieldguide.sbvn": {
+    "/scenes/categoryselect1/options/2/0": "texts/interface.json",
+    "/scenes/crawlingselectbeetoise/options/0/0": "texts/interface.json",
+    "/scenes/crawlingselectcrustoise/options/0/0": "texts/interface.json",
+    "/scenes/crawlingselectend/options/0/0": "texts/interface.json",
+    "/scenes/crawlingselecthivetoise/options/0/0": "texts/interface.json",
+    "/scenes/crawlingselectiguarmor/options/0/0": "texts/interface.json",
+    "/scenes/crawlingselectmagtoise/options/0/0": "texts/interface.json",
+    "/scenes/crawlingselectnocttoise/options/0/0": "texts/interface.json",
+    "/scenes/crawlingselectoculob/options/0/0": "texts/interface.json",
+    "/scenes/crawlingselectpulpin/options/0/0": "texts/interface.json",
+    "/scenes/crawlingselectshnail/options/0/0": "texts/interface.json",
+    "/scenes/crawlingselectsluirm/options/0/0": "texts/interface.json",
+    "/scenes/crawlingselectsnaggler/options/0/0": "texts/interface.json",
+    "/scenes/crawlingselecttintic/options/0/0": "texts/interface.json",
+    "/scenes/flyingselectagrobat/options/0/0": "texts/interface.json",
+    "/scenes/flyingselectbatong/options/0/0": "texts/interface.json",
+    "/scenes/flyingselectbobfae/options/0/0": "texts/interface.json",
+    "/scenes/flyingselectend/options/0/0": "texts/interface.json",
+    "/scenes/flyingselectglofae/options/0/0": "texts/interface.json",
+    "/scenes/flyingselecthummingbug/options/0/0": "texts/interface.json",
+    "/scenes/flyingselectkluexsentry/options/0/0": "texts/interface.json",
+    "/scenes/flyingselectluminorb/options/0/0": "texts/interface.json",
+    "/scenes/flyingselectminidrone/options/0/0": "texts/interface.json",
+    "/scenes/flyingselectmonopus/options/0/0": "texts/interface.json",
+    "/scenes/flyingselectparatail/options/0/0": "texts/interface.json",
+    "/scenes/flyingselectpteropod/options/0/0": "texts/interface.json",
+    "/scenes/flyingselectscandroid/options/0/0": "texts/interface.json",
+    "/scenes/flyingselectshadowskelecrow/options/0/0": "texts/interface.json",
+    "/scenes/flyingselectskelecrow/options/0/0": "texts/interface.json",
+    "/scenes/flyingselecttoxicskelecrow/options/0/0": "texts/interface.json",
+    "/scenes/ghostselectend/options/0/0": "texts/interface.json",
+    "/scenes/ghostselectgosmet/options/0/0": "texts/interface.json",
+    "/scenes/ghostselectignome/options/0/0": "texts/interface.json",
+    "/scenes/ghostselectlumoth/options/0/0": "texts/interface.json",
+    "/scenes/ghostselectnautileech/options/0/0": "texts/interface.json",
+    "/scenes/ghostselectpyromantle/options/0/0": "texts/interface.json",
+    "/scenes/ghostselectskimbus/options/0/0": "texts/interface.json",
+    "/scenes/ghostselectspookit/options/0/0": "texts/interface.json",
+    "/scenes/ghostselectsqueem/options/0/0": "texts/interface.json",
+    "/scenes/ghostselectwisper/options/0/0": "texts/interface.json",
+    "/scenes/groundselectadultpoptop/options/0/0": "texts/interface.json",
+    "/scenes/groundselectaliep/options/0/0": "texts/interface.json",
+    "/scenes/groundselectanglure/options/0/0": "texts/interface.json",
+    "/scenes/groundselectautumnbop/options/0/0": "texts/interface.json",
+    "/scenes/groundselectbobot/options/0/0": "texts/interface.json",
+    "/scenes/groundselectbulbop/options/0/0": "texts/interface.json",
+    "/scenes/groundselectcaketop/options/0/0": "texts/interface.json",
+    "/scenes/groundselectcandybop/options/0/0": "texts/interface.json",
+    "/scenes/groundselectcapricoat/options/0/0": "texts/interface.json",
+    "/scenes/groundselectcleaningbot/options/0/0": "texts/interface.json",
+    "/scenes/groundselectcottonbop/options/0/0": "texts/interface.json",
+    "/scenes/groundselectcrabcano/options/0/0": "texts/interface.json",
+    "/scenes/groundselectcrutter/options/0/0": "texts/interface.json",
+    "/scenes/groundselectelectrix/options/0/0": "texts/interface.json",
+    "/scenes/groundselectend/options/0/0": "texts/interface.json",
+    "/scenes/groundselecteyevalve/options/0/0": "texts/interface.json",
+    "/scenes/groundselectfennix/options/0/0": "texts/interface.json",
+    "/scenes/groundselectfleshgummi/options/0/0": "texts/interface.json",
+    "/scenes/groundselectfrostix/options/0/0": "texts/interface.json",
+    "/scenes/groundselectgleap/options/0/0": "texts/interface.json",
+    "/scenes/groundselectglitchtop/options/0/0": "texts/interface.json",
+    "/scenes/groundselectgummi/options/0/0": "texts/interface.json",
+    "/scenes/groundselecthelmidge/options/0/0": "texts/interface.json",
+    "/scenes/groundselecthemogoblin/options/0/0": "texts/interface.json",
+    "/scenes/groundselecthypnare/options/0/0": "texts/interface.json",
+    "/scenes/groundselectixoling/options/0/0": "texts/interface.json",
+    "/scenes/groundselectkingnutmidgeling/options/0/0": "texts/interface.json",
+    "/scenes/groundselectkluextotem/options/0/0": "texts/interface.json",
+    "/scenes/groundselectlilodon/options/0/0": "texts/interface.json",
+    "/scenes/groundselectmagmatop/options/0/0": "texts/interface.json",
+    "/scenes/groundselectmallowbop/options/0/0": "texts/interface.json",
+    "/scenes/groundselectmandraflora/options/0/0": "texts/interface.json",
+    "/scenes/groundselectmiasmop/options/0/0": "texts/interface.json",
+    "/scenes/groundselectmimetop/options/0/0": "texts/interface.json",
+    "/scenes/groundselectmoontant/options/0/0": "texts/interface.json",
+    "/scenes/groundselectmushtop/options/0/0": "texts/interface.json",
+    "/scenes/groundselectmysterix/options/0/0": "texts/interface.json",
+    "/scenes/groundselectnarfin/options/0/0": "texts/interface.json",
+    "/scenes/groundselectnocttop/options/0/0": "texts/interface.json",
+    "/scenes/groundselectnormix/options/0/0": "texts/interface.json",
+    "/scenes/groundselectnutmidge/options/0/0": "texts/interface.json",
+    "/scenes/groundselectnutmidgeling/options/0/0": "texts/interface.json",
+    "/scenes/groundselectoctotop/options/0/0": "texts/interface.json",
+    "/scenes/groundselectoculemic/options/0/0": "texts/interface.json",
+    "/scenes/groundselectoogler/options/0/0": "texts/interface.json",
+    "/scenes/groundselectorbide/options/0/0": "texts/interface.json",
+    "/scenes/groundselectorelit/options/0/0": "texts/interface.json",
+    "/scenes/groundselectpeblit/options/0/0": "texts/interface.json",
+    "/scenes/groundselectpetricub/options/0/0": "texts/interface.json",
+    "/scenes/groundselectpipkin/options/0/0": "texts/interface.json",
+    "/scenes/groundselectpoptop/options/0/0": "texts/interface.json",
+    "/scenes/groundselectquagmutt/options/0/0": "texts/interface.json",
+    "/scenes/groundselectringram/options/0/0": "texts/interface.json",
+    "/scenes/groundselectrockgummi/options/0/0": "texts/interface.json",
+    "/scenes/groundselectscaveran/options/0/0": "texts/interface.json",
+    "/scenes/groundselectshroombop/options/0/0": "texts/interface.json",
+    "/scenes/groundselectskullgummi/options/0/0": "texts/interface.json",
+    "/scenes/groundselectsmoglin/options/0/0": "texts/interface.json",
+    "/scenes/groundselectsnaunt/options/0/0": "texts/interface.json",
+    "/scenes/groundselectsnorktop/options/0/0": "texts/interface.json",
+    "/scenes/groundselectsnuffish/options/0/0": "texts/interface.json",
+    "/scenes/groundselectsporgus/options/0/0": "texts/interface.json",
+    "/scenes/groundselectspringbop/options/0/0": "texts/interface.json",
+    "/scenes/groundselectsummerbop/options/0/0": "texts/interface.json",
+    "/scenes/groundselecttargummi/options/0/0": "texts/interface.json",
+    "/scenes/groundselecttaroni/options/0/0": "texts/interface.json",
+    "/scenes/groundselecttoumingo/options/0/0": "texts/interface.json",
+    "/scenes/groundselecttoxix/options/0/0": "texts/interface.json",
+    "/scenes/groundselecttrapogo/options/0/0": "texts/interface.json",
+    "/scenes/groundselecttrictus/options/0/0": "texts/interface.json",
+    "/scenes/groundselectvoltip/options/0/0": "texts/interface.json",
+    "/scenes/groundselectwinterbop/options/0/0": "texts/interface.json",
+    "/scenes/groundselectyokat/options/0/0": "texts/interface.json"
   },
   "interface/scripted/spaceStation/spaceStation.config": {
     "/gui/goodsTradeList/children/itemList/schema/listTemplate/buyButton/caption": "texts/wide_spread_fields.json",
@@ -2765,6 +2919,10 @@
     "/gui/popupList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
     "/gui/scrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
     "/gui/scrollArea/children/itemList/schema/listTemplate/priceLabel/value": "texts/wide_spread_fields.json"
+  },
+  "interface/shipnameplate/fu_shipnameplate.config": {
+    "/gui/btnAccept/caption": "texts/shared_.config.json",
+    "/gui/tboxName/hint": "texts/interface.json"
   },
   "interface/tooltips/armor_resists.tooltip": {
     "/priceLabel/value": "texts/wide_spread_fields.json"
@@ -3187,6 +3345,17 @@
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value": "texts/wide_spread_fields.json",
     "/paneLayout/tbSpinCount/regex": "texts/wide_spread_fields.json"
   },
+  "interface/windowconfig/crafting.config": {
+    "/paneLayout/btnCraft/caption": "texts/wide_spread_fields.json",
+    "/paneLayout/btnStopCraft/caption": "texts/wide_spread_fields.json",
+    "/paneLayout/filter/hint": "texts/wide_spread_fields.json",
+    "/paneLayout/lblProduct/value": "texts/wide_spread_fields.json",
+    "/paneLayout/lblProducttitle/value": "texts/interface/windowconfig/shared_.config.json",
+    "/paneLayout/lblSchematics/value": "texts/interface/windowconfig/shared_.config.json",
+    "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
+    "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value": "texts/wide_spread_fields.json",
+    "/paneLayout/tbSpinCount/regex": "texts/wide_spread_fields.json"
+  },
   "interface/windowconfig/craftingcrewshop.config": {
     "/paneLayout/btnCraft/caption": "texts/wide_spread_fields.json",
     "/paneLayout/filter/hint": "texts/wide_spread_fields.json",
@@ -3244,7 +3413,7 @@
     "/paneLayout/filter/hint": "texts/wide_spread_fields.json",
     "/paneLayout/lblProduct/value": "texts/wide_spread_fields.json",
     "/paneLayout/lblProducttitle/value": "texts/wide_spread_fields.json",
-    "/paneLayout/lblSchematics/value": "texts/interface/windowconfig/shared_.config.json",
+    "/paneLayout/lblSchematics/value": "texts/interface/shared_.config.json",
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value": "texts/wide_spread_fields.json",
     "/paneLayout/tbSpinCount/regex": "texts/wide_spread_fields.json"
@@ -3312,6 +3481,17 @@
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value": "texts/wide_spread_fields.json",
     "/paneLayout/tbSpinCount/regex": "texts/wide_spread_fields.json"
+  },
+  "interface/windowconfig/fu_anvil.config": {
+    "/paneLayout/btnCraft/caption": "texts/wide_spread_fields.json",
+    "/paneLayout/btnStopCraft/caption": "texts/wide_spread_fields.json",
+    "/paneLayout/filter/hint": "texts/wide_spread_fields.json",
+    "/paneLayout/lblProduct/value": "texts/wide_spread_fields.json",
+    "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
+    "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value": "texts/wide_spread_fields.json",
+    "/paneLayout/tbSpinCount/regex": "texts/wide_spread_fields.json",
+    "/paneLayout/windowtitle/subtitle": "texts/interface/windowconfig/shared_.config.json",
+    "/paneLayout/windowtitle/title": "texts/interface/windowconfig/shared_.config.json"
   },
   "interface/windowconfig/fu_shipcraftingtable.config": {
     "/paneLayout/btnCraft/caption": "texts/wide_spread_fields.json",
@@ -3392,7 +3572,7 @@
     "/paneLayout/filter/hint": "texts/wide_spread_fields.json",
     "/paneLayout/lblProduct/value": "texts/wide_spread_fields.json",
     "/paneLayout/lblProducttitle/value": "texts/wide_spread_fields.json",
-    "/paneLayout/lblSchematics/value": "texts/interface/windowconfig/shared_.config.json",
+    "/paneLayout/lblSchematics/value": "texts/interface/shared_.config.json",
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value": "texts/wide_spread_fields.json",
     "/paneLayout/tbSpinCount/regex": "texts/wide_spread_fields.json"
@@ -3422,7 +3602,7 @@
     "/paneLayout/filter/hint": "texts/wide_spread_fields.json",
     "/paneLayout/lblProduct/value": "texts/wide_spread_fields.json",
     "/paneLayout/lblProducttitle/value": "texts/wide_spread_fields.json",
-    "/paneLayout/lblSchematics/value": "texts/interface/windowconfig/shared_.config.json",
+    "/paneLayout/lblSchematics/value": "texts/interface/shared_.config.json",
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value": "texts/wide_spread_fields.json",
     "/paneLayout/tbSpinCount/regex": "texts/wide_spread_fields.json"
@@ -3473,7 +3653,7 @@
     "/paneLayout/filter/hint": "texts/wide_spread_fields.json",
     "/paneLayout/lblProduct/value": "texts/wide_spread_fields.json",
     "/paneLayout/lblProducttitle/value": "texts/wide_spread_fields.json",
-    "/paneLayout/lblSchematics/value": "texts/interface/windowconfig/shared_.config.json",
+    "/paneLayout/lblSchematics/value": "texts/interface/shared_.config.json",
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value": "texts/wide_spread_fields.json",
     "/paneLayout/tbSpinCount/regex": "texts/wide_spread_fields.json"
@@ -5091,14 +5271,6 @@
   "items/armors/tier0/glitterfolk/kirhosglitterfolk.legs": {
     "/description": "texts/items/armors/tier0/glitterfolk/shared_kirhosglitterfolk..json"
   },
-  "items/armors/tier0/goggles1/goggles1.head": {
-    "/description": "texts/items/armors/tier0/shared_goggles/shared_goggles.json",
-    "/shortdescription": "texts/items/armors/tier0/shared_goggles/shared_goggles.json"
-  },
-  "items/armors/tier0/goggles2/goggles2.head": {
-    "/description": "texts/items/armors/tier0/shared_goggles/shared_goggles.json",
-    "/shortdescription": "texts/items/armors/tier0/shared_goggles/shared_goggles.json"
-  },
   "items/armors/tier1/bloodhound/bloodhound.chest": {
     "/description": "texts/items/armors/tier1/bloodhound/shared_bloodhound..json"
   },
@@ -5150,11 +5322,29 @@
   "items/armors/tier1/plebeian/mantizitier1.legs": {
     "/description": "texts/items/armors/tier1/plebeian/shared_mantizitier1..json"
   },
+  "items/armors/tier1/spacediver/spacediver.chest": {
+    "/description": "texts/items/armors/tier1/spacediver/shared_spacediver..json"
+  },
+  "items/armors/tier1/spacediver/spacediver.head": {
+    "/description": "texts/items/armors/tier1/spacediver/shared_spacediver..json"
+  },
+  "items/armors/tier1/spacediver/spacediver.legs": {
+    "/description": "texts/items/armors/tier1/spacediver/shared_spacediver..json"
+  },
   "items/armors/tier1/streaker/streaker.chest": {
     "/upgradeParameters/description": "texts/items/armors/tier1/streaker/shared_streaker..json"
   },
   "items/armors/tier1/streaker/streaker.legs": {
     "/upgradeParameters/description": "texts/items/armors/tier1/streaker/shared_streaker..json"
+  },
+  "items/armors/tier1/trollkingarmor/fubone.chest": {
+    "/description": "texts/items/armors/tier1/trollkingarmor/shared_fubone..json"
+  },
+  "items/armors/tier1/trollkingarmor/fubone.head": {
+    "/description": "texts/items/armors/tier1/trollkingarmor/shared_fubone..json"
+  },
+  "items/armors/tier1/trollkingarmor/fubone.legs": {
+    "/description": "texts/items/armors/tier1/trollkingarmor/shared_fubone..json"
   },
   "items/armors/tier1/underworld/kirhostier1.chest": {
     "/description": "texts/items/armors/tier1/underworld/shared_kirhostier1..json"
@@ -5520,6 +5710,15 @@
   },
   "items/armors/tier3/nautilus/fudiver.legs": {
     "/description": "texts/items/armors/tier3/nautilus/shared_fudiver..json"
+  },
+  "items/armors/tier3/rimworlder/furimworlder.chest": {
+    "/description": "texts/items/armors/tier3/rimworlder/shared_furimworlder..json"
+  },
+  "items/armors/tier3/rimworlder/furimworlder.head": {
+    "/description": "texts/items/armors/tier3/rimworlder/shared_furimworlder..json"
+  },
+  "items/armors/tier3/rimworlder/furimworlder.legs": {
+    "/description": "texts/items/armors/tier3/rimworlder/shared_furimworlder..json"
   },
   "items/armors/tier3/samurai2/samurai2.chest": {
     "/description": "texts/items/armors/tier3/samurai2/shared_samurai2..json"
@@ -6121,6 +6320,9 @@
   "items/armors/tier6/biomorph/test1.chest": {
     "/description": "texts/items/armors/tier6/biomorph/shared_test1..json"
   },
+  "items/armors/tier6/biomorph/test1.head": {
+    "/description": "texts/items/armors/tier6/biomorph/shared_test1..json"
+  },
   "items/armors/tier6/biomorph/test1.legs": {
     "/description": "texts/items/armors/tier6/biomorph/shared_test1..json"
   },
@@ -6434,6 +6636,16 @@
   },
   "items/augments/extraresistanceaugment.augment": {
     "/augment/displayName": "texts/items.json"
+  },
+  "items/augments/quest/apexartifact.augment": {
+    "/augment/displayName": "texts/items/augments/quest/shared_apexartifact.json",
+    "/description": "texts/items/augments/quest/shared_apexartifact.json",
+    "/shortdescription": "texts/items/augments/quest/shared_apexartifact.json"
+  },
+  "items/augments/quest/apexartifact2.augment": {
+    "/augment/displayName": "texts/items/augments/quest/shared_apexartifact.json",
+    "/description": "texts/items/augments/quest/shared_apexartifact.json",
+    "/shortdescription": "texts/items/augments/quest/shared_apexartifact.json"
   },
   "items/currency/fumadnessresource.currency": {
     "/shortdescription": "texts/wide_spread_fields.json"
@@ -6888,29 +7100,20 @@
   "items/generic/mechparts/arm/mecharmpowerdrone2.item": {
     "/description": "texts/items/generic/mechparts/arm/shared_mecharmpowerdrone.json"
   },
-  "items/generic/mechparts/body/mechbodyemissary.item": {
-    "/description": "texts/items/generic/mechparts/body/shared_mechbodyemissary.json"
+  "items/generic/mechparts/body/mechbodybrute.item": {
+    "/description": "texts/items/generic/mechparts/body/shared_mechbody.json"
+  },
+  "items/generic/mechparts/body/mechbodycatproto.item": {
+    "/description": "texts/items/generic/mechparts/body/shared_mechbody.json"
   },
   "items/generic/mechparts/body/mechbodyemissaryproto.item": {
-    "/description": "texts/items/generic/mechparts/body/shared_mechbodyemissary.json"
+    "/description": "texts/items/generic/mechparts/body/shared_mechbody.json"
   },
-  "items/generic/mechparts/body/mechbodyfuexplorer.item": {
-    "/description": "texts/items/generic/mechparts/body/shared_mechbodyfuexplorer.json"
+  "items/generic/mechparts/body/mechbodymantiziproto.item": {
+    "/description": "texts/items/generic/mechparts/body/shared_mechbody.json"
   },
-  "items/generic/mechparts/body/mechbodyfuexplorer2.item": {
-    "/description": "texts/items/generic/mechparts/body/shared_mechbodyfuexplorer.json"
-  },
-  "items/generic/mechparts/body/mechbodyfuorbus.item": {
-    "/description": "texts/items/generic/mechparts/body/shared_mechbodyfuorbus.json"
-  },
-  "items/generic/mechparts/body/mechbodyfuorbusproto.item": {
-    "/description": "texts/items/generic/mechparts/body/shared_mechbodyfuorbus.json"
-  },
-  "items/generic/mechparts/body/mechbodykirhos.item": {
-    "/description": "texts/items/generic/mechparts/body/shared_mechbodykirhos.json"
-  },
-  "items/generic/mechparts/body/mechbodykirhosproto.item": {
-    "/description": "texts/items/generic/mechparts/body/shared_mechbodykirhos.json"
+  "items/generic/mechparts/body/mechbodythelusianproto.item": {
+    "/description": "texts/items/generic/mechparts/body/shared_mechbody.json"
   },
   "items/generic/mechparts/booster/mechboostersimpleupgrade.item": {
     "/description": "texts/items/generic/mechparts/booster/shared_mechboostersimpleupgrade.json"
@@ -7009,6 +7212,9 @@
   "items/generic/produce/goldenroot.consumable": {
     "/shortdescription": "texts/wide_spread_fields.json"
   },
+  "items/generic/produce/goldenseasponge.consumable": {
+    "/shortdescription": "texts/wide_spread_fields.json"
+  },
   "items/generic/produce/goldshroom.consumable": {
     "/shortdescription": "texts/wide_spread_fields.json"
   },
@@ -7050,6 +7256,9 @@
   },
   "items/generic/produce/sweetscoop.consumable": {
     "/shortdescription": "texts/wide_spread_fields.json"
+  },
+  "items/generic/produce/tentacleproduce.consumable": {
+    "/shortdescription": "texts/shared_ent.json"
   },
   "items/generic/produce/teratomato.consumable": {
     "/shortdescription": "texts/wide_spread_fields.json"
@@ -12571,6 +12780,8 @@
     "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0/glitchEmotedText": "texts/npcs/crew/crewmembergas.npctype.json"
   },
   "npcs/crew/crewmembergeologist.npctype": {
+    "/scriptConfig/crew/interactData/paneLayoutOverride/windowtitle/subtitle": "texts/npcs/shared_.npctype.json",
+    "/scriptConfig/crew/interactData/paneLayoutOverride/windowtitle/title": "texts/npcs/shared_.npctype.json",
     "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/combatBenefit/default/default/2": "texts/npcs/crew/shared_crewmember.json",
@@ -14333,6 +14544,10 @@
   },
   "npcs/sunsetriders/sunsetvillager.npctype": {
     "/scriptConfig/dialog/converse/default/default/0": "texts/npcs/shared_.npctype.json"
+  },
+  "npcs/unsorted-anid/humansmuggler.npctype": {
+    "/scriptConfig/merchant/interactData/paneLayoutOverride/windowtitle/subtitle": "texts/npcs/shared_.npctype.json",
+    "/scriptConfig/merchant/interactData/paneLayoutOverride/windowtitle/title": "texts/npcs/shared_.npctype.json"
   },
   "npcs/volcanobase/volcanobasebrute.npctype": {
     "/scriptConfig/dialog/attack/default/default/4": "texts/npcs/volcanobase/shared_volcanobase.json",
@@ -16456,6 +16671,32 @@
     "/hylotlDescription": "texts/objects/carbon/shared_carbon.json",
     "/novakidDescription": "texts/objects/carbon/shared_carbon.json"
   },
+  "objects/colonysystem2/colonydeedmk2/colonydeedmk2.object": {
+    "/apexDescription": "texts/objects/colonysystem2/colonydeedmk2/shared_colonydeedmk2.json",
+    "/avianDescription": "texts/objects/colonysystem2/colonydeedmk2/shared_colonydeedmk2.json",
+    "/description": "texts/objects/colonysystem2/colonydeedmk2/shared_colonydeedmk2.json",
+    "/floranDescription": "texts/objects/colonysystem2/colonydeedmk2/shared_colonydeedmk2.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/colonysystem2/colonydeedmk2/shared_colonydeedmk2.json",
+    "/humanDescription": "texts/objects/colonysystem2/colonydeedmk2/shared_colonydeedmk2.json",
+    "/hylotlDescription": "texts/objects/colonysystem2/colonydeedmk2/shared_colonydeedmk2.json",
+    "/novakidDescription": "texts/objects/colonysystem2/colonydeedmk2/shared_colonydeedmk2.json"
+  },
+  "objects/colonysystem2/colonydeedmk2/colonydeedmk2tiny.object": {
+    "/apexDescription": "texts/objects/colonysystem2/colonydeedmk2/shared_colonydeedmk2.json",
+    "/avianDescription": "texts/objects/colonysystem2/colonydeedmk2/shared_colonydeedmk2.json",
+    "/description": "texts/objects/colonysystem2/colonydeedmk2/shared_colonydeedmk2.json",
+    "/floranDescription": "texts/objects/colonysystem2/colonydeedmk2/shared_colonydeedmk2.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/colonysystem2/colonydeedmk2/shared_colonydeedmk2.json",
+    "/humanDescription": "texts/objects/colonysystem2/colonydeedmk2/shared_colonydeedmk2.json",
+    "/hylotlDescription": "texts/objects/colonysystem2/colonydeedmk2/shared_colonydeedmk2.json",
+    "/novakidDescription": "texts/objects/colonysystem2/colonydeedmk2/shared_colonydeedmk2.json"
+  },
+  "objects/colonysystem2/colonystation/colonystation.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/colonysystem2/colonystation/colonystation.object.json"
+  },
   "objects/contestEntries/weirdWreaths/fuwreath1.object": {
     "/description": "texts/objects/contestEntries/weirdWreaths/shared_fuwreath.json"
   },
@@ -16472,23 +16713,17 @@
     "/shortdescription": "texts/shared_corpsewagon..json"
   },
   "objects/crafting/armory/armory.object": {
-    "/description": "texts/objects/crafting/armory/shared_.object.json",
     "/shortdescription": "texts/objects/crafting/armory/shared_.object.json",
-    "/upgradeStages/0/itemSpawnParameters/description": "texts/objects/crafting/armory/shared_.object.json",
     "/upgradeStages/0/itemSpawnParameters/shortdescription": "texts/objects/crafting/armory/shared_.object.json",
     "/upgradeStages/1/itemSpawnParameters/description": "texts/objects/crafting/armory/shared_.object.json",
     "/upgradeStages/1/itemSpawnParameters/shortdescription": "texts/objects/crafting/armory/shared_.object.json",
-    "/upgradeStages/2/itemSpawnParameters/description": "texts/objects/crafting/armory/shared_.object.json",
     "/upgradeStages/2/itemSpawnParameters/shortdescription": "texts/objects/crafting/armory/shared_.object.json"
   },
   "objects/crafting/armory/armoryoutpost.object": {
-    "/description": "texts/objects/crafting/armory/shared_.object.json",
     "/shortdescription": "texts/objects/crafting/armory/shared_.object.json",
-    "/upgradeStages/0/itemSpawnParameters/description": "texts/objects/crafting/armory/shared_.object.json",
     "/upgradeStages/0/itemSpawnParameters/shortdescription": "texts/objects/crafting/armory/shared_.object.json",
     "/upgradeStages/1/itemSpawnParameters/description": "texts/objects/crafting/armory/shared_.object.json",
     "/upgradeStages/1/itemSpawnParameters/shortdescription": "texts/objects/crafting/armory/shared_.object.json",
-    "/upgradeStages/2/itemSpawnParameters/description": "texts/objects/crafting/armory/shared_.object.json",
     "/upgradeStages/2/itemSpawnParameters/shortdescription": "texts/objects/crafting/armory/shared_.object.json"
   },
   "objects/crafting/bothealingstation/pethealingstation.object": {
@@ -16603,6 +16838,15 @@
     "/floranDescription": "texts/objects/shared_.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/crafting/extraweaponupgradeanvil/extraweaponupgradeanvil.object.json"
+  },
+  "objects/crafting/fu_racializer/fu_racializer.object": {
+    "/apexDescription": "texts/wide_spread_fields.json",
+    "/avianDescription": "texts/wide_spread_fields.json",
+    "/floranDescription": "texts/wide_spread_fields.json",
+    "/glitchDescription": "texts/wide_spread_fields.json",
+    "/humanDescription": "texts/wide_spread_fields.json",
+    "/hylotlDescription": "texts/wide_spread_fields.json",
+    "/novakidDescription": "texts/wide_spread_fields.json"
   },
   "objects/crafting/fu_upgradetable/fu_upgradetable.object": {
     "/description": "texts/objects/crafting/shared_.object.json",
@@ -19125,12 +19369,10 @@
     "/shortdescription": "texts/objects/farmables/goldenroot/shared_goldenrootseed.object.json"
   },
   "objects/farmables/goldenseaspongeplant/goldenseaspongeplant.object": {
-    "/description": "texts/shared_ect.json",
-    "/shortdescription": "texts/shared_ect.json"
+    "/description": "texts/shared_ect.json"
   },
   "objects/farmables/goldenseaspongeplant/wildgoldenseasponge.object": {
-    "/description": "texts/shared_ect.json",
-    "/shortdescription": "texts/shared_ect.json"
+    "/description": "texts/shared_ect.json"
   },
   "objects/farmables/goldshroom/goldshroomseed.object": {
     "/description": "texts/shared_ect.json",
@@ -19759,8 +20001,7 @@
     "/shortdescription": "texts/objects/farmables/vextongue/shared_vextongueseed.object.json"
   },
   "objects/farmables/victorbush/victorbush.object": {
-    "/description": "texts/shared_ect.json",
-    "/shortdescription": "texts/shared_ect.json"
+    "/description": "texts/shared_ect.json"
   },
   "objects/farmables/violiroot/violirootseed.object": {
     "/apexDescription": "texts/objects/farmables/violiroot/shared_violirootseed.object.json",
@@ -26484,6 +26725,10 @@
   "objects/power/fu_quantumgenerator/fu_quantumgenerator.config": {
     "/gui/count/value": "texts/objects/power/shared_generator/shared_generator.config.json"
   },
+  "objects/power/gnomefactory/gnomefactory.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/power/gnomefactory/gnomefactory.object.json"
+  },
   "objects/power/isn_arcsmelter/isn_arcsmelter.config": {
     "/gui/clear/caption": "texts/wide_spread_fields.json"
   },
@@ -26537,28 +26782,6 @@
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value": "texts/wide_spread_fields.json",
     "/paneLayout/tbSpinCount/regex": "texts/wide_spread_fields.json",
     "/tooltip/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json"
-  },
-  "objects/power/isn_radiostation/isn_radiostation.animation": {
-    "/particleEmitters/emptySignalList/particles/0/particle/text": "texts/objects/power/isn_radiostation/shared_isn_radiostation.json",
-    "/particleEmitters/isn_medicalVendor/particles/0/particle/text": "texts/objects/power/isn_radiostation/shared_isn_radiostation.json",
-    "/particleEmitters/isn_seedsVendor/particles/0/particle/text": "texts/objects/power/isn_radiostation/shared_isn_radiostation.json",
-    "/particleEmitters/noPower/particles/0/particle/text": "texts/objects/power/isn_radiostation/shared_isn_radiostation.json",
-    "/particleEmitters/noSignal/particles/0/particle/text": "texts/objects/power/isn_radiostation/shared_isn_radiostation.json"
-  },
-  "objects/power/isn_radiostation/isn_radiostation.object": {
-    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/power/isn_radiostation/isn_radiostation.object.json",
-    "/shortdescription": "texts/objects/power/isn_radiostation/shared_isn_radiostation.json"
-  },
-  "objects/power/isn_radiostation/isn_radiostationnew.animation": {
-    "/particleEmitters/emptySignalList/particles/0/particle/text": "texts/objects/power/isn_radiostation/shared_isn_radiostation.json",
-    "/particleEmitters/isn_medicalVendor/particles/0/particle/text": "texts/objects/power/isn_radiostation/shared_isn_radiostation.json",
-    "/particleEmitters/isn_seedsVendor/particles/0/particle/text": "texts/objects/power/isn_radiostation/shared_isn_radiostation.json",
-    "/particleEmitters/noPower/particles/0/particle/text": "texts/objects/power/isn_radiostation/shared_isn_radiostation.json",
-    "/particleEmitters/noSignal/particles/0/particle/text": "texts/objects/power/isn_radiostation/shared_isn_radiostation.json"
-  },
-  "objects/power/isn_radiostation/isn_radiostationnew.object": {
-    "/shortdescription": "texts/objects/power/isn_radiostation/shared_isn_radiostation.json"
   },
   "objects/power/isn_solarpanel/isn_solarpanel.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -29555,6 +29778,10 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_ftldrive/fu_ftldrivesmalldecobroken.object.json"
   },
+  "objects/ship/fu_ftldrive/fu_stldrive.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_ftldrive/fu_stldrive.object.json"
+  },
   "objects/ship/fu_largethruster/fu_largethrusterBroken.object": {
     "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
     "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
@@ -29694,6 +29921,15 @@
     "/novakidDescription": "texts/objects/ship/shared_techstation/shared_techstation.json"
   },
   "objects/ship/fu_smallthruster/fu_smallthrusterBroken.object": {
+    "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/humanDescription": "texts/objects/ship/shared_ster/shared_ster.json",
+    "/hylotlDescription": "texts/objects/ship/shared_ster/shared_ster.json"
+  },
+  "objects/ship/fu_stlBooster_small/fu_stlBooster_small.object": {
     "/apexDescription": "texts/objects/ship/shared_ster/shared_ster.json",
     "/avianDescription": "texts/objects/ship/shared_ster/shared_ster.json",
     "/floranDescription": "texts/objects/ship/shared_ster/shared_ster.json",
@@ -37688,6 +37924,12 @@
   "quests/fu_questlines/outpost/booze/5wort.questtemplate": {
     "/title": "texts/shared_booze/shared_wort..json"
   },
+  "quests/fu_questlines/outpost/khe_stuff/khe_fabric.questtemplate": {
+    "/scriptConfig/turnInDescription": "texts/quests/fu_questlines/outpost/khe_stuff/shared_.questtemplate.json"
+  },
+  "quests/fu_questlines/outpost/khe_stuff/khe_lantern.questtemplate": {
+    "/scriptConfig/turnInDescription": "texts/quests/fu_questlines/outpost/khe_stuff/shared_.questtemplate.json"
+  },
   "quests/fu_questlines/outpost/khe_stuff/khecoinbreadcrumb.questtemplate": {
     "/title": "texts/quests/fu_questlines/outpost/khe_stuff/shared_breadcrumb.questtemplate.json"
   },
@@ -37712,6 +37954,14 @@
   "quests/fu_questlines/tutorial/extractor/extractor6.questtemplate": {
     "/title": "texts/wide_spread_fields.json"
   },
+  "quests/fu_questlines/tutorial/start_basics.questtemplate": {
+    "/completionText": "texts/quests/fu_questlines/tutorial/shared_.questtemplate.json",
+    "/scriptConfig/turnInDescription": "texts/quests/fu_questlines/tutorial/shared_.questtemplate.json"
+  },
+  "quests/fu_questlines/tutorial/start_basics1.questtemplate": {
+    "/completionText": "texts/quests/fu_questlines/tutorial/shared_.questtemplate.json",
+    "/scriptConfig/turnInDescription": "texts/quests/fu_questlines/tutorial/shared_.questtemplate.json"
+  },
   "quests/fu_questlines/tutorial/vinj/create_armory.questtemplate": {
     "/scriptConfig/turnInDescription": "texts/quests/fu_questlines/tutorial/vinj/shared_.questtemplate.json"
   },
@@ -37723,9 +37973,6 @@
     "/title": "texts/shared_rial.json"
   },
   "quests/fu_questlines/tutorial/vinj/create_growingtray.questtemplate": {
-    "/scriptConfig/turnInDescription": "texts/quests/fu_questlines/tutorial/vinj/shared_.questtemplate.json"
-  },
-  "quests/fu_questlines/tutorial/vinj/create_sprouting.questtemplate": {
     "/scriptConfig/turnInDescription": "texts/quests/fu_questlines/tutorial/vinj/shared_.questtemplate.json"
   },
   "quests/fu_questlines/tutorial/vinj/create_tinkertable.questtemplate": {
@@ -37914,7 +38161,6 @@
     "/fu_outpost1/senderName": "texts/wide_spread_fields.json",
     "/fu_outpost2/senderName": "texts/wide_spread_fields.json",
     "/fu_start_Complete/senderName": "texts/wide_spread_fields.json",
-    "/fu_start_Complete2/senderName": "texts/wide_spread_fields.json",
     "/fu_start_greetings0/senderName": "texts/wide_spread_fields.json",
     "/fu_start_greetings1/senderName": "texts/wide_spread_fields.json",
     "/fu_start_greetings2/senderName": "texts/wide_spread_fields.json",
@@ -39419,6 +39665,9 @@
   "stats/effects/fu_effects/entropicward/radienaugment1.statuseffect": {
     "/label": "texts/stats/effects/fu_effects/entropicward/shared_.statuseffect.json"
   },
+  "stats/effects/fu_effects/entropicward/tentacleeffect.statuseffect": {
+    "/label": "texts/shared_ent.json"
+  },
   "stats/effects/fu_effects/feedpack/feedpackcrew1.statuseffect": {
     "/label": "texts/stats/effects/fu_effects/feedpack/shared_feedpackcrew1.json"
   },
@@ -39895,8 +40144,14 @@
   "stats/effects/regeneration/regenmomma.statuseffect": {
     "/label": "texts/stats/effects/regeneration/shared_.statuseffect.json"
   },
+  "stats/effects/slow/cosmicslow.statuseffect": {
+    "/label": "texts/stats/effects/slow/shared_.statuseffect.json"
+  },
   "stats/effects/slow/slow.statuseffect": {
     "/label": "texts/stats/effects/shared_effect.json"
+  },
+  "stats/effects/slow/timeslip.statuseffect": {
+    "/label": "texts/stats/effects/slow/shared_.statuseffect.json"
   },
   "stats/effects/staffslow/staffslow2.statuseffect": {
     "/label": "texts/stats/effects/shared_effect.json"
@@ -42538,7 +42793,7 @@
     "/strings/questlines/fu_battle/title": "texts/wide_spread_fields.json"
   },
   "zb/questList/questList.config": {
-    "/gui/questButton/caption": "texts/shared_t.config.json",
+    "/gui/questButton/caption": "texts/shared_.config.json",
     "/gui/questTitle/value": "texts/wide_spread_fields.json",
     "/gui/textScrollArea/children/questText/value": "texts/wide_spread_fields.json",
     "/gui/textScrollArea/children/rewardList/schema/listTemplate/rewardsPixels/value": "texts/wide_spread_fields.json"
