@@ -41,6 +41,6 @@ def import_patch(patch_dir, file_dir):
 
 
 if __name__ == "__main__":
-    patch_dir_1 = "F:/FrackinUniverse"
-    file_dir_1 = "F:/FrackinUniverse-sChinese-Project/translations"
+    patch_dir_1 = "F:/Pandoras-Box_sChinese_Project/mods"
+    file_dir_1 = "F:/FrackinUniverse-sChinese-Project/translations/texts/interface"
     import_patch(patch_dir_1, file_dir_1)

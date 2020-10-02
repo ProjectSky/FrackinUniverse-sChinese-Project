@@ -5,8 +5,8 @@ foi = {
           "^(.+/)?(sub)?[tT]itle(/value)?$", "^(.+/)+caption$", "^(.+/)?label$", "^(.+/)?message$", "^.+Name/value$",
           "^.*friendlyName$", ".*senderName$", ".*destinations/.+[Nn]ame$", ".+[lL]abel[a-zA-Z]*/value$",
           "bookmarkName"],
-    ".object": ["^chatOptions/.+$",  ],
-    ".codex": ["contentPages/[0-9]+$","longContentPages/[0-9]+$"],
+    ".object": ["^chatOptions/.+$", ],
+    ".codex": ["contentPages/[0-9]+$", "longContentPages/[0-9]+$"],
     ".matherial": [],
     ".config": ["shipStatus", "^(.+/)?lbl[a-zA-Z]+/value$", "^labels/.+$", "^otherDeed/.+$", "^.*Format$",
                 "^enclosedArea/.+$", "^tagCriteria/.+$", "^hail/.+$", "^converse/.+$", "^follow/.+$", "^flee/.+$",
@@ -15,7 +15,7 @@ foi = {
                 ".+Title$", "^paneLayout/.+/value$", "areYouSure/value$", "^blueprintUnlock$",
                 "^blueprintAlreadyKnown$", "^rotTimeDescriptions/.+/1$", "^[a-zA-Z]*[mM]essages/[a-zA-Z]+$",
                 ".+[mM]essage$", "^.*(hint|regex|([a-zA-Z]*(Caption|[Tt]itle)))$", "^defaultPetNameLabel$",
-                ".*descriptions/[0-9]+$", "^(un)?trackLabel$", "^modeTypeTextAndColor/[0-9]+/[0-9]+$"],
+                ".*descriptions/[0-9]+$", "^(un)?trackLabel$", "^modeTypeTextAndColor/[0-9]+/[0-9]+$", ".+research/.+$", ".+trees/.+$"],
     "themes.config": ["^[0-9]+/1/[0-9]+/(0|(1/)?name)$"],
     "dungeonitems.config": ["^[0-9]+/1/[0-9]+/(0|(1/)?name)$"],
     "threats.config": ["^[0-9]+/1/[0-9]+/(0|(1/)?name)$"],
@@ -84,13 +84,12 @@ foi = {
     ".collection": [],
     ".animation": [],
     ".aicommand": ['.+/buttonText$'],
-    "data.config": [".+info/.+$"],
-    "madness.config": [".+research/.+$"],
+    "data.config": [".+info/.+$", ".+currencies/.+$"],
     "system_objects.config": [".*/displayName$"],
     "parts.config": [".*/displayName$"],
     "extraStatsWindow.config": ["^tooltipBoxes/[0-9]+/tooltip$", "^defaultTooltip$"],
     "statWindow.config": [".*/name$"],
-    "spaceStationData.config":["^medical/[0-9]+/(0|4)$","^military/[0-9]+/(0|4)$","^quests/.+/(objective|time|reward)$"]
+    "spaceStationData.config": ["^medical/[0-9]+/(0|4)$", "^military/[0-9]+/(0|4)$", "^quests/.+/(objective|time|reward)$"]
 }
 files_of_interest = dict()
 for ext, poi in foi.items():
