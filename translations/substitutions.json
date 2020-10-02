@@ -24,6 +24,11 @@
     "/gui/outputLabel/value": "texts/bees/interface/beeexaminer/shared_beeexaminer.json",
     "/gui/statuslabel/value": "texts/bees/interface/beeexaminer/shared_beeexaminer.json"
   },
+  "bees/interface/beeexaminer/beeexaminer3.config": {
+    "/gui/inputLabel/value": "texts/bees/interface/beeexaminer/shared_beeexaminer.json",
+    "/gui/outputLabel/value": "texts/bees/interface/beeexaminer/shared_beeexaminer.json",
+    "/gui/statuslabel/value": "texts/bees/interface/beeexaminer/shared_beeexaminer.json"
+  },
   "bees/monsters/honey.monstertype": {
     "/shortdescription": "texts/wide_spread_fields.json"
   },
@@ -3354,7 +3359,9 @@
     "/paneLayout/lblSchematics/value": "texts/interface/windowconfig/shared_.config.json",
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value": "texts/wide_spread_fields.json",
-    "/paneLayout/tbSpinCount/regex": "texts/wide_spread_fields.json"
+    "/paneLayout/tbSpinCount/regex": "texts/wide_spread_fields.json",
+    "/paneLayout/windowtitle/subtitle": "texts/interface/windowconfig/shared_crafting.json",
+    "/paneLayout/windowtitle/title": "texts/interface/windowconfig/shared_crafting.json"
   },
   "interface/windowconfig/craftingcrewshop.config": {
     "/paneLayout/btnCraft/caption": "texts/wide_spread_fields.json",
@@ -3395,6 +3402,19 @@
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value": "texts/wide_spread_fields.json",
     "/paneLayout/tbSpinCount/regex": "texts/wide_spread_fields.json"
+  },
+  "interface/windowconfig/craftingold.config": {
+    "/paneLayout/btnCraft/caption": "texts/wide_spread_fields.json",
+    "/paneLayout/btnStopCraft/caption": "texts/wide_spread_fields.json",
+    "/paneLayout/filter/hint": "texts/wide_spread_fields.json",
+    "/paneLayout/lblProduct/value": "texts/wide_spread_fields.json",
+    "/paneLayout/lblProducttitle/value": "texts/interface/windowconfig/shared_.config.json",
+    "/paneLayout/lblSchematics/value": "texts/interface/windowconfig/shared_.config.json",
+    "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
+    "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value": "texts/wide_spread_fields.json",
+    "/paneLayout/tbSpinCount/regex": "texts/wide_spread_fields.json",
+    "/paneLayout/windowtitle/subtitle": "texts/interface/windowconfig/shared_crafting.json",
+    "/paneLayout/windowtitle/title": "texts/interface/windowconfig/shared_crafting.json"
   },
   "interface/windowconfig/craftingslimecentrifuge.config": {
     "/paneLayout/btnCraft/caption": "texts/interface/windowconfig/shared_.config.json",
@@ -37962,6 +37982,12 @@
     "/completionText": "texts/quests/fu_questlines/tutorial/shared_.questtemplate.json",
     "/scriptConfig/turnInDescription": "texts/quests/fu_questlines/tutorial/shared_.questtemplate.json"
   },
+  "quests/fu_questlines/tutorial/start_basics3.questtemplate": {
+    "/title": "texts/quests/fu_questlines/tutorial/shared_.questtemplate.json"
+  },
+  "quests/fu_questlines/tutorial/start_basics3b.questtemplate": {
+    "/title": "texts/quests/fu_questlines/tutorial/shared_.questtemplate.json"
+  },
   "quests/fu_questlines/tutorial/vinj/create_armory.questtemplate": {
     "/scriptConfig/turnInDescription": "texts/quests/fu_questlines/tutorial/vinj/shared_.questtemplate.json"
   },
@@ -42798,8 +42824,14 @@
     "/gui/textScrollArea/children/questText/value": "texts/wide_spread_fields.json",
     "/gui/textScrollArea/children/rewardList/schema/listTemplate/rewardsPixels/value": "texts/wide_spread_fields.json"
   },
+  "zb/researchTree/data.config": {
+    "/strings/info/0": "texts/zb/researchTree/shared_.config.json",
+    "/strings/info/1": "texts/zb/researchTree/shared_.config.json"
+  },
   "zb/researchTree/madness.config": {
-    "/strings/research/cosmic2/0": "texts/wide_spread_fields.json"
+    "/strings/research/cosmic2/0": "texts/wide_spread_fields.json",
+    "/strings/research/default/0": "texts/zb/researchTree/shared_.config.json",
+    "/strings/research/default/1": "texts/zb/researchTree/shared_.config.json"
   },
   "zb/researchTree/researchTree.config": {
     "/gui/researchButton/caption": "texts/shared_res.json",
