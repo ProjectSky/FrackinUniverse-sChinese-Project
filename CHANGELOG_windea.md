@@ -30,3 +30,4 @@
 * [X] 统一燃料的描述，如：`^blue;燃料+^white;3^reset;`
 * [X] 统一肥料的描述，如：`^green;产量+^white;1^reset;\n^cyan;液体消耗-^white;0.5^gray;&^cyan;种子消耗-^white;1^reset;`
 * [X] "给予"→"赋予"
+* [X] 对一些描述中的效果描述换行并润色
