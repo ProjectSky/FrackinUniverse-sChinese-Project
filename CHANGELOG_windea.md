@@ -31,3 +31,4 @@
 * [X] 统一肥料的描述，如：`^green;产量+^white;1^reset;\n^cyan;液体消耗-^white;0.5^gray;&^cyan;种子消耗-^white;1^reset;`
 * [X] "给予"→"赋予"
 * [X] 对一些描述中的效果描述换行并润色
+* [X] `可在^orange;工具升级站^reset;进行升级。`之前加换行符
