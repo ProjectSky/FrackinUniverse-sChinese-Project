@@ -28,3 +28,4 @@
 * [X] 合并分支，解决冲突
 * [X] 简化武器类型的描述，统一使用黄色表示，如：`^yellow;能量武器^reset;`
 * [X] 统一燃料的描述，如：`^blue;燃料+^white;3^reset;`
+* [X] 统一肥料的描述，如：`^green;产量+^white;1^reset;\n^cyan;液体消耗-^white;0.5^gray;&^cyan;种子消耗-^white;1^reset;`
