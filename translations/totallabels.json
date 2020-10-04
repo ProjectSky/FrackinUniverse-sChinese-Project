@@ -14,7 +14,7 @@
       "fenerox.config.json": 4,
       "flee.config.json": 38,
       "guard.config.json": 10,
-      "merchant.config.json": 183,
+      "merchant.config.json": 186,
       "quest.config.json": 47,
       "shared_.config.json": 35,
       "thief.config.json": 9
@@ -261,7 +261,9 @@
       "categories.config.json": 61,
       "generic": {
         "crafting": {
-          "uraniumore.item.json": 1
+          "polymer.item.json": 2,
+          "titaniumore.item.json": 1,
+          "tungstenbar.item.json": 1
         },
         "drinks": {
           "chestojuice": {
@@ -304,6 +306,7 @@
             "baconpancakes.consumable.json": 1,
             "beakseedbread.consumable.json": 1,
             "beakseedjam.consumable.json": 1,
+            "bonbonbonbons.consumable.json": 1,
             "bonbons.consumable.json": 1,
             "cactusjuice.consumable.json": 1,
             "candiedcorn.consumable.json": 1,
@@ -415,12 +418,16 @@
           "rawbacon.consumable.json": 1,
           "rawfish.consumable.json": 1,
           "rawham.consumable.json": 1,
-          "rawpoultry.consumable.json": 1,
-          "rawribmeat.consumable.json": 1
+          "rawpoultry.consumable.json": 1
         },
         "mechparts": {
           "arm": {
+            "mecharmdrill.item.json": 1,
             "mecharmshielddrone.item.json": 2
+          },
+          "body": {
+            "shared_mechbody.json": 3,
+            "shared_proto.item.json": 1
           }
         },
         "other": {
@@ -585,6 +592,7 @@
         "transponder.questtemplate.json": 1
       },
       "outpost": {
+        "mechunlock.questtemplate.json": 1,
         "outpostclue.questtemplate.json": 1,
         "techscientist4.questtemplate.json": 1,
         "techscientist5.questtemplate.json": 2,
@@ -598,16 +606,16 @@
       }
     },
     "quickbar": {
-      "icons.json.json": 3
+      "icons.json.json": 4
     },
     "radiomessages": {
-      "exploration.radiomessages.json": 39,
+      "exploration.radiomessages.json": 41,
       "intro.radiomessages.json": 1,
       "mech.radiomessages.json": 25,
       "missions.radiomessages.json": 298,
       "quests.radiomessages.json": 5,
       "techchallenge.radiomessages.json": 1,
-      "tutorial.radiomessages.json": 2
+      "tutorial.radiomessages.json": 3
     },
     "species": {
       "aegi.species.json": 1,
@@ -6708,7 +6716,7 @@
           "drugdirt.consumable.json": 2,
           "faceskin.consumable.json": 2,
           "feces.consumable.json": 2,
-          "fuancientkey.consumable.json": 1,
+          "fuancientkey.item.json": 1,
           "gravstim.consumable.json": 2,
           "healing": {
             "antipsychotics.consumable.json": 2,
