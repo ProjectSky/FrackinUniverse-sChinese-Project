@@ -56,6 +56,9 @@
   "biomes/space/iceasteroids.biome": {
     "/friendlyName": "texts/wide_spread_fields.json"
   },
+  "biomes/surface/aethersea.biome": {
+    "/friendlyName": "texts/wide_spread_fields.json"
+  },
   "biomes/surface/arboreal.biome": {
     "/friendlyName": "texts/wide_spread_fields.json"
   },
@@ -2243,6 +2246,7 @@
     "/gui/jumpDialog/children/cancel/caption": "texts/interface.json",
     "/gui/windowtitle/subtitle": "texts/interface/shared_cockpit.json",
     "/gui/windowtitle/title": "texts/interface/shared_cockpit.json",
+    "/planetTypeNames/aethersea": "texts/wide_spread_fields.json",
     "/planetTypeNames/arboreal": "texts/wide_spread_fields.json",
     "/planetTypeNames/arctic": "texts/wide_spread_fields.json",
     "/planetTypeNames/asteroids": "texts/wide_spread_fields.json",
@@ -7077,6 +7081,9 @@
   "items/generic/loot/artifacts/artifact5.item": {
     "/description": "texts/items/generic/loot/artifacts/shared_artifact.json",
     "/shortdescription": "texts/items/generic/loot/artifacts/shared_artifact.json"
+  },
+  "items/generic/loot/fuancientkey.consumable": {
+    "/shortdescription": "texts/wide_spread_fields.json"
   },
   "items/generic/loot/mission/luckycoin.item": {
     "/shortdescription": "texts/wide_spread_fields.json"
@@ -24222,6 +24229,9 @@
     "/description": "texts/objects/minibiome/lightless/shared_tonguebush.json",
     "/shortdescription": "texts/objects/minibiome/lightless/shared_tonguebush.json"
   },
+  "objects/minibiome/metallic/device1.object": {
+    "/shortdescription": "texts/wide_spread_fields.json"
+  },
   "objects/minibiome/metallic/metallicceiling1.object": {
     "/description": "texts/objects/minibiome/metallic/shared_metallicceiling.json",
     "/shortdescription": "texts/objects/minibiome/metallic/shared_metallicceiling.json"
@@ -26769,10 +26779,12 @@
     "/shortdescription": "texts/wide_spread_fields.json"
   },
   "objects/power/isn_powdersifter/fu_woodensifter.config": {
-    "/gui/clear/caption": "texts/wide_spread_fields.json"
+    "/gui/clear/caption": "texts/wide_spread_fields.json",
+    "/gui/inputLabel/value": "texts/wide_spread_fields.json"
   },
   "objects/power/isn_powdersifter/isn_powdersifter.config": {
-    "/gui/clear/caption": "texts/wide_spread_fields.json"
+    "/gui/clear/caption": "texts/wide_spread_fields.json",
+    "/gui/inputLabel/value": "texts/wide_spread_fields.json"
   },
   "objects/power/isn_radiostation/configs/isn_medicalvendor.config": {
     "/paneLayout/btnCraft/caption": "texts/wide_spread_fields.json",
@@ -37982,12 +37994,6 @@
     "/completionText": "texts/quests/fu_questlines/tutorial/shared_.questtemplate.json",
     "/scriptConfig/turnInDescription": "texts/quests/fu_questlines/tutorial/shared_.questtemplate.json"
   },
-  "quests/fu_questlines/tutorial/start_basics3.questtemplate": {
-    "/title": "texts/quests/fu_questlines/tutorial/shared_.questtemplate.json"
-  },
-  "quests/fu_questlines/tutorial/start_basics3b.questtemplate": {
-    "/title": "texts/quests/fu_questlines/tutorial/shared_.questtemplate.json"
-  },
   "quests/fu_questlines/tutorial/vinj/create_armory.questtemplate": {
     "/scriptConfig/turnInDescription": "texts/quests/fu_questlines/tutorial/vinj/shared_.questtemplate.json"
   },
@@ -38186,11 +38192,17 @@
   "radiomessages/fu_quests.radiomessages": {
     "/fu_outpost1/senderName": "texts/wide_spread_fields.json",
     "/fu_outpost2/senderName": "texts/wide_spread_fields.json",
-    "/fu_start_Complete/senderName": "texts/wide_spread_fields.json",
+    "/fu_start_Complete1a/senderName": "texts/wide_spread_fields.json",
+    "/fu_start_Complete1b/senderName": "texts/wide_spread_fields.json",
+    "/fu_start_Complete1c/senderName": "texts/wide_spread_fields.json",
     "/fu_start_greetings0/senderName": "texts/wide_spread_fields.json",
     "/fu_start_greetings1/senderName": "texts/wide_spread_fields.json",
+    "/fu_start_greetings1b/senderName": "texts/wide_spread_fields.json",
     "/fu_start_greetings2/senderName": "texts/wide_spread_fields.json",
+    "/fu_start_greetingspickaxe/senderName": "texts/wide_spread_fields.json",
     "/fu_start_makeElectromagnet/senderName": "texts/wide_spread_fields.json",
+    "/fu_start_makeForaging/senderName": "texts/wide_spread_fields.json",
+    "/fu_start_makeFurnace/senderName": "texts/wide_spread_fields.json",
     "/fu_start_makeTable/senderName": "texts/wide_spread_fields.json",
     "/fu_start_makeWire/senderName": "texts/wide_spread_fields.json",
     "/fu_start_needstricorder/senderName": "texts/wide_spread_fields.json",
@@ -40161,11 +40173,17 @@
   "stats/effects/regeneration/regeneration5.statuseffect": {
     "/label": "texts/stats/effects/regeneration/shared_.statuseffect.json"
   },
+  "stats/effects/regeneration/regenerationblock.statuseffect": {
+    "/label": "texts/stats/effects/regeneration/shared_.statuseffect.json"
+  },
   "stats/effects/regeneration/regenerationminor3.statuseffect": {
     "/label": "texts/stats/effects/regeneration/shared_regenerationm.json"
   },
   "stats/effects/regeneration/regenerationmommatop.statuseffect": {
     "/label": "texts/stats/effects/regeneration/shared_regenerationm.json"
+  },
+  "stats/effects/regeneration/regenerationpleb.statuseffect": {
+    "/label": "texts/stats/effects/regeneration/shared_.statuseffect.json"
   },
   "stats/effects/regeneration/regenmomma.statuseffect": {
     "/label": "texts/stats/effects/regeneration/shared_.statuseffect.json"
