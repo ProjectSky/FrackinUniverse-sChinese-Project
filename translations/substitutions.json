@@ -2222,20 +2222,35 @@
     "/gui/clear/caption": "texts/wide_spread_fields.json"
   },
   "interface/cockpit/cockpit.config": {
+    "/displayOres/aegisalt/displayName": "texts/shared_.config.json",
     "/displayOres/cinnabar/displayName": "texts/wide_spread_fields.json",
+    "/displayOres/copper/displayName": "texts/shared_.config.json",
     "/displayOres/corruption/displayName": "texts/wide_spread_fields.json",
+    "/displayOres/densinium/displayName": "texts/shared_.config.json",
+    "/displayOres/durasteel/displayName": "texts/shared_.config.json",
     "/displayOres/effigium/displayName": "texts/shared_fig.json",
+    "/displayOres/ferozium/displayName": "texts/shared_.config.json",
     "/displayOres/fublooddiamond/displayName": "texts/wide_spread_fields.json",
+    "/displayOres/iron/displayName": "texts/shared_.config.json",
     "/displayOres/irradium/displayName": "texts/wide_spread_fields.json",
     "/displayOres/isogen/displayName": "texts/wide_spread_fields.json",
     "/displayOres/junkmod/displayName": "texts/wide_spread_fields.json",
     "/displayOres/koanite/displayName": "texts/wide_spread_fields.json",
+    "/displayOres/moonstone/displayName": "texts/shared_.config.json",
     "/displayOres/neptunium/displayName": "texts/wide_spread_fields.json",
+    "/displayOres/nocxium/displayName": "texts/shared_.config.json",
     "/displayOres/penumbrite/displayName": "texts/wide_spread_fields.json",
+    "/displayOres/plutonium/displayName": "texts/shared_.config.json",
     "/displayOres/protocite/displayName": "texts/wide_spread_fields.json",
     "/displayOres/pyreite/displayName": "texts/wide_spread_fields.json",
     "/displayOres/quietus/displayName": "texts/wide_spread_fields.json",
+    "/displayOres/solarium/displayName": "texts/shared_.config.json",
     "/displayOres/thorium/displayName": "texts/wide_spread_fields.json",
+    "/displayOres/titanium/displayName": "texts/shared_.config.json",
+    "/displayOres/trianglium/displayName": "texts/shared_.config.json",
+    "/displayOres/tungsten/displayName": "texts/shared_.config.json",
+    "/displayOres/uranium/displayName": "texts/shared_.config.json",
+    "/displayOres/violium/displayName": "texts/shared_.config.json",
     "/displayOres/xithricite/displayName": "texts/wide_spread_fields.json",
     "/displayOres/zerchesium/displayName": "texts/wide_spread_fields.json",
     "/displayWeathers/fubuggy/displayName": "texts/wide_spread_fields.json",
@@ -3923,6 +3938,9 @@
   },
   "items/active/unsorted/madnessvoxel/madnesstoken.activeitem": {
     "/description": "texts/items/active/unsorted/madnessvoxel/shared_.activeitem.json",
+    "/shortdescription": "texts/wide_spread_fields.json"
+  },
+  "items/active/unsorted/paintingRandom/paintingrandom.activeitem": {
     "/shortdescription": "texts/wide_spread_fields.json"
   },
   "items/active/unsorted/statusTablet/researchtablet.activeitem": {
@@ -6671,11 +6689,17 @@
     "/description": "texts/items/augments/quest/shared_apexartifact.json",
     "/shortdescription": "texts/items/augments/quest/shared_apexartifact.json"
   },
+  "items/currency/fugeneticmaterial.currency": {
+    "/shortdescription": "texts/wide_spread_fields.json"
+  },
   "items/currency/fumadnessresource.currency": {
     "/shortdescription": "texts/wide_spread_fields.json"
   },
+  "items/currency/fuprecursorresource.currency": {
+    "/shortdescription": "texts/wide_spread_fields.json"
+  },
   "items/currency/fuscienceresource.currency": {
-    "/shortdescription": "texts/shared_res.json"
+    "/shortdescription": "texts/wide_spread_fields.json"
   },
   "items/fossils/giantbatfossil/giantbatfossil1.item": {
     "/description": "texts/items/fossils/giantbatfossil/shared_giantbatfossil.json",
@@ -6686,6 +6710,9 @@
     "/shortdescription": "texts/items/fossils/giantbatfossil/shared_giantbatfossil.json"
   },
   "items/generic/crafting/blooddiamond.item": {
+    "/shortdescription": "texts/wide_spread_fields.json"
+  },
+  "items/generic/crafting/chemlab/ff_fertilizer.item": {
     "/shortdescription": "texts/wide_spread_fields.json"
   },
   "items/generic/crafting/cinnabarore.item": {
@@ -6712,10 +6739,22 @@
   "items/generic/crafting/ff_spareparts.item": {
     "/shortdescription": "texts/wide_spread_fields.json"
   },
+  "items/generic/crafting/fissionfurnace/precursoralloy.item": {
+    "/shortdescription": "texts/wide_spread_fields.json"
+  },
+  "items/generic/crafting/fissionfurnace/solaricrystal.item": {
+    "/shortdescription": "texts/wide_spread_fields.json"
+  },
   "items/generic/crafting/fissionfurnace/xithricitecrystal.item": {
     "/shortdescription": "texts/wide_spread_fields.json"
   },
+  "items/generic/crafting/fu_carbon.item": {
+    "/shortdescription": "texts/wide_spread_fields.json"
+  },
   "items/generic/crafting/fu_hydrogen.item": {
+    "/shortdescription": "texts/wide_spread_fields.json"
+  },
+  "items/generic/crafting/fu_hydrogenmetallic.item": {
     "/shortdescription": "texts/wide_spread_fields.json"
   },
   "items/generic/crafting/fuflesh.item": {
@@ -7309,6 +7348,9 @@
     "/shortdescription": "texts/wide_spread_fields.json"
   },
   "items/liquids/liquidblood.liqitem": {
+    "/shortdescription": "texts/wide_spread_fields.json"
+  },
+  "items/liquids/liquidmechfuel.liqitem": {
     "/shortdescription": "texts/wide_spread_fields.json"
   },
   "items/materials/aegisaltcrystal.matitem": {
@@ -11015,7 +11057,7 @@
     "/scriptConfig/dialog/crewmember/respawned/default/default/7": "texts/npcs/crew/shared_crewmember.json"
   },
   "npcs/crew/catcrewmemberengineer.npctype": {
-    "/scriptConfig/crew/role/field": "texts/npcs/crew/shared_crewmemberengineer.json"
+    "/scriptConfig/crew/role/field": "texts/shared_engineer.json"
   },
   "npcs/crew/catcrewmemberjanitor.npctype": {
     "/scriptConfig/crew/role/field": "texts/npcs/crew/shared_crewmemberjanitor.npctype.json",
@@ -11580,7 +11622,7 @@
     "/scriptConfig/crew/ranks/7": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/crew/ranks/8": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/crew/ranks/9": "texts/npcs/crew/shared_crewmember.json",
-    "/scriptConfig/crew/role/field": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/crew/role/field": "texts/wide_spread_fields.json",
     "/scriptConfig/dialog/crewmember/cantreach/default/default/0": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/cantreach/default/default/1": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/cantreach/default/default/2": "texts/npcs/crew/shared_crewmember.json",
@@ -12075,7 +12117,7 @@
     "/scriptConfig/crew/ranks/7": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/crew/ranks/8": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/crew/ranks/9": "texts/npcs/crew/shared_crewmember.json",
-    "/scriptConfig/crew/role/field": "texts/npcs/crew/shared_crewmember.json",
+    "/scriptConfig/crew/role/field": "texts/wide_spread_fields.json",
     "/scriptConfig/dialog/crewmember/cantreach/default/default/0": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/cantreach/default/default/1": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/cantreach/default/default/2": "texts/npcs/crew/shared_crewmember.json",
@@ -12431,7 +12473,7 @@
     "/scriptConfig/dialog/crewmember/unfollow/penguin/default/3": "texts/npcs/crew/shared_crewmember.json"
   },
   "npcs/crew/crewmemberengineer2.npctype": {
-    "/scriptConfig/crew/role/field": "texts/npcs/crew/shared_crewmemberengineer.json"
+    "/scriptConfig/crew/role/field": "texts/shared_engineer.json"
   },
   "npcs/crew/crewmemberfubees.npctype": {
     "/scriptConfig/dialog/crewmember/cantreach/floran/default/0": "texts/npcs/crew/shared_crewmember.json",
@@ -12809,6 +12851,7 @@
   "npcs/crew/crewmembergeologist.npctype": {
     "/scriptConfig/crew/interactData/paneLayoutOverride/windowtitle/subtitle": "texts/npcs/shared_.npctype.json",
     "/scriptConfig/crew/interactData/paneLayoutOverride/windowtitle/title": "texts/npcs/shared_.npctype.json",
+    "/scriptConfig/crew/role/field": "texts/shared_geolog.json",
     "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1": "texts/npcs/crew/shared_crewmember.json",
     "/scriptConfig/dialog/crewmember/combatBenefit/default/default/2": "texts/npcs/crew/shared_crewmember.json",
@@ -17984,7 +18027,8 @@
   },
   "objects/drinks/coffeeobject/coffeeobject.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/drinks/coffeeobject/coffeeobject.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/drinks/coffeeobject/coffeeobject.object.json",
+    "/shortdescription": "texts/wide_spread_fields.json"
   },
   "objects/drinks/flatwhiteobject/flatwhiteobject.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -37977,6 +38021,9 @@
   "quests/fu_questlines/science/electronics/create_aichip.questtemplate": {
     "/title": "texts/wide_spread_fields.json"
   },
+  "quests/fu_questlines/science/electronics/create_solarpanel.questtemplate": {
+    "/title": "texts/wide_spread_fields.json"
+  },
   "quests/fu_questlines/science/mechanical/create_blackglass.questtemplate": {
     "/completionText": "texts/quests/fu_questlines/science/mechanical/shared_.questtemplate.json"
   },
@@ -38007,8 +38054,12 @@
   "quests/fu_questlines/tutorial/vinj/create_growingtray.questtemplate": {
     "/scriptConfig/turnInDescription": "texts/quests/fu_questlines/tutorial/vinj/shared_.questtemplate.json"
   },
+  "quests/fu_questlines/tutorial/vinj/create_sprouting.questtemplate": {
+    "/title": "texts/shared_quest.json"
+  },
   "quests/fu_questlines/tutorial/vinj/create_tinkertable.questtemplate": {
-    "/scriptConfig/turnInDescription": "texts/quests/fu_questlines/tutorial/vinj/shared_.questtemplate.json"
+    "/scriptConfig/turnInDescription": "texts/quests/fu_questlines/tutorial/vinj/shared_.questtemplate.json",
+    "/title": "texts/wide_spread_fields.json"
   },
   "quests/fu_questlines/tutorial/vinj/create_woodencentrifuge.questtemplate": {
     "/scriptConfig/turnInDescription": "texts/quests/fu_questlines/tutorial/vinj/shared_.questtemplate.json",
@@ -42834,7 +42885,12 @@
     "/gui/path/value": "texts/shared_ail.json"
   },
   "zb/questList/data.config": {
-    "/strings/questlines/fu_battle/title": "texts/wide_spread_fields.json"
+    "/strings/questlines/fu_battle/title": "texts/wide_spread_fields.json",
+    "/strings/sublines/fu_chemistry": "texts/zb/shared_.config.json",
+    "/strings/sublines/fu_electronics": "texts/zb/shared_.config.json",
+    "/strings/sublines/fu_genetics": "texts/shared_quest.json",
+    "/strings/sublines/fu_kevin": "texts/wide_spread_fields.json",
+    "/strings/sublines/fu_vinj": "texts/wide_spread_fields.json"
   },
   "zb/questList/questList.config": {
     "/gui/questButton/caption": "texts/shared_.config.json",
@@ -42843,8 +42899,99 @@
     "/gui/textScrollArea/children/rewardList/schema/listTemplate/rewardsPixels/value": "texts/wide_spread_fields.json"
   },
   "zb/researchTree/data.config": {
+    "/strings/currencies/fugeneticmaterial": "texts/wide_spread_fields.json",
+    "/strings/currencies/fumadnessresource": "texts/wide_spread_fields.json",
+    "/strings/currencies/fuprecursorresource": "texts/wide_spread_fields.json",
+    "/strings/currencies/fuscienceresource": "texts/wide_spread_fields.json",
     "/strings/info/0": "texts/zb/researchTree/shared_.config.json",
     "/strings/info/1": "texts/zb/researchTree/shared_.config.json"
+  },
+  "zb/researchTree/fu_agriculture.config": {
+    "/strings/research/default/0": "texts/zb/researchTree/shared_.config.json",
+    "/strings/research/default/1": "texts/zb/researchTree/shared_.config.json",
+    "/strings/research/survival_1/0": "texts/zb/researchTree/shared_.config.json",
+    "/strings/research/survival_1/1": "texts/zb/researchTree/shared_.config.json"
+  },
+  "zb/researchTree/fu_chemistry.config": {
+    "/strings/research/chemistryn/0": "texts/zb/shared_.config.json",
+    "/strings/research/default/0": "texts/zb/researchTree/shared_.config.json",
+    "/strings/research/default/1": "texts/zb/researchTree/shared_.config.json",
+    "/strings/research/explosives1/0": "texts/wide_spread_fields.json",
+    "/strings/research/fertilizer1/0": "texts/wide_spread_fields.json",
+    "/strings/research/mechfuel/0": "texts/wide_spread_fields.json",
+    "/strings/research/metallichydrogen/0": "texts/wide_spread_fields.json",
+    "/strings/research/survival_1/0": "texts/zb/researchTree/shared_.config.json",
+    "/strings/trees/fu_chemistry": "texts/zb/shared_.config.json"
+  },
+  "zb/researchTree/fu_craftsmanship.config": {
+    "/strings/research/coffee/0": "texts/wide_spread_fields.json",
+    "/strings/research/default/0": "texts/zb/researchTree/shared_.config.json",
+    "/strings/research/default/1": "texts/zb/researchTree/shared_.config.json",
+    "/strings/research/painting/0": "texts/wide_spread_fields.json",
+    "/strings/research/survival_1/0": "texts/zb/researchTree/shared_.config.json"
+  },
+  "zb/researchTree/fu_engineering.config": {
+    "/strings/research/default/0": "texts/zb/researchTree/shared_.config.json",
+    "/strings/research/default/1": "texts/zb/researchTree/shared_.config.json",
+    "/strings/research/survival_1/0": "texts/zb/researchTree/shared_.config.json",
+    "/strings/research/survival_1/1": "texts/zb/researchTree/shared_.config.json",
+    "/strings/research/terraformer/0": "texts/zb/researchTree/shared_.config.json",
+    "/strings/research/terraformer2/0": "texts/zb/researchTree/shared_.config.json",
+    "/strings/research/tinkering1/0": "texts/wide_spread_fields.json",
+    "/strings/trees/fu_engineering": "texts/shared_engineer.json"
+  },
+  "zb/researchTree/fu_geology.config": {
+    "/strings/research/isotopes1/0": "texts/shared_.config.json",
+    "/strings/research/isotopes2/0": "texts/shared_.config.json",
+    "/strings/research/isotopes3/0": "texts/wide_spread_fields.json",
+    "/strings/research/isotopes4/0": "texts/wide_spread_fields.json",
+    "/strings/research/metals_aegisalt/0": "texts/shared_.config.json",
+    "/strings/research/metals_alloy5/0": "texts/wide_spread_fields.json",
+    "/strings/research/metals_carbon/0": "texts/wide_spread_fields.json",
+    "/strings/research/metals_copper/0": "texts/shared_.config.json",
+    "/strings/research/metals_densinium/0": "texts/shared_.config.json",
+    "/strings/research/metals_durasteel/0": "texts/shared_.config.json",
+    "/strings/research/metals_effigium/0": "texts/shared_fig.json",
+    "/strings/research/metals_ferozium/0": "texts/shared_.config.json",
+    "/strings/research/metals_iron/0": "texts/shared_.config.json",
+    "/strings/research/metals_irradium/0": "texts/wide_spread_fields.json",
+    "/strings/research/metals_isogen/0": "texts/wide_spread_fields.json",
+    "/strings/research/metals_lasombrium/0": "texts/wide_spread_fields.json",
+    "/strings/research/metals_lunari/0": "texts/wide_spread_fields.json",
+    "/strings/research/metals_nocxium/0": "texts/shared_.config.json",
+    "/strings/research/metals_penumbrite/0": "texts/wide_spread_fields.json",
+    "/strings/research/metals_plasmiccrystal/0": "texts/wide_spread_fields.json",
+    "/strings/research/metals_protocite/0": "texts/wide_spread_fields.json",
+    "/strings/research/metals_pyreite/0": "texts/wide_spread_fields.json",
+    "/strings/research/metals_quietus/0": "texts/wide_spread_fields.json",
+    "/strings/research/metals_solarium/0": "texts/shared_.config.json",
+    "/strings/research/metals_telebrium/0": "texts/shared_.config.json",
+    "/strings/research/metals_titanium/0": "texts/shared_.config.json",
+    "/strings/research/metals_trianglium/0": "texts/shared_.config.json",
+    "/strings/research/metals_tungsten/0": "texts/shared_.config.json",
+    "/strings/research/metals_violium/0": "texts/shared_.config.json",
+    "/strings/research/metals_zerchesium/0": "texts/wide_spread_fields.json",
+    "/strings/research/survival_1/0": "texts/zb/researchTree/shared_.config.json",
+    "/strings/research/survival_1/1": "texts/zb/researchTree/shared_.config.json",
+    "/strings/research/terraforming2/0": "texts/zb/researchTree/shared_.config.json",
+    "/strings/research/terraforming3/0": "texts/zb/researchTree/shared_.config.json",
+    "/strings/trees/fu_geology": "texts/shared_geolog.json"
+  },
+  "zb/researchTree/fu_power.config": {
+    "/strings/research/default/0": "texts/zb/researchTree/shared_.config.json",
+    "/strings/research/default/1": "texts/zb/researchTree/shared_.config.json",
+    "/strings/research/electronicsbasic/0": "texts/zb/shared_.config.json",
+    "/strings/research/solar1/0": "texts/wide_spread_fields.json",
+    "/strings/research/survival_1/0": "texts/zb/researchTree/shared_.config.json",
+    "/strings/research/survival_1/1": "texts/zb/researchTree/shared_.config.json",
+    "/strings/trees/fu_power": "texts/zb/shared_.config.json"
+  },
+  "zb/researchTree/fu_warcraft.config": {
+    "/strings/research/default/0": "texts/zb/researchTree/shared_.config.json",
+    "/strings/research/default/1": "texts/zb/researchTree/shared_.config.json",
+    "/strings/research/durasteelgear/0": "texts/shared_.config.json",
+    "/strings/research/survival_1/0": "texts/zb/researchTree/shared_.config.json",
+    "/strings/research/survival_1/1": "texts/zb/researchTree/shared_.config.json"
   },
   "zb/researchTree/madness.config": {
     "/strings/research/cosmic2/0": "texts/wide_spread_fields.json",
@@ -42852,7 +42999,7 @@
     "/strings/research/default/1": "texts/zb/researchTree/shared_.config.json"
   },
   "zb/researchTree/researchTree.config": {
-    "/gui/researchButton/caption": "texts/shared_res.json",
+    "/gui/researchButton/caption": "texts/wide_spread_fields.json",
     "/gui/title/value": "texts/wide_spread_fields.json"
   },
   "zb/updateInfoWindow/updateInfoWindow.config": {
