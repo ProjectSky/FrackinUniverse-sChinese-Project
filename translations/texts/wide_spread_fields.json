@@ -61,29 +61,6 @@
       "objects/doorprops/wizardsdoorprop/wizardsdoorprop.object": [
         "/description"
       ],
-      "objects/generic/crewshop/crewshop.object": [
-        "/apexDescription",
-        "/avianDescription",
-        "/floranDescription",
-        "/glitchDescription",
-        "/humanDescription",
-        "/hylotlDescription",
-        "/novakidDescription",
-        "/upgradeStages/0/itemSpawnParameters/apexDescription",
-        "/upgradeStages/0/itemSpawnParameters/avianDescription",
-        "/upgradeStages/0/itemSpawnParameters/floranDescription",
-        "/upgradeStages/0/itemSpawnParameters/glitchDescription",
-        "/upgradeStages/0/itemSpawnParameters/humanDescription",
-        "/upgradeStages/0/itemSpawnParameters/hylotlDescription",
-        "/upgradeStages/0/itemSpawnParameters/novakidDescription",
-        "/upgradeStages/1/itemSpawnParameters/apexDescription",
-        "/upgradeStages/1/itemSpawnParameters/avianDescription",
-        "/upgradeStages/1/itemSpawnParameters/floranDescription",
-        "/upgradeStages/1/itemSpawnParameters/glitchDescription",
-        "/upgradeStages/1/itemSpawnParameters/humanDescription",
-        "/upgradeStages/1/itemSpawnParameters/hylotlDescription",
-        "/upgradeStages/1/itemSpawnParameters/novakidDescription"
-      ],
       "objects/orangejuice/ojsecuritygate/ojsecuritygate.object": [
         "/apexDescription",
         "/avianDescription",
@@ -422,6 +399,21 @@
   {
     "DeniedAlternatives": [],
     "Files": {
+      "biomes/surface/aethersea.biome": [
+        "/friendlyName"
+      ],
+      "interface/cockpit/cockpit.config": [
+        "/planetTypeNames/aethersea"
+      ]
+    },
+    "Texts": {
+      "Chs": "以太世界",
+      "Eng": "Aether World"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
       "items/materials/peglacimetalscreen.matitem": [
         "/shortdescription"
       ],
@@ -453,6 +445,21 @@
     "Texts": {
       "Chs": "一朵有吸引力的花。",
       "Eng": "An attractive flower."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "items/generic/loot/fuancientkey.item": [
+        "/shortdescription"
+      ],
+      "objects/minibiome/metallic/device1.object": [
+        "/shortdescription"
+      ]
+    },
+    "Texts": {
+      "Chs": "古老的设备",
+      "Eng": "Ancient Device"
     }
   },
   {
@@ -2084,9 +2091,6 @@
       ],
       "items/generic/produce/onion.consumable": [
         "/shortdescription"
-      ],
-      "objects/farmables/gurnonion/onionseed.object": [
-        "/shortdescription"
       ]
     },
     "Texts": {
@@ -2409,6 +2413,12 @@
       ],
       "objects/bees/honeyjarrer/jarrer.config": [
         "/gui/count/value"
+      ],
+      "objects/power/isn_powdersifter/fu_woodensifter.config": [
+        "/gui/inputLabel/value"
+      ],
+      "objects/power/isn_powdersifter/isn_powdersifter.config": [
+        "/gui/inputLabel/value"
       ]
     },
     "Texts": {
@@ -2520,6 +2530,9 @@
       ],
       "radiomessages/fu_madness.radiomessages": [
         "/crazycarry/senderName"
+      ],
+      "zb/questList/data.config": [
+        "/strings/sublines/fu_kevin"
       ]
     },
     "Texts": {
@@ -2978,6 +2991,21 @@
     "Texts": {
       "Chs": "金属氢",
       "Eng": "Metallic Hydrogen"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "biomes/surface/metallicmoon.biome": [
+        "/friendlyName"
+      ],
+      "interface/cockpit/cockpit.config": [
+        "/planetTypeNames/moon_metallic"
+      ]
+    },
+    "Texts": {
+      "Chs": "金属卫星",
+      "Eng": "Metallic Moon"
     }
   },
   {
@@ -3695,9 +3723,6 @@
       "items/currency/fuscienceresource.currency": [
         "/shortdescription"
       ],
-      "zb/newSail/data.config": [
-        "/TextData/currencies/fu_research"
-      ],
       "zb/researchTree/data.config": [
         "/strings/currencies/fuscienceresource"
       ],
@@ -4059,7 +4084,6 @@
         "/friendlyName"
       ],
       "interface/cockpit/cockpit.config": [
-        "/planetTypeNames/moon_metallic",
         "/planetTypeNames/moon_shadow"
       ]
     },
@@ -4787,15 +4811,24 @@
       "radiomessages/fu_quests.radiomessages": [
         "/fu_outpost1/senderName",
         "/fu_outpost2/senderName",
-        "/fu_start_Complete/senderName",
+        "/fu_start_Complete1a/senderName",
+        "/fu_start_Complete1b/senderName",
+        "/fu_start_Complete1c/senderName",
         "/fu_start_greetings0/senderName",
         "/fu_start_greetings1/senderName",
+        "/fu_start_greetings1b/senderName",
         "/fu_start_greetings2/senderName",
+        "/fu_start_greetingspickaxe/senderName",
         "/fu_start_makeElectromagnet/senderName",
+        "/fu_start_makeForaging/senderName",
+        "/fu_start_makeFurnace/senderName",
         "/fu_start_makeTable/senderName",
         "/fu_start_makeWire/senderName",
         "/fu_start_needstricorder/senderName",
         "/fu_start_needstricorder2/senderName"
+      ],
+      "zb/questList/data.config": [
+        "/strings/sublines/fu_vinj"
       ]
     },
     "Texts": {
