@@ -2147,6 +2147,12 @@
           "bugnet": {
             "bugnet2.activeitem.json": 2
           },
+          "easyvoxel": {
+            "easyvoxel10k.activeitem.json": 0,
+            "easyvoxel1k.activeitem.json": 0,
+            "easyvoxel2k.activeitem.json": 0,
+            "easyvoxel5k.activeitem.json": 0
+          },
           "fm_portablemusicplayer": {
             "fm_portablemusicplayer.activeitem.json": 2
           },
@@ -6125,7 +6131,6 @@
           "ancientpowerconduit.item.json": 2,
           "apalite.item.json": 2,
           "artificialbrain.item.json": 2,
-          "astralwood.item.json": 2,
           "attunedpaper.item.json": 2,
           "bambooshoot.item.json": 2,
           "biospore.item.json": 2,
@@ -7183,11 +7188,23 @@
       },
       "materials": {
         "aegisaltcrystal.matitem.json": 1,
+        "aenbridge.matitem.json": 0,
+        "aencrosshatch.matitem.json": 0,
+        "aencrosshatchbasic.matitem.json": 0,
+        "aenfence.matitem.json": 0,
+        "aenfencebasic.matitem.json": 0,
+        "aenflooring.matitem.json": 0,
+        "aenornatewood.matitem.json": 0,
+        "aenplatform.matitem.json": 0,
+        "aentimber.matitem.json": 0,
+        "aenwoodenwindow1.matitem.json": 0,
+        "aenwoodenwindow2.matitem.json": 0,
         "aliensoil.matitem.json": 1,
         "ancientblockcracked.matitem.json": 2,
         "ancientblockplain.matitem.json": 2,
         "ancientbrickplain.matitem.json": 2,
         "andesite.matitem.json": 1,
+        "astralwood.matitem.json": 0,
         "avaliaeroponics.matitem.json": 2,
         "avalicable.matitem.json": 4,
         "avalichits.matitem.json": 1,
@@ -7402,6 +7419,7 @@
         "swampdirtffmaterial.matitem.json": 1,
         "tarstonematerial.matitem.json": 1,
         "titaniumwallblockmaterial.matitem.json": 2,
+        "treatedaenwood.matitem.json": 0,
         "unrefinedandesite.matitem.json": 3,
         "unrefinedarkose.matitem.json": 3,
         "unrefinedchert.matitem.json": 3,
@@ -7556,6 +7574,8 @@
     "materials": {
       "shared_.mat.json": 3,
       "shared_aegisaltcrystal.mat.json": 1,
+      "shared_aen.json": 0,
+      "shared_aenwood.json": 0,
       "shared_aliensoil.mat.json": 1,
       "shared_andesite.mat.json": 1,
       "shared_avalidarkmetal.mat.json": 1,
@@ -7592,7 +7612,7 @@
       "shared_darkwood.json": 7,
       "shared_darkwoodpanelling.mat.json": 1,
       "shared_deadearth.mat.json": 2,
-      "shared_dollhouse.json": 13,
+      "shared_dollhouse.json": 9,
       "shared_dynast.json": 8,
       "shared_dynastwood.json": 7,
       "shared_ebonblock.json": 1,
@@ -7756,7 +7776,7 @@
       "shared_wood.json": 17,
       "shared_woodentrim.mat.json": 2
     },
-    "materials.json": 54,
+    "materials.json": 58,
     "monsters": {
       "bees": {
         "adaptivebee": {
@@ -9926,13 +9946,13 @@
             "communitygarden.object.json": 2
           },
           "computerlab": {
-            "computerlab.object.json": 2
+            "computerlab.object.json": 1
           },
           "drugdiffuser": {
-            "drugdiffuser.object.json": 2
+            "drugdiffuser.object.json": 1
           },
           "ftlcommsdish": {
-            "ftlcommsdish.object.json": 2
+            "ftlcommsdish.object.json": 1
           },
           "hiddencameras": {
             "hiddencameras.object.json": 2
@@ -9941,7 +9961,7 @@
             "hobbytable.object.json": 2
           },
           "psionicharvester": {
-            "psionicharvester.object.json": 2
+            "psionicharvester.object.json": 1
           },
           "recyclingcenter": {
             "recyclingcenter.object.json": 2
@@ -9950,7 +9970,7 @@
             "sewagetreatment.object.json": 2
           },
           "subliminalmessaging": {
-            "subliminalmessaging.object.json": 2
+            "subliminalmessaging.object.json": 1
           }
         },
         "colonycore": {
@@ -9959,7 +9979,7 @@
         "colonydeedmk2": {
           "colonydeedmk2.object.json": 1,
           "colonydeedmk2tiny.object.json": 1,
-          "shared_colonydeedmk2.json": 8
+          "shared_colonydeedmk2.json": 7
         },
         "colonystation": {
           "colonystation.object.json": 11
@@ -12544,7 +12564,7 @@
         "shared_impvase.json": 0
       },
       "mechrepair": {
-        "mechrepairpod.object.json": 2
+        "mechrepairpod.object.json": 1
       },
       "microformer": {
         "aliendesert": {
@@ -13007,10 +13027,10 @@
         "plynth2.object.json": 2,
         "precursor": {
           "fu_precursorduplicator": {
-            "fu_precursorduplicator.object.json": 2
+            "fu_precursorduplicator.object.json": 1
           },
           "fu_precursorspawner": {
-            "fu_precursorspawner.object.json": 2
+            "fu_precursorspawner.object.json": 1
           },
           "machine1": {
             "precursormachine.object.json": 2
@@ -13731,6 +13751,8 @@
           "nightmare.object.json": 2,
           "paintedpuppy.object.json": 2,
           "painting_patch.object.json": 19,
+          "paintingfabricatedworld.object.json": 0,
+          "paintingformergallery.object.json": 0,
           "starrynight.object.json": 2,
           "stripe.object.json": 2,
           "stripe2.object.json": 2,
@@ -14185,7 +14207,7 @@
           "centrifuge2.object.json": 1
         },
         "fu_alternatorgenerator": {
-          "fu_alternatorgenerator.object.json": 2
+          "fu_alternatorgenerator.object.json": 1
         },
         "fu_atmosfilter": {
           "fu_atmosfilter.object.json": 1
@@ -14206,13 +14228,13 @@
           "fu_liquidmixer.object.json": 1
         },
         "fu_nocturnarray": {
-          "fu_nocturnarray.object.json": 2
+          "fu_nocturnarray.object.json": 1
         },
         "fu_powersensorlarge": {
           "fu_powersensorlarge.object.json": 2
         },
         "fu_quantumgenerator": {
-          "fu_quantumgenerator.object.json": 2
+          "fu_quantumgenerator.object.json": 1
         },
         "fu_rockbreaker": {
           "fu_rockbreaker.object.json": 0
@@ -14221,10 +14243,10 @@
           "fu_rockcrusher.object.json": 0
         },
         "fu_solararray": {
-          "fu_solararray.object.json": 2
+          "fu_solararray.object.json": 1
         },
         "fu_solararrayadv": {
-          "fu_solararrayadv.object.json": 2
+          "fu_solararrayadv.object.json": 1
         },
         "fu_solararrayscienceoutpost": {
           "fu_solararrayscienceoutpost.object.json": 2
@@ -14233,7 +14255,7 @@
           "fu_upgrade.object.json": 2
         },
         "fu_windarray": {
-          "isn_windarray.object.json": 2
+          "isn_windarray.object.json": 1
         },
         "gnomefactory": {
           "gnomefactory.object.json": 9
@@ -14243,7 +14265,7 @@
         },
         "isn_atmoscondenser": {
           "isn_atmoscondenser.object.json": 1,
-          "isn_atmoscondensermadness.object.json": 2
+          "isn_atmoscondensermadness.object.json": 1
         },
         "isn_atmosregulator": {
           "isn_atmosregulator.object.json": 7,
@@ -14270,7 +14292,7 @@
         },
         "isn_fissionreactornew": {
           "isn_fissionreactornew.config.json": 2,
-          "isn_fissionreactornew.object.json": 8
+          "isn_fissionreactornew.object.json": 7
         },
         "isn_hydroponicstray": {
           "isn_hydroponicstray.object.json": 1
@@ -14295,10 +14317,10 @@
           "isn_radiostationnew.object.json": 2
         },
         "isn_solarpanel": {
-          "isn_solarpanel.object.json": 8
+          "isn_solarpanel.object.json": 7
         },
         "isn_thermalgenerator": {
-          "isn_thermalgenerator.object.json": 9
+          "isn_thermalgenerator.object.json": 8
         },
         "manufacturing": {
           "mfgstation.object.json": 1
@@ -20395,6 +20417,21 @@
     "tiles": {
       "materials": {
         "aegisaltcrystal.material.json": 1,
+        "aenwood": {
+          "aenbridge.material.json": 0,
+          "aencrosshatch.material.json": 0,
+          "aenfence.material.json": 0,
+          "aenfencebasic.material.json": 0,
+          "aenflooring.material.json": 0,
+          "aenlog.material.json": 0,
+          "aenornatewood.material.json": 0,
+          "aentimber.material.json": 0,
+          "aenwoodenwindow1.material.json": 0,
+          "aenwoodenwindow2.material.json": 0,
+          "shared_.material.json": 0,
+          "shared_aencrosshatch.json": 0,
+          "treatedaenwood.material.json": 0
+        },
         "aliensoil.material.json": 1,
         "ancientblockcracked.material.json": 1,
         "ancientblockplain.material.json": 1,
@@ -20755,6 +20792,7 @@
         "thickjunglegrass.matmod.json": 1
       },
       "platforms": {
+        "aenplatform.material.json": 0,
         "avalicable.material.json": 2,
         "avalistairs.material.json": 1,
         "cuteplatform.material.json": 2,

@@ -1714,7 +1714,7 @@
         "fu_shipupgrades.questtemplate.json": 3
       }
     },
-    "glitchEmotes.json": 346,
+    "glitchEmotes.json": 348,
     "interface": {
       "ai": {
         "ai.config.json": 11,
@@ -2146,6 +2146,12 @@
           },
           "bugnet": {
             "bugnet2.activeitem.json": 2
+          },
+          "easyvoxel": {
+            "easyvoxel10k.activeitem.json": 2,
+            "easyvoxel1k.activeitem.json": 2,
+            "easyvoxel2k.activeitem.json": 2,
+            "easyvoxel5k.activeitem.json": 2
           },
           "fm_portablemusicplayer": {
             "fm_portablemusicplayer.activeitem.json": 2
@@ -6125,7 +6131,6 @@
           "ancientpowerconduit.item.json": 2,
           "apalite.item.json": 2,
           "artificialbrain.item.json": 2,
-          "astralwood.item.json": 2,
           "attunedpaper.item.json": 2,
           "bambooshoot.item.json": 2,
           "biospore.item.json": 2,
@@ -7183,11 +7188,23 @@
       },
       "materials": {
         "aegisaltcrystal.matitem.json": 1,
+        "aenbridge.matitem.json": 2,
+        "aencrosshatch.matitem.json": 2,
+        "aencrosshatchbasic.matitem.json": 1,
+        "aenfence.matitem.json": 1,
+        "aenfencebasic.matitem.json": 2,
+        "aenflooring.matitem.json": 2,
+        "aenornatewood.matitem.json": 2,
+        "aenplatform.matitem.json": 5,
+        "aentimber.matitem.json": 1,
+        "aenwoodenwindow1.matitem.json": 1,
+        "aenwoodenwindow2.matitem.json": 1,
         "aliensoil.matitem.json": 1,
         "ancientblockcracked.matitem.json": 2,
         "ancientblockplain.matitem.json": 2,
         "ancientbrickplain.matitem.json": 2,
         "andesite.matitem.json": 1,
+        "astralwood.matitem.json": 4,
         "avaliaeroponics.matitem.json": 2,
         "avalicable.matitem.json": 4,
         "avalichits.matitem.json": 1,
@@ -7402,6 +7419,7 @@
         "swampdirtffmaterial.matitem.json": 1,
         "tarstonematerial.matitem.json": 1,
         "titaniumwallblockmaterial.matitem.json": 2,
+        "treatedaenwood.matitem.json": 2,
         "unrefinedandesite.matitem.json": 3,
         "unrefinedarkose.matitem.json": 3,
         "unrefinedchert.matitem.json": 3,
@@ -7556,6 +7574,8 @@
     "materials": {
       "shared_.mat.json": 3,
       "shared_aegisaltcrystal.mat.json": 1,
+      "shared_aen.json": 3,
+      "shared_aenwood.json": 2,
       "shared_aliensoil.mat.json": 1,
       "shared_andesite.mat.json": 1,
       "shared_avalidarkmetal.mat.json": 1,
@@ -7592,7 +7612,7 @@
       "shared_darkwood.json": 7,
       "shared_darkwoodpanelling.mat.json": 1,
       "shared_deadearth.mat.json": 2,
-      "shared_dollhouse.json": 13,
+      "shared_dollhouse.json": 9,
       "shared_dynast.json": 8,
       "shared_dynastwood.json": 7,
       "shared_ebonblock.json": 1,
@@ -7753,10 +7773,10 @@
       "shared_wastestone.mat.json": 2,
       "shared_weathered.json": 8,
       "shared_window.json": 15,
-      "shared_wood.json": 17,
+      "shared_wood.json": 18,
       "shared_woodentrim.mat.json": 2
     },
-    "materials.json": 54,
+    "materials.json": 58,
     "monsters": {
       "bees": {
         "adaptivebee": {
@@ -9957,9 +9977,9 @@
           "colonycore.object.json": 2
         },
         "colonydeedmk2": {
-          "colonydeedmk2.object.json": 1,
-          "colonydeedmk2tiny.object.json": 1,
-          "shared_colonydeedmk2.json": 8
+          "colonydeedmk2.object.json": 2,
+          "colonydeedmk2tiny.object.json": 2,
+          "shared_colonydeedmk2.json": 7
         },
         "colonystation": {
           "colonystation.object.json": 11
@@ -13731,6 +13751,8 @@
           "nightmare.object.json": 2,
           "paintedpuppy.object.json": 2,
           "painting_patch.object.json": 19,
+          "paintingfabricatedworld.object.json": 2,
+          "paintingformergallery.object.json": 2,
           "starrynight.object.json": 2,
           "stripe.object.json": 2,
           "stripe2.object.json": 2,
@@ -20395,6 +20417,21 @@
     "tiles": {
       "materials": {
         "aegisaltcrystal.material.json": 1,
+        "aenwood": {
+          "aenbridge.material.json": 5,
+          "aencrosshatch.material.json": 1,
+          "aenfence.material.json": 3,
+          "aenfencebasic.material.json": 3,
+          "aenflooring.material.json": 5,
+          "aenlog.material.json": 4,
+          "aenornatewood.material.json": 5,
+          "aentimber.material.json": 5,
+          "aenwoodenwindow1.material.json": 4,
+          "aenwoodenwindow2.material.json": 3,
+          "shared_.material.json": 2,
+          "shared_aencrosshatch.json": 3,
+          "treatedaenwood.material.json": 5
+        },
         "aliensoil.material.json": 1,
         "ancientblockcracked.material.json": 1,
         "ancientblockplain.material.json": 1,
@@ -20755,6 +20792,7 @@
         "thickjunglegrass.matmod.json": 1
       },
       "platforms": {
+        "aenplatform.material.json": 5,
         "avalicable.material.json": 2,
         "avalistairs.material.json": 1,
         "cuteplatform.material.json": 2,
