@@ -15,7 +15,7 @@ foi = {
                 ".+Title$", "^paneLayout/.+/value$", "areYouSure/value$", "^blueprintUnlock$",
                 "^blueprintAlreadyKnown$", "^rotTimeDescriptions/.+/1$", "^[a-zA-Z]*[mM]essages/[a-zA-Z]+$",
                 ".+[mM]essage$", "^.*(hint|regex|([a-zA-Z]*(Caption|[Tt]itle)))$", "^defaultPetNameLabel$",
-                ".*descriptions/[0-9]+$", "^(un)?trackLabel$", "^modeTypeTextAndColor/[0-9]+/[0-9]+$", ".+research/.+$", ".+trees/.+$"],
+                ".*descriptions/[0-9]+$", "^(un)?trackLabel$", "^modeTypeTextAndColor/[0-9]+/[0-9]+$", ".+research/.+$", ".+trees/.+$","fu_text/.+$"],
     "themes.config": ["^[0-9]+/1/[0-9]+/(0|(1/)?name)$"],
     "dungeonitems.config": ["^[0-9]+/1/[0-9]+/(0|(1/)?name)$"],
     "threats.config": ["^[0-9]+/1/[0-9]+/(0|(1/)?name)$"],
