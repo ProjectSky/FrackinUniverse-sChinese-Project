@@ -1866,7 +1866,7 @@
           "techshop.config.json": 4
         },
         "tunableoredetector": {
-          "tunableoredetector.config.json": 4
+          "tunableoredetector.config.json": 0
         },
         "xcustomcodex": {
           "xcodexui.config.json": 6
@@ -2025,6 +2025,7 @@
           }
         },
         "fossil": {
+          "fossilbrushhammer.activeitem.json": 0,
           "fossilbrushultra.activeitem.json": 2
         },
         "grapplinghooks": {
@@ -3925,6 +3926,9 @@
               "capturegun": {
                 "capturegun.activeitem.json": 2,
                 "capturegunweak.activeitem.json": 2
+              },
+              "spaceplasmarifle": {
+                "spaceplasmarifleminiknog.activeitem.json": 0
               }
             }
           },
@@ -6746,9 +6750,9 @@
           "tearnutbutter.consumable.json": 2,
           "tearnutbuttersandwich.consumable.json": 2,
           "tofu.consumable.json": 2,
-          "toxicsludge.consumable.json": 2,
+          "toxicsludge.consumable.json": 1,
           "uberdinner": {
-            "uberdinner.consumable.json": 2
+            "uberdinner.consumable.json": 1
           },
           "vakkisalad.consumable.json": 2,
           "violirootplate": {
@@ -6766,7 +6770,7 @@
           "mythicalhoneyjar.consumable.json": 2,
           "nocturnalhoneyjar.consumable.json": 2,
           "plutoniumhoneyjar.consumable.json": 2,
-          "radioactivehoneyjar.consumable.json": 2,
+          "radioactivehoneyjar.consumable.json": 1,
           "redhoneyjar.consumable.json": 2,
           "shellhoneyjar.consumable.json": 2,
           "snowhoneyjar.consumable.json": 2,
@@ -7770,6 +7774,9 @@
       "shared_slimedirt.json": 2,
       "shared_slopedavianhullpanel.mat.json": 2,
       "shared_slopedglowglass.mat.json": 1,
+      "shared_slopedtelebriumpanel.mat.json": 0,
+      "shared_slopedteleglass.mat.json": 0,
+      "shared_slopedteletechpanel.mat.json": 0,
       "shared_slopedtintedglowglass.mat.json": 1,
       "shared_speedblock.json": 1,
       "shared_steelhive.json": 2,
@@ -7777,6 +7784,8 @@
       "shared_stone.mat.json": 1,
       "shared_swampdirtff.json": 1,
       "shared_tarstone.json": 1,
+      "shared_telebriumblock.mat.json": 0,
+      "shared_telepillarblock.mat.json": 0,
       "shared_thelus.json": 4,
       "shared_toiletpaperroll.mat.json": 2,
       "shared_treated.json": 2,
@@ -19321,6 +19330,7 @@
     "shared_sphere.json": 1,
     "shared_sulphur.json": 1,
     "shared_tation.json": 1,
+    "shared_telebriumplatform.mat.json": 0,
     "shared_thanatite.json": 1,
     "shared_tion.json": 2,
     "shared_weapon.json": 1,
@@ -20888,15 +20898,6 @@
         "sturdyplatform.material.json": 2
       }
     },
-    "weapons": {
-      "ranged": {
-        "unrand": {
-          "spaceplasmarifle": {
-            "spaceplasmarifleminiknog.activeitem.json": 0
-          }
-        }
-      }
-    },
     "wide_spread_fields.json": 186,
     "zb": {
       "newSail": {
@@ -20910,10 +20911,10 @@
       "researchTree": {
         "data.config.json": 3,
         "fu_agriculture.config.json": 154,
-        "fu_chemistry.config.json": 64,
+        "fu_chemistry.config.json": 63,
         "fu_craftsmanship.config.json": 133,
         "fu_engineering.config.json": 129,
-        "fu_geology.config.json": 91,
+        "fu_geology.config.json": 90,
         "fu_power.config.json": 65,
         "fu_warcraft.config.json": 87,
         "madness.config.json": 62,
