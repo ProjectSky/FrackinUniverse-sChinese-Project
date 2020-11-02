@@ -36862,6 +36862,10 @@
     "/description": "texts/objects/wired/extranpcspawner/shared_npcspawner.json",
     "/shortdescription": "texts/objects/wired/extranpcspawner/shared_extrainvisiblenpcspawner.json"
   },
+  "objects/wired/extranpcspawner/extrainvisiblenpcspawnerworldadvanced.object": {
+    "/description": "texts/objects/wired/extranpcspawner/shared_npcspawner.json",
+    "/shortdescription": "texts/objects/wired/extranpcspawner/shared_extrainvisiblenpcspawner.json"
+  },
   "objects/wired/extranpcspawner/extranpcspawner.object": {
     "/description": "texts/objects/wired/extranpcspawner/shared_npcspawner.json"
   },
@@ -40250,10 +40254,16 @@
   "stats/effects/fu_tileeffects/specialty_effects/superdark/superdarkstatlarge.statuseffect": {
     "/label": "texts/stats/effects/fu_tileeffects/specialty_effects/superdark/shared_superdarkstat.json"
   },
+  "stats/effects/fu_tileeffects/specialty_effects/superdark/superdarkstatlargeUnblockable.statuseffect": {
+    "/label": "texts/stats/effects/fu_tileeffects/specialty_effects/superdark/shared_superdarkstat.json"
+  },
   "stats/effects/fu_tileeffects/specialty_effects/superdark/superdarkstatmid.animation": {
     "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects/fu_tileeffects/specialty_effects/shared_sta.json"
   },
   "stats/effects/fu_tileeffects/specialty_effects/superdark/superdarkstatmid.statuseffect": {
+    "/label": "texts/stats/effects/fu_tileeffects/specialty_effects/superdark/shared_superdarkstat.json"
+  },
+  "stats/effects/fu_tileeffects/specialty_effects/superdark/superdarkstatmidUnblockable.statuseffect": {
     "/label": "texts/stats/effects/fu_tileeffects/specialty_effects/superdark/shared_superdarkstat.json"
   },
   "stats/effects/fu_tileeffects/specialty_effects/superdark/superdarkstatshoggoth.statuseffect": {
@@ -43300,11 +43310,18 @@
     "/gui/title/value": "texts/wide_spread_fields.json"
   },
   "zb/updateInfoWindow/updateInfoWindow.config": {
-    "/gui/close/caption": "texts/zb/updateInfoWindow/shared_updateInfoWindow.json",
-    "/gui/textScrollBox/children/text/value": "texts/wide_spread_fields.json"
+    "/gui/buttonCredits/caption": "texts/zb/updateInfoWindow/shared_updateInfoWindow.json",
+    "/gui/textScrollBox/children/text/value": "texts/wide_spread_fields.json",
+    "/gui/version/value": "texts/zb/updateInfoWindow/shared_updateInfoWindow.json"
   },
   "zb/updateInfoWindow/updateInfoWindowError.config": {
     "/gui/close/caption": "texts/zb/updateInfoWindow/shared_updateInfoWindow.json",
     "/gui/textScrollBox/children/text/value": "texts/wide_spread_fields.json"
+  },
+  "zb/updateInfoWindow/updateInfoWindow_bak.config": {
+    "/gui/buttonCredits/caption": "texts/zb/updateInfoWindow/shared_updateInfoWindow.json",
+    "/gui/close/caption": "texts/zb/updateInfoWindow/shared_updateInfoWindow.json",
+    "/gui/textScrollBox/children/text/value": "texts/wide_spread_fields.json",
+    "/gui/version/value": "texts/zb/updateInfoWindow/shared_updateInfoWindow.json"
   }
 }
