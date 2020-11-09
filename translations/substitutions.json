@@ -4170,7 +4170,12 @@
     "/shortdescription": "texts/items/active/weapons/melee/flail/shared_.activeitem.json"
   },
   "items/active/weapons/melee/greataxe/fuatropusgreataxe.activeitem": {
-    "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
+    "/description": "texts/items/active/weapons/melee/shared_.activeitem.json",
+    "/shortdescription": "texts/items/active/weapons/melee/greataxe/shared_fuatropusgreataxe.json"
+  },
+  "items/active/weapons/melee/greataxe/fuatropusgreataxenpc.activeitem": {
+    "/description": "texts/items/active/weapons/melee/shared_.activeitem.json",
+    "/shortdescription": "texts/items/active/weapons/melee/greataxe/shared_fuatropusgreataxe.json"
   },
   "items/active/weapons/melee/greataxe/fucommongreataxe.activeitem": {
     "/description": "texts/items/active/weapons/melee/greataxe/shared_greataxe.activeitem.json"
@@ -26992,6 +26997,9 @@
   "objects/power/centrifuge2/centrifuge2.object": {
     "/subtitle": "texts/objects/power/shared_centrifuge/shared_centrifuge.json"
   },
+  "objects/power/electricfurnace/electricfurnace.config": {
+    "/gui/clear/caption": "texts/wide_spread_fields.json"
+  },
   "objects/power/fu_alternatorgenerator/fu_alternatorgenerator.config": {
     "/gui/count/value": "texts/objects/power/shared_generator/shared_generator.config.json"
   },
@@ -27008,6 +27016,9 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/power/gnomefactory/gnomefactory.object.json"
   },
+  "objects/power/hydraulicdynamo/hydraulicdynamo.config": {
+    "/gui/count/value": "texts/objects/power/shared_.config.json"
+  },
   "objects/power/isn_arcsmelter/isn_arcsmelter.config": {
     "/gui/clear/caption": "texts/wide_spread_fields.json"
   },
@@ -27017,6 +27028,9 @@
   "objects/power/isn_atmosregulator/isn_atmosregulator.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/power/isn_atmosregulator/isn_atmosregulator.object.json"
+  },
+  "objects/power/isn_fissionreactornew/isn_fissionreactornew.config": {
+    "/gui/count/value": "texts/objects/power/shared_.config.json"
   },
   "objects/power/isn_fissionreactornew/isn_fissionreactornew.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -38195,6 +38209,21 @@
   "quests/fu_questlines/byos/fu_byoscrewdeed.questtemplate": {
     "/title": "texts/wide_spread_fields.json"
   },
+  "quests/fu_questlines/other/crucible_upgrades.questtemplate": {
+    "/completionText": "texts/quests/fu_questlines/other/shared_.questtemplate.json",
+    "/text": "texts/quests/fu_questlines/other/shared_.questtemplate.json",
+    "/title": "texts/quests/fu_questlines/other/shared_.questtemplate.json"
+  },
+  "quests/fu_questlines/other/kevin_annoyance.questtemplate": {
+    "/completionText": "texts/quests/fu_questlines/other/shared_.questtemplate.json",
+    "/text": "texts/quests/fu_questlines/other/shared_.questtemplate.json",
+    "/title": "texts/quests/fu_questlines/other/shared_.questtemplate.json"
+  },
+  "quests/fu_questlines/other/station_upgrades.questtemplate": {
+    "/completionText": "texts/quests/fu_questlines/other/shared_.questtemplate.json",
+    "/text": "texts/quests/fu_questlines/other/shared_.questtemplate.json",
+    "/title": "texts/quests/fu_questlines/other/shared_.questtemplate.json"
+  },
   "quests/fu_questlines/outpost/bees/3basicframe.questtemplate": {
     "/title": "texts/wide_spread_fields.json"
   },
@@ -40244,7 +40273,7 @@
     "/label": "texts/stats/effects/fu_tileeffects/specialty_effects/superdark/shared_superdarkstat.json"
   },
   "stats/effects/fu_tileeffects/specialty_effects/superdark/superdarkstatUnblockable.statuseffect": {
-    "/label": "texts/stats/effects/fu_tileeffects/specialty_effects/superdark/shared_superdarkstat.json"
+    "/label": "texts/stats/effects/fu_tileeffects/specialty_effects/superdark/shared_Unblockable.statuseffect.json"
   },
   "stats/effects/fu_tileeffects/specialty_effects/superdark/superdarkstatlarge.animation": {
     "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects/fu_tileeffects/specialty_effects/shared_sta.json"
@@ -40253,7 +40282,7 @@
     "/label": "texts/stats/effects/fu_tileeffects/specialty_effects/superdark/shared_superdarkstat.json"
   },
   "stats/effects/fu_tileeffects/specialty_effects/superdark/superdarkstatlargeUnblockable.statuseffect": {
-    "/label": "texts/stats/effects/fu_tileeffects/specialty_effects/superdark/shared_superdarkstat.json"
+    "/label": "texts/stats/effects/fu_tileeffects/specialty_effects/superdark/shared_Unblockable.statuseffect.json"
   },
   "stats/effects/fu_tileeffects/specialty_effects/superdark/superdarkstatmid.animation": {
     "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects/fu_tileeffects/specialty_effects/shared_sta.json"
@@ -40262,7 +40291,7 @@
     "/label": "texts/stats/effects/fu_tileeffects/specialty_effects/superdark/shared_superdarkstat.json"
   },
   "stats/effects/fu_tileeffects/specialty_effects/superdark/superdarkstatmidUnblockable.statuseffect": {
-    "/label": "texts/stats/effects/fu_tileeffects/specialty_effects/superdark/shared_superdarkstat.json"
+    "/label": "texts/stats/effects/fu_tileeffects/specialty_effects/superdark/shared_Unblockable.statuseffect.json"
   },
   "stats/effects/fu_tileeffects/specialty_effects/superdark/superdarkstatshoggoth.statuseffect": {
     "/label": "texts/stats/effects/fu_tileeffects/specialty_effects/superdark/shared_superdarkstat.json"
