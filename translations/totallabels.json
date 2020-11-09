@@ -1221,6 +1221,11 @@
       }
     },
     "cinematics": {
+      "fuCore": {
+        "kevin": {
+          "kevin.cinematic.json": 19
+        }
+      },
       "intro": {
         "introstage.cinematic.json": 8
       },
@@ -2753,7 +2758,6 @@
             "greataxe": {
               "cutegreataxe.activeitem.json": 2,
               "durasteelgreataxe.activeitem.json": 2,
-              "fuatropusgreataxe.activeitem.json": 1,
               "fucommongreataxe.activeitem.json": 1,
               "fucultistgreataxe.activeitem.json": 2,
               "furaregreataxe.activeitem.json": 1,
@@ -2763,6 +2767,7 @@
               "lunarigreataxe.activeitem.json": 2,
               "penumbritegreataxe.activeitem.json": 2,
               "radiengreataxe.activeitem.json": 2,
+              "shared_fuatropusgreataxe.json": 1,
               "shared_greataxe.activeitem.json": 1,
               "stonegreataxe.activeitem.json": 1,
               "telebriumgreataxe.activeitem.json": 2,
@@ -3587,6 +3592,7 @@
               "fuobliterator.activeitem.json": 2,
               "fuplasmacannon.activeitem.json": 2,
               "fuplasmagun.activeitem.json": 2,
+              "fuprotectoraterifle.activeitem.json": 2,
               "fupyreitepistol.activeitem.json": 2,
               "furainbowgun.activeitem.json": 2,
               "furepairgun.activeitem.json": 11,
@@ -14293,6 +14299,9 @@
         "centrifuge2": {
           "centrifuge2.object.json": 2
         },
+        "electricfurnace": {
+          "electricfurnace.object.json": 2
+        },
         "fu_alternatorgenerator": {
           "fu_alternatorgenerator.object.json": 2
         },
@@ -14347,6 +14356,13 @@
         "gnomefactory": {
           "gnomefactory.object.json": 9
         },
+        "hydraulicdynamo": {
+          "hydraulicdynamo.config.json": 1,
+          "hydraulicdynamo.object.json": 2
+        },
+        "irongrowingtray": {
+          "irongrowingtray.object.json": 2
+        },
         "isn_arcsmelter": {
           "isn_arcsmelter.object.json": 2
         },
@@ -14378,7 +14394,7 @@
           "isn_battery_t4_fero.object.json": 2
         },
         "isn_fissionreactornew": {
-          "isn_fissionreactornew.config.json": 2,
+          "isn_fissionreactornew.config.json": 1,
           "isn_fissionreactornew.object.json": 8
         },
         "isn_hydroponicstray": {
@@ -14418,6 +14434,7 @@
         "quantumextractor": {
           "quantumextractor.object.json": 2
         },
+        "shared_.config.json": 1,
         "shared_centrifuge": {
           "shared_centrifuge.json": 1
         },
@@ -18967,7 +18984,7 @@
           "precursor": {
             "precursor_unlock.questtemplate.json": 4
           },
-          "station_upgrades.questtemplate.json": 3
+          "shared_.questtemplate.json": 3
         },
         "outpost": {
           "bees": {
@@ -19934,6 +19951,7 @@
               "slimestick.statuseffect.json": 1
             },
             "superdark": {
+              "shared_Unblockable.statuseffect.json": 1,
               "shared_superdarkstat.json": 1
             },
             "webstick": {
@@ -20922,7 +20940,7 @@
         "fu_craftsmanship.config.json": 141,
         "fu_engineering.config.json": 131,
         "fu_geology.config.json": 96,
-        "fu_power.config.json": 66,
+        "fu_power.config.json": 70,
         "fu_warcraft.config.json": 90,
         "madness.config.json": 62,
         "researchTree.config.json": 3,

@@ -1221,6 +1221,11 @@
       }
     },
     "cinematics": {
+      "fuCore": {
+        "kevin": {
+          "kevin.cinematic.json": 0
+        }
+      },
       "intro": {
         "introstage.cinematic.json": 8
       },
@@ -1251,7 +1256,7 @@
         "blank_template_codex.codex.json": 3,
         "elduukharbook.codex.json": 2,
         "epsteinbook.codex.json": 2,
-        "ffguide.codex.json": 2,
+        "ffguide.codex.json": 1,
         "ffguide2.codex.json": 2,
         "ffguide3.codex.json": 3,
         "ffguide4.codex.json": 1,
@@ -2753,7 +2758,6 @@
             "greataxe": {
               "cutegreataxe.activeitem.json": 2,
               "durasteelgreataxe.activeitem.json": 2,
-              "fuatropusgreataxe.activeitem.json": 1,
               "fucommongreataxe.activeitem.json": 1,
               "fucultistgreataxe.activeitem.json": 2,
               "furaregreataxe.activeitem.json": 1,
@@ -2763,6 +2767,7 @@
               "lunarigreataxe.activeitem.json": 2,
               "penumbritegreataxe.activeitem.json": 2,
               "radiengreataxe.activeitem.json": 2,
+              "shared_fuatropusgreataxe.json": 1,
               "shared_greataxe.activeitem.json": 1,
               "stonegreataxe.activeitem.json": 1,
               "telebriumgreataxe.activeitem.json": 2,
@@ -3587,6 +3592,7 @@
               "fuobliterator.activeitem.json": 2,
               "fuplasmacannon.activeitem.json": 2,
               "fuplasmagun.activeitem.json": 2,
+              "fuprotectoraterifle.activeitem.json": 0,
               "fupyreitepistol.activeitem.json": 2,
               "furainbowgun.activeitem.json": 2,
               "furepairgun.activeitem.json": 11,
@@ -4272,7 +4278,7 @@
             "fuqueenschest.chest.json": 1,
             "fuqueenshead.head.json": 1,
             "fuqueenslegs.legs.json": 1,
-            "shared_fuqueens.json": 1
+            "shared_fuqueens.json": 0
           }
         },
         "biome": {
@@ -5363,10 +5369,10 @@
             "shared_beararmor2..json": 1
           },
           "blisteralt": {
-            "blisterarmoralt.chest.json": 1,
-            "blisterarmoralt.head.json": 1,
-            "blisterarmoralt.legs.json": 1,
-            "shared_blisterarmoralt..json": 1
+            "blisterarmoralt.chest.json": 0,
+            "blisterarmoralt.head.json": 0,
+            "blisterarmoralt.legs.json": 0,
+            "shared_blisterarmoralt..json": 0
           },
           "cellular": {
             "cellulararmor.chest.json": 1,
@@ -14293,6 +14299,9 @@
         "centrifuge2": {
           "centrifuge2.object.json": 2
         },
+        "electricfurnace": {
+          "electricfurnace.object.json": 0
+        },
         "fu_alternatorgenerator": {
           "fu_alternatorgenerator.object.json": 2
         },
@@ -14347,6 +14356,13 @@
         "gnomefactory": {
           "gnomefactory.object.json": 9
         },
+        "hydraulicdynamo": {
+          "hydraulicdynamo.config.json": 0,
+          "hydraulicdynamo.object.json": 0
+        },
+        "irongrowingtray": {
+          "irongrowingtray.object.json": 0
+        },
         "isn_arcsmelter": {
           "isn_arcsmelter.object.json": 2
         },
@@ -14378,7 +14394,7 @@
           "isn_battery_t4_fero.object.json": 2
         },
         "isn_fissionreactornew": {
-          "isn_fissionreactornew.config.json": 2,
+          "isn_fissionreactornew.config.json": 1,
           "isn_fissionreactornew.object.json": 7
         },
         "isn_hydroponicstray": {
@@ -14418,6 +14434,7 @@
         "quantumextractor": {
           "quantumextractor.object.json": 2
         },
+        "shared_.config.json": 1,
         "shared_centrifuge": {
           "shared_centrifuge.json": 1
         },
@@ -18967,7 +18984,7 @@
           "precursor": {
             "precursor_unlock.questtemplate.json": 4
           },
-          "station_upgrades.questtemplate.json": 0
+          "shared_.questtemplate.json": 0
         },
         "outpost": {
           "bees": {
@@ -18989,7 +19006,7 @@
           "booze": {
             "1boozekit.questtemplate.json": 4,
             "2brew_a.questtemplate.json": 3,
-            "2brew_b.questtemplate.json": 3,
+            "2brew_b.questtemplate.json": 2,
             "2brew_c.questtemplate.json": 3,
             "2brew_d.questtemplate.json": 3,
             "3hops.questtemplate.json": 4,
@@ -19934,6 +19951,7 @@
               "slimestick.statuseffect.json": 1
             },
             "superdark": {
+              "shared_Unblockable.statuseffect.json": 0,
               "shared_superdarkstat.json": 1
             },
             "webstick": {
@@ -20917,10 +20935,10 @@
       },
       "researchTree": {
         "data.config.json": 3,
-        "fu_agriculture.config.json": 154,
+        "fu_agriculture.config.json": 152,
         "fu_chemistry.config.json": 63,
         "fu_craftsmanship.config.json": 132,
-        "fu_engineering.config.json": 129,
+        "fu_engineering.config.json": 128,
         "fu_geology.config.json": 90,
         "fu_power.config.json": 65,
         "fu_warcraft.config.json": 87,
