@@ -464,16 +464,15 @@
     },
     "npcs": {
       "dungeon": {
-        "apexbase": {
-          "labscientist.npctype.json": 7
-        },
         "aviantemple": {
           "templeguard.npctype.json": 14
         },
         "aviantomb": {
           "tombguard.npctype.json": 19
         },
-        "shared_.npctype.json": 1
+        "shared_aviant": {
+          "shared_guard.npctype.json": 1
+        }
       },
       "mission": {
         "protectoratehallstaff.npctype.json": 2,
@@ -715,6 +714,7 @@
       "wasphive.species.json": 1,
       "webber.species.json": 1,
       "woggle.species.json": 1,
+      "zombie.species.json": 1,
       "zoroark.species.json": 1
     },
     "stats": {
@@ -1061,6 +1061,7 @@
         "fugasgiant3.biome.json": 1,
         "fugasgiant4.biome.json": 1,
         "fugasgiant5.biome.json": 1,
+        "futentaclet10.biome.json": 1,
         "icecloudswastesurface.biome.json": 1,
         "lightless.biome.json": 1,
         "magmadark.biome.json": 1,
@@ -1661,7 +1662,7 @@
       "fu_isotopes.collection.json": 1,
       "fu_liquid.collection.json": 1,
       "fu_monster.collection.json": 1,
-      "fu_plant.collection.json": 66,
+      "fu_plant.collection.json": 67,
       "fu_shoggothart.collection.json": 1,
       "fu_tech.collection.json": 1,
       "weapons": {
@@ -2330,6 +2331,7 @@
           },
           "researchvoxel": {
             "researchvoxel.activeitem.json": 2,
+            "researchvoxelalien.activeitem.json": 2,
             "researchvoxellarge.activeitem.json": 2,
             "researchvoxelsmall.activeitem.json": 2,
             "smalldata.activeitem.json": 2
@@ -2786,7 +2788,6 @@
               "effigiumhammer.activeitem.json": 1,
               "elderhammer.activeitem.json": 2,
               "fishboneheadbasher.activeitem.json": 2,
-              "flyingv.activeitem.json": 2,
               "fuatropushammer.activeitem.json": 1,
               "fubonehammer.activeitem.json": 2,
               "fucarbonhammer.activeitem.json": 2,
@@ -2806,6 +2807,7 @@
               "rockethammer": {
                 "rockethammer.activeitem.json": 2
               },
+              "shared_.activeitem.json": 2,
               "shared_hammer.activeitem.json": 1,
               "shared_honeyhammer.activeitem.json": 1,
               "solarihammer.activeitem.json": 2,
@@ -3255,6 +3257,9 @@
             "chargegun": {
               "chargegun2.activeitem.json": 2
             },
+            "electrobaton": {
+              "electrobaton2.activeitem.json": 3
+            },
             "fuadaptablecrossbow": {
               "fuadaptablecrossbow.activeitem.json": 2
             },
@@ -3593,6 +3598,7 @@
               "fuplasmacannon.activeitem.json": 2,
               "fuplasmagun.activeitem.json": 2,
               "fuprotectoraterifle.activeitem.json": 2,
+              "fuprotectoratesniper.activeitem.json": 2,
               "fupyreitepistol.activeitem.json": 2,
               "furainbowgun.activeitem.json": 2,
               "furepairgun.activeitem.json": 11,
@@ -7200,7 +7206,7 @@
         "liquidgravrain.liqitem.json": 2,
         "liquidironfu.liqitem.json": 2,
         "liquidirradium.liqitem.json": 2,
-        "liquidmechfuel.liqitem.json": 1,
+        "liquidmechfuel.liqitem.json": 2,
         "liquidmercury.liqitem.json": 2,
         "liquidmetallichydrogen.liqitem.json": 2,
         "liquidnitrogenitem.liqitem.json": 2,
@@ -11109,7 +11115,7 @@
           "shared_naileryseed.object.json": 1
         },
         "neuropodseed": {
-          "shared_neuropodseed.object.json": 1
+          "shared_neuropodseed.object.json": 2
         },
         "nissseed": {
           "shared_nissseed.object.json": 1
@@ -19276,7 +19282,7 @@
       "shared_cute.json": 1
     },
     "shared_duskiline.json": 1,
-    "shared_ect.json": 179,
+    "shared_ect.json": 178,
     "shared_elderplatform.mat.json": 2,
     "shared_emera.json": 1,
     "shared_engineer.json": 1,
@@ -19503,6 +19509,9 @@
       }
     },
     "stats": {
+      "bonuses": {
+        "indicatorcheatdeath.statuseffect.json": 1
+      },
       "deprecated": {
         "carnivorefoodfish.statuseffect.json": 1,
         "carnivorefoodnopoison.statuseffect.json": 1,
@@ -19588,7 +19597,8 @@
         "fireblock": {
           "fireblock1.statuseffect.json": 1,
           "fireblock2.statuseffect.json": 1,
-          "fireblock3.statuseffect.json": 1
+          "fireblock3.statuseffect.json": 1,
+          "fireblock4.statuseffect.json": 1
         },
         "food": {
           "bonus": {
@@ -19820,6 +19830,9 @@
             "radiendirt.statuseffect.json": 1
           },
           "research": {
+            "researchBonus.statuseffect.json": 1,
+            "researchBonus2.statuseffect.json": 1,
+            "researchBonus3.statuseffect.json": 1,
             "researchgain.animation.json": 1
           },
           "resourceconvert": {
@@ -19922,7 +19935,8 @@
             },
             "radiationburn": {
               "radiationburn.animation.json": 1,
-              "shared_radiationburn.json": 1
+              "radiationburn.statuseffect.json": 1,
+              "radiationburn2.statuseffect.json": 1
             },
             "shoggothburn": {
               "shoggothburn.animation.json": 1,
@@ -20923,7 +20937,7 @@
         "sturdyplatform.material.json": 2
       }
     },
-    "wide_spread_fields.json": 188,
+    "wide_spread_fields.json": 187,
     "zb": {
       "newSail": {
         "data.config.json": 7,
@@ -20936,7 +20950,7 @@
       "researchTree": {
         "data.config.json": 3,
         "fu_agriculture.config.json": 154,
-        "fu_chemistry.config.json": 64,
+        "fu_chemistry.config.json": 65,
         "fu_craftsmanship.config.json": 141,
         "fu_engineering.config.json": 131,
         "fu_geology.config.json": 96,

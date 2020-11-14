@@ -8,6 +8,10 @@
       "dialog/towndrunk.config": [
         "/reattack/default/default/2"
       ],
+      "npcs/crew/crewmembershadow.npctype": [
+        "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0",
+        "/scriptConfig/dialog/fieldBenefit/default/default/0"
+      ],
       "npcs/evernight/froggunner.npctype": [
         "/scriptConfig/dialog/attack/default/default/0"
       ],
@@ -42,6 +46,11 @@
       ],
       "monsters/skills/ranged/emptyfu.monsterskill": [
         "/label"
+      ],
+      "npcs/crew/crewmembershadow.npctype": [
+        "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1",
+        "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
+        "/scriptConfig/dialog/fieldBenefit/default/default/1"
       ],
       "npcs/precursorvillager.npctype": [
         "/scriptConfig/dialog/converse/default/default/0"
@@ -1120,6 +1129,9 @@
     "Files": {
       "items/materials/corruptslimematerial.matitem": [
         "/shortdescription"
+      ],
+      "stats/effects/fu_effects/research/researchBonus.animation": [
+        "/particleEmitters/statustext/particles/0/particle/text"
       ],
       "stats/effects/fu_tileeffects/poison_effects/darkwaterpoison/darkwaterpoison.animation": [
         "/particleEmitters/statustext/particles/0/particle/text"
@@ -2290,10 +2302,6 @@
         "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3",
         "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/3"
       ],
-      "npcs/crew/crewmembershadow.npctype": [
-        "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3",
-        "/scriptConfig/dialog/fieldBenefit/default/default/3"
-      ],
       "npcs/crew/crewmembervolcanologist.npctype": [
         "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3"
       ]
@@ -2515,6 +2523,9 @@
       ],
       "radiomessages/fu_madness.radiomessages": [
         "/crazycarry/senderName"
+      ],
+      "zb/questList/data.config": [
+        "/strings/sublines/fu_kevin"
       ]
     },
     "Texts": {
@@ -2916,21 +2927,6 @@
     "Texts": {
       "Chs": "血液，碎肉和断骨。",
       "Eng": "Meaty, bone-strewn gore."
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "items/liquids/liquidmechfuel.liqitem": [
-        "/shortdescription"
-      ],
-      "zb/researchTree/fu_chemistry.config": [
-        "/strings/research/mechfuel/0"
-      ]
-    },
-    "Texts": {
-      "Chs": "机甲燃料",
-      "Eng": "Mech Fuel"
     }
   },
   {
@@ -3707,9 +3703,6 @@
     "Files": {
       "items/currency/fuscienceresource.currency": [
         "/shortdescription"
-      ],
-      "zb/newSail/data.config": [
-        "/TextData/currencies/fu_research"
       ],
       "zb/researchTree/data.config": [
         "/strings/currencies/fuscienceresource"
@@ -4821,6 +4814,9 @@
         "/fu_start_makeWire/senderName",
         "/fu_start_needstricorder/senderName",
         "/fu_start_needstricorder2/senderName"
+      ],
+      "zb/questList/data.config": [
+        "/strings/sublines/fu_vinj"
       ]
     },
     "Texts": {
