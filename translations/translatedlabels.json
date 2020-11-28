@@ -1713,6 +1713,14 @@
       }
     },
     "frackinship": {
+      "configs": {
+        "misc.config.json": 0
+      },
+      "items": {
+        "shipunlocks": {
+          "fu_byosfleshship.activeitem.json": 0
+        }
+      },
       "quests": {
         "fu_byos.questtemplate.json": 3,
         "fu_shipupgrades.questtemplate.json": 3
@@ -1789,7 +1797,7 @@
         "colonystation.config.json": 2,
         "fu_pethouse": {
           "fu_pethouse.config.json": 12,
-          "fu_pethouse_confirmation.config.json": 4
+          "fu_pethouse_confirmation.config.json": 3
         },
         "fu_precursorspawner.config.json": 1,
         "fu_racialiser": {
@@ -1966,7 +1974,7 @@
         "xenostation.config.json": 2
       }
     },
-    "interface.json": 14,
+    "interface.json": 13,
     "items": {
       "active": {
         "crewcontracts": {
@@ -3676,7 +3684,7 @@
               "mushroomgun.activeitem.json": 2,
               "napalmcannon.activeitem.json": 2,
               "nitrogengun.activeitem.json": 1,
-              "nitrogenpistol.activeitem.json": 1,
+              "nitrogenpistol.activeitem.json": 0,
               "npclongarm.activeitem.json": 1,
               "peglaci": {
                 "burstgun": {
@@ -3696,7 +3704,7 @@
                   "frostcannonarm.activeitem.json": 3
                 },
                 "fubeamgun": {
-                  "fubeamgun.activeitem.json": 2
+                  "fubeamgun.activeitem.json": 1
                 },
                 "fubeamgunghostbuster": {
                   "fubeamgunghostbuster.activeitem.json": 0
@@ -6727,6 +6735,7 @@
           "kadavancactusjuice.consumable.json": 2,
           "kadavanmeatjuice.consumable.json": 2,
           "latte.consumable.json": 2,
+          "leadandjsandwich.consumable.json": 0,
           "licecream.consumable.json": 2,
           "magicallunch.consumable.json": 2,
           "meatpickle.consumable.json": 2,
@@ -9815,7 +9824,7 @@
           "honeyjarrer.object.json": 2
         },
         "industrialcentrifuge": {
-          "industrialcentrifuge.object.json": 2
+          "industrialcentrifuge.object.json": 1
         },
         "ironcentrifuge": {
           "ironcentrifuge.object.json": 2
@@ -14324,10 +14333,10 @@
           "braingenerator.object.json": 2
         },
         "centrifuge": {
-          "centrifuge.object.json": 2
+          "centrifuge.object.json": 1
         },
         "centrifuge2": {
-          "centrifuge2.object.json": 2
+          "centrifuge2.object.json": 1
         },
         "electricfurnace": {
           "electricfurnace.object.json": 2
@@ -14360,7 +14369,7 @@
           "fu_powersensorlarge.object.json": 2
         },
         "fu_quantumgenerator": {
-          "fu_quantumgenerator.object.json": 2
+          "fu_quantumgenerator.object.json": 1
         },
         "fu_rockbreaker": {
           "fu_rockbreaker.object.json": 2
@@ -14425,13 +14434,13 @@
         },
         "isn_fissionreactornew": {
           "isn_fissionreactornew.config.json": 1,
-          "isn_fissionreactornew.object.json": 8
+          "isn_fissionreactornew.object.json": 7
         },
         "isn_hydroponicstray": {
           "isn_hydroponicstray.object.json": 2
         },
         "isn_incinerator": {
-          "isn_incinerator.object.json": 7
+          "isn_incinerator.object.json": 1
         },
         "isn_powdersifter": {
           "isn_powdersifter.object.json": 2
@@ -14455,8 +14464,15 @@
         "isn_thermalgenerator": {
           "isn_thermalgenerator.object.json": 9
         },
+        "makeshiftreactor": {
+          "makeshiftreactor.config.json": 0,
+          "makeshiftreactor.object.json": 0
+        },
         "manufacturing": {
           "mfgstation.object.json": 2
+        },
+        "massincinerator": {
+          "massincinerator.object.json": 0
         },
         "psioniclab": {
           "psioniclab.object.json": 2
@@ -14470,6 +14486,9 @@
         },
         "shared_generator": {
           "shared_generator.config.json": 1
+        },
+        "shared_incinerator": {
+          "shared_incinerator.object.json": 6
         }
       },
       "produce": {
@@ -19275,7 +19294,7 @@
       "fu_madness.radiomessages.json": 15,
       "fu_ore.radiomessages.json": 18,
       "fu_quests.radiomessages.json": 23,
-      "fu_resources.radiomessages.json": 49,
+      "fu_resources.radiomessages.json": 47,
       "fu_stations.radiomessages.json": 2,
       "shared_.radiomessages.json": 1,
       "shared_es.radiomessages.json": 1
@@ -20961,7 +20980,7 @@
         "sturdyplatform.material.json": 2
       }
     },
-    "wide_spread_fields.json": 185,
+    "wide_spread_fields.json": 187,
     "zb": {
       "newSail": {
         "data.config.json": 7,
@@ -20976,7 +20995,7 @@
         "fu_agriculture.config.json": 151,
         "fu_chemistry.config.json": 62,
         "fu_craftsmanship.config.json": 140,
-        "fu_engineering.config.json": 130,
+        "fu_engineering.config.json": 129,
         "fu_geology.config.json": 93,
         "fu_power.config.json": 69,
         "fu_warcraft.config.json": 90,

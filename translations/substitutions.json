@@ -2106,6 +2106,12 @@
     "/description": "texts/wide_spread_fields.json",
     "/shortdescription": "texts/wide_spread_fields.json"
   },
+  "frackinship/configs/misc.config": {
+    "/shipResetConfirmationDialogs/repairShip/cancelCaption": "texts/wide_spread_fields.json",
+    "/shipResetConfirmationDialogs/repairShip/okCaption": "texts/wide_spread_fields.json",
+    "/shipResetConfirmationDialogs/skipRepairs/cancelCaption": "texts/wide_spread_fields.json",
+    "/shipResetConfirmationDialogs/skipRepairs/okCaption": "texts/wide_spread_fields.json"
+  },
   "interface/ai/ai.config": {
     "/crewBreadcrumbText": "texts/wide_spread_fields.json",
     "/guiConfig/backButton/caption": "texts/interface.json",
@@ -2119,6 +2125,7 @@
     "/states/frackinShipChoice/text": "texts/interface.json",
     "/states/frackinShipChosen/text": "texts/interface.json",
     "/states/frackinShipPreview/text": "texts/interface.json",
+    "/states/repairsSkipped/text": "texts/interface.json",
     "/states/vanillaShipChosen/text": "texts/interface.json"
   },
   "interface/bees/alveary/alveary.config": {
@@ -2258,9 +2265,9 @@
     "/displayWeathers/fubuggy/displayName": "texts/wide_spread_fields.json",
     "/displayWeathers/gravrain/displayName": "texts/wide_spread_fields.json",
     "/displayWeathers/snow/displayName": "texts/wide_spread_fields.json",
-    "/gui/editBookmarkFrame/children/close/caption": "texts/interface.json",
+    "/gui/editBookmarkFrame/children/close/caption": "texts/wide_spread_fields.json",
     "/gui/editBookmarkFrame/children/ok/caption": "texts/shared_.config.json",
-    "/gui/jumpDialog/children/cancel/caption": "texts/interface.json",
+    "/gui/jumpDialog/children/cancel/caption": "texts/wide_spread_fields.json",
     "/gui/windowtitle/subtitle": "texts/interface/shared_cockpit.json",
     "/gui/windowtitle/title": "texts/interface/shared_cockpit.json",
     "/planetTypeNames/aethersea": "texts/wide_spread_fields.json",
@@ -2708,7 +2715,8 @@
     "/gui/petName/hint": "texts/interface.json"
   },
   "interface/objectcrafting/fu_pethouse/fu_pethouse_confirmation.config": {
-    "/cancelCaption": "texts/interface.json"
+    "/cancelCaption": "texts/wide_spread_fields.json",
+    "/okCaption": "texts/wide_spread_fields.json"
   },
   "interface/objectcrafting/fu_petnamer/fu_petnamer.config": {
     "/gui/nameTextbox/hint": "texts/interface.json",
@@ -3347,7 +3355,7 @@
     "/paneLayout/windowtitle/subtitle": "texts/shared_boozekit.json"
   },
   "interface/windowconfig/charcreation.config": {
-    "/paneLayout/cancel/caption": "texts/interface.json",
+    "/paneLayout/cancel/caption": "texts/wide_spread_fields.json",
     "/paneLayout/labelPortrait/value": "texts/wide_spread_fields.json",
     "/paneLayout/name/hint": "texts/interface.json"
   },
@@ -27064,8 +27072,13 @@
     "/glitchDescription/glitchEmotedText": "texts/objects/power/isn_fissionreactornew/isn_fissionreactornew.object.json"
   },
   "objects/power/isn_incinerator/isn_incinerator.object": {
+    "/apexDescription": "texts/objects/power/shared_incinerator/shared_incinerator.object.json",
+    "/avianDescription": "texts/objects/power/shared_incinerator/shared_incinerator.object.json",
+    "/floranDescription": "texts/objects/power/shared_incinerator/shared_incinerator.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/power/isn_incinerator/isn_incinerator.object.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/power/shared_incinerator/shared_incinerator.object.json",
+    "/humanDescription": "texts/objects/power/shared_incinerator/shared_incinerator.object.json",
+    "/hylotlDescription": "texts/objects/power/shared_incinerator/shared_incinerator.object.json",
     "/shortdescription": "texts/wide_spread_fields.json"
   },
   "objects/power/isn_powdersifter/fu_woodensifter.config": {
@@ -27115,6 +27128,22 @@
   "objects/power/isn_thermalgenerator/isn_thermalgenerator.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/power/isn_thermalgenerator/isn_thermalgenerator.object.json"
+  },
+  "objects/power/makeshiftreactor/makeshiftreactor.config": {
+    "/gui/count/value": "texts/objects/power/shared_.config.json"
+  },
+  "objects/power/makeshiftreactor/makeshiftreactor.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/power/makeshiftreactor/makeshiftreactor.object.json"
+  },
+  "objects/power/massincinerator/massincinerator.object": {
+    "/apexDescription": "texts/objects/power/shared_incinerator/shared_incinerator.object.json",
+    "/avianDescription": "texts/objects/power/shared_incinerator/shared_incinerator.object.json",
+    "/floranDescription": "texts/objects/power/shared_incinerator/shared_incinerator.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/power/shared_incinerator/shared_incinerator.object.json",
+    "/humanDescription": "texts/objects/power/shared_incinerator/shared_incinerator.object.json",
+    "/hylotlDescription": "texts/objects/power/shared_incinerator/shared_incinerator.object.json"
   },
   "objects/power/quantumextractor/quantumextractor.object": {
     "/subtitle": "texts/objects.json"
@@ -32086,7 +32115,7 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_techstation/shared_techstation.json",
     "/hylotlDescription": "texts/objects/ship/shared_techstation/shared_techstation.json",
-    "/novakidDescription": "texts/objects/ship/shared_techstation/shared_techstation.object.json",
+    "/novakidDescription": "texts/objects/ship/shared_techstation/shared_techstation.json",
     "/shortdescription": "texts/wide_spread_fields.json"
   },
   "objects/ship/slimepersontechstationTier0/slimepersontechstationTier0.object": {
@@ -40391,6 +40420,9 @@
   },
   "stats/effects/liquidimmunity/gasimmunityhidden.statuseffect": {
     "/label": "texts/stats/effects/liquidimmunity/shared_.statuseffect.json"
+  },
+  "stats/effects/lowgrav/fulowgrav.statuseffect": {
+    "/label": "texts/stats/effects/lowgrav/shared_.statuseffect.json"
   },
   "stats/effects/lowgrav/lowgrav_fallspeed.statuseffect": {
     "/label": "texts/stats/effects/lowgrav/shared_lowgrav_fallspeed.json"
