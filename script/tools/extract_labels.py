@@ -9,9 +9,8 @@ from os.path import abspath, basename, dirname, exists, join, relpath
 from re import compile as regex
 from sys import platform
 
-from patch_tool import trans_patch, to_a_list, trans_patch_spcial_1
+from patch_tool import trans_patch, to_a_list
 from ignore_file import ignore_filelist
-from patch_spciallist import patchfile_spciallist1, patchfile_spciallist2
 from blacklist import dir_blacklist, path_blacklist
 from json_tools import field_by_path, list_field_paths, prepare
 from parser_settings import files_of_interest
@@ -83,11 +82,9 @@ def parseFile(filename):
             try:
                 if basename(filename).endswith('.patch'):
                     chunk.append("patch")
-                    if basename(filename) in dict.keys(patchfile_spciallist1):
-                        string = trans_patch_spcial_1(
-                            f, patchfile_spciallist1[basename(filename)])
-                    elif basename(filename) in patchfile_spciallist2:
-                        string = trans_patch(f)
+                    if basename(filename) in dict.keys(patch_serialization):
+                        string = trans_patch(
+                            f, patch_serialization[basename(filename)])
                     else:
                         string = trans_patch(f)
                     paths = to_a_list(string, 0)
@@ -99,7 +96,8 @@ def parseFile(filename):
                 print("Cannot parse " + filename)
                 try:
                     problem_file = open(error_list_file, 'a')
-                    problem_file.writelines(filename.replace(root_dir, '')+'\n')
+                    problem_file.writelines(
+                        filename.replace(root_dir, '')+'\n')
                     problem_file.close()
                 except:
                     pass
@@ -141,7 +139,7 @@ def construct_db(assets_dir):
     endings = tuple(files_of_interest.keys())
     for subdir, dirs, files in walk(assets_dir):
         for thefile in files:
-            if subdir.replace('\\', '/').replace(root_dir, "")in dir_blacklist:
+            if subdir.replace('\\', '/').replace(root_dir, "") in dir_blacklist:
                 break
             if thefile.endswith(endings) or thefile.endswith(".patch"):
                 foi.append(normpath(join(subdir, thefile)))
@@ -307,7 +305,10 @@ def extract_labels(root_dir, prefix):
 
 
 if __name__ == "__main__":
-    open(error_list_file, 'w').close
+    try:
+        open(error_list_file, 'w').close
+    except:
+        open(error_list_file, 'w')
     thedatabase = construct_db(root_dir)
     file_buffer = prepare_to_write(thedatabase[0], sub_file, texts_prefix)
     patch_file_buffer = prepare_to_write(

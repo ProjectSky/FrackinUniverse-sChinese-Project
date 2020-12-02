@@ -22,12 +22,18 @@
 "Texts": {\n      "Chs": "$1",\n      "Eng": "$1"
 ```
 
-修复缺失分号的颜色标记：
+尝试修复缺失分号的颜色标记：
 
 ```
-(\^(?:blue|yellow|red|cyan|green|white|pink|orange|#\w{6}))([^;])
+(\^(?:blue|yellow|red|cyan|green|white|pink|orange|reset|#\w{6}))([^;])
 ->
 $1;$2
+```
+尝试修复缺失^的颜色标记：
+```
+([^\^])((?:blue|yellow|red|cyan|green|white|pink|orange|reset|#\w{6});)
+->
+$1^$2
 ```
 
 检查颜色标记的错误（错误的颜色，缺失^号，缺失#号，缺失分号，多余的^reset;）：

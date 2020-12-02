@@ -77,7 +77,7 @@ specials = dict()
 
 for subdir, dirs, files in walk(translations_dir):
     for thefile in files:
-        if thefile in ["substitutions.json", "totallabels.json", "translatedlabels.json","patch_substitutions.json"]:
+        if thefile in ["substitutions.json", "totallabels.json", "translatedlabels.json", "patch_substitutions.json", "parse_problem.txt"]:
             continue
         filename = normpath(join(subdir, thefile))
         if filename.startswith(others_path):
@@ -98,6 +98,8 @@ for subdir, dirs, files in walk(translations_dir):
         set_count(labelsTranslated, filename, 0)
         for label in jsondata:
             if "Chs" not in label["Texts"] or len(label["Texts"]["Chs"]) == 0:
+                continue
+            if label["Texts"]["Chs"] == label["Texts"]["Eng"]:
                 continue
 
             add_count(labelsTranslated, filename, 1)
