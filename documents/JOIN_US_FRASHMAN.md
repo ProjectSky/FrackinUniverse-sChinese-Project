@@ -112,5 +112,14 @@ VscodeNB！这边强烈推荐使用VSC来进行汉化，去[VScode官网](https:
 * 善加利用全局搜索（Ctrl+Shift+F）和全局替换（Ctrl+Shift+H）。
 * 特殊名词请参考`REFERENCE.md`和 `TEMPLATE.md`这两个文档。
 * 如果使用Windows系统，由于对文件的大小写不敏感，源代码管理中的更改一栏下面，可能会存在一些怎么也提交不了的含有大写字母的文档。忽略即可。
-* 文本中换行符太多了，眼花看不清怎么办：如果你使用的是IDEA并且安装了Starbound Text插件的话，可以将鼠标移到文本上，输入Alt+Enter，然后选择"Edit Starbound Text Fragment"，在临时窗口中编辑文本。
+
+starbound富文本的语法支持：
+
+* 如果你使用是IDEA IDE的话，你可以通过安装Starbound Text插件来提供Starbound富文本的语言支持。
+* 要想永久性将translations/texts目录下的json文件中的Chs属性的值识别为Starbound富文本，你需要绑定json schema文件与该目录下的所有json文件。打开任意json文件，点击右下角的“Schema...”，点击“Edit Schema Mapping”，添加目录类型的Schema Mapping，选择项目目录下的schema/text.yml作为schema文件，选择项目目录下的translations/texts作为要绑定的目录，即可完成绑定。
+* 成功绑定后，打开translation/texts目录下的任意json文件，等待完成文件结构解析后，你应当看到其中的Chs属性的值有了语法高亮，但Eng属性不做识别。
+* 可以将鼠标移到文本上，输入Alt+Enter，然后选择"Edit Starbound Text Fragment"，在临时窗口中更直观地编辑文本。
+* 这会高亮文本为对应的颜色（包括#fff格式的自定义颜色），将换行符“\n”替换成真正的换行，并可通过collapse all折叠所有颜色标记，将颜色标记统一折叠为“<>”，提供更好的预览效果。
+* 如果存在语法解析的错误，IDEA的编辑器中会报错，也可通过Inspect Code检查代码功能，将项目中的所有语法解析错误列出来。
+* 注意IDEA在编辑临时窗口中的文本时，折叠颜色标记后，可能会有自身的bug，没有将临时窗口中的文本完全同步到原本的json文件中。
 
