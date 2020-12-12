@@ -1244,7 +1244,6 @@
     "/collectables/bluemelon/description": "texts/shared_ect.json",
     "/collectables/bluemelon/title": "texts/wide_spread_fields.json",
     "/collectables/bolbohn/title": "texts/wide_spread_fields.json",
-    "/collectables/capriole/description": "texts/shared_ect.json",
     "/collectables/cellpod/description": "texts/shared_ect.json",
     "/collectables/cinnamon/description": "texts/shared_ect.json",
     "/collectables/cinnamon/title": "texts/wide_spread_fields.json",
@@ -1811,10 +1810,7 @@
     "/converse/default/default/0": "texts/dialog/shared_.config.json",
     "/enclosedArea/default/default/0": "texts/dialog/shared_.config.json",
     "/final/default/default/0": "texts/dialog/shared_.config.json",
-    "/killedTarget/default/default/0": "texts/dialog/shared_.config.json",
-    "/lostTarget/default/default/0": "texts/dialog/shared_.config.json",
     "/otherDeed/default/default/0": "texts/dialog/shared_.config.json",
-    "/outOfSight/default/default/0": "texts/dialog/shared_.config.json",
     "/reattack/default/default/0": "texts/dialog/shared_.config.json",
     "/rent/default/default/0": "texts/dialog/shared_.config.json",
     "/severe/default/default/0": "texts/dialog/shared_.config.json",
@@ -2070,7 +2066,9 @@
     "/tagCriteria/default/default/2": "texts/dialog/shared_n.config.json"
   },
   "dialog/towndrunk.config": {
+    "/beacon/default/default/1": "texts/dialog/shared_.config.json",
     "/converse/default/default/13": "texts/wide_spread_fields.json",
+    "/converse/default/default/2": "texts/dialog/shared_.config.json",
     "/final/default/default/0": "texts/dialog/shared_.config.json",
     "/lostTarget/default/default/0": "texts/dialog/shared_.config.json",
     "/lostTarget/default/default/1": "texts/dialog/shared_.config.json",
@@ -4799,8 +4797,7 @@
     "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
   },
   "items/active/weapons/ranged/unique/lunaririfle.activeitem": {
-    "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json",
-    "/upgradeParameters/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
+    "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
   },
   "items/active/weapons/ranged/unique/manstopper.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_.activeitem.json"
@@ -5316,6 +5313,15 @@
   },
   "items/armors/nightar/slayersash/slayersash.legs": {
     "/description": "texts/items/armors/nightar/slayersash/shared_slayersash..json"
+  },
+  "items/armors/other/pandorasboxcapturenaut/pandorasboxcapturenaut.chest": {
+    "/description": "texts/items/armors/other/pandorasboxcapturenaut/shared_pandorasboxcapturenaut..json"
+  },
+  "items/armors/other/pandorasboxcapturenaut/pandorasboxcapturenaut.head": {
+    "/description": "texts/items/armors/other/pandorasboxcapturenaut/shared_pandorasboxcapturenaut..json"
+  },
+  "items/armors/other/pandorasboxcapturenaut/pandorasboxcapturenaut.legs": {
+    "/description": "texts/items/armors/other/pandorasboxcapturenaut/shared_pandorasboxcapturenaut..json"
   },
   "items/armors/skath/skath-tier1/skathtier1.chest": {
     "/description": "texts/items/armors/skath/skath-tier1/shared_skathtier1..json"
@@ -6775,12 +6781,6 @@
     "/augment/displayName": "texts/wide_spread_fields.json",
     "/shortdescription": "texts/wide_spread_fields.json"
   },
-  "items/augments/back/protection/fufirerateaugment.augment": {
-    "/description": "texts/items/augments/back/protection/shared_augment.augment.json"
-  },
-  "items/augments/back/protection/fureloadaugment.augment": {
-    "/description": "texts/items/augments/back/protection/shared_augment.augment.json"
-  },
   "items/augments/extraresistanceaugment.augment": {
     "/augment/displayName": "texts/items.json"
   },
@@ -7223,8 +7223,14 @@
   "items/generic/loot/fuancientkey.item": {
     "/shortdescription": "texts/wide_spread_fields.json"
   },
+  "items/generic/loot/fudeathstick.consumable": {
+    "/shortdescription": "texts/items/generic/loot/shared_.consumable.json"
+  },
   "items/generic/loot/mission/luckycoin.item": {
     "/shortdescription": "texts/wide_spread_fields.json"
+  },
+  "items/generic/loot/powderednarcotics.consumable": {
+    "/shortdescription": "texts/items/generic/loot/shared_.consumable.json"
   },
   "items/generic/mechparts/arm/fuflamearm.item": {
     "/description": "texts/items/generic/mechparts/arm/shared_fuflamearm.json"
@@ -9718,9 +9724,6 @@
   "monsters/flyers/bighairyfrank/bighairyfrank.monstertype": {
     "/description": "texts/monsters/shared_bighairyfrank.json"
   },
-  "monsters/flyers/eyebaht/eyebaht.monstertype": {
-    "/shortdescription": "texts/monsters/flyers/shared_t.monstertype.json"
-  },
   "monsters/flyers/eyejellies/eyejelly/eyejelly.monstertype": {
     "/description": "texts/monsters/flyers/eyejellies/eyejelly/shared_.monstertype.json",
     "/shortdescription": "texts/shared_ers/shared_jelly.json"
@@ -9895,9 +9898,6 @@
   },
   "monsters/flyers/servitors/servitorcomboscan3.monstertype": {
     "/description": "texts/monsters/flyers/servitors.json"
-  },
-  "monsters/flyers/shadowbat/shadowbat.monstertype": {
-    "/shortdescription": "texts/monsters/flyers/shared_t.monstertype.json"
   },
   "monsters/flyers/squidbeast/squidbeast.monstertype": {
     "/description": "texts/monsters/flyers/squidbeast/shared_.monstertype.json",
@@ -19296,11 +19296,11 @@
     "/shortdescription": "texts/objects/farmables/brackentree/shared_brackentreeseed.object.json"
   },
   "objects/farmables/caprioleplant/caprioleplantseed.object": {
-    "/description": "texts/shared_ect.json",
+    "/description": "texts/objects/farmables/caprioleplant/shared_caprioleplantseed.object.json",
     "/shortdescription": "texts/objects/farmables/caprioleplant/shared_caprioleplantseed.object.json"
   },
   "objects/farmables/caprioleplant/wildcaprioleplantseed.object": {
-    "/description": "texts/shared_ect.json",
+    "/description": "texts/objects/farmables/caprioleplant/shared_caprioleplantseed.object.json",
     "/shortdescription": "texts/objects/farmables/caprioleplant/shared_caprioleplantseed.object.json"
   },
   "objects/farmables/cellpodsplant/cellpodsplant.object": {
@@ -21395,6 +21395,10 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/generic/crates/smallwoodencrate1.object.json"
   },
+  "objects/generic/crates/winecabinet.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/generic/crates/winecabinet.object.json"
+  },
   "objects/generic/embeddedlight/embeddedlight.object": {
     "/avianDescription": "texts/objects/generic/shared_embeddedlight/shared_embeddedlight.json",
     "/floranDescription": "texts/objects/generic/shared_embeddedlight/shared_embeddedlight.json",
@@ -21702,7 +21706,6 @@
   "objects/generic/labfurniture/labtable/labtable.object": {
     "/apexDescription": "texts/objects/generic/labfurniture/shared_table/shared_.object.json",
     "/avianDescription": "texts/objects/generic/labfurniture/shared_table/shared_.object.json",
-    "/description": "texts/objects/generic/labfurniture/shared_table/shared_.object.json",
     "/floranDescription": "texts/objects/generic/labfurniture/shared_table/shared_.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/generic/labfurniture/shared_table/shared_.object.json",
@@ -21717,7 +21720,6 @@
   "objects/generic/labfurniture/moderntable1/moderntable1.object": {
     "/apexDescription": "texts/objects/generic/labfurniture/shared_table/shared_.object.json",
     "/avianDescription": "texts/objects/generic/labfurniture/shared_table/shared_.object.json",
-    "/description": "texts/objects/generic/labfurniture/shared_table/shared_.object.json",
     "/floranDescription": "texts/objects/generic/labfurniture/shared_table/shared_.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/generic/labfurniture/shared_table/shared_.object.json",
@@ -22174,7 +22176,7 @@
   "objects/isogen/isogenendtable.object": {
     "/floranDescription": "texts/objects/isogen/shared_table.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/isogen/isogenendtable.object.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/isogen/shared_table.object.json",
     "/humanDescription": "texts/objects/isogen/shared_table.object.json",
     "/hylotlDescription": "texts/objects/isogen/shared_table.object.json"
   },
@@ -22221,7 +22223,7 @@
   "objects/isogen/isogentable.object": {
     "/floranDescription": "texts/objects/isogen/shared_table.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/isogen/isogentable.object.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/isogen/shared_table.object.json",
     "/humanDescription": "texts/objects/isogen/shared_table.object.json",
     "/hylotlDescription": "texts/objects/isogen/shared_table.object.json"
   },
@@ -24675,9 +24677,11 @@
     "/shortdescription": "texts/objects/minibiome.json"
   },
   "objects/minibiome/precursor/precursorantenna/precursorantenna.object": {
+    "/description": "texts/objects/minibiome/precursor/precursorantenna/shared_precursorantenna.json",
     "/shortdescription": "texts/objects/minibiome/precursor/precursorantenna/shared_precursorantenna.json"
   },
   "objects/minibiome/precursor/precursorantenna/precursorantennaforeground.object": {
+    "/description": "texts/objects/minibiome/precursor/precursorantenna/shared_precursorantenna.json",
     "/shortdescription": "texts/objects/minibiome/precursor/precursorantenna/shared_precursorantenna.json"
   },
   "objects/minibiome/precursor/precursorartifact/precursorartifact.object": {
@@ -26928,16 +26932,15 @@
   "objects/pilch_shieldgenerator/pilch_shieldgenerator.object": {
     "/shortdescription": "texts/wide_spread_fields.json"
   },
-  "objects/pixelgoods/fudragonbed.object": {
-    "/description": "texts/objects/pixelgoods/shared_bed.object.json"
-  },
   "objects/pixelgoods/fufloranbath.object": {
+    "/description": "texts/objects/pixelgoods/shared_bath.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/pixelgoods/fufloranbath.object.json"
   },
   "objects/pixelgoods/fufloranbed.object": {
     "/apexDescription": "texts/objects/pixelgoods/shared_bed.object.json",
     "/avianDescription": "texts/objects/pixelgoods/shared_bed.object.json",
+    "/description": "texts/objects/pixelgoods/shared_bed.object.json",
     "/floranDescription": "texts/objects/pixelgoods/shared_bed.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/pixelgoods/shared_bed.object.json",
@@ -26977,6 +26980,9 @@
   "objects/pixelgoods/fuokeahitecharmchair.object": {
     "/shortdescription": "texts/objects/pixelgoods/shared_fuokeahitech.json"
   },
+  "objects/pixelgoods/fuokeahitechbath.object": {
+    "/description": "texts/objects/pixelgoods/shared_bath.object.json"
+  },
   "objects/pixelgoods/fuokeahitechbed.object": {
     "/apexDescription": "texts/objects/pixelgoods/shared_bed.object.json",
     "/avianDescription": "texts/objects/pixelgoods/shared_bed.object.json",
@@ -27009,12 +27015,6 @@
     "/humanDescription": "texts/objects/pixelgoods/shared_fuokeahitechforcedoor.json",
     "/hylotlDescription": "texts/objects/pixelgoods/shared_fuokeahitechforcedoor.json",
     "/shortdescription": "texts/objects/pixelgoods/shared_fuokeahitechforcedoor.json"
-  },
-  "objects/pixelgoods/fuokeahitechlamp1.object": {
-    "/description": "texts/objects/pixelgoods/shared_fuokeahitechlamp.json"
-  },
-  "objects/pixelgoods/fuokeahitechlamp2.object": {
-    "/description": "texts/objects/pixelgoods/shared_fuokeahitechlamp.json"
   },
   "objects/pixelgoods/fuokeahitechoven.object": {
     "/interactData/paneLayoutOverride/windowtitle/subtitle": "texts/objects.json"
