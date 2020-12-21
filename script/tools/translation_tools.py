@@ -14,11 +14,13 @@ if platform == "win32":
     from os.path import normpath as normpath_old
 
 from dictionary_data import dictionary
+from google_trans_new import google_translator
 
 
-def get_translation(source, direction, token="yq7agau781q6ceedn7pn"):
+"""
+def get_translation(source, direction, token="3975l6lr5pcbvidl6jl2"):
     url = "http://api.interpreter.caiyunai.com/v1/translator"
-    # 省着点用？不然抗不住啦！
+    # 已经一滴都不剩了。
     payload = {
         "source": source,
         "trans_type": direction,
@@ -32,6 +34,7 @@ def get_translation(source, direction, token="yq7agau781q6ceedn7pn"):
     response = requests.request(
         "POST", url, data=json.dumps(payload), headers=headers)
     return json.loads(response.text)['target']
+"""
 
 # 添加了自动删除颜色标识的功能！
 
@@ -45,12 +48,24 @@ def being_translation(file):
             string = re.sub(re.compile(r'\^.*?\;'), "",
                             jsondata[i]['Texts']['Eng'])
             #string = jsondata[i]['Texts']['Eng']
-            target_1 = get_translation(string, "auto2zh")
+            target_1 = google_trans(string)
             jsondata[i]['Texts']['Chs'] = target_1
     result = json.dumps(jsondata, ensure_ascii=False,
                         sort_keys=True, indent=2)
     return result
-
+##改用谷歌翻译，需要用到google_trans_new作依赖。
+def google_trans(string,lang='zh'):
+    translator = google_translator()  
+    translate_text = trim(translator.translate(string,lang_tgt=lang),start = "off")
+    return translate_text
+##去首尾空格
+def trim(s,start = "on",tail = "on"):
+    if s[0] == " " and start == "on":
+        return trim(s[1:])     # 如果开首有多个空格的话，递归去除多个空格
+    elif s[-1] == " " and tail == "on":
+        return trim(s[:-1])    # 如果末尾有多个空格的话，递归去除多个空格
+    else:
+        return s
 
 def ge_walk(path, function):
     try:
