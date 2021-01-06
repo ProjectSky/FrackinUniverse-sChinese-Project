@@ -40,5 +40,7 @@ dictionary = {"^cyan;Immune^reset;": "^cyan;免疫^reset;",
               "^orange;Environment^reset;": "^orange;环境^reset;",
               "^red;Weaknesses^reset;:": "^red;弱点^reset;:",
               "Damage x": "伤害 x",
-              "^orange;Weapons^reset;:": "^orange;武器^reset;:"
+              "^orange;Weapons^reset;:": "^orange;武器^reset;:",
+              "^orange;Diet^reset;": "^orange;食性^reset;",
+              "^green;Resist^reset;": "^green;抗性^reset;"
               }
