@@ -971,11 +971,6 @@
             "mimic_gramophone.monstertype.json": 2
           }
         }
-      },
-      "tw_hatch": {
-        "objects": {
-          "outpostairlockrailhatchsmall.object.json": 9
-        }
       }
     },
     "ai": {
@@ -2077,7 +2072,7 @@
           "xcodexui.config.json": 6
         }
       },
-      "shared_.config.json": 5,
+      "shared_.config.json": 4,
       "shared_boomerang.json": 1,
       "shared_bow.json": 5,
       "shared_chakram.json": 1,
@@ -2088,6 +2083,7 @@
       "shared_hammer.json": 1,
       "shared_magnorb..json": 1,
       "shared_shieldnew..json": 4,
+      "shared_station.config.json": 1,
       "shipnameplate": {
         "fu_shipnameplate.config.json": 6
       },
@@ -2552,9 +2548,8 @@
             "shoategg.activeitem.json": 2
           },
           "statusTablet": {
-            "researchtablet.activeitem.json": 1,
-            "shared_tablet.activeitem.json": 1,
-            "statustablet.activeitem.json": 1
+            "researchtablet.activeitem.json": 2,
+            "statustablet.activeitem.json": 2
           },
           "techtablet": {
             "techtablet.activeitem.json": 2
@@ -3420,7 +3415,7 @@
             "shared_shotgun.activeitem.json": 1,
             "shared_sniperrifle.activeitem.json": 1,
             "titaniumassaultrifle.activeitem.json": 2,
-            "titaniumrevolver.activeitem.json": 1,
+            "titaniumrevolver.activeitem.json": 2,
             "titaniumshotgun.activeitem.json": 1,
             "tungstenassaultrifle.activeitem.json": 2,
             "tungstenmachinepistol.activeitem.json": 1,
@@ -3954,6 +3949,7 @@
               "pistolirradiumfu.activeitem.json": 1,
               "pistolprotofu.activeitem.json": 2,
               "pistolquietusfu.activeitem.json": 1,
+              "pistoltitaniumfu.activeitem.json": 1,
               "pistoltitaniumfucustom.activeitem.json": 2,
               "pistoltungstenfu.activeitem.json": 1,
               "pistolvioliumfu.activeitem.json": 1,
@@ -4310,7 +4306,7 @@
             "zerchesiumwhip.activeitem.json": 2
           }
         },
-        "weapons.json": 7,
+        "weapons.json": 6,
         "xcodex": {
           "logbook": {
             "logbook.activeitem.json": 2
@@ -9111,7 +9107,6 @@
         "adultpoptopish": {
           "adultpoptopfire": {
             "adultpoptopfire2.monstertype.json": 1,
-            "adultpoptopfiremadness.monstertype.json": 1,
             "shared_adultpoptopfire.json": 2
           },
           "adultshadowtop": {
@@ -9606,8 +9601,8 @@
         "crewmembercyborg.npctype.json": 35,
         "crewmemberengineer2.npctype.json": 2,
         "crewmemberfubees.npctype.json": 48,
-        "crewmemberfuhunter.npctype.json": 67,
-        "crewmemberfullama.npctype.json": 24,
+        "crewmemberfuhunter.npctype.json": 53,
+        "crewmemberfullama.npctype.json": 27,
         "crewmembergas.npctype.json": 4,
         "crewmembergeologist.npctype.json": 3,
         "crewmemberghostbuster.npctype.json": 8,
@@ -9634,13 +9629,13 @@
         "crewmemberwarrior.npctype.json": 1,
         "crewmemberwarrior2.npctype.json": 1,
         "crewmemberwarrior3.npctype.json": 1,
-        "fu_crewmember.npctype.json": 46,
+        "fu_crewmember.npctype.json": 57,
         "shared_a_crewmembertemplate.json": 9,
-        "shared_crewmember.json": 117,
+        "shared_crewmember.json": 132,
         "shared_crewmember.npctype.json": 2,
         "shared_crewmemberchef.json": 12,
         "shared_crewmembercounsellor.json": 10,
-        "shared_crewmemberfu.json": 16,
+        "shared_crewmemberfu.json": 15,
         "shared_crewmemberjanitor.npctype.json": 2
       },
       "crystalminer.npctype.json": 9,
@@ -9754,7 +9749,7 @@
         "sunsetvillager.npctype.json": 15
       },
       "svetlana.npctype.json": 6,
-      "tenant": {
+      "tenants": {
         "fucultistbuilder.npctype.json": 2
       },
       "unsorted-anid": {
@@ -10924,7 +10919,10 @@
       "doors": {
         "extramissiledoor.object.json": 2,
         "shared_door.json": 7,
-        "shared_door.object.json": 2
+        "shared_door.object.json": 2,
+        "tw_hatch": {
+          "outpostairlockrailhatchsmall.object.json": 9
+        }
       },
       "drinks": {
         "alienfruitjuiceobject": {
@@ -12606,7 +12604,7 @@
             "shiphatch.object.json": 1
           },
           "vendingmachine": {
-            "labvendingmachine.object.json": 6
+            "labvendingmachine.object.json": 7
           }
         },
         "medbaybed": {
@@ -15472,7 +15470,7 @@
           "tenebrhaeshipdoor.object.json": 2
         }
       },
-      "shared_.object.json": 43,
+      "shared_.object.json": 41,
       "shared_avali.json": 6,
       "shared_banner.json": 3,
       "shared_bed": {
@@ -15638,6 +15636,9 @@
       "shared_ttent.json": 1,
       "shared_vase": {
         "shared_.object.json": 4
+      },
+      "shared_vendingmachine": {
+        "shared_vendingmachine.object.json": 1
       },
       "shared_zerchesium": {
         "shared_.object.json": 1,
@@ -16007,6 +16008,11 @@
           "hylotl": {
             "thruster_hylotl1.object.json": 2
           },
+          "kirhos": {
+            "shared_thruster_kirhos.json": 1,
+            "thruster_kirhos.object.json": 1,
+            "thruster_kirhos2.object.json": 1
+          },
           "nova": {
             "thruster_nova1.object.json": 2
           }
@@ -16180,6 +16186,9 @@
         },
         "kirhosshiplockertier0": {
           "kirhosshiplockertier0.object.json": 3
+        },
+        "kirhosshipparts": {
+          "kirhos_eye.object.json": 2
         },
         "kirhosteleportertier0": {
           "kirhosteleportertier0.object.json": 8
@@ -17293,7 +17302,7 @@
             "corsairsdresser.object.json": 9
           },
           "corsairsshelf": {
-            "corsairsshelf.object.json": 6
+            "corsairsshelf.object.json": 8
           },
           "corsairstable": {
             "corsairstable.object.json": 9
@@ -19048,7 +19057,6 @@
           },
           "shared_relay.object.json": 1,
           "shared_swtjc_wp_delay.json": 2,
-          "shared_swtjc_wp_nxor3i1.json": 1,
           "swtjc_wp_actransformer.object.json": 2,
           "swtjc_wp_and3i.object.json": 1,
           "swtjc_wp_countdowndelay.object.json": 3,
@@ -19072,7 +19080,7 @@
           "swtjc_wp_nor3i.object.json": 1,
           "swtjc_wp_nxor.object.json": 1,
           "swtjc_wp_nxor3i.object.json": 3,
-          "swtjc_wp_nxor3i12h.object.json": 2,
+          "swtjc_wp_nxor3i12h.object.json": 3,
           "swtjc_wp_nxor3i1h.object.json": 3,
           "swtjc_wp_nxor3i2h.object.json": 4,
           "swtjc_wp_or3i.object.json": 1,
@@ -19770,15 +19778,15 @@
     "radiomessages": {
       "fu_chemlab.radiomessages.json": 9,
       "fu_elder.radiomessages.json": 34,
-      "fu_exploration.radiomessages.json": 77,
+      "fu_exploration.radiomessages.json": 76,
       "fu_isotopes.radiomessages.json": 8,
       "fu_kevin.radiomessages.json": 11,
-      "fu_madness.radiomessages.json": 15,
+      "fu_madness.radiomessages.json": 19,
       "fu_ore.radiomessages.json": 18,
       "fu_quests.radiomessages.json": 23,
       "fu_resources.radiomessages.json": 50,
       "fu_stations.radiomessages.json": 3,
-      "shared_.radiomessages.json": 1,
+      "shared_.radiomessages.json": 2,
       "shared_es.radiomessages.json": 1
     },
     "shared_.config.json": 17,
@@ -20837,6 +20845,7 @@
           "psionicregeneration.statuseffect.json": 1,
           "regeneration01.statuseffect.json": 1,
           "regeneration2.statuseffect.json": 1,
+          "regeneration5madness.statuseffect.json": 1,
           "regenerationAtmosRegen.statuseffect.json": 1,
           "regenerationminor000.statuseffect.json": 1,
           "regenerationminor2.statuseffect.json": 1,
