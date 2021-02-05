@@ -10,7 +10,7 @@
       ],
       "npcs/crew/crewmembershadow.npctype": [
         "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0",
-        "/scriptConfig/dialog/fieldBenefit/default/default/0"
+        "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/0"
       ],
       "npcs/evernight/froggunner.npctype": [
         "/scriptConfig/dialog/attack/default/default/0"
@@ -49,8 +49,8 @@
       ],
       "npcs/crew/crewmembershadow.npctype": [
         "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1",
-        "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
-        "/scriptConfig/dialog/fieldBenefit/default/default/1"
+        "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/1",
+        "/scriptConfig/dialog/crewmember/roleDescription/default/default/0"
       ],
       "npcs/precursorvillager.npctype": [
         "/scriptConfig/dialog/converse/default/default/0"
@@ -169,18 +169,6 @@
         "/priceLabel/value"
       ],
       "interface/windowconfig/armory.config": [
-        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
-      ],
-      "interface/windowconfig/avalibench.config": [
-        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
-      ],
-      "interface/windowconfig/avalidisplayapparatus.config": [
-        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
-      ],
-      "interface/windowconfig/avalilathe.config": [
-        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
-      ],
-      "interface/windowconfig/avaliloom.config": [
         "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
       ],
       "interface/windowconfig/beerefuge.config": [
@@ -561,6 +549,9 @@
       "interface/windowconfig/coffee.config": [
         "/paneLayout/btnCraft/caption"
       ],
+      "interface/windowconfig/crystalloom.config": [
+        "/paneLayout/btnCraft/caption"
+      ],
       "interface/windowconfig/designlab.config": [
         "/paneLayout/btnCraft/caption"
       ],
@@ -571,6 +562,9 @@
         "/paneLayout/btnCraft/caption"
       ],
       "interface/windowconfig/fuempty.config": [
+        "/paneLayout/btnCraft/caption"
+      ],
+      "interface/windowconfig/gemstation.config": [
         "/paneLayout/btnCraft/caption"
       ],
       "interface/windowconfig/nanofabricator.config": [
@@ -1008,9 +1002,6 @@
       ],
       "items/generic/crafting/cinnabarore.item": [
         "/shortdescription"
-      ],
-      "tiles/mods/cinnabar.matmod": [
-        "/description"
       ]
     },
     "Texts": {
@@ -1090,18 +1081,6 @@
       "interface/objectcrafting/colonystation.config": [
         "/paneLayout/btnCraft/caption"
       ],
-      "interface/windowconfig/avalibench.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
-      "interface/windowconfig/avalidisplayapparatus.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
-      "interface/windowconfig/avalilathe.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
-      "interface/windowconfig/avaliloom.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
       "interface/windowconfig/boozekit.config": [
         "/paneLayout/btnCraft/caption"
       ],
@@ -1112,9 +1091,6 @@
         "/paneLayout/btnCraft/caption"
       ],
       "interface/windowconfig/craftingold.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
-      "interface/windowconfig/crystalloom.config": [
         "/paneLayout/btnCraft/caption"
       ],
       "interface/windowconfig/extractionlab.config": [
@@ -1139,9 +1115,6 @@
         "/paneLayout/btnCraft/caption"
       ],
       "interface/windowconfig/fushadowstore.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
-      "interface/windowconfig/gemstation.config": [
         "/paneLayout/btnCraft/caption"
       ],
       "interface/windowconfig/hypercompressor.config": [
@@ -1469,18 +1442,6 @@
       "interface/scripted/techshop/techshop.config": [
         "/gui/popupList/schema/listTemplate/itemName/value"
       ],
-      "interface/windowconfig/avalibench.config": [
-        "/tooltip/itemList/schema/listTemplate/itemName/value"
-      ],
-      "interface/windowconfig/avalidisplayapparatus.config": [
-        "/tooltip/itemList/schema/listTemplate/itemName/value"
-      ],
-      "interface/windowconfig/avalilathe.config": [
-        "/tooltip/itemList/schema/listTemplate/itemName/value"
-      ],
-      "interface/windowconfig/avaliloom.config": [
-        "/tooltip/itemList/schema/listTemplate/itemName/value"
-      ],
       "interface/windowconfig/extractionlab.config": [
         "/tooltip/itemList/schema/listTemplate/itemName/value"
       ],
@@ -1577,31 +1538,10 @@
       ],
       "npcs/crew/crewmembergreg.npctype": [
         "/scriptConfig/dialog/crewmember/cantreach/default/default/2",
-        "/scriptConfig/dialog/crewmember/cantreach/floran/default/2",
-        "/scriptConfig/dialog/crewmember/cantreach/glitch/default/2",
         "/scriptConfig/dialog/crewmember/follow/default/default/2",
-        "/scriptConfig/dialog/crewmember/follow/floran/default/2",
-        "/scriptConfig/dialog/crewmember/follow/glitch/default/2",
-        "/scriptConfig/dialog/crewmember/follow/penguin/default/2",
-        "/scriptConfig/dialog/crewmember/offer/apex/default/2",
-        "/scriptConfig/dialog/crewmember/offer/avian/default/2",
         "/scriptConfig/dialog/crewmember/offer/default/default/2",
-        "/scriptConfig/dialog/crewmember/offer/floran/default/2",
-        "/scriptConfig/dialog/crewmember/offer/glitch/default/2",
-        "/scriptConfig/dialog/crewmember/offer/hylotl/default/2",
-        "/scriptConfig/dialog/crewmember/offer/penguin/default/2",
-        "/scriptConfig/dialog/crewmember/penguin/default/2",
         "/scriptConfig/dialog/crewmember/respawned/default/default/2",
-        "/scriptConfig/dialog/crewmember/respawned/floran/default/2",
-        "/scriptConfig/dialog/crewmember/respawned/glitch/default/2",
-        "/scriptConfig/dialog/crewmember/respawned/penguin/default/2",
-        "/scriptConfig/dialog/crewmember/roleDescription/apex/default/2",
-        "/scriptConfig/dialog/crewmember/roleDescription/avian/default/2",
-        "/scriptConfig/dialog/crewmember/roleDescription/default/default/2",
-        "/scriptConfig/dialog/crewmember/roleDescription/floran/default/2",
-        "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/2",
-        "/scriptConfig/dialog/crewmember/roleDescription/hylotl/default/2",
-        "/scriptConfig/dialog/crewmember/roleDescription/penguin/default/2"
+        "/scriptConfig/dialog/crewmember/roleDescription/default/default/2"
       ]
     },
     "Texts": {
@@ -1617,31 +1557,10 @@
       ],
       "npcs/crew/crewmembergreg.npctype": [
         "/scriptConfig/dialog/crewmember/cantreach/default/default/6",
-        "/scriptConfig/dialog/crewmember/cantreach/floran/default/6",
-        "/scriptConfig/dialog/crewmember/cantreach/glitch/default/6",
         "/scriptConfig/dialog/crewmember/follow/default/default/6",
-        "/scriptConfig/dialog/crewmember/follow/floran/default/6",
-        "/scriptConfig/dialog/crewmember/follow/glitch/default/6",
-        "/scriptConfig/dialog/crewmember/follow/penguin/default/6",
-        "/scriptConfig/dialog/crewmember/offer/apex/default/6",
-        "/scriptConfig/dialog/crewmember/offer/avian/default/6",
         "/scriptConfig/dialog/crewmember/offer/default/default/6",
-        "/scriptConfig/dialog/crewmember/offer/floran/default/6",
-        "/scriptConfig/dialog/crewmember/offer/glitch/default/6",
-        "/scriptConfig/dialog/crewmember/offer/hylotl/default/6",
-        "/scriptConfig/dialog/crewmember/offer/penguin/default/6",
-        "/scriptConfig/dialog/crewmember/penguin/default/6",
         "/scriptConfig/dialog/crewmember/respawned/default/default/6",
-        "/scriptConfig/dialog/crewmember/respawned/floran/default/6",
-        "/scriptConfig/dialog/crewmember/respawned/glitch/default/6",
-        "/scriptConfig/dialog/crewmember/respawned/penguin/default/6",
-        "/scriptConfig/dialog/crewmember/roleDescription/apex/default/6",
-        "/scriptConfig/dialog/crewmember/roleDescription/avian/default/6",
-        "/scriptConfig/dialog/crewmember/roleDescription/default/default/6",
-        "/scriptConfig/dialog/crewmember/roleDescription/floran/default/6",
-        "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/6",
-        "/scriptConfig/dialog/crewmember/roleDescription/hylotl/default/6",
-        "/scriptConfig/dialog/crewmember/roleDescription/penguin/default/6"
+        "/scriptConfig/dialog/crewmember/roleDescription/default/default/6"
       ]
     },
     "Texts": {
@@ -1653,30 +1572,79 @@
     "DeniedAlternatives": [],
     "Files": {
       "dialog/greg.config": [
+        "/accuse/default/default/0",
+        "/accuse/default/default/5",
+        "/accuse/default/default/9",
+        "/attack/default/default/13",
+        "/attack/default/default/4",
+        "/attack/default/default/8",
+        "/beacon/default/default/0",
+        "/beacon/default/default/5",
+        "/beacon/default/default/9",
+        "/cantReach/default/default/12",
+        "/cantReach/default/default/4",
+        "/cantReach/default/default/8",
+        "/cheerOn/default/default/12",
+        "/cheerOn/default/default/4",
+        "/cheerOn/default/default/8",
+        "/combatBenefit/default/default/12",
+        "/combatBenefit/default/default/4",
+        "/combatBenefit/default/default/8",
+        "/converse/default/default/0",
+        "/converse/default/default/4",
+        "/converse/default/default/8",
+        "/enclosedArea/default/default/0",
+        "/enclosedArea/default/default/4",
+        "/enclosedArea/default/default/8",
+        "/final/default/default/0",
+        "/final/default/default/4",
+        "/final/default/default/8",
+        "/killedTarget/default/default/12",
+        "/killedTarget/default/default/4",
+        "/killedTarget/default/default/8",
+        "/lostTarget/default/default/12",
+        "/lostTarget/default/default/4",
+        "/lostTarget/default/default/8",
+        "/otherDeed/default/default/0",
+        "/otherDeed/default/default/4",
+        "/otherDeed/default/default/8",
+        "/outOfSight/default/default/13",
+        "/outOfSight/default/default/4",
+        "/outOfSight/default/default/9",
+        "/reattack/default/default/12",
+        "/reattack/default/default/4",
+        "/reattack/default/default/8",
+        "/rent/default/default/0",
+        "/rent/default/default/4",
+        "/rent/default/default/8",
+        "/severe/default/default/0",
+        "/severe/default/default/4",
+        "/severe/default/default/8",
+        "/tagCriteria/default/default/0",
+        "/tagCriteria/default/default/4",
+        "/tagCriteria/default/default/8"
+      ],
+      "npcs/crew/crewmembergreg.npctype": [
+        "/scriptConfig/dialog/crewmember/unfollow/default/default/0"
+      ]
+    },
+    "Texts": {
+      "Chs": "留心。",
+      "Eng": "Greg."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "dialog/greg.config": [
         "/converse/default/default/11"
       ],
       "npcs/crew/crewmembergreg.npctype": [
         "/scriptConfig/dialog/crewmember/cantreach/default/default/1",
-        "/scriptConfig/dialog/crewmember/cantreach/floran/default/1",
         "/scriptConfig/dialog/crewmember/follow/default/default/1",
-        "/scriptConfig/dialog/crewmember/follow/floran/default/1",
-        "/scriptConfig/dialog/crewmember/follow/penguin/default/1",
-        "/scriptConfig/dialog/crewmember/offer/apex/default/1",
-        "/scriptConfig/dialog/crewmember/offer/avian/default/1",
         "/scriptConfig/dialog/crewmember/offer/default/default/1",
-        "/scriptConfig/dialog/crewmember/offer/floran/default/1",
-        "/scriptConfig/dialog/crewmember/offer/hylotl/default/1",
-        "/scriptConfig/dialog/crewmember/offer/penguin/default/1",
-        "/scriptConfig/dialog/crewmember/penguin/default/1",
         "/scriptConfig/dialog/crewmember/respawned/default/default/1",
-        "/scriptConfig/dialog/crewmember/respawned/floran/default/1",
-        "/scriptConfig/dialog/crewmember/respawned/penguin/default/1",
-        "/scriptConfig/dialog/crewmember/roleDescription/apex/default/1",
-        "/scriptConfig/dialog/crewmember/roleDescription/avian/default/1",
-        "/scriptConfig/dialog/crewmember/roleDescription/default/default/1",
-        "/scriptConfig/dialog/crewmember/roleDescription/floran/default/1",
-        "/scriptConfig/dialog/crewmember/roleDescription/hylotl/default/1",
-        "/scriptConfig/dialog/crewmember/roleDescription/penguin/default/1"
+        "/scriptConfig/dialog/crewmember/roleDescription/default/default/1"
       ]
     },
     "Texts": {
@@ -1709,26 +1677,10 @@
       ],
       "npcs/crew/crewmembergreg.npctype": [
         "/scriptConfig/dialog/crewmember/cantreach/default/default/3",
-        "/scriptConfig/dialog/crewmember/cantreach/floran/default/3",
         "/scriptConfig/dialog/crewmember/follow/default/default/3",
-        "/scriptConfig/dialog/crewmember/follow/floran/default/3",
-        "/scriptConfig/dialog/crewmember/follow/penguin/default/3",
-        "/scriptConfig/dialog/crewmember/offer/apex/default/3",
-        "/scriptConfig/dialog/crewmember/offer/avian/default/3",
         "/scriptConfig/dialog/crewmember/offer/default/default/3",
-        "/scriptConfig/dialog/crewmember/offer/floran/default/3",
-        "/scriptConfig/dialog/crewmember/offer/hylotl/default/3",
-        "/scriptConfig/dialog/crewmember/offer/penguin/default/3",
-        "/scriptConfig/dialog/crewmember/penguin/default/3",
         "/scriptConfig/dialog/crewmember/respawned/default/default/3",
-        "/scriptConfig/dialog/crewmember/respawned/floran/default/3",
-        "/scriptConfig/dialog/crewmember/respawned/penguin/default/3",
-        "/scriptConfig/dialog/crewmember/roleDescription/apex/default/3",
-        "/scriptConfig/dialog/crewmember/roleDescription/avian/default/3",
-        "/scriptConfig/dialog/crewmember/roleDescription/default/default/3",
-        "/scriptConfig/dialog/crewmember/roleDescription/floran/default/3",
-        "/scriptConfig/dialog/crewmember/roleDescription/hylotl/default/3",
-        "/scriptConfig/dialog/crewmember/roleDescription/penguin/default/3"
+        "/scriptConfig/dialog/crewmember/roleDescription/default/default/3"
       ]
     },
     "Texts": {
@@ -1744,26 +1696,10 @@
       ],
       "npcs/crew/crewmembergreg.npctype": [
         "/scriptConfig/dialog/crewmember/cantreach/default/default/7",
-        "/scriptConfig/dialog/crewmember/cantreach/floran/default/7",
         "/scriptConfig/dialog/crewmember/follow/default/default/7",
-        "/scriptConfig/dialog/crewmember/follow/floran/default/7",
-        "/scriptConfig/dialog/crewmember/follow/penguin/default/7",
-        "/scriptConfig/dialog/crewmember/offer/apex/default/7",
-        "/scriptConfig/dialog/crewmember/offer/avian/default/7",
         "/scriptConfig/dialog/crewmember/offer/default/default/7",
-        "/scriptConfig/dialog/crewmember/offer/floran/default/7",
-        "/scriptConfig/dialog/crewmember/offer/hylotl/default/7",
-        "/scriptConfig/dialog/crewmember/offer/penguin/default/7",
-        "/scriptConfig/dialog/crewmember/penguin/default/7",
         "/scriptConfig/dialog/crewmember/respawned/default/default/7",
-        "/scriptConfig/dialog/crewmember/respawned/floran/default/7",
-        "/scriptConfig/dialog/crewmember/respawned/penguin/default/7",
-        "/scriptConfig/dialog/crewmember/roleDescription/apex/default/7",
-        "/scriptConfig/dialog/crewmember/roleDescription/avian/default/7",
-        "/scriptConfig/dialog/crewmember/roleDescription/default/default/7",
-        "/scriptConfig/dialog/crewmember/roleDescription/floran/default/7",
-        "/scriptConfig/dialog/crewmember/roleDescription/hylotl/default/7",
-        "/scriptConfig/dialog/crewmember/roleDescription/penguin/default/7"
+        "/scriptConfig/dialog/crewmember/roleDescription/default/default/7"
       ]
     },
     "Texts": {
@@ -1779,31 +1715,10 @@
       ],
       "npcs/crew/crewmembergreg.npctype": [
         "/scriptConfig/dialog/crewmember/cantreach/default/default/0",
-        "/scriptConfig/dialog/crewmember/cantreach/floran/default/0",
-        "/scriptConfig/dialog/crewmember/cantreach/glitch/default/0",
         "/scriptConfig/dialog/crewmember/follow/default/default/0",
-        "/scriptConfig/dialog/crewmember/follow/floran/default/0",
-        "/scriptConfig/dialog/crewmember/follow/glitch/default/0",
-        "/scriptConfig/dialog/crewmember/follow/penguin/default/0",
-        "/scriptConfig/dialog/crewmember/offer/apex/default/0",
-        "/scriptConfig/dialog/crewmember/offer/avian/default/0",
         "/scriptConfig/dialog/crewmember/offer/default/default/0",
-        "/scriptConfig/dialog/crewmember/offer/floran/default/0",
-        "/scriptConfig/dialog/crewmember/offer/glitch/default/0",
-        "/scriptConfig/dialog/crewmember/offer/hylotl/default/0",
-        "/scriptConfig/dialog/crewmember/offer/penguin/default/0",
-        "/scriptConfig/dialog/crewmember/penguin/default/0",
         "/scriptConfig/dialog/crewmember/respawned/default/default/0",
-        "/scriptConfig/dialog/crewmember/respawned/floran/default/0",
-        "/scriptConfig/dialog/crewmember/respawned/glitch/default/0",
-        "/scriptConfig/dialog/crewmember/respawned/penguin/default/0",
-        "/scriptConfig/dialog/crewmember/roleDescription/apex/default/0",
-        "/scriptConfig/dialog/crewmember/roleDescription/avian/default/0",
-        "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
-        "/scriptConfig/dialog/crewmember/roleDescription/floran/default/0",
-        "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0",
-        "/scriptConfig/dialog/crewmember/roleDescription/hylotl/default/0",
-        "/scriptConfig/dialog/crewmember/roleDescription/penguin/default/0"
+        "/scriptConfig/dialog/crewmember/roleDescription/default/default/0"
       ]
     },
     "Texts": {
@@ -1819,31 +1734,10 @@
       ],
       "npcs/crew/crewmembergreg.npctype": [
         "/scriptConfig/dialog/crewmember/cantreach/default/default/5",
-        "/scriptConfig/dialog/crewmember/cantreach/floran/default/5",
-        "/scriptConfig/dialog/crewmember/cantreach/glitch/default/5",
         "/scriptConfig/dialog/crewmember/follow/default/default/5",
-        "/scriptConfig/dialog/crewmember/follow/floran/default/5",
-        "/scriptConfig/dialog/crewmember/follow/glitch/default/5",
-        "/scriptConfig/dialog/crewmember/follow/penguin/default/5",
-        "/scriptConfig/dialog/crewmember/offer/apex/default/5",
-        "/scriptConfig/dialog/crewmember/offer/avian/default/5",
         "/scriptConfig/dialog/crewmember/offer/default/default/5",
-        "/scriptConfig/dialog/crewmember/offer/floran/default/5",
-        "/scriptConfig/dialog/crewmember/offer/glitch/default/5",
-        "/scriptConfig/dialog/crewmember/offer/hylotl/default/5",
-        "/scriptConfig/dialog/crewmember/offer/penguin/default/5",
-        "/scriptConfig/dialog/crewmember/penguin/default/5",
         "/scriptConfig/dialog/crewmember/respawned/default/default/5",
-        "/scriptConfig/dialog/crewmember/respawned/floran/default/5",
-        "/scriptConfig/dialog/crewmember/respawned/glitch/default/5",
-        "/scriptConfig/dialog/crewmember/respawned/penguin/default/5",
-        "/scriptConfig/dialog/crewmember/roleDescription/apex/default/5",
-        "/scriptConfig/dialog/crewmember/roleDescription/avian/default/5",
-        "/scriptConfig/dialog/crewmember/roleDescription/default/default/5",
-        "/scriptConfig/dialog/crewmember/roleDescription/floran/default/5",
-        "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/5",
-        "/scriptConfig/dialog/crewmember/roleDescription/hylotl/default/5",
-        "/scriptConfig/dialog/crewmember/roleDescription/penguin/default/5"
+        "/scriptConfig/dialog/crewmember/roleDescription/default/default/5"
       ]
     },
     "Texts": {
@@ -2018,21 +1912,18 @@
       "npcs/crew/crewmembergas.npctype": [
         "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3"
       ],
-      "npcs/crew/crewmembergeologist.npctype": [
-        "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3"
-      ],
       "npcs/crew/crewmembermagicalgirl.npctype": [
         "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3"
       ],
       "npcs/crew/crewmemberscience.npctype": [
         "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3"
       ],
-      "npcs/crew/crewmemberscuba.npctype": [
-        "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3",
-        "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/3"
-      ],
       "npcs/crew/crewmembervolcanologist.npctype": [
         "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3"
+      ],
+      "npcs/crew/fu_crewmember.npctype": [
+        "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3",
+        "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/3"
       ]
     },
     "Texts": {
@@ -2166,24 +2057,6 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "interface/cockpit/cockpit.config": [
-        "/displayOres/irradium/displayName"
-      ],
-      "tiles/mods/irradium.matmod": [
-        "/description"
-      ],
-      "zb/researchTree/fu_geology.config": [
-        "/strings/research/metals_irradium/0"
-      ]
-    },
-    "Texts": {
-      "Chs": "镭",
-      "Eng": "Irradium"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
       "items/armors/tier4/irradiumarmor/irradiumarmor.chest": [
         "/shortdescription"
       ],
@@ -2199,29 +2072,15 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "interface/cockpit/cockpit.config": [
-        "/displayOres/isogen/displayName"
-      ],
-      "tiles/mods/isogen.matmod": [
-        "/description"
-      ],
-      "zb/researchTree/fu_geology.config": [
-        "/strings/research/metals_isogen/0"
-      ]
-    },
-    "Texts": {
-      "Chs": "寒霜矿",
-      "Eng": "Isogen"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
       "npcs/scienceoutpost/fuoutposthylotlscientist.npctype": [
         "/npcname"
       ],
       "radiomessages/fu_madness.radiomessages": [
-        "/crazycarry/senderName"
+        "/crazycarry/senderName",
+        "/madnessinvuln/senderName"
+      ],
+      "zb/questList/data.config": [
+        "/strings/sublines/fu_kevin"
       ]
     },
     "Texts": {
@@ -2295,18 +2154,6 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "interface/windowconfig/avalibench.config": [
-        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/level/value"
-      ],
-      "interface/windowconfig/avalidisplayapparatus.config": [
-        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/level/value"
-      ],
-      "interface/windowconfig/avalilathe.config": [
-        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/level/value"
-      ],
-      "interface/windowconfig/avaliloom.config": [
-        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/level/value"
-      ],
       "interface/windowconfig/extractionlab.config": [
         "/paneLayout/scrollArea/children/itemList/schema/listTemplate/level/value"
       ],
@@ -2338,18 +2185,6 @@
         "/gui/lblProduct/value"
       ],
       "interface/windowconfig/armory.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/avalibench.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/avalidisplayapparatus.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/avalilathe.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/avaliloom.config": [
         "/paneLayout/lblProduct/value"
       ],
       "interface/windowconfig/beerefuge.config": [
@@ -2667,24 +2502,6 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "interface/cockpit/cockpit.config": [
-        "/displayOres/neptunium/displayName"
-      ],
-      "tiles/mods/neptunium.matmod": [
-        "/description"
-      ],
-      "zb/researchTree/fu_geology.config": [
-        "/strings/research/isotopes3/0"
-      ]
-    },
-    "Texts": {
-      "Chs": "镎",
-      "Eng": "Neptunium"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
       "biomes/surface/nitrogenseafloor.biome": [
         "/friendlyName"
       ],
@@ -2752,28 +2569,10 @@
       "interface/objectcrafting/colonystation.config": [
         "/paneLayout/lblProducttitle/value"
       ],
-      "interface/windowconfig/avalibench.config": [
-        "/paneLayout/lblProducttitle/value"
-      ],
-      "interface/windowconfig/avalidisplayapparatus.config": [
-        "/paneLayout/lblProducttitle/value"
-      ],
-      "interface/windowconfig/avalilathe.config": [
-        "/paneLayout/lblProducttitle/value"
-      ],
-      "interface/windowconfig/avaliloom.config": [
-        "/paneLayout/lblProducttitle/value"
-      ],
-      "interface/windowconfig/crystalloom.config": [
-        "/paneLayout/lblProducttitle/value"
-      ],
       "interface/windowconfig/extractionlab.config": [
         "/paneLayout/lblProducttitle/value"
       ],
       "interface/windowconfig/furniturestation.config": [
-        "/paneLayout/lblProducttitle/value"
-      ],
-      "interface/windowconfig/gemstation.config": [
         "/paneLayout/lblProducttitle/value"
       ],
       "interface/windowconfig/lavalampstation.config": [
@@ -2828,24 +2627,6 @@
     "Texts": {
       "Chs": "半影",
       "Eng": "Penumbra"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "interface/cockpit/cockpit.config": [
-        "/displayOres/penumbrite/displayName"
-      ],
-      "tiles/mods/penumbrite.matmod": [
-        "/description"
-      ],
-      "zb/researchTree/fu_geology.config": [
-        "/strings/research/metals_penumbrite/0"
-      ]
-    },
-    "Texts": {
-      "Chs": "半影矿",
-      "Eng": "Penumbrite"
     }
   },
   {
@@ -2968,9 +2749,6 @@
       "items/generic/crafting/protociteore.item": [
         "/shortdescription"
       ],
-      "tiles/mods/protocite.matmod": [
-        "/description"
-      ],
       "zb/researchTree/fu_geology.config": [
         "/strings/research/metals_protocite/0"
       ]
@@ -2983,72 +2761,15 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "interface/cockpit/cockpit.config": [
-        "/displayOres/pyreite/displayName"
-      ],
-      "tiles/mods/pyreite.matmod": [
-        "/description"
-      ],
-      "zb/researchTree/fu_geology.config": [
-        "/strings/research/metals_pyreite/0"
-      ]
-    },
-    "Texts": {
-      "Chs": "永燃矿",
-      "Eng": "Pyreite"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "interface/cockpit/cockpit.config": [
-        "/displayOres/quietus/displayName"
-      ],
-      "tiles/mods/quietus.matmod": [
-        "/description"
-      ],
-      "zb/researchTree/fu_geology.config": [
-        "/strings/research/metals_quietus/0"
-      ]
-    },
-    "Texts": {
-      "Chs": "寂灭矿",
-      "Eng": "Quietus"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
       "dialog/greg.config": [
         "/converse/default/default/14"
       ],
       "npcs/crew/crewmembergreg.npctype": [
         "/scriptConfig/dialog/crewmember/cantreach/default/default/4",
-        "/scriptConfig/dialog/crewmember/cantreach/floran/default/4",
-        "/scriptConfig/dialog/crewmember/cantreach/glitch/default/4",
         "/scriptConfig/dialog/crewmember/follow/default/default/4",
-        "/scriptConfig/dialog/crewmember/follow/floran/default/4",
-        "/scriptConfig/dialog/crewmember/follow/glitch/default/4",
-        "/scriptConfig/dialog/crewmember/follow/penguin/default/4",
-        "/scriptConfig/dialog/crewmember/offer/apex/default/4",
-        "/scriptConfig/dialog/crewmember/offer/avian/default/4",
         "/scriptConfig/dialog/crewmember/offer/default/default/4",
-        "/scriptConfig/dialog/crewmember/offer/floran/default/4",
-        "/scriptConfig/dialog/crewmember/offer/glitch/default/4",
-        "/scriptConfig/dialog/crewmember/offer/hylotl/default/4",
-        "/scriptConfig/dialog/crewmember/offer/penguin/default/4",
-        "/scriptConfig/dialog/crewmember/penguin/default/4",
         "/scriptConfig/dialog/crewmember/respawned/default/default/4",
-        "/scriptConfig/dialog/crewmember/respawned/floran/default/4",
-        "/scriptConfig/dialog/crewmember/respawned/glitch/default/4",
-        "/scriptConfig/dialog/crewmember/respawned/penguin/default/4",
-        "/scriptConfig/dialog/crewmember/roleDescription/apex/default/4",
-        "/scriptConfig/dialog/crewmember/roleDescription/avian/default/4",
-        "/scriptConfig/dialog/crewmember/roleDescription/default/default/4",
-        "/scriptConfig/dialog/crewmember/roleDescription/floran/default/4",
-        "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/4",
-        "/scriptConfig/dialog/crewmember/roleDescription/hylotl/default/4",
-        "/scriptConfig/dialog/crewmember/roleDescription/penguin/default/4"
+        "/scriptConfig/dialog/crewmember/roleDescription/default/default/4"
       ]
     },
     "Texts": {
@@ -3114,18 +2835,6 @@
         "/gui/scrollArea/children/itemList/schema/listTemplate/itemName/value"
       ],
       "interface/windowconfig/armory.config": [
-        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value"
-      ],
-      "interface/windowconfig/avalibench.config": [
-        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value"
-      ],
-      "interface/windowconfig/avalidisplayapparatus.config": [
-        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value"
-      ],
-      "interface/windowconfig/avalilathe.config": [
-        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value"
-      ],
-      "interface/windowconfig/avaliloom.config": [
         "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value"
       ],
       "interface/windowconfig/beerefuge.config": [
@@ -3326,9 +3035,6 @@
       "items/currency/fuscienceresource.currency": [
         "/shortdescription"
       ],
-      "zb/newSail/data.config": [
-        "/TextData/currencies/fu_research"
-      ],
       "zb/researchTree/data.config": [
         "/strings/currencies/fuscienceresource"
       ],
@@ -3422,18 +3128,6 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "interface/windowconfig/avalibench.config": [
-        "/paneLayout/lblSchematics/value"
-      ],
-      "interface/windowconfig/avalidisplayapparatus.config": [
-        "/paneLayout/lblSchematics/value"
-      ],
-      "interface/windowconfig/avalilathe.config": [
-        "/paneLayout/lblSchematics/value"
-      ],
-      "interface/windowconfig/avaliloom.config": [
-        "/paneLayout/lblSchematics/value"
-      ],
       "interface/windowconfig/extractionlab.config": [
         "/paneLayout/lblSchematics/value"
       ],
@@ -3471,18 +3165,6 @@
         "/gui/filter/hint"
       ],
       "interface/windowconfig/armory.config": [
-        "/paneLayout/filter/hint"
-      ],
-      "interface/windowconfig/avalibench.config": [
-        "/paneLayout/filter/hint"
-      ],
-      "interface/windowconfig/avalidisplayapparatus.config": [
-        "/paneLayout/filter/hint"
-      ],
-      "interface/windowconfig/avalilathe.config": [
-        "/paneLayout/filter/hint"
-      ],
-      "interface/windowconfig/avaliloom.config": [
         "/paneLayout/filter/hint"
       ],
       "interface/windowconfig/beerefuge.config": [
@@ -4202,19 +3884,16 @@
   {
     "DeniedAlternatives": [],
     "Files": {
+      "biomes/surface/tarball.biome": [
+        "/friendlyName"
+      ],
       "interface/cockpit/cockpit.config": [
-        "/displayOres/thorium/displayName"
-      ],
-      "tiles/mods/thorium.matmod": [
-        "/description"
-      ],
-      "zb/researchTree/fu_geology.config": [
-        "/strings/research/isotopes4/0"
+        "/planetTypeNames/tarball"
       ]
     },
     "Texts": {
-      "Chs": "钍",
-      "Eng": "Thorium"
+      "Chs": "焦油",
+      "Eng": "Tar Ball"
     }
   },
   {
@@ -4346,6 +4025,9 @@
         "/fu_start_makeWire/senderName",
         "/fu_start_needstricorder/senderName",
         "/fu_start_needstricorder2/senderName"
+      ],
+      "zb/questList/data.config": [
+        "/strings/sublines/fu_vinj"
       ]
     },
     "Texts": {
@@ -4419,9 +4101,6 @@
       "biomes/surface/urbanwasteland.biome": [
         "/friendlyName"
       ],
-      "biomes/surface/urbanwasteland2.biome": [
-        "/friendlyName"
-      ],
       "biomes/surface_detached/wastelandmini.biome": [
         "/friendlyName"
       ],
@@ -4482,9 +4161,6 @@
       ],
       "items/generic/crafting/fissionfurnace/xithricitecrystal.item": [
         "/shortdescription"
-      ],
-      "tiles/mods/xithricite.matmod": [
-        "/description"
       ]
     },
     "Texts": {
@@ -4505,24 +4181,6 @@
     "Texts": {
       "Chs": "耶特",
       "Eng": "Yettas"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "interface/cockpit/cockpit.config": [
-        "/displayOres/zerchesium/displayName"
-      ],
-      "tiles/mods/zerchesium.matmod": [
-        "/description"
-      ],
-      "zb/researchTree/fu_geology.config": [
-        "/strings/research/metals_zerchesium/0"
-      ]
-    },
-    "Texts": {
-      "Chs": "高熔点矿",
-      "Eng": "Zerchesium"
     }
   },
   {
@@ -4715,18 +4373,6 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "interface/windowconfig/avalibench.config": [
-        "/paneLayout/tbSpinCount/regex"
-      ],
-      "interface/windowconfig/avalidisplayapparatus.config": [
-        "/paneLayout/tbSpinCount/regex"
-      ],
-      "interface/windowconfig/avalilathe.config": [
-        "/paneLayout/tbSpinCount/regex"
-      ],
-      "interface/windowconfig/avaliloom.config": [
-        "/paneLayout/tbSpinCount/regex"
-      ],
       "interface/windowconfig/extractionlab.config": [
         "/paneLayout/tbSpinCount/regex"
       ],
@@ -4753,6 +4399,7 @@
       ]
     },
     "Texts": {
+      "Chs": "x?\\d{0,3}",
       "Eng": "x?\\d{0,3}"
     }
   },
@@ -4929,6 +4576,7 @@
       ]
     },
     "Texts": {
+      "Chs": "x?\\d{0,4}",
       "Eng": "x?\\d{0,4}"
     }
   }
