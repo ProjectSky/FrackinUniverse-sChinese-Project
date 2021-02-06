@@ -19,8 +19,7 @@
       ]
     },
     "Texts": {
-      "Chs": "正在建造飞船，请等待",
-      "Eng": "Constructing ship, please wait"
+      "Eng": "Constructing ship, please wait."
     }
   },
   {
@@ -39,12 +38,58 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/ai/fu_byosai.config": [
+        "/backgroundPresentConfirmation/title",
+        "/shipResetConfirmationDialogs/repairShip/title"
+      ]
+    },
+    "Texts": {
+      "Eng": "Repair Ship"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/ai/fu_byosai.config": [
+        "/backgroundPresentConfirmation/subtitle",
+        "/shipResetConfirmationDialogs/repairShip/subtitle"
+      ]
+    },
+    "Texts": {
+      "Eng": "Repair your ship"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/ai/fu_byosai.config": [
         "/states/initial/text"
       ]
     },
     "Texts": {
       "Chs": "逃离地球时，飞船遭受了重创。请选择您想要的飞船类型：\n\nFrackin船只：\n自己建造的飞船，从各种预设中选择。需要安装新的FTL驱动器，请参阅获取的三度仪中的任务。\n\n普通飞船：\n您种族的默认Starbound原版飞船。无法使用某些FU的飞船功能。",
       "Eng": "Ship has sustained major damage when escaping earth. Please select which ship type you want:\n\nFrackin Ship:\nBuild your ship, choosing from a variety of presets. Requires installation of a new FTL Drive. See your tricorder quests for guidance.\n\nVanilla Ship:\nThe default starbound ship for your race. Does not have access to some FU ship features."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/ai/fu_byosai.config": [
+        "/shipResetConfirmationDialogs/skipRepairs/title"
+      ]
+    },
+    "Texts": {
+      "Eng": "Skip Repairs"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/ai/fu_byosai.config": [
+        "/shipResetConfirmationDialogs/skipRepairs/subtitle"
+      ]
+    },
+    "Texts": {
+      "Eng": "Skip repairing your ship"
     }
   },
   {
@@ -63,12 +108,45 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/ai/fu_byosai.config": [
+        "/backgroundPresentConfirmation/message"
+      ]
+    },
+    "Texts": {
+      "Eng": "The normal background image has been detected. This background image will be rendered permenantly on your Frackin Ship. If you do not have Frackin Ship modded race support patch you should grab it from: https://steamcommunity.com/sharedfiles/filedetails/?id=1194878261 ."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/ai/fu_byosai.config": [
         "/states/vanillaShipSelected/text"
       ]
     },
     "Texts": {
       "Chs": "普通的常规飞船。正常升级。此船类型无法使用frackin飞船使用的某些功能。",
       "Eng": "The normal vanilla ship. Upgraded normally. This ship type won't have access to some of the features the frackin ship will have access to."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/ai/fu_byosai.config": [
+        "/shipResetConfirmationDialogs/repairShip/message"
+      ]
+    },
+    "Texts": {
+      "Eng": "This will re-create your ship. Only do this if your ship was been reset. Are you sure you want to do this?"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/ai/fu_byosai.config": [
+        "/shipResetConfirmationDialogs/skipRepairs/message"
+      ]
+    },
+    "Texts": {
+      "Eng": "This will set your ship as repaired. Only do this if your ship hasn't been reset. Are you sure you want to do this?"
     }
   },
   {

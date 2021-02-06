@@ -152,6 +152,33 @@
   {
     "DeniedAlternatives": [],
     "Files": {
+      "interface/ai/fu_byosai.config": [
+        "/backgroundPresentConfirmation/cancelCaption",
+        "/shipResetConfirmationDialogs/repairShip/cancelCaption",
+        "/shipResetConfirmationDialogs/skipRepairs/cancelCaption"
+      ],
+      "interface/cockpit/cockpit.config": [
+        "/gui/editBookmarkFrame/children/close/caption",
+        "/gui/jumpDialog/children/cancel/caption"
+      ],
+      "interface/objectcrafting/fu_pethouse/fu_pethouse_confirmation.config": [
+        "/cancelCaption"
+      ],
+      "interface/scripted/fuvehiclerepair/fuvehiclerepairgui.config": [
+        "/gui/cancel/caption"
+      ],
+      "interface/windowconfig/charcreation.config": [
+        "/paneLayout/cancel/caption"
+      ]
+    },
+    "Texts": {
+      "Chs": "取消",
+      "Eng": "Cancel"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
       "interface/itemdescriptions/fuammogun.itemdescription": [
         "/damagePerShotTitleLabel/value"
       ],
