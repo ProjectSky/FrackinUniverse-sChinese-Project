@@ -41,28 +41,40 @@ def op_select(jsons):
         index = index+1
     return result
 
+# 为某些patch文件写的解析法？大概吧，效率很低
+def detect_patch(jsons):
+    string = prepare(jsons)
+    result = json.loads(string)
+    new_list=list()
+    for i in result:
+        if 'path' in i:
+            new_list.append(i)
+        else:
+            for v in i:
+                new_list.append(v)
+    return new_list
+
 # 绝对可靠的扫描方式，针对普通的patch，摒弃了繁琐的转换和词典筛选！
 
 
-def trans_patch(jsons):
-    string = prepare(jsons)
-    json_text = json.loads(string)
-    value_list = list()
-    path_list = list()
-    path_list_2 = list()
-    value_list_2 = list()
-    op_list = list()
+def trans_patch(jsons,ex=None):
+    json_text = detect_patch(jsons)
+    dict_result = list()
+    fin_result = list() 
     for i, value in enumerate(json_text):
-        path_result = value['path']
-        op_result = value['op']
         try:
-            value_result = value['value']
+            dict_result.append([value['op'],  value['path'],value['value']])
         except:
-            value_result = ''
-        value_list.append(value_result)
-        path_list.append(path_result)
-        op_list.append(op_result)
-        dict_result = tuple(zip(op_list, path_list, value_list))
+            pass
+    if ex is not None:
+            try:
+                path_list = [i[1] for i in dict_result]
+                for v in ex:
+                    path_list = replace_the_path(path_list, v)
+                for x,y in enumerate(path_list):
+                    dict_result[x][1] = y
+            except:
+                pass
     for i in dict_result:
         if i[0] == 'add' or i[0] == 'replace':
             path_1 = i[1]
@@ -75,17 +87,16 @@ def trans_patch(jsons):
                 if path_2 == ['*']:
                     value = i[2]
                     path = path_1.replace('/', '', 1)
-                    value_list_2.append(value)
-                    path_list_2.append(path)
+                    fin_result.append([path,value])
                 else:
                     value = field_by_path(i[2], v)
                     path = (path_1+'/' + v).replace('/', '', 1)
-                    value_list_2.append(value)
-                    path_list_2.append(path)
+                    fin_result.append([path,value])
         else:
             pass
-    result = tuple(zip(path_list_2, value_list_2))
-    return result
+    return fin_result
+    
+
 
 
 def to_a_list(tuple, no):
@@ -93,6 +104,10 @@ def to_a_list(tuple, no):
     for i in tuple:
         re.append(i[no])
     return re
+
+
+
+
 
 
 # fuck utf8 bom!(未完成)
@@ -106,8 +121,7 @@ def fuck_utf8_bom(jsons):
 
 
 def trans_patch_spcial_1(jsons, ex):
-    string = prepare(jsons)
-    json_text = json.loads(string)
+    json_text = detect_patch(jsons)
     value_list = list()
     path_list = list()
     path_list_2 = list()
@@ -192,15 +206,21 @@ def replace_the_path(path, rule):
                 path_list_3.append(text)
     return path_list_3
 
-"""
+
 if __name__ == "__main__":
+    
+    jsons2 = open_n_decode(
+        'E:/FrackinUniverse/dungeon_worlds.config.patch', "r", "utf_8_sig")
     jsons3 = open_n_decode(
-        'F:/FrackinUniverse-sChinese-Project/translations/others/dialog/converse.config.patch', "r", "utf_8_sig")
+        'E:/FrackinUniverse/items/categories.config.patch', "r", "utf_8_sig")
     list233 = [('generic', 70, 1),('cheerful', 31, 1),('jerk', 31, 1),('flirty', 31, 1),('anxious', 31, 1),('easilyspooked',32,1),('clumsy',31,1),('excited',31,1),('intrusive',31,1),('dumb',32,1),('emo',30,1),('fast',31,1),('nocturnal',32,1),('socialite',31,1),('ambitious',30,1)]
 
-    test = trans_patch(jsons3)
+    test = trans_patch(jsons2)
+    ##test = detect_patch(json.loads(prepare(jsons3)))
+    """
     dict_old = dict()
     for i in range(len(test)):
          dict_old['/'+test[i][0]] = test[i][1]
     print(dict_old)
-"""
+    """
+    

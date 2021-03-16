@@ -15,7 +15,7 @@ foi = {
                 ".+Title$", "^paneLayout/.+/value$", "areYouSure/value$", "^blueprintUnlock$",
                 "^blueprintAlreadyKnown$", "^rotTimeDescriptions/.+/1$", "^[a-zA-Z]*[mM]essages/[a-zA-Z]+$",
                 ".+[mM]essage$", "^.*(hint|regex|([a-zA-Z]*(Caption|[Tt]itle)))$", "^defaultPetNameLabel$",
-                ".*descriptions/[0-9]+$", "^(un)?trackLabel$", "^modeTypeTextAndColor/[0-9]+/[0-9]+$", ".+research/.+$", ".+trees/.+$"],
+                ".*descriptions/[0-9]+$", "^(un)?trackLabel$", "^modeTypeTextAndColor/[0-9]+/[0-9]+$", ".+research/.+$", ".+trees/.+$", "fu_text/.+$"],
     "themes.config": ["^[0-9]+/1/[0-9]+/(0|(1/)?name)$"],
     "dungeonitems.config": ["^[0-9]+/1/[0-9]+/(0|(1/)?name)$"],
     "threats.config": ["^[0-9]+/1/[0-9]+/(0|(1/)?name)$"],
@@ -84,12 +84,13 @@ foi = {
     ".collection": [],
     ".animation": [],
     ".aicommand": ['.+/buttonText$'],
-    "data.config": [".+info/.+$", ".+currencies/.+$"],
+    "data.config": [".+info/.+$", ".+currencies/.+$", "^.*/misc/[0-9]+/1+$"],
     "system_objects.config": [".*/displayName$"],
     "parts.config": [".*/displayName$"],
     "extraStatsWindow.config": ["^tooltipBoxes/[0-9]+/tooltip$", "^defaultTooltip$"],
     "statWindow.config": [".*/name$"],
-    "spaceStationData.config": ["^medical/[0-9]+/(0|4)$", "^military/[0-9]+/(0|4)$", "^quests/.+/(objective|time|reward)$"]
+    "spaceStationData.config": ["^medical/[0-9]+/(0|4)$", "^military/[0-9]+/(0|4)$", "^quests/.+/(objective|time|reward)$"],
+    "ships.config": [".*/name$"],
 }
 files_of_interest = dict()
 for ext, poi in foi.items():

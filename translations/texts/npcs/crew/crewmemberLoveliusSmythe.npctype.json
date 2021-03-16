@@ -3,24 +3,48 @@
     "DeniedAlternatives": [],
     "Files": {
       "npcs/crew/crewmemberLoveliusSmythe.npctype": [
-        "/scriptConfig/dialog/crewmember/offer/default/default/1"
+        "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1"
       ]
     },
     "Texts": {
-      "Chs": "荣幸之极，啊，这空气真棒！给你一个忠告：别和翼族的家伙混在一起，它们都是一群鸟人。还有如果你要我帮你，就喊我，别客气。",
-      "Eng": "Glorious, wonderful oxygen. Do yourself a favor: Don't be friends with Avians. That sucked ass. I'll follow you now, if you'll have me."
+      "Chs": "<playerName>！让我们战胜这些被诅咒的敌人！",
+      "Eng": "<entityname>! Let us vanquish these cursed foes!"
     }
   },
   {
     "DeniedAlternatives": [],
     "Files": {
       "npcs/crew/crewmemberLoveliusSmythe.npctype": [
-        "/scriptConfig/dialog/crewmember/follow/default/default/1"
+        "/scriptConfig/dialog/crewmember/unfollow/default/default/2"
       ]
     },
     "Texts": {
-      "Chs": "好主意，先生！",
-      "Eng": "Good idea sir!"
+      "Chs": "你需要我留在这里吗？<playerName>。",
+      "Eng": "Do you need me to stay here, <entityname>?"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "npcs/crew/crewmemberLoveliusSmythe.npctype": [
+        "/scriptConfig/dialog/crewmember/offer/default/default/1"
+      ]
+    },
+    "Texts": {
+      "Chs": "荣幸之极，啊，这空气真棒！给你一个忠告：别和翼族的家伙混在一起，它们都是一群鸟人。还有如果你要我帮你，就喊我，别客气。",
+      "Eng": "Glorious, wonderful oxygen. Do yourself a favor: Don't be friends with Avians. That sucked. I'll follow you now, if you'll have me."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "npcs/crew/crewmemberLoveliusSmythe.npctype": [
+        "/scriptConfig/dialog/crewmember/follow/default/default/0"
+      ]
+    },
+    "Texts": {
+      "Chs": "好主意，<playerName>！",
+      "Eng": "Good idea <entityname>!"
     }
   },
   {
@@ -87,6 +111,30 @@
     "DeniedAlternatives": [],
     "Files": {
       "npcs/crew/crewmemberLoveliusSmythe.npctype": [
+        "/scriptConfig/dialog/crewmember/unfollow/default/default/1"
+      ]
+    },
+    "Texts": {
+      "Chs": "我会留在这里，<playerName>。",
+      "Eng": "I'll stay here for now, <entityname>."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "npcs/crew/crewmemberLoveliusSmythe.npctype": [
+        "/scriptConfig/dialog/crewmember/unfollow/default/default/0"
+      ]
+    },
+    "Texts": {
+      "Chs": "我就在这里等着。 需要我的时候再来，<entityname>！",
+      "Eng": "I'll stay here. Come back when you need me, <entityname>!"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "npcs/crew/crewmemberLoveliusSmythe.npctype": [
         "/scriptConfig/dialog/crewmember/respawned/default/default/0"
       ]
     },
@@ -123,12 +171,24 @@
     "DeniedAlternatives": [],
     "Files": {
       "npcs/crew/crewmemberLoveliusSmythe.npctype": [
-        "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1"
+        "/scriptConfig/dialog/crewmember/follow/default/default/1"
       ]
     },
     "Texts": {
-      "Chs": "让我们战胜这些遭到诅咒的敌人吧！",
-      "Eng": "Let us vanquish these cursed foes!"
+      "Chs": "我们走，<playerName>！",
+      "Eng": "Let's get going, <entityname>!"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "npcs/crew/crewmemberLoveliusSmythe.npctype": [
+        "/scriptConfig/dialog/crewmember/follow/default/default/2"
+      ]
+    },
+    "Texts": {
+      "Chs": "我们出发吧，<entityname>！",
+      "Eng": "Let's go, <entityname>!"
     }
   },
   {
@@ -152,7 +212,7 @@
     },
     "Texts": {
       "Chs": "神秘学研究者",
-      "Eng": "Occult Researcher"
+      "Eng": "Lovelius Smythe"
     }
   },
   {
@@ -175,8 +235,8 @@
       ]
     },
     "Texts": {
-      "Chs": "为战而战！",
-      "Eng": "To battle!"
+      "Chs": "为战而战，<playerName>！",
+      "Eng": "To battle, <entityname>!"
     }
   },
   {

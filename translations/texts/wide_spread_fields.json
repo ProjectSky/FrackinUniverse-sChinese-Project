@@ -2,11 +2,46 @@
   {
     "DeniedAlternatives": [],
     "Files": {
+      "interface/ai/fu_byosai.config": [
+        "/states/frackinShipChoice/text",
+        "/states/frackinShipChosen/text",
+        "/states/frackinShipPreview/text",
+        "/states/repairsSkipped/text",
+        "/states/vanillaShipChosen/text"
+      ],
+      "interface/scripted/fm_musicplayer/fm_musicplayer.config": [
+        "/gui/settings/children/offsetter/value"
+      ],
+      "interface/scripted/sbvn/games/cthululove/deepone.sbvn": [
+        "/scenes/badEnding6/text",
+        "/scenes/goodEnding9/text"
+      ],
+      "objects/crafting/armory/armory.object": [
+        "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/subtitle",
+        "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/title",
+        "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/subtitle",
+        "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/title",
+        "/upgradeStages/2/interactData/paneLayoutOverride/windowtitle/subtitle",
+        "/upgradeStages/2/interactData/paneLayoutOverride/windowtitle/title"
+      ]
+    },
+    "Texts": {
+      "Chs": " ",
+      "Eng": " "
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
       "dialog/brewmaster.config": [
         "/reattack/default/default/2"
       ],
       "dialog/towndrunk.config": [
         "/reattack/default/default/2"
+      ],
+      "npcs/crew/crewmembershadow.npctype": [
+        "/scriptConfig/dialog/crewmember/combatBenefit/default/default/0",
+        "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/0"
       ],
       "npcs/evernight/froggunner.npctype": [
         "/scriptConfig/dialog/attack/default/default/0"
@@ -26,9 +61,6 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "dialog/eldermerchant.config": [
-        "/beacon/default/default/0"
-      ],
       "dialog/towndrunk.config": [
         "/converse/default/default/13"
       ],
@@ -43,20 +75,25 @@
       "monsters/skills/ranged/emptyfu.monsterskill": [
         "/label"
       ],
+      "npcs/crew/crewmembershadow.npctype": [
+        "/scriptConfig/dialog/crewmember/combatBenefit/default/default/1",
+        "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/1",
+        "/scriptConfig/dialog/crewmember/roleDescription/default/default/0"
+      ],
       "npcs/precursorvillager.npctype": [
         "/scriptConfig/dialog/converse/default/default/0"
       ],
       "objects/biome/swamp/swampshopcounter/swampshopcounter.object": [
         "/hylotlDescription"
       ],
-      "objects/crafting/fu_racializer/fu_racializer.object": [
-        "/apexDescription",
-        "/avianDescription",
-        "/floranDescription",
-        "/glitchDescription",
-        "/humanDescription",
-        "/hylotlDescription",
-        "/novakidDescription"
+      "objects/devtools/mechban/bossprotector/bossprotector.object": [
+        "/description"
+      ],
+      "objects/devtools/mechban/mechbanhidden/mechbanhidden.object": [
+        "/description"
+      ],
+      "objects/devtools/mechban/vehiclebanhidden/vehiclebanhidden.object": [
+        "/description"
       ],
       "objects/doorprops/wizardsdoorprop/wizardsdoorprop.object": [
         "/description"
@@ -120,6 +157,21 @@
   {
     "DeniedAlternatives": [],
     "Files": {
+      "items/tools/inspectiontool/scantoolproto.inspectiontool": [
+        "/nothingThereText/shadow/0",
+        "/outOfRangeText/shadow/0"
+      ],
+      "npcs/crew/crewmembershadow.npctype": [
+        "/scriptConfig/dialog/crewmember/offer/default/default/0"
+      ]
+    },
+    "Texts": {
+      "Eng": "...?"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
       "interface/itemdescriptions/basenew.itemdescription": [
         "/priceLabel/value"
       ],
@@ -160,18 +212,6 @@
         "/priceLabel/value"
       ],
       "interface/windowconfig/armory.config": [
-        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
-      ],
-      "interface/windowconfig/avalibench.config": [
-        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
-      ],
-      "interface/windowconfig/avalidisplayapparatus.config": [
-        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
-      ],
-      "interface/windowconfig/avalilathe.config": [
-        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
-      ],
-      "interface/windowconfig/avaliloom.config": [
         "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
       ],
       "interface/windowconfig/beerefuge.config": [
@@ -232,6 +272,9 @@
         "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
       ],
       "interface/windowconfig/fruitpress.config": [
+        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
+      ],
+      "interface/windowconfig/fruitpressnew.config": [
         "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value"
       ],
       "interface/windowconfig/fu_anvil.config": [
@@ -435,6 +478,27 @@
   {
     "DeniedAlternatives": [],
     "Files": {
+      "objects/peglaci/decorations/peglacisupport/peglacisupport.object": [
+        "/shortdescription"
+      ],
+      "tiles/materials/fukirhosgirdir.material": [
+        "/shortdescription"
+      ],
+      "tiles/materials/fukirhosgirdir2.material": [
+        "/shortdescription"
+      ],
+      "tiles/materials/fukirhossupport.material": [
+        "/shortdescription"
+      ]
+    },
+    "Texts": {
+      "Chs": "合金支撑",
+      "Eng": "Alloy Support"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
       "objects/flowerpots/geometricflowerpot/geometricflowerpot.object": [
         "/glitchDescription/glitchEmotedText"
       ],
@@ -480,24 +544,6 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/aquapod/title"
-      ],
-      "monsters/flyers/pteropodish/aquapod/aquapodflyer.monstertype": [
-        "/shortdescription"
-      ],
-      "objects/farmables/aquapod/wildaquapodseed.object": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "水荚种子",
-      "Eng": "Aquapod"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
       "biomes/surface/arcticdark.biome": [
         "/friendlyName"
       ],
@@ -528,9 +574,6 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "interface/windowconfig/armory.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
       "interface/windowconfig/beerefuge.config": [
         "/paneLayout/btnCraft/caption"
       ],
@@ -546,6 +589,9 @@
       "interface/windowconfig/coffee.config": [
         "/paneLayout/btnCraft/caption"
       ],
+      "interface/windowconfig/crystalloom.config": [
+        "/paneLayout/btnCraft/caption"
+      ],
       "interface/windowconfig/designlab.config": [
         "/paneLayout/btnCraft/caption"
       ],
@@ -556,6 +602,9 @@
         "/paneLayout/btnCraft/caption"
       ],
       "interface/windowconfig/fuempty.config": [
+        "/paneLayout/btnCraft/caption"
+      ],
+      "interface/windowconfig/gemstation.config": [
         "/paneLayout/btnCraft/caption"
       ],
       "interface/windowconfig/nanofabricator.config": [
@@ -762,36 +811,6 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/biscorn/title"
-      ],
-      "items/generic/produce/biscorn.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "双子玉米",
-      "Eng": "Biscorn"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/blizzberry/title"
-      ],
-      "items/generic/produce/blizzberry.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "暴风雪浆果",
-      "Eng": "Blizzberry"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
       "dungeons/objects/minibiome/elder/dungeondeco/elderblood5_noeffect.object": [
         "/shortdescription"
       ],
@@ -823,21 +842,6 @@
     "Texts": {
       "Chs": "血液",
       "Eng": "Blood"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/bloodroot/title"
-      ],
-      "items/generic/produce/bloodroot.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "血之根茎",
-      "Eng": "Blood Root"
     }
   },
   {
@@ -909,21 +913,6 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/bluemelon/title"
-      ],
-      "items/generic/produce/bluemelon.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "蓝瓜",
-      "Eng": "Blue Melon"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
       "biomes/surface/bog.biome": [
         "/friendlyName"
       ],
@@ -934,21 +923,6 @@
     "Texts": {
       "Chs": "沼泽",
       "Eng": "Bog"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/bolbohn/title"
-      ],
-      "items/generic/produce/bolbohn.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "波庞薯",
-      "Eng": "Bolbohn"
     }
   },
   {
@@ -1022,21 +996,6 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "items/generic/crafting/fu_carbon.item": [
-        "/shortdescription"
-      ],
-      "zb/researchTree/fu_geology.config": [
-        "/strings/research/metals_carbon/0"
-      ]
-    },
-    "Texts": {
-      "Chs": "碳",
-      "Eng": "Carbon"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
       "objects/bees/woodencentrifuge/woodencentrifuge.object": [
         "/subtitle"
       ],
@@ -1057,29 +1016,11 @@
       ],
       "items/generic/crafting/cinnabarore.item": [
         "/shortdescription"
-      ],
-      "tiles/mods/cinnabar.matmod": [
-        "/description"
       ]
     },
     "Texts": {
       "Chs": "朱砂",
       "Eng": "Cinnabar"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/cinnamon/title"
-      ],
-      "items/generic/crafting/starbooze/cinnamon.item": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "肉桂",
-      "Eng": "Cinnamon"
     }
   },
   {
@@ -1118,6 +1059,9 @@
       "items/materials/corruptslimematerial.matitem": [
         "/shortdescription"
       ],
+      "stats/effects/fu_effects/research/researchBonus.animation": [
+        "/particleEmitters/statustext/particles/0/particle/text"
+      ],
       "stats/effects/fu_tileeffects/poison_effects/darkwaterpoison/darkwaterpoison.animation": [
         "/particleEmitters/statustext/particles/0/particle/text"
       ],
@@ -1151,16 +1095,7 @@
       "interface/objectcrafting/colonystation.config": [
         "/paneLayout/btnCraft/caption"
       ],
-      "interface/windowconfig/avalibench.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
-      "interface/windowconfig/avalidisplayapparatus.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
-      "interface/windowconfig/avalilathe.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
-      "interface/windowconfig/avaliloom.config": [
+      "interface/windowconfig/armory.config": [
         "/paneLayout/btnCraft/caption"
       ],
       "interface/windowconfig/boozekit.config": [
@@ -1173,9 +1108,6 @@
         "/paneLayout/btnCraft/caption"
       ],
       "interface/windowconfig/craftingold.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
-      "interface/windowconfig/crystalloom.config": [
         "/paneLayout/btnCraft/caption"
       ],
       "interface/windowconfig/extractionlab.config": [
@@ -1200,9 +1132,6 @@
         "/paneLayout/btnCraft/caption"
       ],
       "interface/windowconfig/fushadowstore.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
-      "interface/windowconfig/gemstation.config": [
         "/paneLayout/btnCraft/caption"
       ],
       "interface/windowconfig/hypercompressor.config": [
@@ -1352,21 +1281,6 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/dunestalk/title"
-      ],
-      "items/generic/produce/dunestalk.item": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "沙语草",
-      "Eng": "Dunestalk"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
       "biomes/surface/eden.biome": [
         "/friendlyName"
       ],
@@ -1377,36 +1291,6 @@
     "Texts": {
       "Chs": "伊甸",
       "Eng": "Eden"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/energiflower/title"
-      ],
-      "items/generic/produce/energiflower.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "能量花",
-      "Eng": "Energiflower"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/erithianalgae/title"
-      ],
-      "items/generic/produce/erithianalgae.item": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "埃里西安藻豆荚种子",
-      "Eng": "Erithian Algae"
     }
   },
   {
@@ -1425,21 +1309,6 @@
     "Texts": {
       "Chs": "炸药",
       "Eng": "Explosives"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/fayshroom/title"
-      ],
-      "items/generic/produce/fayshroom.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "费伊蘑菇",
-      "Eng": "Fayshroom"
     }
   },
   {
@@ -1520,21 +1389,6 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/garpberry/title"
-      ],
-      "items/generic/produce/garpberry.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "彭泽浆果",
-      "Eng": "Garp Berry"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
       "biomes/surface/fugasgiant.biome": [
         "/friendlyName"
       ],
@@ -1569,21 +1423,6 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/gemglow/title"
-      ],
-      "items/generic/produce/gemglow.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "宝石果",
-      "Eng": "Gemglow"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
       "items/currency/fugeneticmaterial.currency": [
         "/shortdescription"
       ],
@@ -1594,21 +1433,6 @@
     "Texts": {
       "Chs": "基因",
       "Eng": "Genes"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/genesiberry/title"
-      ],
-      "items/generic/produce/genesiberry.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "杰内西浆果",
-      "Eng": "Genesiberry"
     }
   },
   {
@@ -1632,56 +1456,8 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/ghostmushroom/title"
-      ],
-      "items/generic/produce/ghostmushroom.consumable": [
-        "/shortdescription"
-      ],
-      "objects/farmables/ghostmushroom/ghostmushroomseed.object": [
-        "/shortdescription"
-      ],
-      "objects/farmables/ghostmushroom/wildghostmushroomseed.object": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "幽灵菇孢子",
-      "Eng": "Ghost Mushroom"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/goldshroom/title"
-      ],
-      "items/generic/produce/goldshroom.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "金色蘑菇",
-      "Eng": "Gold Shroom"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
       "interface/scripted/techshop/techshop.config": [
         "/gui/popupList/schema/listTemplate/itemName/value"
-      ],
-      "interface/windowconfig/avalibench.config": [
-        "/tooltip/itemList/schema/listTemplate/itemName/value"
-      ],
-      "interface/windowconfig/avalidisplayapparatus.config": [
-        "/tooltip/itemList/schema/listTemplate/itemName/value"
-      ],
-      "interface/windowconfig/avalilathe.config": [
-        "/tooltip/itemList/schema/listTemplate/itemName/value"
-      ],
-      "interface/windowconfig/avaliloom.config": [
-        "/tooltip/itemList/schema/listTemplate/itemName/value"
       ],
       "interface/windowconfig/extractionlab.config": [
         "/tooltip/itemList/schema/listTemplate/itemName/value"
@@ -1711,36 +1487,6 @@
     "Texts": {
       "Chs": "金胡子",
       "Eng": "Golden Moustache"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/goldenroot/title"
-      ],
-      "items/generic/produce/goldenroot.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "黄金根茎",
-      "Eng": "Golden Root"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/goldenseasponge/title"
-      ],
-      "items/generic/produce/goldenseasponge.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "金色海苔",
-      "Eng": "Golden Sea Sponge"
     }
   },
   {
@@ -1809,31 +1555,10 @@
       ],
       "npcs/crew/crewmembergreg.npctype": [
         "/scriptConfig/dialog/crewmember/cantreach/default/default/2",
-        "/scriptConfig/dialog/crewmember/cantreach/floran/default/2",
-        "/scriptConfig/dialog/crewmember/cantreach/glitch/default/2",
         "/scriptConfig/dialog/crewmember/follow/default/default/2",
-        "/scriptConfig/dialog/crewmember/follow/floran/default/2",
-        "/scriptConfig/dialog/crewmember/follow/glitch/default/2",
-        "/scriptConfig/dialog/crewmember/follow/penguin/default/2",
-        "/scriptConfig/dialog/crewmember/offer/apex/default/2",
-        "/scriptConfig/dialog/crewmember/offer/avian/default/2",
         "/scriptConfig/dialog/crewmember/offer/default/default/2",
-        "/scriptConfig/dialog/crewmember/offer/floran/default/2",
-        "/scriptConfig/dialog/crewmember/offer/glitch/default/2",
-        "/scriptConfig/dialog/crewmember/offer/hylotl/default/2",
-        "/scriptConfig/dialog/crewmember/offer/penguin/default/2",
-        "/scriptConfig/dialog/crewmember/penguin/default/2",
         "/scriptConfig/dialog/crewmember/respawned/default/default/2",
-        "/scriptConfig/dialog/crewmember/respawned/floran/default/2",
-        "/scriptConfig/dialog/crewmember/respawned/glitch/default/2",
-        "/scriptConfig/dialog/crewmember/respawned/penguin/default/2",
-        "/scriptConfig/dialog/crewmember/roleDescription/apex/default/2",
-        "/scriptConfig/dialog/crewmember/roleDescription/avian/default/2",
-        "/scriptConfig/dialog/crewmember/roleDescription/default/default/2",
-        "/scriptConfig/dialog/crewmember/roleDescription/floran/default/2",
-        "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/2",
-        "/scriptConfig/dialog/crewmember/roleDescription/hylotl/default/2",
-        "/scriptConfig/dialog/crewmember/roleDescription/penguin/default/2"
+        "/scriptConfig/dialog/crewmember/roleDescription/default/default/2"
       ]
     },
     "Texts": {
@@ -1849,31 +1574,10 @@
       ],
       "npcs/crew/crewmembergreg.npctype": [
         "/scriptConfig/dialog/crewmember/cantreach/default/default/6",
-        "/scriptConfig/dialog/crewmember/cantreach/floran/default/6",
-        "/scriptConfig/dialog/crewmember/cantreach/glitch/default/6",
         "/scriptConfig/dialog/crewmember/follow/default/default/6",
-        "/scriptConfig/dialog/crewmember/follow/floran/default/6",
-        "/scriptConfig/dialog/crewmember/follow/glitch/default/6",
-        "/scriptConfig/dialog/crewmember/follow/penguin/default/6",
-        "/scriptConfig/dialog/crewmember/offer/apex/default/6",
-        "/scriptConfig/dialog/crewmember/offer/avian/default/6",
         "/scriptConfig/dialog/crewmember/offer/default/default/6",
-        "/scriptConfig/dialog/crewmember/offer/floran/default/6",
-        "/scriptConfig/dialog/crewmember/offer/glitch/default/6",
-        "/scriptConfig/dialog/crewmember/offer/hylotl/default/6",
-        "/scriptConfig/dialog/crewmember/offer/penguin/default/6",
-        "/scriptConfig/dialog/crewmember/penguin/default/6",
         "/scriptConfig/dialog/crewmember/respawned/default/default/6",
-        "/scriptConfig/dialog/crewmember/respawned/floran/default/6",
-        "/scriptConfig/dialog/crewmember/respawned/glitch/default/6",
-        "/scriptConfig/dialog/crewmember/respawned/penguin/default/6",
-        "/scriptConfig/dialog/crewmember/roleDescription/apex/default/6",
-        "/scriptConfig/dialog/crewmember/roleDescription/avian/default/6",
-        "/scriptConfig/dialog/crewmember/roleDescription/default/default/6",
-        "/scriptConfig/dialog/crewmember/roleDescription/floran/default/6",
-        "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/6",
-        "/scriptConfig/dialog/crewmember/roleDescription/hylotl/default/6",
-        "/scriptConfig/dialog/crewmember/roleDescription/penguin/default/6"
+        "/scriptConfig/dialog/crewmember/roleDescription/default/default/6"
       ]
     },
     "Texts": {
@@ -1885,30 +1589,79 @@
     "DeniedAlternatives": [],
     "Files": {
       "dialog/greg.config": [
+        "/accuse/default/default/0",
+        "/accuse/default/default/5",
+        "/accuse/default/default/9",
+        "/attack/default/default/13",
+        "/attack/default/default/4",
+        "/attack/default/default/8",
+        "/beacon/default/default/0",
+        "/beacon/default/default/5",
+        "/beacon/default/default/9",
+        "/cantReach/default/default/12",
+        "/cantReach/default/default/4",
+        "/cantReach/default/default/8",
+        "/cheerOn/default/default/12",
+        "/cheerOn/default/default/4",
+        "/cheerOn/default/default/8",
+        "/combatBenefit/default/default/12",
+        "/combatBenefit/default/default/4",
+        "/combatBenefit/default/default/8",
+        "/converse/default/default/0",
+        "/converse/default/default/4",
+        "/converse/default/default/8",
+        "/enclosedArea/default/default/0",
+        "/enclosedArea/default/default/4",
+        "/enclosedArea/default/default/8",
+        "/final/default/default/0",
+        "/final/default/default/4",
+        "/final/default/default/8",
+        "/killedTarget/default/default/12",
+        "/killedTarget/default/default/4",
+        "/killedTarget/default/default/8",
+        "/lostTarget/default/default/12",
+        "/lostTarget/default/default/4",
+        "/lostTarget/default/default/8",
+        "/otherDeed/default/default/0",
+        "/otherDeed/default/default/4",
+        "/otherDeed/default/default/8",
+        "/outOfSight/default/default/13",
+        "/outOfSight/default/default/4",
+        "/outOfSight/default/default/9",
+        "/reattack/default/default/12",
+        "/reattack/default/default/4",
+        "/reattack/default/default/8",
+        "/rent/default/default/0",
+        "/rent/default/default/4",
+        "/rent/default/default/8",
+        "/severe/default/default/0",
+        "/severe/default/default/4",
+        "/severe/default/default/8",
+        "/tagCriteria/default/default/0",
+        "/tagCriteria/default/default/4",
+        "/tagCriteria/default/default/8"
+      ],
+      "npcs/crew/crewmembergreg.npctype": [
+        "/scriptConfig/dialog/crewmember/unfollow/default/default/0"
+      ]
+    },
+    "Texts": {
+      "Chs": "留心。",
+      "Eng": "Greg."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "dialog/greg.config": [
         "/converse/default/default/11"
       ],
       "npcs/crew/crewmembergreg.npctype": [
         "/scriptConfig/dialog/crewmember/cantreach/default/default/1",
-        "/scriptConfig/dialog/crewmember/cantreach/floran/default/1",
         "/scriptConfig/dialog/crewmember/follow/default/default/1",
-        "/scriptConfig/dialog/crewmember/follow/floran/default/1",
-        "/scriptConfig/dialog/crewmember/follow/penguin/default/1",
-        "/scriptConfig/dialog/crewmember/offer/apex/default/1",
-        "/scriptConfig/dialog/crewmember/offer/avian/default/1",
         "/scriptConfig/dialog/crewmember/offer/default/default/1",
-        "/scriptConfig/dialog/crewmember/offer/floran/default/1",
-        "/scriptConfig/dialog/crewmember/offer/hylotl/default/1",
-        "/scriptConfig/dialog/crewmember/offer/penguin/default/1",
-        "/scriptConfig/dialog/crewmember/penguin/default/1",
         "/scriptConfig/dialog/crewmember/respawned/default/default/1",
-        "/scriptConfig/dialog/crewmember/respawned/floran/default/1",
-        "/scriptConfig/dialog/crewmember/respawned/penguin/default/1",
-        "/scriptConfig/dialog/crewmember/roleDescription/apex/default/1",
-        "/scriptConfig/dialog/crewmember/roleDescription/avian/default/1",
-        "/scriptConfig/dialog/crewmember/roleDescription/default/default/1",
-        "/scriptConfig/dialog/crewmember/roleDescription/floran/default/1",
-        "/scriptConfig/dialog/crewmember/roleDescription/hylotl/default/1",
-        "/scriptConfig/dialog/crewmember/roleDescription/penguin/default/1"
+        "/scriptConfig/dialog/crewmember/roleDescription/default/default/1"
       ]
     },
     "Texts": {
@@ -1941,26 +1694,10 @@
       ],
       "npcs/crew/crewmembergreg.npctype": [
         "/scriptConfig/dialog/crewmember/cantreach/default/default/3",
-        "/scriptConfig/dialog/crewmember/cantreach/floran/default/3",
         "/scriptConfig/dialog/crewmember/follow/default/default/3",
-        "/scriptConfig/dialog/crewmember/follow/floran/default/3",
-        "/scriptConfig/dialog/crewmember/follow/penguin/default/3",
-        "/scriptConfig/dialog/crewmember/offer/apex/default/3",
-        "/scriptConfig/dialog/crewmember/offer/avian/default/3",
         "/scriptConfig/dialog/crewmember/offer/default/default/3",
-        "/scriptConfig/dialog/crewmember/offer/floran/default/3",
-        "/scriptConfig/dialog/crewmember/offer/hylotl/default/3",
-        "/scriptConfig/dialog/crewmember/offer/penguin/default/3",
-        "/scriptConfig/dialog/crewmember/penguin/default/3",
         "/scriptConfig/dialog/crewmember/respawned/default/default/3",
-        "/scriptConfig/dialog/crewmember/respawned/floran/default/3",
-        "/scriptConfig/dialog/crewmember/respawned/penguin/default/3",
-        "/scriptConfig/dialog/crewmember/roleDescription/apex/default/3",
-        "/scriptConfig/dialog/crewmember/roleDescription/avian/default/3",
-        "/scriptConfig/dialog/crewmember/roleDescription/default/default/3",
-        "/scriptConfig/dialog/crewmember/roleDescription/floran/default/3",
-        "/scriptConfig/dialog/crewmember/roleDescription/hylotl/default/3",
-        "/scriptConfig/dialog/crewmember/roleDescription/penguin/default/3"
+        "/scriptConfig/dialog/crewmember/roleDescription/default/default/3"
       ]
     },
     "Texts": {
@@ -1976,26 +1713,10 @@
       ],
       "npcs/crew/crewmembergreg.npctype": [
         "/scriptConfig/dialog/crewmember/cantreach/default/default/7",
-        "/scriptConfig/dialog/crewmember/cantreach/floran/default/7",
         "/scriptConfig/dialog/crewmember/follow/default/default/7",
-        "/scriptConfig/dialog/crewmember/follow/floran/default/7",
-        "/scriptConfig/dialog/crewmember/follow/penguin/default/7",
-        "/scriptConfig/dialog/crewmember/offer/apex/default/7",
-        "/scriptConfig/dialog/crewmember/offer/avian/default/7",
         "/scriptConfig/dialog/crewmember/offer/default/default/7",
-        "/scriptConfig/dialog/crewmember/offer/floran/default/7",
-        "/scriptConfig/dialog/crewmember/offer/hylotl/default/7",
-        "/scriptConfig/dialog/crewmember/offer/penguin/default/7",
-        "/scriptConfig/dialog/crewmember/penguin/default/7",
         "/scriptConfig/dialog/crewmember/respawned/default/default/7",
-        "/scriptConfig/dialog/crewmember/respawned/floran/default/7",
-        "/scriptConfig/dialog/crewmember/respawned/penguin/default/7",
-        "/scriptConfig/dialog/crewmember/roleDescription/apex/default/7",
-        "/scriptConfig/dialog/crewmember/roleDescription/avian/default/7",
-        "/scriptConfig/dialog/crewmember/roleDescription/default/default/7",
-        "/scriptConfig/dialog/crewmember/roleDescription/floran/default/7",
-        "/scriptConfig/dialog/crewmember/roleDescription/hylotl/default/7",
-        "/scriptConfig/dialog/crewmember/roleDescription/penguin/default/7"
+        "/scriptConfig/dialog/crewmember/roleDescription/default/default/7"
       ]
     },
     "Texts": {
@@ -2011,31 +1732,10 @@
       ],
       "npcs/crew/crewmembergreg.npctype": [
         "/scriptConfig/dialog/crewmember/cantreach/default/default/0",
-        "/scriptConfig/dialog/crewmember/cantreach/floran/default/0",
-        "/scriptConfig/dialog/crewmember/cantreach/glitch/default/0",
         "/scriptConfig/dialog/crewmember/follow/default/default/0",
-        "/scriptConfig/dialog/crewmember/follow/floran/default/0",
-        "/scriptConfig/dialog/crewmember/follow/glitch/default/0",
-        "/scriptConfig/dialog/crewmember/follow/penguin/default/0",
-        "/scriptConfig/dialog/crewmember/offer/apex/default/0",
-        "/scriptConfig/dialog/crewmember/offer/avian/default/0",
         "/scriptConfig/dialog/crewmember/offer/default/default/0",
-        "/scriptConfig/dialog/crewmember/offer/floran/default/0",
-        "/scriptConfig/dialog/crewmember/offer/glitch/default/0",
-        "/scriptConfig/dialog/crewmember/offer/hylotl/default/0",
-        "/scriptConfig/dialog/crewmember/offer/penguin/default/0",
-        "/scriptConfig/dialog/crewmember/penguin/default/0",
         "/scriptConfig/dialog/crewmember/respawned/default/default/0",
-        "/scriptConfig/dialog/crewmember/respawned/floran/default/0",
-        "/scriptConfig/dialog/crewmember/respawned/glitch/default/0",
-        "/scriptConfig/dialog/crewmember/respawned/penguin/default/0",
-        "/scriptConfig/dialog/crewmember/roleDescription/apex/default/0",
-        "/scriptConfig/dialog/crewmember/roleDescription/avian/default/0",
-        "/scriptConfig/dialog/crewmember/roleDescription/default/default/0",
-        "/scriptConfig/dialog/crewmember/roleDescription/floran/default/0",
-        "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/0",
-        "/scriptConfig/dialog/crewmember/roleDescription/hylotl/default/0",
-        "/scriptConfig/dialog/crewmember/roleDescription/penguin/default/0"
+        "/scriptConfig/dialog/crewmember/roleDescription/default/default/0"
       ]
     },
     "Texts": {
@@ -2051,51 +1751,15 @@
       ],
       "npcs/crew/crewmembergreg.npctype": [
         "/scriptConfig/dialog/crewmember/cantreach/default/default/5",
-        "/scriptConfig/dialog/crewmember/cantreach/floran/default/5",
-        "/scriptConfig/dialog/crewmember/cantreach/glitch/default/5",
         "/scriptConfig/dialog/crewmember/follow/default/default/5",
-        "/scriptConfig/dialog/crewmember/follow/floran/default/5",
-        "/scriptConfig/dialog/crewmember/follow/glitch/default/5",
-        "/scriptConfig/dialog/crewmember/follow/penguin/default/5",
-        "/scriptConfig/dialog/crewmember/offer/apex/default/5",
-        "/scriptConfig/dialog/crewmember/offer/avian/default/5",
         "/scriptConfig/dialog/crewmember/offer/default/default/5",
-        "/scriptConfig/dialog/crewmember/offer/floran/default/5",
-        "/scriptConfig/dialog/crewmember/offer/glitch/default/5",
-        "/scriptConfig/dialog/crewmember/offer/hylotl/default/5",
-        "/scriptConfig/dialog/crewmember/offer/penguin/default/5",
-        "/scriptConfig/dialog/crewmember/penguin/default/5",
         "/scriptConfig/dialog/crewmember/respawned/default/default/5",
-        "/scriptConfig/dialog/crewmember/respawned/floran/default/5",
-        "/scriptConfig/dialog/crewmember/respawned/glitch/default/5",
-        "/scriptConfig/dialog/crewmember/respawned/penguin/default/5",
-        "/scriptConfig/dialog/crewmember/roleDescription/apex/default/5",
-        "/scriptConfig/dialog/crewmember/roleDescription/avian/default/5",
-        "/scriptConfig/dialog/crewmember/roleDescription/default/default/5",
-        "/scriptConfig/dialog/crewmember/roleDescription/floran/default/5",
-        "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/5",
-        "/scriptConfig/dialog/crewmember/roleDescription/hylotl/default/5",
-        "/scriptConfig/dialog/crewmember/roleDescription/penguin/default/5"
+        "/scriptConfig/dialog/crewmember/roleDescription/default/default/5"
       ]
     },
     "Texts": {
       "Chs": "Gregggggga gregga greg greg。",
       "Eng": "Gregggggga gregga greg greg."
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/gurnonion/title"
-      ],
-      "items/generic/produce/onion.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "胶洋葱种子",
-      "Eng": "Gurn Onion"
     }
   },
   {
@@ -2125,10 +1789,11 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/ginseng/title"
-      ],
       "items/generic/produce/ginseng.consumable": [
+        "/shortdescription"
+      ],
+      "objects/minibiome/bloodstone/heartroot.object": [
+        "/description",
         "/shortdescription"
       ]
     },
@@ -2224,21 +1889,6 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/hops/title"
-      ],
-      "items/generic/crafting/starbooze/hops.item": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "啤酒花",
-      "Eng": "Hops"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
       "items/generic/crafting/fu_hydrogen.item": [
         "/shortdescription"
       ],
@@ -2269,6 +1919,9 @@
       ],
       "zb/updateInfoWindow/updateInfoWindowError.config": [
         "/gui/textScrollBox/children/text/value"
+      ],
+      "zb/updateInfoWindow/updateInfoWindow_bak.config": [
+        "/gui/textScrollBox/children/text/value"
       ]
     },
     "Texts": {
@@ -2292,25 +1945,18 @@
       "npcs/crew/crewmembergas.npctype": [
         "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3"
       ],
-      "npcs/crew/crewmembergeologist.npctype": [
-        "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3"
-      ],
       "npcs/crew/crewmembermagicalgirl.npctype": [
         "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3"
       ],
       "npcs/crew/crewmemberscience.npctype": [
         "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3"
       ],
-      "npcs/crew/crewmemberscuba.npctype": [
-        "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3",
-        "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/3"
-      ],
-      "npcs/crew/crewmembershadow.npctype": [
-        "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3",
-        "/scriptConfig/dialog/fieldBenefit/default/default/3"
-      ],
       "npcs/crew/crewmembervolcanologist.npctype": [
         "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3"
+      ],
+      "npcs/crew/fu_crewmember.npctype": [
+        "/scriptConfig/dialog/crewmember/combatBenefit/default/default/3",
+        "/scriptConfig/dialog/crewmember/fieldBenefit/default/default/3"
       ]
     },
     "Texts": {
@@ -2444,24 +2090,6 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "interface/cockpit/cockpit.config": [
-        "/displayOres/irradium/displayName"
-      ],
-      "tiles/mods/irradium.matmod": [
-        "/description"
-      ],
-      "zb/researchTree/fu_geology.config": [
-        "/strings/research/metals_irradium/0"
-      ]
-    },
-    "Texts": {
-      "Chs": "镭",
-      "Eng": "Irradium"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
       "items/armors/tier4/irradiumarmor/irradiumarmor.chest": [
         "/shortdescription"
       ],
@@ -2477,59 +2105,12 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "interface/cockpit/cockpit.config": [
-        "/displayOres/isogen/displayName"
-      ],
-      "tiles/mods/isogen.matmod": [
-        "/description"
-      ],
-      "zb/researchTree/fu_geology.config": [
-        "/strings/research/metals_isogen/0"
-      ]
-    },
-    "Texts": {
-      "Chs": "寒霜矿",
-      "Eng": "Isogen"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/jillyroot/title"
-      ],
-      "items/generic/produce/jillyroot.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "吉利根茎",
-      "Eng": "Jilly Root"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/kamaranpod/title"
-      ],
-      "items/generic/produce/kamaranpods.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "卡玛兰豆荚",
-      "Eng": "Kamaran Pod"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
       "npcs/scienceoutpost/fuoutposthylotlscientist.npctype": [
         "/npcname"
       ],
       "radiomessages/fu_madness.radiomessages": [
-        "/crazycarry/senderName"
+        "/crazycarry/senderName",
+        "/madnessinvuln/senderName"
       ],
       "zb/questList/data.config": [
         "/strings/sublines/fu_kevin"
@@ -2576,36 +2157,6 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/leafshell/title"
-      ],
-      "items/generic/produce/leafshell.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "叶壳花",
-      "Eng": "Leafshell"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/littlegoodberry/title"
-      ],
-      "items/generic/produce/littlegoodberry.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "小浆果",
-      "Eng": "Little Good Berry"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
       "items/generic/loot/mission/luckycoin.item": [
         "/shortdescription"
       ],
@@ -2616,21 +2167,6 @@
     "Texts": {
       "Chs": "幸运硬币",
       "Eng": "Lucky Coin"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/lumivine/title"
-      ],
-      "items/generic/produce/lumivine.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "卢蒂海带",
-      "Eng": "Lumivine"
     }
   },
   {
@@ -2651,18 +2187,6 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "interface/windowconfig/avalibench.config": [
-        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/level/value"
-      ],
-      "interface/windowconfig/avalidisplayapparatus.config": [
-        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/level/value"
-      ],
-      "interface/windowconfig/avalilathe.config": [
-        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/level/value"
-      ],
-      "interface/windowconfig/avaliloom.config": [
-        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/level/value"
-      ],
       "interface/windowconfig/extractionlab.config": [
         "/paneLayout/scrollArea/children/itemList/schema/listTemplate/level/value"
       ],
@@ -2692,21 +2216,6 @@
       ],
       "interface/scripted/techshop/techshop.config": [
         "/gui/lblProduct/value"
-      ],
-      "interface/windowconfig/armory.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/avalibench.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/avalidisplayapparatus.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/avalilathe.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/avaliloom.config": [
-        "/paneLayout/lblProduct/value"
       ],
       "interface/windowconfig/beerefuge.config": [
         "/paneLayout/lblProduct/value"
@@ -2766,6 +2275,9 @@
         "/paneLayout/lblProduct/value"
       ],
       "interface/windowconfig/fruitpress.config": [
+        "/paneLayout/lblProduct/value"
+      ],
+      "interface/windowconfig/fruitpressnew.config": [
         "/paneLayout/lblProduct/value"
       ],
       "interface/windowconfig/fu_anvil.config": [
@@ -2936,36 +2448,6 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "items/liquids/liquidmechfuel.liqitem": [
-        "/shortdescription"
-      ],
-      "zb/researchTree/fu_chemistry.config": [
-        "/strings/research/mechfuel/0"
-      ]
-    },
-    "Texts": {
-      "Chs": "机甲燃料",
-      "Eng": "Mech Fuel"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/melodistar/title"
-      ],
-      "items/generic/produce/melodistar.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "旋律星",
-      "Eng": "Melodistar"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
       "items/liquids/ff_mercury.liqitem": [
         "/shortdescription"
       ],
@@ -3050,39 +2532,6 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/nailery/title"
-      ],
-      "items/generic/produce/nailery.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "射钉草",
-      "Eng": "Nailery"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "interface/cockpit/cockpit.config": [
-        "/displayOres/neptunium/displayName"
-      ],
-      "tiles/mods/neptunium.matmod": [
-        "/description"
-      ],
-      "zb/researchTree/fu_geology.config": [
-        "/strings/research/isotopes3/0"
-      ]
-    },
-    "Texts": {
-      "Chs": "镎",
-      "Eng": "Neptunium"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
       "biomes/surface/nitrogenseafloor.biome": [
         "/friendlyName"
       ],
@@ -3134,28 +2583,10 @@
       "interface/objectcrafting/colonystation.config": [
         "/paneLayout/lblProducttitle/value"
       ],
-      "interface/windowconfig/avalibench.config": [
-        "/paneLayout/lblProducttitle/value"
-      ],
-      "interface/windowconfig/avalidisplayapparatus.config": [
-        "/paneLayout/lblProducttitle/value"
-      ],
-      "interface/windowconfig/avalilathe.config": [
-        "/paneLayout/lblProducttitle/value"
-      ],
-      "interface/windowconfig/avaliloom.config": [
-        "/paneLayout/lblProducttitle/value"
-      ],
-      "interface/windowconfig/crystalloom.config": [
-        "/paneLayout/lblProducttitle/value"
-      ],
       "interface/windowconfig/extractionlab.config": [
         "/paneLayout/lblProducttitle/value"
       ],
       "interface/windowconfig/furniturestation.config": [
-        "/paneLayout/lblProducttitle/value"
-      ],
-      "interface/windowconfig/gemstation.config": [
         "/paneLayout/lblProducttitle/value"
       ],
       "interface/windowconfig/lavalampstation.config": [
@@ -3200,27 +2631,6 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/pekkit/title"
-      ],
-      "items/generic/produce/pekkit.consumable": [
-        "/shortdescription"
-      ],
-      "objects/farmables/pekkit/pekkitseed.object": [
-        "/shortdescription"
-      ],
-      "objects/farmables/pekkit/wildpekkitseed.object": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "霜草种子",
-      "Eng": "Pekkit"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
       "biomes/surface/penumbra.biome": [
         "/friendlyName"
       ],
@@ -3231,24 +2641,6 @@
     "Texts": {
       "Chs": "半影",
       "Eng": "Penumbra"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "interface/cockpit/cockpit.config": [
-        "/displayOres/penumbrite/displayName"
-      ],
-      "tiles/mods/penumbrite.matmod": [
-        "/description"
-      ],
-      "zb/researchTree/fu_geology.config": [
-        "/strings/research/metals_penumbrite/0"
-      ]
-    },
-    "Texts": {
-      "Chs": "半影矿",
-      "Eng": "Penumbrite"
     }
   },
   {
@@ -3371,9 +2763,6 @@
       "items/generic/crafting/protociteore.item": [
         "/shortdescription"
       ],
-      "tiles/mods/protocite.matmod": [
-        "/description"
-      ],
       "zb/researchTree/fu_geology.config": [
         "/strings/research/metals_protocite/0"
       ]
@@ -3386,72 +2775,15 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "interface/cockpit/cockpit.config": [
-        "/displayOres/pyreite/displayName"
-      ],
-      "tiles/mods/pyreite.matmod": [
-        "/description"
-      ],
-      "zb/researchTree/fu_geology.config": [
-        "/strings/research/metals_pyreite/0"
-      ]
-    },
-    "Texts": {
-      "Chs": "永燃矿",
-      "Eng": "Pyreite"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "interface/cockpit/cockpit.config": [
-        "/displayOres/quietus/displayName"
-      ],
-      "tiles/mods/quietus.matmod": [
-        "/description"
-      ],
-      "zb/researchTree/fu_geology.config": [
-        "/strings/research/metals_quietus/0"
-      ]
-    },
-    "Texts": {
-      "Chs": "寂灭矿",
-      "Eng": "Quietus"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
       "dialog/greg.config": [
         "/converse/default/default/14"
       ],
       "npcs/crew/crewmembergreg.npctype": [
         "/scriptConfig/dialog/crewmember/cantreach/default/default/4",
-        "/scriptConfig/dialog/crewmember/cantreach/floran/default/4",
-        "/scriptConfig/dialog/crewmember/cantreach/glitch/default/4",
         "/scriptConfig/dialog/crewmember/follow/default/default/4",
-        "/scriptConfig/dialog/crewmember/follow/floran/default/4",
-        "/scriptConfig/dialog/crewmember/follow/glitch/default/4",
-        "/scriptConfig/dialog/crewmember/follow/penguin/default/4",
-        "/scriptConfig/dialog/crewmember/offer/apex/default/4",
-        "/scriptConfig/dialog/crewmember/offer/avian/default/4",
         "/scriptConfig/dialog/crewmember/offer/default/default/4",
-        "/scriptConfig/dialog/crewmember/offer/floran/default/4",
-        "/scriptConfig/dialog/crewmember/offer/glitch/default/4",
-        "/scriptConfig/dialog/crewmember/offer/hylotl/default/4",
-        "/scriptConfig/dialog/crewmember/offer/penguin/default/4",
-        "/scriptConfig/dialog/crewmember/penguin/default/4",
         "/scriptConfig/dialog/crewmember/respawned/default/default/4",
-        "/scriptConfig/dialog/crewmember/respawned/floran/default/4",
-        "/scriptConfig/dialog/crewmember/respawned/glitch/default/4",
-        "/scriptConfig/dialog/crewmember/respawned/penguin/default/4",
-        "/scriptConfig/dialog/crewmember/roleDescription/apex/default/4",
-        "/scriptConfig/dialog/crewmember/roleDescription/avian/default/4",
-        "/scriptConfig/dialog/crewmember/roleDescription/default/default/4",
-        "/scriptConfig/dialog/crewmember/roleDescription/floran/default/4",
-        "/scriptConfig/dialog/crewmember/roleDescription/glitch/default/4",
-        "/scriptConfig/dialog/crewmember/roleDescription/hylotl/default/4",
-        "/scriptConfig/dialog/crewmember/roleDescription/penguin/default/4"
+        "/scriptConfig/dialog/crewmember/roleDescription/default/default/4"
       ]
     },
     "Texts": {
@@ -3498,13 +2830,13 @@
       "interface/objectcrafting/colonystation.config": [
         "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value"
       ],
-      "interface/scripted/collections/collectionsgui.config": [
-        "/gui/scrollAreaCustom/children/customCollectionList/schema/listTemplate/collectionName/value"
-      ],
       "interface/scripted/fu_matmodplacer/fu_matmodplacer.config": [
         "/gui/scrollArea/children/itemList/schema/listTemplate/itemName/value"
       ],
       "interface/scripted/fu_multiupgrade/fu_multiupgrade.config": [
+        "/gui/itemScrollArea/children/itemList/schema/listTemplate/itemName/value"
+      ],
+      "interface/scripted/fuvehiclerepair/fuvehiclerepairgui.config": [
         "/gui/itemScrollArea/children/itemList/schema/listTemplate/itemName/value"
       ],
       "interface/scripted/fuweaponupgrade/fuweaponupgradegui.config": [
@@ -3514,18 +2846,6 @@
         "/gui/scrollArea/children/itemList/schema/listTemplate/itemName/value"
       ],
       "interface/windowconfig/armory.config": [
-        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value"
-      ],
-      "interface/windowconfig/avalibench.config": [
-        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value"
-      ],
-      "interface/windowconfig/avalidisplayapparatus.config": [
-        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value"
-      ],
-      "interface/windowconfig/avalilathe.config": [
-        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value"
-      ],
-      "interface/windowconfig/avaliloom.config": [
         "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value"
       ],
       "interface/windowconfig/beerefuge.config": [
@@ -3586,6 +2906,9 @@
         "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value"
       ],
       "interface/windowconfig/fruitpress.config": [
+        "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value"
+      ],
+      "interface/windowconfig/fruitpressnew.config": [
         "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value"
       ],
       "interface/windowconfig/fu_anvil.config": [
@@ -3738,21 +3061,6 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/rockroot/title"
-      ],
-      "items/generic/produce/rockroot.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "石之根茎",
-      "Eng": "Rockroot"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
       "interface/ai/fu_byosai.config": [
         "/gui/windowTitle/value"
       ],
@@ -3831,18 +3139,6 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "interface/windowconfig/avalibench.config": [
-        "/paneLayout/lblSchematics/value"
-      ],
-      "interface/windowconfig/avalidisplayapparatus.config": [
-        "/paneLayout/lblSchematics/value"
-      ],
-      "interface/windowconfig/avalilathe.config": [
-        "/paneLayout/lblSchematics/value"
-      ],
-      "interface/windowconfig/avaliloom.config": [
-        "/paneLayout/lblSchematics/value"
-      ],
       "interface/windowconfig/extractionlab.config": [
         "/paneLayout/lblSchematics/value"
       ],
@@ -3880,18 +3176,6 @@
         "/gui/filter/hint"
       ],
       "interface/windowconfig/armory.config": [
-        "/paneLayout/filter/hint"
-      ],
-      "interface/windowconfig/avalibench.config": [
-        "/paneLayout/filter/hint"
-      ],
-      "interface/windowconfig/avalidisplayapparatus.config": [
-        "/paneLayout/filter/hint"
-      ],
-      "interface/windowconfig/avalilathe.config": [
-        "/paneLayout/filter/hint"
-      ],
-      "interface/windowconfig/avaliloom.config": [
         "/paneLayout/filter/hint"
       ],
       "interface/windowconfig/beerefuge.config": [
@@ -3952,6 +3236,9 @@
         "/paneLayout/filter/hint"
       ],
       "interface/windowconfig/fruitpress.config": [
+        "/paneLayout/filter/hint"
+      ],
+      "interface/windowconfig/fruitpressnew.config": [
         "/paneLayout/filter/hint"
       ],
       "interface/windowconfig/fu_anvil.config": [
@@ -4185,27 +3472,6 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/snowberry/title"
-      ],
-      "items/generic/produce/fusnowberry.consumable": [
-        "/shortdescription"
-      ],
-      "objects/farmables/snowberry/fusnowberryseed.object": [
-        "/shortdescription"
-      ],
-      "objects/farmables/snowberry/wildfusnowberryseed.object": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "雪浆果种子",
-      "Eng": "Snowberry"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
       "quests/fu_questlines/science/electronics/create_solarpanel.questtemplate": [
         "/title"
       ],
@@ -4221,6 +3487,20 @@
   {
     "DeniedAlternatives": [],
     "Files": {
+      "dungeons/objects/minibiome/elder/dungeondeco/elderskullgore_noeffect.object": [
+        "/description"
+      ],
+      "objects/minibiome/elder/dungeondeco/elderskullgore.object": [
+        "/description"
+      ]
+    },
+    "Texts": {
+      "Eng": "Someone has had their skull forcibly removed from their body."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
       "interface/cockpit/cockpit.config": [
         "/displayOres/junkmod/displayName"
       ],
@@ -4231,21 +3511,6 @@
     "Texts": {
       "Chs": "备用零件",
       "Eng": "Spare Parts"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/mint/title"
-      ],
-      "items/generic/produce/mint.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "星光薄荷",
-      "Eng": "Star Mint"
     }
   },
   {
@@ -4357,6 +3622,9 @@
         "/paneLayout/btnStopCraft/caption"
       ],
       "interface/windowconfig/fruitpress.config": [
+        "/paneLayout/btnStopCraft/caption"
+      ],
+      "interface/windowconfig/fruitpressnew.config": [
         "/paneLayout/btnStopCraft/caption"
       ],
       "interface/windowconfig/fu_anvil.config": [
@@ -4521,21 +3789,6 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/sweetscoop/title"
-      ],
-      "items/generic/produce/sweetscoop.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "糖果笼",
-      "Eng": "Sweetscoop"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
       "biomes/surface/tabularasa.biome": [
         "/friendlyName"
       ],
@@ -4626,6 +3879,9 @@
       "objects/bees/honeyjarrer/jarrer.config": [
         "/gui/clear/caption"
       ],
+      "objects/power/electricfurnace/electricfurnace.config": [
+        "/gui/clear/caption"
+      ],
       "objects/power/fu_blastfurnace/fu_blastfurnace.config": [
         "/gui/clear/caption"
       ],
@@ -4653,34 +3909,16 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/teratomato/title"
+      "biomes/surface/tarball.biome": [
+        "/friendlyName"
       ],
-      "items/generic/produce/teratomato.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "畸胎果",
-      "Eng": "Teratomato"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
       "interface/cockpit/cockpit.config": [
-        "/displayOres/thorium/displayName"
-      ],
-      "tiles/mods/thorium.matmod": [
-        "/description"
-      ],
-      "zb/researchTree/fu_geology.config": [
-        "/strings/research/isotopes4/0"
+        "/planetTypeNames/tarball"
       ]
     },
     "Texts": {
-      "Chs": "钍",
-      "Eng": "Thorium"
+      "Chs": "焦油",
+      "Eng": "Tar Ball"
     }
   },
   {
@@ -4732,21 +3970,6 @@
     "Texts": {
       "Chs": "未知",
       "Eng": "Unknown"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/vanusflower/title"
-      ],
-      "items/generic/produce/vanusflower.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "金星花",
-      "Eng": "Vanus Flower"
     }
   },
   {
@@ -4806,7 +4029,8 @@
         "/precursorDiscovery1/senderName",
         "/precursorDiscovery2/senderName",
         "/ruins/senderName",
-        "/ruins2/senderName"
+        "/ruins2/senderName",
+        "/upgrade_station/senderName"
       ],
       "radiomessages/fu_quests.radiomessages": [
         "/fu_outpost1/senderName",
@@ -4902,9 +4126,6 @@
       "biomes/surface/urbanwasteland.biome": [
         "/friendlyName"
       ],
-      "biomes/surface/urbanwasteland2.biome": [
-        "/friendlyName"
-      ],
       "biomes/surface_detached/wastelandmini.biome": [
         "/friendlyName"
       ],
@@ -4960,48 +4181,15 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "codex/mantizi/mantizi4.codex": [
-        "/title"
-      ],
-      "items/generic/crafting/starbooze/weyene.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "葡萄酒",
-      "Eng": "Wine"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "collections/fu_plant.collection": [
-        "/collectables/wubstem/title"
-      ],
-      "items/generic/produce/wubstem.consumable": [
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "常茎",
-      "Eng": "Wubstem"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
       "interface/cockpit/cockpit.config": [
         "/displayOres/xithricite/displayName"
       ],
       "items/generic/crafting/fissionfurnace/xithricitecrystal.item": [
         "/shortdescription"
-      ],
-      "tiles/mods/xithricite.matmod": [
-        "/description"
       ]
     },
     "Texts": {
-      "Chs": "赛德瑞瑟晶体",
+      "Chs": "稀理辉石",
       "Eng": "Xithricite"
     }
   },
@@ -5023,223 +4211,6 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "interface/cockpit/cockpit.config": [
-        "/displayOres/zerchesium/displayName"
-      ],
-      "tiles/mods/zerchesium.matmod": [
-        "/description"
-      ],
-      "zb/researchTree/fu_geology.config": [
-        "/strings/research/metals_zerchesium/0"
-      ]
-    },
-    "Texts": {
-      "Chs": "高熔点矿",
-      "Eng": "Zerchesium"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "dungeons/objects/minibiome/elder/dungeondeco/elderskullgore_noeffect.object": [
-        "/description"
-      ],
-      "objects/minibiome/elder/dungeondeco/elderskullgore.object": [
-        "/description"
-      ]
-    },
-    "Texts": {
-      "Chs": "有人把他们的头骨强行拿了出来。",
-      "Eng": "someone has had their skull forcibly removed from their body."
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "interface/itemdescriptions/boomerang.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/boomerangaetherium.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/bow2bak.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/bowaetherium.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/bowelder.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/chakram.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/fist2.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/fist2aetherium.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/fuammogun.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/fuammogun2.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/gun2.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/gun2aetherium.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/gun2elder.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/gun2overheat.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/gun2overheatelder.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/gunkevin.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/gununique.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/gununiqueelder.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/hammer.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/hammeraetherium.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/hammerelder.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/hammerunique.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/hammervanilla.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/magnorb.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/shieldnew.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/sword2.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/swordaetherium.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/swordelder.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/itemdescriptions/swordunique.itemdescription": [
-        "/priceLabel/value"
-      ],
-      "interface/tooltips/boomerang.tooltip": [
-        "/priceLabel/value"
-      ],
-      "interface/tooltips/boomerangaetherium.tooltip": [
-        "/priceLabel/value"
-      ],
-      "interface/tooltips/bow2.tooltip": [
-        "/priceLabel/value"
-      ],
-      "interface/tooltips/bowaetherium2.tooltip": [
-        "/priceLabel/value"
-      ],
-      "interface/tooltips/bowelder2.tooltip": [
-        "/priceLabel/value"
-      ],
-      "interface/tooltips/chakram.tooltip": [
-        "/priceLabel/value"
-      ],
-      "interface/tooltips/chakramaetherium.tooltip": [
-        "/priceLabel/value"
-      ],
-      "interface/tooltips/fist2.tooltip": [
-        "/priceLabel/value"
-      ],
-      "interface/tooltips/fuammogun.tooltip": [
-        "/priceLabel/value"
-      ],
-      "interface/tooltips/gun2.tooltip": [
-        "/priceLabel/value"
-      ],
-      "interface/tooltips/gun2aetherium.tooltip": [
-        "/priceLabel/value"
-      ],
-      "interface/tooltips/gun2elder.tooltip": [
-        "/priceLabel/value"
-      ],
-      "interface/tooltips/gun2overheat.tooltip": [
-        "/priceLabel/value"
-      ],
-      "interface/tooltips/gun2overheatelder.tooltip": [
-        "/priceLabel/value"
-      ],
-      "interface/tooltips/gunkevin.tooltip": [
-        "/priceLabel/value"
-      ],
-      "interface/tooltips/gununique.tooltip": [
-        "/priceLabel/value"
-      ],
-      "interface/tooltips/hammer.tooltip": [
-        "/priceLabel/value"
-      ],
-      "interface/tooltips/hammerunique.tooltip": [
-        "/priceLabel/value"
-      ],
-      "interface/tooltips/hammervanilla.tooltip": [
-        "/priceLabel/value"
-      ],
-      "interface/tooltips/magnorb.tooltip": [
-        "/priceLabel/value"
-      ],
-      "interface/tooltips/neb-randombow.tooltip": [
-        "/priceLabel/value"
-      ],
-      "interface/tooltips/shieldnew.tooltip": [
-        "/priceLabel/value"
-      ],
-      "interface/tooltips/sword2.tooltip": [
-        "/priceLabel/value"
-      ],
-      "interface/tooltips/swordunique.tooltip": [
-        "/priceLabel/value"
-      ],
-      "objects/minibiome/various/snowtree1.object": [
-        "/description",
-        "/shortdescription"
-      ]
-    },
-    "Texts": {
-      "Chs": "树",
-      "Eng": "tree"
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "interface/windowconfig/avalibench.config": [
-        "/paneLayout/tbSpinCount/regex"
-      ],
-      "interface/windowconfig/avalidisplayapparatus.config": [
-        "/paneLayout/tbSpinCount/regex"
-      ],
-      "interface/windowconfig/avalilathe.config": [
-        "/paneLayout/tbSpinCount/regex"
-      ],
-      "interface/windowconfig/avaliloom.config": [
-        "/paneLayout/tbSpinCount/regex"
-      ],
       "interface/windowconfig/extractionlab.config": [
         "/paneLayout/tbSpinCount/regex"
       ],
@@ -5266,6 +4237,7 @@
       ]
     },
     "Texts": {
+      "Chs": "x?\\d{0,3}",
       "Eng": "x?\\d{0,3}"
     }
   },
@@ -5333,6 +4305,9 @@
         "/paneLayout/tbSpinCount/regex"
       ],
       "interface/windowconfig/fruitpress.config": [
+        "/paneLayout/tbSpinCount/regex"
+      ],
+      "interface/windowconfig/fruitpressnew.config": [
         "/paneLayout/tbSpinCount/regex"
       ],
       "interface/windowconfig/fu_anvil.config": [
@@ -5439,6 +4414,7 @@
       ]
     },
     "Texts": {
+      "Chs": "x?\\d{0,4}",
       "Eng": "x?\\d{0,4}"
     }
   }

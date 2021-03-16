@@ -8,13 +8,13 @@
 
 # 正则
 
-在文档中查找未翻译的文本的正则表达式：
+* 在文档中查找未翻译的文本的正则表达式：
 
 ```
 "Texts":\s*\{\n\s*"Eng":
 ```
 
-为未翻译的文本添加不加改动的翻译文本：
+* 为未翻译的文本添加不加改动的翻译文本：
 
 ```
 "Texts": \{\n      "Eng": "(.*)"
@@ -22,14 +22,24 @@
 "Texts": {\n      "Chs": "$1",\n      "Eng": "$1"
 ```
 
-修复缺失分号的颜色标记：
+* 尝试修复缺失分号的颜色标记：
 
 ```
-(\^(?:blue|yellow|red|cyan|green|white|pink|orange|#\w{6}))([^;])
+(\^(?:blue|yellow|red|cyan|green|white|pink|orange|reset|#\w{6}))([^;])
 ->
 $1;$2
 ```
 
-检查颜色标记的错误（错误的颜色，缺失^号，缺失#号，缺失分号，多余的^reset;）：
+* 尝试修复缺失^的颜色标记：
 
-使用IDEA打开项目，点击`Anylyze -> Inspect Code...`，执行任务完毕后，即可列出所有可能的颜色标记的错误（也可以检查拼写错误）
+```
+([^\^])((?:blue|yellow|red|cyan|green|white|pink|orange|reset|#\w{6});)
+->
+$1^$2
+```
+
+* 检查颜色标记的错误（错误的颜色，缺失^号，缺失#号，缺失分号，多余的^reset;）：
+
+首先，你需要使用IDEA IDE并且安装了Starbound Text插件，并且完成了json schema绑定，参见JOIN_US.md的最后一部分。
+
+然后，使用IDEA打开项目，点击`Anylyze -> Inspect Code...`，执行任务完毕后，即可列出所有可能的颜色标记的错误（也可以检查拼写错误）

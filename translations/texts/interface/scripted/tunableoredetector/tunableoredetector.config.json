@@ -3,48 +3,36 @@
     "DeniedAlternatives": [],
     "Files": {
       "interface/scripted/tunableoredetector/tunableoredetector.config": [
-        "/gui/lb_WrongItem/value"
+        "/gui/lb_currentOre/text"
       ]
     },
     "Texts": {
-      "Chs": "^red;物品不正确！",
-      "Eng": "^red;Incorrect Item !"
+      "Chs": "<^yellow;加载中...^reset;>",
+      "Eng": "<^yellow;Loading...^reset;>"
     }
   },
   {
     "DeniedAlternatives": [],
     "Files": {
       "interface/scripted/tunableoredetector/tunableoredetector.config": [
-        "/gui/lb_UpgradeRequired/value"
+        "/gui/lb_Info/value"
       ]
     },
     "Texts": {
-      "Chs": "^red;需要升级！",
-      "Eng": "^red;Upgrade Required !"
+      "Chs": "^yellow;等待输入...",
+      "Eng": "^yellow;Awaiting Input..."
     }
   },
   {
     "DeniedAlternatives": [],
     "Files": {
       "interface/scripted/tunableoredetector/tunableoredetector.config": [
-        "/gui/lb_Scanning/value"
+        "/gui/currentOreLabel/text"
       ]
     },
     "Texts": {
-      "Chs": "^yellow;扫描中……",
-      "Eng": "^yellow;Scanning..."
-    }
-  },
-  {
-    "DeniedAlternatives": [],
-    "Files": {
-      "interface/scripted/tunableoredetector/tunableoredetector.config": [
-        "/gui/btnClose/caption"
-      ]
-    },
-    "Texts": {
-      "Chs": "关闭",
-      "Eng": "close"
+      "Chs": "^yellow;当前矿石:",
+      "Eng": "^yellow;Current Ore:"
     }
   }
 ]
