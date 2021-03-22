@@ -16,6 +16,10 @@
         "/scenes/badEnding6/text",
         "/scenes/goodEnding9/text"
       ],
+      "interface/scripted/statWindow/statWindow.config": [
+        "/gui/windowtitle/subtitle",
+        "/gui/windowtitle/title"
+      ],
       "objects/crafting/armory/armory.object": [
         "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/subtitle",
         "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/title",
@@ -23,6 +27,74 @@
         "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/title",
         "/upgradeStages/2/interactData/paneLayoutOverride/windowtitle/subtitle",
         "/upgradeStages/2/interactData/paneLayoutOverride/windowtitle/title"
+      ],
+      "objects/crafting/armory/armoryoutpost.object": [
+        "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/subtitle",
+        "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/title",
+        "/upgradeStages/2/interactData/paneLayoutOverride/windowtitle/subtitle",
+        "/upgradeStages/2/interactData/paneLayoutOverride/windowtitle/title"
+      ],
+      "objects/crafting/chemlab/chemlab.object": [
+        "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/subtitle",
+        "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/title",
+        "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/subtitle",
+        "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/title",
+        "/upgradeStages/2/interactData/paneLayoutOverride/windowtitle/subtitle",
+        "/upgradeStages/2/interactData/paneLayoutOverride/windowtitle/title"
+      ],
+      "objects/crafting/chemlab/chemlaboutpost.object": [
+        "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/subtitle",
+        "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/title"
+      ],
+      "objects/crafting/designlab/designlab.object": [
+        "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/subtitle",
+        "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/title",
+        "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/subtitle",
+        "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/title",
+        "/upgradeStages/2/interactData/paneLayoutOverride/windowtitle/subtitle",
+        "/upgradeStages/2/interactData/paneLayoutOverride/windowtitle/title"
+      ],
+      "objects/crafting/designlab/designlaboutpost.object": [
+        "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/subtitle",
+        "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/title"
+      ],
+      "objects/crafting/genesequencer/genesequencer.object": [
+        "/interactData/paneLayoutOverride/windowtitle/subtitle",
+        "/interactData/paneLayoutOverride/windowtitle/title"
+      ],
+      "objects/crafting/matterassembler/prototyper.object": [
+        "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/subtitle",
+        "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/title",
+        "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/subtitle",
+        "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/title",
+        "/upgradeStages/2/interactData/paneLayoutOverride/windowtitle/subtitle",
+        "/upgradeStages/2/interactData/paneLayoutOverride/windowtitle/title"
+      ],
+      "objects/crafting/nanofabricator/nanofabricator.object": [
+        "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/subtitle",
+        "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/title",
+        "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/subtitle",
+        "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/title",
+        "/upgradeStages/2/interactData/paneLayoutOverride/windowtitle/subtitle",
+        "/upgradeStages/2/interactData/paneLayoutOverride/windowtitle/title"
+      ],
+      "objects/crafting/nanofabricator/nanofabricatoroutpost.object": [
+        "/upgradeStages/2/interactData/paneLayoutOverride/windowtitle/subtitle",
+        "/upgradeStages/2/interactData/paneLayoutOverride/windowtitle/title"
+      ],
+      "objects/crafting/powerstation/powerstation.object": [
+        "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/subtitle",
+        "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/title",
+        "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/subtitle",
+        "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/title"
+      ],
+      "objects/crafting/powerstation/powerstatiooutpost.object": [
+        "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/subtitle",
+        "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/title"
+      ],
+      "objects/crafting/psionicbench/psionicbench.object": [
+        "/interactData/paneLayoutOverride/windowtitle/subtitle",
+        "/interactData/paneLayoutOverride/windowtitle/title"
       ]
     },
     "Texts": {
@@ -68,9 +140,6 @@
         "/scenes/art10/text",
         "/scenes/art13/options/0/0",
         "/scenes/hockey2/text"
-      ],
-      "interface/windowconfig/fushadowstore.config": [
-        "/paneLayout/windowtitle/title"
       ],
       "monsters/skills/ranged/emptyfu.monsterskill": [
         "/label"
@@ -574,16 +643,7 @@
   {
     "DeniedAlternatives": [],
     "Files": {
-      "interface/windowconfig/beerefuge.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
       "interface/windowconfig/beestation.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
-      "interface/windowconfig/chemlab.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
-      "interface/windowconfig/clothingfabricator.config": [
         "/paneLayout/btnCraft/caption"
       ],
       "interface/windowconfig/coffee.config": [
@@ -592,34 +652,10 @@
       "interface/windowconfig/crystalloom.config": [
         "/paneLayout/btnCraft/caption"
       ],
-      "interface/windowconfig/designlab.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
       "interface/windowconfig/fu_anvil.config": [
         "/paneLayout/btnCraft/caption"
       ],
       "interface/windowconfig/fu_shipcraftingtable.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
-      "interface/windowconfig/fuempty.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
-      "interface/windowconfig/gemstation.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
-      "interface/windowconfig/nanofabricator.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
-      "interface/windowconfig/powerstation.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
-      "interface/windowconfig/prototyper.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
-      "interface/windowconfig/psionicbench.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
-      "interface/windowconfig/radien.config": [
         "/paneLayout/btnCraft/caption"
       ],
       "interface/windowconfig/samplingarray2.config": [
@@ -932,7 +968,31 @@
         "/gui/goodsTradeList/children/itemList/schema/listTemplate/buyButton/caption",
         "/gui/shopBuyButton/caption"
       ],
+      "interface/windowconfig/beerefuge.config": [
+        "/paneLayout/btnCraft/caption"
+      ],
+      "interface/windowconfig/craftingcrewshop.config": [
+        "/paneLayout/btnCraft/caption"
+      ],
       "interface/windowconfig/fuburgerfool.config": [
+        "/paneLayout/btnCraft/caption"
+      ],
+      "interface/windowconfig/fucorpsewagon.config": [
+        "/paneLayout/btnCraft/caption"
+      ],
+      "interface/windowconfig/fufoodshopfloran.config": [
+        "/paneLayout/btnCraft/caption"
+      ],
+      "interface/windowconfig/fufoodstore.config": [
+        "/paneLayout/btnCraft/caption"
+      ],
+      "interface/windowconfig/fugemshop.config": [
+        "/paneLayout/btnCraft/caption"
+      ],
+      "interface/windowconfig/fupetshop.config": [
+        "/paneLayout/btnCraft/caption"
+      ],
+      "interface/windowconfig/fushadowstore.config": [
         "/paneLayout/btnCraft/caption"
       ],
       "interface/windowconfig/fustarbucks.config": [
@@ -942,6 +1002,9 @@
         "/paneLayout/btnCraft/caption"
       ],
       "interface/windowconfig/ppshop.config": [
+        "/paneLayout/btnCraft/caption"
+      ],
+      "interface/windowconfig/radienshop.config": [
         "/paneLayout/btnCraft/caption"
       ],
       "objects/power/isn_radiostation/configs/isn_medicalvendor.config": [
@@ -1026,6 +1089,20 @@
   {
     "DeniedAlternatives": [],
     "Files": {
+      "interface/scripted/statWindow/statWindow.config": [
+        "/gui/expandButton3Label/value"
+      ],
+      "objects/nightar/nightarmedievalcodex/nightarmedievalcodex.object": [
+        "/shortdescription"
+      ]
+    },
+    "Texts": {
+      "Eng": "Codex"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
       "objects/drinks/coffeeobject/coffeeobject.object": [
         "/shortdescription"
       ],
@@ -1101,37 +1178,34 @@
       "interface/windowconfig/boozekit.config": [
         "/paneLayout/btnCraft/caption"
       ],
-      "interface/windowconfig/crafting.config": [
+      "interface/windowconfig/chemlab.config": [
         "/paneLayout/btnCraft/caption"
       ],
-      "interface/windowconfig/craftingcrewshop.config": [
+      "interface/windowconfig/clothingfabricator.config": [
+        "/paneLayout/btnCraft/caption"
+      ],
+      "interface/windowconfig/crafting.config": [
         "/paneLayout/btnCraft/caption"
       ],
       "interface/windowconfig/craftingold.config": [
         "/paneLayout/btnCraft/caption"
       ],
+      "interface/windowconfig/designlab.config": [
+        "/paneLayout/btnCraft/caption"
+      ],
       "interface/windowconfig/extractionlab.config": [
         "/paneLayout/btnCraft/caption"
       ],
-      "interface/windowconfig/fucorpsewagon.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
-      "interface/windowconfig/fufoodshopfloran.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
-      "interface/windowconfig/fufoodstore.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
-      "interface/windowconfig/fugemshop.config": [
-        "/paneLayout/btnCraft/caption"
-      ],
-      "interface/windowconfig/fupetshop.config": [
+      "interface/windowconfig/fuempty.config": [
         "/paneLayout/btnCraft/caption"
       ],
       "interface/windowconfig/furniturestation.config": [
         "/paneLayout/btnCraft/caption"
       ],
-      "interface/windowconfig/fushadowstore.config": [
+      "interface/windowconfig/gemstation.config": [
+        "/paneLayout/btnCraft/caption"
+      ],
+      "interface/windowconfig/genesequencer.config": [
         "/paneLayout/btnCraft/caption"
       ],
       "interface/windowconfig/hypercompressor.config": [
@@ -1143,13 +1217,22 @@
       "interface/windowconfig/medievalworkstation.config": [
         "/paneLayout/btnCraft/caption"
       ],
+      "interface/windowconfig/nanofabricator.config": [
+        "/paneLayout/btnCraft/caption"
+      ],
       "interface/windowconfig/powerpress.config": [
         "/paneLayout/btnCraft/caption"
       ],
-      "interface/windowconfig/radienshop.config": [
+      "interface/windowconfig/powerstation.config": [
         "/paneLayout/btnCraft/caption"
       ],
-      "interface/windowconfig/radienshopdrug.config": [
+      "interface/windowconfig/prototyper.config": [
+        "/paneLayout/btnCraft/caption"
+      ],
+      "interface/windowconfig/psionicbench.config": [
+        "/paneLayout/btnCraft/caption"
+      ],
+      "interface/windowconfig/radien.config": [
         "/paneLayout/btnCraft/caption"
       ],
       "interface/windowconfig/skathcodex.config": [
@@ -1384,6 +1467,21 @@
     "Texts": {
       "Chs": "真菌",
       "Eng": "Fungal"
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/scripted/statWindow/statWindow.config": [
+        "/gui/expandButton2Label/value"
+      ],
+      "items/active/kukagps/kukagps.activeitem": [
+        "/shortdescription"
+      ]
+    },
+    "Texts": {
+      "Chs": "GPS",
+      "Eng": "GPS"
     }
   },
   {
@@ -2048,9 +2146,6 @@
       "interface/bees/woodencentrifuge/woodencentrifuge.config": [
         "/gui/countinput/value"
       ],
-      "interface/extractor/embalming.config": [
-        "/gui/count/value"
-      ],
       "interface/extractor/extractor.config": [
         "/gui/count/value"
       ],
@@ -2214,31 +2309,16 @@
       "interface/objectcrafting/colonystation.config": [
         "/paneLayout/lblProduct/value"
       ],
-      "interface/scripted/techshop/techshop.config": [
-        "/gui/lblProduct/value"
-      ],
-      "interface/windowconfig/beerefuge.config": [
-        "/paneLayout/lblProduct/value"
-      ],
       "interface/windowconfig/beestation.config": [
         "/paneLayout/lblProduct/value"
       ],
       "interface/windowconfig/boozekit.config": [
         "/paneLayout/lblProduct/value"
       ],
-      "interface/windowconfig/chemlab.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/clothingfabricator.config": [
-        "/paneLayout/lblProduct/value"
-      ],
       "interface/windowconfig/coffee.config": [
         "/paneLayout/lblProduct/value"
       ],
       "interface/windowconfig/crafting.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/craftingcrewshop.config": [
         "/paneLayout/lblProduct/value"
       ],
       "interface/windowconfig/craftingeasel.config": [
@@ -2257,9 +2337,6 @@
         "/paneLayout/lblProduct/value"
       ],
       "interface/windowconfig/crystalloom.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/designlab.config": [
         "/paneLayout/lblProduct/value"
       ],
       "interface/windowconfig/distill.config": [
@@ -2286,46 +2363,10 @@
       "interface/windowconfig/fu_shipcraftingtable.config": [
         "/paneLayout/lblProduct/value"
       ],
-      "interface/windowconfig/fuburgerfool.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/fucorpsewagon.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/fuempty.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/fufoodshopfloran.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/fufoodstore.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/fugemshop.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/fupetshop.config": [
-        "/paneLayout/lblProduct/value"
-      ],
       "interface/windowconfig/furniturestation.config": [
         "/paneLayout/lblProduct/value"
       ],
-      "interface/windowconfig/fushadowstore.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/fustarbucks.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/gemstation.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/genesequencer.config": [
-        "/paneLayout/lblProduct/value"
-      ],
       "interface/windowconfig/hypercompressor.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/kirhosshop.config": [
         "/paneLayout/lblProduct/value"
       ],
       "interface/windowconfig/lavalampstation.config": [
@@ -2337,28 +2378,7 @@
       "interface/windowconfig/medievalworkstation.config": [
         "/paneLayout/lblProduct/value"
       ],
-      "interface/windowconfig/nanofabricator.config": [
-        "/paneLayout/lblProduct/value"
-      ],
       "interface/windowconfig/powerpress.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/powerstation.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/prototyper.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/psionicbench.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/radien.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/radienshop.config": [
-        "/paneLayout/lblProduct/value"
-      ],
-      "interface/windowconfig/radienshopdrug.config": [
         "/paneLayout/lblProduct/value"
       ],
       "interface/windowconfig/samplingarray2.config": [
@@ -2443,6 +2463,21 @@
     "Texts": {
       "Chs": "血液，碎肉和断骨。",
       "Eng": "Meaty, bone-strewn gore."
+    }
+  },
+  {
+    "DeniedAlternatives": [],
+    "Files": {
+      "interface/scripted/statWindow/statWindow.config": [
+        "/gui/expandButton7Label/value"
+      ],
+      "zb/researchTree/fu_chemistry.config": [
+        "/strings/research/mechfuel/0"
+      ]
+    },
+    "Texts": {
+      "Chs": "机甲燃料",
+      "Eng": "Mech Fuel"
     }
   },
   {
@@ -2557,9 +2592,6 @@
         "/gui/countoutput/value"
       ],
       "interface/bees/apiary/apiary.config": [
-        "/gui/countoutput/value"
-      ],
-      "interface/extractor/embalming.config": [
         "/gui/countoutput/value"
       ],
       "interface/extractor/extractor.config": [
@@ -3043,6 +3075,9 @@
   {
     "DeniedAlternatives": [],
     "Files": {
+      "interface/scripted/statWindow/statWindow.config": [
+        "/gui/expandButton1Label/value"
+      ],
       "items/currency/fuscienceresource.currency": [
         "/shortdescription"
       ],
@@ -3570,9 +3605,6 @@
       "interface/windowconfig/armory.config": [
         "/paneLayout/btnStopCraft/caption"
       ],
-      "interface/windowconfig/beerefuge.config": [
-        "/paneLayout/btnStopCraft/caption"
-      ],
       "interface/windowconfig/beestation.config": [
         "/paneLayout/btnStopCraft/caption"
       ],
@@ -3633,34 +3665,10 @@
       "interface/windowconfig/fu_shipcraftingtable.config": [
         "/paneLayout/btnStopCraft/caption"
       ],
-      "interface/windowconfig/fuburgerfool.config": [
-        "/paneLayout/btnStopCraft/caption"
-      ],
-      "interface/windowconfig/fucorpsewagon.config": [
-        "/paneLayout/btnStopCraft/caption"
-      ],
       "interface/windowconfig/fuempty.config": [
         "/paneLayout/btnStopCraft/caption"
       ],
-      "interface/windowconfig/fufoodshopfloran.config": [
-        "/paneLayout/btnStopCraft/caption"
-      ],
-      "interface/windowconfig/fufoodstore.config": [
-        "/paneLayout/btnStopCraft/caption"
-      ],
-      "interface/windowconfig/fugemshop.config": [
-        "/paneLayout/btnStopCraft/caption"
-      ],
-      "interface/windowconfig/fupetshop.config": [
-        "/paneLayout/btnStopCraft/caption"
-      ],
       "interface/windowconfig/furniturestation.config": [
-        "/paneLayout/btnStopCraft/caption"
-      ],
-      "interface/windowconfig/fushadowstore.config": [
-        "/paneLayout/btnStopCraft/caption"
-      ],
-      "interface/windowconfig/fustarbucks.config": [
         "/paneLayout/btnStopCraft/caption"
       ],
       "interface/windowconfig/gemstation.config": [
@@ -3670,9 +3678,6 @@
         "/paneLayout/btnStopCraft/caption"
       ],
       "interface/windowconfig/hypercompressor.config": [
-        "/paneLayout/btnStopCraft/caption"
-      ],
-      "interface/windowconfig/kirhosshop.config": [
         "/paneLayout/btnStopCraft/caption"
       ],
       "interface/windowconfig/lavalampstation.config": [
@@ -3700,12 +3705,6 @@
         "/paneLayout/btnStopCraft/caption"
       ],
       "interface/windowconfig/radien.config": [
-        "/paneLayout/btnStopCraft/caption"
-      ],
-      "interface/windowconfig/radienshop.config": [
-        "/paneLayout/btnStopCraft/caption"
-      ],
-      "interface/windowconfig/radienshopdrug.config": [
         "/paneLayout/btnStopCraft/caption"
       ],
       "interface/windowconfig/samplingarray2.config": [
@@ -3888,10 +3887,16 @@
       "objects/power/fu_liquidcondenser/fu_liquidcondenser.config": [
         "/gui/clear/caption"
       ],
+      "objects/power/hydraulicdynamo/hydraulicdynamo.config": [
+        "/gui/clear/caption"
+      ],
       "objects/power/isn_arcsmelter/isn_arcsmelter.config": [
         "/gui/clear/caption"
       ],
       "objects/power/isn_atmoscondenser/isn_atmoscondenser.config": [
+        "/gui/clear/caption"
+      ],
+      "objects/power/isn_fissionreactornew/isn_fissionreactornew.config": [
         "/gui/clear/caption"
       ],
       "objects/power/isn_powdersifter/fu_woodensifter.config": [
