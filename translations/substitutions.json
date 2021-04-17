@@ -2214,6 +2214,7 @@
     "/damagePerShotTitleLabel/value": "texts/interface/itemdescriptions/shared_.itemdescription.json",
     "/levelTitleLabel/value": "texts/interface.json",
     "/priceLabel/value": "texts/interface.json",
+    "/shiftClickLabel/value": "texts/interface/shared_fist2.json",
     "/speedTitleLabel/value": "texts/interface.json"
   },
   "interface/itemdescriptions/fist2aetherium.itemdescription": {
@@ -2223,6 +2224,7 @@
     "/damagePerShotTitleLabel/value": "texts/interface/itemdescriptions/shared_.itemdescription.json",
     "/levelTitleLabel/value": "texts/interface.json",
     "/priceLabel/value": "texts/interface.json",
+    "/shiftClickLabel/value": "texts/interface/shared_fist2.json",
     "/speedTitleLabel/value": "texts/interface.json"
   },
   "interface/itemdescriptions/fuammogun.itemdescription": {
@@ -2865,6 +2867,7 @@
     "/damagePerShotTitleLabel/value": "texts/interface/tooltips/shared_.tooltip.json",
     "/levelTitleLabel/value": "texts/interface.json",
     "/priceLabel/value": "texts/interface.json",
+    "/shiftClickLabel/value": "texts/interface/shared_fist2.json",
     "/speedTitleLabel/value": "texts/interface.json"
   },
   "interface/tooltips/fist2aetherium.tooltip": {
@@ -2872,6 +2875,7 @@
     "/critChanceTitleLabel/value": "texts/interface.json",
     "/damagePerShotTitleLabel/value": "texts/interface/tooltips/shared_.tooltip.json",
     "/levelTitleLabel/value": "texts/interface.json",
+    "/shiftClickLabel/value": "texts/interface/shared_fist2.json",
     "/speedTitleLabel/value": "texts/interface.json"
   },
   "interface/tooltips/fuammogun.tooltip": {
@@ -7092,9 +7096,6 @@
   "items/liquids/ff_mercury.liqitem": {
     "/shortdescription": "texts/wide_spread_fields.json"
   },
-  "items/liquids/fusaltwater.liqitem": {
-    "/shortdescription": "texts/shared_liquid.json"
-  },
   "items/liquids/helium3gasliquid.liqitem": {
     "/shortdescription": "texts/wide_spread_fields.json"
   },
@@ -9290,9 +9291,6 @@
   },
   "items/tools/stickynotepadfu/stickynotepadfu.activeitem": {
     "/shortdescription": "texts/stickynotepadfu/shared_stickynotepadfu..json"
-  },
-  "liquids/fusaltwater.liquid": {
-    "/description": "texts/shared_liquid.json"
   },
   "monsters/bees/metalbee/metalbee.monstertype": {
     "/shortdescription": "texts/monsters/shared_bee/shared_metal.json"
@@ -15670,6 +15668,10 @@
     "/interactData/paneLayoutOverride/windowtitle/subtitle": "texts/wide_spread_fields.json",
     "/interactData/paneLayoutOverride/windowtitle/title": "texts/wide_spread_fields.json"
   },
+  "objects/crafting/radiencrafting/radiencrafting.object": {
+    "/interactData/paneLayoutOverride/windowtitle/subtitle": "texts/wide_spread_fields.json",
+    "/interactData/paneLayoutOverride/windowtitle/title": "texts/wide_spread_fields.json"
+  },
   "objects/crafting/slimecookingtable/slimecookingtable.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/crafting/slimecookingtable/slimecookingtable.object.json",
@@ -17322,6 +17324,15 @@
     "/novakidDescription": "texts/objects/shared_console.json",
     "/shortdescription": "texts/objects/elduukhar/shared_elduuconsole/shared_elduuconsole.json"
   },
+  "objects/elduukhar/elduuconsole3/elduuconsole3.object": {
+    "/description": "texts/objects/shared_console.json"
+  },
+  "objects/elduukhar/elduuconsole4/elduuconsole4.object": {
+    "/description": "texts/objects/shared_console.json"
+  },
+  "objects/elduukhar/elduuconsole5/elduuconsole5.object": {
+    "/description": "texts/objects/shared_console.json"
+  },
   "objects/elduukhar/elduucouch/elduucouch.object": {
     "/apexDescription": "texts/objects/shared_couch/shared_couch.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -17377,7 +17388,7 @@
     "/apexDescription": "texts/objects/shared_fridge.json",
     "/avianDescription": "texts/objects/elduukhar/shared_fridge.object.json",
     "/description": "texts/objects/elduukhar/shared_fridge.object.json",
-    "/floranDescription": "texts/shared_ect.json",
+    "/floranDescription": "texts/objects/elduukhar/shared_fridge.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/shared_fridge.json",
     "/humanDescription": "texts/objects/elduukhar/shared_fridge.object.json",
@@ -17415,7 +17426,7 @@
     "/apexDescription": "texts/objects/shared_fridge.json",
     "/avianDescription": "texts/objects/elduukhar/shared_fridge.object.json",
     "/description": "texts/objects/elduukhar/shared_fridge.object.json",
-    "/floranDescription": "texts/shared_ect.json",
+    "/floranDescription": "texts/objects/elduukhar/shared_fridge.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/shared_fridge.json",
     "/humanDescription": "texts/objects/elduukhar/shared_fridge.object.json",
@@ -28878,8 +28889,12 @@
     "/novakidDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivesmall.json"
   },
   "objects/ship/fu_ftldrive/fu_ftldrivesmall_broken.object": {
+    "/description": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivesmall.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/ship/fu_ftldrive/fu_ftldrivesmall_broken.object.json"
+  },
+  "objects/ship/fu_ftldrive/fu_ftldrivesmallbroken.object": {
+    "/description": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivesmall.json"
   },
   "objects/ship/fu_ftldrive/fu_ftldrivesmalldeco.object": {
     "/apexDescription": "texts/objects/ship/fu_ftldrive/shared_fu_ftldrivesmall.json",
@@ -37200,6 +37215,39 @@
   "quests/mmupgrade/mmgravgun3.questtemplate": {
     "/scriptConfig/turnInDescription": "texts/quests/mmupgrade/shared_.questtemplate.json"
   },
+  "quests/optionalhardmode/fu_t10_avian_mission2.questtemplate": {
+    "/scriptConfig/descriptions/turnIn": "texts/quests/optionalhardmode/shared__mission2.questtemplate.json"
+  },
+  "quests/optionalhardmode/fu_t10_floran_mission2.questtemplate": {
+    "/scriptConfig/descriptions/turnIn": "texts/quests/optionalhardmode/shared__mission2.questtemplate.json"
+  },
+  "quests/optionalhardmode/fu_t10_floranarena1.questtemplate": {
+    "/scriptConfig/descriptions/enterInstance": "texts/quests/optionalhardmode/shared_.questtemplate.json",
+    "/scriptConfig/descriptions/findGoal": "texts/quests/optionalhardmode/shared_.questtemplate.json",
+    "/scriptConfig/descriptions/turnIn": "texts/quests/optionalhardmode/shared_.questtemplate.json"
+  },
+  "quests/optionalhardmode/fu_t10_floranarena2.questtemplate": {
+    "/scriptConfig/descriptions/findGoal": "texts/quests/optionalhardmode/shared_.questtemplate.json",
+    "/scriptConfig/descriptions/turnIn": "texts/quests/optionalhardmode/shared_.questtemplate.json"
+  },
+  "quests/optionalhardmode/fu_t10_floranarena3.questtemplate": {
+    "/scriptConfig/descriptions/findGoal": "texts/quests/optionalhardmode/shared_.questtemplate.json",
+    "/scriptConfig/descriptions/turnIn": "texts/quests/optionalhardmode/shared_.questtemplate.json"
+  },
+  "quests/optionalhardmode/fu_t10_gaterepair.questtemplate": {
+    "/scriptConfig/descriptions/findEsther": "texts/quests/optionalhardmode/shared_.questtemplate.json"
+  },
+  "quests/optionalhardmode/fu_t10_glitch_mission2.questtemplate": {
+    "/scriptConfig/descriptions/turnIn": "texts/quests/optionalhardmode/shared__mission2.questtemplate.json"
+  },
+  "quests/optionalhardmode/fu_t10_hylotl_mission2.questtemplate": {
+    "/scriptConfig/descriptions/turnIn": "texts/quests/optionalhardmode/shared__mission2.questtemplate.json"
+  },
+  "quests/optionalhardmode/fu_t10_precursor.questtemplate": {
+    "/scriptConfig/descriptions/enterInstance": "texts/quests/optionalhardmode/shared_.questtemplate.json",
+    "/scriptConfig/descriptions/findGoal": "texts/quests/optionalhardmode/shared_.questtemplate.json",
+    "/scriptConfig/descriptions/turnIn": "texts/quests/optionalhardmode/shared_.questtemplate.json"
+  },
   "quests/story/protectorateapex.questtemplate": {
     "/completionText": "texts/quests/story/shared_.questtemplate.json",
     "/scriptConfig/descriptions/escape": "texts/quests/story/shared_.questtemplate.json",
@@ -39243,20 +39291,8 @@
   "stats/effects/fu_weaponeffects/gravgun/gravgun2.statuseffect": {
     "/label": "texts/shared_weapon.json"
   },
-  "stats/effects/fu_weathereffects/new/cold/coldweathernew.animation": {
-    "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects/fu_weathereffects/new/cold/shared_coldweathernew..json"
-  },
-  "stats/effects/fu_weathereffects/new/cold/coldweathernew.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/new/cold/shared_coldweathernew..json"
-  },
-  "stats/effects/fu_weathereffects/new/cold/ffbiomecold0.statuseffect": {
-    "/label": "texts/shared_ect.json"
-  },
   "stats/effects/fu_weathereffects/new/desert/desertweathernew.animation": {
     "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects/fu_weathereffects/new/shared_tweathernew.animation.json"
-  },
-  "stats/effects/fu_weathereffects/new/desert/heatwave2.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/new/shared_2.statuseffect.json"
   },
   "stats/effects/fu_weathereffects/new/gasworldnew/gasworld1.statuseffect": {
     "/label": "texts/stats/effects/fu_weathereffects/new/gasworldnew/shared_gasworld.json"
@@ -39266,9 +39302,6 @@
   },
   "stats/effects/fu_weathereffects/new/heat/heatweathernew.animation": {
     "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects/fu_weathereffects/new/shared_tweathernew.animation.json"
-  },
-  "stats/effects/fu_weathereffects/new/heat/heatweathernew2.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/new/shared_2.statuseffect.json"
   },
   "stats/effects/heal/healingbonus.statuseffect": {
     "/label": "texts/stats/effects/heal/shared_.statuseffect.json"

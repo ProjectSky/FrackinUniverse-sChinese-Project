@@ -2081,6 +2081,7 @@
       "shared_bow.json": 5,
       "shared_chakram.json": 1,
       "shared_cockpit.json": 2,
+      "shared_fist2.json": 1,
       "shared_fu_.json": 1,
       "shared_fuammogun..json": 1,
       "shared_gun2.json": 1,
@@ -7464,7 +7465,7 @@
         "fu_honeyspirit.liqitem.json": 2,
         "fu_liquidhoney.liqitem.json": 2,
         "fu_liquidhoneyred.liqitem.json": 2,
-        "fusaltwater.liqitem.json": 1,
+        "fusaltwater.liqitem.json": 2,
         "helium3gasliquid.liqitem.json": 1,
         "liquidaether.liqitem.json": 2,
         "liquidbeer.liqitem.json": 2,
@@ -7888,6 +7889,7 @@
       "fuhoneyspirit.liquid.json": 1,
       "fuironliquid.liquid.json": 1,
       "fuquicksand.liquid.json": 1,
+      "fusaltwater.liquid.json": 1,
       "gravrain.liquid.json": 1,
       "helium3gas.liquid.json": 1,
       "hydrogengas.liquid.json": 1,
@@ -9462,6 +9464,9 @@
             "poptopmicro.monstertype.json": 2,
             "poptopmicromadnesspet.monstertype.json": 1
           },
+          "psionitop": {
+            "psionitop.monstertype.json": 2
+          },
           "shadowtop": {
             "shadowtop.monstertype.json": 1
           },
@@ -10573,7 +10578,7 @@
           "psionicloader.object.json": 3
         },
         "radiencrafting": {
-          "radiencrafting.object.json": 4
+          "radiencrafting.object.json": 2
         },
         "sciencelaptop": {
           "dataserver.object.json": 2,
@@ -11169,6 +11174,15 @@
         "elduuchair.object.json": 2,
         "elduuchest1.object.json": 2,
         "elduuchest2.object.json": 2,
+        "elduuconsole3": {
+          "elduuconsole3.object.json": 1
+        },
+        "elduuconsole4": {
+          "elduuconsole4.object.json": 1
+        },
+        "elduuconsole5": {
+          "elduuconsole5.object.json": 1
+        },
         "elduucouch": {
           "elduucouch.object.json": 7
         },
@@ -11217,7 +11231,7 @@
         "shared_elduuconsole": {
           "shared_elduuconsole.json": 1
         },
-        "shared_fridge.object.json": 5,
+        "shared_fridge.object.json": 6,
         "shared_table.object.json": 6
       },
       "explosives": {
@@ -16024,8 +16038,8 @@
           "fu_ftldrivemk3b.object.json": 1,
           "fu_ftldrivemk3c.object.json": 1,
           "fu_ftldrivesmall.object.json": 2,
-          "fu_ftldrivesmall_broken.object.json": 9,
-          "fu_ftldrivesmallbroken.object.json": 2,
+          "fu_ftldrivesmall_broken.object.json": 8,
+          "fu_ftldrivesmallbroken.object.json": 1,
           "fu_ftldrivesmalldeco.object.json": 1,
           "fu_ftldrivesmalldecobroken.object.json": 9,
           "fu_stldrive.object.json": 9,
@@ -16034,7 +16048,7 @@
           "shared_fu_ftldrivemk1.json": 1,
           "shared_fu_ftldrivemk2.json": 1,
           "shared_fu_ftldrivemk3.json": 1,
-          "shared_fu_ftldrivesmall.json": 7
+          "shared_fu_ftldrivesmall.json": 8
         },
         "fu_fuelpurifier": {
           "fu_fuelpurifier.object.json": 2,
@@ -19814,6 +19828,22 @@
         "mmgravgun3.questtemplate.json": 3,
         "shared_.questtemplate.json": 2
       },
+      "optionalhardmode": {
+        "fu_t10_apex_mission2.questtemplate.json": 5,
+        "fu_t10_avian_mission2.questtemplate.json": 4,
+        "fu_t10_floran_mission2.questtemplate.json": 4,
+        "fu_t10_floranarena1.questtemplate.json": 3,
+        "fu_t10_floranarena2.questtemplate.json": 4,
+        "fu_t10_floranarena3.questtemplate.json": 4,
+        "fu_t10_gaterepair.questtemplate.json": 5,
+        "fu_t10_glitch_mission2.questtemplate.json": 4,
+        "fu_t10_human_mission1.questtemplate.json": 5,
+        "fu_t10_hylotl_mission2.questtemplate.json": 4,
+        "fu_t10_initial.questtemplate.json": 4,
+        "fu_t10_precursor.questtemplate.json": 3,
+        "shared_.questtemplate.json": 3,
+        "shared__mission2.questtemplate.json": 1
+      },
       "pavillion.questtemplate.json": 4,
       "penguinhighway.questtemplate.json": 4,
       "skytemple.questtemplate.json": 4,
@@ -19928,7 +19958,7 @@
       "shared_cute.json": 1
     },
     "shared_duskiline.json": 1,
-    "shared_ect.json": 4,
+    "shared_ect.json": 3,
     "shared_elderplatform.mat.json": 2,
     "shared_emera.json": 1,
     "shared_engineer.json": 1,
@@ -19983,7 +20013,6 @@
         "shared_light.json": 1
       }
     },
-    "shared_liquid.json": 1,
     "shared_lobster..json": 1,
     "shared_mat.json": 1,
     "shared_matmod.json": 5,
@@ -20075,6 +20104,9 @@
             "madnessbunnythingmeat.object.json": 1
           }
         }
+      },
+      "punchy": {
+        "punchyspawner.activeitem.json": 2
       },
       "sentrybotcapturebot": {
         "sentrybotcapturebot.object.json": 1
@@ -20704,11 +20736,13 @@
               "aetherweathernew3.statuseffect.json": 1
             },
             "cold": {
+              "coldweathernew.animation.json": 1,
+              "coldweathernew.statuseffect.json": 1,
+              "ffbiomecold0.statuseffect.json": 1,
               "ffbiomecold1.statuseffect.json": 1,
               "ffbiomecold2.statuseffect.json": 1,
               "ffbiomecold3.statuseffect.json": 1,
               "ffbiomecold4.statuseffect.json": 1,
-              "shared_coldweathernew..json": 1,
               "suddenchill1.statuseffect.json": 1,
               "suddenchill2.statuseffect.json": 1,
               "suddenchill3.statuseffect.json": 1
@@ -20717,6 +20751,7 @@
               "desertweathernew.statuseffect.json": 1,
               "desertweathernewdeadly.statuseffect.json": 1,
               "heatwave1.statuseffect.json": 1,
+              "heatwave2.statuseffect.json": 1,
               "heatwave3.statuseffect.json": 1
             },
             "electric": {
@@ -20733,7 +20768,8 @@
               "ffbiomeheat1.statuseffect.json": 1,
               "ffbiomeheat2.statuseffect.json": 1,
               "ffbiomeheat3.statuseffect.json": 1,
-              "heatweathernew.statuseffect.json": 1
+              "heatweathernew.statuseffect.json": 1,
+              "heatweathernew2.statuseffect.json": 1
             },
             "insanity": {
               "insanitynew.animation.json": 1,
@@ -20760,7 +20796,6 @@
               "radioactiveweathernew2.statuseffect.json": 1,
               "radioactiveweathernew3.statuseffect.json": 1
             },
-            "shared_2.statuseffect.json": 1,
             "shared_tweathernew.animation.json": 1,
             "sulphuric": {
               "sulphuricweathernew.animation.json": 1,
