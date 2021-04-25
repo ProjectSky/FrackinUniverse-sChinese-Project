@@ -1476,7 +1476,7 @@
         "ffguide3.codex.json": 3,
         "ffguide4.codex.json": 1,
         "ffguide5.codex.json": 2,
-        "ffguide6.codex.json": 4,
+        "ffguide6.codex.json": 3,
         "ffguidebattle.codex.json": 3,
         "fleshweave.codex.json": 3,
         "foodprep.codex.json": 3,
@@ -2036,6 +2036,9 @@
         },
         "logicgates": {
           "3statecyclerGUI.config.json": 9
+        },
+        "mannequin": {
+          "cravenmannequingui.config.json": 0
         },
         "mmutility": {
           "mmutility.config.json": 6
@@ -4467,9 +4470,6 @@
           "shadowbonecape": {
             "shadowbonecape.back.json": 1
           },
-          "shared_tw_space": {
-            "shared_tw_space.json": 1
-          },
           "slimebiolumepp": {
             "slimebiolumepp.back.json": 2
           },
@@ -6295,7 +6295,7 @@
             "electricresistance.augment.json": 2,
             "fireresistance.augment.json": 2,
             "iceresistance.augment.json": 2,
-            "physicalresistance.augment.json": 2,
+            "physicalresistance.augment.json": 1,
             "poisonresistance.augment.json": 2,
             "radioactiveresistance.augment.json": 2,
             "shadowresistance.augment.json": 2
@@ -6759,7 +6759,7 @@
             "radienbeer.consumable.json": 2,
             "rustmead.consumable.json": 2,
             "stout.consumable.json": 2,
-            "thelusianwine.consumable.json": 2,
+            "thelusianwine.consumable.json": 1,
             "vxspecialblend.consumable.json": 2
           },
           "bloodchalice": {
@@ -7134,7 +7134,7 @@
             "fuflamearm3.item.json": 1,
             "fugaussmecha.item.json": 1,
             "fugrenadearm.item.json": 2,
-            "fuheatcannon.item.json": 2,
+            "fuheatcannon.item.json": 1,
             "fuhuntergun.item.json": 2,
             "fuhuntergun0.item.json": 2,
             "fuhuntergun2.item.json": 2,
@@ -7173,7 +7173,7 @@
             "mecharmsinchaingun.item.json": 2,
             "mecharmsinclustermine.item.json": 2,
             "mecharmsinfist.item.json": 2,
-            "mecharmsinrack.item.json": 2,
+            "mecharmsinrack.item.json": 1,
             "mecharmsinshotgun.item.json": 2,
             "mecharmsinshotgun2.item.json": 1,
             "mecharmsinsniper.item.json": 2,
@@ -7182,7 +7182,7 @@
             "shared_.item.json": 1,
             "shared_fuflamearm.json": 1,
             "shared_fuicearm.json": 1,
-            "shared_fumechmining.json": 1,
+            "shared_fumechmining.json": 0,
             "shared_mecharmpowerdrone.json": 1
           },
           "body": {
@@ -7319,7 +7319,7 @@
           "blexsap.consumable.json": 2,
           "blisterbushplantfood.consumable.json": 2,
           "blizzberry.consumable.json": 2,
-          "bloodroot.consumable.json": 2,
+          "bloodroot.consumable.json": 1,
           "bluemelon.consumable.json": 2,
           "bolbohn.consumable.json": 1,
           "capriole.consumable.json": 2,
@@ -7415,7 +7415,7 @@
           "talonseed.consumable.json": 2,
           "tearnut.consumable.json": 2,
           "tentacleproduce.consumable.json": 1,
-          "teratomato.consumable.json": 2,
+          "teratomato.consumable.json": 1,
           "testerplant.consumable.json": 0,
           "tetherhookwheel.consumable.json": 2,
           "thornitox.consumable.json": 2,
@@ -8564,9 +8564,7 @@
           "deathjellypeaceful.monstertype.json": 2
         },
         "dolphins": {
-          "1": {
-            "dolphin1.monstertype.json": 2
-          }
+          "shared_.monstertype.json": 2
         },
         "veilendrex": {
           "veilendrex.monstertype.json": 2
@@ -9352,6 +9350,9 @@
           "fubloodgolem": {
             "fubloodgolem.monstertype.json": 1
           },
+          "fushadowgolem": {
+            "fushadowgolem.monstertype.json": 0
+          },
           "futoxicgolem": {
             "futoxicgolem.monstertype.json": 1
           },
@@ -9361,13 +9362,7 @@
         },
         "golems": {
           "shadowgolem": {
-            "shadowgolem.monstertype.json": 1
-          },
-          "shadowgolemmini": {
-            "shadowgolemmini.monstertype.json": 1
-          },
-          "shared_shadowgolem": {
-            "shared_.monstertype.json": 1
+            "shadowgolem.monstertype.json": 0
           },
           "stonegolem": {
             "stonegolem.monstertype.json": 2
@@ -9507,6 +9502,11 @@
         "shared_.monstertype.json": 1,
         "shared_adultpoptop": {
           "shared_top.json": 1
+        },
+        "shared_golem": {
+          "shared_shadowgolem": {
+            "shared_shadowgolem.monstertype.json": 0
+          }
         },
         "shared_poptop": {
           "shared_poptop.json": 1
@@ -12381,10 +12381,7 @@
           "fucryogenicbed.object.json": 2
         },
         "embeddedlight": {
-          "embeddedlight.object.json": 0
-        },
-        "embeddedlight2": {
-          "embeddedlight2.object.json": 0
+          "shared_embeddedlight.json": 0
         },
         "fairylights": {
           "fairylights_blackorange.object.json": 1,
@@ -12679,6 +12676,9 @@
             "labvendingmachine.object.json": 7
           }
         },
+        "mannequin": {
+          "cravenmannequin.object.json": 0
+        },
         "medbaybed": {
           "medbaybed.object.json": 2
         },
@@ -12693,9 +12693,6 @@
         },
         "shared_bandittent": {
           "shared_bandittent.json": 7
-        },
-        "shared_embeddedlight": {
-          "shared_embeddedlight.json": 0
         },
         "shared_storage": {
           "shared_.object.json": 6,
@@ -19930,6 +19927,7 @@
       "fu_quests.radiomessages.json": 23,
       "fu_resources.radiomessages.json": 50,
       "fu_stations.radiomessages.json": 3,
+      "fu_techtrials.radiomessages.json": 0,
       "shared_.radiomessages.json": 2,
       "shared_es.radiomessages.json": 1
     },
@@ -20971,9 +20969,9 @@
           "underworlder.statuseffect.json": 1
         },
         "physicalblock": {
-          "physicalblock.statuseffect.json": 1,
-          "physicalblock2.statuseffect.json": 1,
-          "physicalblock3.statuseffect.json": 1
+          "physicalblock.statuseffect.json": 0,
+          "physicalblock2.statuseffect.json": 0,
+          "physicalblock3.statuseffect.json": 0
         },
         "poisonblock": {
           "shared_.statuseffect.json": 1

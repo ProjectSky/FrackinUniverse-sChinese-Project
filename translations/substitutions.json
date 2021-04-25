@@ -4866,12 +4866,6 @@
   "items/armors/backitems/slimeinvisibleback/invisible.back": {
     "/description": "texts/items.json"
   },
-  "items/armors/backitems/tw_spacepunkback/tw_spacepunk.back": {
-    "/description": "texts/items/armors/backitems/shared_tw_space/shared_tw_space.json"
-  },
-  "items/armors/backitems/tw_spacesuitback/tw_spacesuitback.back": {
-    "/description": "texts/items/armors/backitems/shared_tw_space/shared_tw_space.json"
-  },
   "items/armors/bees/fubeesuit/fubeesuit.chest": {
     "/description": "texts/items/armors/bees/fubeesuit/shared_fubeesuit..json"
   },
@@ -9474,6 +9468,14 @@
   "monsters/fish/atropusfish/atropusfish.monstertype": {
     "/shortdescription": "texts/shared_fish..json"
   },
+  "monsters/fish/dolphins/1/dolphin1.monstertype": {
+    "/description": "texts/monsters/fish/dolphins/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/fish/dolphins/shared_.monstertype.json"
+  },
+  "monsters/fish/dolphins/2/dolphin2.monstertype": {
+    "/description": "texts/monsters/fish/dolphins/shared_.monstertype.json",
+    "/shortdescription": "texts/monsters/fish/dolphins/shared_.monstertype.json"
+  },
   "monsters/flyers/bighairyfrank/bighairyfrank.monstertype": {
     "/description": "texts/monsters/shared_bighairyfrank.json"
   },
@@ -10598,14 +10600,14 @@
   "monsters/walkers/golemish/fubloodgolem/fubloodgolem.monstertype": {
     "/description": "texts/monsters/walkers/golemish/shared_golem/shared_golem.monstertype.json"
   },
+  "monsters/walkers/golemish/fushadowgolem/fushadowgolem.monstertype": {
+    "/description": "texts/monsters/walkers/shared_golem/shared_shadowgolem/shared_shadowgolem.monstertype.json"
+  },
   "monsters/walkers/golemish/futoxicgolem/futoxicgolem.monstertype": {
     "/description": "texts/monsters/walkers/golemish/shared_golem/shared_golem.monstertype.json"
   },
   "monsters/walkers/golems/shadowgolem/shadowgolem.monstertype": {
-    "/description": "texts/monsters/walkers/golems/shared_shadowgolem/shared_.monstertype.json"
-  },
-  "monsters/walkers/golems/shadowgolemmini/shadowgolemmini.monstertype": {
-    "/description": "texts/monsters/walkers/golems/shared_shadowgolem/shared_.monstertype.json"
+    "/description": "texts/monsters/walkers/shared_golem/shared_shadowgolem/shared_shadowgolem.monstertype.json"
   },
   "monsters/walkers/ixolingish/ixoling2/ixoling2.monstertype": {
     "/description": "texts/monsters/walkers/ixolingish/shared_ixoling/shared_.monstertype.json"
@@ -19708,20 +19710,26 @@
     "/glitchDescription/glitchEmotedText": "texts/objects/generic/crates/winecabinet.object.json"
   },
   "objects/generic/embeddedlight/embeddedlight.object": {
-    "/avianDescription": "texts/objects/generic/shared_embeddedlight/shared_embeddedlight.json",
-    "/floranDescription": "texts/objects/generic/shared_embeddedlight/shared_embeddedlight.json",
+    "/apexDescription": "texts/objects/generic/embeddedlight/shared_embeddedlight.json",
+    "/avianDescription": "texts/objects/generic/embeddedlight/shared_embeddedlight.json",
+    "/description": "texts/objects/generic/embeddedlight/shared_embeddedlight.json",
+    "/floranDescription": "texts/objects/generic/embeddedlight/shared_embeddedlight.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/generic/embeddedlight/embeddedlight.object.json",
-    "/humanDescription": "texts/objects/generic/shared_embeddedlight/shared_embeddedlight.json",
-    "/hylotlDescription": "texts/objects/generic/shared_embeddedlight/shared_embeddedlight.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/generic/embeddedlight/shared_embeddedlight.json",
+    "/humanDescription": "texts/objects/generic/embeddedlight/shared_embeddedlight.json",
+    "/hylotlDescription": "texts/objects/generic/embeddedlight/shared_embeddedlight.json",
+    "/shortdescription": "texts/objects/generic/embeddedlight/shared_embeddedlight.json"
   },
-  "objects/generic/embeddedlight2/embeddedlight2.object": {
-    "/avianDescription": "texts/objects/generic/shared_embeddedlight/shared_embeddedlight.json",
-    "/floranDescription": "texts/objects/generic/shared_embeddedlight/shared_embeddedlight.json",
+  "objects/generic/embeddedlight/embeddedlight2.object": {
+    "/apexDescription": "texts/objects/generic/embeddedlight/shared_embeddedlight.json",
+    "/avianDescription": "texts/objects/generic/embeddedlight/shared_embeddedlight.json",
+    "/description": "texts/objects/generic/embeddedlight/shared_embeddedlight.json",
+    "/floranDescription": "texts/objects/generic/embeddedlight/shared_embeddedlight.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/generic/embeddedlight2/embeddedlight2.object.json",
-    "/humanDescription": "texts/objects/generic/shared_embeddedlight/shared_embeddedlight.json",
-    "/hylotlDescription": "texts/objects/generic/shared_embeddedlight/shared_embeddedlight.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/generic/embeddedlight/shared_embeddedlight.json",
+    "/humanDescription": "texts/objects/generic/embeddedlight/shared_embeddedlight.json",
+    "/hylotlDescription": "texts/objects/generic/embeddedlight/shared_embeddedlight.json",
+    "/shortdescription": "texts/objects/generic/embeddedlight/shared_embeddedlight.json"
   },
   "objects/generic/fairylights/fairylights_blackorange.object": {
     "/apexDescription": "texts/objects/generic/fairylights/shared_fairylights_.json",
@@ -37460,6 +37468,10 @@
   },
   "radiomessages/fu_stations.radiomessages": {
     "/pickupmatterassembler/text": "texts/radiomessages/shared_.radiomessages.json"
+  },
+  "radiomessages/fu_techtrials.radiomessages": {
+    "/fu_techtrials_emergencybounce1/senderName": "texts/wide_spread_fields.json",
+    "/fu_techtrials_emergencybounce2/senderName": "texts/wide_spread_fields.json"
   },
   "spawners/madness/gene/madnessderrick/madnessderrick.object": {
     "/shortdescription": "texts/shared_ers/shared_derrick.json"
