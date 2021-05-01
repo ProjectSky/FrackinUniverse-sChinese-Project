@@ -14,3 +14,4 @@
 * Mr.Sun
 * sunx
 * createSys
+* C-H-A-Beavotto (潘多拉mod的图鉴部分，FU有所引用，第一次更新导入的是Beavotto的汉化文本)
