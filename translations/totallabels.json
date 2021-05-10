@@ -1911,7 +1911,7 @@
         "fu_shipupgrades.questtemplate.json": 3
       }
     },
-    "glitchEmotes.json": 356,
+    "glitchEmotes.json": 355,
     "interface": {
       "ai": {
         "ai.config.json": 11,
@@ -2274,6 +2274,19 @@
           "websnapper": {
             "websnapper.activeitem.json": 2
           }
+        },
+        "hardmodebeacons": {
+          "fu_t10_apex_mission2beacon.activeitem.json": 2,
+          "fu_t10_avian_mission2beacon.activeitem.json": 2,
+          "fu_t10_floran_mission2beacon.activeitem.json": 2,
+          "fu_t10_floranarena1beacon.activeitem.json": 2,
+          "fu_t10_floranarena2beacon.activeitem.json": 2,
+          "fu_t10_floranarena3beacon.activeitem.json": 2,
+          "fu_t10_gaterepairbeacon.activeitem.json": 2,
+          "fu_t10_glitch_mission2beacon.activeitem.json": 2,
+          "fu_t10_human_mission1beacon.activeitem.json": 2,
+          "fu_t10_hylotl_mission2beacon.activeitem.json": 2,
+          "fu_t10_precursorbeacon.activeitem.json": 2
         },
         "kukagps": {
           "kukagps.activeitem.json": 1
@@ -6319,6 +6332,8 @@
           "fireauracollar.augment.json": 3,
           "fireauracollar2.augment.json": 3,
           "fireauracollar3.augment.json": 3,
+          "glitchtopcollar.augment.json": 3,
+          "glitchtopcollarbroken.augment.json": 3,
           "iceauracollar.augment.json": 3,
           "iceauracollar2.augment.json": 3,
           "iceauracollar3.augment.json": 3,
@@ -7740,7 +7755,6 @@
         "skathhazard.matitem.json": 1,
         "skathpressurewall.matitem.json": 1,
         "skathwalldetail.matitem.json": 1,
-        "skathwallpanel.matitem.json": 2,
         "slimeshipsupport.matitem.json": 3,
         "slopedcardboardtile.matitem.json": 1,
         "slopednightarblock.matitem.json": 2,
@@ -7777,9 +7791,6 @@
         "weatheredhorizontal.matitem.json": 1,
         "weatheredvertical.matitem.json": 1,
         "whitemeteorite.matitem.json": 2
-      },
-      "shared_eri": {
-        "shared_ting.json": 1
       },
       "throwables": {
         "Khe": {
@@ -8103,7 +8114,7 @@
       "shared_shingles.mat.json": 5,
       "shared_shroomblock.json": 1,
       "shared_shroomblockglow.mat.json": 1,
-      "shared_skath.json": 35,
+      "shared_skath.json": 37,
       "shared_slime.json": 1,
       "shared_slimedirt.json": 2,
       "shared_slopedavianhullpanel.mat.json": 2,
@@ -8564,7 +8575,14 @@
           "deathjellypeaceful.monstertype.json": 2
         },
         "dolphins": {
-          "shared_.monstertype.json": 2
+          "1": {
+            "dolphin1.monstertype.json": 2
+          },
+          "3": {
+            "largefish3.monstertype.json": 1
+          },
+          "shared_.monstertype.json": 1,
+          "shared_2.monstertype.json": 1
         },
         "veilendrex": {
           "veilendrex.monstertype.json": 2
@@ -14995,7 +15013,8 @@
         "makeshiftreactor": {
           "makeshiftreactor.config.json": 1,
           "makeshiftreactor.object.json": 2,
-          "makeshiftreactor2.object.json": 2
+          "makeshiftreactor2.object.json": 2,
+          "shared_makeshiftreactor.json": 1
         },
         "manufacturing": {
           "mfgstation.object.json": 2
@@ -15690,7 +15709,7 @@
         "shared_protectorateshiphatch.object.json": 1
       },
       "shared_reactor": {
-        "shared_reactor.json": 7
+        "shared_reactor.json": 6
       },
       "shared_roman": {
         "shared_romando.json": 1,
@@ -16737,20 +16756,16 @@
       },
       "skath": {
         "flagskath": {
-          "flagskath.object.json": 8
+          "flagskath.object.json": 10
         },
         "shared_console": {
-          "shared_console.json": 6
-        },
-        "shared_display": {
-          "shared_display.object.json": 2
+          "shared_console.json": 7
         },
         "shared_gundisplay": {
-          "shared_gundisplay.object.json": 3
+          "shared_gundisplay.object.json": 4
         },
         "shared_skath": {
-          "shared_.object.json": 5,
-          "shared_table.object.json": 1
+          "shared_.object.json": 3
         },
         "shared_skathbanner": {
           "shared_skathbanner.json": 10
@@ -16759,7 +16774,7 @@
           "shared_skathcrate.json": 7
         },
         "shared_skathplant": {
-          "shared_skathplant.json": 3
+          "shared_skathplant.json": 7
         },
         "shared_skathwatertank": {
           "shared_skathwatertank.json": 2
@@ -16768,7 +16783,7 @@
           "skathairlock.object.json": 10
         },
         "skathbackgrounddoor": {
-          "skathbackgrounddoor.object.json": 4
+          "skathbackgrounddoor.object.json": 2
         },
         "skathbanner1": {
           "skathbanner1.object.json": 5
@@ -16783,10 +16798,10 @@
           "skathbench.object.json": 10
         },
         "skathbookcase": {
-          "skathbookcase.object.json": 9
+          "skathbookcase.object.json": 10
         },
         "skathceilingconsole": {
-          "skathceilingconsole.object.json": 4
+          "skathceilingconsole.object.json": 3
         },
         "skathceilinglight": {
           "skathceilinglight.object.json": 9
@@ -16798,7 +16813,7 @@
           "skathchest.object.json": 10
         },
         "skathconsole1": {
-          "skathconsole1.object.json": 4
+          "skathconsole1.object.json": 3
         },
         "skathconsole2": {
           "skathconsole2.object.json": 7
@@ -16810,7 +16825,7 @@
           "skathcratelarge.object.json": 2
         },
         "skathcupboard": {
-          "skathcupboard.object.json": 9
+          "skathcupboard.object.json": 10
         },
         "skathdiagonaldoor": {
           "skathdiagonaldoor.object.json": 10
@@ -16819,19 +16834,20 @@
           "skathdrain.object.json": 9
         },
         "skathfountain": {
-          "skathfountain.object.json": 9
+          "skathfountain.object.json": 10
         },
         "skathfridge": {
           "skathfridge.object.json": 10
         },
         "skathfusionreactor": {
           "old": {
-            "skathfusionreactor.object.json": 10
+            "skathfusionreactor.object.json": 9
           },
-          "skathfusionreactor.object.json": 2
+          "skathfusionreactor.object.json": 3
         },
+        "skathfusionreactor.json": 1,
         "skathhammerdisplay": {
-          "skathhammerdisplay.object.json": 8
+          "skathhammerdisplay.object.json": 9
         },
         "skathhomeworldhologram": {
           "skathhomeworldhologram.object.json": 10
@@ -16843,7 +16859,7 @@
           "skathmedstorage.object.json": 10
         },
         "skathmetaltable": {
-          "skathmetaltable.object.json": 9
+          "skathmetaltable.object.json": 10
         },
         "skathmicrowave": {
           "skathmicrowave.object.json": 11
@@ -16870,22 +16886,22 @@
           "skathshippingcontainer.object.json": 9
         },
         "skathshiprailing": {
-          "skathshiprailing.object.json": 4
+          "skathshiprailing.object.json": 5
         },
         "skathshotgundisplay": {
-          "skathshotgundisplay.object.json": 6
+          "skathshotgundisplay.object.json": 5
         },
         "skathspeardisplay": {
           "skathspeardisplay.object.json": 9
         },
         "skathspearrack": {
-          "skathspearrack.object.json": 8
+          "skathspearrack.object.json": 9
         },
         "skathsworddisplay": {
           "skathsworddisplay.object.json": 9
         },
         "skathtable": {
-          "skathtable.object.json": 9
+          "skathtable.object.json": 10
         },
         "skathturret1": {
           "skathturret1.object.json": 10
@@ -16903,10 +16919,13 @@
           "skathwatertanksmall.object.json": 8
         },
         "tethydeslidingdoor": {
-          "tethydeslidingdoor.object.json": 7
+          "tethydeslidingdoor.object.json": 8
         }
       },
       "skath crafting": {
+        "shared_skath": {
+          "shared_e.object.json": 1
+        },
         "skathcodexbeacon": {
           "skathcodexbeacon.object.json": 11
         },
@@ -16914,7 +16933,7 @@
           "skathforge.object.json": 16
         },
         "skathworktable1": {
-          "skathworktable.object.json": 24
+          "skathworktable.object.json": 22
         }
       },
       "slimenpc": {
@@ -18305,13 +18324,13 @@
           "unsmashablenowayout.object.json": 9
         },
         "unsmashableplanturn1": {
-          "unsmashableplanturn1.object.json": 3
+          "unsmashableplanturn1.object.json": 4
         },
         "unsmashableplanturn2": {
           "unsmashableplanturn2.object.json": 2
         },
         "unsmashableplanturn3": {
-          "unsmashableplanturn3.object.json": 3
+          "unsmashableplanturn3.object.json": 2
         },
         "unsmashableplatinumrock": {
           "unsmashableplatinumrock.object.json": 1
@@ -19829,7 +19848,7 @@
         "fu_t10_apex_mission2.questtemplate.json": 5,
         "fu_t10_avian_mission2.questtemplate.json": 4,
         "fu_t10_floran_mission2.questtemplate.json": 4,
-        "fu_t10_floranarena1.questtemplate.json": 3,
+        "fu_t10_floranarena1.questtemplate.json": 4,
         "fu_t10_floranarena2.questtemplate.json": 4,
         "fu_t10_floranarena3.questtemplate.json": 4,
         "fu_t10_gaterepair.questtemplate.json": 5,
@@ -19837,9 +19856,10 @@
         "fu_t10_human_mission1.questtemplate.json": 5,
         "fu_t10_hylotl_mission2.questtemplate.json": 4,
         "fu_t10_initial.questtemplate.json": 4,
-        "fu_t10_precursor.questtemplate.json": 3,
-        "shared_.questtemplate.json": 3,
-        "shared__mission2.questtemplate.json": 1
+        "fu_t10_precursor.questtemplate.json": 5,
+        "shared_.questtemplate.json": 1,
+        "shared__mission2.questtemplate.json": 1,
+        "shared_fu_t10_floranarena.json": 1
       },
       "pavillion.questtemplate.json": 4,
       "penguinhighway.questtemplate.json": 4,
@@ -19961,7 +19981,7 @@
     "shared_emera.json": 1,
     "shared_engineer.json": 1,
     "shared_ent.json": 1,
-    "shared_eri.json": 1,
+    "shared_eri.json": 2,
     "shared_ers": {
       "shared_bunnythingmeat": {
         "shared_bunnythingmeat..json": 1
@@ -20317,9 +20337,6 @@
           }
         },
         "fu_effects": {
-          "adaptiveresistance": {
-            "fuadaptiveresistance.statuseffect.json": 1
-          },
           "beesting": {
             "fubeesting.animation.json": 1,
             "shared_.statuseffect.json": 1
@@ -20773,7 +20790,8 @@
               "insanitynew.animation.json": 1,
               "insanitynew.statuseffect.json": 1,
               "insanitynew2.statuseffect.json": 1,
-              "insanitynew3.statuseffect.json": 1
+              "insanitynew3.statuseffect.json": 1,
+              "insanitynew3arena.statuseffect.json": 1
             },
             "poison": {
               "biomepoison1.statuseffect.json": 1,
@@ -21552,9 +21570,7 @@
         "shroomblockwall.material.json": 1,
         "skath": {
           "skathhazard.material.json": 1,
-          "skathpressurewall.material.json": 1,
-          "skathwallpanel.material.json": 2,
-          "slopedtethydeplating.material.json": 1
+          "skathpressurewall.material.json": 1
         },
         "slime2.material.json": 1,
         "slimeshipsupport.material.json": 4,
