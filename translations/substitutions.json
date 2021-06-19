@@ -4062,19 +4062,11 @@
   "items/active/weapons/melee/rapier/fuuncommonrapier.activeitem": {
     "/description": "texts/items/active/weapons/melee/shared_r.activeitem.json"
   },
-  "items/active/weapons/melee/scythe/aetheriumscythe.activeitem": {
-    "/upgradeParameters/description": "texts/items/active/weapons/melee/scythe/shared_scythe.activeitem.json",
-    "/upgradeParameters/shortdescription": "texts/items/active/weapons/melee/scythe/shared_scythe.activeitem.json"
-  },
   "items/active/weapons/melee/scythe/fuatropusscythe.activeitem": {
     "/shortdescription": "texts/items/active/weapons/melee/scythe/shared_scythe.activeitem.json"
   },
   "items/active/weapons/melee/scythe/fucultistscythe.activeitem": {
     "/shortdescription": "texts/items/active/weapons/melee/scythe/shared_scythe.activeitem.json"
-  },
-  "items/active/weapons/melee/scythe/xithricitescythe.activeitem": {
-    "/upgradeParameters/description": "texts/items/active/weapons/melee/scythe/shared_scythe.activeitem.json",
-    "/upgradeParameters/shortdescription": "texts/items/active/weapons/melee/scythe/shared_scythe.activeitem.json"
   },
   "items/active/weapons/melee/shortspear/advalloyshortspear.activeitem": {
     "/description": "texts/items/active/weapons/melee/shortspear/shared_shortspear.activeitem.json"
@@ -8354,7 +8346,7 @@
     "/shortdescription": "texts/materials/shared_jellystone.mat.json"
   },
   "items/materials/jumpblockmaterial.matitem": {
-    "/shortdescription": "texts/materials/shared_material.json"
+    "/shortdescription": "texts/materials/shared_jumpblock.json"
   },
   "items/materials/jungledirt1.matitem": {
     "/shortdescription": "texts/materials/shared_jungledirt.json"
@@ -9040,6 +9032,10 @@
   "items/materials/thelushivesleek.matitem": {
     "/description": "texts/materials/shared_thelus.json",
     "/shortdescription": "texts/materials/shared_thelus.json"
+  },
+  "items/materials/titaniumwallblockmaterial.matitem": {
+    "/description": "texts/materials/shared_titaniumwallblock.json",
+    "/shortdescription": "texts/materials/shared_titaniumwallblock.json"
   },
   "items/materials/toiletpaperroll.matitem": {
     "/description": "texts/materials/shared_toiletpaperroll.mat.json",
@@ -15733,8 +15729,6 @@
     "/tooltip/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json"
   },
   "objects/crafting/xenostation/xenolab.object": {
-    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/crafting/xenostation/xenolab.object.json",
     "/subtitle": "texts/objects/crafting/shared_.object.json"
   },
   "objects/cultist/cultisttent.object": {
@@ -20063,6 +20057,10 @@
     "/glitchDescription/glitchEmotedText": "texts/objects/shared_.object.json",
     "/interactData/paneLayoutOverride/windowtitle/subtitle": "texts/objects/shared_vendingmachine/shared_vendingmachine.object.json"
   },
+  "objects/generic/mechbeacon/fumechbeacondecorative.object": {
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/generic/mechbeacon/fumechbeacondecorative.object.json"
+  },
   "objects/generic/paintings/painting_whistler.object": {
     "/bothanDescription": "texts/objects/shared_.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -20971,7 +20969,7 @@
   },
   "objects/mantizi/imperialvasesmall1/imperialvasesmall1.object": {
     "/apexDescription": "texts/objects/shared_vase/shared_.object.json",
-    "/avianDescription": "texts/objects/mantizi/shared_imperialvasesmall/shared_imperialvasesmall.json",
+    "/avianDescription": "texts/objects/mantizi/shared_imperialvase/shared_imperialvase.json",
     "/description": "texts/objects/mantizi/shared_imperialvase/shared_imperialvase.json",
     "/floranDescription": "texts/objects/mantizi/shared_imperialvase/shared_imperialvase.json",
     "/fumantiziDescription": "texts/objects/mantizi/shared_imperialvase/shared_imperialvase.json",
@@ -20983,7 +20981,7 @@
   },
   "objects/mantizi/imperialvasesmall2/imperialvasesmall2.object": {
     "/apexDescription": "texts/objects/shared_vase/shared_.object.json",
-    "/avianDescription": "texts/objects/mantizi/shared_imperialvasesmall/shared_imperialvasesmall.json",
+    "/avianDescription": "texts/objects/mantizi/shared_imperialvase/shared_imperialvase.json",
     "/description": "texts/objects/mantizi/shared_imperialvase/shared_imperialvase.json",
     "/floranDescription": "texts/objects/mantizi/shared_imperialvase/shared_imperialvase.json",
     "/fumantiziDescription": "texts/objects/mantizi/shared_imperialvase/shared_imperialvase.json",
@@ -23832,10 +23830,6 @@
     "/hylotlDescription": "texts/objects/shared_storage/shared_locker.json",
     "/novakidDescription": "texts/objects/shared_storage/shared_locker.json"
   },
-  "objects/nightar/nightarstove/nightarstove.object": {
-    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/nightar/nightarstove/nightarstove.object.json"
-  },
   "objects/nightar/nightartable/nightartable.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/nightar/nightartable/nightartable.object.json"
@@ -25194,7 +25188,20 @@
     "/gui/windowtitle/title": "texts/objects/shared_pilch_shield/shared_pilch_shield.json"
   },
   "objects/pilch_shieldgenerator/pilch_shieldgenerator.object": {
+    "/description": "texts/objects/pilch_shieldgenerator/shared_pilch_shieldgenerator.json",
     "/shortdescription": "texts/wide_spread_fields.json"
+  },
+  "objects/pilch_shieldgenerator/pilch_shieldgeneratorasteroid.object": {
+    "/description": "texts/objects/pilch_shieldgenerator/shared_pilch_shieldgenerator.json",
+    "/shortdescription": "texts/wide_spread_fields.json"
+  },
+  "objects/pilch_shieldmarker/pilch_shieldmarker.object": {
+    "/description": "texts/objects/pilch_shieldmarker/shared_pilch_shieldmarker.json",
+    "/shortdescription": "texts/objects/pilch_shieldmarker/shared_pilch_shieldmarker.json"
+  },
+  "objects/pilch_shieldmarker/pilch_shieldmarkerasteroid.object": {
+    "/description": "texts/objects/pilch_shieldmarker/shared_pilch_shieldmarker.json",
+    "/shortdescription": "texts/objects/pilch_shieldmarker/shared_pilch_shieldmarker.json"
   },
   "objects/pixelgoods/fufloranbath.object": {
     "/description": "texts/objects/pixelgoods/shared_bath.object.json",
@@ -25355,6 +25362,24 @@
   "objects/power/fu_quantumgenerator/fu_quantumgenerator.config": {
     "/gui/count/value": "texts/objects/power/shared_generator/shared_generator.config.json"
   },
+  "objects/power/fu_solararray/fu_solararray.object": {
+    "/apexDescription": "texts/objects/power/shared__solar/shared_.object.json",
+    "/avianDescription": "texts/objects/power/shared__solar/shared_.object.json",
+    "/floranDescription": "texts/objects/power/shared__solar/shared_.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/power/shared__solar/shared_.object.json",
+    "/humanDescription": "texts/objects/power/shared__solar/shared_.object.json",
+    "/hylotlDescription": "texts/objects/power/shared__solar/shared_.object.json"
+  },
+  "objects/power/fu_solararrayadv/fu_solararrayadv.object": {
+    "/apexDescription": "texts/objects/power/shared__solar/shared_.object.json",
+    "/avianDescription": "texts/objects/power/shared__solar/shared_.object.json",
+    "/floranDescription": "texts/objects/power/shared__solar/shared_.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/power/shared__solar/shared_.object.json",
+    "/humanDescription": "texts/objects/power/shared__solar/shared_.object.json",
+    "/hylotlDescription": "texts/objects/power/shared__solar/shared_.object.json"
+  },
   "objects/power/gnomefactory/gnomefactory.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/power/gnomefactory/gnomefactory.object.json"
@@ -25435,8 +25460,13 @@
     "/tooltip/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json"
   },
   "objects/power/isn_solarpanel/isn_solarpanel.object": {
+    "/apexDescription": "texts/objects/power/shared__solar/shared_.object.json",
+    "/avianDescription": "texts/objects/power/shared__solar/shared_.object.json",
+    "/floranDescription": "texts/objects/power/shared__solar/shared_.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/power/isn_solarpanel/isn_solarpanel.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/power/shared__solar/shared_.object.json",
+    "/humanDescription": "texts/objects/power/shared__solar/shared_.object.json",
+    "/hylotlDescription": "texts/objects/power/shared__solar/shared_.object.json"
   },
   "objects/power/isn_thermalgenerator/isn_thermalgenerator.config": {
     "/gui/count/value": "texts/objects/power/shared_generator/shared_generator.config.json"
@@ -25455,7 +25485,7 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/shared_reactor/shared_reactor.json",
     "/humanDescription": "texts/objects/shared_reactor/shared_reactor.json",
-    "/hylotlDescription": "texts/objects/power/makeshiftreactor/shared_makeshiftreactor.json",
+    "/hylotlDescription": "texts/objects/shared_reactor/shared_reactor.object.json",
     "/novakidDescription": "texts/objects/shared_reactor/shared_reactor.json"
   },
   "objects/power/makeshiftreactor/makeshiftreactor2.object": {
@@ -25465,7 +25495,6 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/shared_reactor/shared_reactor.json",
     "/humanDescription": "texts/objects/shared_reactor/shared_reactor.json",
-    "/hylotlDescription": "texts/objects/power/makeshiftreactor/shared_makeshiftreactor.json",
     "/novakidDescription": "texts/objects/shared_reactor/shared_reactor.json"
   },
   "objects/power/massincinerator/massincinerator.object": {
@@ -31701,6 +31730,7 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/shared_reactor/shared_reactor.json",
     "/humanDescription": "texts/objects/shared_reactor/shared_reactor.json",
+    "/hylotlDescription": "texts/objects/shared_reactor/shared_reactor.object.json",
     "/novakidDescription": "texts/objects/shared_reactor/shared_reactor.json",
     "/skathDescription": "texts/objects/skath/skathfusionreactor.json"
   },
@@ -37146,12 +37176,6 @@
   "quests/fu_questlines/outpost/khe_stuff/khe_lantern.questtemplate": {
     "/scriptConfig/turnInDescription": "texts/quests/fu_questlines/outpost/khe_stuff/shared_.questtemplate.json"
   },
-  "quests/fu_questlines/outpost/khe_stuff/khecoinbreadcrumb.questtemplate": {
-    "/title": "texts/quests/fu_questlines/outpost/khe_stuff/shared_breadcrumb.questtemplate.json"
-  },
-  "quests/fu_questlines/outpost/khe_stuff/khecrystalbreadcrumb.questtemplate": {
-    "/title": "texts/quests/fu_questlines/outpost/khe_stuff/shared_breadcrumb.questtemplate.json"
-  },
   "quests/fu_questlines/outpost/scienceoutpost_foodShop.questtemplate": {
     "/title": "texts/wide_spread_fields.json"
   },
@@ -37174,12 +37198,10 @@
     "/title": "texts/wide_spread_fields.json"
   },
   "quests/fu_questlines/tutorial/start_basics.questtemplate": {
-    "/completionText": "texts/quests/fu_questlines/tutorial/shared_.questtemplate.json",
-    "/scriptConfig/turnInDescription": "texts/quests/fu_questlines/tutorial/shared_.questtemplate.json"
+    "/completionText": "texts/quests/fu_questlines/tutorial/shared_.questtemplate.json"
   },
   "quests/fu_questlines/tutorial/start_basics1.questtemplate": {
-    "/completionText": "texts/quests/fu_questlines/tutorial/shared_.questtemplate.json",
-    "/scriptConfig/turnInDescription": "texts/quests/fu_questlines/tutorial/shared_.questtemplate.json"
+    "/completionText": "texts/quests/fu_questlines/tutorial/shared_.questtemplate.json"
   },
   "quests/fu_questlines/tutorial/vinj/create_armory.questtemplate": {
     "/scriptConfig/turnInDescription": "texts/quests/fu_questlines/tutorial/vinj/shared_.questtemplate.json"
@@ -40339,12 +40361,10 @@
     "/shortdescription": "texts/materials/shared_fukirhosslopedpanel.mat.json"
   },
   "tiles/materials/fukirhosstairs.material": {
-    "/description": "texts/shared_.mat.json",
-    "/shortdescription": "texts/tiles/materials/shared_fukirhosstairs.json"
+    "/description": "texts/shared_.mat.json"
   },
   "tiles/materials/fukirhosstairs2.material": {
-    "/description": "texts/shared_.mat.json",
-    "/shortdescription": "texts/tiles/materials/shared_fukirhosstairs.json"
+    "/description": "texts/shared_.mat.json"
   },
   "tiles/materials/fukirhossupport.material": {
     "/description": "texts/tiles/materials/shared_support.material.json",
@@ -40877,8 +40897,7 @@
     "/shortdescription": "texts/materials/shared_jellystone.mat.json"
   },
   "tiles/materials/jumpblock.material": {
-    "/description": "texts/tiles/materials/shared_block.material.json",
-    "/shortdescription": "texts/materials/shared_material.json"
+    "/shortdescription": "texts/materials/shared_jumpblock.json"
   },
   "tiles/materials/jungledirt1.material": {
     "/shortdescription": "texts/materials/shared_jungledirt.json"
@@ -41892,8 +41911,8 @@
     "/shortdescription": "texts/tiles/materials/tilesandgreebles/shared_veinblock.mat.json"
   },
   "tiles/materials/titaniumwallblock.material": {
-    "/description": "texts/tiles/materials/shared_block.material.json",
-    "/shortdescription": "texts/materials/shared_material.json"
+    "/description": "texts/materials/shared_titaniumwallblock.json",
+    "/shortdescription": "texts/materials/shared_titaniumwallblock.json"
   },
   "tiles/materials/toiletpaperroll.material": {
     "/description": "texts/materials/shared_toiletpaperroll.mat.json",

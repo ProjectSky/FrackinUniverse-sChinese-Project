@@ -1628,7 +1628,7 @@
         "kirhos5.codex.json": 3,
         "kirhos6.codex.json": 6,
         "kirhos7.codex.json": 3,
-        "shared_kirhos.json": 2
+        "shared_kirhos.json": 1
       },
       "legacy_codex": {
         "bigapecodexannoyance.codex.json": 4,
@@ -3220,7 +3220,7 @@
               "zerchesiumrapier.activeitem.json": 2
             },
             "scythe": {
-              "aetheriumscythe.activeitem.json": 2,
+              "aetheriumscythe.activeitem.json": 4,
               "ancientscythe.activeitem.json": 2,
               "cutescythe.activeitem.json": 3,
               "densiniumscythe.activeitem.json": 2,
@@ -3236,7 +3236,7 @@
               "penumbralscythe.activeitem.json": 2,
               "predatorscythe.activeitem.json": 2,
               "quietusscythe.activeitem.json": 2,
-              "shared_scythe.activeitem.json": 3,
+              "shared_scythe.activeitem.json": 1,
               "stonescythe.activeitem.json": 2,
               "telebriumscythe.activeitem.json": 2,
               "thelusscythe.activeitem.json": 2,
@@ -4533,6 +4533,7 @@
         "biome": {
           "garden": {
             "quiver": {
+              "aetherquiverback.back.json": 2,
               "airback.back.json": 2,
               "airbackunique.back.json": 2,
               "energyback.back.json": 2,
@@ -7768,7 +7769,6 @@
         "supermatter.matitem.json": 2,
         "swampdirtffmaterial.matitem.json": 1,
         "tarstonematerial.matitem.json": 1,
-        "titaniumwallblockmaterial.matitem.json": 2,
         "treatedaenwood.matitem.json": 2,
         "unrefinedandesite.matitem.json": 3,
         "unrefinedarkose.matitem.json": 3,
@@ -8046,6 +8046,7 @@
       "shared_hydrangeablock.mat.json": 5,
       "shared_irradiated.json": 2,
       "shared_jellystone.mat.json": 1,
+      "shared_jumpblock.json": 1,
       "shared_jungledirt.json": 2,
       "shared_junglestone.json": 1,
       "shared_kt_solpanblock.mat.json": 2,
@@ -8055,7 +8056,7 @@
       "shared_marbleblock.mat.json": 2,
       "shared_marblepillarblock.mat.json": 1,
       "shared_marestone.json": 2,
-      "shared_material.json": 13,
+      "shared_material.json": 12,
       "shared_metalfloor.json": 1,
       "shared_metallicbrick.json": 1,
       "shared_metallicbrick.mat.json": 1,
@@ -8135,6 +8136,7 @@
       "shared_telebriumblock.mat.json": 2,
       "shared_telepillarblock.mat.json": 2,
       "shared_thelus.json": 4,
+      "shared_titaniumwallblock.json": 2,
       "shared_toiletpaperroll.mat.json": 2,
       "shared_treated.json": 2,
       "shared_treatedwood.json": 4,
@@ -8497,6 +8499,10 @@
         "fumoontant": {
           "fumoontant.monstertype.json": 2
         },
+        "giftmonster": {
+          "giftmonster.monstertype.json": 2,
+          "giftmonstersmall.monstertype.json": 2
+        },
         "repairbot": {
           "repairbot.monstertype.json": 2
         },
@@ -8666,6 +8672,9 @@
         "gasbag": {
           "gasbagstat.monstertype.json": 2,
           "shared_.monstertype.json": 2
+        },
+        "ghastbrain": {
+          "ghastbrain.monstertype.json": 2
         },
         "horrors": {
           "horror": {
@@ -10651,7 +10660,7 @@
           "wiringstation.object.json": 11
         },
         "xenostation": {
-          "xenolab.object.json": 3
+          "xenolab.object.json": 2
         },
         "xenostationadvnew": {
           "xenostationadvnew.object.json": 2
@@ -12697,6 +12706,9 @@
         "mannequin": {
           "cravenmannequin.object.json": 2
         },
+        "mechbeacon": {
+          "fumechbeacondecorative.object.json": 9
+        },
         "medbaybed": {
           "medbaybed.object.json": 2
         },
@@ -13193,9 +13205,6 @@
         },
         "shared_imperialvaselarge": {
           "shared_imperialvaselarge.json": 1
-        },
-        "shared_imperialvasesmall": {
-          "shared_imperialvasesmall.json": 1
         }
       },
       "mantizi2": {
@@ -14149,7 +14158,7 @@
           "nightarstoragelocker.object.json": 1
         },
         "nightarstove": {
-          "nightarstove.object.json": 9
+          "nightarstove.object.json": 2
         },
         "nightarstreetlamp": {
           "nightarstreetlamp.object.json": 2
@@ -14158,7 +14167,7 @@
           "nightartable.object.json": 8
         },
         "nightartablechair": {
-          "nightartablechair.object.json": 9
+          "nightartablechair.object.json": 8
         },
         "nightarthrone": {
           "nightarthrone.object.json": 9
@@ -14802,10 +14811,10 @@
       },
       "pilch_shieldgenerator": {
         "pilch_shieldgenerator.config.json": 8,
-        "pilch_shieldgenerator.object.json": 1
+        "shared_pilch_shieldgenerator.json": 1
       },
       "pilch_shieldmarker": {
-        "pilch_shieldmarker.object.json": 2
+        "shared_pilch_shieldmarker.json": 2
       },
       "pixelgoods": {
         "fudragonbed.object.json": 2,
@@ -15005,16 +15014,15 @@
           "isn_radiostationnew.object.json": 2
         },
         "isn_solarpanel": {
-          "isn_solarpanel.object.json": 8
+          "isn_solarpanel.object.json": 2
         },
         "isn_thermalgenerator": {
           "isn_thermalgenerator.object.json": 9
         },
         "makeshiftreactor": {
           "makeshiftreactor.config.json": 1,
-          "makeshiftreactor.object.json": 2,
-          "makeshiftreactor2.object.json": 2,
-          "shared_makeshiftreactor.json": 1
+          "makeshiftreactor.object.json": 3,
+          "makeshiftreactor2.object.json": 3
         },
         "manufacturing": {
           "mfgstation.object.json": 2
@@ -15029,6 +15037,9 @@
           "quantumextractor.object.json": 2
         },
         "shared_.config.json": 1,
+        "shared__solar": {
+          "shared_.object.json": 6
+        },
         "shared_centrifuge": {
           "shared_centrifuge.json": 1
         },
@@ -15709,7 +15720,8 @@
         "shared_protectorateshiphatch.object.json": 1
       },
       "shared_reactor": {
-        "shared_reactor.json": 6
+        "shared_reactor.json": 6,
+        "shared_reactor.object.json": 1
       },
       "shared_roman": {
         "shared_romando.json": 1,
@@ -16843,7 +16855,7 @@
           "old": {
             "skathfusionreactor.object.json": 9
           },
-          "skathfusionreactor.object.json": 3
+          "skathfusionreactor.object.json": 2
         },
         "skathfusionreactor.json": 1,
         "skathhammerdisplay": {
@@ -19611,8 +19623,7 @@
             "create_energyassault.questtemplate.json": 4,
             "create_laspistol.questtemplate.json": 4,
             "create_steelwarblade.questtemplate.json": 4,
-            "create_warcleaver.questtemplate.json": 4,
-            "plebiancap.questtemplate.json": 3
+            "create_warcleaver.questtemplate.json": 4
           },
           "monsters": {
             "fuquest_ancientsentry.questtemplate.json": 4,
@@ -19713,10 +19724,9 @@
           "khe_stuff": {
             "khe_fabric.questtemplate.json": 3,
             "khe_lantern.questtemplate.json": 3,
-            "khecoinbreadcrumb.questtemplate.json": 2,
-            "khecrystalbreadcrumb.questtemplate.json": 2,
-            "shared_.questtemplate.json": 1,
-            "shared_breadcrumb.questtemplate.json": 1
+            "khecoinbreadcrumb.questtemplate.json": 3,
+            "khecrystalbreadcrumb.questtemplate.json": 3,
+            "shared_.questtemplate.json": 1
           },
           "scienceoutpost_floranShop.questtemplate.json": 4,
           "scienceoutpost_foodShop.questtemplate.json": 3,
@@ -19784,9 +19794,9 @@
             "extractor5.questtemplate.json": 4,
             "extractor6.questtemplate.json": 3
           },
-          "shared_.questtemplate.json": 2,
-          "start_basics.questtemplate.json": 2,
-          "start_basics1.questtemplate.json": 2,
+          "shared_.questtemplate.json": 1,
+          "start_basics.questtemplate.json": 3,
+          "start_basics1.questtemplate.json": 3,
           "start_basics2.questtemplate.json": 4,
           "start_basics3.questtemplate.json": 4,
           "start_basics3b.questtemplate.json": 4,
@@ -21379,6 +21389,8 @@
         "fukirhosmetalfloor.material.json": 2,
         "fukirhosmetaltile.material.json": 2,
         "fukirhosroof.material.json": 1,
+        "fukirhosstairs.material.json": 1,
+        "fukirhosstairs2.material.json": 1,
         "fukirhoswall.material.json": 1,
         "fulabpipe.material.json": 1,
         "fumetalbaseboard.material.json": 1,
@@ -21470,6 +21482,7 @@
           "irradiatedtile2.material.json": 1,
           "irradiatedtile3.material.json": 1
         },
+        "jumpblock.material.json": 1,
         "jungledirt1.material.json": 1,
         "jungledirt2.material.json": 1,
         "junglestone.material.json": 1,
@@ -21540,7 +21553,7 @@
         "shared_.material.json": 2,
         "shared_avalidarkmetal.json": 1,
         "shared_avianmetaltrim.json": 2,
-        "shared_block.material.json": 2,
+        "shared_block.material.json": 1,
         "shared_boneyflesh.material.json": 2,
         "shared_coral.material.json": 1,
         "shared_crystal.material.json": 2,
@@ -21550,7 +21563,6 @@
         "shared_fence.material.json": 1,
         "shared_fudarkness.json": 3,
         "shared_fukirhosgirdir.json": 1,
-        "shared_fukirhosstairs.json": 1,
         "shared_honeycombmaterial.material.json": 1,
         "shared_nightarcastleblock.json": 1,
         "shared_precursor.json": 1,
