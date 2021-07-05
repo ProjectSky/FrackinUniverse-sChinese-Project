@@ -1,6 +1,6 @@
 {
   "dialog/arrivedhome.config": {
-    "/beacon/juux/default/0": "patches/dialog/shared_.config.json",
+    "/beacon/juux/default/0": "patches/wide_spread_fields.json",
     "/beacon/skath/default/1": "patches/dialog/shared_.config.json",
     "/beacon/skath/default/2": "patches/dialog/shared_.config.json",
     "/beacon/skath/default/3": "patches/dialog/shared_.config.json",
@@ -282,7 +282,7 @@
     "/final/skath/default/2": "patches/dialog/shared_.config.json",
     "/final/skath/default/3": "patches/dialog/shared_.config.json",
     "/final/skath/default/4": "patches/dialog/shared_.config.json",
-    "/merchantEnd/shadow/default/0": "patches/dialog/shared_.config.json",
+    "/merchantEnd/shadow/default/0": "patches/wide_spread_fields.json",
     "/otherDeed/skath/default/0": "patches/dialog/shared_.config.json",
     "/otherDeed/skath/default/1": "patches/dialog/shared_.config.json",
     "/otherDeed/skath/default/2": "patches/dialog/shared_.config.json",
@@ -307,7 +307,8 @@
   "interface/itemdescriptions/fistweapon.itemdescription": {
     "/critBonusTitleLabel/value": "patches/interface.json",
     "/critChanceTitleLabel/value": "patches/interface.json",
-    "/levelTitleLabel/value": "patches/interface.json"
+    "/levelTitleLabel/value": "patches/interface.json",
+    "/shiftClickLabel/value": "patches/interface/shared_fistweapon..json"
   },
   "interface/itemdescriptions/gun.itemdescription": {
     "/critBonusTitleLabel/value": "patches/interface.json",
@@ -355,7 +356,8 @@
     "/critBonusTitleLabel/value": "patches/interface.json",
     "/critChanceTitleLabel/value": "patches/interface.json",
     "/damagePerShotTitleLabel/value": "patches/interface/tooltips/shared_.tooltip.json",
-    "/levelTitleLabel/value": "patches/interface.json"
+    "/levelTitleLabel/value": "patches/interface.json",
+    "/shiftClickLabel/value": "patches/interface/shared_fistweapon..json"
   },
   "interface/tooltips/gun.tooltip": {
     "/critBonusTitleLabel/value": "patches/interface.json",
@@ -1211,6 +1213,9 @@
   "items/generic/mechparts/body/mechbodycultist2.item": {
     "/description": "patches/items/generic/mechparts/body/shared_mechbody.json"
   },
+  "items/generic/mechparts/body/mechbodydvamech.item": {
+    "/description": "patches/items/generic/mechparts/body/shared_mech.item.json"
+  },
   "items/generic/mechparts/body/mechbodyexodus.item": {
     "/description": "patches/items/generic/mechparts/body/shared_mechbody.json"
   },
@@ -1274,6 +1279,53 @@
   "items/generic/mechparts/body/mechbodyskull.item": {
     "/description": "patches/items/generic/mechparts/body/shared_mechbody.json"
   },
+  "items/generic/mechparts/body/mechbodyxsm_elitesigma.item": {
+    "/description": "patches/items/generic/mechparts/body/shared_mechbodyxsm_.json"
+  },
+  "items/generic/mechparts/body/mechbodyxsm_piraterhomech.item": {
+    "/description": "patches/items/generic/mechparts/body/shared_mech.item.json"
+  },
+  "items/generic/mechparts/body/mechbodyxsm_rhomech.item": {
+    "/description": "patches/items/generic/mechparts/body/shared_mech.item.json"
+  },
+  "items/generic/mechparts/body/mechbodyxsm_sigma.item": {
+    "/description": "patches/items/generic/mechparts/body/shared_mechbodyxsm_.json"
+  },
+  "items/generic/mechparts/body/mechbodyxsm_thetamech.item": {
+    "/description": "patches/items/generic/mechparts/body/shared_mech.item.json"
+  },
+  "items/tools/inspectiontool/inspectionmode.inspectiontool": {
+    "/nothingThereText/fenerox/0": "patches/items/tools/inspectiontool/shared_nmode.inspectiontool.json",
+    "/nothingThereText/fenerox/1": "patches/items/tools/inspectiontool/shared_nmode.inspectiontool.json",
+    "/nothingThereText/fenerox/2": "patches/items/tools/inspectiontool/shared_nmode.inspectiontool.json",
+    "/nothingThereText/fenerox/3": "patches/items/tools/inspectiontool/shared_nmode.inspectiontool.json",
+    "/nothingThereText/shadow/0": "patches/wide_spread_fields.json",
+    "/nothingThereText/shadow/1": "patches/items/tools/inspectiontool/shared_nmode.inspectiontool.json",
+    "/nothingThereText/shadow/2": "patches/items/tools/inspectiontool/shared_nmode.inspectiontool.json",
+    "/outOfRangeText/fenerox/0": "patches/items/tools/inspectiontool/shared_nmode.inspectiontool.json",
+    "/outOfRangeText/fenerox/1": "patches/items/tools/inspectiontool/shared_nmode.inspectiontool.json",
+    "/outOfRangeText/fenerox/2": "patches/items/tools/inspectiontool/shared_nmode.inspectiontool.json",
+    "/outOfRangeText/fenerox/3": "patches/items/tools/inspectiontool/shared_nmode.inspectiontool.json",
+    "/outOfRangeText/shadow/0": "patches/wide_spread_fields.json",
+    "/outOfRangeText/shadow/1": "patches/items/tools/inspectiontool/shared_nmode.inspectiontool.json",
+    "/outOfRangeText/shadow/2": "patches/items/tools/inspectiontool/shared_nmode.inspectiontool.json"
+  },
+  "items/tools/inspectiontool/scanmode.inspectiontool": {
+    "/nothingThereText/fenerox/0": "patches/items/tools/inspectiontool/shared_nmode.inspectiontool.json",
+    "/nothingThereText/fenerox/1": "patches/items/tools/inspectiontool/shared_nmode.inspectiontool.json",
+    "/nothingThereText/fenerox/2": "patches/items/tools/inspectiontool/shared_nmode.inspectiontool.json",
+    "/nothingThereText/fenerox/3": "patches/items/tools/inspectiontool/shared_nmode.inspectiontool.json",
+    "/nothingThereText/shadow/0": "patches/wide_spread_fields.json",
+    "/nothingThereText/shadow/1": "patches/items/tools/inspectiontool/shared_nmode.inspectiontool.json",
+    "/nothingThereText/shadow/2": "patches/items/tools/inspectiontool/shared_nmode.inspectiontool.json",
+    "/outOfRangeText/fenerox/0": "patches/items/tools/inspectiontool/shared_nmode.inspectiontool.json",
+    "/outOfRangeText/fenerox/1": "patches/items/tools/inspectiontool/shared_nmode.inspectiontool.json",
+    "/outOfRangeText/fenerox/2": "patches/items/tools/inspectiontool/shared_nmode.inspectiontool.json",
+    "/outOfRangeText/fenerox/3": "patches/items/tools/inspectiontool/shared_nmode.inspectiontool.json",
+    "/outOfRangeText/shadow/0": "patches/wide_spread_fields.json",
+    "/outOfRangeText/shadow/1": "patches/items/tools/inspectiontool/shared_nmode.inspectiontool.json",
+    "/outOfRangeText/shadow/2": "patches/items/tools/inspectiontool/shared_nmode.inspectiontool.json"
+  },
   "npcs/dungeon/aviantemple/templeguard.npctype": {
     "/scriptConfig/dialog/attack/default/default/0": "patches/npcs/dungeon/shared_aviant/shared_guard.npctype.json"
   },
@@ -1284,11 +1336,135 @@
     "/upgradeStages/2/itemSpawnParameters/glitchDescription/glitchEmote": "patches/glitchEmotes.json",
     "/upgradeStages/2/itemSpawnParameters/glitchDescription/glitchEmotedText": "patches/objects/crafting/upgradeablecraftingobjects/craftingmedical/craftingmedical.object.json"
   },
+  "objects/crafting/upgradeablecraftingobjects/craftingwheel/craftingwheel.object": {
+    "/upgradeStages/2/itemSpawnParameters/glitchDescription/glitchEmote": "patches/glitchEmotes.json",
+    "/upgradeStages/2/itemSpawnParameters/glitchDescription/glitchEmotedText": "patches/objects/crafting/upgradeablecraftingobjects/craftingwheel/craftingwheel.object.json"
+  },
   "objects/crafting/woodencookingtable/woodencookingtable.object": {
     "/upgradeStages/0/itemSpawnParameters/glitchDescription/glitchEmote": "patches/glitchEmotes.json",
     "/upgradeStages/0/itemSpawnParameters/glitchDescription/glitchEmotedText": "patches/objects/crafting/woodencookingtable/woodencookingtable.object.json",
     "/upgradeStages/1/itemSpawnParameters/glitchDescription/glitchEmote": "patches/glitchEmotes.json",
     "/upgradeStages/1/itemSpawnParameters/glitchDescription/glitchEmotedText": "patches/objects/crafting/woodencookingtable/woodencookingtable.object.json"
+  },
+  "objects/farmables/automato/automatoseed.object": {
+    "/slimepersonDescription": "patches/objects/farmables/automato/shared_automatoseed.object.json"
+  },
+  "objects/farmables/automato/wildautomatoseed.object": {
+    "/slimepersonDescription": "patches/objects/farmables/automato/shared_automatoseed.object.json"
+  },
+  "objects/farmables/chili/chiliseed.object": {
+    "/slimepersonDescription": "patches/objects/farmables/chili/shared_chiliseed.object.json"
+  },
+  "objects/farmables/chili/wildchiliseed.object": {
+    "/slimepersonDescription": "patches/objects/farmables/chili/shared_chiliseed.object.json"
+  },
+  "objects/farmables/corn/cornseed.object": {
+    "/slimepersonDescription": "patches/objects/farmables/corn/shared_cornseed.object.json"
+  },
+  "objects/farmables/corn/wildcornseed.object": {
+    "/slimepersonDescription": "patches/objects/farmables/corn/shared_cornseed.object.json"
+  },
+  "objects/farmables/kiwi/kiwiseed.object": {
+    "/slimepersonDescription": "patches/objects/farmables/kiwi/shared_kiwiseed.object.json"
+  },
+  "objects/farmables/kiwi/wildkiwiseed.object": {
+    "/slimepersonDescription": "patches/objects/farmables/kiwi/shared_kiwiseed.object.json"
+  },
+  "objects/farmables/pearlpea/pearlpeaseed.object": {
+    "/slimepersonDescription": "patches/objects/farmables/pearlpea/shared_pearlpeaseed.object.json"
+  },
+  "objects/farmables/pearlpea/wildpearlpeaseed.object": {
+    "/slimepersonDescription": "patches/objects/farmables/pearlpea/shared_pearlpeaseed.object.json"
+  },
+  "objects/farmables/potato/potatoseed.object": {
+    "/slimepersonDescription": "patches/objects/farmables/potato/shared_potatoseed.object.json"
+  },
+  "objects/farmables/potato/wildpotatoseed.object": {
+    "/slimepersonDescription": "patches/objects/farmables/potato/shared_potatoseed.object.json"
+  },
+  "objects/farmables/sugarcane/sugarcaneseed.object": {
+    "/slimepersonDescription": "patches/objects/farmables/sugarcane/shared_sugarcaneseed.object.json"
+  },
+  "objects/farmables/sugarcane/wildsugarcaneseed.object": {
+    "/slimepersonDescription": "patches/objects/farmables/sugarcane/shared_sugarcaneseed.object.json"
+  },
+  "objects/farmables/tomato/tomatoseed.object": {
+    "/slimepersonDescription": "patches/objects/farmables/tomato/shared_tomatoseed.object.json"
+  },
+  "objects/farmables/tomato/wildtomatoseed.object": {
+    "/slimepersonDescription": "patches/objects/farmables/tomato/shared_tomatoseed.object.json"
+  },
+  "objects/fossils/dirtyfossils/dirtyfossil2.object": {
+    "/description": "patches/objects/fossils/dirtyfossils/shared_dirtyfossil.json"
+  },
+  "objects/fossils/dirtyfossils/dirtyfossil3.object": {
+    "/description": "patches/objects/fossils/dirtyfossils/shared_dirtyfossil.json"
+  },
+  "objects/fossils/dirtyfossils/dirtyfossil4.object": {
+    "/description": "patches/objects/fossils/dirtyfossils/shared_dirtyfossil.json"
+  },
+  "objects/fossils/dirtyfossils/dirtyfossil5.object": {
+    "/description": "patches/objects/fossils/dirtyfossils/shared_dirtyfossil.json"
+  },
+  "objects/fossils/dirtyfossils/dirtyfossil6.object": {
+    "/description": "patches/objects/fossils/dirtyfossils/shared_dirtyfossil.json"
+  },
+  "objects/fossils/dirtyfossils/dirtyfossil7.object": {
+    "/description": "patches/objects/fossils/dirtyfossils/shared_dirtyfossil.json"
+  },
+  "objects/fossils/dirtyfossils/dirtyfossil8.object": {
+    "/description": "patches/objects/fossils/dirtyfossils/shared_dirtyfossil.json"
+  },
+  "objects/hylotl/clubdecks/clubdecks.object": {
+    "/slimepersonDescription": "patches/objects/hylotl/shared_club/shared_.object.json"
+  },
+  "objects/hylotl/clubspeaker/clubspeaker.object": {
+    "/slimepersonDescription": "patches/objects/hylotl/shared_club/shared_.object.json"
+  },
+  "objects/hylotl/hylotlcalligraphy1/hylotlcalligraphy1.object": {
+    "/slimepersonDescription": "patches/objects/hylotl/shared_hylotlcalligraphy/shared_hylotlcalligraphy.json"
+  },
+  "objects/hylotl/hylotlcalligraphy2/hylotlcalligraphy2.object": {
+    "/slimepersonDescription": "patches/objects/hylotl/shared_hylotlcalligraphy/shared_hylotlcalligraphy.json"
+  },
+  "objects/hylotl/hylotlcalligraphy3/hylotlcalligraphy3.object": {
+    "/slimepersonDescription": "patches/objects/hylotl/shared_hylotlcalligraphy/shared_hylotlcalligraphy.json"
+  },
+  "objects/hylotl/hylotllilypad/hylotllilypad.object": {
+    "/slimepersonDescription": "patches/objects/hylotl/shared_hylotl/shared_.object.json"
+  },
+  "objects/hylotl/hylotlsymbolg/hylotlsymbolg.object": {
+    "/slimepersonDescription": "patches/objects/hylotl/shared_hylotl/shared_.object.json"
+  },
+  "objects/protectorate/objects/protectoratestorage4/protectoratestorage4.object": {
+    "/slimepersonDescription": "patches/objects/protectorate/objects/shared_protectoratestorage/shared_protectoratestorage.json"
+  },
+  "objects/protectorate/objects/protectoratestorage5/protectoratestorage5.object": {
+    "/slimepersonDescription": "patches/objects/protectorate/objects/shared_protectoratestorage/shared_protectoratestorage.json"
+  },
+  "objects/traps/ancientbouldertrap/ancientbouldertrap.object": {
+    "/slimepersonDescription": "patches/objects/traps/shared_bouldertrap/shared_bouldertrap.object.json"
+  },
+  "objects/traps/ancientcrystaltrap/ancientcrystaltrap.object": {
+    "/slimepersonDescription": "patches/objects/traps/shared_crystaltrap/shared_crystaltrap.object.json"
+  },
+  "objects/traps/ancientflametrap/ancientflametrap.object": {
+    "/slimepersonDescription": "patches/objects/traps/shared_flametrap/shared_flametrap.object.json"
+  },
+  "objects/traps/ancienticetrap/ancienticetrap.object": {
+    "/slimepersonDescription": "patches/objects/traps/shared_etrap/shared_etrap.object.json"
+  },
+  "objects/traps/bouldertrap/bouldertrap.object": {
+    "/slimepersonDescription": "patches/objects/traps/shared_bouldertrap/shared_bouldertrap.object.json"
+  },
+  "objects/traps/crystaltrap/crystaltrap.object": {
+    "/slimepersonDescription": "patches/objects/traps/shared_crystaltrap/shared_crystaltrap.object.json"
+  },
+  "objects/traps/flametrap/flametrap.object": {
+    "/slimepersonDescription": "patches/objects/traps/shared_flametrap/shared_flametrap.object.json"
+  },
+  "objects/traps/freezetrap/freezetrap.object": {
+    "/slimepersonDescription": "patches/objects/traps/shared_etrap/shared_etrap.object.json"
   },
   "objects/wired/logic/and.object": {
     "/glitchDescription/glitchEmote": "patches/glitchEmotes.json",
@@ -1332,6 +1508,9 @@
     "/hylotlDescription": "patches/objects/wired/smallwallswitch/shared_smallwallswitch.json",
     "/novakidDescription": "patches/objects/wired/smallwallswitch/shared_smallwallswitch.json"
   },
+  "quests/generated/locations.config": {
+    "/fuasteroidbelt/fastfood/name": "patches/wide_spread_fields.json"
+  },
   "radiomessages/missions.radiomessages": {
     "/lethialabs15c/text": "patches/wide_spread_fields.json",
     "/lethialabs15d/text": "patches/wide_spread_fields.json"
@@ -1353,6 +1532,9 @@
   },
   "species/smolavali.species": {
     "/charCreationTooltip/description": "patches/species/shared_avali.species.json"
+  },
+  "system_objects.config": {
+    "/fastfoodspace/parameters/displayName": "patches/wide_spread_fields.json"
   },
   "tiles/materials/rock01.material": {
     "/glitchDescription/glitchEmote": "patches/glitchEmotes.json",
