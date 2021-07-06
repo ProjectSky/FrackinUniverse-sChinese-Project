@@ -5,8 +5,10 @@ from os import walk, makedirs, remove
 from multiprocessing import Pool
 import re
 from codecs import open
-from os.path import join, dirname, exists, relpath, abspath, basename
+from os.path import dirname, exists, relpath, abspath, basename
+from os.path import join as join_path
 from sys import platform
+from functools import partial
 from json_tools import prepare, field_by_path, list_field_paths
 from utils import get_answer
 import requests
@@ -17,10 +19,9 @@ from dictionary_data import dictionary
 from google_trans_new import google_translator
 
 
-"""
-def get_translation(source, direction, token="3975l6lr5pcbvidl6jl2"):
+def caiyun_api(source, direction="auto2zh", token="yq7agau781q6ceedn7pn"):
     url = "http://api.interpreter.caiyunai.com/v1/translator"
-    # 已经一滴都不剩了。
+    # 也许同类产品真没能打的了。
     payload = {
         "source": source,
         "trans_type": direction,
@@ -34,38 +35,56 @@ def get_translation(source, direction, token="3975l6lr5pcbvidl6jl2"):
     response = requests.request(
         "POST", url, data=json.dumps(payload), headers=headers)
     return json.loads(response.text)['target']
-"""
+# 谷歌翻译，需要用到google_trans_new作依赖。
 
-# 添加了自动删除颜色标识的功能！
+def google_api(string, lang='zh'):
+    translator = google_translator()
+    translate_text = translator.translate(
+        string, lang_tgt=lang).strip()
+    return translate_text
 
 
-def being_translation(file):
+def caiyun_translation(file):
     jsondata = json.loads(prepare(file))
     for i, v in enumerate(jsondata):
         if 'Chs' in jsondata[i]['Texts']:
             pass
         else:
-            string = re.sub(re.compile(r'\^.*?\;'), "",
-                            jsondata[i]['Texts']['Eng'])
-            #string = jsondata[i]['Texts']['Eng']
-            target_1 = google_trans(string)
+            string_list = jsondata[i]['Texts']['Eng'].splitlines()
+            target_list = []
+            for string in string_list:
+                string = re.sub(re.compile(r'\^.*?\;'), "", string)
+                if string.strip() == "":
+                    target_list.append(string)
+                else:
+                    target_list.append(caiyun_api(string))
+            target_1 = '\n'.join(target_list)
             jsondata[i]['Texts']['Chs'] = target_1
     result = json.dumps(jsondata, ensure_ascii=False,
                         sort_keys=True, indent=2)
     return result
-##改用谷歌翻译，需要用到google_trans_new作依赖。
-def google_trans(string,lang='zh'):
-    translator = google_translator()  
-    translate_text = trim(translator.translate(string,lang_tgt=lang),start = "off")
-    return translate_text
-##去首尾空格
-def trim(s,start = "on",tail = "on"):
-    if s[0] == " " and start == "on":
-        return trim(s[1:])     # 如果开首有多个空格的话，递归去除多个空格
-    elif s[-1] == " " and tail == "on":
-        return trim(s[:-1])    # 如果末尾有多个空格的话，递归去除多个空格
-    else:
-        return s
+
+
+def google_translation(file):
+    jsondata = json.loads(prepare(file))
+    for i, v in enumerate(jsondata):
+        if 'Chs' in jsondata[i]['Texts']:
+            pass
+        else:
+            string_list = jsondata[i]['Texts']['Eng'].splitlines()
+            target_list = list()
+            for string in string_list:
+                string = re.sub(re.compile(r'\^.*?\;'), "", string)
+                if string.strip() == "":
+                    target_list.append(string)
+                else:
+                    target_list.append(google_api(string))
+            target_1 = '\n'.join(target_list)
+            jsondata[i]['Texts']['Chs'] = target_1
+    result = json.dumps(jsondata, ensure_ascii=False,
+                        sort_keys=True, indent=2)
+    return result
+
 
 def ge_walk(path, function):
     try:
@@ -73,7 +92,7 @@ def ge_walk(path, function):
             for filename in filelist:
                 if basename(filename) in ["substitutions.json", "totallabels.json", "translatedlabels.json", "patch_substitutions.json", "parse_problem.txt"]:
                     continue
-                i = os.path.join(path, filename)
+                i = join_path(path, filename)
                 print(basename(i))
                 with open(i, "rb+", "utf-8") as f:
                     text = function(f)
@@ -135,13 +154,13 @@ def import_patch(patch_dir, file_dir):
             if thefile in ["substitutions.json", "totallabels.json", "translatedlabels.json", "patch_substitutions.json", "parse_problem.txt"]:
                 continue
             if thefile.endswith(".json"):
-                json_file = join(path, thefile)
+                json_file = join_path(path, thefile)
                 with open(json_file, "rb+", "utf-8") as f:
                     json_dict = json.load(f)
                     print(basename(json_file))
                 for i, v in enumerate(json_dict):
                     for w in json_dict[i]['Files'].keys():
-                        patch_file = join(patch_dir, w)+".patch"
+                        patch_file = join_path(patch_dir, w)+".patch"
                         try:
                             patch_data = json.load(
                                 open(patch_file, "rb+", "utf-8"))
@@ -149,7 +168,10 @@ def import_patch(patch_dir, file_dir):
                             continue
                         for y, z in enumerate(patch_data):
                             if json_dict[i]['Files'][w][0] == patch_data[y]["path"]:
-                                json_dict[i]['Texts']['Chs'] = patch_data[y]["value"]
+                                if patch_data[y]["value"] == json_dict[i]['Texts']['Eng']:
+                                    pass
+                                else:
+                                    json_dict[i]['Texts']['Chs'] = patch_data[y]["value"]
                 f = open(json_file, "rb+", "utf-8")
                 json.dump(
                     json_dict, f, ensure_ascii=False, indent=2, sort_keys=True)
@@ -163,10 +185,11 @@ class Interface:
 之前写的非常屑的小脚本的集合，界面很拙劣的模仿了龙骑士的写法，确切来说就是复制粘贴。
 by diskrubbish
         
-1：指定目录以机翻其中文件
-2：指定目录以替换特殊词汇
-3：遍历并导入指定patch中的文本
---4：尝试修复指定文件夹中缺失的颜色标记--未完成
+1：指定目录以谷歌机翻其中文件
+2：指定目录以彩云机翻其中文件
+3：指定目录以替换特殊词汇
+4：遍历并导入指定patch中的文本
+--5：尝试修复指定文件夹中缺失的颜色标记--未完成
 -----未完待续？----
 0：退出
         """)
@@ -177,15 +200,18 @@ by diskrubbish
 
         if kw == "1":
             path = input("请输入路径：")
-            ge_walk(path, being_translation)
+            ge_walk(path, google_translation)
         elif kw == "2":
             path = input("请输入路径：")
-            ge_walk(path, dict_replace)
+            ge_walk(path, caiyun_translation)
         elif kw == "3":
+            path = input("请输入路径：")
+            ge_walk(path, dict_replace)
+        elif kw == "4":
             path1 = input("请输入需要遍历patch的路径：")
             path2 = input("请输入导入文本的路径：")
             import_patch(path1, path2)
-        elif kw == "4":
+        elif kw == "5":
             ##path = input("请输入路径：")
             ##ge_walk(path, fix_mark)
             print("锐意制作中...")
