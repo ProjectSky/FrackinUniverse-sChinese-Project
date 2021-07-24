@@ -2225,7 +2225,7 @@
         "ffguide3.codex.json": 3,
         "ffguide4.codex.json": 1,
         "ffguide5.codex.json": 3,
-        "ffguide6.codex.json": 4,
+        "ffguide6.codex.json": 3,
         "ffguidebattle.codex.json": 3,
         "fleshweave.codex.json": 3,
         "foodprep.codex.json": 3,
@@ -4499,7 +4499,7 @@
                 }
               },
               "atomsmasher": {
-                "atomsmasher.activeitem.json": 2
+                "atomsmasher.activeitem.json": 1
               },
               "bigdaddy.activeitem.json": 3,
               "biogun.activeitem.json": 2,
@@ -6993,7 +6993,7 @@
             "psionicheal.augment.json": 2
           },
           "psionichealmagammo": {
-            "psionichealmagammo.augment.json": 2
+            "psionichealmagammo.augment.json": 1
           },
           "psionicmagammo": {
             "psionicmagammo.augment.json": 2
@@ -7050,7 +7050,7 @@
             "feedaugment1.augment.json": 2,
             "feedaugment2.augment.json": 2,
             "feedaugment3.augment.json": 2,
-            "foodimmunity.augment.json": 3,
+            "foodimmunity.augment.json": 2,
             "regenaugment1.augment.json": 2,
             "regenaugment2.augment.json": 2,
             "regenaugment3.augment.json": 2
@@ -7527,7 +7527,7 @@
           "fucake2.consumable.json": 1,
           "fuchocolatebar.consumable.json": 2,
           "fuchocolatechipcookie.consumable.json": 1,
-          "fuchocolatechipcookie2.consumable.json": 1,
+          "fuchocolatechipcookie2.consumable.json": 2,
           "fupeachpie.consumable.json": 2,
           "fupearpie.consumable.json": 2,
           "grapehoneystraw.consumable.json": 2,
@@ -7538,7 +7538,6 @@
           "orangehoneystraw.consumable.json": 2,
           "plutoniumcookie.consumable.json": 2,
           "redsnow.consumable.json": 2,
-          "shared_fuchocolatechipcookie.json": 1,
           "solariumcookie.consumable.json": 2,
           "tearnutbuttercookie.consumable.json": 2,
           "uraniumcookie.consumable.json": 2
@@ -7623,7 +7622,8 @@
             "lavawhiskey.consumable.json": 2,
             "peachschnapps.consumable.json": 2,
             "shadowspirits.consumable.json": 2,
-            "spirits.consumable.json": 2
+            "spirits.consumable.json": 2,
+            "timewinderschnapps.consumable.json": 0
           }
         },
         "dyes": {
@@ -9604,7 +9604,10 @@
         },
         "ground": {
           "hugebiped": {
-            "hugebiped.monstertype.json": 2
+            "hugebiped.monstertype.json": 0
+          },
+          "hugebipedspawner": {
+            "fuhugebipedspawner.monstertype.json": 0
           },
           "skills": {
             "fumeleeAttack.monsterskill.json": 1
@@ -11544,6 +11547,9 @@
         "ItemScanner": {
           "ItemScanner.object.json": 2,
           "ItemScannerTransferLib.object.json": 2
+        },
+        "fucollisionfixer": {
+          "fucollisionfixer.object.json": 0
         },
         "mechban": {
           "bossprotector": {
@@ -21352,6 +21358,9 @@
           },
           "stealthed": {
             "stealthed.animation.json": 1
+          },
+          "warp": {
+            "timewarp.statuseffect.json": 0
           }
         },
         "fu_immunityeffects": {
@@ -21583,7 +21592,8 @@
               "insanitynew.statuseffect.json": 1,
               "insanitynew2.statuseffect.json": 1,
               "insanitynew3.statuseffect.json": 1,
-              "insanitynew3arena.statuseffect.json": 1
+              "insanitynew3arena.statuseffect.json": 1,
+              "insanitynew3unknown.statuseffect.json": 0
             },
             "poison": {
               "biomepoison1.statuseffect.json": 1,
@@ -21614,6 +21624,9 @@
               "sulphuricweatherstorm.statuseffect.json": 1,
               "sulphuricweatherstorm2.statuseffect.json": 1,
               "sulphuricweatherstorm3.statuseffect.json": 1
+            },
+            "time": {
+              "timewarp.statuseffect.json": 0
             },
             "tropical": {
               "jungleheatweather.statuseffect.json": 1
@@ -22516,7 +22529,7 @@
         "fu_agriculture.config.json": 96,
         "fu_chemistry.config.json": 62,
         "fu_craftsmanship.config.json": 145,
-        "fu_engineering.config.json": 131,
+        "fu_engineering.config.json": 130,
         "fu_geology.config.json": 93,
         "fu_power.config.json": 74,
         "fu_warcraft.config.json": 92,
