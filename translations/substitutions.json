@@ -2444,7 +2444,9 @@
   },
   "interface/kheAA/kheAA_router/kheAA_routerGui.config": {
     "/gui/inputSlotCount/hint": "texts/interface/shared_.config.json",
-    "/gui/outputSlotCount/hint": "texts/interface/shared_.config.json"
+    "/gui/inputSlotCount/regex": "texts/interface/shared_.config.json",
+    "/gui/outputSlotCount/hint": "texts/interface/shared_.config.json",
+    "/gui/outputSlotCount/regex": "texts/interface/shared_.config.json"
   },
   "interface/kheAA/kheAA_terminal/kheAA_terminalGui.config": {
     "/gui/requestAmount/hint": "texts/shared_.config.json",
@@ -2537,13 +2539,6 @@
     "/matMods/65/description": "texts/shared_matmod.json",
     "/matMods/67/description": "texts/shared_matmod.json"
   },
-  "interface/scripted/fu_multiupgrade/fu_multiupgrade.config": {
-    "/gui/btnUpgrade/caption": "texts/interface/scripted/shared_.config.json",
-    "/gui/emptyLabel/value": "texts/interface/scripted/shared_upgrade/shared_upgrade.json",
-    "/gui/essenceCost/value": "texts/interface/scripted/shared_.config.json",
-    "/gui/itemScrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
-    "/gui/warningLabel/value": "texts/interface/scripted/shared_upgrade/shared_upgrade.json"
-  },
   "interface/scripted/fu_planetcockpit/fu_planetcockpit.config": {
     "/gui/windowtitle/subtitle": "texts/interface/shared_cockpit.json",
     "/gui/windowtitle/title": "texts/interface/shared_cockpit.json"
@@ -2557,16 +2552,41 @@
     "/gui/windowSubtitle/value": "texts/wide_spread_fields.json",
     "/gui/windowTitle/value": "texts/wide_spread_fields.json"
   },
+  "interface/scripted/fu_upgradetable/fu_upgradetable.config": {
+    "/gui/btnUpgrade/caption": "texts/interface/scripted/shared_.config.json",
+    "/gui/emptyLabel/value": "texts/interface/scripted/fu_upgradetable/shared_fu_upgradetable.json",
+    "/gui/essenceCost/value": "texts/interface/scripted/fu_upgradetable/shared_fu_upgradetable.json",
+    "/gui/itemScrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
+    "/gui/upgradeTargetLabel/value": "texts/interface/scripted/fu_upgradetable/shared_fu_upgradetable.json",
+    "/gui/upgradeTargetText/hint": "texts/interface/scripted/fu_upgradetable/shared_fu_upgradetable.json",
+    "/gui/upgradeTargetText/regex": "texts/interface/shared_.config.json",
+    "/gui/warningLabel/value": "texts/interface/scripted/fu_upgradetable/shared_fu_upgradetable.json"
+  },
+  "interface/scripted/fu_upgradetable/fu_upgradetable2.config": {
+    "/gui/btnUpgrade/caption": "texts/interface/scripted/shared_.config.json",
+    "/gui/emptyLabel/value": "texts/interface/scripted/fu_upgradetable/shared_fu_upgradetable.json",
+    "/gui/essenceCost/value": "texts/interface/scripted/fu_upgradetable/shared_fu_upgradetable.json",
+    "/gui/itemScrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
+    "/gui/upgradeTargetLabel/value": "texts/interface/scripted/fu_upgradetable/shared_fu_upgradetable.json",
+    "/gui/upgradeTargetText/hint": "texts/interface/scripted/fu_upgradetable/shared_fu_upgradetable.json",
+    "/gui/upgradeTargetText/regex": "texts/interface/shared_.config.json",
+    "/gui/warningLabel/value": "texts/interface/scripted/fu_upgradetable/shared_fu_upgradetable.json",
+    "/gui/windowtitle/subtitle": "texts/interface/scripted/fu_upgradetable/shared_fu_upgradetable.json"
+  },
+  "interface/scripted/fu_upgradetable/fu_upgradetable3.config": {
+    "/gui/btnUpgrade/caption": "texts/interface/scripted/shared_.config.json",
+    "/gui/emptyLabel/value": "texts/interface/scripted/fu_upgradetable/shared_fu_upgradetable.json",
+    "/gui/essenceCost/value": "texts/interface/scripted/fu_upgradetable/shared_fu_upgradetable.json",
+    "/gui/itemScrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
+    "/gui/upgradeTargetLabel/value": "texts/interface/scripted/fu_upgradetable/shared_fu_upgradetable.json",
+    "/gui/upgradeTargetText/hint": "texts/interface/scripted/fu_upgradetable/shared_fu_upgradetable.json",
+    "/gui/upgradeTargetText/regex": "texts/interface/shared_.config.json",
+    "/gui/warningLabel/value": "texts/interface/scripted/fu_upgradetable/shared_fu_upgradetable.json",
+    "/gui/windowtitle/subtitle": "texts/interface/scripted/fu_upgradetable/shared_fu_upgradetable.json"
+  },
   "interface/scripted/fuvehiclerepair/fuvehiclerepairgui.config": {
     "/gui/cancel/caption": "texts/interface.json",
-    "/gui/chipCost/value": "texts/interface/scripted/shared_.config.json",
     "/gui/itemScrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json"
-  },
-  "interface/scripted/fuweaponupgrade/fuweaponupgradegui.config": {
-    "/gui/btnUpgrade/caption": "texts/interface/scripted/shared_.config.json",
-    "/gui/emptyLabel/value": "texts/interface/scripted/shared_upgrade/shared_upgrade.json",
-    "/gui/itemScrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
-    "/gui/warningLabel/value": "texts/interface/scripted/shared_upgrade/shared_upgrade.json"
   },
   "interface/scripted/logicgates/3statecyclerGUI.config": {
     "/gui/inputLeft/hint": "texts/interface/shared_.config.json",
@@ -2732,7 +2752,6 @@
     "/gui/expandButton1Label/value": "texts/wide_spread_fields.json",
     "/gui/expandButton2Label/value": "texts/wide_spread_fields.json",
     "/gui/expandButton3Label/value": "texts/wide_spread_fields.json",
-    "/gui/expandButton7Label/value": "texts/wide_spread_fields.json",
     "/gui/expandButton8Label/value": "texts/interface/scripted/shared_.config.json",
     "/gui/fireResist/value": "texts/interface/shared_.config.json",
     "/gui/iceResist/value": "texts/interface/shared_.config.json",
@@ -7260,9 +7279,6 @@
     "/glitchDescription/glitchEmotedText": "texts/items/materials/avalistairs.matitem.json",
     "/shortdescription": "texts/shared_avalistairs.mat.json"
   },
-  "items/materials/avalitechpanel.matitem": {
-    "/description": "texts/materials/shared_avalitechpanel.mat.json"
-  },
   "items/materials/avalitiles.matitem": {
     "/description": "texts/materials/shared_avalitiles.mat.json",
     "/shortdescription": "texts/materials/shared_avalitiles.mat.json"
@@ -7273,12 +7289,6 @@
   "items/materials/avianmetalfloor.matitem": {
     "/description": "texts/materials/shared_avianmetalfloor.mat.json",
     "/shortdescription": "texts/materials/shared_avianmetalfloor.mat.json"
-  },
-  "items/materials/bamboo.matitem": {
-    "/floranDescription": "texts/materials/shared_bamboo.mat.json",
-    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/shared_bamboo.json",
-    "/shortdescription": "texts/materials/shared_bamboo.mat.json"
   },
   "items/materials/bioblockmaterial.matitem": {
     "/shortdescription": "texts/materials/shared_bio.json"
@@ -7297,26 +7307,22 @@
     "/shortdescription": "texts/materials/shared_blacksteelblock.mat.json"
   },
   "items/materials/bleachedbonematerial.matitem": {
-    "/description": "texts/materials/shared_bleachedbonematerial.mat.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/items/materials/bleachedbonematerial.matitem.json"
   },
   "items/materials/bloodsandmaterial.matitem": {
-    "/description": "texts/materials/shared_bloods.json",
     "/shortdescription": "texts/materials/shared_bloods.json"
   },
   "items/materials/bloodstonematerial.matitem": {
     "/shortdescription": "texts/materials/shared_bloodstone.json"
   },
   "items/materials/brittlejunk.matitem": {
-    "/description": "texts/materials/shared_brittlejunk.mat.json",
     "/floranDescription": "texts/materials/shared_brittle.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_brittlejunk.mat.json",
     "/shortdescription": "texts/materials/shared_brittlejunk.mat.json"
   },
   "items/materials/brittlemetal.matitem": {
-    "/description": "texts/materials/shared_brittlemetal.mat.json",
     "/floranDescription": "texts/materials/shared_brittle.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_brittlemetal.mat.json",
@@ -7329,7 +7335,6 @@
     "/shortdescription": "texts/materials/shared_campbigpole.mat.json"
   },
   "items/materials/charredbonematerial.matitem": {
-    "/description": "texts/materials/shared_charredbonematerial.mat.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/items/materials/charredbonematerial.matitem.json"
   },
@@ -7396,7 +7401,6 @@
     "/glitchDescription/glitchEmotedText": "texts/items/materials/darkstone.matitem.json"
   },
   "items/materials/darkwatercoral.matitem": {
-    "/description": "texts/items/materials/shared_coral.matitem.json",
     "/shortdescription": "texts/materials/shared_darkwatercoral.mat.json"
   },
   "items/materials/darkwoodpanelling.matitem": {
@@ -7408,7 +7412,6 @@
     "/shortdescription": "texts/materials/shared_darkwoodpanelling.mat.json"
   },
   "items/materials/deadearth.matitem": {
-    "/description": "texts/materials/shared_deadearth.mat.json",
     "/shortdescription": "texts/materials/shared_deadearth.mat.json"
   },
   "items/materials/dollhousecrosshatch.matitem": {
@@ -7558,9 +7561,6 @@
   "items/materials/flowerybars.matitem": {
     "/shortdescription": "texts/materials/shared_flowerybars.mat.json"
   },
-  "items/materials/frozensand2material.matitem": {
-    "/description": "texts/materials/shared_frozensand2.json"
-  },
   "items/materials/frozensandmaterial.matitem": {
     "/shortdescription": "texts/materials/shared_frozensand.json"
   },
@@ -7639,7 +7639,6 @@
     "/shortdescription": "texts/shared_fuaetherplatform.mat.json"
   },
   "items/materials/fuaetherstone.matitem": {
-    "/description": "texts/materials/shared_fuaetherstone.mat.json",
     "/shortdescription": "texts/materials/shared_fuaetherstone.mat.json"
   },
   "items/materials/fudarkcrosshatch.matitem": {
@@ -7875,9 +7874,6 @@
     "/description": "texts/materials/shared_fuinvisible.mat.json",
     "/shortdescription": "texts/materials/shared_fuinvisible.mat.json"
   },
-  "items/materials/fujellyblock.matitem": {
-    "/description": "texts/materials.json"
-  },
   "items/materials/fukirhosgirder2.matitem": {
     "/description": "texts/materials/shared_.mat.json"
   },
@@ -8026,7 +8022,6 @@
     "/shortdescription": "texts/materials/shared_lightwood.json"
   },
   "items/materials/fumetalblockmaterial.matitem": {
-    "/description": "texts/materials/shared_fumetalblock.json",
     "/shortdescription": "texts/materials/shared_fumetalblock.json"
   },
   "items/materials/fumetalpipe.matitem": {
@@ -8051,7 +8046,6 @@
   "items/materials/fuoldtimbermaterial.matitem": {
     "/apexDescription": "texts/materials/shared_fuoldtimber.json",
     "/avianDescription": "texts/materials/shared_fuoldtimber.json",
-    "/description": "texts/materials/shared_fuoldtimber.json",
     "/floranDescription": "texts/materials/shared_fuoldtimber.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_fuoldtimber.json",
@@ -8120,9 +8114,6 @@
     "/description": "texts/materials/shared_furustediron.mat.json",
     "/shortdescription": "texts/materials/shared_furustediron.mat.json"
   },
-  "items/materials/fusavannahgrass.matitem": {
-    "/description": "texts/materials/shared_fusavannahgrass.mat.json"
-  },
   "items/materials/fusewerpipe.matitem": {
     "/description": "texts/shared_sewerpipe.json",
     "/floranDescription": "texts/materials/shared_pipe.mat.json",
@@ -8189,7 +8180,6 @@
     "/shortdescription": "texts/materials/shared_fusteelgirdir.json"
   },
   "items/materials/fustomachblock.matitem": {
-    "/description": "texts/materials/shared_fustomachblock.mat.json",
     "/floranDescription": "texts/materials/shared_fustomachblock.mat.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_fustomachblock.mat.json",
@@ -8249,7 +8239,6 @@
     "/shortdescription": "texts/materials/shared_fuwiresupport.mat.json"
   },
   "items/materials/genetile.matitem": {
-    "/description": "texts/materials/shared_genetile.mat.json",
     "/shortdescription": "texts/materials/shared_genetile.mat.json"
   },
   "items/materials/girdirplatform.matitem": {
@@ -8280,9 +8269,6 @@
   },
   "items/materials/glowsandmaterial.matitem": {
     "/shortdescription": "texts/materials/shared_glowsand.json"
-  },
-  "items/materials/greyslate.matitem": {
-    "/description": "texts/materials/shared_greyslate.mat.json"
   },
   "items/materials/hardslimeblock.matitem": {
     "/floranDescription": "texts/items/materials/shared_.matitem.json",
@@ -8321,7 +8307,6 @@
     "/shortdescription": "texts/materials/shared_material.json"
   },
   "items/materials/irradiatedwall.matitem": {
-    "/description": "texts/items/materials/shared_irradiatedwall.json",
     "/shortdescription": "texts/materials/shared_irradiated.json"
   },
   "items/materials/irradiatedwall2.matitem": {
@@ -8332,7 +8317,6 @@
     "/shortdescription": "texts/materials/shared_irradiated.json"
   },
   "items/materials/jellystone.matitem": {
-    "/description": "texts/materials/shared_stone.mat.json",
     "/shortdescription": "texts/materials/shared_jellystone.mat.json"
   },
   "items/materials/jumpblockmaterial.matitem": {
@@ -8350,9 +8334,6 @@
   "items/materials/kt_solpanblock.matitem": {
     "/description": "texts/materials/shared_kt_solpanblock.mat.json",
     "/shortdescription": "texts/materials/shared_kt_solpanblock.mat.json"
-  },
-  "items/materials/livecoral.matitem": {
-    "/description": "texts/items/materials/shared_coral.matitem.json"
   },
   "items/materials/magmawall1.matitem": {
     "/description": "texts/items/materials/shared_magmawall.json",
@@ -8375,7 +8356,6 @@
     "/shortdescription": "texts/materials/shared_marblepillarblock.mat.json"
   },
   "items/materials/marestonematerial.matitem": {
-    "/description": "texts/materials/shared_marestone.json",
     "/shortdescription": "texts/materials/shared_marestone.json"
   },
   "items/materials/metallicbrick.matitem": {
@@ -8514,14 +8494,12 @@
     "/shortdescription": "texts/materials/shared_peglaci.json"
   },
   "items/materials/peglacigiantekblock.matitem": {
-    "/description": "texts/materials/shared_giant.json",
     "/floranDescription": "texts/materials/shared_giant.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_giant.json",
     "/shortdescription": "texts/materials/shared_giant.json"
   },
   "items/materials/peglacihexpane.matitem": {
-    "/description": "texts/materials/shared_peglaci.json",
     "/floranDescription": "texts/materials/shared_peglaci.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_peglaci.json",
@@ -8542,7 +8520,6 @@
     "/shortdescription": "texts/materials/shared_peglaci.json"
   },
   "items/materials/peglaciinscribedpykreteblock.matitem": {
-    "/description": "texts/materials/shared_pykrete.json",
     "/floranDescription": "texts/materials/shared_pykrete.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_pykrete.json",
@@ -8550,7 +8527,6 @@
     "/shortdescription": "texts/materials/shared_pykrete.json"
   },
   "items/materials/peglacimetalblock.matitem": {
-    "/description": "texts/materials/shared_peglaci.json",
     "/floranDescription": "texts/materials/shared_peglaci.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_peglaci.json",
@@ -8558,7 +8534,6 @@
     "/shortdescription": "texts/materials/shared_peglaci.json"
   },
   "items/materials/peglacimetalpanel.matitem": {
-    "/description": "texts/materials/shared_peglaci.json",
     "/floranDescription": "texts/materials/shared_peglaci.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_peglaci.json",
@@ -8566,7 +8541,6 @@
     "/shortdescription": "texts/materials/shared_peglaci.json"
   },
   "items/materials/peglacimetalscreen.matitem": {
-    "/description": "texts/materials/shared_peglaci.json",
     "/floranDescription": "texts/materials/shared_peglaci.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_peglaci.json",
@@ -8574,7 +8548,6 @@
     "/shortdescription": "texts/wide_spread_fields.json"
   },
   "items/materials/peglacipykreteblock.matitem": {
-    "/description": "texts/materials/shared_pykrete.json",
     "/floranDescription": "texts/materials/shared_pykrete.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_pykrete.json",
@@ -8582,7 +8555,6 @@
     "/shortdescription": "texts/materials/shared_pykrete.json"
   },
   "items/materials/peglacipykretedecor.matitem": {
-    "/description": "texts/materials/shared_pykrete.json",
     "/floranDescription": "texts/materials/shared_pykrete.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_pykrete.json",
@@ -8623,7 +8595,6 @@
     "/shortdescription": "texts/materials/shared_plaidwallpaper.mat.json"
   },
   "items/materials/plasmamaterial.matitem": {
-    "/description": "texts/materials/shared_plasmamaterial.mat.json",
     "/shortdescription": "texts/materials/shared_plasmamaterial.mat.json"
   },
   "items/materials/precursorchain.matitem": {
@@ -8643,11 +8614,9 @@
     "/shortdescription": "texts/materials/shared_precursorfloor2.mat.json"
   },
   "items/materials/precursorgirder.matitem": {
-    "/description": "texts/materials/shared_precursorgirder.mat.json",
     "/shortdescription": "texts/materials/shared_precursorgirder.mat.json"
   },
   "items/materials/precursorgirdir.matitem": {
-    "/description": "texts/materials/shared_precursorgirdir.mat.json",
     "/shortdescription": "texts/materials/shared_precursorgirdir.mat.json"
   },
   "items/materials/precursorpanel.matitem": {
@@ -8658,14 +8627,12 @@
     "/shortdescription": "texts/materials/shared_precursorpillar.mat.json"
   },
   "items/materials/precursorpipematerial.matitem": {
-    "/description": "texts/materials/shared_precursorpipe.json",
     "/shortdescription": "texts/materials/shared_precursorpipe.json"
   },
   "items/materials/precursorsloped.matitem": {
     "/shortdescription": "texts/materials/shared_precursorsloped.mat.json"
   },
   "items/materials/precursorstairs.matitem": {
-    "/description": "texts/shared_precursorstairs.mat.json",
     "/shortdescription": "texts/shared_precursorstairs.mat.json"
   },
   "items/materials/precursorwall.matitem": {
@@ -8680,16 +8647,13 @@
     "/shortdescription": "texts/materials/shared_purpleconsole.json"
   },
   "items/materials/rainbowsandmaterial.matitem": {
-    "/description": "texts/materials/shared_rainbowsand.json",
     "/shortdescription": "texts/materials/shared_rainbowsand.json"
   },
   "items/materials/raincloudmat.matitem": {
-    "/description": "texts/materials/shared_raincloud.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/items/materials/raincloudmat.matitem.json"
   },
   "items/materials/rainforestfloorflowers.matitem": {
-    "/description": "texts/materials/shared_rainforestfloorflowers.mat.json",
     "/shortdescription": "texts/materials/shared_rainforestfloorflowers.mat.json"
   },
   "items/materials/redhoneycombmaterial.matitem": {
@@ -8699,21 +8663,20 @@
     "/shortdescription": "texts/shared_redhoneyplatform.mat.json"
   },
   "items/materials/redhotcobblestone.matitem": {
-    "/description": "texts/materials/shared_redhotcobblestone.mat.json",
     "/floranDescription": "texts/materials/shared_redhotcobblestone.mat.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_redhotcobblestone.mat.json",
     "/shortdescription": "texts/materials/shared_redhotcobblestone.mat.json"
   },
   "items/materials/redsand.matitem": {
-    "/description": "texts/materials/shared_redsand.json",
+    "/description": "texts/items/materials/shared_.matitem.json",
     "/floranDescription": "texts/materials.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/items/materials/shared_.matitem.json",
     "/shortdescription": "texts/materials/shared_sand.json"
   },
   "items/materials/redsand2.matitem": {
-    "/description": "texts/materials/shared_redsand.json",
+    "/description": "texts/items/materials/shared_.matitem.json",
     "/floranDescription": "texts/materials.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/items/materials/shared_.matitem.json",
@@ -8741,14 +8704,13 @@
     "/description": "texts/materials/shared_retexgreenhouse.mat.json"
   },
   "items/materials/retexironpipe.matitem": {
-    "/description": "texts/materials/shared_retexironpipe.mat.json",
     "/floranDescription": "texts/materials/shared_retexironpipe.mat.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_retexironpipe.mat.json",
     "/shortdescription": "texts/materials/shared_retexironpipe.mat.json"
   },
   "items/materials/retexredsandstone.matitem": {
-    "/description": "texts/materials/shared_sandstone.json",
+    "/description": "texts/items/materials/shared_sandstone.matitem.json",
     "/floranDescription": "texts/materials/shared_sandstone.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_sandstone.json"
@@ -8757,7 +8719,7 @@
     "/shortdescription": "texts/materials/shared_sand.json"
   },
   "items/materials/retexsandstone.matitem": {
-    "/description": "texts/materials/shared_sandstone.json",
+    "/description": "texts/items/materials/shared_sandstone.matitem.json",
     "/floranDescription": "texts/materials/shared_sandstone.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_sandstone.json"
@@ -8787,7 +8749,6 @@
     "/shortdescription": "texts/materials/shared_richwood.mat.json"
   },
   "items/materials/rostonematerial.matitem": {
-    "/description": "texts/materials/shared_material.json",
     "/shortdescription": "texts/materials/shared_material.json"
   },
   "items/materials/rottingfleshmaterial.matitem": {
@@ -8901,14 +8862,12 @@
     "/shortdescription": "texts/materials/shared_skath.json"
   },
   "items/materials/slime2material.matitem": {
-    "/description": "texts/materials/shared_material.json",
     "/floranDescription": "texts/materials/shared_material.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_material.json",
     "/shortdescription": "texts/materials/shared_material.json"
   },
   "items/materials/slimedirtmaterial.matitem": {
-    "/description": "texts/materials/shared_slimedirt.json",
     "/shortdescription": "texts/materials/shared_slimedirt.json"
   },
   "items/materials/slimeplatform.matitem": {
@@ -8972,21 +8931,15 @@
     "/shortdescription": "texts/materials/shared_speedblock.json"
   },
   "items/materials/steelhivematerial.matitem": {
-    "/description": "texts/materials/shared_steelhive.json",
     "/shortdescription": "texts/materials/shared_steelhive.json"
   },
   "items/materials/steelmetal.matitem": {
     "/shortdescription": "texts/materials/shared_.mat.json"
   },
   "items/materials/steelpartblock.matitem": {
-    "/description": "texts/materials/shared_.mat.json",
     "/shortdescription": "texts/materials/shared_.mat.json"
   },
-  "items/materials/steelsand.matitem": {
-    "/description": "texts/materials/shared_sand.mat.json"
-  },
   "items/materials/steelstonematerial.matitem": {
-    "/description": "texts/materials/shared_material.json",
     "/shortdescription": "texts/materials/shared_material.json"
   },
   "items/materials/stickyslime.matitem": {
@@ -9134,7 +9087,6 @@
     "/shortdescription": "texts/materials/shared_warttile.mat.json"
   },
   "items/materials/wastestone.matitem": {
-    "/description": "texts/materials/shared_wastestone.mat.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/items/materials/wastestone.matitem.json",
     "/shortdescription": "texts/materials/shared_wastestone.mat.json"
@@ -19574,22 +19526,22 @@
     "/hylotlDescription": "texts/objects/gels/isn_glowgel/shared_isn_glowgel.json"
   },
   "objects/gels/isn_glowgel/isn_glowgel_mod.matmod": {
-    "/Description": "texts/objects/gels/isn_glowgel/shared_isn_glowgel_mod.json"
+    "/description": "texts/objects/gels/isn_glowgel/shared_isn_glowgel_mod.json"
   },
   "objects/gels/isn_glowgel/isn_glowgel_mod_b.matmod": {
-    "/Description": "texts/objects/gels/isn_glowgel/shared_isn_glowgel_mod.json"
+    "/description": "texts/objects/gels/isn_glowgel/shared_isn_glowgel_mod.json"
   },
   "objects/gels/isn_glowgel/isn_glowgel_mod_g.matmod": {
-    "/Description": "texts/objects/gels/isn_glowgel/shared_isn_glowgel_mod.json"
+    "/description": "texts/objects/gels/isn_glowgel/shared_isn_glowgel_mod.json"
   },
   "objects/gels/isn_glowgel/isn_glowgel_mod_p.matmod": {
-    "/Description": "texts/objects/gels/isn_glowgel/shared_isn_glowgel_mod.json"
+    "/description": "texts/objects/gels/isn_glowgel/shared_isn_glowgel_mod.json"
   },
   "objects/gels/isn_glowgel/isn_glowgel_mod_r.matmod": {
-    "/Description": "texts/objects/gels/isn_glowgel/shared_isn_glowgel_mod.json"
+    "/description": "texts/objects/gels/isn_glowgel/shared_isn_glowgel_mod.json"
   },
   "objects/gels/isn_glowgel/isn_glowgel_mod_y.matmod": {
-    "/Description": "texts/objects/gels/isn_glowgel/shared_isn_glowgel_mod.json"
+    "/description": "texts/objects/gels/isn_glowgel/shared_isn_glowgel_mod.json"
   },
   "objects/gels/isn_glowgel/isn_glowgel_p.object": {
     "/apexDescription": "texts/objects/gels/isn_glowgel/shared_isn_glowgel.json",
@@ -19643,7 +19595,7 @@
     "/label": "texts/objects/gels/isn_propulsionstrip/shared_isn_propulsionstrip_l..json"
   },
   "objects/gels/isn_propulsionstrip/isn_propulsionstrip_l_mod.matmod": {
-    "/Description": "texts/objects/gels/isn_propulsionstrip/shared_isn_propulsionstrip_.json"
+    "/description": "texts/objects/gels/isn_propulsionstrip/shared_isn_propulsionstrip_.json"
   },
   "objects/gels/isn_propulsionstrip/isn_propulsionstrip_r.object": {
     "/apexDescription": "texts/objects/gels/isn_propulsionstrip/shared_isn_propulsionstrip_.json",
@@ -19659,7 +19611,7 @@
     "/label": "texts/objects/gels/isn_propulsionstrip/shared_isn_propulsionstrip_r..json"
   },
   "objects/gels/isn_propulsionstrip/isn_propulsionstrip_r_mod.matmod": {
-    "/Description": "texts/objects/gels/isn_propulsionstrip/shared_isn_propulsionstrip_.json"
+    "/description": "texts/objects/gels/isn_propulsionstrip/shared_isn_propulsionstrip_.json"
   },
   "objects/generators/referencegenerator.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -28584,14 +28536,16 @@
   "objects/ship/fu_crewbed/fu_crewbed.object": {
     "/description": "texts/objects/ship/shared_fu_crewbed/shared_fu_crewbed.json"
   },
+  "objects/ship/fu_crewbed0/fu_crewbed0.object": {
+    "/description": "texts/objects/ship/fu_crewbed0/shared_fu_crewbed0.json",
+    "/shortdescription": "texts/objects/ship/fu_crewbed0/shared_fu_crewbed0.json"
+  },
+  "objects/ship/fu_crewbed0/fu_crewbed0old.object": {
+    "/description": "texts/objects/ship/fu_crewbed0/shared_fu_crewbed0.json",
+    "/shortdescription": "texts/objects/ship/fu_crewbed0/shared_fu_crewbed0.json"
+  },
   "objects/ship/fu_crewbed2/fu_crewbed2.object": {
     "/description": "texts/objects/ship/shared_fu_crewbed/shared_fu_crewbed.json"
-  },
-  "objects/ship/fu_crewbed3/fu_crewbed3.object": {
-    "/shortdescription": "texts/objects/ship/shared_fu_crewbed/shared_fu_crewbed.json"
-  },
-  "objects/ship/fu_crewbed5/fu_crewbed5.object": {
-    "/shortdescription": "texts/objects/ship/shared_fu_crewbed/shared_fu_crewbed.json"
   },
   "objects/ship/fu_crewbedracialbunk/fu_crewbedracialbunk_apex.object": {
     "/apexDescription": "texts/objects/ship/shared_bed/shared_bed.json",
@@ -39727,9 +39681,6 @@
   "tiles/materials/avaliplain.material": {
     "/description": "texts/materials/shared_avaliplain.mat.json"
   },
-  "tiles/materials/avalitechpanel.material": {
-    "/description": "texts/materials/shared_avalitechpanel.mat.json"
-  },
   "tiles/materials/avalitiles.material": {
     "/description": "texts/materials/shared_avalitiles.mat.json",
     "/shortdescription": "texts/materials/shared_avalitiles.mat.json"
@@ -39750,11 +39701,8 @@
     "/shortdescription": "texts/tiles/materials/shared_avianmetaltrim.json"
   },
   "tiles/materials/bamboo.material": {
-    "/description": "texts/materials/shared_bamboo.mat.json",
-    "/floranDescription": "texts/materials/shared_bamboo.mat.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/shared_bamboo.json",
-    "/shortdescription": "texts/materials/shared_bamboo.mat.json"
+    "/glitchDescription/glitchEmotedText": "texts/shared_bamboo.json"
   },
   "tiles/materials/bioworld/bioblock.material": {
     "/shortdescription": "texts/materials/shared_bio.json"
@@ -39776,12 +39724,10 @@
     "/shortdescription": "texts/materials/shared_blacksteelblock.mat.json"
   },
   "tiles/materials/bleachedbonematerial.material": {
-    "/description": "texts/materials/shared_bleachedbonematerial.mat.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/tiles/materials/shared_edbonematerial.material.json"
   },
   "tiles/materials/bloodstone/bloodsand.material": {
-    "/description": "texts/materials/shared_bloods.json",
     "/shortdescription": "texts/materials/shared_bloods.json"
   },
   "tiles/materials/bloodstone/bloodstonetile.material": {
@@ -39795,14 +39741,12 @@
     "/shortdescription": "texts/tiles/materials/shared_boneyflesh.material.json"
   },
   "tiles/materials/brittlejunk.material": {
-    "/description": "texts/materials/shared_brittlejunk.mat.json",
     "/floranDescription": "texts/materials/shared_brittle.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_brittlejunk.mat.json",
     "/shortdescription": "texts/materials/shared_brittlejunk.mat.json"
   },
   "tiles/materials/brittlemetal.material": {
-    "/description": "texts/materials/shared_brittlemetal.mat.json",
     "/floranDescription": "texts/materials/shared_brittle.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_brittlemetal.mat.json",
@@ -39815,7 +39759,6 @@
     "/shortdescription": "texts/materials/shared_campbigpole.mat.json"
   },
   "tiles/materials/charredbonematerial.material": {
-    "/description": "texts/materials/shared_charredbonematerial.mat.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/tiles/materials/shared_edbonematerial.material.json"
   },
@@ -39962,7 +39905,6 @@
     "/shortdescription": "texts/materials/shared_darkwoodpanelling.mat.json"
   },
   "tiles/materials/deadearth.material": {
-    "/description": "texts/materials/shared_deadearth.mat.json",
     "/shortdescription": "texts/materials/shared_deadearth.mat.json"
   },
   "tiles/materials/dollhouse/dollhousecrosshatch.material": {
@@ -40210,7 +40152,6 @@
     "/shortdescription": "texts/materials/shared_frozensand.json"
   },
   "tiles/materials/frozensand2.material": {
-    "/description": "texts/materials/shared_frozensand2.json",
     "/shortdescription": "texts/materials/shared_frozensand.json"
   },
   "tiles/materials/frozenstone.material": {
@@ -40262,14 +40203,13 @@
     "/shortdescription": "texts/materials/shared_fuaetherpillar.mat.json"
   },
   "tiles/materials/fuaetherstone.material": {
-    "/description": "texts/materials/shared_fuaetherstone.mat.json",
     "/shortdescription": "texts/materials/shared_fuaetherstone.mat.json"
   },
   "tiles/materials/fublueslimedirt.material": {
-    "/description": "texts/materials/shared_slimedirt.json"
+    "/description": "texts/tiles/materials/shared_slimedirt.material.json"
   },
   "tiles/materials/fublueslimestone.material": {
-    "/description": "texts/materials/shared_stone.mat.json"
+    "/description": "texts/tiles/materials/shared_stone.material.json"
   },
   "tiles/materials/fudarkironfence.material": {
     "/description": "texts/tiles/materials/shared_.material.json",
@@ -40375,7 +40315,6 @@
     "/description": "texts/tiles/materials/shared_.material.json"
   },
   "tiles/materials/fumetalblock.material": {
-    "/description": "texts/materials/shared_fumetalblock.json",
     "/shortdescription": "texts/materials/shared_fumetalblock.json"
   },
   "tiles/materials/fumetalfloortile.material": {
@@ -40425,7 +40364,6 @@
   "tiles/materials/fuoldtimber.material": {
     "/apexDescription": "texts/materials/shared_fuoldtimber.json",
     "/avianDescription": "texts/materials/shared_fuoldtimber.json",
-    "/description": "texts/materials/shared_fuoldtimber.json",
     "/floranDescription": "texts/materials/shared_fuoldtimber.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_fuoldtimber.json",
@@ -40450,9 +40388,6 @@
   "tiles/materials/furustediron.material": {
     "/description": "texts/materials/shared_furustediron.mat.json",
     "/shortdescription": "texts/materials/shared_furustediron.mat.json"
-  },
-  "tiles/materials/fusavannahgrass.material": {
-    "/description": "texts/materials/shared_fusavannahgrass.mat.json"
   },
   "tiles/materials/fusewerpipe.material": {
     "/description": "texts/shared_sewerpipe.json",
@@ -40524,7 +40459,6 @@
     "/shortdescription": "texts/materials/shared_fusteelgirdir.json"
   },
   "tiles/materials/fustomachblock.material": {
-    "/description": "texts/materials/shared_fustomachblock.mat.json",
     "/floranDescription": "texts/materials/shared_fustomachblock.mat.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_fustomachblock.mat.json",
@@ -40546,11 +40480,9 @@
     "/shortdescription": "texts/materials/shared_fuwiresupport.mat.json"
   },
   "tiles/materials/genetile.material": {
-    "/description": "texts/materials/shared_genetile.mat.json",
     "/shortdescription": "texts/materials/shared_genetile.mat.json"
   },
   "tiles/materials/giants/peglacigiantek.material": {
-    "/description": "texts/materials/shared_giant.json",
     "/floranDescription": "texts/materials/shared_giant.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_giant.json",
@@ -40564,9 +40496,6 @@
   },
   "tiles/materials/glowsand.material": {
     "/shortdescription": "texts/materials/shared_glowsand.json"
-  },
-  "tiles/materials/greyslate.material": {
-    "/description": "texts/materials/shared_greyslate.mat.json"
   },
   "tiles/materials/hardslimeblock.material": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -40652,11 +40581,9 @@
     "/shortdescription": "texts/tiles/materials/honey/goldenglass/shared_goldenglass.mat.json"
   },
   "tiles/materials/honey/goldenleaves.material": {
-    "/description": "texts/tiles/materials/honey/shared_goldenleaves.mat.json",
     "/shortdescription": "texts/tiles/materials/honey/shared_goldenleaves.mat.json"
   },
   "tiles/materials/honey/goldenleaves.matitem": {
-    "/description": "texts/tiles/materials/honey/shared_goldenleaves.mat.json",
     "/shortdescription": "texts/tiles/materials/honey/shared_goldenleaves.mat.json"
   },
   "tiles/materials/honey/goldenplanks/goldenplank.material": {
@@ -40686,7 +40613,6 @@
     "/shortdescription": "texts/tiles/materials/honey/shared_goldensand.mat.json"
   },
   "tiles/materials/honey/goldenwood.material": {
-    "/description": "texts/tiles/materials/honey/shared_goldenwood.mat.json",
     "/floranDescription": "texts/tiles/materials/honey/shared_goldenwood.mat.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/tiles/materials/honey/shared_goldenwood.mat.json",
@@ -40694,7 +40620,6 @@
     "/shortdescription": "texts/tiles/materials/honey/shared_goldenwood.mat.json"
   },
   "tiles/materials/honey/goldenwood.matitem": {
-    "/description": "texts/tiles/materials/honey/shared_goldenwood.mat.json",
     "/floranDescription": "texts/tiles/materials/honey/shared_goldenwood.mat.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/tiles/materials/honey/shared_goldenwood.mat.json",
@@ -40824,11 +40749,9 @@
     "/shortdescription": "texts/tiles/materials/honey/shared_unrefinedgoldenwood.mat.json"
   },
   "tiles/materials/honey/waxblock1.material": {
-    "/description": "texts/tiles/materials/honey/shared_waxblock1.mat.json",
     "/shortdescription": "texts/tiles/materials/honey/shared_waxblock1.mat.json"
   },
   "tiles/materials/honey/waxblock1.matitem": {
-    "/description": "texts/tiles/materials/honey/shared_waxblock1.mat.json",
     "/shortdescription": "texts/tiles/materials/honey/shared_waxblock1.mat.json"
   },
   "tiles/materials/honey/waxplatform.material": {
@@ -40836,12 +40759,6 @@
   },
   "tiles/materials/honey/waxplatform.matitem": {
     "/shortdescription": "texts/tiles/materials/honey/shared_waxplatform.mat.json"
-  },
-  "tiles/materials/honey/whitewaxblock.material": {
-    "/description": "texts/tiles/materials/honey/shared_whitewaxblock.mat.json"
-  },
-  "tiles/materials/honey/whitewaxblock.matitem": {
-    "/description": "texts/tiles/materials/honey/shared_whitewaxblock.mat.json"
   },
   "tiles/materials/honey/whitewaxplatform.material": {
     "/shortdescription": "texts/tiles/materials/honey/shared_whitewaxplatform.mat.json"
@@ -40883,7 +40800,7 @@
     "/shortdescription": "texts/materials/shared_irradiated.json"
   },
   "tiles/materials/jellystone.material": {
-    "/description": "texts/materials/shared_stone.mat.json",
+    "/description": "texts/tiles/materials/shared_stone.material.json",
     "/shortdescription": "texts/materials/shared_jellystone.mat.json"
   },
   "tiles/materials/jumpblock.material": {
@@ -41023,7 +40940,6 @@
     "/shortdescription": "texts/materials/shared_marblepillarblock.mat.json"
   },
   "tiles/materials/marestone.material": {
-    "/description": "texts/materials/shared_marestone.json",
     "/shortdescription": "texts/materials/shared_marestone.json"
   },
   "tiles/materials/matterblock.material": {
@@ -41062,15 +40978,15 @@
     "/shortdescription": "texts/materials/shared_moderntile.mat.json"
   },
   "tiles/materials/moltenmetal.material": {
-    "/description": "texts/materials/shared_.mat.json",
+    "/description": "texts/tiles/materials/shared_.material.json",
     "/shortdescription": "texts/materials/shared_.mat.json"
   },
   "tiles/materials/moltensand.material": {
-    "/description": "texts/materials/shared_sand.mat.json",
+    "/description": "texts/tiles/materials/shared_sand.material.json",
     "/shortdescription": "texts/tiles/materials/shared_sand.material.json"
   },
   "tiles/materials/moltensteel.material": {
-    "/description": "texts/materials/shared_material.json",
+    "/description": "texts/tiles/materials/shared_.material.json",
     "/shortdescription": "texts/materials/shared_material.json"
   },
   "tiles/materials/moltentile.material": {
@@ -41167,7 +41083,6 @@
     "/shortdescription": "texts/materials/shared_peglaci.json"
   },
   "tiles/materials/peglaci/peglacihexpane.material": {
-    "/description": "texts/materials/shared_peglaci.json",
     "/floranDescription": "texts/materials/shared_peglaci.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_peglaci.json",
@@ -41189,7 +41104,6 @@
     "/shortdescription": "texts/materials/shared_peglaci.json"
   },
   "tiles/materials/peglaci/peglacimetalblock.material": {
-    "/description": "texts/materials/shared_peglaci.json",
     "/floranDescription": "texts/materials/shared_peglaci.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_peglaci.json",
@@ -41197,7 +41111,6 @@
     "/shortdescription": "texts/materials/shared_peglaci.json"
   },
   "tiles/materials/peglaci/peglacimetalpanel.material": {
-    "/description": "texts/materials/shared_peglaci.json",
     "/floranDescription": "texts/materials/shared_peglaci.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_peglaci.json",
@@ -41205,7 +41118,6 @@
     "/shortdescription": "texts/materials/shared_peglaci.json"
   },
   "tiles/materials/peglaci/peglacimetalscreen.material": {
-    "/description": "texts/materials/shared_peglaci.json",
     "/floranDescription": "texts/materials/shared_peglaci.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_peglaci.json",
@@ -41224,7 +41136,6 @@
     "/shortdescription": "texts/tiles/materials.json"
   },
   "tiles/materials/pixelgoods/fujellyblock2.matitem": {
-    "/description": "texts/materials.json",
     "/shortdescription": "texts/tiles/materials.json"
   },
   "tiles/materials/pixelgoods/fuokeagrass.material": {
@@ -41276,7 +41187,6 @@
     "/shortdescription": "texts/materials/shared_plaidwallpaper.mat.json"
   },
   "tiles/materials/plasmamaterial.material": {
-    "/description": "texts/materials/shared_plasmamaterial.mat.json",
     "/shortdescription": "texts/materials/shared_plasmamaterial.mat.json"
   },
   "tiles/materials/precursorchain.material": {
@@ -41297,11 +41207,9 @@
     "/shortdescription": "texts/materials/shared_precursorfloor2.mat.json"
   },
   "tiles/materials/precursorgirder.material": {
-    "/description": "texts/materials/shared_precursorgirder.mat.json",
     "/shortdescription": "texts/materials/shared_precursorgirder.mat.json"
   },
   "tiles/materials/precursorgirdir.material": {
-    "/description": "texts/materials/shared_precursorgirdir.mat.json",
     "/shortdescription": "texts/materials/shared_precursorgirdir.mat.json"
   },
   "tiles/materials/precursorpanel.material": {
@@ -41312,7 +41220,6 @@
     "/shortdescription": "texts/materials/shared_precursorpillar.mat.json"
   },
   "tiles/materials/precursorpipe.material": {
-    "/description": "texts/materials/shared_precursorpipe.json",
     "/shortdescription": "texts/materials/shared_precursorpipe.json"
   },
   "tiles/materials/precursorsloped.material": {
@@ -41336,7 +41243,6 @@
     "/glitchDescription/glitchEmotedText": "texts/tiles/materials/purplecrystal.material.json"
   },
   "tiles/materials/pykrete/peglaciinscribedpykreteblock.material": {
-    "/description": "texts/materials/shared_pykrete.json",
     "/floranDescription": "texts/materials/shared_pykrete.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_pykrete.json",
@@ -41344,7 +41250,6 @@
     "/shortdescription": "texts/materials/shared_pykrete.json"
   },
   "tiles/materials/pykrete/peglacipykreteblock.material": {
-    "/description": "texts/materials/shared_pykrete.json",
     "/floranDescription": "texts/materials/shared_pykrete.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_pykrete.json",
@@ -41352,7 +41257,6 @@
     "/shortdescription": "texts/materials/shared_pykrete.json"
   },
   "tiles/materials/pykrete/peglacipykretedecor.material": {
-    "/description": "texts/materials/shared_pykrete.json",
     "/floranDescription": "texts/materials/shared_pykrete.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_pykrete.json",
@@ -41373,14 +41277,9 @@
     "/shortdescription": "texts/materials/shared_pykrete.json"
   },
   "tiles/materials/rainbowsand.material": {
-    "/description": "texts/materials/shared_rainbowsand.json",
     "/shortdescription": "texts/materials/shared_rainbowsand.json"
   },
-  "tiles/materials/raincloud.material": {
-    "/description": "texts/materials/shared_raincloud.json"
-  },
   "tiles/materials/rainforestfloorflowers.material": {
-    "/description": "texts/materials/shared_rainforestfloorflowers.mat.json",
     "/shortdescription": "texts/materials/shared_rainforestfloorflowers.mat.json"
   },
   "tiles/materials/rawwood/furawornateflooring.material": {
@@ -41429,14 +41328,12 @@
     "/description": "texts/tiles/materials/shared_honeycombmaterial.material.json"
   },
   "tiles/materials/redhotcobblestone.material": {
-    "/description": "texts/materials/shared_redhotcobblestone.mat.json",
     "/floranDescription": "texts/materials/shared_redhotcobblestone.mat.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_redhotcobblestone.mat.json",
     "/shortdescription": "texts/materials/shared_redhotcobblestone.mat.json"
   },
   "tiles/materials/redsand.material": {
-    "/description": "texts/materials/shared_redsand.json",
     "/shortdescription": "texts/materials/shared_sand.json"
   },
   "tiles/materials/redsand2.material": {
@@ -41475,7 +41372,6 @@
     "/shortdescription": "texts/shared_rial.json"
   },
   "tiles/materials/retexironpipe.material": {
-    "/description": "texts/materials/shared_retexironpipe.mat.json",
     "/floranDescription": "texts/materials/shared_retexironpipe.mat.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_retexironpipe.mat.json",
@@ -41508,7 +41404,6 @@
     "/glitchDescription/glitchEmotedText": "texts/tiles/materials.json"
   },
   "tiles/materials/retexsandstone01.material": {
-    "/description": "texts/materials/shared_sandstone.json",
     "/floranDescription": "texts/materials/shared_sandstone.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_sandstone.json"
@@ -41534,7 +41429,6 @@
     "/shortdescription": "texts/materials/shared_richwood.mat.json"
   },
   "tiles/materials/rostone.material": {
-    "/description": "texts/materials/shared_material.json",
     "/shortdescription": "texts/materials/shared_material.json"
   },
   "tiles/materials/rottingflesh.material": {
@@ -41661,13 +41555,12 @@
     "/shortdescription": "texts/shared_eri.json"
   },
   "tiles/materials/slime2.material": {
-    "/description": "texts/materials/shared_material.json",
     "/floranDescription": "texts/materials/shared_material.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_material.json"
   },
   "tiles/materials/slimedirt.material": {
-    "/description": "texts/materials/shared_slimedirt.json",
+    "/description": "texts/tiles/materials/shared_slimedirt.material.json",
     "/shortdescription": "texts/materials/shared_slimedirt.json"
   },
   "tiles/materials/slimeshipsupport.material": {
@@ -41724,7 +41617,6 @@
     "/glitchDescription/glitchEmotedText": "texts/tiles/materials/springvines.material.json"
   },
   "tiles/materials/steelhive.material": {
-    "/description": "texts/materials/shared_steelhive.json",
     "/shortdescription": "texts/materials/shared_steelhive.json"
   },
   "tiles/materials/steelmetal.material": {
@@ -41732,15 +41624,15 @@
     "/shortdescription": "texts/materials/shared_.mat.json"
   },
   "tiles/materials/steelpartblock.material": {
-    "/description": "texts/materials/shared_.mat.json",
+    "/description": "texts/tiles/materials/shared_.material.json",
     "/shortdescription": "texts/materials/shared_.mat.json"
   },
   "tiles/materials/steelsand.material": {
-    "/description": "texts/materials/shared_sand.mat.json",
+    "/description": "texts/tiles/materials/shared_sand.material.json",
     "/shortdescription": "texts/tiles/materials/shared_sand.material.json"
   },
   "tiles/materials/steelstone.material": {
-    "/description": "texts/materials/shared_material.json",
+    "/description": "texts/tiles/materials/shared_.material.json",
     "/shortdescription": "texts/materials/shared_material.json"
   },
   "tiles/materials/stickyslime.material": {
@@ -41989,7 +41881,6 @@
     "/shortdescription": "texts/materials/shared_warttile.mat.json"
   },
   "tiles/materials/wastestone.material": {
-    "/description": "texts/materials/shared_wastestone.mat.json",
     "/shortdescription": "texts/materials/shared_wastestone.mat.json"
   },
   "tiles/materials/weathered wood/weatheredhorizontal.material": {
@@ -42248,7 +42139,6 @@
     "/shortdescription": "texts/shared_peglacipykreteplatform.mat.json"
   },
   "tiles/platforms/precursorstairs.material": {
-    "/description": "texts/shared_precursorstairs.mat.json",
     "/shortdescription": "texts/shared_precursorstairs.mat.json"
   },
   "tiles/platforms/redhoneyplatform.material": {
@@ -42316,7 +42206,6 @@
     "/strings/research/default/1": "texts/zb/researchTree/shared_.config.json",
     "/strings/research/explosives1/0": "texts/wide_spread_fields.json",
     "/strings/research/fertilizer1/0": "texts/wide_spread_fields.json",
-    "/strings/research/mechfuel/0": "texts/wide_spread_fields.json",
     "/strings/research/metallichydrogen/0": "texts/wide_spread_fields.json",
     "/strings/research/survival_1/0": "texts/zb/researchTree/shared_.config.json",
     "/strings/trees/fu_chemistry": "texts/zb/shared_.config.json"
