@@ -24,7 +24,7 @@ foi = {
     "hatadjectives.config": ["^[0-9]+/1/[0-9]+/(0|(1/)?name)$"],
     "cockpit.config": [".*/displayName$", "^terraformedPlanetDescription/.+$", "^[a-zA-Z]Names/[^/]+$",
                        "worldTypeDescription/.+$", "^clusterMoons/[^/]+$", "^threatLevelText/[a-zA-Z]+/[0-9]+$",
-                       "^visitableTypeDescription/.+$", "^objectThreatText/.+$", "^planetTypeNames/.+$",
+                       "^visitableTypeDescription/.+$", "^planetTypeNames/.+$",
                        "^starTypeNames/.+$", "^jumpDialog/[^/]+$", "^topLeftButtonTooltips/.*", ".+Caption/[^/]+",
                        "^systemTooltip/exploredLabel/.+$"],
     "statuses.config": ["^statuses/.+$"],
