@@ -2,7 +2,7 @@ from re import compile as regex
 
 foi = {
     "*": [".*escription$", "^(.+/)?[Tt]ext$", "^(.+/)?[Dd]ialog/[^/]+/[^/]+/.*[0-9]+$",
-          "^(.+/)?(sub)?[tT]itle(/value)?$", "^(.+/)+caption$", "^(.+/)?label$", "^(.+/)?message$", "^.+Name/value$",
+          "^(.+/)?(lbl)?([sS]ub)?[tT]itle(/value)?$", "^(.+/)+caption$", "^(.+/)?label$", "^(.+/)?message$", "^.+Name/value$",
           "^.*friendlyName$", ".*senderName$", ".*destinations/.+[Nn]ame$", ".+[lL]abel[a-zA-Z]*/value$",
           "bookmarkName"],
     ".object": ["^chatOptions/.+$", ],
@@ -84,7 +84,7 @@ foi = {
     ".collection": [],
     ".animation": [],
     ".aicommand": ['.+/buttonText$'],
-    "data.config": [".+info/.+$", ".+currencies/.+$", "^.*/misc/[0-9]+/1+$"],
+    "data.config": [".+info/.+$", ".+currencies/.+$", "^.*/misc(Admin)?/[0-9]+/1+$","^TextData/strings/.+$","^shipStatus/[0-9]+/text"],
     "system_objects.config": [".*/displayName$"],
     "parts.config": [".*/displayName$"],
     "extraStatsWindow.config": ["^tooltipBoxes/[0-9]+/tooltip$", "^defaultTooltip$"],
