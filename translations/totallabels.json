@@ -29,6 +29,9 @@
     },
     "glitchEmotes.json": 47,
     "interface": {
+      "expandstation": {
+        "expandstation.config.json": 1
+      },
       "itemdescriptions": {
         "sword.itemdescription.json": 1
       },
@@ -62,11 +65,8 @@
           "bugnet": {
             "bugnet.activeitem.json": 5
           },
-          "oredetector": {
-            "oredetector.activeitem.json": 9
-          },
           "parasol": {
-            "parasol.activeitem.json": 3
+            "parasol.activeitem.json": 4
           },
           "relocator": {
             "relocator.activeitem.json": 7
@@ -439,7 +439,7 @@
           "speedaugment.augment.json": 1
         }
       },
-      "categories.config.json": 46,
+      "categories.config.json": 47,
       "generic": {
         "crafting": {
           "graphene.item.json": 2,
@@ -678,6 +678,106 @@
           "milk.consumable.json": 1
         }
       },
+      "liquids": {
+        "akkimariacid.liqitem.json": 1,
+        "centensianliquid.liqitem.json": 1,
+        "healingwater.liqitem.json": 1,
+        "lava.liqitem.json": 1,
+        "liquidfuel.liqitem.json": 1,
+        "milk.liqitem.json": 1,
+        "oil.liqitem.json": 1,
+        "poison.liqitem.json": 1,
+        "slime.liqitem.json": 1,
+        "swampwater.liqitem.json": 1,
+        "water.liqitem.json": 1
+      },
+      "materials": {
+        "alienrock.matitem.json": 1,
+        "alienstripedwood.matitem.json": 1,
+        "ash.matitem.json": 1,
+        "asphalt.matitem.json": 1,
+        "bamboo.matitem.json": 1,
+        "biorock.matitem.json": 1,
+        "biorock2.matitem.json": 1,
+        "blaststone.matitem.json": 1,
+        "bonematerial.matitem.json": 1,
+        "brainsblock.matitem.json": 1,
+        "cactiblock.matitem.json": 1,
+        "clay.matitem.json": 1,
+        "cloudblock.matitem.json": 1,
+        "cobblestone.matitem.json": 1,
+        "concrete.matitem.json": 1,
+        "copperblock.matitem.json": 1,
+        "corruptdirt.matitem.json": 1,
+        "crystalblock.matitem.json": 1,
+        "darkwood.matitem.json": 1,
+        "direstone.matitem.json": 1,
+        "dirt.matitem.json": 1,
+        "drydirt.matitem.json": 1,
+        "drysand.matitem.json": 1,
+        "eyepiles.matitem.json": 1,
+        "fleshblock.matitem.json": 1,
+        "floweryblock.matitem.json": 1,
+        "frozendirt.matitem.json": 1,
+        "frozenwater.matitem.json": 1,
+        "geodeblock.matitem.json": 1,
+        "geodestone.matitem.json": 1,
+        "goldblock.matitem.json": 1,
+        "grassy.matitem.json": 1,
+        "grassyrock.matitem.json": 1,
+        "gravel.matitem.json": 1,
+        "hellstone.matitem.json": 1,
+        "hive.matitem.json": 1,
+        "ice.matitem.json": 1,
+        "ironblock.matitem.json": 1,
+        "jellyblock.matitem.json": 1,
+        "junk.matitem.json": 1,
+        "junktech.matitem.json": 1,
+        "limestone.matitem.json": 1,
+        "log.matitem.json": 1,
+        "magmarock.matitem.json": 1,
+        "matterblock.matitem.json": 1,
+        "meteoriterock.matitem.json": 1,
+        "moondust.matitem.json": 1,
+        "moonrock.matitem.json": 1,
+        "moonstone.matitem.json": 1,
+        "mossypackeddirt.matitem.json": 1,
+        "mud.matitem.json": 1,
+        "obsidian.matitem.json": 1,
+        "outpostwall.matitem.json": 1,
+        "packeddirt.matitem.json": 1,
+        "petalblock.matitem.json": 1,
+        "plantblock.matitem.json": 1,
+        "plantmatter.matitem.json": 1,
+        "purplecrystal.matitem.json": 1,
+        "rock14.matitem.json": 1,
+        "rustymetal.matitem.json": 1,
+        "sand.matitem.json": 1,
+        "sand2.matitem.json": 1,
+        "sandstone.matitem.json": 1,
+        "sandstoneblock.matitem.json": 1,
+        "sewage.matitem.json": 1,
+        "shadowblock.matitem.json": 1,
+        "shadowspikeblock.matitem.json": 1,
+        "shadowwallblock.matitem.json": 1,
+        "shared_.matitem.json": 1,
+        "shroomblock.matitem.json": 1,
+        "silverblock.matitem.json": 1,
+        "slime.matitem.json": 1,
+        "slush.matitem.json": 1,
+        "snow.matitem.json": 1,
+        "spidersilkblock.matitem.json": 1,
+        "stomachblock.matitem.json": 1,
+        "stonerubble.matitem.json": 1,
+        "supermatter.matitem.json": 1,
+        "tar.matitem.json": 1,
+        "techhull1.matitem.json": 1,
+        "tentacleblock.matitem.json": 1,
+        "treasurehoard.matitem.json": 1,
+        "vine.matitem.json": 1,
+        "waste.matitem.json": 1,
+        "wetdirt.matitem.json": 1
+      },
       "rotting.config.json": 7,
       "tools": {
         "inspectiontool": {
@@ -893,7 +993,7 @@
             "craftingmedical.object.json": 11
           },
           "craftingwheel": {
-            "craftingwheel.object.json": 10
+            "craftingwheel.object.json": 12
           }
         },
         "woodencookingtable": {
@@ -1579,6 +1679,7 @@
       "alrune.species.json": 1,
       "apex.species.json": 1,
       "arachne.species.json": 1,
+      "arcanian.species.json": 1,
       "argonian.species.json": 1,
       "attarran.species.json": 1,
       "avian.species.json": 1,
@@ -2692,7 +2793,7 @@
         "multitether.config.json": 1
       },
       "cockpit": {
-        "cockpit.config.json": 401
+        "cockpit.config.json": 399
       },
       "extractor": {
         "brainsiphon.config.json": 2,
@@ -2878,7 +2979,6 @@
         "fu_shipcraftingtable.config.json": 2,
         "fuburgerfool.config.json": 2,
         "fucorpsewagon.config.json": 2,
-        "fuempty.config.json": 2,
         "fufoodshopfloran.config.json": 2,
         "fufoodstore.config.json": 2,
         "fugemshop.config.json": 2,
@@ -11096,12 +11196,12 @@
         },
         "slime": {
           "shared_ceilingslime": {
-            "shared_ceilingslime.json": 8
+            "shared_ceilingslime.json": 9
           }
         },
         "slimecave": {
           "shared_slimeblob": {
-            "shared_slimeblob.json": 8
+            "shared_slimeblob.json": 9
           },
           "slimeblob1": {
             "slimeblob1a.object.json": 1
@@ -11230,7 +11330,7 @@
       },
       "crafting": {
         "armory": {
-          "armory.object.json": 2,
+          "armory.object.json": 8,
           "armoryoutpost.object.json": 2,
           "shared_.object.json": 4
         },
@@ -11242,7 +11342,7 @@
           "catalystfuelrefinery.object.json": 3
         },
         "chemlab": {
-          "chemlab.object.json": 1,
+          "chemlab.object.json": 7,
           "chemlaboutpost.object.json": 1,
           "shared_chemlab.json": 6
         },
@@ -11254,7 +11354,7 @@
           "clothingfabricator.object.json": 2
         },
         "designlab": {
-          "designlab.object.json": 2,
+          "designlab.object.json": 8,
           "designlaboutpost.object.json": 2,
           "shared_designlab.json": 5
         },
@@ -11340,7 +11440,7 @@
           "fuwaterbarrel.object.json": 2
         },
         "genesequencer": {
-          "genesequencer.object.json": 2
+          "genesequencer.object.json": 4
         },
         "handmill": {
           "handmill.object.json": 3
@@ -11361,6 +11461,7 @@
           "madnesscodex.object.json": 2
         },
         "matterassembler": {
+          "prototyper.object.json": 6,
           "shared_prototyper.json": 7
         },
         "mechfuelrefinery": {
@@ -11373,7 +11474,7 @@
           "weaponshuffler.object.json": 2
         },
         "nanofabricator": {
-          "nanofabricator.object.json": 2,
+          "nanofabricator.object.json": 8,
           "nanofabricatoroutpost.object.json": 1,
           "shared_nanofabricator.json": 5
         },
@@ -11394,6 +11495,7 @@
           "platingtable.object.json": 9
         },
         "powerstation": {
+          "powerstation.object.json": 4,
           "shared_powerstatio.json": 4
         },
         "ppshopmini": {
@@ -11403,13 +11505,13 @@
           "ppshoptruck.object.json": 16
         },
         "psionicbench": {
-          "psionicbench.object.json": 2
+          "psionicbench.object.json": 4
         },
         "psionicloader": {
           "psionicloader.object.json": 3
         },
         "radiencrafting": {
-          "radiencrafting.object.json": 2
+          "radiencrafting.object.json": 4
         },
         "sciencelaptop": {
           "dataserver.object.json": 2,
@@ -14378,9 +14480,6 @@
           "shared_hellfirechest.json": 1
         },
         "honey": {
-          "ceilinghive1": {
-            "ceilinghive1.object.json": 1
-          },
           "fucombchest": {
             "fucombchest.object.json": 2
           },
@@ -14436,10 +14535,10 @@
             "hivebush.bush.json": 1
           },
           "shared_ceilinghive": {
-            "shared_ceilinghive.json": 1
+            "shared_ceilinghive.json": 2
           },
           "shared_hiveblob": {
-            "shared_hiveblob.json": 1
+            "shared_hiveblob.json": 2
           }
         },
         "icestalk": {
@@ -16416,14 +16515,6 @@
       "shared_banner.json": 3,
       "shared_bed": {
         "shared_bed.object.json": 3
-      },
-      "shared_biome": {
-        "shared_ceiling": {
-          "shared_ceiling.json": 1
-        },
-        "shared_eblob": {
-          "shared_.object.json": 1
-        }
       },
       "shared_bookcase.json": 7,
       "shared_bookcase.object.json": 6,
@@ -20619,7 +20710,7 @@
             "create_matterassembler.questtemplate.json": 9,
             "create_matterassembler2.questtemplate.json": 4,
             "create_rockbreaker.questtemplate.json": 3,
-            "create_sprouting.questtemplate.json": 3,
+            "create_sprouting.questtemplate.json": 4,
             "create_tinkertable.questtemplate.json": 2,
             "create_woodencentrifuge.questtemplate.json": 2,
             "create_woodensifter.questtemplate.json": 4,
@@ -20865,7 +20956,6 @@
     },
     "shared_poison.json": 1,
     "shared_precursorstairs.mat.json": 1,
-    "shared_quest.json": 1,
     "shared_rasiline.json": 1,
     "shared_redhoneyplatform.mat.json": 1,
     "shared_rial.json": 1,
@@ -22577,30 +22667,29 @@
         "sturdyplatform.material.json": 2
       }
     },
-    "wide_spread_fields.json": 150,
+    "wide_spread_fields.json": 152,
     "zb": {
       "newSail": {
-        "data.config.json": 19,
+        "data.config.json": 26,
         "newSail.config.json": 5
       },
       "questList": {
-        "data.config.json": 31,
+        "data.config.json": 17,
         "questList.config.json": 2
       },
       "researchTree": {
         "data.config.json": 3,
         "fu_agriculture.config.json": 96,
-        "fu_chemistry.config.json": 63,
+        "fu_chemistry.config.json": 64,
         "fu_craftsmanship.config.json": 145,
         "fu_engineering.config.json": 131,
         "fu_geology.config.json": 93,
-        "fu_power.config.json": 74,
+        "fu_power.config.json": 75,
         "fu_warcraft.config.json": 92,
         "madness.config.json": 62,
         "researchTree.config.json": 3,
         "shared_.config.json": 6
       },
-      "shared_.config.json": 2,
       "updateInfoWindow": {
         "shared_updateInfoWindow.json": 3,
         "updateInfoWindow.config.json": 2,
