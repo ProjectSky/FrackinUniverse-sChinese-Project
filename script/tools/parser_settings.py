@@ -65,7 +65,7 @@ foi = {
     ".namesource": ["^sourceNames/[0-9]+$"],
     ".particle": [],
     ".damage": [],
-    ".statuseffect": [],
+    ".statuseffect": ["^typerParticleConfig/texts/[0-9]+$"],
     ".stagehand": ["^radioMessages/[^/]+/(0|2)$"],
     ".material": [],
     ".matmod": [],
