@@ -37,6 +37,7 @@ def caiyun_api(source, direction="auto2zh", token="yq7agau781q6ceedn7pn"):
     return json.loads(response.text)['target']
 # 谷歌翻译，需要用到google_trans_new作依赖。
 
+
 def google_api(string, lang='zh'):
     translator = google_translator()
     translate_text = translator.translate(
@@ -156,25 +157,26 @@ def import_patch(patch_dir, file_dir):
             if thefile.endswith(".json"):
                 json_file = join_path(path, thefile)
                 with open(json_file, "rb+", "utf-8") as f:
-                    json_dict = json.load(f)
+                    json_dict = json.loads(prepare(f))
+                    json_dict_raw = json_dict
+                    f.close
                     print(basename(json_file))
-                for i, v in enumerate(json_dict):
-                    for w in json_dict[i]['Files'].keys():
-                        patch_file = join_path(patch_dir, w)+".patch"
-                        try:
-                            patch_data = json.load(
-                                open(patch_file, "rb+", "utf-8"))
-                        except:
-                            continue
-                        for y, z in enumerate(patch_data):
-                            if json_dict[i]['Files'][w][0] == patch_data[y]["path"]:
-                                if patch_data[y]["value"] == json_dict[i]['Texts']['Eng']:
-                                    pass
-                                else:
-                                    json_dict[i]['Texts']['Chs'] = patch_data[y]["value"]
-                f = open(json_file, "rb+", "utf-8")
-                json.dump(
-                    json_dict, f, ensure_ascii=False, indent=2, sort_keys=True)
+                for i in list(range(len(json_dict))):
+                    patch_file = join_path(
+                        patch_dir, list(json_dict[i]['Files'].keys())[0])+".patch"
+                    if not exists(patch_file):
+                        continue
+                    patch_data = json.loads(
+                        prepare(open(patch_file, "rb+", "utf-8")))
+                    for y in patch_data:
+                        if json_dict[i]['Files'][list(json_dict[i]['Files'].keys())[0]][0] == y["path"]:
+                            if 'Chs' in list(json_dict[i]['Texts'].keys()):
+                                pass
+                            else:
+                                json_dict[i]['Texts']['Chs'] = y["value"]
+                                f = open(json_file, "w+", "utf-8")
+                                json.dump(
+                                    json_dict, f, ensure_ascii=False, indent=2, sort_keys=True)
 
 
 class Interface:
@@ -228,3 +230,4 @@ if __name__ == '__main__':
     while True:
         keyword = input("请输入指令：")
         interface.get_keyword(keyword)
+
