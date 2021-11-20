@@ -583,6 +583,9 @@
   "cinematics/respawn/kitsune/respawnhardcore.cinematic": {
     "/panels/2/text": "texts/cinematics/respawn/respawnhardcore.cinematic.json"
   },
+  "cinematics/respawn/kyterran/respawnhardcore.cinematic": {
+    "/panels/2/text": "texts/cinematics/respawn/respawnhardcore.cinematic.json"
+  },
   "cinematics/respawn/lamia/respawnhardcore.cinematic": {
     "/panels/2/text": "texts/cinematics/respawn/respawnhardcore.cinematic.json"
   },
@@ -650,6 +653,9 @@
     "/panels/2/text": "texts/cinematics/respawn/respawnhardcore.cinematic.json"
   },
   "cinematics/respawn/saturn2/respawnhardcore.cinematic": {
+    "/panels/2/text": "texts/cinematics/respawn/respawnhardcore.cinematic.json"
+  },
+  "cinematics/respawn/scyphojel/respawnhardcore.cinematic": {
     "/panels/2/text": "texts/cinematics/respawn/respawnhardcore.cinematic.json"
   },
   "cinematics/respawn/sergal/respawnhardcore.cinematic": {
@@ -3334,7 +3340,8 @@
     "/paneLayout/lblProduct/value": "texts/wide_spread_fields.json",
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value": "texts/wide_spread_fields.json",
-    "/paneLayout/tbSpinCount/regex": "texts/wide_spread_fields.json"
+    "/paneLayout/tbSpinCount/regex": "texts/wide_spread_fields.json",
+    "/paneLayout/windowtitle/title": "texts/shared_fu_shipcraftingtable.json"
   },
   "interface/windowconfig/fuburgerfool.config": {
     "/paneLayout/btnCraft/caption": "texts/wide_spread_fields.json",
@@ -3360,7 +3367,6 @@
     "/paneLayout/filter/hint": "texts/wide_spread_fields.json",
     "/paneLayout/lblProduct/value": "texts/interface/windowconfig/shared_.config.json",
     "/paneLayout/lblSubTitle/value": "texts/wide_spread_fields.json",
-    "/paneLayout/lblTitle/value": "texts/wide_spread_fields.json",
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
     "/paneLayout/scrollArea/children/itemList/schema/listTemplate/priceLabel/value": "texts/wide_spread_fields.json",
     "/paneLayout/tbSpinCount/regex": "texts/wide_spread_fields.json"
@@ -6659,9 +6665,6 @@
   "items/generic/crafting/tethydefurnitureplating.item": {
     "/shortdescription": "texts/shared_eri.json"
   },
-  "items/generic/crafting/thanatite.item": {
-    "/description": "texts/shared_thanatite.json"
-  },
   "items/generic/crafting/uraniumradien.consumable": {
     "/description": "texts/items/generic/crafting.json"
   },
@@ -8381,33 +8384,81 @@
     "/shortdescription": "texts/wide_spread_fields.json"
   },
   "items/materials/nightarcastleblock.matitem": {
-    "/description": "texts/materials/shared_nightarcastleblock.json",
+    "/description": "texts/items/materials/shared_nightarcastleblock.json",
     "/floranDescription": "texts/materials/shared_nightar.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/materials/shared_nightarcastleblock.json",
-    "/novakidDescription": "texts/materials/shared_nightarcastleblock.json"
+    "/glitchDescription/glitchEmotedText": "texts/items/materials/shared_nightarcastleblock.json",
+    "/novakidDescription": "texts/items/materials/shared_nightarcastleblock.json"
   },
   "items/materials/nightarcastleblock2.matitem": {
-    "/description": "texts/materials/shared_nightarcastleblock.json",
+    "/description": "texts/items/materials/shared_nightarcastleblock.json",
     "/floranDescription": "texts/materials/shared_nightar.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/materials/shared_nightarcastleblock.json",
-    "/novakidDescription": "texts/materials/shared_nightarcastleblock.json",
-    "/shortdescription": "texts/materials/shared_nightarcastleblock.json"
+    "/glitchDescription/glitchEmotedText": "texts/items/materials/shared_nightarcastleblock.json",
+    "/novakidDescription": "texts/items/materials/shared_nightarcastleblock.json"
+  },
+  "items/materials/nightarcrosshatch.matitem": {
+    "/description": "texts/materials/shared_nightarcrosshatch.mat.json",
+    "/shortdescription": "texts/materials/shared_nightarcrosshatch.mat.json"
+  },
+  "items/materials/nightardecotile.matitem": {
+    "/description": "texts/materials/shared_nightardecotile.mat.json",
+    "/shortdescription": "texts/materials/shared_nightardecotile.mat.json"
+  },
+  "items/materials/nightarfence1.matitem": {
+    "/description": "texts/materials/shared_nightarfence1.mat.json",
+    "/shortdescription": "texts/materials/shared_nightarfence1.mat.json"
   },
   "items/materials/nightarfloor.matitem": {
-    "/floranDescription": "texts/materials/shared_nightarfloor.mat.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/materials/shared_nightarfloor.mat.json",
-    "/novakidDescription": "texts/materials/shared_nightarfloor.mat.json"
+    "/glitchDescription/glitchEmotedText": "texts/items/materials/nightarfloor.matitem.json"
+  },
+  "items/materials/nightargirder1.matitem": {
+    "/description": "texts/materials/shared_nightargirder1.mat.json",
+    "/shortdescription": "texts/materials/shared_nightargirder1.mat.json"
+  },
+  "items/materials/nightargirder2.matitem": {
+    "/description": "texts/materials/shared_nightargirder2.mat.json",
+    "/shortdescription": "texts/materials/shared_nightargirder2.mat.json"
+  },
+  "items/materials/nightarplatform2.matitem": {
+    "/description": "texts/materials/shared_nightarplatform2.mat.json",
+    "/shortdescription": "texts/shared_platform.json"
+  },
+  "items/materials/nightarpurplebrick.matitem": {
+    "/description": "texts/materials/shared_nightarpurplebrick.mat.json",
+    "/shortdescription": "texts/materials/shared_nightarpurplebrick.mat.json"
+  },
+  "items/materials/nightarpurplebrick2.matitem": {
+    "/description": "texts/materials/shared_nightarpurplebrick2.mat.json",
+    "/shortdescription": "texts/materials/shared_nightarpurplebrick2.mat.json"
+  },
+  "items/materials/nightarpurplewall.matitem": {
+    "/description": "texts/materials/shared_nightarpurplewall.mat.json",
+    "/shortdescription": "texts/materials/shared_nightarpurplewall.mat.json"
   },
   "items/materials/nightarshipblock.matitem": {
     "/description": "texts/materials/shared_block.mat.json",
     "/floranDescription": "texts/materials/shared_nightar.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/materials/shared_nightarshipblock.mat.json",
-    "/novakidDescription": "texts/materials/shared_nightarshipblock.mat.json",
+    "/glitchDescription/glitchEmotedText": "texts/items/materials/nightarshipblock.matitem.json",
     "/shortdescription": "texts/materials/shared_block.mat.json"
+  },
+  "items/materials/nightarsilverchain.matitem": {
+    "/description": "texts/materials/shared_nightarsilverchain.mat.json",
+    "/shortdescription": "texts/materials/shared_nightarsilverchain.mat.json"
+  },
+  "items/materials/nightarsilverroof.matitem": {
+    "/description": "texts/materials/shared_nightarsilverroof.mat.json",
+    "/shortdescription": "texts/materials/shared_nightarsilverroof.mat.json"
+  },
+  "items/materials/nightarsilvertech.matitem": {
+    "/description": "texts/materials/shared_nightarsilvertech.mat.json",
+    "/shortdescription": "texts/materials/shared_nightarsilvertech.mat.json"
+  },
+  "items/materials/nightarsilverwindow.matitem": {
+    "/description": "texts/materials/shared_nightarsilverwindow.mat.json",
+    "/shortdescription": "texts/materials/shared_nightarsilverwindow.mat.json"
   },
   "items/materials/nightarsplatform.matitem": {
     "/description": "texts/shared_nightarsplatform.mat.json",
@@ -8415,7 +8466,7 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/shared_nightarsplatform.mat.json",
     "/novakidDescription": "texts/shared_nightarsplatform.mat.json",
-    "/shortdescription": "texts/shared_nightarsplatform.mat.json"
+    "/shortdescription": "texts/shared_platform.json"
   },
   "items/materials/nightarsupport.matitem": {
     "/description": "texts/materials/shared_nightarsupport.json",
@@ -8433,26 +8484,21 @@
     "/novakidDescription": "texts/materials/shared_nightarsupport.json"
   },
   "items/materials/nightarswall1.matitem": {
-    "/description": "texts/materials/shared_nightarswall1.mat.json",
-    "/floranDescription": "texts/materials/shared_nightarswall1.mat.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/materials/shared_nightarswall1.mat.json",
-    "/novakidDescription": "texts/materials/shared_nightarswall1.mat.json",
-    "/shortdescription": "texts/materials/shared_nightarswall1.mat.json"
+    "/glitchDescription/glitchEmotedText": "texts/items/materials/nightarswall1.matitem.json"
   },
   "items/materials/nightartechblock.matitem": {
-    "/floranDescription": "texts/materials/shared_nightartechblock.mat.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/materials/shared_nightartechblock.mat.json",
-    "/novakidDescription": "texts/materials/shared_nightartechblock.mat.json",
+    "/glitchDescription/glitchEmotedText": "texts/items/materials/nightartechblock.matitem.json",
     "/shortdescription": "texts/materials/shared_nightartechblock.mat.json"
   },
   "items/materials/nightarwall2.matitem": {
-    "/floranDescription": "texts/materials/shared_nightarwall2.mat.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/materials/shared_nightarwall2.mat.json",
-    "/novakidDescription": "texts/materials/shared_nightarwall2.mat.json",
-    "/shortdescription": "texts/materials/shared_nightarwall2.mat.json"
+    "/glitchDescription/glitchEmotedText": "texts/items/materials/nightarwall2.matitem.json"
+  },
+  "items/materials/nightarwindow.matitem": {
+    "/description": "texts/materials/shared_nightarwindow.mat.json",
+    "/shortdescription": "texts/materials/shared_nightarwindow.mat.json"
   },
   "items/materials/panelwood.matitem": {
     "/description": "texts/materials/shared_panelwood.mat.json",
@@ -15451,13 +15497,13 @@
     "/shortdescription": "texts/objects/crafting/armory/shared_.object.json",
     "/upgradeStages/0/itemSpawnParameters/shortdescription": "texts/objects/crafting/armory/shared_.object.json",
     "/upgradeStages/1/interactData/paneLayoutOverride/lblSubTitle/value": "texts/wide_spread_fields.json",
-    "/upgradeStages/1/interactData/paneLayoutOverride/lblTitle/value": "texts/wide_spread_fields.json",
+    "/upgradeStages/1/interactData/paneLayoutOverride/lblTitle/value": "texts/objects/crafting/shared_outpost.object.json",
     "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/subtitle": "texts/wide_spread_fields.json",
     "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/title": "texts/wide_spread_fields.json",
     "/upgradeStages/1/itemSpawnParameters/description": "texts/objects/crafting/armory/shared_.object.json",
     "/upgradeStages/1/itemSpawnParameters/shortdescription": "texts/objects/crafting/armory/shared_.object.json",
     "/upgradeStages/2/interactData/paneLayoutOverride/lblSubTitle/value": "texts/wide_spread_fields.json",
-    "/upgradeStages/2/interactData/paneLayoutOverride/lblTitle/value": "texts/wide_spread_fields.json",
+    "/upgradeStages/2/interactData/paneLayoutOverride/lblTitle/value": "texts/objects/crafting/shared_outpost.object.json",
     "/upgradeStages/2/interactData/paneLayoutOverride/windowtitle/subtitle": "texts/wide_spread_fields.json",
     "/upgradeStages/2/interactData/paneLayoutOverride/windowtitle/title": "texts/wide_spread_fields.json",
     "/upgradeStages/2/itemSpawnParameters/shortdescription": "texts/objects/crafting/armory/shared_.object.json"
@@ -15487,7 +15533,7 @@
     "/description": "texts/objects/crafting/chemlab/shared_chemlab.json",
     "/shortdescription": "texts/objects/crafting/chemlab/shared_chemlab.json",
     "/upgradeStages/0/interactData/paneLayoutOverride/lblSubTitle/value": "texts/wide_spread_fields.json",
-    "/upgradeStages/0/interactData/paneLayoutOverride/lblTitle/value": "texts/wide_spread_fields.json",
+    "/upgradeStages/0/interactData/paneLayoutOverride/lblTitle/value": "texts/objects/crafting/shared_outpost.object.json",
     "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/subtitle": "texts/wide_spread_fields.json",
     "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/title": "texts/wide_spread_fields.json",
     "/upgradeStages/0/itemSpawnParameters/shortdescription": "texts/objects/crafting/chemlab/shared_chemlab.json",
@@ -15514,7 +15560,7 @@
     "/description": "texts/objects/crafting/designlab/shared_designlab.json",
     "/shortdescription": "texts/objects/crafting/designlab/shared_designlab.json",
     "/upgradeStages/0/interactData/paneLayoutOverride/lblSubTitle/value": "texts/wide_spread_fields.json",
-    "/upgradeStages/0/interactData/paneLayoutOverride/lblTitle/value": "texts/wide_spread_fields.json",
+    "/upgradeStages/0/interactData/paneLayoutOverride/lblTitle/value": "texts/objects/crafting/shared_outpost.object.json",
     "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/subtitle": "texts/wide_spread_fields.json",
     "/upgradeStages/0/interactData/paneLayoutOverride/windowtitle/title": "texts/wide_spread_fields.json",
     "/upgradeStages/0/itemSpawnParameters/shortdescription": "texts/objects/crafting/designlab/shared_designlab.json",
@@ -15596,6 +15642,9 @@
   "objects/crafting/fu_growingtray/fu_growingtray.config": {
     "/gui/clear/caption": "texts/objects/shared_.config.json"
   },
+  "objects/crafting/fu_shipcraftingtable/fu_shipcraftingtable.object": {
+    "/shortdescription": "texts/shared_fu_shipcraftingtable.json"
+  },
   "objects/crafting/fu_upgradetable/fu_upgradetable.object": {
     "/description": "texts/objects/crafting/shared_.object.json",
     "/shortdescription": "texts/objects/crafting/shared_.object.json"
@@ -15635,7 +15684,7 @@
     "/upgradeStages/1/itemSpawnParameters/description": "texts/objects/crafting/matterassembler/shared_prototyper.json",
     "/upgradeStages/1/itemSpawnParameters/shortdescription": "texts/objects/crafting/matterassembler/shared_prototyper.json",
     "/upgradeStages/2/interactData/paneLayoutOverride/lblSubTitle/value": "texts/wide_spread_fields.json",
-    "/upgradeStages/2/interactData/paneLayoutOverride/lblTitle/value": "texts/wide_spread_fields.json",
+    "/upgradeStages/2/interactData/paneLayoutOverride/lblTitle/value": "texts/objects/crafting/shared_outpost.object.json",
     "/upgradeStages/2/itemSpawnParameters/description": "texts/objects/crafting/matterassembler/shared_prototyper.json",
     "/upgradeStages/2/itemSpawnParameters/shortdescription": "texts/objects/crafting/matterassembler/shared_prototyper.json"
   },
@@ -15668,7 +15717,7 @@
     "/upgradeStages/0/itemSpawnParameters/shortdescription": "texts/objects/crafting/nanofabricator/shared_nanofabricator.json",
     "/upgradeStages/1/itemSpawnParameters/description": "texts/objects/crafting/nanofabricator/shared_nanofabricator.json",
     "/upgradeStages/2/interactData/paneLayoutOverride/lblSubTitle/value": "texts/wide_spread_fields.json",
-    "/upgradeStages/2/interactData/paneLayoutOverride/lblTitle/value": "texts/wide_spread_fields.json",
+    "/upgradeStages/2/interactData/paneLayoutOverride/lblTitle/value": "texts/objects/crafting/shared_outpost.object.json",
     "/upgradeStages/2/interactData/paneLayoutOverride/windowtitle/subtitle": "texts/wide_spread_fields.json",
     "/upgradeStages/2/interactData/paneLayoutOverride/windowtitle/title": "texts/wide_spread_fields.json",
     "/upgradeStages/2/itemSpawnParameters/description": "texts/objects/crafting/nanofabricator/shared_nanofabricator.json",
@@ -15699,7 +15748,7 @@
     "/upgradeStages/0/itemSpawnParameters/description": "texts/objects/crafting/powerstation/shared_powerstatio.json",
     "/upgradeStages/0/itemSpawnParameters/shortdescription": "texts/objects/crafting/powerstation/shared_powerstatio.json",
     "/upgradeStages/1/interactData/paneLayoutOverride/lblSubTitle/value": "texts/wide_spread_fields.json",
-    "/upgradeStages/1/interactData/paneLayoutOverride/lblTitle/value": "texts/wide_spread_fields.json",
+    "/upgradeStages/1/interactData/paneLayoutOverride/lblTitle/value": "texts/objects/crafting/shared_outpost.object.json",
     "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/subtitle": "texts/wide_spread_fields.json",
     "/upgradeStages/1/interactData/paneLayoutOverride/windowtitle/title": "texts/wide_spread_fields.json",
     "/upgradeStages/1/itemSpawnParameters/description": "texts/objects/crafting/powerstation/shared_powerstatio.json",
@@ -18619,7 +18668,6 @@
   },
   "objects/farmables/thanatite/thanatiteseed.object": {
     "/avianDescription": "texts/objects.json",
-    "/description": "texts/shared_thanatite.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/farmables/thanatite/thanatiteseed.object.json"
   },
@@ -20229,7 +20277,11 @@
     "/apexDescription": "texts/objects/generic/shared_storage/shared_.object.json",
     "/avianDescription": "texts/objects/generic/shared_storage/shared_.object.json",
     "/floranDescription": "texts/objects/generic/shared_storage/shared_.object.json",
-    "/glitchDescription": "texts/objects/generic/shared_storage/shared_.object.json"
+    "/glitchDescription": "texts/objects/generic/shared_storage/shared_.object.json",
+    "/shortdescription": "texts/objects/generic/shared_storage3/shared_voidstorage.json"
+  },
+  "objects/generic/storage3new/voidstoragenew.object": {
+    "/shortdescription": "texts/objects/generic/shared_storage3/shared_voidstorage.json"
   },
   "objects/generic/storage4/fuwallsafe.object": {
     "/description": "texts/objects/generic/shared_storage/shared_e.object.json"
@@ -23751,6 +23803,9 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/nightar/nightarbookcase/nightarbookcase.object.json"
   },
+  "objects/nightar/nightarbookcaseswitch/nightarbookcaseswitch.object": {
+    "/description": "texts/objects/nightar/shared_bookcaseswitch/shared_bookcaseswitch.object.json"
+  },
   "objects/nightar/nightarbox1/nightarbox1.object": {
     "/description": "texts/objects/nightar/shared_nightarbox/shared_nightarbox.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -23762,6 +23817,12 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/nightar/nightarbox2/nightarbox2.object.json",
     "/novakidDescription": "texts/objects/nightar/shared_nightarbox/shared_nightarbox.json"
+  },
+  "objects/nightar/nightarcabinet/nightarcabinet.object": {
+    "/shortdescription": "texts/objects/nightar/shared_nightarcabinet/shared_nightarcabinet.json"
+  },
+  "objects/nightar/nightarcabinet2/nightarcabinet2.object": {
+    "/shortdescription": "texts/objects/nightar/shared_nightarcabinet/shared_nightarcabinet.json"
   },
   "objects/nightar/nightarcastledoor/nightarcastledoor.object": {
     "/description": "texts/objects/shared_castledoor/shared_castledoor.json",
@@ -23787,6 +23848,18 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/nightar/nightarchest/nightarchest.object.json"
   },
+  "objects/nightar/nightarcomfychair/nightarcomfychair.object": {
+    "/description": "texts/objects/nightar/nightarcomfychair/shared_nightarcomfychair.json",
+    "/shortdescription": "texts/objects/nightar/nightarcomfychair/shared_nightarcomfychair.json"
+  },
+  "objects/nightar/nightarcomfychair/nightarcomfychair2.object": {
+    "/description": "texts/objects/nightar/nightarcomfychair/shared_nightarcomfychair.json",
+    "/shortdescription": "texts/objects/nightar/nightarcomfychair/shared_nightarcomfychair.json"
+  },
+  "objects/nightar/nightarcomfychair/nightarcomfychair3.object": {
+    "/description": "texts/objects/nightar/nightarcomfychair/shared_nightarcomfychair.json",
+    "/shortdescription": "texts/objects/nightar/nightarcomfychair/shared_nightarcomfychair.json"
+  },
   "objects/nightar/nightarcomputer/nightarcomputer.object": {
     "/avianDescription": "texts/objects/nightar/shared_nightarco/shared_nightarco.json",
     "/floranDescription": "texts/objects/nightar/shared_nightarco/shared_nightarco.json",
@@ -23799,6 +23872,10 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/nightar/nightarconsole/nightarconsole.object.json"
   },
+  "objects/nightar/nightarcookingpot/nightarcookingpot.object": {
+    "/description": "texts/objects/nightar/shared_cookingpot/shared_cookingpot.object.json",
+    "/interactData/paneLayoutOverride/windowtitle/subtitle": "texts/objects.json"
+  },
   "objects/nightar/nightarcouch/nightarcouch.object": {
     "/description": "texts/objects/nightar/shared_nightarc/shared_nightarc.json",
     "/floranDescription": "texts/objects/nightar/shared_nightarc/shared_nightarc.json",
@@ -23808,7 +23885,11 @@
   },
   "objects/nightar/nightardresser/nightardresser.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/nightar/nightardresser/nightardresser.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/nightar/nightardresser/nightardresser.object.json",
+    "/shortdescription": "texts/objects/nightar/shared_nightardresser/shared_nightardresser.json"
+  },
+  "objects/nightar/nightardresser2/nightardresser2.object": {
+    "/shortdescription": "texts/objects/nightar/shared_nightardresser/shared_nightardresser.json"
   },
   "objects/nightar/nightarfridge/nightarfridge.object": {
     "/avianDescription": "texts/objects/shared_fridge.json",
@@ -23822,12 +23903,17 @@
   },
   "objects/nightar/nightarglobe/nightarglobe.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/nightar/nightarglobe/nightarglobe.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/nightar/nightarglobe/nightarglobe.object.json",
+    "/nightarDescription": "texts/objects/nightar/shared_nightarglobe/shared_nightarglobe.json"
+  },
+  "objects/nightar/nightarglobe2/nightarglobe2.object": {
+    "/nightarDescription": "texts/objects/nightar/shared_nightarglobe/shared_nightarglobe.json"
   },
   "objects/nightar/nightarmedievalarmorarmed/nightarmedievalarmorarmed.object": {
     "/description": "texts/objects/shared_medievalarmorarmed/shared_medievalarmorarmed.object.json"
   },
   "objects/nightar/nightarmedievalbookcaseswitch/nightarmedievalbookcaseswitch.object": {
+    "/description": "texts/objects/nightar/shared_bookcaseswitch/shared_bookcaseswitch.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/nightar/nightarmedievalbookcaseswitch/nightarmedievalbookcaseswitch.object.json"
   },
@@ -23838,6 +23924,7 @@
     "/description": "texts/objects/shared_medievalglobe/shared_medievalglobe.object.json"
   },
   "objects/nightar/nightarmedievallargecookingpot/nightarmedievallargecookingpot.object": {
+    "/description": "texts/objects/nightar/shared_cookingpot/shared_cookingpot.object.json",
     "/interactData/paneLayoutOverride/windowtitle/subtitle": "texts/objects.json"
   },
   "objects/nightar/nightarmedievalshelf/nightarmedievalshelf.object": {
@@ -23851,6 +23938,12 @@
   "objects/nightar/nightarsbannertorn/nightarsbannertorn.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/nightar/nightarsbannertorn/nightarsbannertorn.object.json"
+  },
+  "objects/nightar/nightarshelf/nightarshelf.object": {
+    "/shortdescription": "texts/objects/nightar/shared_nightarshelf/shared_nightarshelf.json"
+  },
+  "objects/nightar/nightarshelf2/nightarshelf2.object": {
+    "/shortdescription": "texts/objects/nightar/shared_nightarshelf/shared_nightarshelf.json"
   },
   "objects/nightar/nightarshiplight/nightarshiplight.object": {
     "/apexDescription": "texts/objects/shared_shiplight/shared_shiplight.object.json",
@@ -25310,9 +25403,6 @@
     "/glitchDescription/glitchEmotedText": "texts/objects/pixelgoods/shared_bed.object.json",
     "/humanDescription": "texts/objects/pixelgoods/shared_bed.object.json",
     "/hylotlDescription": "texts/objects/pixelgoods/shared_bed.object.json"
-  },
-  "objects/pixelgoods/fuokeahitechcounter.object": {
-    "/interactData/paneLayoutOverride/windowtitle/subtitle": "texts/objects.json"
   },
   "objects/pixelgoods/fuokeahitechforcedoor.object": {
     "/apexDescription": "texts/objects/pixelgoods/shared_fuokeahitechforcedoor.json",
@@ -28728,6 +28818,16 @@
     "/hylotlDescription": "texts/objects/ship/shared_bed/shared_bed.json",
     "/novakidDescription": "texts/objects/ship/shared_bed/shared_bed.json"
   },
+  "objects/ship/fu_crewbedracialbunk/fu_crewbedracialbunk_protectorate.object": {
+    "/apexDescription": "texts/objects/ship/shared_bed/shared_bed.json",
+    "/avianDescription": "texts/objects/ship/shared_bed/shared_bed.json",
+    "/floranDescription": "texts/objects/ship/shared_bed/shared_bed.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_bed/shared_bed.json",
+    "/humanDescription": "texts/objects/ship/shared_bed/shared_bed.json",
+    "/hylotlDescription": "texts/objects/ship/shared_bed/shared_bed.json",
+    "/novakidDescription": "texts/objects/ship/shared_bed/shared_bed.json"
+  },
   "objects/ship/fu_crewbedracialwall/fu_crewbedracialwall_apex.object": {
     "/apexDescription": "texts/objects/ship/shared_bed/shared_bed.json",
     "/avianDescription": "texts/objects/ship/shared_bed/shared_bed.json",
@@ -30052,8 +30152,7 @@
     "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_bed/shared_bed.json",
     "/humanDescription": "texts/objects/ship/shared_bed/shared_bed.json",
     "/hylotlDescription": "texts/objects/ship/shared_bed/shared_bed.json",
-    "/novakidDescription": "texts/objects/ship/shared_bed/shared_bed.json",
-    "/shortdescription": "texts/objects/ship/shipbeds/shared_apexshipbed/shared_apexshipbed.json"
+    "/novakidDescription": "texts/objects/ship/shared_bed/shared_bed.json"
   },
   "objects/ship/shipbeds/apexshipbed2/apexshipbed2.object": {
     "/apexDescription": "texts/objects/ship/shared_bed/shared_bed.json",
@@ -30064,8 +30163,7 @@
     "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_bed/shared_bed.json",
     "/humanDescription": "texts/objects/ship/shared_bed/shared_bed.json",
     "/hylotlDescription": "texts/objects/ship/shared_bed/shared_bed.json",
-    "/novakidDescription": "texts/objects/ship/shared_bed/shared_bed.json",
-    "/shortdescription": "texts/objects/ship/shipbeds/shared_apexshipbed/shared_apexshipbed.json"
+    "/novakidDescription": "texts/objects/ship/shared_bed/shared_bed.json"
   },
   "objects/ship/shipbeds/avianshipbed/avianshipbed.object": {
     "/apexDescription": "texts/objects/ship/shared_bed/shared_bed.json",
@@ -30076,8 +30174,7 @@
     "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_bed/shared_bed.json",
     "/humanDescription": "texts/objects/ship/shared_bed/shared_bed.json",
     "/hylotlDescription": "texts/objects/ship/shared_bed/shared_bed.json",
-    "/novakidDescription": "texts/objects/ship/shared_bed/shared_bed.json",
-    "/shortdescription": "texts/objects/ship/shipbeds/shared_avianshipbed/shared_avianshipbed.json"
+    "/novakidDescription": "texts/objects/ship/shared_bed/shared_bed.json"
   },
   "objects/ship/shipbeds/avianshipbed2/avianshipbed2.object": {
     "/apexDescription": "texts/objects/ship/shared_bed/shared_bed.json",
@@ -30088,8 +30185,7 @@
     "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_bed/shared_bed.json",
     "/humanDescription": "texts/objects/ship/shared_bed/shared_bed.json",
     "/hylotlDescription": "texts/objects/ship/shared_bed/shared_bed.json",
-    "/novakidDescription": "texts/objects/ship/shared_bed/shared_bed.json",
-    "/shortdescription": "texts/objects/ship/shipbeds/shared_avianshipbed/shared_avianshipbed.json"
+    "/novakidDescription": "texts/objects/ship/shared_bed/shared_bed.json"
   },
   "objects/ship/shipbeds/floranshipbed/floranshipbed.object": {
     "/apexDescription": "texts/objects/ship/shared_bed/shared_bed.json",
@@ -30100,8 +30196,7 @@
     "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_bed/shared_bed.json",
     "/humanDescription": "texts/objects/ship/shared_bed/shared_bed.json",
     "/hylotlDescription": "texts/objects/ship/shared_bed/shared_bed.json",
-    "/novakidDescription": "texts/objects/ship/shared_bed/shared_bed.json",
-    "/shortdescription": "texts/objects/ship/shipbeds/shared_floranshipbed/shared_floranshipbed.json"
+    "/novakidDescription": "texts/objects/ship/shared_bed/shared_bed.json"
   },
   "objects/ship/shipbeds/floranshipbed2/floranshipbed2.object": {
     "/apexDescription": "texts/objects/ship/shared_bed/shared_bed.json",
@@ -30112,8 +30207,7 @@
     "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_bed/shared_bed.json",
     "/humanDescription": "texts/objects/ship/shared_bed/shared_bed.json",
     "/hylotlDescription": "texts/objects/ship/shared_bed/shared_bed.json",
-    "/novakidDescription": "texts/objects/ship/shared_bed/shared_bed.json",
-    "/shortdescription": "texts/objects/ship/shipbeds/shared_floranshipbed/shared_floranshipbed.json"
+    "/novakidDescription": "texts/objects/ship/shared_bed/shared_bed.json"
   },
   "objects/ship/shipbeds/glitchshipbed/glitchshipbed.object": {
     "/apexDescription": "texts/objects/ship/shared_bed/shared_bed.json",
@@ -30124,8 +30218,7 @@
     "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_bed/shared_bed.json",
     "/humanDescription": "texts/objects/ship/shared_bed/shared_bed.json",
     "/hylotlDescription": "texts/objects/ship/shared_bed/shared_bed.json",
-    "/novakidDescription": "texts/objects/ship/shared_bed/shared_bed.json",
-    "/shortdescription": "texts/objects/ship/shipbeds/shared_glitchshipbed/shared_glitchshipbed.json"
+    "/novakidDescription": "texts/objects/ship/shared_bed/shared_bed.json"
   },
   "objects/ship/shipbeds/glitchshipbed2/glitchshipbed2.object": {
     "/apexDescription": "texts/objects/ship/shared_bed/shared_bed.json",
@@ -30136,8 +30229,7 @@
     "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_bed/shared_bed.json",
     "/humanDescription": "texts/objects/ship/shared_bed/shared_bed.json",
     "/hylotlDescription": "texts/objects/ship/shared_bed/shared_bed.json",
-    "/novakidDescription": "texts/objects/ship/shared_bed/shared_bed.json",
-    "/shortdescription": "texts/objects/ship/shipbeds/shared_glitchshipbed/shared_glitchshipbed.json"
+    "/novakidDescription": "texts/objects/ship/shared_bed/shared_bed.json"
   },
   "objects/ship/shipbeds/humanshipbed/humanshipbed.object": {
     "/apexDescription": "texts/objects/ship/shared_bed/shared_bed.json",
@@ -30192,8 +30284,7 @@
     "/glitchDescription/glitchEmotedText": "texts/objects/ship/shared_bed/shared_bed.json",
     "/humanDescription": "texts/objects/ship/shared_bed/shared_bed.json",
     "/hylotlDescription": "texts/objects/ship/shared_bed/shared_bed.json",
-    "/novakidDescription": "texts/objects/ship/shared_bed/shared_bed.json",
-    "/shortdescription": "texts/objects/ship/shipbeds/shared_novakidshipbed/shared_novakidshipbed.json"
+    "/novakidDescription": "texts/objects/ship/shared_bed/shared_bed.json"
   },
   "objects/ship/shipbeds/novakidshipbed2/novakidshipbed2blue.object": {
     "/apexDescription": "texts/objects/ship/shared_bed/shared_bed.json",
@@ -30205,7 +30296,7 @@
     "/humanDescription": "texts/objects/ship/shared_bed/shared_bed.json",
     "/hylotlDescription": "texts/objects/ship/shared_bed/shared_bed.json",
     "/novakidDescription": "texts/objects/ship/shared_bed/shared_bed.json",
-    "/shortdescription": "texts/objects/ship/shipbeds/shared_novakidshipbed/shared_novakidshipbed.json"
+    "/shortdescription": "texts/objects/ship/shipbeds/novakidshipbed2/shared_novakidshipbed2.json"
   },
   "objects/ship/shipbeds/novakidshipbed2/novakidshipbed2cream.object": {
     "/apexDescription": "texts/objects/ship/shared_bed/shared_bed.json",
@@ -30217,7 +30308,7 @@
     "/humanDescription": "texts/objects/ship/shared_bed/shared_bed.json",
     "/hylotlDescription": "texts/objects/ship/shared_bed/shared_bed.json",
     "/novakidDescription": "texts/objects/ship/shared_bed/shared_bed.json",
-    "/shortdescription": "texts/objects/ship/shipbeds/shared_novakidshipbed/shared_novakidshipbed.json"
+    "/shortdescription": "texts/objects/ship/shipbeds/novakidshipbed2/shared_novakidshipbed2.json"
   },
   "objects/ship/shipbeds/novakidshipbed2/novakidshipbed2green.object": {
     "/apexDescription": "texts/objects/ship/shared_bed/shared_bed.json",
@@ -30229,7 +30320,7 @@
     "/humanDescription": "texts/objects/ship/shared_bed/shared_bed.json",
     "/hylotlDescription": "texts/objects/ship/shared_bed/shared_bed.json",
     "/novakidDescription": "texts/objects/ship/shared_bed/shared_bed.json",
-    "/shortdescription": "texts/objects/ship/shipbeds/shared_novakidshipbed/shared_novakidshipbed.json"
+    "/shortdescription": "texts/objects/ship/shipbeds/novakidshipbed2/shared_novakidshipbed2.json"
   },
   "objects/ship/shipbeds/novakidshipbed2/novakidshipbed2red.object": {
     "/apexDescription": "texts/objects/ship/shared_bed/shared_bed.json",
@@ -30241,7 +30332,7 @@
     "/humanDescription": "texts/objects/ship/shared_bed/shared_bed.json",
     "/hylotlDescription": "texts/objects/ship/shared_bed/shared_bed.json",
     "/novakidDescription": "texts/objects/ship/shared_bed/shared_bed.json",
-    "/shortdescription": "texts/objects/ship/shipbeds/shared_novakidshipbed/shared_novakidshipbed.json"
+    "/shortdescription": "texts/objects/ship/shipbeds/novakidshipbed2/shared_novakidshipbed2.json"
   },
   "objects/ship/shipbeds/protectorateshipbed/protectorateshipbed.object": {
     "/apexDescription": "texts/objects/ship/shared_bed/shared_bed.json",
@@ -41115,34 +41206,57 @@
     "/description": "texts/shared_mat.json",
     "/shortdescription": "texts/materials/shared_.mat.json"
   },
-  "tiles/materials/nightarcastleblock.material": {
-    "/floranDescription": "texts/materials/shared_nightar.json",
-    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/materials/shared_nightarcastleblock.json",
-    "/novakidDescription": "texts/materials/shared_nightarcastleblock.json",
-    "/shortdescription": "texts/materials/shared_nightarcastleblock.json"
+  "tiles/materials/nightarcrosshatch.material": {
+    "/description": "texts/materials/shared_nightarcrosshatch.mat.json",
+    "/shortdescription": "texts/materials/shared_nightarcrosshatch.mat.json"
   },
-  "tiles/materials/nightarcastleblock2.material": {
-    "/description": "texts/materials/shared_nightarcastleblock.json",
-    "/floranDescription": "texts/materials/shared_nightar.json",
-    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/materials/shared_nightarcastleblock.json",
-    "/novakidDescription": "texts/materials/shared_nightarcastleblock.json",
-    "/shortdescription": "texts/materials/shared_nightarcastleblock.json"
+  "tiles/materials/nightardecotile.material": {
+    "/description": "texts/materials/shared_nightardecotile.mat.json",
+    "/shortdescription": "texts/materials/shared_nightardecotile.mat.json"
   },
-  "tiles/materials/nightarfloor.material": {
-    "/floranDescription": "texts/materials/shared_nightarfloor.mat.json",
-    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/materials/shared_nightarfloor.mat.json",
-    "/novakidDescription": "texts/materials/shared_nightarfloor.mat.json"
+  "tiles/materials/nightarfence1.material": {
+    "/description": "texts/materials/shared_nightarfence1.mat.json",
+    "/shortdescription": "texts/materials/shared_nightarfence1.mat.json"
   },
-  "tiles/materials/nightarshipblock.material": {
-    "/description": "texts/materials/shared_block.mat.json",
-    "/floranDescription": "texts/materials/shared_nightar.json",
-    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/materials/shared_nightarshipblock.mat.json",
-    "/novakidDescription": "texts/materials/shared_nightarshipblock.mat.json",
-    "/shortdescription": "texts/materials/shared_block.mat.json"
+  "tiles/materials/nightargirder1.material": {
+    "/description": "texts/materials/shared_nightargirder1.mat.json",
+    "/shortdescription": "texts/materials/shared_nightargirder1.mat.json"
+  },
+  "tiles/materials/nightargirder2.material": {
+    "/description": "texts/materials/shared_nightargirder2.mat.json",
+    "/shortdescription": "texts/materials/shared_nightargirder2.mat.json"
+  },
+  "tiles/materials/nightarplatform2.material": {
+    "/description": "texts/materials/shared_nightarplatform2.mat.json",
+    "/shortdescription": "texts/shared_platform.json"
+  },
+  "tiles/materials/nightarpurplebrick.material": {
+    "/description": "texts/materials/shared_nightarpurplebrick.mat.json",
+    "/shortdescription": "texts/materials/shared_nightarpurplebrick.mat.json"
+  },
+  "tiles/materials/nightarpurplebrick2.material": {
+    "/description": "texts/materials/shared_nightarpurplebrick2.mat.json",
+    "/shortdescription": "texts/materials/shared_nightarpurplebrick2.mat.json"
+  },
+  "tiles/materials/nightarpurplewall.material": {
+    "/description": "texts/materials/shared_nightarpurplewall.mat.json",
+    "/shortdescription": "texts/materials/shared_nightarpurplewall.mat.json"
+  },
+  "tiles/materials/nightarsilverchain.material": {
+    "/description": "texts/materials/shared_nightarsilverchain.mat.json",
+    "/shortdescription": "texts/materials/shared_nightarsilverchain.mat.json"
+  },
+  "tiles/materials/nightarsilverroof.material": {
+    "/description": "texts/materials/shared_nightarsilverroof.mat.json",
+    "/shortdescription": "texts/materials/shared_nightarsilverroof.mat.json"
+  },
+  "tiles/materials/nightarsilvertech.material": {
+    "/description": "texts/materials/shared_nightarsilvertech.mat.json",
+    "/shortdescription": "texts/materials/shared_nightarsilvertech.mat.json"
+  },
+  "tiles/materials/nightarsilverwindow.material": {
+    "/description": "texts/materials/shared_nightarsilverwindow.mat.json",
+    "/shortdescription": "texts/materials/shared_nightarsilverwindow.mat.json"
   },
   "tiles/materials/nightarsupport.material": {
     "/description": "texts/materials/shared_nightarsupport.json",
@@ -41160,27 +41274,12 @@
     "/novakidDescription": "texts/materials/shared_nightarsupport.json",
     "/shortdescription": "texts/materials/shared_nightarsupport.json"
   },
-  "tiles/materials/nightarswall1.material": {
-    "/description": "texts/materials/shared_nightarswall1.mat.json",
-    "/floranDescription": "texts/materials/shared_nightarswall1.mat.json",
-    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/materials/shared_nightarswall1.mat.json",
-    "/novakidDescription": "texts/materials/shared_nightarswall1.mat.json",
-    "/shortdescription": "texts/materials/shared_nightarswall1.mat.json"
-  },
   "tiles/materials/nightartechblock.material": {
-    "/floranDescription": "texts/materials/shared_nightartechblock.mat.json",
-    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/materials/shared_nightartechblock.mat.json",
-    "/novakidDescription": "texts/materials/shared_nightartechblock.mat.json",
     "/shortdescription": "texts/materials/shared_nightartechblock.mat.json"
   },
-  "tiles/materials/nightarwall2.material": {
-    "/floranDescription": "texts/materials/shared_nightarwall2.mat.json",
-    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/materials/shared_nightarwall2.mat.json",
-    "/novakidDescription": "texts/materials/shared_nightarwall2.mat.json",
-    "/shortdescription": "texts/materials/shared_nightarwall2.mat.json"
+  "tiles/materials/nightarwindow.material": {
+    "/description": "texts/materials/shared_nightarwindow.mat.json",
+    "/shortdescription": "texts/materials/shared_nightarwindow.mat.json"
   },
   "tiles/materials/panelwood.material": {
     "/description": "texts/materials/shared_panelwood.mat.json",
@@ -42255,7 +42354,7 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/shared_nightarsplatform.mat.json",
     "/novakidDescription": "texts/shared_nightarsplatform.mat.json",
-    "/shortdescription": "texts/shared_nightarsplatform.mat.json"
+    "/shortdescription": "texts/shared_platform.json"
   },
   "tiles/platforms/peglacialloyplatform.material": {
     "/description": "texts/shared_peglacialloyplatform.mat.json",

@@ -2977,9 +2977,10 @@
         "fruitpress.config.json": 2,
         "fruitpressnew.config.json": 1,
         "fu_anvil.config.json": 2,
-        "fu_shipcraftingtable.config.json": 2,
+        "fu_shipcraftingtable.config.json": 1,
         "fuburgerfool.config.json": 2,
         "fucorpsewagon.config.json": 2,
+        "fuempty.config.json": 1,
         "fufoodshopfloran.config.json": 2,
         "fufoodstore.config.json": 2,
         "fugemshop.config.json": 2,
@@ -7555,7 +7556,7 @@
           "sulphur.item.json": 2,
           "tethyde.item.json": 2,
           "tethydefurnitureplating.item.json": 1,
-          "thanatite.item.json": 1,
+          "thanatite.item.json": 2,
           "tokanite.item.json": 2,
           "upilite.item.json": 2,
           "uraniumradien.consumable.json": 1,
@@ -8590,10 +8591,13 @@
         "moltensteel.matitem.json": 2,
         "moltentile.matitem.json": 2,
         "nightarcastleblock.matitem.json": 1,
-        "nightarfloor.matitem.json": 2,
+        "nightarcastleblock2.matitem.json": 1,
+        "nightarfloor.matitem.json": 5,
+        "nightarshipblock.matitem.json": 1,
         "nightarsupport2.matitem.json": 1,
-        "nightartechblock.matitem.json": 1,
-        "nightarwall2.matitem.json": 1,
+        "nightarswall1.matitem.json": 5,
+        "nightartechblock.matitem.json": 4,
+        "nightarwall2.matitem.json": 5,
         "oystershellmaterial.matitem.json": 2,
         "peglacialloyplatform.matitem.json": 3,
         "peglacigiantekblock.matitem.json": 2,
@@ -8657,6 +8661,7 @@
         "shared_irradiatedwall.json": 1,
         "shared_magmawall.json": 1,
         "shared_material.matitem.json": 2,
+        "shared_nightarcastleblock.json": 1,
         "shared_platform.matitem.json": 1,
         "shared_precursor.json": 1,
         "shared_sandstone.matitem.json": 1,
@@ -8977,13 +8982,22 @@
       "shared_modernshingle.mat.json": 3,
       "shared_moderntile.mat.json": 4,
       "shared_nightar.json": 1,
-      "shared_nightarcastleblock.json": 2,
-      "shared_nightarfloor.mat.json": 3,
-      "shared_nightarshipblock.mat.json": 1,
+      "shared_nightarcrosshatch.mat.json": 2,
+      "shared_nightardecotile.mat.json": 2,
+      "shared_nightarfence1.mat.json": 2,
+      "shared_nightargirder1.mat.json": 2,
+      "shared_nightargirder2.mat.json": 2,
+      "shared_nightarplatform2.mat.json": 1,
+      "shared_nightarpurplebrick.mat.json": 2,
+      "shared_nightarpurplebrick2.mat.json": 2,
+      "shared_nightarpurplewall.mat.json": 2,
+      "shared_nightarsilverchain.mat.json": 2,
+      "shared_nightarsilverroof.mat.json": 2,
+      "shared_nightarsilvertech.mat.json": 2,
+      "shared_nightarsilverwindow.mat.json": 2,
       "shared_nightarsupport.json": 5,
-      "shared_nightarswall1.mat.json": 5,
-      "shared_nightartechblock.mat.json": 4,
-      "shared_nightarwall2.mat.json": 4,
+      "shared_nightartechblock.mat.json": 1,
+      "shared_nightarwindow.mat.json": 2,
       "shared_panelwood.mat.json": 5,
       "shared_peglaci.json": 30,
       "shared_pipe.mat.json": 1,
@@ -11436,7 +11450,7 @@
           "fu_racializer.object.json": 2
         },
         "fu_shipcraftingtable": {
-          "fu_shipcraftingtable.object.json": 2
+          "fu_shipcraftingtable.object.json": 1
         },
         "fu_woodensifter": {
           "fu_woodensifter.object.json": 2
@@ -11532,6 +11546,7 @@
           "servitorloader.object.json": 2
         },
         "shared_.object.json": 3,
+        "shared_outpost.object.json": 1,
         "shared_thealingstation": {
           "shared_pethealingstation.json": 1
         },
@@ -12658,7 +12673,7 @@
           "tetherhookseed.object.json": 2
         },
         "thanatite": {
-          "thanatiteseed.object.json": 7
+          "thanatiteseed.object.json": 9
         },
         "thornitoxplant": {
           "shared_thornitoxseed.object.json": 2
@@ -13645,6 +13660,9 @@
           "shared_.object.json": 6,
           "shared_e.object.json": 1
         },
+        "shared_storage3": {
+          "shared_voidstorage.json": 1
+        },
         "signs": {
           "signpub.object.json": 2
         },
@@ -13662,11 +13680,11 @@
           "genestorage.object.json": 2
         },
         "storage3": {
-          "voidstorage.object.json": 5,
+          "voidstorage.object.json": 4,
           "weaponcompressor.object.json": 2
         },
         "storage3new": {
-          "voidstoragenew.object.json": 2
+          "voidstoragenew.object.json": 1
         },
         "storage4": {
           "fuwallsafe.object.json": 1
@@ -14920,6 +14938,12 @@
         "nightarbookcase": {
           "nightarbookcase.object.json": 7
         },
+        "nightarbookcase2": {
+          "nightarbookcase2.object.json": 2
+        },
+        "nightarbookcaseswitch": {
+          "nightarbookcaseswitch.object.json": 1
+        },
         "nightarbox1": {
           "nightarbox1.object.json": 7
         },
@@ -14927,10 +14951,16 @@
           "nightarbox2.object.json": 6
         },
         "nightarcabinet": {
-          "nightarcabinet.object.json": 2
+          "nightarcabinet.object.json": 1
+        },
+        "nightarcabinet2": {
+          "nightarcabinet2.object.json": 1
         },
         "nightarcastledoor": {
           "nightarcastledoor.object.json": 2
+        },
+        "nightarcellbed": {
+          "nightarcellbed.object.json": 3
         },
         "nightarchair": {
           "nightarchair.object.json": 3
@@ -14941,23 +14971,47 @@
         "nightarchest": {
           "nightarchest.object.json": 9
         },
+        "nightarcomfychair": {
+          "shared_nightarcomfychair.json": 2
+        },
         "nightarcomputer": {
           "nightarcomputer.object.json": 7
         },
         "nightarconsole": {
           "nightarconsole.object.json": 7
         },
+        "nightarcookingpot": {
+          "nightarcookingpot.object.json": 2
+        },
         "nightarcouch": {
           "nightarcouch.object.json": 5
         },
+        "nightarcounter": {
+          "nightarcounter.object.json": 2
+        },
+        "nightardesk": {
+          "nightardesk.object.json": 2
+        },
+        "nightardesk2": {
+          "nightardesk2.object.json": 2
+        },
         "nightardresser": {
-          "nightardresser.object.json": 9
+          "nightardresser.object.json": 8
+        },
+        "nightardresser2": {
+          "nightardresser2.object.json": 1
         },
         "nightarfridge": {
           "nightarfridge.object.json": 2
         },
+        "nightarfurnace": {
+          "nightarfurnace.object.json": 4
+        },
         "nightarglobe": {
-          "nightarglobe.object.json": 10
+          "nightarglobe.object.json": 9
+        },
+        "nightarglobe2": {
+          "nightarglobe2.object.json": 2
         },
         "nightarjuicekeg": {
           "nightarjuicekeg.object.json": 2
@@ -14978,7 +15032,7 @@
           "nightarmedievalbookcase.object.json": 2
         },
         "nightarmedievalbookcaseswitch": {
-          "nightarmedievalbookcaseswitch.object.json": 9
+          "nightarmedievalbookcaseswitch.object.json": 8
         },
         "nightarmedievalcabinet": {
           "nightarmedievalcabinet.object.json": 2
@@ -15020,7 +15074,7 @@
           "nightarmedievalglobe.object.json": 1
         },
         "nightarmedievallargecookingpot": {
-          "nightarmedievallargecookingpot.object.json": 3
+          "nightarmedievallargecookingpot.object.json": 2
         },
         "nightarmedievalregister": {
           "nightarmedievalregister.object.json": 2
@@ -15053,7 +15107,10 @@
           "nightarsbannertorn.object.json": 9
         },
         "nightarshelf": {
-          "nightarshelf.object.json": 2
+          "nightarshelf.object.json": 1
+        },
+        "nightarshelf2": {
+          "nightarshelf2.object.json": 1
         },
         "nightarshiplight": {
           "nightarshiplight.object.json": 2
@@ -15094,6 +15151,12 @@
         "ranscastle": {
           "ranscastle.object.json": 3
         },
+        "shared_bookcaseswitch": {
+          "shared_bookcaseswitch.object.json": 1
+        },
+        "shared_cookingpot": {
+          "shared_cookingpot.object.json": 1
+        },
         "shared_nightarbladedisplay": {
           "shared_nightarbladedisplay.json": 9
         },
@@ -15103,8 +15166,20 @@
         "shared_nightarc": {
           "shared_nightarc.json": 2
         },
+        "shared_nightarcabinet": {
+          "shared_nightarcabinet.json": 1
+        },
         "shared_nightarco": {
           "shared_nightarco.json": 2
+        },
+        "shared_nightardresser": {
+          "shared_nightardresser.json": 1
+        },
+        "shared_nightarglobe": {
+          "shared_nightarglobe.json": 1
+        },
+        "shared_nightarshelf": {
+          "shared_nightarshelf.json": 1
         }
       },
       "nocxium": {
@@ -15750,7 +15825,7 @@
         "fuokeahitechbath.object.json": 1,
         "fuokeahitechbed.object.json": 1,
         "fuokeahitechbookcase2.object.json": 3,
-        "fuokeahitechcounter.object.json": 3,
+        "fuokeahitechcounter.object.json": 4,
         "fuokeahitechcupboard.object.json": 3,
         "fuokeahitechdrawer.object.json": 3,
         "fuokeahitechfridge.object.json": 2,
@@ -16930,7 +17005,8 @@
           "fu_crewbedracialbunk_glitch.object.json": 2,
           "fu_crewbedracialbunk_human.object.json": 2,
           "fu_crewbedracialbunk_hylotl.object.json": 2,
-          "fu_crewbedracialbunk_novakid.object.json": 2
+          "fu_crewbedracialbunk_novakid.object.json": 2,
+          "fu_crewbedracialbunk_protectorate.object.json": 2
         },
         "fu_crewbedracialwall": {
           "fu_crewbedracialwall_apex.object.json": 2,
@@ -17508,6 +17584,30 @@
           "shared_veluushipdoor.json": 1
         },
         "shipbeds": {
+          "apexshipbed": {
+            "apexshipbed.object.json": 1
+          },
+          "apexshipbed2": {
+            "apexshipbed2.object.json": 1
+          },
+          "avianshipbed": {
+            "avianshipbed.object.json": 1
+          },
+          "avianshipbed2": {
+            "avianshipbed2.object.json": 1
+          },
+          "floranshipbed": {
+            "floranshipbed.object.json": 1
+          },
+          "floranshipbed2": {
+            "floranshipbed2.object.json": 1
+          },
+          "glitchshipbed": {
+            "glitchshipbed.object.json": 1
+          },
+          "glitchshipbed2": {
+            "glitchshipbed2.object.json": 1
+          },
           "humanshipbed": {
             "humanshipbed.object.json": 1
           },
@@ -17520,6 +17620,12 @@
           "hylotlshipbed2": {
             "hylotlshipbed2.object.json": 1
           },
+          "novakidshipbed": {
+            "novakidshipbed.object.json": 1
+          },
+          "novakidshipbed2": {
+            "shared_novakidshipbed2.json": 1
+          },
           "protectorateshipbed": {
             "protectorateshipbed.object.json": 1
           },
@@ -17527,16 +17633,16 @@
             "protectorateshipbed2.object.json": 1
           },
           "shared_apexshipbed": {
-            "shared_apexshipbed.json": 2
+            "shared_apexshipbed.json": 1
           },
           "shared_avianshipbed": {
-            "shared_avianshipbed.json": 2
+            "shared_avianshipbed.json": 1
           },
           "shared_floranshipbed": {
-            "shared_floranshipbed.json": 2
+            "shared_floranshipbed.json": 1
           },
           "shared_glitchshipbed": {
-            "shared_glitchshipbed.json": 2
+            "shared_glitchshipbed.json": 1
           },
           "shared_humanshipbed": {
             "shared_humanshipbed.json": 1
@@ -17545,7 +17651,7 @@
             "shared_hylotlshipbed.json": 1
           },
           "shared_novakidshipbed": {
-            "shared_novakidshipbed.json": 2
+            "shared_novakidshipbed.json": 1
           },
           "shared_protectorateshipbed": {
             "shared_protectorateshipbed.json": 1
@@ -17850,7 +17956,7 @@
           "skathcodexbeacon.object.json": 11
         },
         "skathforge1": {
-          "skathforge.object.json": 16
+          "skathforge.object.json": 15
         },
         "skathworktable1": {
           "skathworktable.object.json": 22
@@ -20932,6 +21038,7 @@
     "shared_fu_copperladder.mat.json": 2,
     "shared_fu_copperplatform.mat.json": 1,
     "shared_fu_raincloudplatform.mat.json": 2,
+    "shared_fu_shipcraftingtable.json": 1,
     "shared_fuaetherdustplatform.mat.json": 1,
     "shared_fuaetherplatform.mat.json": 1,
     "shared_fuapplehoneypie.json": 1,
@@ -20956,7 +21063,7 @@
     "shared_lobster..json": 1,
     "shared_mat.json": 1,
     "shared_matmod.json": 5,
-    "shared_nightarsplatform.mat.json": 5,
+    "shared_nightarsplatform.mat.json": 4,
     "shared_oceanite.json": 1,
     "shared_orphanpaste.json": 1,
     "shared_ost.json": 1,
@@ -20964,6 +21071,7 @@
     "shared_peglacialloyplatform.mat.json": 2,
     "shared_peglacipykreteplatform.mat.json": 2,
     "shared_pekkit.json": 1,
+    "shared_platform.json": 1,
     "shared_platform.mat.json": 1,
     "shared_pod": {
       "shared_aquapod.json": 1
@@ -20979,7 +21087,6 @@
     "shared_sphere.json": 1,
     "shared_tation.json": 1,
     "shared_telebriumplatform.mat.json": 2,
-    "shared_thanatite.json": 1,
     "shared_tion.json": 2,
     "shared_weapon.json": 1,
     "spawners": {
@@ -22439,10 +22546,13 @@
         "marestone.material.json": 1,
         "matterblock.material.json": 5,
         "metallicslab.material.json": 1,
-        "nightarcastleblock.material.json": 1,
+        "nightarcastleblock.material.json": 2,
+        "nightarcastleblock2.material.json": 2,
         "nightarfloor.material.json": 2,
+        "nightarshipblock.material.json": 2,
+        "nightarswall1.material.json": 2,
         "nightartechblock.material.json": 1,
-        "nightarwall2.material.json": 1,
+        "nightarwall2.material.json": 2,
         "oystershell.material.json": 2,
         "peglaci": {
           "peglacihexpane.material.json": 1,
@@ -22687,7 +22797,7 @@
         "sturdyplatform.material.json": 2
       }
     },
-    "wide_spread_fields.json": 153,
+    "wide_spread_fields.json": 152,
     "zb": {
       "newSail": {
         "data.config.json": 26,
