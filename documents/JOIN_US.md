@@ -51,7 +51,7 @@ starbound富文本的语法支持：
 * 如果你使用是IDEA IDE的话，你可以通过安装Starbound Text插件来提供Starbound富文本的语言支持。
 * 要想永久性将translations/texts目录下的json文件中的Chs属性的值识别为Starbound富文本，你需要绑定json schema文件与该目录下的所有json文件。打开任意json文件，点击右下角的“Schema...”，点击“Edit Schema Mapping”，添加目录类型的Schema Mapping，选择项目目录下的schema/text.yml作为schema文件，选择项目目录下的translations/texts作为要绑定的目录，即可完成绑定。
 * 成功绑定后，打开translation/texts目录下的任意json文件，等待完成文件结构解析后，你应当看到其中的Chs属性的值有了颜色标记的高亮，但Eng属性不做识别。
-* 可以将鼠标移到文本上，输入Alt+Enter，然后选择"Edit Starbound Text Fragment"，在临时窗口中更直观地编辑文本。
+* 可以将鼠标移到文本上，输入Alt+Enter，然后选择"Edit Starbound Text Fragment"，在临时窗口中更直观地编辑文本。（**注意：存在bug，谨慎使用！**）
 * 这会高亮文本为对应的颜色（包括#fff格式的自定义颜色），将换行符“\n”替换成真正的换行，并可通过collapse all折叠所有颜色标记，将颜色标记统一折叠为“<>”，提供更好的预览效果。
 * 如果存在语法解析的错误，IDEA的编辑器中会报错，也可通过Inspect Code检查代码功能，将项目中的所有语法解析错误列出来。
 * 注意IDEA在编辑临时窗口中的文本时，折叠颜色标记后，可能会有自身的bug，没有将临时窗口中的文本完全同步到原本的json文件中。
