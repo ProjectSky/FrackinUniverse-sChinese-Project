@@ -27,6 +27,7 @@
 * ~~在线编辑（此方法比较方便，编辑器带有语法检查，可以防止语法错误，不过浏览器崩了或其他原因会丢失数据，还是推荐克隆到本地进行编辑。）~~
 * 请参阅[JOIN_US.md](https://github.com/ProjectSky/FrackinUniverse-sChinese-Project/blob/FAST/documents/JOIN_US.md)
 * 汉化小白请参阅[小白专属教程](https://github.com/ProjectSky/FrackinUniverse-sChinese-Project/blob/FAST/documents/JOIN_US_FRASHMAN.md)
+* 快速汉化请参阅[快速汉化教程](https://github.com/ChenJunsen/StarboundAutoTranslator)
 
 #### 链接信息
 
