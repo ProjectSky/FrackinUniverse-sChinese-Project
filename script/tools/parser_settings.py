@@ -2,7 +2,7 @@ from re import compile as regex
 
 foi = {
     "*": [".*escription$", "^(.+/)?[Tt]ext$", "^(.+/)?[Dd]ialog/[^/]+/[^/]+/.*[0-9]+$",
-          "^(.+/)?(lbl)?([sS]ub)?[tT]itle(/value)?$", "^(.+/)+caption$", "^(.+/)?label$", "^(.+/)?message$", "^.+Name/value$",
+           "^(.+/)?(lbl)?([sS]ub)?[tT]itle(/value)?$", "^(.+/)+caption$", "^(.+/)?label$", "^(.+/)?message$", "^.+Name/value$",
           "^.*friendlyName$", ".*senderName$", ".*destinations/.+[Nn]ame$", ".+[lL]abel[a-zA-Z]*/value$",
           "bookmarkName"],
     ".object": ["^chatOptions/.+$", ],
@@ -75,11 +75,12 @@ foi = {
     ".bush": [],
     ".grass": [],
     ".monstertype": ["^(.+/)?dialog/.+$"],
-    ".monsterskill": ["^label$"],
+    #".monsterskill": ["^label$"],
     ".aimission": [".*Text$"],
     ".questtemplate": ["^.+Text(/[^0-9]+([0-9]+/1)?/[0-9]+)?$",
                        "^scriptConfig/(descriptions|.+Note|parcel(Name|Description))/.+$", "^.+/example/name$"],
     ".tooltip": ['.+/value$'],
+    ".weaponability": ['^ability/name$'],
     ".itemdescription": [],
     ".collection": [],
     ".animation": [],
