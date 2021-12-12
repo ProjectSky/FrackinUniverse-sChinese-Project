@@ -174,9 +174,10 @@ def import_patch(patch_dir, file_dir):
                                 pass
                             else:
                                 json_dict[i]['Texts']['Chs'] = y["value"]
-                                f = open(json_file, "w+", "utf-8")
+                                f = open(json_file, "w", "utf-8")
                                 json.dump(
                                     json_dict, f, ensure_ascii=False, indent=2, sort_keys=True)
+                                f.close
 
 
 class Interface:
