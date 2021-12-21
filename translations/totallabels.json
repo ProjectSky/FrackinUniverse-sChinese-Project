@@ -5275,6 +5275,9 @@
           "fuicaruswings": {
             "fuicaruswings.back.json": 2
           },
+          "fumeteorpack": {
+            "meteorshell.back.json": 2
+          },
           "fusurvivorpack": {
             "fusurvivorback.back.json": 2
           },
@@ -6033,6 +6036,9 @@
           },
           "duncette": {
             "duncette.head.json": 2
+          },
+          "fuinvisiblehat": {
+            "fuinvisiblehat.head.json": 2
           },
           "glitterfolk": {
             "kirhosglitterfolk.chest.json": 1,
@@ -8481,7 +8487,6 @@
         "elduupanelsloped2.matitem.json": 1,
         "energywood.matitem.json": 1,
         "erchiuspillar.matitem.json": 1,
-        "fancywoodstairs.matitem.json": 1,
         "flowerybars.matitem.json": 1,
         "frozensand2material.matitem.json": 2,
         "frozensandmaterial.matitem.json": 1,
@@ -8565,6 +8570,20 @@
         "hivebeestonematerial.matitem.json": 1,
         "hiveold.matitem.json": 1,
         "hiveoldmaterial.matitem.json": 1,
+        "honey": {
+          "frozenwaxplatform.matitem.json": 1,
+          "fu_honeycombblock.matitem.json": 1,
+          "fu_redhoneycombblock.matitem.json": 1,
+          "goldenleaves.matitem.json": 1,
+          "goldensand.matitem.json": 1,
+          "goldenwood.matitem.json": 1,
+          "honeycrystalblock.matitem.json": 2,
+          "redwaxplatform.matitem.json": 1,
+          "waxblock1.matitem.json": 1,
+          "waxplatform.matitem.json": 1,
+          "whitewaxblock.matitem.json": 2,
+          "whitewaxplatform.matitem.json": 1
+        },
         "honeyplatform.matitem.json": 1,
         "hydrotubematerial.matitem.json": 2,
         "iceblock1material.matitem.json": 2,
@@ -8615,6 +8634,9 @@
         "penumbradirtmaterial.matitem.json": 2,
         "penumbrastonematerial.matitem.json": 2,
         "penumbriteblock.matitem.json": 2,
+        "pixelgoods": {
+          "fujellyblock2.matitem.json": 1
+        },
         "plasmamaterial.matitem.json": 1,
         "precursorchain.matitem.json": 1,
         "precursordecorative.matitem.json": 1,
@@ -8691,6 +8713,15 @@
         "sulphurstonematerial.matitem.json": 1,
         "swampdirtffmaterial.matitem.json": 1,
         "tarstonematerial.matitem.json": 1,
+        "tilesandgreebles": {
+          "fureinforcedglass.matitem.json": 2,
+          "hitechmetalblock.matitem.json": 1,
+          "labframedglass.matitem.json": 1,
+          "labtechpanel.matitem.json": 1,
+          "labwall.matitem.json": 1,
+          "labwall1.matitem.json": 1,
+          "labwallfence.matitem.json": 1
+        },
         "treatedaenwood.matitem.json": 2,
         "unrefinedandesite.matitem.json": 3,
         "unrefinedarkose.matitem.json": 3,
@@ -8847,6 +8878,35 @@
       "wastewater.liquid.json": 1
     },
     "materials": {
+      "honey": {
+        "shared_beesilkwallpaper.mat.json": 5,
+        "shared_frozenwaxblock.mat.json": 2,
+        "shared_frozenwaxplatform.mat.json": 1,
+        "shared_fu_honeycombblock.mat.json": 1,
+        "shared_fu_redhoneycombblock.mat.json": 1,
+        "shared_goldenleaves.mat.json": 1,
+        "shared_goldensand.mat.json": 1,
+        "shared_goldenwood.mat.json": 4,
+        "shared_goldenwoodbridge.mat.json": 5,
+        "shared_goldenwoodpanelling.mat.json": 5,
+        "shared_goldenwoodplatform.mat.json": 5,
+        "shared_honeycrystalblock.mat.json": 2,
+        "shared_honeystone.mat.json": 5,
+        "shared_redwaxblock.mat.json": 2,
+        "shared_redwaxplatform.mat.json": 1,
+        "shared_treatedgoldenwood.mat.json": 5,
+        "shared_unrefinedgoldenwood.mat.json": 5,
+        "shared_waxblock1.mat.json": 1,
+        "shared_waxplatform.mat.json": 1,
+        "shared_whitewaxplatform.mat.json": 1
+      },
+      "pixelgoods": {
+        "shared_fuokeagrass.mat.json": 2,
+        "shared_fuokeahitechwall.json": 1,
+        "shared_fuokeahitechwall2.mat.json": 1,
+        "shared_fuokeamagmabrick.mat.json": 2,
+        "shared_fuokeamagmastone.mat.json": 2
+      },
       "shared_.mat.json": 4,
       "shared_aegisaltcrystal.mat.json": 1,
       "shared_aen.json": 3,
@@ -9064,14 +9124,30 @@
       "shared_veluu.json": 9,
       "shared_vinewall.mat.json": 1,
       "shared_violiumcrystal.mat.json": 1,
+      "shared_wall.json": 1,
       "shared_warttile.mat.json": 1,
       "shared_wastestone.mat.json": 1,
       "shared_weathered.json": 8,
       "shared_window.json": 15,
       "shared_wood.json": 18,
-      "shared_woodentrim.mat.json": 2
+      "shared_woodentrim.mat.json": 2,
+      "tilesandgreebles": {
+        "shared_.mat.json": 2,
+        "shared_fulabhoverpanel.mat.json": 2,
+        "shared_fulabhoverplatform.mat.json": 2,
+        "shared_irongrating.mat.json": 2,
+        "shared_labbeam.mat.json": 1,
+        "shared_labframedglass.mat.json": 1,
+        "shared_labgirdir.mat.json": 2,
+        "shared_labroof.mat.json": 2,
+        "shared_labsupport.mat.json": 1,
+        "shared_labtechpanel.mat.json": 1,
+        "shared_labtile.mat.json": 1,
+        "shared_steelgirdir2.mat.json": 2,
+        "shared_veinblock.mat.json": 2
+      }
     },
-    "materials.json": 57,
+    "materials.json": 59,
     "monsters": {
       "bees": {
         "adaptivebee": {
@@ -20979,9 +21055,9 @@
       "shared_es.radiomessages.json": 1
     },
     "shared_.config.json": 27,
-    "shared_.mat.json": 2,
+    "shared_.mat.json": 1,
     "shared_ail.json": 3,
-    "shared_amberplatform.mat.json": 1,
+    "shared_amberplatform.mat.json": 2,
     "shared_ary": {
       "shared_.object.json": 1
     },
@@ -21031,7 +21107,7 @@
     },
     "shared_ers.json": 9,
     "shared_exonite.json": 1,
-    "shared_fancywoodstairs.mat.json": 1,
+    "shared_fancywoodstairs.mat.json": 2,
     "shared_feya.json": 1,
     "shared_fish..json": 1,
     "shared_fu_cloudplatform.mat.json": 2,
@@ -22467,57 +22543,25 @@
             "shared_honeystonebrick.mat.json": 5
           },
           "frozenwaxplatform.material.json": 1,
-          "frozenwaxplatform.matitem.json": 1,
           "fu_honeycombblock.material.json": 1,
-          "fu_honeycombblock.matitem.json": 1,
           "fu_redhoneycombblock.material.json": 1,
-          "fu_redhoneycombblock.matitem.json": 1,
           "goldenglass": {
             "shared_goldenglass.mat.json": 3
           },
           "goldenleaves.material.json": 1,
-          "goldenleaves.matitem.json": 1,
           "goldenplanks": {
             "goldenplank.material.json": 1,
             "goldenplank.matitem.json": 1,
             "shared_goldenplank.mat.json": 4
           },
           "goldensand.material.json": 1,
-          "goldensand.matitem.json": 1,
           "goldenwood.material.json": 1,
-          "goldenwood.matitem.json": 1,
           "honeycrystalblock.material.json": 2,
-          "honeycrystalblock.matitem.json": 2,
           "redwaxplatform.material.json": 1,
-          "redwaxplatform.matitem.json": 1,
-          "shared_beesilkwallpaper.mat.json": 5,
-          "shared_frozenwaxblock.mat.json": 2,
-          "shared_frozenwaxplatform.mat.json": 1,
-          "shared_fu_honeycombblock.mat.json": 1,
-          "shared_fu_redhoneycombblock.mat.json": 1,
-          "shared_goldenleaves.mat.json": 1,
-          "shared_goldensand.mat.json": 1,
-          "shared_goldenwood.mat.json": 4,
-          "shared_goldenwoodbridge.mat.json": 5,
-          "shared_goldenwoodpanelling.mat.json": 5,
-          "shared_goldenwoodplatform.mat.json": 5,
-          "shared_honeycrystalblock.mat.json": 2,
-          "shared_honeystone.mat.json": 5,
-          "shared_redwaxblock.mat.json": 2,
-          "shared_redwaxplatform.mat.json": 1,
-          "shared_treatedgoldenwood.mat.json": 5,
-          "shared_unrefinedgoldenwood.mat.json": 5,
-          "shared_waxblock1.mat.json": 1,
-          "shared_waxplatform.mat.json": 1,
-          "shared_whitewaxplatform.mat.json": 1,
           "waxblock1.material.json": 1,
-          "waxblock1.matitem.json": 1,
           "waxplatform.material.json": 1,
-          "waxplatform.matitem.json": 1,
           "whitewaxblock.material.json": 2,
-          "whitewaxblock.matitem.json": 2,
-          "whitewaxplatform.material.json": 1,
-          "whitewaxplatform.matitem.json": 1
+          "whitewaxplatform.material.json": 1
         },
         "hydrotube.material.json": 2,
         "icewaste": {
@@ -22565,14 +22609,6 @@
         "penumbradirt.material.json": 2,
         "penumbrastone.material.json": 2,
         "penumbriteblock.material.json": 2,
-        "pixelgoods": {
-          "fujellyblock2.matitem.json": 1,
-          "shared_fuokeagrass.mat.json": 2,
-          "shared_fuokeahitechwall.json": 1,
-          "shared_fuokeahitechwall2.mat.json": 1,
-          "shared_fuokeamagmabrick.mat.json": 2,
-          "shared_fuokeamagmastone.mat.json": 2
-        },
         "plasmamaterial.material.json": 1,
         "precursorchain.material.json": 1,
         "precursordecorative.material.json": 1,
@@ -22644,7 +22680,6 @@
         "shared_slimedirt.material.json": 1,
         "shared_stone.material.json": 1,
         "shared_support.material.json": 2,
-        "shared_wall.json": 1,
         "shared_wall.material.json": 1,
         "shared_wood": {
           "shared_fullwood1.material.json": 1,
@@ -22673,30 +22708,10 @@
         "tilesandgreebles": {
           "fulabsupport.material.json": 2,
           "fureinforcedglass.material.json": 2,
-          "fureinforcedglass.matitem.json": 2,
           "hitechmetalblock.material.json": 1,
-          "hitechmetalblock.matitem.json": 1,
           "labframedglass.material.json": 1,
-          "labframedglass.matitem.json": 1,
           "labtechpanel.material.json": 1,
-          "labtechpanel.matitem.json": 1,
-          "labwall.matitem.json": 1,
-          "labwall1.matitem.json": 1,
-          "labwallfence.material.json": 1,
-          "labwallfence.matitem.json": 1,
-          "shared_.mat.json": 2,
-          "shared_fulabhoverpanel.mat.json": 2,
-          "shared_fulabhoverplatform.mat.json": 2,
-          "shared_irongrating.mat.json": 2,
-          "shared_labbeam.mat.json": 1,
-          "shared_labframedglass.mat.json": 1,
-          "shared_labgirdir.mat.json": 2,
-          "shared_labroof.mat.json": 2,
-          "shared_labsupport.mat.json": 1,
-          "shared_labtechpanel.mat.json": 1,
-          "shared_labtile.mat.json": 1,
-          "shared_steelgirdir2.mat.json": 2,
-          "shared_veinblock.mat.json": 2
+          "labwallfence.material.json": 1
         },
         "treatedwood": {
           "futreatedcrosshatch.material.json": 1,
@@ -22717,7 +22732,7 @@
         },
         "whitemeteorite.material.json": 2
       },
-      "materials.json": 3,
+      "materials.json": 1,
       "mods": {
         "algaeore.matmod.json": 1,
         "avalitilled.matmod.json": 1,
