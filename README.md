@@ -28,6 +28,7 @@
 * 请参阅[JOIN_US.md](https://github.com/ProjectSky/FrackinUniverse-sChinese-Project/blob/FAST/documents/JOIN_US.md)
 * 汉化小白请参阅[小白专属教程](https://github.com/ProjectSky/FrackinUniverse-sChinese-Project/blob/FAST/documents/JOIN_US_FRASHMAN.md)
 * 快速汉化请参阅[快速汉化教程](https://github.com/ChenJunsen/StarboundAutoTranslator)
+* 批量汉化请参阅[批量汉化教程](https://github.com/ChenJunsen/starbound_auto_transalator_advanced)
 
 #### 链接信息
 
