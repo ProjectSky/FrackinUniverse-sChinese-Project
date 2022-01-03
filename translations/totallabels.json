@@ -99,6 +99,13 @@
             }
           },
           "melee": {
+            "abilities": {
+              "hammer": {
+                "elementalaura": {
+                  "elementalaura.weaponability.json": 1
+                }
+              }
+            },
             "broadsword": {
               "gangbroadsword.activeitem.json": 1
             }
@@ -703,6 +710,7 @@
         "bonematerial.matitem.json": 1,
         "brainsblock.matitem.json": 1,
         "cactiblock.matitem.json": 1,
+        "candyblock.matitem.json": 1,
         "clay.matitem.json": 1,
         "cloudblock.matitem.json": 1,
         "cobblestone.matitem.json": 1,
@@ -751,6 +759,7 @@
         "plantmatter.matitem.json": 1,
         "purplecrystal.matitem.json": 1,
         "rock14.matitem.json": 1,
+        "rockbrick.matitem.json": 1,
         "rustymetal.matitem.json": 1,
         "sand.matitem.json": 1,
         "sand2.matitem.json": 1,
@@ -1669,6 +1678,7 @@
       "mech.radiomessages.json": 25,
       "missions.radiomessages.json": 299,
       "quests.radiomessages.json": 5,
+      "ship.radiomessages.json": 1,
       "techchallenge.radiomessages.json": 1,
       "tutorial.radiomessages.json": 3
     },
@@ -2337,7 +2347,7 @@
         "luridmagazine3.codex.json": 1,
         "luridmagazine4.codex.json": 1,
         "networkguide.codex.json": 23,
-        "networkguide2.codex.json": 3,
+        "networkguide2.codex.json": 4,
         "randombook1.codex.json": 3,
         "randombook10.codex.json": 9,
         "randombook11.codex.json": 3,
@@ -2862,7 +2872,7 @@
           "lootboxData.config.json": 3
         },
         "fu_matmodplacer": {
-          "fu_matmodplacer.config.json": 114
+          "fu_matmodplacer.config.json": 117
         },
         "fu_planetcockpit": {
           "fu_planetcockpit.config.json": 1
@@ -2984,6 +2994,7 @@
         "fufoodshopfloran.config.json": 2,
         "fufoodstore.config.json": 2,
         "fugemshop.config.json": 2,
+        "fupeglacicraftingsnowpeoplegenerator.config.json": 2,
         "fupetshop.config.json": 2,
         "furniturestation.config.json": 2,
         "fushadowstore.config.json": 2,
@@ -3109,9 +3120,10 @@
             "radienhook.activeitem.json": 2
           },
           "slimegrapplinghook": {
-            "guslimegrapplinghook.activeitem.json": 2,
-            "slimegrapplinghook.activeitem.json": 2,
-            "xelslimegrapplinghook.activeitem.json": 2
+            "guslimegrapplinghook.activeitem.json": 1,
+            "shared_slimegrapplinghook.activeitem.json": 1,
+            "slimegrapplinghook.activeitem.json": 1,
+            "xelslimegrapplinghook.activeitem.json": 1
           },
           "tethersnap": {
             "tethersnap.activeitem.json": 2,
@@ -4270,6 +4282,7 @@
               "injectorbio.activeitem.json": 1,
               "irradiumspear.activeitem.json": 2,
               "isogenspear.activeitem.json": 2,
+              "kirhosispear.activeitem.json": 2,
               "lavaspear.activeitem.json": 3,
               "mantizispear.activeitem.json": 3,
               "marinerspear.activeitem.json": 2,
@@ -5358,9 +5371,6 @@
           "slimebioluminescence": {
             "slimebioluminescence.back.json": 2
           },
-          "slimeinvisibleback": {
-            "invisible.back.json": 1
-          },
           "tribalfeathers": {
             "tribalfeathers.back.json": 2
           },
@@ -5407,6 +5417,7 @@
               "airback.back.json": 2,
               "airbackunique.back.json": 2,
               "energyback.back.json": 2,
+              "lightningbackunique.back.json": 2,
               "powerback.back.json": 2,
               "quiver2.back.json": 2,
               "quiver3.back.json": 2,
@@ -5782,7 +5793,6 @@
         "hider": {
           "hider.chest.json": 2,
           "hider.legs.json": 2,
-          "hiderback.back.json": 1,
           "hiderhead.head.json": 2
         },
         "juux": {
@@ -5915,7 +5925,7 @@
             "peglacisnowsuit.legs.json": 2
           }
         },
-        "shared_back.json": 1,
+        "shared_back.json": 2,
         "shared_fudarkrobeschest.json": 1,
         "shared_fudarkrobeshelmet.json": 1,
         "shared_fudarkrobespants.json": 1,
@@ -12452,9 +12462,6 @@
         "flowerblackseed": {
           "flowerblack.object.json": 2
         },
-        "flowerblue": {
-          "flowerblue.object.json": 6
-        },
         "flowerbrownseed": {
           "flowerbrown.object.json": 2
         },
@@ -12478,17 +12485,8 @@
         "flowerpurpleseed": {
           "flowerpurple.object.json": 2
         },
-        "flowerred": {
-          "flowerred.object.json": 6
-        },
-        "flowerspring": {
-          "flowerspring.object.json": 7
-        },
         "flowerwhiteseed": {
           "flowerwhite.object.json": 2
-        },
-        "floweryellow": {
-          "floweryellow.object.json": 6
         },
         "fu_scriptedfarmableexample": {
           "fu_scriptedfarmableexample.object.json": 1
@@ -12687,9 +12685,6 @@
         },
         "shadowroot": {
           "shared_shadowrootseed.object.json": 2
-        },
-        "shared_flower": {
-          "shared_.object.json": 1
         },
         "shared_ite": {
           "shared_iteseed.object.json": 1
@@ -13405,7 +13400,7 @@
           "winecabinet.object.json": 9
         },
         "crewshop": {
-          "crewshop.object.json": 6,
+          "crewshop.object.json": 2,
           "crewsign.object.json": 2
         },
         "cropshipper": {
@@ -15739,7 +15734,7 @@
             "snowheadfloran.object.json": 2,
             "snowheadglitch.object.json": 2,
             "snowheadhuman.object.json": 1,
-            "snowheadhyotl.object.json": 3,
+            "snowheadhyotl.object.json": 2,
             "snowheadmantizi.object.json": 2,
             "snowheadpeglaci.object.json": 2,
             "snowheadskellie.object.json": 2
@@ -20300,11 +20295,9 @@
           "fu_gated": {
             "fu_gated.object.json": 2
           },
-          "relay.object.json": 1,
           "shared_compact_logic_": {
             "shared_swtjc_wp_compact.json": 10
           },
-          "shared_relay.object.json": 1,
           "shared_swtjc_wp_delay.json": 2,
           "swtjc_wp_actransformer.object.json": 2,
           "swtjc_wp_and3i.object.json": 1,
@@ -20341,6 +20334,7 @@
           "swtjc_wp_pulsetimer4s.object.json": 3,
           "swtjc_wp_pulsetimer5s.object.json": 3,
           "swtjc_wp_pulsetimerqs.object.json": 3,
+          "swtjc_wp_relay.object.json": 1,
           "swtjc_wp_xor3i.object.json": 1,
           "swtjc_wp_xor3i12h.object.json": 3,
           "swtjc_wp_xor3i1h.object.json": 3,
@@ -21137,7 +21131,6 @@
       }
     },
     "shared_lobster..json": 1,
-    "shared_mat.json": 1,
     "shared_matmod.json": 5,
     "shared_nightarsplatform.mat.json": 4,
     "shared_oceanite.json": 1,
@@ -21470,6 +21463,7 @@
             "shared_r.statuseffect.json": 1
           },
           "drain": {
+            "draincorvex.statuseffect.json": 1,
             "drainnightar.statuseffect.json": 1,
             "drainzombie.statuseffect.json": 1
           },
@@ -22659,7 +22653,7 @@
         "richlattice.material.json": 1,
         "rostone.material.json": 1,
         "rottingflesh.material.json": 1,
-        "shared_.material.json": 4,
+        "shared_.material.json": 5,
         "shared_avalidarkmetal.json": 1,
         "shared_avianmetaltrim.json": 2,
         "shared_boneyflesh.material.json": 2,
@@ -22826,7 +22820,7 @@
         "data.config.json": 3,
         "fu_agriculture.config.json": 96,
         "fu_chemistry.config.json": 64,
-        "fu_craftsmanship.config.json": 145,
+        "fu_craftsmanship.config.json": 147,
         "fu_engineering.config.json": 131,
         "fu_geology.config.json": 93,
         "fu_power.config.json": 75,
