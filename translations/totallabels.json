@@ -2817,7 +2817,7 @@
       },
       "kheAA": {
         "kheAA_router": {
-          "kheAA_routerGui.config.json": 19
+          "kheAA_routerGui.config.json": 21
         },
         "kheAA_terminal": {
           "kheAA_terminalGui.config.json": 8
@@ -2899,7 +2899,8 @@
           "3statecyclerGUI.config.json": 9
         },
         "mannequin": {
-          "cravenmannequingui.config.json": 3
+          "cravenmannequingui.config.json": 1,
+          "shared_gui.config.json": 2
         },
         "mmutility": {
           "mmutility.config.json": 6
@@ -4716,8 +4717,8 @@
               "funomadassaultrifle.activeitem.json": 3,
               "funomadrifle.activeitem.json": 4,
               "fuobliterator.activeitem.json": 2,
-              "fuplasmacannon.activeitem.json": 2,
-              "fuplasmagun.activeitem.json": 2,
+              "fuplasmacannon.activeitem.json": 1,
+              "fuplasmagun.activeitem.json": 1,
               "fuprotectoraterifle.activeitem.json": 2,
               "fuprotectoratesniper.activeitem.json": 2,
               "fupyreitepistol.activeitem.json": 2,
@@ -4972,7 +4973,7 @@
               "shared_fuhuntingrifle.json": 1,
               "shared_longarm.activeitem.json": 1,
               "shared_murdermanipulator.json": 1,
-              "shared_n.activeitem.json": 1,
+              "shared_n.activeitem.json": 2,
               "shared_swarmgun.activeitem.json": 1,
               "shared_xithricites.json": 1,
               "shoggothgun.activeitem.json": 2,
@@ -5041,6 +5042,7 @@
                 "armcannonveluufire.activeitem.json": 2,
                 "armcannonveluuice.activeitem.json": 2,
                 "armcannonveluupoison.activeitem.json": 2,
+                "armcannonveluushadow.activeitem.json": 2,
                 "veluupistol.activeitem.json": 5,
                 "veluurifle.activeitem.json": 2
               },
@@ -5139,7 +5141,8 @@
           "wand": {
             "floatwand": {
               "floatstaff.activeitem.json": 2,
-              "floatstaff2.activeitem.json": 2
+              "floatstaff2.activeitem.json": 2,
+              "petsummoner.activeitem.json": 2
             },
             "fubiowand": {
               "fubiowand.activeitem.json": 2
@@ -5413,17 +5416,37 @@
         "biome": {
           "garden": {
             "quiver": {
-              "aetherquiverback.back.json": 2,
-              "airback.back.json": 2,
-              "airbackunique.back.json": 2,
-              "energyback.back.json": 2,
-              "lightningbackunique.back.json": 2,
-              "powerback.back.json": 2,
-              "quiver2.back.json": 2,
-              "quiver3.back.json": 2,
-              "quiver4.back.json": 2,
-              "quiver5.back.json": 2,
-              "speedback.back.json": 2
+              "aether": {
+                "aetherquiverback.back.json": 2
+              },
+              "air": {
+                "airback.back.json": 2,
+                "airbackunique.back.json": 2
+              },
+              "energy": {
+                "energyback.back.json": 2
+              },
+              "lightning": {
+                "lightningbackunique.back.json": 2
+              },
+              "power": {
+                "powerback.back.json": 2
+              },
+              "quiver2": {
+                "quiver2.back.json": 2
+              },
+              "quiver3": {
+                "quiver3.back.json": 2
+              },
+              "quiver4": {
+                "quiver4.back.json": 2
+              },
+              "quiver5": {
+                "quiver5.back.json": 2
+              },
+              "speed": {
+                "speedback.back.json": 2
+              }
             }
           }
         },
@@ -6264,7 +6287,6 @@
             "shared_fuoperative..json": 1
           },
           "samurai": {
-            "fusamuraiarmor.chest.json": 1,
             "fusamuraiarmor.head.json": 1,
             "fusamuraiarmor.legs.json": 1,
             "fusamuraiarmor2.chest.json": 1,
@@ -6621,9 +6643,10 @@
             "shared_furavager..json": 1
           },
           "fustarkiller": {
-            "fustarkiller.chest.json": 2,
+            "fustarkiller.chest.json": 1,
             "fustarkiller.head.json": 2,
-            "fustarkiller.legs.json": 2
+            "fustarkiller.legs.json": 1,
+            "shared_fustarkiller..json": 1
           },
           "ghostweave": {
             "shared_tactical..json": 1,
@@ -10729,6 +10752,7 @@
         "shared_crewmember.npctype.json": 2,
         "shared_crewmemberchef.json": 12,
         "shared_crewmembercounsellor.json": 10,
+        "shared_crewmemberengineer.json": 1,
         "shared_crewmemberfu.json": 15,
         "shared_crewmemberjanitor.npctype.json": 2,
         "shared_crewmemberscience.json": 3
@@ -13707,7 +13731,8 @@
           }
         },
         "mannequin": {
-          "cravenmannequin.object.json": 2
+          "cravenmannequin.object.json": 2,
+          "fubust.object.json": 2
         },
         "mechbeacon": {
           "fumechbeacondecorative.object.json": 9
@@ -14825,7 +14850,7 @@
             "shared_precursorpillar.json": 1
           },
           "precursorpressureplatform": {
-            "templepressureplatform.object.json": 2
+            "precursorpressureplatform.object.json": 2
           },
           "precursorradar": {
             "escaperadar.object.json": 2
@@ -14851,17 +14876,19 @@
           "precursortable": {
             "precursortable.object.json": 2
           },
+          "precursortallpipe": {
+            "precursortallpipe.object.json": 2
+          },
           "precursorteleporter": {
             "shared_precursorteleporter.json": 1
           },
           "precursorterminal": {
-            "precursorterminal.object.json": 4
+            "precursorterminal.object.json": 3
           },
           "precursortinyswitch": {
-            "precursortinybuttonkey.object.json": 1,
+            "precursortinybuttonkey.object.json": 2,
             "precursortinyswitch.object.json": 2,
-            "precursortinyswitchkey.object.json": 1,
-            "shared_precursortiny.json": 1
+            "precursortinyswitchkey.object.json": 2
           },
           "precursortrap": {
             "precursortrap1.object.json": 2
@@ -14872,8 +14899,9 @@
           "precursorweaponrack": {
             "precursorweaponrack.object.json": 2
           },
-          "shared_precursor": {
-            "shared_precursor.json": 2
+          "precursorwidepipe": {
+            "precursorwidepipe.object.json": 2,
+            "precursorwidepipehuge.object.json": 2
           },
           "shared_precursorchair": {
             "shared_precursorchair.json": 1
@@ -20900,7 +20928,7 @@
             "create_matterassembler2.questtemplate.json": 4,
             "create_rockbreaker.questtemplate.json": 3,
             "create_sprouting.questtemplate.json": 4,
-            "create_tinkertable.questtemplate.json": 2,
+            "create_tinkertable.questtemplate.json": 3,
             "create_woodencentrifuge.questtemplate.json": 2,
             "create_woodensifter.questtemplate.json": 4,
             "fu_scienceoutpost.questtemplate.json": 2,
@@ -21076,7 +21104,6 @@
     "shared_ect.json": 3,
     "shared_elderplatform.mat.json": 2,
     "shared_emera.json": 1,
-    "shared_engineer.json": 1,
     "shared_ent.json": 1,
     "shared_eri.json": 2,
     "shared_ers": {
@@ -21422,13 +21449,6 @@
           }
         },
         "fu_armoreffects": {
-          "new": {
-            "set_bonuses": {
-              "tier1": {
-                "aviantier1setbonus.statuseffect.json": 1
-              }
-            }
-          },
           "special_bonuses": {
             "brainslug.animation.json": 1
           }
@@ -22369,6 +22389,7 @@
         "shared_physicsfield.json": 1,
         "shoggothmadness.tech.json": 2,
         "tenebrhaeburst.tech.json": 2,
+        "vashknaarenacid.tech.json": 2,
         "veluuclaw.tech.json": 2,
         "xi_bulb.tech.json": 2
       },
@@ -22806,7 +22827,7 @@
         "sturdyplatform.material.json": 2
       }
     },
-    "wide_spread_fields.json": 152,
+    "wide_spread_fields.json": 151,
     "zb": {
       "newSail": {
         "data.config.json": 26,
@@ -22821,13 +22842,12 @@
         "fu_agriculture.config.json": 96,
         "fu_chemistry.config.json": 64,
         "fu_craftsmanship.config.json": 147,
-        "fu_engineering.config.json": 131,
-        "fu_geology.config.json": 93,
+        "fu_geology.config.json": 95,
         "fu_power.config.json": 75,
         "fu_warcraft.config.json": 92,
         "madness.config.json": 62,
         "researchTree.config.json": 3,
-        "shared_.config.json": 6
+        "shared_.config.json": 4
       },
       "updateInfoWindow": {
         "shared_updateInfoWindow.json": 3,

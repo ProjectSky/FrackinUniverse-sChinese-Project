@@ -2598,6 +2598,14 @@
     "/gui/inputMid/hint": "texts/interface/shared_.config.json",
     "/gui/inputRight/hint": "texts/interface/shared_.config.json"
   },
+  "interface/scripted/mannequin/cravenmannequingui.config": {
+    "/gui/equipCosmetic/caption": "texts/interface/scripted/mannequin/shared_gui.config.json",
+    "/gui/equipFunctional/caption": "texts/interface/scripted/mannequin/shared_gui.config.json"
+  },
+  "interface/scripted/mannequin/fubustgui.config": {
+    "/gui/equipCosmetic/caption": "texts/interface/scripted/mannequin/shared_gui.config.json",
+    "/gui/equipFunctional/caption": "texts/interface/scripted/mannequin/shared_gui.config.json"
+  },
   "interface/scripted/sbvn/games/cthululove/deepone.sbvn": {
     "/scenes/art10/text": "texts/wide_spread_fields.json",
     "/scenes/art13/options/0/0": "texts/wide_spread_fields.json",
@@ -4564,6 +4572,12 @@
   "items/active/weapons/ranged/unique/fuhuntingrifle3.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_fuhuntingrifle.json"
   },
+  "items/active/weapons/ranged/unique/fuplasmacannon.activeitem": {
+    "/description": "texts/items/active/weapons/ranged/unique/shared_n.activeitem.json"
+  },
+  "items/active/weapons/ranged/unique/fuplasmagun.activeitem": {
+    "/description": "texts/items/active/weapons/ranged/unique/shared_n.activeitem.json"
+  },
   "items/active/weapons/ranged/unique/fuspawngun.activeitem": {
     "/shortdescription": "texts/items/active/weapons/ranged/shared_.activeitem.json"
   },
@@ -5396,9 +5410,6 @@
     "/description": "texts/items/armors/tier2/operative/shared_fuoperative..json",
     "/shortdescription": "texts/items/armors/shared_fuoperative.json"
   },
-  "items/armors/tier2/samurai/fusamuraiarmor.chest": {
-    "/description": "texts/items/armors/tier2/samurai/shared_fusamuraiarmor..json"
-  },
   "items/armors/tier2/samurai/fusamuraiarmor.head": {
     "/description": "texts/items/armors/tier2/samurai/shared_fusamuraiarmor..json"
   },
@@ -5887,6 +5898,12 @@
   },
   "items/armors/tier4/furavager/furavager.legs": {
     "/description": "texts/items/armors/tier4/furavager/shared_furavager..json"
+  },
+  "items/armors/tier4/fustarkiller/fustarkiller.chest": {
+    "/description": "texts/items/armors/tier4/fustarkiller/shared_fustarkiller..json"
+  },
+  "items/armors/tier4/fustarkiller/fustarkiller.legs": {
+    "/description": "texts/items/armors/tier4/fustarkiller/shared_fustarkiller..json"
   },
   "items/armors/tier4/ghostweave/tactical.chest": {
     "/description": "texts/items/armors/tier4/ghostweave/shared_tactical..json"
@@ -11252,7 +11269,7 @@
     "/scriptConfig/dialog/crewmember/respawned/default/default/7": "texts/npcs/crew/shared_crewmember.json"
   },
   "npcs/crew/catcrewmemberengineer.npctype": {
-    "/scriptConfig/crew/role/field": "texts/shared_engineer.json"
+    "/scriptConfig/crew/role/field": "texts/npcs/crew/shared_crewmemberengineer.json"
   },
   "npcs/crew/catcrewmemberjanitor.npctype": {
     "/scriptConfig/crew/role/field": "texts/npcs/crew/shared_crewmemberjanitor.npctype.json",
@@ -12262,7 +12279,7 @@
     "/scriptConfig/dialog/crewmember/unfollow/glitch/default/3/glitchEmotedText": "texts/npcs/crew/shared_crewmember.json"
   },
   "npcs/crew/crewmemberengineer2.npctype": {
-    "/scriptConfig/crew/role/field": "texts/shared_engineer.json"
+    "/scriptConfig/crew/role/field": "texts/npcs/crew/shared_crewmemberengineer.json"
   },
   "npcs/crew/crewmemberfubees.npctype": {
     "/scriptConfig/dialog/crewmember/cantreach/floran/default/0": "texts/npcs/crew/shared_crewmember.json",
@@ -23356,10 +23373,6 @@
     "/hylotlDescription": "texts/objects/shared_scanner.json",
     "/novakidDescription": "texts/objects/shared_scanner.json"
   },
-  "objects/minibiome/precursor/precursortallpipe/precursortallpipe.object": {
-    "/description": "texts/objects/minibiome/precursor/shared_precursor/shared_precursor.json",
-    "/shortdescription": "texts/objects/minibiome/precursor/shared_precursor/shared_precursor.json"
-  },
   "objects/minibiome/precursor/precursorteleporter/precursorteleporter.object": {
     "/description": "texts/objects/shared_orte.json",
     "/shortdescription": "texts/objects/minibiome/precursor/precursorteleporter/shared_precursorteleporter.json"
@@ -23367,20 +23380,6 @@
   "objects/minibiome/precursor/precursorteleporter/precursorteleporter2.object": {
     "/description": "texts/objects/shared_orte.json",
     "/shortdescription": "texts/objects/minibiome/precursor/precursorteleporter/shared_precursorteleporter.json"
-  },
-  "objects/minibiome/precursor/precursortinyswitch/precursortinybuttonkey.object": {
-    "/shortdescription": "texts/objects/minibiome/precursor/precursortinyswitch/shared_precursortiny.json"
-  },
-  "objects/minibiome/precursor/precursortinyswitch/precursortinyswitchkey.object": {
-    "/shortdescription": "texts/objects/minibiome/precursor/precursortinyswitch/shared_precursortiny.json"
-  },
-  "objects/minibiome/precursor/precursorwidepipe/precursorwidepipe.object": {
-    "/description": "texts/objects/minibiome/precursor/shared_precursor/shared_precursor.json",
-    "/shortdescription": "texts/objects/minibiome/precursor/shared_precursor/shared_precursor.json"
-  },
-  "objects/minibiome/precursor/precursorwidepipe/precursorwidepipehuge.object": {
-    "/description": "texts/objects/minibiome/precursor/shared_precursor/shared_precursor.json",
-    "/shortdescription": "texts/objects/minibiome/precursor/shared_precursor/shared_precursor.json"
   },
   "objects/minibiome/rocks_bare/rockbare1.object": {
     "/description": "texts/objects/minibiome/shared_rocks_/shared_.object.json",
@@ -37495,8 +37494,7 @@
     "/scriptConfig/turnInDescription": "texts/quests/fu_questlines/tutorial/vinj/shared_.questtemplate.json"
   },
   "quests/fu_questlines/tutorial/vinj/create_tinkertable.questtemplate": {
-    "/scriptConfig/turnInDescription": "texts/quests/fu_questlines/tutorial/vinj/shared_.questtemplate.json",
-    "/title": "texts/wide_spread_fields.json"
+    "/scriptConfig/turnInDescription": "texts/quests/fu_questlines/tutorial/vinj/shared_.questtemplate.json"
   },
   "quests/fu_questlines/tutorial/vinj/create_woodencentrifuge.questtemplate": {
     "/scriptConfig/turnInDescription": "texts/quests/fu_questlines/tutorial/vinj/shared_.questtemplate.json",
@@ -39259,6 +39257,9 @@
     "/label": "texts/stats/effects/fu_effects/energytickup/shared_.statuseffect.json"
   },
   "stats/effects/fu_effects/entropicward/entropicward.statuseffect": {
+    "/label": "texts/stats/effects/fu_effects/entropicward/shared_.statuseffect.json"
+  },
+  "stats/effects/fu_effects/entropicward/entropicwardpenalty.statuseffect": {
     "/label": "texts/stats/effects/fu_effects/entropicward/shared_.statuseffect.json"
   },
   "stats/effects/fu_effects/entropicward/myphisfx.statuseffect": {
@@ -42361,16 +42362,6 @@
     "/strings/research/painting/0": "texts/wide_spread_fields.json",
     "/strings/research/survival_1/0": "texts/zb/researchTree/shared_.config.json"
   },
-  "zb/researchTree/fu_engineering.config": {
-    "/strings/research/default/0": "texts/zb/researchTree/shared_.config.json",
-    "/strings/research/default/1": "texts/zb/researchTree/shared_.config.json",
-    "/strings/research/survival_1/0": "texts/zb/researchTree/shared_.config.json",
-    "/strings/research/survival_1/1": "texts/zb/researchTree/shared_.config.json",
-    "/strings/research/terraformer/0": "texts/zb/researchTree/shared_.config.json",
-    "/strings/research/terraformer2/0": "texts/zb/researchTree/shared_.config.json",
-    "/strings/research/tinkering1/0": "texts/wide_spread_fields.json",
-    "/strings/trees/fu_engineering": "texts/shared_engineer.json"
-  },
   "zb/researchTree/fu_geology.config": {
     "/strings/research/isotopes1/0": "texts/shared_.config.json",
     "/strings/research/isotopes2/0": "texts/shared_.config.json",
@@ -42403,8 +42394,6 @@
     "/strings/research/metals_zerchesium/0": "texts/shared_.config.json",
     "/strings/research/survival_1/0": "texts/zb/researchTree/shared_.config.json",
     "/strings/research/survival_1/1": "texts/zb/researchTree/shared_.config.json",
-    "/strings/research/terraforming2/0": "texts/zb/researchTree/shared_.config.json",
-    "/strings/research/terraforming3/0": "texts/zb/researchTree/shared_.config.json",
     "/strings/trees/fu_geology": "texts/shared_geolog.json"
   },
   "zb/researchTree/fu_power.config": {
