@@ -60,6 +60,60 @@
     },
     "interface.json": 4,
     "items": {
+      "FOODS": {
+        "CANS": {
+          "gic_cannedbacon.consumable.json": 1,
+          "gic_cannedbeans.consumable.json": 1,
+          "gic_cannedbeef.consumable.json": 1,
+          "gic_cannedchickensoup.consumable.json": 1,
+          "gic_cannedchillibeans.consumable.json": 1,
+          "gic_cannedpeaches.consumable.json": 1,
+          "gic_cannedpineapple.consumable.json": 1,
+          "gic_cannedpork.consumable.json": 1,
+          "gic_cannedsalmon.consumable.json": 1,
+          "gic_cannedtomatosoup.consumable.json": 1,
+          "gic_cannedtuna.consumable.json": 1,
+          "gic_cannedyakitori.consumable.json": 1
+        },
+        "CIVILIAN": {
+          "COLONY_STANDARD": {
+            "gic_packagedcrackerbox.consumable.json": 1,
+            "gic_packagedmixedmeal.consumable.json": 1,
+            "gic_packagedsmallchips.consumable.json": 1,
+            "gic_packagedyeastcubes.consumable.json": 1
+          },
+          "gic_cheesesandwich.consumable.json": 1,
+          "gic_fullburritopack.consumable.json": 1,
+          "gic_meatburger.consumable.json": 1,
+          "gic_mexicanpizza.consumable.json": 1,
+          "gic_mexicanpizzaslice.consumable.json": 1,
+          "gic_microwaveburrito.consumable.json": 1,
+          "gic_pearljamsandwich.consumable.json": 1,
+          "gic_pearlpeanutsandwich.consumable.json": 1,
+          "gic_vegetableburger.consumable.json": 1,
+          "gic_xlbltsandwich.consumable.json": 1
+        },
+        "RATIONS": {
+          "COLONY": {
+            "gic_cgifr.consumable.json": 1,
+            "gic_cifr.consumable.json": 1
+          },
+          "UNITED_SYSTEMS": {
+            "gic_us_b_ration.consumable.json": 1,
+            "gic_us_c_ration.consumable.json": 1,
+            "gic_us_k_ration.consumable.json": 1,
+            "gic_us_liquorcandies.consumable.json": 1,
+            "gic_us_panzerschokolade.consumable.json": 1
+          },
+          "gic_cmre.consumable.json": 1,
+          "gic_energychocolatebar.consumable.json": 1,
+          "gic_energyfruitbar.consumable.json": 1
+        },
+        "SCAVENGER": {
+          "gic_plantfibresalad.consumable.json": 1,
+          "gic_sawdustbread.consumable.json": 1
+        }
+      },
       "active": {
         "unsorted": {
           "bugnet": {
@@ -503,15 +557,19 @@
             "baconpancakes.consumable.json": 1,
             "beakseedbread.consumable.json": 1,
             "beakseedjam.consumable.json": 1,
+            "beakseedtart.consumable.json": 1,
             "bonbonbonbons.consumable.json": 1,
             "bonbons.consumable.json": 1,
             "cactusjuice.consumable.json": 1,
+            "cake.consumable.json": 1,
             "candiedcorn.consumable.json": 1,
             "candyapple.consumable.json": 1,
             "carrotbread.consumable.json": 1,
+            "carrotcake.consumable.json": 1,
             "carrotjuice.consumable.json": 1,
             "cheeseburger.consumable.json": 1,
             "coffee.consumable.json": 1,
+            "coffeecake.consumable.json": 1,
             "cornpeckers.consumable.json": 1,
             "feathercrownjam.consumable.json": 1,
             "featherfood.consumable.json": 1,
@@ -681,6 +739,8 @@
           "salvagetier6.item.json": 1
         },
         "shop": {
+          "cheese.consumable.json": 1,
+          "chocolate.consumable.json": 1,
           "egg.consumable.json": 1,
           "milk.consumable.json": 1
         }
@@ -1698,6 +1758,7 @@
       "avian.species.json": 1,
       "avikan.species.json": 1,
       "batpony.species.json": 1,
+      "bunnine.species.json": 1,
       "bunnykin.species.json": 1,
       "candavaswebber.species.json": 1,
       "carakinox.species.json": 1,
@@ -2131,6 +2192,7 @@
         "arborealdark.biome.json": 1,
         "astral.biome.json": 1,
         "atropusdark.biome.json": 1,
+        "autumnforest.biome.json": 1,
         "bloodstoneseafloor.biome.json": 1,
         "chromatic.biome.json": 1,
         "crystalmoon.biome.json": 1,
@@ -2166,11 +2228,14 @@
         "alienforest.biome.json": 1,
         "ashgarden.biome.json": 1,
         "atropusbone.biome.json": 1,
+        "atropushellhive.biome.json": 1,
         "atropusrot.biome.json": 1,
         "badlands.biome.json": 1,
+        "biowastes.biome.json": 1,
         "birchforest.biome.json": 1,
         "blackslimebog.biome.json": 1,
         "blisterbushfield.biome.json": 1,
+        "blooddesert.biome.json": 1,
         "bloodgulch.biome.json": 1,
         "bloodstonefield.biome.json": 1,
         "breakwater.biome.json": 1,
@@ -2182,8 +2247,13 @@
         "corruptmoon.biome.json": 1,
         "crystaldesert.biome.json": 1,
         "crystaldesertaether.biome.json": 1,
+        "crystaldesertaether2.biome.json": 1,
         "crystalplain.biome.json": 1,
+        "crystalswamp.biome.json": 1,
+        "crystalswampaether.biome.json": 1,
+        "crystalswampaether2.biome.json": 1,
         "deepseaventaether.biome.json": 1,
+        "deepseaventblood.biome.json": 1,
         "desertoasis.biome.json": 1,
         "dryriverbed.biome.json": 1,
         "estuaryaether.biome.json": 1,
@@ -2204,25 +2274,29 @@
         "hauntedgraveyard.biome.json": 1,
         "hellfirefield.biome.json": 1,
         "hellhive.biome.json": 1,
+        "highlands.biome.json": 1,
         "hotsprings.biome.json": 1,
         "icefire.biome.json": 1,
+        "icepines.biome.json": 1,
         "irradiatedwaste.biome.json": 1,
         "magicsnowland.biome.json": 1,
         "meadow.biome.json": 1,
         "metalhive.biome.json": 1,
         "metaljungle.biome.json": 1,
+        "murkyswamp.biome.json": 1,
         "orchardapple.biome.json": 1,
+        "orchardcherry.biome.json": 1,
         "orchardpeach.biome.json": 1,
         "orchardpear.biome.json": 1,
         "parkinglot.biome.json": 1,
         "pineforest.biome.json": 1,
+        "pineforest2.biome.json": 1,
         "pitchfield.biome.json": 1,
         "primevalforest.biome.json": 1,
         "rainbowforest.biome.json": 1,
         "reddesert.biome.json": 1,
         "shared_cellfield.json": 1,
         "shared_coralreef.json": 1,
-        "shared_crystalswamp.json": 1,
         "shared_deadwood.json": 1,
         "shared_deepseavent.json": 1,
         "shared_elder.biome.json": 1,
@@ -2240,6 +2314,7 @@
         "sulphuricplain.biome.json": 1,
         "supermatterzone.biome.json": 1,
         "supermatterzoneaether.biome.json": 1,
+        "supermatterzoneaether2.biome.json": 1,
         "supermatterzonemoon.biome.json": 1,
         "taiga.biome.json": 1
       },
@@ -2811,7 +2886,7 @@
         "multitether.config.json": 1
       },
       "cockpit": {
-        "cockpit.config.json": 399
+        "cockpit.config.json": 400
       },
       "extractor": {
         "brainsiphon.config.json": 2,
@@ -8311,7 +8386,7 @@
           "gemglow.consumable.json": 2,
           "genesiberry.consumable.json": 2,
           "ghostmushroom.consumable.json": 2,
-          "ginseng.consumable.json": 1,
+          "ginseng.consumable.json": 2,
           "glarestalkeye.consumable.json": 2,
           "goldenglowleaf.consumable.json": 2,
           "goldenroot.consumable.json": 2,
@@ -8476,6 +8551,7 @@
         "aliensoil.matitem.json": 1,
         "andesite.matitem.json": 1,
         "astralwood.matitem.json": 4,
+        "autumnleaves.matitem.json": 1,
         "avaliaeroponics.matitem.json": 2,
         "avalicable.matitem.json": 4,
         "avalichits.matitem.json": 1,
@@ -8580,7 +8656,6 @@
         "fukirhossupport.matitem.json": 1,
         "fukirhoswall.matitem.json": 1,
         "fulabpipe.matitem.json": 1,
-        "fulabsupport.matitem.json": 2,
         "fulightfullwood1.matitem.json": 1,
         "fulightwoodenplatform.matitem.json": 1,
         "fumetalbaseboard.matitem.json": 2,
@@ -8692,6 +8767,7 @@
         "peglacipykreteplatform.matitem.json": 3,
         "peglacivertcable.matitem.json": 1,
         "penumbradirtmaterial.matitem.json": 2,
+        "penumbralbark.matitem.json": 1,
         "penumbrastonematerial.matitem.json": 2,
         "penumbriteblock.matitem.json": 2,
         "pixelgoods": {
@@ -8976,6 +9052,7 @@
       "shared_ancientblockplain.mat.json": 2,
       "shared_ancientbrickplain.mat.json": 2,
       "shared_andesite.mat.json": 1,
+      "shared_autumnleaves.mat.json": 1,
       "shared_avalidarkmetal.mat.json": 1,
       "shared_avalidarkmetal2.mat.json": 1,
       "shared_avalidarkmetal3.mat.json": 1,
@@ -9092,7 +9169,7 @@
       "shared_marbleblock.mat.json": 2,
       "shared_marblepillarblock.mat.json": 1,
       "shared_marestone.json": 1,
-      "shared_material.json": 9,
+      "shared_material.json": 8,
       "shared_metalfloor.json": 1,
       "shared_metallicbrick.json": 1,
       "shared_metallicbrick.mat.json": 1,
@@ -9120,6 +9197,7 @@
       "shared_nightarwindow.mat.json": 2,
       "shared_panelwood.mat.json": 5,
       "shared_peglaci.json": 30,
+      "shared_penumbralbark.mat.json": 1,
       "shared_pipe.mat.json": 1,
       "shared_plaidwallpaper.mat.json": 5,
       "shared_plasmamaterial.mat.json": 1,
@@ -9207,7 +9285,7 @@
         "shared_veinblock.mat.json": 2
       }
     },
-    "materials.json": 59,
+    "materials.json": 61,
     "monsters": {
       "bees": {
         "adaptivebee": {
@@ -12985,7 +13063,7 @@
           "lilyofthevalleypot.object.json": 9
         },
         "oshroomflowerpot": {
-          "oshroomflowerpot.object.json": 9
+          "oshroomflowerpot.object.json": 2
         },
         "pansyflowerpot": {
           "pansyflowerpot.object.json": 9
@@ -14458,6 +14536,7 @@
         },
         "bloodstone": {
           "anemone1.object.json": 2,
+          "heartroot.object.json": 2,
           "shared_bloodstoneplant.json": 1
         },
         "crystalmoon": {
@@ -14577,13 +14656,7 @@
           "elderthingstatue2.object.json": 2,
           "eldertraps": {
             "shared_elder": {
-              "shared_.object.json": 5
-            },
-            "shared_elderceilingspike": {
-              "shared_elderceilingspike.json": 1
-            },
-            "shared_elderfloorspike": {
-              "shared_elderfloorspike.json": 1
+              "shared_.object.json": 1
             }
           },
           "embalmingtable": {
@@ -14688,6 +14761,9 @@
             "shared_hiveblob.json": 2
           }
         },
+        "iceball": {
+          "iceball_rock.object.json": 1
+        },
         "icestalk": {
           "icestalk.object.json": 1
         },
@@ -14698,6 +14774,7 @@
           "ff_labchest.object.json": 2
         },
         "lightless": {
+          "shared_blobbush.json": 2,
           "shared_rotbulb.json": 2,
           "shared_shadecoral.json": 2,
           "shared_shadowgrass.json": 2,
@@ -14705,6 +14782,10 @@
         },
         "lush": {
           "poptopcavern.object.json": 3
+        },
+        "metaljungle": {
+          "shared_metalbush.json": 2,
+          "shared_metalbush1.json": 3
         },
         "metallic": {
           "device1.object.json": 1,
@@ -14728,7 +14809,9 @@
         "monolith3.object.json": 1,
         "penum": {
           "penumbrachest.object.json": 2,
-          "shared_penumball.json": 2
+          "shared_penumball.json": 2,
+          "shared_penumbush.json": 2,
+          "shared_penumbush1.json": 2
         },
         "plynth1.object.json": 2,
         "plynth2.object.json": 2,
@@ -14936,7 +15019,7 @@
         "proto": {
           "protochest.object.json": 2
         },
-        "shared_.object.json": 5,
+        "shared_.object.json": 2,
         "shared_artifact": {
           "shared_artifact.json": 1
         },
@@ -14955,6 +15038,9 @@
           "shared_rainforestchest.json": 2,
           "warbotDowned.object.json": 2
         },
+        "tidewater": {
+          "shared_darkoshroom.json": 2
+        },
         "various": {
           "alienstick.object.json": 1,
           "balliss.object.json": 2,
@@ -14965,27 +15051,29 @@
           "brainspud.object.json": 1,
           "braintentacle.object.json": 1,
           "bulbroot.object.json": 2,
+          "dasha.object.json": 1,
           "deadtree.object.json": 1,
           "flameleaf.object.json": 1,
           "icebloom.object.json": 1,
           "iceplant2.object.json": 1,
           "icespikeff.object.json": 1,
           "jungleplant_ff1.object.json": 1,
-          "orangebush.object.json": 2,
+          "orangebush.object.json": 1,
           "parshflower.object.json": 1,
           "pinkbloom.object.json": 1,
-          "redcap.object.json": 1,
           "scumbloom.object.json": 1,
-          "shared_.object.json": 7,
+          "shared_.object.json": 3,
           "shared_1.object.json": 2,
           "shared_cactusy.json": 2,
           "shared_flower2.json": 1,
           "shared_goldspiral.json": 1,
+          "shared_purpleflower.json": 2,
           "shared_purpleleaf.json": 1,
           "shared_shrubby.json": 2,
           "shared_smalltree.json": 1,
           "shared_snowbloom.json": 1,
           "shared_spearleaf.json": 1,
+          "shared_toxicflower.json": 2,
           "shared_toxicsprout.json": 2,
           "shared_voltcorn.json": 1,
           "shared_whitebulb.json": 1,
@@ -14993,6 +15081,13 @@
           "snowtree1.object.json": 2,
           "waterpod.object.json": 1,
           "yellowtail.object.json": 1
+        },
+        "volcanicrock": {
+          "shared_volcanicrockseed.json": 2
+        },
+        "volcanicrock2": {
+          "oceansmokegen.object.json": 2,
+          "shared_volcanicrock2seed.json": 2
         },
         "wasteland": {
           "populationsign.object.json": 2,
@@ -15476,6 +15571,11 @@
         },
         "trainhead": {
           "trainhead.object.json": 9
+        }
+      },
+      "obstacles": {
+        "sulphuric": {
+          "shared_sulphuric.json": 1
         }
       },
       "orangejuice": {
@@ -16720,7 +16820,7 @@
         }
       },
       "shared_.config.json": 1,
-      "shared_.object.json": 42,
+      "shared_.object.json": 43,
       "shared_avali.json": 6,
       "shared_banner.json": 3,
       "shared_bed": {
@@ -16808,6 +16908,7 @@
       "shared_nest.json": 2,
       "shared_nightstand.object.json": 2,
       "shared_orte.json": 1,
+      "shared_oshroom.json": 7,
       "shared_outpost": {
         "shared_.object.json": 1
       },
@@ -16878,7 +16979,6 @@
       "shared_temp": {
         "shared_temp.object.json": 2
       },
-      "shared_tra.json": 2,
       "shared_ttent.json": 1,
       "shared_vase": {
         "shared_.object.json": 4
@@ -19284,7 +19384,7 @@
           "craftsawblade.object.json": 9
         },
         "extrabonespike": {
-          "extrabonespike.object.json": 7
+          "extrabonespike.object.json": 6
         }
       },
       "trianglium": {
@@ -20573,7 +20673,7 @@
         }
       }
     },
-    "objects.json": 64,
+    "objects.json": 72,
     "particles": {
       "angryrocketreloaded.particle.json": 1,
       "angryrocketreloadedfull.particle.json": 1,
@@ -20604,6 +20704,9 @@
           }
         },
         "ground": {
+          "autumnbush": {
+            "autumnbush.bush.json": 1
+          },
           "bloodsea": {
             "bloodsea.bush.json": 2
           },
@@ -20611,7 +20714,7 @@
             "buglike.bush.json": 2
           },
           "cloudbush": {
-            "cloudbush.bush.json": 2
+            "cloudbush.bush.json": 1
           },
           "dryshrub": {
             "dryshrub.bush.json": 1
@@ -20621,6 +20724,9 @@
           },
           "lightless": {
             "lightless.bush.json": 2
+          },
+          "metalhivebush": {
+            "metalhivebush.bush.json": 2
           },
           "nightly": {
             "alpinestone": {
@@ -20645,6 +20751,9 @@
           "shared_atropusbush": {
             "shared_atropusbush.json": 2
           },
+          "shared_bush": {
+            "shared_bush.bush.json": 1
+          },
           "shared_grass": {
             "shared_grass.bush.json": 2
           },
@@ -20659,6 +20768,14 @@
           },
           "slimebush": {
             "gelatinousbush.bush.json": 1
+          },
+          "sulphurrocks": {
+            "sulphurrocks.bush.json": 1
+          },
+          "tidewater": {
+            "darkcone.bush.json": 1,
+            "darkseagrass.bush.json": 2,
+            "shared_.bush.json": 2
           }
         },
         "shared_rainforestplant": {
@@ -20674,8 +20791,14 @@
             "aethersea": {
               "aethergrass.grass.json": 2
             },
+            "autumngrass": {
+              "autumngrass.grass.json": 1
+            },
             "ballflower": {
               "ballflower.grass.json": 2
+            },
+            "chromaflower": {
+              "chromaflower.grass.json": 2
             },
             "clawfern": {
               "clawfern.grass.json": 2
@@ -20689,11 +20812,17 @@
             "cloudspire": {
               "cloudspire.grass.json": 3
             },
+            "darkcorals": {
+              "darkcorals.grass.json": 1
+            },
             "elder": {
               "eldergrass.grass.json": 2
             },
             "nitrogengrass": {
               "nitrogengrass.grass.json": 2
+            },
+            "obsidianpebbles": {
+              "obsidianpebbles.grass.json": 2
             },
             "peppergrass": {
               "peppergrass.grass.json": 2
@@ -20716,6 +20845,9 @@
             "shared_protodeco": {
               "shared_protodeco.json": 2
             },
+            "sulphurpebbles": {
+              "sulphurpebbles.grass.json": 2
+            },
             "tidewatergrass": {
               "tidewatergrass.grass.json": 2
             },
@@ -20730,6 +20862,9 @@
         "shared_ati": {
           "shared_gelatinousgrass.json": 1
         }
+      },
+      "ground": {
+        "shared_darkcoral.json": 1
       }
     },
     "projectiles": {
@@ -21188,7 +21323,7 @@
       }
     },
     "shared_lobster..json": 1,
-    "shared_matmod.json": 5,
+    "shared_matmod.json": 12,
     "shared_nightarsplatform.mat.json": 4,
     "shared_oceanite.json": 1,
     "shared_orphanpaste.json": 1,
@@ -22449,6 +22584,7 @@
         },
         "aliensoil.material.json": 1,
         "andesite.material.json": 1,
+        "autumnleaves.material.json": 1,
         "avaliaeroponics.material.json": 2,
         "avalichits.material.json": 1,
         "avalidisplay.material.json": 1,
@@ -22654,6 +22790,7 @@
           "shared_cable.material.json": 1
         },
         "penumbradirt.material.json": 2,
+        "penumbralbark.material.json": 1,
         "penumbrastone.material.json": 2,
         "penumbriteblock.material.json": 2,
         "plasmamaterial.material.json": 1,
@@ -22753,7 +22890,6 @@
           "sulphurstone.material.json": 1
         },
         "tilesandgreebles": {
-          "fulabsupport.material.json": 2,
           "fureinforcedglass.material.json": 2,
           "hitechmetalblock.material.json": 1,
           "labframedglass.material.json": 1,

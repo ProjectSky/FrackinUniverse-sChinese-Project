@@ -208,6 +208,9 @@
   "biomes/surface_detached/cellfieldaether.biome": {
     "/friendlyName": "texts/biomes/surface_detached/shared_cellfield.json"
   },
+  "biomes/surface_detached/cellfieldstrange.biome": {
+    "/friendlyName": "texts/biomes/surface_detached/shared_cellfield.json"
+  },
   "biomes/surface_detached/charredflesh.biome": {
     "/friendlyName": "texts/shared_charredflesh.json"
   },
@@ -216,12 +219,6 @@
   },
   "biomes/surface_detached/coralreefdark.biome": {
     "/friendlyName": "texts/biomes/surface_detached/shared_coralreef.json"
-  },
-  "biomes/surface_detached/crystalswamp.biome": {
-    "/friendlyName": "texts/biomes/surface_detached/shared_crystalswamp.json"
-  },
-  "biomes/surface_detached/crystalswampaether.biome": {
-    "/friendlyName": "texts/biomes/surface_detached/shared_crystalswamp.json"
   },
   "biomes/surface_detached/deadwood.biome": {
     "/friendlyName": "texts/biomes/surface_detached/shared_deadwood.json"
@@ -2039,7 +2036,7 @@
     "/displayOres/xithricite/displayName": "texts/wide_spread_fields.json",
     "/displayOres/zerchesium/displayName": "texts/shared_.config.json",
     "/displayWeathers/fubuggy/displayName": "texts/wide_spread_fields.json",
-    "/displayWeathers/gravrain/displayName": "texts/wide_spread_fields.json",
+    "/displayWeathers/orangegravrain/displayName": "texts/wide_spread_fields.json",
     "/displayWeathers/snow/displayName": "texts/wide_spread_fields.json",
     "/gui/editBookmarkFrame/children/close/caption": "texts/interface.json",
     "/gui/editBookmarkFrame/children/ok/caption": "texts/shared_.config.json",
@@ -2050,6 +2047,7 @@
     "/planetTypeNames/arboreal": "texts/wide_spread_fields.json",
     "/planetTypeNames/arctic": "texts/wide_spread_fields.json",
     "/planetTypeNames/asteroids": "texts/wide_spread_fields.json",
+    "/planetTypeNames/astral": "texts/wide_spread_fields.json",
     "/planetTypeNames/atropus": "texts/wide_spread_fields.json",
     "/planetTypeNames/barren": "texts/wide_spread_fields.json",
     "/planetTypeNames/bloodstone": "texts/wide_spread_fields.json",
@@ -2538,11 +2536,18 @@
     "/gui/filter/hint": "texts/wide_spread_fields.json",
     "/gui/scrollArea/children/itemList/schema/listTemplate/itemName/value": "texts/wide_spread_fields.json",
     "/gui/scrollArea/children/itemList/schema/listTemplate/priceLabel/value": "texts/wide_spread_fields.json",
-    "/matMods/107/description": "texts/shared_matmod.json",
-    "/matMods/16/description": "texts/shared_matmod.json",
-    "/matMods/18/description": "texts/shared_matmod.json",
-    "/matMods/41/description": "texts/shared_matmod.json",
-    "/matMods/43/description": "texts/shared_matmod.json"
+    "/matMods/114/description": "texts/shared_matmod.json",
+    "/matMods/17/description": "texts/shared_matmod.json",
+    "/matMods/19/description": "texts/shared_matmod.json",
+    "/matMods/33/description": "texts/shared_matmod.json",
+    "/matMods/34/description": "texts/shared_matmod.json",
+    "/matMods/35/description": "texts/shared_matmod.json",
+    "/matMods/36/description": "texts/shared_matmod.json",
+    "/matMods/40/description": "texts/shared_matmod.json",
+    "/matMods/45/description": "texts/shared_matmod.json",
+    "/matMods/48/description": "texts/shared_matmod.json",
+    "/matMods/50/description": "texts/shared_matmod.json",
+    "/matMods/7/description": "texts/shared_matmod.json"
   },
   "interface/scripted/fu_planetcockpit/fu_planetcockpit.config": {
     "/gui/windowtitle/subtitle": "texts/interface/shared_cockpit.json",
@@ -7129,9 +7134,6 @@
   "items/generic/produce/fusnowberry.consumable": {
     "/shortdescription": "texts/shared_fusnowberry.json"
   },
-  "items/generic/produce/ginseng.consumable": {
-    "/shortdescription": "texts/wide_spread_fields.json"
-  },
   "items/generic/produce/pekkit.consumable": {
     "/shortdescription": "texts/shared_pekkit.json"
   },
@@ -7299,6 +7301,9 @@
     "/glitchdescription/glitchEmotedText": "texts/items/materials/astralwood.matitem.json",
     "/shortdescription": "texts/materials/shared_wood.json"
   },
+  "items/materials/autumnleaves.matitem": {
+    "/shortdescription": "texts/materials/shared_autumnleaves.mat.json"
+  },
   "items/materials/avalicable.matitem": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/items/materials/avalicable.matitem.json"
@@ -7435,7 +7440,7 @@
     "/shortdescription": "texts/materials/shared_material.json"
   },
   "items/materials/coralmaterial.matitem": {
-    "/shortdescription": "texts/materials/shared_material.json"
+    "/shortdescription": "texts/wide_spread_fields.json"
   },
   "items/materials/corruptslimematerial.matitem": {
     "/shortdescription": "texts/wide_spread_fields.json"
@@ -7979,6 +7984,10 @@
   "items/materials/fulabslopedtile.matitem": {
     "/description": "texts/materials/shared_fulabslopedtile.mat.json",
     "/shortdescription": "texts/materials/shared_fulabslopedtile.mat.json"
+  },
+  "items/materials/fulabsupport.matitem": {
+    "/description": "texts/materials.json",
+    "/shortdescription": "texts/materials.json"
   },
   "items/materials/fulightcrosshatch.matitem": {
     "/description": "texts/materials.json",
@@ -8800,6 +8809,9 @@
     "/floranDescription": "texts/materials/shared_peglaci.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_peglaci.json"
+  },
+  "items/materials/penumbralbark.matitem": {
+    "/shortdescription": "texts/materials/shared_penumbralbark.mat.json"
   },
   "items/materials/pixelgoods/fujellyblock2.matitem": {
     "/shortdescription": "texts/materials.json"
@@ -19290,8 +19302,14 @@
     "/glitchDescription/glitchEmotedText": "texts/objects/flowerpots/lilyofthevalleypot/lilyofthevalleypot.object.json"
   },
   "objects/flowerpots/oshroomflowerpot/oshroomflowerpot.object": {
+    "/apexDescription": "texts/objects/shared_oshroom.json",
+    "/avianDescription": "texts/objects/shared_oshroom.json",
+    "/floranDescription": "texts/objects/shared_oshroom.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/flowerpots/oshroomflowerpot/oshroomflowerpot.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects/shared_oshroom.json",
+    "/humanDescription": "texts/objects/shared_oshroom.json",
+    "/hylotlDescription": "texts/objects/shared_oshroom.json",
+    "/novakidDescription": "texts/objects/shared_oshroom.json"
   },
   "objects/flowerpots/pansyflowerpot/pansyflowerpot.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -22258,10 +22276,6 @@
     "/description": "texts/objects/minibiome/bloodstone/shared_bloodstoneplant.json",
     "/shortdescription": "texts/objects/minibiome/bloodstone/shared_bloodstoneplant.json"
   },
-  "objects/minibiome/bloodstone/heartroot.object": {
-    "/description": "texts/wide_spread_fields.json",
-    "/shortdescription": "texts/wide_spread_fields.json"
-  },
   "objects/minibiome/crystalmoon/crystalcavebush10.object": {
     "/apexDescription": "texts/objects/minibiome/crystalmoon/shared_crystal.json",
     "/avianDescription": "texts/objects/minibiome/crystalmoon/shared_crystal.json",
@@ -22406,11 +22420,25 @@
     "/shortdescription": "texts/objects/minibiome/crystalmoon/shared_crystal.json"
   },
   "objects/minibiome/crystalmoon/crystallarge1.object": {
+    "/apexDescription": "texts/objects/minibiome/crystalmoon/shared_crystal.json",
+    "/avianDescription": "texts/objects/minibiome/crystalmoon/shared_crystal.json",
     "/description": "texts/objects/minibiome/crystalmoon/shared_crystal.json",
+    "/floranDescription": "texts/objects/minibiome/crystalmoon/shared_crystal.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/minibiome/crystalmoon/shared_crystal.json",
+    "/humanDescription": "texts/objects/minibiome/crystalmoon/shared_crystal.json",
+    "/hylotlDescription": "texts/objects/minibiome/crystalmoon/shared_crystal.json",
     "/shortdescription": "texts/objects/minibiome/crystalmoon/shared_crystal.json"
   },
   "objects/minibiome/crystalmoon/crystallarge2.object": {
+    "/apexDescription": "texts/objects/minibiome/crystalmoon/shared_crystal.json",
+    "/avianDescription": "texts/objects/minibiome/crystalmoon/shared_crystal.json",
     "/description": "texts/objects/minibiome/crystalmoon/shared_crystal.json",
+    "/floranDescription": "texts/objects/minibiome/crystalmoon/shared_crystal.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/minibiome/crystalmoon/shared_crystal.json",
+    "/humanDescription": "texts/objects/minibiome/crystalmoon/shared_crystal.json",
+    "/hylotlDescription": "texts/objects/minibiome/crystalmoon/shared_crystal.json",
     "/shortdescription": "texts/objects/minibiome/crystalmoon/shared_crystal.json"
   },
   "objects/minibiome/crystalmoon/crystallarge3.object": {
@@ -22688,180 +22716,180 @@
     "/shortdescription": "texts/objects/minibiome/elder/shared_elder.json"
   },
   "objects/minibiome/elder/eldertraps/elderceilingspike1/elderceilingspike1.object": {
-    "/apexDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/avianDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/description": "texts/objects/minibiome/elder/eldertraps/shared_elderceilingspike/shared_elderceilingspike.json",
+    "/apexDescription": "texts/objects.json",
+    "/avianDescription": "texts/objects.json",
+    "/description": "texts/objects.json",
     "/floranDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/humanDescription": "texts/objects/shared_tra.json",
-    "/hylotlDescription": "texts/objects/shared_tra.json",
-    "/shortdescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects.json",
+    "/humanDescription": "texts/objects.json",
+    "/hylotlDescription": "texts/objects.json",
+    "/shortdescription": "texts/objects.json"
   },
   "objects/minibiome/elder/eldertraps/elderceilingspike2/elderceilingspike2.object": {
-    "/apexDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/avianDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/description": "texts/objects/minibiome/elder/eldertraps/shared_elderceilingspike/shared_elderceilingspike.json",
+    "/apexDescription": "texts/objects.json",
+    "/avianDescription": "texts/objects.json",
+    "/description": "texts/objects.json",
     "/floranDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/humanDescription": "texts/objects/shared_tra.json",
-    "/hylotlDescription": "texts/objects/shared_tra.json",
-    "/shortdescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects.json",
+    "/humanDescription": "texts/objects.json",
+    "/hylotlDescription": "texts/objects.json",
+    "/shortdescription": "texts/objects.json"
   },
   "objects/minibiome/elder/eldertraps/elderceilingspike3/elderceilingspike3.object": {
-    "/apexDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/avianDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/description": "texts/objects/minibiome/elder/eldertraps/shared_elderceilingspike/shared_elderceilingspike.json",
+    "/apexDescription": "texts/objects.json",
+    "/avianDescription": "texts/objects.json",
+    "/description": "texts/objects.json",
     "/floranDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/humanDescription": "texts/objects/shared_tra.json",
-    "/hylotlDescription": "texts/objects/shared_tra.json",
-    "/shortdescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects.json",
+    "/humanDescription": "texts/objects.json",
+    "/hylotlDescription": "texts/objects.json",
+    "/shortdescription": "texts/objects.json"
   },
   "objects/minibiome/elder/eldertraps/elderceilingspike4/elderceilingspike4.object": {
-    "/apexDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/avianDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/description": "texts/objects/minibiome/elder/eldertraps/shared_elderceilingspike/shared_elderceilingspike.json",
+    "/apexDescription": "texts/objects.json",
+    "/avianDescription": "texts/objects.json",
+    "/description": "texts/objects.json",
     "/floranDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/humanDescription": "texts/objects/shared_tra.json",
-    "/hylotlDescription": "texts/objects/shared_tra.json",
-    "/shortdescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects.json",
+    "/humanDescription": "texts/objects.json",
+    "/hylotlDescription": "texts/objects.json",
+    "/shortdescription": "texts/objects.json"
   },
   "objects/minibiome/elder/eldertraps/elderceilingspike5/elderceilingspike5.object": {
-    "/apexDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/avianDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/description": "texts/objects/minibiome/elder/eldertraps/shared_elderceilingspike/shared_elderceilingspike.json",
+    "/apexDescription": "texts/objects.json",
+    "/avianDescription": "texts/objects.json",
+    "/description": "texts/objects.json",
     "/floranDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/humanDescription": "texts/objects/shared_tra.json",
-    "/hylotlDescription": "texts/objects/shared_tra.json",
-    "/shortdescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects.json",
+    "/humanDescription": "texts/objects.json",
+    "/hylotlDescription": "texts/objects.json",
+    "/shortdescription": "texts/objects.json"
   },
   "objects/minibiome/elder/eldertraps/elderceilingspike6/elderceilingspike6.object": {
-    "/apexDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/avianDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/description": "texts/objects/minibiome/elder/eldertraps/shared_elderceilingspike/shared_elderceilingspike.json",
+    "/apexDescription": "texts/objects.json",
+    "/avianDescription": "texts/objects.json",
+    "/description": "texts/objects.json",
     "/floranDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/humanDescription": "texts/objects/shared_tra.json",
-    "/hylotlDescription": "texts/objects/shared_tra.json",
-    "/shortdescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects.json",
+    "/humanDescription": "texts/objects.json",
+    "/hylotlDescription": "texts/objects.json",
+    "/shortdescription": "texts/objects.json"
   },
   "objects/minibiome/elder/eldertraps/elderceilingspike7/elderceilingspike7.object": {
-    "/apexDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/avianDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/description": "texts/objects/minibiome/elder/eldertraps/shared_elderceilingspike/shared_elderceilingspike.json",
+    "/apexDescription": "texts/objects.json",
+    "/avianDescription": "texts/objects.json",
+    "/description": "texts/objects.json",
     "/floranDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/humanDescription": "texts/objects/shared_tra.json",
-    "/hylotlDescription": "texts/objects/shared_tra.json",
-    "/shortdescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects.json",
+    "/humanDescription": "texts/objects.json",
+    "/hylotlDescription": "texts/objects.json",
+    "/shortdescription": "texts/objects.json"
   },
   "objects/minibiome/elder/eldertraps/elderceilingspike8/elderceilingspike8.object": {
-    "/apexDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/avianDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/description": "texts/objects/minibiome/elder/eldertraps/shared_elderceilingspike/shared_elderceilingspike.json",
+    "/apexDescription": "texts/objects.json",
+    "/avianDescription": "texts/objects.json",
+    "/description": "texts/objects.json",
     "/floranDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/humanDescription": "texts/objects/shared_tra.json",
-    "/hylotlDescription": "texts/objects/shared_tra.json",
-    "/shortdescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects.json",
+    "/humanDescription": "texts/objects.json",
+    "/hylotlDescription": "texts/objects.json",
+    "/shortdescription": "texts/objects.json"
   },
   "objects/minibiome/elder/eldertraps/elderfloorspike1/elderfloorspike1.object": {
-    "/apexDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/avianDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/description": "texts/objects/minibiome/elder/eldertraps/shared_elderfloorspike/shared_elderfloorspike.json",
+    "/apexDescription": "texts/objects.json",
+    "/avianDescription": "texts/objects.json",
+    "/description": "texts/objects.json",
     "/floranDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/humanDescription": "texts/objects/shared_tra.json",
-    "/hylotlDescription": "texts/objects/shared_tra.json",
-    "/shortdescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects.json",
+    "/humanDescription": "texts/objects.json",
+    "/hylotlDescription": "texts/objects.json",
+    "/shortdescription": "texts/objects.json"
   },
   "objects/minibiome/elder/eldertraps/elderfloorspike2/elderfloorspike2.object": {
-    "/apexDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/avianDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/description": "texts/objects/minibiome/elder/eldertraps/shared_elderfloorspike/shared_elderfloorspike.json",
+    "/apexDescription": "texts/objects.json",
+    "/avianDescription": "texts/objects.json",
+    "/description": "texts/objects.json",
     "/floranDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/humanDescription": "texts/objects/shared_tra.json",
-    "/hylotlDescription": "texts/objects/shared_tra.json",
-    "/shortdescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects.json",
+    "/humanDescription": "texts/objects.json",
+    "/hylotlDescription": "texts/objects.json",
+    "/shortdescription": "texts/objects.json"
   },
   "objects/minibiome/elder/eldertraps/elderfloorspike3/elderfloorspike3.object": {
-    "/apexDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/avianDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/description": "texts/objects/minibiome/elder/eldertraps/shared_elderfloorspike/shared_elderfloorspike.json",
+    "/apexDescription": "texts/objects.json",
+    "/avianDescription": "texts/objects.json",
+    "/description": "texts/objects.json",
     "/floranDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/humanDescription": "texts/objects/shared_tra.json",
-    "/hylotlDescription": "texts/objects/shared_tra.json",
-    "/shortdescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects.json",
+    "/humanDescription": "texts/objects.json",
+    "/hylotlDescription": "texts/objects.json",
+    "/shortdescription": "texts/objects.json"
   },
   "objects/minibiome/elder/eldertraps/elderfloorspike4/elderfloorspike4.object": {
-    "/apexDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/avianDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/description": "texts/objects/minibiome/elder/eldertraps/shared_elderfloorspike/shared_elderfloorspike.json",
+    "/apexDescription": "texts/objects.json",
+    "/avianDescription": "texts/objects.json",
+    "/description": "texts/objects.json",
     "/floranDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/humanDescription": "texts/objects/shared_tra.json",
-    "/hylotlDescription": "texts/objects/shared_tra.json",
-    "/shortdescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects.json",
+    "/humanDescription": "texts/objects.json",
+    "/hylotlDescription": "texts/objects.json",
+    "/shortdescription": "texts/objects.json"
   },
   "objects/minibiome/elder/eldertraps/elderfloorspike5/elderfloorspike5.object": {
-    "/apexDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/avianDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/description": "texts/objects/minibiome/elder/eldertraps/shared_elderfloorspike/shared_elderfloorspike.json",
+    "/apexDescription": "texts/objects.json",
+    "/avianDescription": "texts/objects.json",
+    "/description": "texts/objects.json",
     "/floranDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/humanDescription": "texts/objects/shared_tra.json",
-    "/hylotlDescription": "texts/objects/shared_tra.json",
-    "/shortdescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects.json",
+    "/humanDescription": "texts/objects.json",
+    "/hylotlDescription": "texts/objects.json",
+    "/shortdescription": "texts/objects.json"
   },
   "objects/minibiome/elder/eldertraps/elderfloorspike6/elderfloorspike6.object": {
-    "/apexDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/avianDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/description": "texts/objects/minibiome/elder/eldertraps/shared_elderfloorspike/shared_elderfloorspike.json",
+    "/apexDescription": "texts/objects.json",
+    "/avianDescription": "texts/objects.json",
+    "/description": "texts/objects.json",
     "/floranDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/humanDescription": "texts/objects/shared_tra.json",
-    "/hylotlDescription": "texts/objects/shared_tra.json",
-    "/shortdescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects.json",
+    "/humanDescription": "texts/objects.json",
+    "/hylotlDescription": "texts/objects.json",
+    "/shortdescription": "texts/objects.json"
   },
   "objects/minibiome/elder/eldertraps/elderfloorspike7/elderfloorspike7.object": {
-    "/apexDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/avianDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/description": "texts/objects/minibiome/elder/eldertraps/shared_elderfloorspike/shared_elderfloorspike.json",
+    "/apexDescription": "texts/objects.json",
+    "/avianDescription": "texts/objects.json",
+    "/description": "texts/objects.json",
     "/floranDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/humanDescription": "texts/objects/shared_tra.json",
-    "/hylotlDescription": "texts/objects/shared_tra.json",
-    "/shortdescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects.json",
+    "/humanDescription": "texts/objects.json",
+    "/hylotlDescription": "texts/objects.json",
+    "/shortdescription": "texts/objects.json"
   },
   "objects/minibiome/elder/eldertraps/elderfloorspike8/elderfloorspike8.object": {
-    "/apexDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/avianDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/description": "texts/objects/minibiome/elder/eldertraps/shared_elderfloorspike/shared_elderfloorspike.json",
+    "/apexDescription": "texts/objects.json",
+    "/avianDescription": "texts/objects.json",
+    "/description": "texts/objects.json",
     "/floranDescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json",
-    "/humanDescription": "texts/objects/shared_tra.json",
-    "/hylotlDescription": "texts/objects/shared_tra.json",
-    "/shortdescription": "texts/objects/minibiome/elder/eldertraps/shared_elder/shared_.object.json"
+    "/glitchDescription/glitchEmotedText": "texts/objects.json",
+    "/humanDescription": "texts/objects.json",
+    "/hylotlDescription": "texts/objects.json",
+    "/shortdescription": "texts/objects.json"
   },
   "objects/minibiome/elder/elderurn1/elderurn1.object": {
     "/description": "texts/objects/minibiome/elder/shared_elderurn/shared_elderurn.json",
@@ -23107,7 +23135,6 @@
     "/shortdescription": "texts/wide_spread_fields.json"
   },
   "objects/minibiome/iceball/iceball_rock.object": {
-    "/description": "texts/objects/minibiome/shared_.object.json",
     "/shortdescription": "texts/wide_spread_fields.json"
   },
   "objects/minibiome/icicleshoot/icicleshoot1.object": {
@@ -23135,16 +23162,16 @@
     "/shortdescription": "texts/objects/minibiome/icicleshoot/shared_icicleshoot.json"
   },
   "objects/minibiome/lightless/blobbush1.object": {
-    "/description": "texts/objects/minibiome/shared_.object.json",
-    "/shortdescription": "texts/objects/minibiome/shared_.object.json"
+    "/description": "texts/objects/minibiome/lightless/shared_blobbush.json",
+    "/shortdescription": "texts/objects/minibiome/lightless/shared_blobbush.json"
   },
   "objects/minibiome/lightless/blobbush2.object": {
-    "/description": "texts/objects/minibiome/shared_.object.json",
-    "/shortdescription": "texts/objects/minibiome/shared_.object.json"
+    "/description": "texts/objects/minibiome/lightless/shared_blobbush.json",
+    "/shortdescription": "texts/objects/minibiome/lightless/shared_blobbush.json"
   },
   "objects/minibiome/lightless/blobbush3.object": {
-    "/description": "texts/objects/minibiome/shared_.object.json",
-    "/shortdescription": "texts/objects/minibiome/shared_.object.json"
+    "/description": "texts/objects/minibiome/lightless/shared_blobbush.json",
+    "/shortdescription": "texts/objects/minibiome/lightless/shared_blobbush.json"
   },
   "objects/minibiome/lightless/rotbulb1.object": {
     "/description": "texts/objects/minibiome/lightless/shared_rotbulb.json",
@@ -23197,6 +23224,78 @@
   "objects/minibiome/lightless/tonguebush2.object": {
     "/description": "texts/objects/minibiome/lightless/shared_tonguebush.json",
     "/shortdescription": "texts/objects/minibiome/lightless/shared_tonguebush.json"
+  },
+  "objects/minibiome/metaljungle/metalbush1.object": {
+    "/description": "texts/objects/minibiome/metaljungle/shared_metalbush.json",
+    "/shortdescription": "texts/objects/minibiome/metaljungle/shared_metalbush.json"
+  },
+  "objects/minibiome/metaljungle/metalbush10.object": {
+    "/description": "texts/objects/minibiome/metaljungle/shared_metalbush.json",
+    "/shortdescription": "texts/objects/minibiome/metaljungle/shared_metalbush.json"
+  },
+  "objects/minibiome/metaljungle/metalbush11.object": {
+    "/description": "texts/objects/minibiome/metaljungle/shared_metalbush.json",
+    "/shortdescription": "texts/objects/minibiome/metaljungle/shared_metalbush.json"
+  },
+  "objects/minibiome/metaljungle/metalbush12.object": {
+    "/description": "texts/objects/minibiome/metaljungle/shared_metalbush.json",
+    "/shortdescription": "texts/objects/minibiome/metaljungle/shared_metalbush.json"
+  },
+  "objects/minibiome/metaljungle/metalbush13.object": {
+    "/description": "texts/objects/minibiome/metaljungle/shared_metalbush1.json",
+    "/shortdescription": "texts/objects/minibiome/metaljungle/shared_metalbush.json"
+  },
+  "objects/minibiome/metaljungle/metalbush14.object": {
+    "/description": "texts/objects/minibiome/metaljungle/shared_metalbush1.json",
+    "/shortdescription": "texts/objects/minibiome/metaljungle/shared_metalbush.json"
+  },
+  "objects/minibiome/metaljungle/metalbush15.object": {
+    "/description": "texts/objects/minibiome/metaljungle/shared_metalbush1.json",
+    "/shortdescription": "texts/objects/minibiome/metaljungle/shared_metalbush.json"
+  },
+  "objects/minibiome/metaljungle/metalbush16.object": {
+    "/description": "texts/objects/minibiome/metaljungle/shared_metalbush1.json",
+    "/shortdescription": "texts/objects/minibiome/metaljungle/shared_metalbush.json"
+  },
+  "objects/minibiome/metaljungle/metalbush17.object": {
+    "/description": "texts/objects/minibiome/metaljungle/shared_metalbush1.json",
+    "/shortdescription": "texts/objects/minibiome/metaljungle/shared_metalbush1.json"
+  },
+  "objects/minibiome/metaljungle/metalbush18.object": {
+    "/description": "texts/objects/minibiome/metaljungle/shared_metalbush1.json",
+    "/shortdescription": "texts/objects/minibiome/metaljungle/shared_metalbush1.json"
+  },
+  "objects/minibiome/metaljungle/metalbush2.object": {
+    "/description": "texts/objects/minibiome/metaljungle/shared_metalbush.json",
+    "/shortdescription": "texts/objects/minibiome/metaljungle/shared_metalbush.json"
+  },
+  "objects/minibiome/metaljungle/metalbush3.object": {
+    "/description": "texts/objects/minibiome/metaljungle/shared_metalbush.json",
+    "/shortdescription": "texts/objects/minibiome/metaljungle/shared_metalbush.json"
+  },
+  "objects/minibiome/metaljungle/metalbush4.object": {
+    "/description": "texts/objects/minibiome/metaljungle/shared_metalbush.json",
+    "/shortdescription": "texts/objects/minibiome/metaljungle/shared_metalbush.json"
+  },
+  "objects/minibiome/metaljungle/metalbush5.object": {
+    "/description": "texts/objects/minibiome/metaljungle/shared_metalbush.json",
+    "/shortdescription": "texts/objects/minibiome/metaljungle/shared_metalbush.json"
+  },
+  "objects/minibiome/metaljungle/metalbush6.object": {
+    "/description": "texts/objects/minibiome/metaljungle/shared_metalbush.json",
+    "/shortdescription": "texts/objects/minibiome/metaljungle/shared_metalbush.json"
+  },
+  "objects/minibiome/metaljungle/metalbush7.object": {
+    "/description": "texts/objects/minibiome/metaljungle/shared_metalbush.json",
+    "/shortdescription": "texts/objects/minibiome/metaljungle/shared_metalbush.json"
+  },
+  "objects/minibiome/metaljungle/metalbush8.object": {
+    "/description": "texts/objects/minibiome/metaljungle/shared_metalbush.json",
+    "/shortdescription": "texts/objects/minibiome/metaljungle/shared_metalbush.json"
+  },
+  "objects/minibiome/metaljungle/metalbush9.object": {
+    "/description": "texts/objects/minibiome/metaljungle/shared_metalbush.json",
+    "/shortdescription": "texts/objects/minibiome/metaljungle/shared_metalbush.json"
   },
   "objects/minibiome/metallic/device1.object": {
     "/shortdescription": "texts/wide_spread_fields.json"
@@ -23325,6 +23424,78 @@
     "/description": "texts/objects/minibiome/penum/shared_penumball.json",
     "/shortdescription": "texts/objects/minibiome/penum/shared_penumball.json"
   },
+  "objects/minibiome/penum/penumbush1.object": {
+    "/description": "texts/objects/minibiome/penum/shared_penumbush.json",
+    "/shortdescription": "texts/objects/minibiome/penum/shared_penumbush.json"
+  },
+  "objects/minibiome/penum/penumbush10.object": {
+    "/description": "texts/objects/minibiome/penum/shared_penumbush.json",
+    "/shortdescription": "texts/objects/minibiome/penum/shared_penumbush.json"
+  },
+  "objects/minibiome/penum/penumbush11.object": {
+    "/description": "texts/objects/minibiome/penum/shared_penumbush.json",
+    "/shortdescription": "texts/objects/minibiome/penum/shared_penumbush.json"
+  },
+  "objects/minibiome/penum/penumbush12.object": {
+    "/description": "texts/objects/minibiome/penum/shared_penumbush.json",
+    "/shortdescription": "texts/objects/minibiome/penum/shared_penumbush.json"
+  },
+  "objects/minibiome/penum/penumbush13.object": {
+    "/description": "texts/objects/minibiome/penum/shared_penumbush.json",
+    "/shortdescription": "texts/objects/minibiome/penum/shared_penumbush.json"
+  },
+  "objects/minibiome/penum/penumbush14.object": {
+    "/description": "texts/objects/minibiome/penum/shared_penumbush.json",
+    "/shortdescription": "texts/objects/minibiome/penum/shared_penumbush.json"
+  },
+  "objects/minibiome/penum/penumbush15.object": {
+    "/description": "texts/objects/minibiome/penum/shared_penumbush.json",
+    "/shortdescription": "texts/objects/minibiome/penum/shared_penumbush.json"
+  },
+  "objects/minibiome/penum/penumbush16.object": {
+    "/description": "texts/objects/minibiome/penum/shared_penumbush.json",
+    "/shortdescription": "texts/objects/minibiome/penum/shared_penumbush.json"
+  },
+  "objects/minibiome/penum/penumbush17.object": {
+    "/description": "texts/objects/minibiome/penum/shared_penumbush1.json",
+    "/shortdescription": "texts/objects/minibiome/penum/shared_penumbush1.json"
+  },
+  "objects/minibiome/penum/penumbush18.object": {
+    "/description": "texts/objects/minibiome/penum/shared_penumbush1.json",
+    "/shortdescription": "texts/objects/minibiome/penum/shared_penumbush1.json"
+  },
+  "objects/minibiome/penum/penumbush2.object": {
+    "/description": "texts/objects/minibiome/penum/shared_penumbush.json",
+    "/shortdescription": "texts/objects/minibiome/penum/shared_penumbush.json"
+  },
+  "objects/minibiome/penum/penumbush3.object": {
+    "/description": "texts/objects/minibiome/penum/shared_penumbush.json",
+    "/shortdescription": "texts/objects/minibiome/penum/shared_penumbush.json"
+  },
+  "objects/minibiome/penum/penumbush4.object": {
+    "/description": "texts/objects/minibiome/penum/shared_penumbush.json",
+    "/shortdescription": "texts/objects/minibiome/penum/shared_penumbush.json"
+  },
+  "objects/minibiome/penum/penumbush5.object": {
+    "/description": "texts/objects/minibiome/penum/shared_penumbush.json",
+    "/shortdescription": "texts/objects/minibiome/penum/shared_penumbush.json"
+  },
+  "objects/minibiome/penum/penumbush6.object": {
+    "/description": "texts/objects/minibiome/penum/shared_penumbush.json",
+    "/shortdescription": "texts/objects/minibiome/penum/shared_penumbush.json"
+  },
+  "objects/minibiome/penum/penumbush7.object": {
+    "/description": "texts/objects/minibiome/penum/shared_penumbush.json",
+    "/shortdescription": "texts/objects/minibiome/penum/shared_penumbush.json"
+  },
+  "objects/minibiome/penum/penumbush8.object": {
+    "/description": "texts/objects/minibiome/penum/shared_penumbush.json",
+    "/shortdescription": "texts/objects/minibiome/penum/shared_penumbush.json"
+  },
+  "objects/minibiome/penum/penumbush9.object": {
+    "/description": "texts/objects/minibiome/penum/shared_penumbush.json",
+    "/shortdescription": "texts/objects/minibiome/penum/shared_penumbush.json"
+  },
   "objects/minibiome/precursor/precursorantenna/precursorantenna.object": {
     "/description": "texts/objects/minibiome/precursor/precursorantenna/shared_precursorantenna.json",
     "/shortdescription": "texts/objects/minibiome/precursor/precursorantenna/shared_precursorantenna.json"
@@ -23426,8 +23597,8 @@
     "/shortdescription": "texts/objects/minibiome/shared_rocks_/shared_.object.json"
   },
   "objects/minibiome/rocks_bare/rockbare3.object": {
-    "/description": "texts/objects/minibiome/shared_.object.json",
-    "/shortdescription": "texts/objects/minibiome/shared_.object.json"
+    "/description": "texts/objects/minibiome/shared_rocks_/shared_.object.json",
+    "/shortdescription": "texts/objects/minibiome/shared_rocks_/shared_.object.json"
   },
   "objects/minibiome/rocks_bare/rockbare4.object": {
     "/description": "texts/objects/minibiome/shared_rocks_/shared_.object.json",
@@ -23449,6 +23620,10 @@
     "/description": "texts/objects/minibiome/shared_rocks_/shared_.object.json",
     "/shortdescription": "texts/objects/minibiome/shared_rocks_/shared_.object.json"
   },
+  "objects/minibiome/rocks_bare/steamprimer.object": {
+    "/description": "texts/objects/minibiome/shared_rocks_/shared_.object.json",
+    "/shortdescription": "texts/objects/minibiome/shared_rocks_/shared_.object.json"
+  },
   "objects/minibiome/rocks_mossy/rockmossy1.object": {
     "/description": "texts/objects/minibiome/shared_rocks_/shared_.object.json",
     "/shortdescription": "texts/objects/minibiome/shared_rocks_/shared_.object.json"
@@ -23458,8 +23633,8 @@
     "/shortdescription": "texts/objects/minibiome/shared_rocks_/shared_.object.json"
   },
   "objects/minibiome/rocks_mossy/rockmossy3.object": {
-    "/description": "texts/objects/minibiome/shared_.object.json",
-    "/shortdescription": "texts/objects/minibiome/shared_.object.json"
+    "/description": "texts/objects/minibiome/shared_rocks_/shared_.object.json",
+    "/shortdescription": "texts/objects/minibiome/shared_rocks_/shared_.object.json"
   },
   "objects/minibiome/rocks_mossy/rockmossy4.object": {
     "/description": "texts/objects/minibiome/shared_rocks_/shared_.object.json",
@@ -23490,8 +23665,8 @@
     "/shortdescription": "texts/objects/minibiome/shared_rocks_/shared_.object.json"
   },
   "objects/minibiome/rocks_stony/rockstony3.object": {
-    "/description": "texts/objects/minibiome/shared_.object.json",
-    "/shortdescription": "texts/objects/minibiome/shared_.object.json"
+    "/description": "texts/objects/minibiome/shared_rocks_/shared_.object.json",
+    "/shortdescription": "texts/objects/minibiome/shared_rocks_/shared_.object.json"
   },
   "objects/minibiome/rocks_stony/rockstony4.object": {
     "/description": "texts/objects/minibiome/shared_rocks_/shared_.object.json",
@@ -23537,6 +23712,66 @@
     "/description": "texts/objects/minibiome/thickjungle/shared_rainforestchest.json",
     "/shortdescription": "texts/objects/minibiome/thickjungle/shared_rainforestchest.json"
   },
+  "objects/minibiome/tidewater/darkoshroom1.object": {
+    "/apexDescription": "texts/objects/shared_oshroom.json",
+    "/avianDescription": "texts/objects/shared_oshroom.json",
+    "/description": "texts/objects/minibiome/tidewater/shared_darkoshroom.json",
+    "/floranDescription": "texts/objects/shared_oshroom.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/shared_oshroom.json",
+    "/humanDescription": "texts/objects/shared_oshroom.json",
+    "/hylotlDescription": "texts/objects/shared_oshroom.json",
+    "/novakidDescription": "texts/objects/shared_oshroom.json",
+    "/shortdescription": "texts/objects/minibiome/tidewater/shared_darkoshroom.json"
+  },
+  "objects/minibiome/tidewater/darkoshroom2.object": {
+    "/apexDescription": "texts/objects/shared_oshroom.json",
+    "/avianDescription": "texts/objects/shared_oshroom.json",
+    "/description": "texts/objects/minibiome/tidewater/shared_darkoshroom.json",
+    "/floranDescription": "texts/objects/shared_oshroom.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/shared_oshroom.json",
+    "/humanDescription": "texts/objects/shared_oshroom.json",
+    "/hylotlDescription": "texts/objects/shared_oshroom.json",
+    "/novakidDescription": "texts/objects/shared_oshroom.json",
+    "/shortdescription": "texts/objects/minibiome/tidewater/shared_darkoshroom.json"
+  },
+  "objects/minibiome/tidewater/darkoshroom3.object": {
+    "/apexDescription": "texts/objects/shared_oshroom.json",
+    "/avianDescription": "texts/objects/shared_oshroom.json",
+    "/description": "texts/objects/minibiome/tidewater/shared_darkoshroom.json",
+    "/floranDescription": "texts/objects/shared_oshroom.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/shared_oshroom.json",
+    "/humanDescription": "texts/objects/shared_oshroom.json",
+    "/hylotlDescription": "texts/objects/shared_oshroom.json",
+    "/novakidDescription": "texts/objects/shared_oshroom.json",
+    "/shortdescription": "texts/objects/minibiome/tidewater/shared_darkoshroom.json"
+  },
+  "objects/minibiome/tidewater/darkoshroom4.object": {
+    "/apexDescription": "texts/objects/shared_oshroom.json",
+    "/avianDescription": "texts/objects/shared_oshroom.json",
+    "/description": "texts/objects/minibiome/tidewater/shared_darkoshroom.json",
+    "/floranDescription": "texts/objects/shared_oshroom.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/shared_oshroom.json",
+    "/humanDescription": "texts/objects/shared_oshroom.json",
+    "/hylotlDescription": "texts/objects/shared_oshroom.json",
+    "/novakidDescription": "texts/objects/shared_oshroom.json",
+    "/shortdescription": "texts/objects/minibiome/tidewater/shared_darkoshroom.json"
+  },
+  "objects/minibiome/tidewater/darkoshroom5.object": {
+    "/apexDescription": "texts/objects/shared_oshroom.json",
+    "/avianDescription": "texts/objects/shared_oshroom.json",
+    "/description": "texts/objects/minibiome/tidewater/shared_darkoshroom.json",
+    "/floranDescription": "texts/objects/shared_oshroom.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/shared_oshroom.json",
+    "/humanDescription": "texts/objects/shared_oshroom.json",
+    "/hylotlDescription": "texts/objects/shared_oshroom.json",
+    "/novakidDescription": "texts/objects/shared_oshroom.json",
+    "/shortdescription": "texts/objects/minibiome/tidewater/shared_darkoshroom.json"
+  },
   "objects/minibiome/various/cactusy1.object": {
     "/description": "texts/objects/minibiome/various/shared_cactusy.json",
     "/shortdescription": "texts/objects/minibiome/various/shared_cactusy.json"
@@ -23544,13 +23779,6 @@
   "objects/minibiome/various/cactusy2.object": {
     "/description": "texts/objects/minibiome/various/shared_cactusy.json",
     "/shortdescription": "texts/objects/minibiome/various/shared_cactusy.json"
-  },
-  "objects/minibiome/various/dasha.object": {
-    "/description": "texts/objects/minibiome/various/shared_.object.json",
-    "/shortdescription": "texts/objects/minibiome/various/shared_.object.json"
-  },
-  "objects/minibiome/various/deadtree.object": {
-    "/description": "texts/objects/minibiome/various/shared_.object.json"
   },
   "objects/minibiome/various/ferny1.object": {
     "/description": "texts/objects/minibiome/various/shared_1.object.json",
@@ -23581,20 +23809,20 @@
     "/shortdescription": "texts/objects/minibiome/various/shared_goldspiral.json"
   },
   "objects/minibiome/various/purpleflower1.object": {
-    "/description": "texts/objects/minibiome/various/shared_.object.json",
-    "/shortdescription": "texts/objects/minibiome/various/shared_.object.json"
+    "/description": "texts/objects/minibiome/various/shared_purpleflower.json",
+    "/shortdescription": "texts/objects/minibiome/various/shared_purpleflower.json"
   },
   "objects/minibiome/various/purpleflower2.object": {
-    "/description": "texts/objects/minibiome/various/shared_.object.json",
-    "/shortdescription": "texts/objects/minibiome/various/shared_.object.json"
+    "/description": "texts/objects/minibiome/various/shared_purpleflower.json",
+    "/shortdescription": "texts/objects/minibiome/various/shared_purpleflower.json"
   },
   "objects/minibiome/various/purpleflower3.object": {
-    "/description": "texts/objects/minibiome/various/shared_.object.json",
-    "/shortdescription": "texts/objects/minibiome/various/shared_.object.json"
+    "/description": "texts/objects/minibiome/various/shared_purpleflower.json",
+    "/shortdescription": "texts/objects/minibiome/various/shared_purpleflower.json"
   },
   "objects/minibiome/various/purpleflower4.object": {
-    "/description": "texts/objects/minibiome/various/shared_.object.json",
-    "/shortdescription": "texts/objects/minibiome/various/shared_.object.json"
+    "/description": "texts/objects/minibiome/various/shared_purpleflower.json",
+    "/shortdescription": "texts/objects/minibiome/various/shared_purpleflower.json"
   },
   "objects/minibiome/various/purpleleaf1.object": {
     "/description": "texts/objects/minibiome/various/shared_purpleleaf.json",
@@ -23607,6 +23835,10 @@
   "objects/minibiome/various/purpleleaf3.object": {
     "/description": "texts/objects/minibiome/various/shared_purpleleaf.json",
     "/shortdescription": "texts/objects/minibiome/various/shared_purpleleaf.json"
+  },
+  "objects/minibiome/various/redcap.object": {
+    "/description": "texts/objects/minibiome/various/shared_.object.json",
+    "/shortdescription": "texts/objects/minibiome/various/shared_.object.json"
   },
   "objects/minibiome/various/redcap2.object": {
     "/description": "texts/objects/minibiome/various/shared_.object.json",
@@ -23669,20 +23901,20 @@
     "/shortdescription": "texts/objects/minibiome/various/shared_1.object.json"
   },
   "objects/minibiome/various/toxicflower1.object": {
-    "/description": "texts/objects/minibiome/various/shared_.object.json",
-    "/shortdescription": "texts/objects/minibiome/various/shared_.object.json"
+    "/description": "texts/objects/minibiome/various/shared_toxicflower.json",
+    "/shortdescription": "texts/objects/minibiome/various/shared_toxicflower.json"
   },
   "objects/minibiome/various/toxicflower2.object": {
-    "/description": "texts/objects/minibiome/various/shared_.object.json",
-    "/shortdescription": "texts/objects/minibiome/various/shared_.object.json"
+    "/description": "texts/objects/minibiome/various/shared_toxicflower.json",
+    "/shortdescription": "texts/objects/minibiome/various/shared_toxicflower.json"
   },
   "objects/minibiome/various/toxicflower3.object": {
-    "/description": "texts/objects/minibiome/various/shared_.object.json",
-    "/shortdescription": "texts/objects/minibiome/various/shared_.object.json"
+    "/description": "texts/objects/minibiome/various/shared_toxicflower.json",
+    "/shortdescription": "texts/objects/minibiome/various/shared_toxicflower.json"
   },
   "objects/minibiome/various/toxicflower4.object": {
-    "/description": "texts/objects/minibiome/various/shared_.object.json",
-    "/shortdescription": "texts/objects/minibiome/various/shared_.object.json"
+    "/description": "texts/objects/minibiome/various/shared_toxicflower.json",
+    "/shortdescription": "texts/objects/minibiome/various/shared_toxicflower.json"
   },
   "objects/minibiome/various/toxicsprout1.object": {
     "/description": "texts/objects/minibiome/various/shared_toxicsprout.json",
@@ -23733,60 +23965,60 @@
     "/shortdescription": "texts/objects/minibiome/various/shared_whitebulb.json"
   },
   "objects/minibiome/volcanicrock/volcanicrockseed.object": {
-    "/description": "texts/objects/minibiome/shared_.object.json",
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/description": "texts/objects/minibiome/volcanicrock/shared_volcanicrockseed.json",
+    "/shortdescription": "texts/objects/minibiome/volcanicrock/shared_volcanicrockseed.json"
   },
   "objects/minibiome/volcanicrock/volcanicrockseed2.object": {
-    "/description": "texts/objects/minibiome/shared_.object.json",
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/description": "texts/objects/minibiome/volcanicrock/shared_volcanicrockseed.json",
+    "/shortdescription": "texts/objects/minibiome/volcanicrock/shared_volcanicrockseed.json"
   },
   "objects/minibiome/volcanicrock/volcanicrockseed3.object": {
-    "/description": "texts/objects/minibiome/shared_.object.json",
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/description": "texts/objects/minibiome/volcanicrock/shared_volcanicrockseed.json",
+    "/shortdescription": "texts/objects/minibiome/volcanicrock/shared_volcanicrockseed.json"
   },
   "objects/minibiome/volcanicrock/volcanicrockseed4.object": {
-    "/description": "texts/objects/minibiome/shared_.object.json",
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/description": "texts/objects/minibiome/volcanicrock/shared_volcanicrockseed.json",
+    "/shortdescription": "texts/objects/minibiome/volcanicrock/shared_volcanicrockseed.json"
   },
   "objects/minibiome/volcanicrock/volcanicrockseed5.object": {
-    "/description": "texts/objects/minibiome/shared_.object.json",
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/description": "texts/objects/minibiome/volcanicrock/shared_volcanicrockseed.json",
+    "/shortdescription": "texts/objects/minibiome/volcanicrock/shared_volcanicrockseed.json"
   },
   "objects/minibiome/volcanicrock/volcanicrockseed6.object": {
-    "/description": "texts/objects/minibiome/shared_.object.json",
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/description": "texts/objects/minibiome/volcanicrock/shared_volcanicrockseed.json",
+    "/shortdescription": "texts/objects/minibiome/volcanicrock/shared_volcanicrockseed.json"
   },
   "objects/minibiome/volcanicrock/volcanicrockseed7.object": {
-    "/description": "texts/objects/minibiome/shared_.object.json",
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/description": "texts/objects/minibiome/volcanicrock/shared_volcanicrockseed.json",
+    "/shortdescription": "texts/objects/minibiome/volcanicrock/shared_volcanicrockseed.json"
   },
   "objects/minibiome/volcanicrock/volcanicrockseed8.object": {
-    "/description": "texts/objects/minibiome/shared_.object.json",
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/description": "texts/objects/minibiome/volcanicrock/shared_volcanicrockseed.json",
+    "/shortdescription": "texts/objects/minibiome/volcanicrock/shared_volcanicrockseed.json"
   },
   "objects/minibiome/volcanicrock2/volcanicrock2seed.object": {
-    "/description": "texts/objects/minibiome/shared_.object.json",
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/description": "texts/objects/minibiome/volcanicrock2/shared_volcanicrock2seed.json",
+    "/shortdescription": "texts/objects/minibiome/volcanicrock2/shared_volcanicrock2seed.json"
   },
   "objects/minibiome/volcanicrock2/volcanicrock2seed2.object": {
-    "/description": "texts/objects/minibiome/shared_.object.json",
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/description": "texts/objects/minibiome/volcanicrock2/shared_volcanicrock2seed.json",
+    "/shortdescription": "texts/objects/minibiome/volcanicrock2/shared_volcanicrock2seed.json"
   },
   "objects/minibiome/volcanicrock2/volcanicrock2seed3.object": {
-    "/description": "texts/objects/minibiome/shared_.object.json",
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/description": "texts/objects/minibiome/volcanicrock2/shared_volcanicrock2seed.json",
+    "/shortdescription": "texts/objects/minibiome/volcanicrock2/shared_volcanicrock2seed.json"
   },
   "objects/minibiome/volcanicrock2/volcanicrock2seed4.object": {
-    "/description": "texts/objects/minibiome/shared_.object.json",
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/description": "texts/objects/minibiome/volcanicrock2/shared_volcanicrock2seed.json",
+    "/shortdescription": "texts/objects/minibiome/volcanicrock2/shared_volcanicrock2seed.json"
   },
   "objects/minibiome/volcanicrock2/volcanicrock2seed5.object": {
-    "/description": "texts/objects/minibiome/shared_.object.json",
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/description": "texts/objects/minibiome/volcanicrock2/shared_volcanicrock2seed.json",
+    "/shortdescription": "texts/objects/minibiome/volcanicrock2/shared_volcanicrock2seed.json"
   },
   "objects/minibiome/volcanicrock2/volcanicrock2seed6.object": {
-    "/description": "texts/objects/minibiome/shared_.object.json",
-    "/shortdescription": "texts/wide_spread_fields.json"
+    "/description": "texts/objects/minibiome/volcanicrock2/shared_volcanicrock2seed.json",
+    "/shortdescription": "texts/objects/minibiome/volcanicrock2/shared_volcanicrock2seed.json"
   },
   "objects/minibiome/wasteland/mechruin.object": {
     "/description": "texts/objects/minibiome/wasteland/shared_.object.json",
@@ -24645,6 +24877,102 @@
   "objects/novakid/trainhead/trainhead.object": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/novakid/trainhead/trainhead.object.json"
+  },
+  "objects/obstacles/sulphuric/sulphuricceilingspike1.object": {
+    "/apexDescription": "texts/objects.json",
+    "/avianDescription": "texts/objects.json",
+    "/description": "texts/objects.json",
+    "/floranDescription": "texts/objects/shared_.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects.json",
+    "/humanDescription": "texts/objects.json",
+    "/hylotlDescription": "texts/objects.json",
+    "/novakidDescription": "texts/objects/obstacles/sulphuric/shared_sulphuric.json",
+    "/shortdescription": "texts/objects.json"
+  },
+  "objects/obstacles/sulphuric/sulphuricceilingspike2.object": {
+    "/apexDescription": "texts/objects.json",
+    "/avianDescription": "texts/objects.json",
+    "/description": "texts/objects.json",
+    "/floranDescription": "texts/objects/shared_.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects.json",
+    "/humanDescription": "texts/objects.json",
+    "/hylotlDescription": "texts/objects.json",
+    "/novakidDescription": "texts/objects/obstacles/sulphuric/shared_sulphuric.json",
+    "/shortdescription": "texts/objects.json"
+  },
+  "objects/obstacles/sulphuric/sulphuricceilingspike3.object": {
+    "/apexDescription": "texts/objects.json",
+    "/avianDescription": "texts/objects.json",
+    "/description": "texts/objects.json",
+    "/floranDescription": "texts/objects/shared_.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects.json",
+    "/humanDescription": "texts/objects.json",
+    "/hylotlDescription": "texts/objects.json",
+    "/novakidDescription": "texts/objects/obstacles/sulphuric/shared_sulphuric.json",
+    "/shortdescription": "texts/objects.json"
+  },
+  "objects/obstacles/sulphuric/sulphuricceilingspike4.object": {
+    "/apexDescription": "texts/objects.json",
+    "/avianDescription": "texts/objects.json",
+    "/description": "texts/objects.json",
+    "/floranDescription": "texts/objects/shared_.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects.json",
+    "/humanDescription": "texts/objects.json",
+    "/hylotlDescription": "texts/objects.json",
+    "/novakidDescription": "texts/objects/obstacles/sulphuric/shared_sulphuric.json",
+    "/shortdescription": "texts/objects.json"
+  },
+  "objects/obstacles/sulphuric/sulphuricgroundspike1.object": {
+    "/apexDescription": "texts/objects.json",
+    "/avianDescription": "texts/objects.json",
+    "/description": "texts/objects.json",
+    "/floranDescription": "texts/objects/shared_.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects.json",
+    "/humanDescription": "texts/objects.json",
+    "/hylotlDescription": "texts/objects.json",
+    "/novakidDescription": "texts/objects/obstacles/sulphuric/shared_sulphuric.json",
+    "/shortdescription": "texts/objects.json"
+  },
+  "objects/obstacles/sulphuric/sulphuricgroundspike2.object": {
+    "/apexDescription": "texts/objects.json",
+    "/avianDescription": "texts/objects.json",
+    "/description": "texts/objects.json",
+    "/floranDescription": "texts/objects/shared_.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects.json",
+    "/humanDescription": "texts/objects.json",
+    "/hylotlDescription": "texts/objects.json",
+    "/novakidDescription": "texts/objects/obstacles/sulphuric/shared_sulphuric.json",
+    "/shortdescription": "texts/objects.json"
+  },
+  "objects/obstacles/sulphuric/sulphuricgroundspike3.object": {
+    "/apexDescription": "texts/objects.json",
+    "/avianDescription": "texts/objects.json",
+    "/description": "texts/objects.json",
+    "/floranDescription": "texts/objects/shared_.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects.json",
+    "/humanDescription": "texts/objects.json",
+    "/hylotlDescription": "texts/objects.json",
+    "/novakidDescription": "texts/objects/obstacles/sulphuric/shared_sulphuric.json",
+    "/shortdescription": "texts/objects.json"
+  },
+  "objects/obstacles/sulphuric/sulphuricgroundspike4.object": {
+    "/apexDescription": "texts/objects.json",
+    "/avianDescription": "texts/objects.json",
+    "/description": "texts/objects.json",
+    "/floranDescription": "texts/objects/shared_.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects.json",
+    "/humanDescription": "texts/objects.json",
+    "/hylotlDescription": "texts/objects.json",
+    "/novakidDescription": "texts/objects/obstacles/sulphuric/shared_sulphuric.json",
+    "/shortdescription": "texts/objects.json"
   },
   "objects/orangejuice/labportcullis/labportcullis.object": {
     "/apexDescription": "texts/objects/orangejuice/shared_portcullis/shared_portcullis.object.json",
@@ -34137,10 +34465,11 @@
     "/glitchDescription/glitchEmotedText": "texts/objects/traps/craftsawblade/craftsawblade.object.json"
   },
   "objects/traps/extrabonespike/extrabonespike.object": {
+    "/floranDescription": "texts/objects/shared_.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/traps/extrabonespike/extrabonespike.object.json",
-    "/humanDescription": "texts/objects/shared_tra.json",
-    "/hylotlDescription": "texts/objects/shared_tra.json"
+    "/humanDescription": "texts/objects.json",
+    "/hylotlDescription": "texts/objects.json"
   },
   "objects/trianglium/triangliumbed/triangliumbed.object": {
     "/apexDescription": "texts/objects/trianglium/shared_trianglium.json",
@@ -37289,6 +37618,9 @@
     "/description": "texts/plants/bushes/ground/shared_atropusbush/shared_atropusbush.json",
     "/shortdescription": "texts/plants/bushes/ground/shared_atropusbush/shared_atropusbush.json"
   },
+  "plants/bushes/ground/autumnbush/autumnbush.bush": {
+    "/shortdescription": "texts/plants/bushes/ground/shared_bush/shared_bush.bush.json"
+  },
   "plants/bushes/ground/buglike/buglike.bush": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/plants/bushes/ground/buglike/buglike.bush.json"
@@ -37298,8 +37630,10 @@
     "/shortdescription": "texts/plants/bushes/ground/shared_grass/shared_grass.bush.json"
   },
   "plants/bushes/ground/cloudbush/cloudbush.bush": {
+    "/description": "texts/plants/bushes/ground/shared_bush/shared_bush.bush.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/plants/bushes/ground/cloudbush/cloudbush.bush.json"
+    "/glitchDescription/glitchEmotedText": "texts/plants/bushes/ground/shared_bush/shared_bush.bush.json",
+    "/shortdescription": "texts/plants/bushes/ground/shared_bush/shared_bush.bush.json"
   },
   "plants/bushes/ground/nightly/alpinestone/alpinestone.bush": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
@@ -37351,6 +37685,23 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/plants/bushes/ground/shared_thorns/shared_thorns.json",
     "/shortdescription": "texts/plants/bushes/ground/shared_thorns/shared_thorns.json"
+  },
+  "plants/bushes/ground/tidewater/darkcone.bush": {
+    "/floranDescription": "texts/plants/bushes/ground/tidewater/shared_.bush.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/plants/bushes/ground/tidewater/shared_.bush.json"
+  },
+  "plants/bushes/ground/tidewater/darkcoral.bush": {
+    "/description": "texts/plants/ground/shared_darkcoral.json",
+    "/floranDescription": "texts/plants/bushes/ground/tidewater/shared_.bush.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/plants/bushes/ground/tidewater/shared_.bush.json",
+    "/shortdescription": "texts/wide_spread_fields.json"
+  },
+  "plants/bushes/ground/tidewater/darkseagrass.bush": {
+    "/floranDescription": "texts/plants/bushes/ground/tidewater/shared_.bush.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/plants/bushes/ground/tidewater/shared_.bush.json"
   },
   "plants/grass/ceiling/gelatinousgrassceiling/gelatinousgrassceiling.grass": {
     "/description": "texts/plants/grass/shared_ati/shared_gelatinousgrass.json",
@@ -37408,6 +37759,12 @@
   "plants/grass/ground/decorative/cloudspire/cloudspire.grass": {
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/plants/grass/ground/decorative/cloudspire/cloudspire.grass.json"
+  },
+  "plants/grass/ground/decorative/darkcorals/darkcorals.grass": {
+    "/description": "texts/plants/ground/shared_darkcoral.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/plants/ground/shared_darkcoral.json",
+    "/shortdescription": "texts/plants/ground/shared_darkcoral.json"
   },
   "plants/grass/ground/decorative/gelatinousgrass/gelatinousgrass.grass": {
     "/description": "texts/plants/grass/shared_ati/shared_gelatinousgrass.json",
@@ -40027,6 +40384,9 @@
   "tiles/materials/andesite.material": {
     "/shortdescription": "texts/materials/shared_andesite.mat.json"
   },
+  "tiles/materials/autumnleaves.material": {
+    "/shortdescription": "texts/materials/shared_autumnleaves.mat.json"
+  },
   "tiles/materials/avalichits.material": {
     "/shortdescription": "texts/shared_lic.json"
   },
@@ -40163,7 +40523,7 @@
     "/glitchDescription/glitchEmotedText": "texts/tiles/materials/cookedflesh.material.json"
   },
   "tiles/materials/coral.material": {
-    "/shortdescription": "texts/materials/shared_material.json"
+    "/shortdescription": "texts/wide_spread_fields.json"
   },
   "tiles/materials/coral2.material": {
     "/shortdescription": "texts/materials/shared_material.json"
@@ -41191,7 +41551,7 @@
   },
   "tiles/materials/livecoral.material": {
     "/description": "texts/tiles/materials/shared_coral.material.json",
-    "/shortdescription": "texts/materials/shared_material.json"
+    "/shortdescription": "texts/wide_spread_fields.json"
   },
   "tiles/materials/magmatile/magmatile1.material": {
     "/description": "texts/tiles/materials/magmatile/shared_magmatile.json",
@@ -41415,6 +41775,9 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/materials/shared_peglaci.json",
     "/shortdescription": "texts/tiles/materials/peglaci/shared_cable.material.json"
+  },
+  "tiles/materials/penumbralbark.material": {
+    "/shortdescription": "texts/materials/shared_penumbralbark.mat.json"
   },
   "tiles/materials/pixelgoods/fujellyblock2.material": {
     "/description": "texts/tiles/materials.json",
@@ -41944,6 +42307,10 @@
     "/description": "texts/materials/shared_ree.json",
     "/shortdescription": "texts/materials/shared_ree.json"
   },
+  "tiles/materials/tilesandgreebles/fulabsupport.material": {
+    "/description": "texts/materials.json",
+    "/shortdescription": "texts/materials.json"
+  },
   "tiles/materials/tilesandgreebles/hitechmetalblock.material": {
     "/description": "texts/materials/tilesandgreebles/shared_.mat.json"
   },
@@ -42197,7 +42564,13 @@
     "/novakidDescription": "texts/materials.json",
     "/shortdescription": "texts/materials/shared_woodentrim.mat.json"
   },
+  "tiles/mods/autumnleaves.matmod": {
+    "/description": "texts/shared_matmod.json"
+  },
   "tiles/mods/bloodybones.matmod": {
+    "/description": "texts/shared_matmod.json"
+  },
+  "tiles/mods/ceilinghoneygrass.matmod": {
     "/description": "texts/shared_matmod.json"
   },
   "tiles/mods/clay.matmod": {
@@ -42208,11 +42581,26 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/tiles/mods/cloud.matmod.json"
   },
+  "tiles/mods/hiveceilinggrass2.matmod": {
+    "/description": "texts/shared_matmod.json"
+  },
+  "tiles/mods/hivegrass2.matmod": {
+    "/description": "texts/shared_matmod.json"
+  },
+  "tiles/mods/honeygrass.matmod": {
+    "/description": "texts/shared_matmod.json"
+  },
   "tiles/mods/hydrotilled.matmod": {
     "/description": "texts/tiles/mods/shared_hydrotilled.json"
   },
   "tiles/mods/hydrotilleddry.matmod": {
     "/description": "texts/tiles/mods/shared_hydrotilled.json"
+  },
+  "tiles/mods/junk.matmod": {
+    "/description": "texts/shared_matmod.json"
+  },
+  "tiles/mods/moondust.matmod": {
+    "/description": "texts/shared_matmod.json"
   },
   "tiles/mods/nocxium.matmod": {
     "/description": "texts/wide_spread_fields.json"
