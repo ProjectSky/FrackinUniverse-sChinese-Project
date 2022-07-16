@@ -2,7 +2,15 @@
   "patches": {
     "ai": {
       "ai.config.json": 1,
-      "missionhuman1.aimission.json": 3
+      "missionapex1.aimission.json": 2,
+      "missionavian1.aimission.json": 2,
+      "missioncultist1.aimission.json": 2,
+      "missionfloran1.aimission.json": 2,
+      "missionglitch1.aimission.json": 2,
+      "missionhuman1.aimission.json": 3,
+      "missionhylotl1.aimission.json": 2,
+      "missionpenguin1.aimission.json": 2,
+      "missionpenguin2.aimission.json": 2
     },
     "celestial.config.json": 34,
     "client.config.json": 1,
@@ -525,9 +533,6 @@
           }
         },
         "food": {
-          "shared_tier": {
-            "shared_.consumable.json": 1
-          },
           "tier1": {
             "bakedpotato.consumable.json": 1,
             "boiledpearlpeas.consumable.json": 1,
@@ -550,6 +555,7 @@
             "popcorn.consumable.json": 1,
             "potatogrids.consumable.json": 1,
             "roastedcarrot.consumable.json": 1,
+            "roastedmushrooms.consumable.json": 1,
             "toast.consumable.json": 1
           },
           "tier2": {
@@ -567,38 +573,61 @@
             "carrotbread.consumable.json": 1,
             "carrotcake.consumable.json": 1,
             "carrotjuice.consumable.json": 1,
+            "carrotsoup.consumable.json": 1,
             "cheeseburger.consumable.json": 1,
+            "chocolatecake.consumable.json": 1,
             "coffee.consumable.json": 1,
             "coffeecake.consumable.json": 1,
             "cornpeckers.consumable.json": 1,
             "feathercrownjam.consumable.json": 1,
             "featherfood.consumable.json": 1,
+            "flatwhite.consumable.json": 1,
+            "fluffyruffs.consumable.json": 1,
             "gardensalad.consumable.json": 1,
             "hamburger.consumable.json": 1,
             "kiwijam.consumable.json": 1,
             "kiwijuice.consumable.json": 1,
+            "mocha.consumable.json": 1,
             "mushroombread.consumable.json": 1,
+            "mushroomquiche.consumable.json": 1,
+            "mushroomrice.consumable.json": 1,
             "omelette.consumable.json": 1,
             "pasty.consumable.json": 1,
             "pearlpeajam.consumable.json": 1,
+            "pearlpeapancakes.consumable.json": 1,
             "pizza.consumable.json": 1,
             "pizzaslice.consumable.json": 1,
+            "porridge.consumable.json": 1,
             "quichelorraine.consumable.json": 1,
             "relish.consumable.json": 1,
+            "ricepudding.consumable.json": 1,
             "roastdinner.consumable.json": 1,
             "rustchowder.consumable.json": 1,
+            "specialrice.consumable.json": 1,
+            "spikycookies.consumable.json": 1,
             "stickyribs.consumable.json": 1,
+            "stuffedtomato.consumable.json": 1,
             "sweetmeat.consumable.json": 1,
-            "tomatojuice.consumable.json": 1
+            "sweetpopcorn.consumable.json": 1,
+            "tomatojuice.consumable.json": 1,
+            "tomatosoup.consumable.json": 1
           },
           "tier3": {
+            "2kbpotage.consumable.json": 1,
             "apegrapes.consumable.json": 1,
+            "apexfritter.consumable.json": 1,
             "automatoshake.consumable.json": 1,
             "automatostew.consumable.json": 1,
             "bananacon.consumable.json": 1,
+            "bananacreamdonut.consumable.json": 1,
+            "bananacreampie.consumable.json": 1,
+            "bananaicecream.consumable.json": 1,
             "batteredbanana.consumable.json": 1,
+            "cactiicecream.consumable.json": 1,
             "campfirebanana.consumable.json": 1,
             "candyautomato.consumable.json": 1,
+            "choconut.consumable.json": 1,
+            "coconuticecream.consumable.json": 1,
             "coconutmilk.consumable.json": 1,
             "coconutrice.consumable.json": 1,
             "desertsalsa.consumable.json": 1,
@@ -609,6 +638,8 @@
             "pineapplejam.consumable.json": 1,
             "pineapplejuice.consumable.json": 1,
             "pineapplepizzaslice.consumable.json": 1,
+            "snowcone.consumable.json": 1,
+            "spookydonut.consumable.json": 1,
             "spookypie.consumable.json": 1,
             "stuffedautomato.consumable.json": 1,
             "sweetpunch.consumable.json": 1,
@@ -618,29 +649,39 @@
           "tier4": {
             "alienfruitjam.consumable.json": 1,
             "alienfruitjuice.consumable.json": 1,
+            "avesmingoicecream.consumable.json": 1,
+            "avesmingojuice.consumable.json": 1,
+            "bananasplit.consumable.json": 1,
             "bloodypuss.consumable.json": 1,
             "brineapple.consumable.json": 1,
             "cyanider.consumable.json": 1,
             "oceanrisotto.consumable.json": 1,
             "oceansalsa.consumable.json": 1,
             "oceansurprise.consumable.json": 1,
+            "oculemonmeringue.consumable.json": 1,
             "oculemonstew.consumable.json": 1,
             "pussplumjam.consumable.json": 1,
+            "pussplumpudding.consumable.json": 1,
             "pussplumtart.consumable.json": 1,
             "reefjuice.consumable.json": 1,
             "reefpodsurprise.consumable.json": 1,
+            "reefshake.consumable.json": 1,
             "ricecake.consumable.json": 1,
             "saltsalad.consumable.json": 1,
             "seafoodgratin.consumable.json": 1,
             "soggysack.consumable.json": 1,
+            "stuffeddirturchin.consumable.json": 1,
             "sushi.consumable.json": 1,
+            "toxicjamdonut.consumable.json": 1,
             "toxicjuice.consumable.json": 1,
-            "toxictopjam.consumable.json": 1,
-            "toxictoptart.consumable.json": 1
+            "toxictart.consumable.json": 1,
+            "toxictopjam.consumable.json": 1
           },
           "tier5": {
+            "16GBpasty.consumable.json": 1,
             "8gbpizzap.consumable.json": 1,
             "boltos.consumable.json": 1,
+            "eggshooticecream.consumable.json": 1,
             "eggshootsalad.consumable.json": 1,
             "eyebowls.consumable.json": 1,
             "nutsandbolts.consumable.json": 1,
@@ -655,10 +696,12 @@
             "neonmelonjam.consumable.json": 1,
             "pearlpeaparcels.consumable.json": 1,
             "pozest.consumable.json": 1,
+            "spicyfeathercrown.consumable.json": 1,
             "spicyribs.consumable.json": 1,
             "ultimatejuice.consumable.json": 1,
             "volcanicsalsa.consumable.json": 1,
             "wartweedjam.consumable.json": 1,
+            "wartweedjamdonut.consumable.json": 1,
             "wartweedstew.consumable.json": 1
           }
         },
@@ -684,10 +727,11 @@
             "mecharmshielddrone.item.json": 2
           },
           "body": {
-            "mechbodyxsm_roninrhomech.item.json": 1,
-            "shared_mech.item.json": 1,
+            "mechbodyapex.glitch.item.json": 1,
+            "mechbodydvamech.item.json": 1,
+            "mechbodyxsm_thetamech.item.json": 1,
             "shared_mechbody.json": 3,
-            "shared_mechbodyxsm_.json": 1,
+            "shared_mechbodyxsm_.json": 2,
             "shared_proto.item.json": 1
           }
         },
@@ -1720,6 +1764,16 @@
         "mechunlock.questtemplate.json": 1,
         "mechupgrade1.questtemplate.json": 1,
         "outpostclue.questtemplate.json": 1,
+        "shipupgrade": {
+          "illegalshipupgrade2.questtemplate.json": 1,
+          "illegalshipupgrade3.questtemplate.json": 1,
+          "illegalshipupgrade4.questtemplate.json": 1,
+          "illegalshipupgrade5.questtemplate.json": 1,
+          "shipupgrade2.questtemplate.json": 1,
+          "shipupgrade3.questtemplate.json": 1,
+          "shipupgrade4.questtemplate.json": 1,
+          "shipupgrade5.questtemplate.json": 1
+        },
         "techscientist4.questtemplate.json": 1,
         "techscientist5.questtemplate.json": 2,
         "techscientist6.questtemplate.json": 2
@@ -20890,6 +20944,9 @@
             },
             "elder": {
               "eldergrass.grass.json": 2
+            },
+            "lightlessgrass": {
+              "lightlessgrass.grass.json": 1
             },
             "nitrogengrass": {
               "nitrogengrass.grass.json": 2
