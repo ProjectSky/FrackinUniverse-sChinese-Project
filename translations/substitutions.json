@@ -2755,11 +2755,14 @@
     "/gui/energyRegenPercentageRate/value": "texts/interface/shared_.config.json",
     "/gui/fallDamageMultiplier/value": "texts/interface/shared_.config.json",
     "/gui/foodDelta/value": "texts/interface/shared_.config.json",
+    "/gui/fuCharisma/value": "texts/interface/shared_.config.json",
     "/gui/grit/value": "texts/interface/shared_.config.json",
+    "/gui/healingBonus/value": "texts/interface/shared_.config.json",
     "/gui/healthRegen/value": "texts/interface/shared_.config.json",
     "/gui/knockbackThreshold/value": "texts/interface/shared_.config.json",
     "/gui/maxEnergy/value": "texts/interface/shared_.config.json",
     "/gui/maxHealth/value": "texts/interface/shared_.config.json",
+    "/gui/mentalProtection/value": "texts/interface/shared_.config.json",
     "/gui/powerMultiplier/value": "texts/interface/shared_.config.json",
     "/gui/protection/value": "texts/interface/shared_.config.json",
     "/gui/shieldBash/value": "texts/interface/shared_.config.json",
@@ -6699,6 +6702,9 @@
   "items/generic/crafting/isotopes/neptuniumradien.consumable": {
     "/description": "texts/items/generic/crafting.json"
   },
+  "items/generic/crafting/isotopes/plutoniumradien.consumable": {
+    "/description": "texts/items/generic/crafting.json"
+  },
   "items/generic/crafting/isotopes/thoriumradien.consumable": {
     "/description": "texts/items/generic/crafting.json"
   },
@@ -6710,9 +6716,6 @@
   },
   "items/generic/crafting/oceanite.item": {
     "/description": "texts/shared_oceanite.json"
-  },
-  "items/generic/crafting/plutoniumradien.consumable": {
-    "/description": "texts/items/generic/crafting.json"
   },
   "items/generic/crafting/protociteore.item": {
     "/shortdescription": "texts/wide_spread_fields.json"
@@ -15142,55 +15145,202 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/avian/tribalshopcounter/tribalshopcounter.object.json"
   },
+  "objects/backgrounddoor/ancientbackgrounddoor/ancientbackgrounddoor.object": {
+    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json"
+  },
+  "objects/backgrounddoor/apexbackgrounddoor/apexbackgrounddoor.object": {
+    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json"
+  },
+  "objects/backgrounddoor/avianbackgroundoor/avianbackgrounddoor.object": {
+    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json"
+  },
+  "objects/backgrounddoor/barredbackgrounddoor/barredbackgrounddoor.object": {
+    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json",
+    "/shortdescription": "texts/objects/backgrounddoor/shared_barredbackgrounddoor/shared_barredbackgrounddoor.json"
+  },
+  "objects/backgrounddoor/barredbackgrounddoor2/barredbackgrounddoor2.object": {
+    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json",
+    "/shortdescription": "texts/objects/backgrounddoor/shared_barredbackgrounddoor/shared_barredbackgrounddoor.json"
+  },
+  "objects/backgrounddoor/cultistbackgrounddoor/cultistbackgrounddoor.object": {
+    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json"
+  },
+  "objects/backgrounddoor/cutebackgrounddoor/cutebackgrounddoor.object": {
+    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json"
+  },
+  "objects/backgrounddoor/doombackgrounddoor/doombackgrounddoor.object": {
+    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json"
+  },
+  "objects/backgrounddoor/elduukharbackgrounddoor/elduukharbackgrounddoor.object": {
+    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json"
+  },
+  "objects/backgrounddoor/glitchbackgrounddoor/glitchbackgrounddoor.object": {
+    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json"
+  },
+  "objects/backgrounddoor/gothicbackgrounddoor/gothicbackgrounddoor.object": {
+    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json"
+  },
+  "objects/backgrounddoor/hightechbackgrounddoor/hightechbackgrounddoor.object": {
+    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json"
+  },
+  "objects/backgrounddoor/hylotlbackgrounddoor/hylotlbackgrounddoor.object": {
+    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json"
+  },
+  "objects/backgrounddoor/novakidbackgrounddoor/novakidbackgrounddoor.object": {
+    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json"
+  },
   "objects/bees/beestation/beestation.object": {
     "/description": "texts/shared_beestation.json"
   },
   "objects/bees/candle/bluecandle.object": {
     "/apexDescription": "texts/objects/bees/candle/shared_candle.object.json",
-    "/avianDescription": "texts/objects/bees/candle/shared_candle.object.json",
-    "/floranDescription": "texts/objects/bees/candle/shared_candle.object.json",
+    "/avianDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/floranDescription": "texts/objects/bees/candle/shared_le.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/bees/candle/shared_candle.object.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/bees/candle/shared_le.object.json",
     "/humanDescription": "texts/objects/bees/candle/shared_candle.object.json",
-    "/hylotlDescription": "texts/objects/bees/candle/shared_candle.object.json"
+    "/hylotlDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/novakidDescription": "texts/objects/bees/candle/shared_candle.object.json"
+  },
+  "objects/bees/candle/bluecandledouble.object": {
+    "/apexDescription": "texts/objects/bees/candle/shared_candledouble.object.json",
+    "/avianDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/floranDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/bees/candle/shared_le.object.json",
+    "/humanDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/hylotlDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/novakidDescription": "texts/objects/bees/candle/shared_le.object.json"
+  },
+  "objects/bees/candle/bluecandletriple.object": {
+    "/apexDescription": "texts/objects/bees/candle/shared_candletriple.object.json",
+    "/avianDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/floranDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/bees/candle/shared_le.object.json",
+    "/humanDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/hylotlDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/novakidDescription": "texts/objects/bees/candle/shared_le.object.json"
   },
   "objects/bees/candle/flowercandle.object": {
     "/apexDescription": "texts/objects/bees/candle/shared_candle.object.json",
-    "/avianDescription": "texts/objects/bees/candle/shared_candle.object.json",
-    "/floranDescription": "texts/objects/bees/candle/shared_candle.object.json",
+    "/avianDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/floranDescription": "texts/objects/bees/candle/shared_le.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/bees/candle/shared_candle.object.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/bees/candle/shared_le.object.json",
     "/humanDescription": "texts/objects/bees/candle/shared_candle.object.json",
-    "/hylotlDescription": "texts/objects/bees/candle/shared_candle.object.json",
+    "/hylotlDescription": "texts/objects/bees/candle/shared_le.object.json",
     "/novakidDescription": "texts/objects/bees/candle/shared_candle.object.json"
+  },
+  "objects/bees/candle/flowercandledouble.object": {
+    "/apexDescription": "texts/objects/bees/candle/shared_candledouble.object.json",
+    "/avianDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/floranDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/bees/candle/shared_le.object.json",
+    "/humanDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/hylotlDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/novakidDescription": "texts/objects/bees/candle/shared_le.object.json"
+  },
+  "objects/bees/candle/flowercandletriple.object": {
+    "/apexDescription": "texts/objects/bees/candle/shared_candletriple.object.json",
+    "/avianDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/floranDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/bees/candle/shared_le.object.json",
+    "/humanDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/hylotlDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/novakidDescription": "texts/objects/bees/candle/shared_le.object.json"
   },
   "objects/bees/candle/ghostcandle.object": {
     "/apexDescription": "texts/objects/bees/candle/shared_candle.object.json",
-    "/avianDescription": "texts/objects/bees/candle/shared_candle.object.json",
-    "/floranDescription": "texts/objects/bees/candle/shared_candle.object.json",
+    "/avianDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/floranDescription": "texts/objects/bees/candle/shared_le.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/bees/candle/shared_candle.object.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/bees/candle/shared_le.object.json",
     "/humanDescription": "texts/objects/bees/candle/shared_candle.object.json",
-    "/hylotlDescription": "texts/objects/bees/candle/shared_candle.object.json"
+    "/hylotlDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/novakidDescription": "texts/objects/bees/candle/shared_candle.object.json"
+  },
+  "objects/bees/candle/ghostcandledouble.object": {
+    "/apexDescription": "texts/objects/bees/candle/shared_candledouble.object.json",
+    "/avianDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/floranDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/bees/candle/shared_le.object.json",
+    "/humanDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/hylotlDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/novakidDescription": "texts/objects/bees/candle/shared_le.object.json"
+  },
+  "objects/bees/candle/ghostcandletriple.object": {
+    "/apexDescription": "texts/objects/bees/candle/shared_candletriple.object.json",
+    "/avianDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/floranDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/bees/candle/shared_le.object.json",
+    "/humanDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/hylotlDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/novakidDescription": "texts/objects/bees/candle/shared_le.object.json"
   },
   "objects/bees/candle/redcandle.object": {
     "/apexDescription": "texts/objects/bees/candle/shared_candle.object.json",
-    "/avianDescription": "texts/objects/bees/candle/shared_candle.object.json",
-    "/floranDescription": "texts/objects/bees/candle/shared_candle.object.json",
+    "/avianDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/floranDescription": "texts/objects/bees/candle/shared_le.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/bees/candle/shared_candle.object.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/bees/candle/shared_le.object.json",
     "/humanDescription": "texts/objects/bees/candle/shared_candle.object.json",
-    "/hylotlDescription": "texts/objects/bees/candle/shared_candle.object.json"
+    "/hylotlDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/novakidDescription": "texts/objects/bees/candle/shared_candle.object.json"
+  },
+  "objects/bees/candle/redcandledouble.object": {
+    "/apexDescription": "texts/objects/bees/candle/shared_candledouble.object.json",
+    "/avianDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/floranDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/bees/candle/shared_le.object.json",
+    "/humanDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/hylotlDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/novakidDescription": "texts/objects/bees/candle/shared_le.object.json"
+  },
+  "objects/bees/candle/redcandletriple.object": {
+    "/apexDescription": "texts/objects/bees/candle/shared_candletriple.object.json",
+    "/avianDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/floranDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/bees/candle/shared_le.object.json",
+    "/humanDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/hylotlDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/novakidDescription": "texts/objects/bees/candle/shared_le.object.json"
   },
   "objects/bees/candle/waxcandle.object": {
     "/apexDescription": "texts/objects/bees/candle/shared_candle.object.json",
-    "/avianDescription": "texts/objects/bees/candle/shared_candle.object.json",
-    "/floranDescription": "texts/objects/bees/candle/shared_candle.object.json",
+    "/avianDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/floranDescription": "texts/objects/bees/candle/shared_le.object.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
-    "/glitchDescription/glitchEmotedText": "texts/objects/bees/candle/shared_candle.object.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/bees/candle/shared_le.object.json",
     "/humanDescription": "texts/objects/bees/candle/shared_candle.object.json",
-    "/hylotlDescription": "texts/objects/bees/candle/shared_candle.object.json",
+    "/hylotlDescription": "texts/objects/bees/candle/shared_le.object.json",
     "/novakidDescription": "texts/objects/bees/candle/shared_candle.object.json"
+  },
+  "objects/bees/candle/waxcandledouble.object": {
+    "/apexDescription": "texts/objects/bees/candle/shared_candledouble.object.json",
+    "/avianDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/floranDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/bees/candle/shared_le.object.json",
+    "/humanDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/hylotlDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/novakidDescription": "texts/objects/bees/candle/shared_le.object.json"
+  },
+  "objects/bees/candle/waxcandletriple.object": {
+    "/apexDescription": "texts/objects/bees/candle/shared_candletriple.object.json",
+    "/avianDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/floranDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/objects/bees/candle/shared_le.object.json",
+    "/humanDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/hylotlDescription": "texts/objects/bees/candle/shared_le.object.json",
+    "/novakidDescription": "texts/objects/bees/candle/shared_le.object.json"
   },
   "objects/bees/honeyextractor/honeyextractor.object": {
     "/subtitle": "texts/objects/bees/shared_honey/shared_r.object.json"
