@@ -1,0 +1,204 @@
+在Frackin'Universe中，有许多发电机和动力源能驱动你的实验室和工厂。在这本典籍中，描述了每种类型的发电机、其功能和机械原理。
+
+
+   ^blue;------------------------^reset;
+   ^pink;关于电池的小贴士^reset;
+   ^blue;------------------------^reset;
+
+在Frackin' Universe中可以制作八种电池。这些电池可以储存能量，并根据需要一任何功率分配能量，让一台孱弱的发电机也可以为一太非常耗电的机器提供燃料，即使非常缓慢。
+
+在任何的电源设置中使用电池总是好的，无论其多小或多大，都有助于消除发电机产生的功率与机器预期不同的问题。
+
+
+   ^blue;------------------------^reset;
+   ^white;目录^reset;
+   ^blue;------------------------^reset;
+
+^green;可再生能源^reset;
+  ^#F9F193;太阳能电池板^reset;
+  ^#AA6DFF;夜祷电池板^reset;
+  ^#BBE5E8;风力涡轮机^reset;
+
+^#FF612F;燃料发电机^reset;
+  ^#BA893F;交流发电机^reset;
+  ^gray;内燃式发电机^reset;
+  ^pink;灵能发电机^reset;
+  ^#8CBEF2;量子反应堆^reset;
+  ^#FFC600;先驱反应堆^reset;
+
+^yellow;衰变发电机^reset;
+  ^red;蒸汽发电机^reset;
+  ^#CEF400;裂变反应堆^reset;
+  ^#B7E3E5;小型聚变反应堆^reset;
+  ^cyan;大型裂变反应堆^reset;
+
+
+   ^blue;------------------------^reset;
+   ^green;可再生能源^reset;
+   ^blue;------------------------^reset;
+
+作为绿色能源，可再生能源的功率低，情况多，不稳定，但即放即用，解放双手。它可以把能量积累在电池中供以后使用，适合于低功率设置或不经常需要电力的地方。
+
+
+如果打算探索可再生能源，建议制作 “天气信标”，其需要在^orange;电学科技树^reset;的最初的节点中进行研究。它可以确定可再生能源在该地点输出的功率，以确定一个星球是否适合使用可再生能源。
+
+
+^#F9F193;太阳能电池板^reset;
+
+
+太阳能电池板有三种不同的形态。分别是^#F9F193;太阳能电池板^reset;、^orange;太阳能阵列^reset;和^red;太阳能塔^reset;。当放置在一个星球上时，它们在白天和自然光足够明亮时产生电力 -在典型星球上，如葱郁世界，分别能达到至多^#F9F193;4W^reset;、^orange;10W^reset;和^red;24W^reset;。在一些光线超过正常水平的罕见行星上，装置能明显产出更多的电力。人工光源不能为太阳能电池板提供动力，电池板在浸泡在液体中时将无法运作。
+
+
+飞船、空间站或围绕恒星运行的小行星带没有昼夜周期，因此在这些地方太阳能电池板将始终产生固定的电量 - 分别为^#F9F193;3.5W^reset;、^orange;8.75W^reset;和^red;21W^reset;。 当恒星永不落下是，它们便是更为可靠的能源来源。
+
+
+
+^#AA6DFF;夜祷电池板^reset;
+
+
+与太阳能电池板类似，夜祷电池板与照射在电池板的的光线水平息息相关。然而，与太阳能电池板不同的是，夜祷电池板板畏惧光线，因此在黑暗的空间中产生更多的能量 - 在漆黑的环境中，最高可达^#AA6DFF;10W^reset。 夜祷电池板完美适用于地下，不在乎是白天还是夜晚。它们很乐意被装在一个无光的盒子里，永恒地产生恒定水平的能量，但它们在被淹没时无法运作。
+
+
+夜祷电池板是^orange;疯癫研究^reset;的产物，并在任何地方发挥作用。
+
+
+
+^#BBE5E8;风力涡轮机^reset;
+
+
+风力涡轮机有只有一种形态，在理想条件下可以产生高达^#BBE5E8;12W^reset;。 产生的电量取决于当前天气的风向，而什么天气可用则取决于星期和它的发电方式。有些星球有恒定的风向，会产生恒定的^#BBE5E8;12W^reset;功率，而有些星球根本就不会产生任何功率，还有一些星球会有变化。实验和气象信标将有助于确定使用风力涡轮机的最佳星球。
+
+
+风力涡轮机在飞船、空间站和小行星带中无法运作。
+
+
+   ^blue;------------------------^reset;
+   ^#FF612F;燃料发电机^reset;
+   ^blue;------------------------^reset;
+
+以青山换金山，燃料发电机是任何硬核游戏早期和中期实验室或工厂的支柱，其能产生大量的能量。
+
+
+所有燃料发电机都使用热力系统工作。当燃料第一次被放入发电机，或者启动发电机时，发电机将消耗一份燃料并开始加热。并在18-20秒后达到最大产值，燃料部分或全部决定了发电机的功率输出。在一些发电机中，所选择的燃料只决定了发电机消耗燃料的速度，而对于另一部分的发电机，所选择的燃料以其热量产生为基础提供电力。
+
+
+关闭燃料发电机需要向其第一个蓝色输入节点发送“关闭”信号，它将在停止运行之前完成对当前燃料的消耗，以避免浪费燃料。
+
+
+^#BA893F;交流发电机^reset;
+
+
+交流发电机是玩家的第一台发电机，其只能消耗木材和煤炭，不过这些材料在葱郁和森林世界很丰富，所以跑起来很简单。 交流发电机在满热度的情况下仅能产生^#BA893F;4W^reset;(18s后达到最高), 因此应迅速用^gray;内燃式发电机^reset;或其他电源来取代之。
+
+适用燃料(燃烧时间):
+----------
+原木(10s)，煤(16s)，金色木材(20s)，红杉树皮(20s)，半影树皮(30s)，外星怪异木头(40s)，能量木头(50s)，暗木木材(60s)
+
+
+^gray;内燃式发电机^reset;
+
+作为百业待兴的工业家的重要电力来源，内燃式发电机在游戏中接受的燃料种类最多，其可以从固体和液体燃料中产生可观的能量，包括木材、麦草和燃料罐。交流发电机在满热度的情况下能产生^gray;12W^reset;(18s后达到最高)。
+
+适用燃料(燃烧时间):
+----------
+纸(1s)，未处理的木头(2s)，原木(5s)，煤(8s)，氢气(9s)，甲醇(9s)，液态能源(10s)，油(10s)，红杉树皮(10s)，生物燃料罐(10s)，厄尔吉斯晶态燃料(12s)，未精炼燃料(13s)，精制燃料(15s)，半影树皮(15s)，金色木材(15s)，埃里西安藻豆荚燃料罐(15s)，原体燃料罐(20s)，外星怪异木头(20s)，能量木头(25s)，能源晶体(25s)，暗木木材(30s)，小鸡(30s)
+
+
+^pink;灵能发电机^reset;
+
+作为^orange;疯癫研究^reset;的产物，灵能发电机以偷来的大脑中提取的神经电为你的疯狂实验提供动力。大脑如同肥沃的土壤，只需有合适的设备利用，因此，一个崭露头角的疯狂科学家如果不怕弄脏自己的手，就可以很容易地满足所有的电力需求。灵能发电机在满热度的情况下能产生^pink;60W^reset;(18s后达到最高)。
+
+Accepted fuels (burn time):
+适用燃料(燃烧时间):
+----------
+劣质大脑(10s)，优质大脑(20s)，人工大脑 (60s)，完美大脑(60s)，1级灵能 (60s)，2级灵能(80s)，3级灵能(100s)，4级灵能(120s)，罐子中的脑子(200s)，优质大脑储存罐 (360s)，人工大脑储存罐 (360s)，高级大脑存储罐(520s)
+
+
+^#8CBEF2;量子反应堆^reset;
+
+非常高效且强大，一台量子反应堆本身就足以为一间相当大的实验室提供能量，并且在游戏后期可以通过无限获得的燃料来源提供简单易得的能源。量子反应堆的输出取决于它的燃料来源，最高可以达到^#8CBEF2;620W^reset;，其中^#8CBEF2;20W^reset;于使用后20s积累。
+
+适用燃料(功率，燃烧时间):
+----------
+生物燃料罐(60W, 40s)，埃里西安藻豆荚燃料罐(70W, 50s)，铀棒(70W, 50s)，能量花(80W, 60s)，钚棒(80W, 60s)，氦-3(90W, 70s)，原体液(100W, 80s)，镎棒(110W, 90s)，钍棒(110W, 90s)，能量木头(125W, 105s)，浓缩铀棒(150W, 130s)，黯灵之露(170W, 150s)，原体燃料罐(220W, 200s)，浓缩钚棒(240W, 220s)，金属氢(275W, 255s)，氘棒(300W, 280s)，氚棒(320W, 300s)，精炼日耀石(470W, 450s)，奥创棒(520W, 500s)，液态金属氢(570W, 550s)，液态氘(620W, 600s)
+
+
+^#FFC600;先驱反应堆^reset;
+
+先驱反应堆是游戏中最强大的发电机，它能创造出惊人的能量，但相对无法被制造，需要在在已灭绝的先驱废弃殖民地和工厂中发现。与其他发电机不同，先驱反应堆有额外要求 - 为了引导古人的动力源，你必须在指定的格子中放置一根中子棒和一根反中子棒，两者都是^orange;疯癫研究^reset;的产物。在解决了麻烦之后，先驱反应堆可以产生最高达^#FFC600;1055W^reset;的电力，这取决于其燃料来源，其中^#FFC600;95W^reset;来自热量，在20秒后达到其全部输出（50%+热量）。
+
+适用燃料(功率，燃烧时间):
+----------
+大便(135W, 40s)，小鸡(195W, 100s)，黯灵之露(315W, 220s)，量子流体(515W, 420s)，奥创棒(745W, 650s)，次元电池(1055W, 960s)
+
+
+   ^blue;------------------------^reset;
+   ^yellow;衰变发电机^reset;
+   ^blue;------------------------^reset;
+
+请确保清洁地(或有利地)处理废料。衰变发电机通过逐渐和随机消耗同位素来输出功率。独特的是，这类发电机带有多个燃料格，使其有能力通过填充所需数量的燃料格来改变其功率输出，以适应任何所需的工作量，而无需改变燃料类型，且如果需要，每个燃料槽可以使用不同的燃料。
+
+Decay-based generators will turn off immediately when an 'off' signal is supplied to their first blue input node, and will not waste fuel in doing so.
+当“关闭”信号传达给第一个蓝色输入节点时，衰变发电机将立即关闭，并且在这样做时不会浪费燃料。
+
+
+^red;Hydraulic Dynamo^reset;
+^red;蒸汽发电机^reset;
+
+An honourable inclusion, the Hydraulic Dynamo is an early-game generator that evaporates water using hot solids and liquids (or liquid nitrogen) in order to generate power. Although very large, it outperforms many other early generators despite being craftable on the first world and fuelled by trivially-obtainable substances such as lava and core fragments. The Hydraulic Dynamo can generate up to ^red;21W^reset; at maximum output, but will not function without water, consuming one for each fuel item used. The Hydraulic Dynamo has three fuel slots.
+蒸汽发电机就是是一个很好的例子，它是游戏早期的发电机，利用热的固体和液体(或液氮)来蒸发水，以产生电力。虽然体积很大，但它的性能超过了许多其他早期发电机且它可以在第一个世界中制作，并以熔岩和星核碎片等可轻易获得的物质为燃料。蒸汽发电机在最大输出时可产生^red;21W^reset;，但没有水就无法运作，每使用一份燃料就会消耗一份水。蒸汽发电机有三个燃料格。
+
+Accepted fuels (power per fuel slot, average decay time):
+适用燃料(每格功率，平均衰变时间):
+----------
+Lava (4W, 10s), Core Fragment (5W, 40s), Liquid Iron (6W, 32s), Volatile Powder (7W, 40s), Scorched Core (7W, 180s), Liquid Nitrogen (6W, 20s)
+岩浆 (4W, 10s)，星核碎片(5W, 40s)，液态铁(6W, 32s)，挥发性粉末(7W, 40s)，焦火之心(7W, 180s)，液氮(6W, 20s)
+
+
+^#CEF400;Fission Reactors^reset;
+^#CEF400;裂变反应堆^reset;
+
+Good old-fashioned nuclear power, the greenest thing about it is the uranium it consumes. Fission Reactors are an affordable way to create significant amounts of power, reaching up to ^#CEF400;360W^reset; across their four fuel slots. Uniquely, this generator creates Tritium Rods as a by-product of its fission, with a 50% chance for one to be made each time a fuel item is consumed. It will also create Toxic Waste, two if Tritium is created and one otherwise. While active, depending on how long it's been operating and how much power it's generating, the Fission Generator will begin to flood its nearby area with Moderate Radiation, up to 16 tiles away. Walls and other containment will not block this, only distance and Moderate Radiation immunity will help.
+优良的老式核电，最绿色的东西是它所消耗的铀。裂变反应堆是高负荷的大规模发电方式，其四个燃料格最高可达到^#CEF400;360W^reset;。与众不同的是，这种发电机在裂变过程中会产生氚棒，每次消耗燃料物品时有50%的机会产生。它还会产生有毒废料，如果产生了氚，就会生成两份，否则就只会生成一份。在运行期间，根据它运行的时间和它产生的能量，裂变发电机将开始以中度辐射淹没其附近的区域，最远可达16格。墙壁和其他隔离物无法阻挡，只有距离和中度辐射免疫才有作用。
+
+Accepted fuels (power per fuel slot, average decay time):
+适用燃料(每格功率，平均衰变时间):
+----------
+Tritium Rod (10W, 40s), Deuterium Rod (15W, 50s), Uranium Rod (20W, 90s), Plutonium Rod (30W, 90s), Neptunium Rod (40W, 90s), Thorium Rod (50W, 90s), Enriched Uranium Rod (60W, 120s), Enriched Plutonium Rod (80W, 180s), Solarium Star (80W, 240s), Ultronium Rod (90W, 300s)
+氚棒(10W, 40s)，氘棒(15W, 50s)，铀棒(20W, 90s)，钚棒(30W, 90s)，镎棒(40W, 90s)，钍棒(50W, 90s)，浓缩铀棒(60W, 120s)，浓缩钚棒(80W, 180s)，精炼日耀石(80W, 240s)，奥创棒(90W, 300s)
+
+
+^#B7E3E5;Small Fusion Reactors^reset;
+^#B7E3E5;小型聚变反应堆^reset;
+
+Harness the power of the stars for your lab, albeit on a very small scale. Fusion Reactors of both kinds fuse light isotopes together, releasing nuclear energy from them to create power. Like the Fission Reactor, Fusion Reactors generate Moderate Radiation the longer and more productively they operate, which cannot be blocked. Small Fusion Reactors have four fuel slots, and can generate ^#B7E3E5;360W^reset; when filling all of them. They must be given coolant to continue operating or will quickly overheat and shut down, releasing a burst of radiation, though water is typically sufficient. Each consumed fuel will create one Toxic Waste, which can be used as coolant in a pinch.
+在你的实验室利用恒星之力，虽然规模非常小。两种类型的聚变反应堆将轻质同位素融合在一起，从中释放出核能来创造电力。与裂变反应堆一样，聚变反应堆的运行时间越长，生产效率越高，且会产生无法阻挡的适度辐射。小型聚变反应堆有四个燃料格，在填满所有燃料格时最高可产生^#B7E3E5;360W^reset;。聚变反应堆必须有冷却剂才能继续运行，否则会迅速过热并关闭，释放出一阵阵辐射，不过水通常就足够了。每份消耗的燃料将产生一份有毒废料，这些废料在紧要关头可以用作冷却剂。
+
+Accepted fuels (power per fuel slot, average decay time):
+适用燃料(每格功率，平均衰变时间):
+----------
+Hydrogen (15W, 50s), Tritium Rod (25W, 60s), Helium-3 (45W, 80s), Solarium Star (55W, 150s), Deuterium Rod (60W, 120s), Ultronium Rod (90W, 700s)
+氢气(15W, 50s)，氚棒(25W, 60s)，氦-3(45W, 80s)，精炼日耀石(55W, 150s)，氘棒(60W, 120s)，奥创棒(90W, 700s)
+
+Accepted coolants (heat reduction per item)
+适用冷却剂(每份减少热量)
+Salt Water (20), Water (30), Toxic Waste (40), Liquid Nitrogen (80), Cryonic Extract (125)、
+有毒废弃物(10)，盐水(30)，水(30)，液氮(80)，低温提取物(125)
+
+
+^cyan;Large Fusion Reactors^reset;
+^cyan;大型聚变反应堆^reset;
+
+Originally pioneered by the Skath, Large Fusion Reactors are simply better-built, scaled-up versions of Small Fusion Reactors with a greater power output. Filling their four slots, they can generate up to ^cyan;600W^reset;. They generate radiation and produce Toxic Waste as Small Fusion Reactors do.
+大型聚变反应堆最初由绘世者开创，其只是小型聚变反应堆的按比放大改进版，具有更高的功率输出。填满它的四个格子，最高产生^cyan;600W^reset;。它与小型聚变反应堆一样产生辐射和有毒废物。
+
+Accepted fuels (power per fuel slot, average decay time):
+适用燃料(每格功率，平均衰变时间):
+----------
+Hydrogen (35W, 50s), Tritium Rod (55W, 60s), Helium-3 (60W, 80s), Solarium Star (105W, 150s), Deuterium Rod (90W, 120s), Liquid Deuterium (90W, 120s), Ultronium Rod (150W, 700s)
+氢气(35W, 50s)，氚棒(55W, 60s)，氦-3(60W, 80s)，精炼日耀石(105W, 150s)，氘棒(90W, 120s)，液态氘(90W, 120s)，奥创棒(150W, 700s)
+
+Accepted coolants (heat reduction per item)
+Salt Water (20), Water (30), Toxic Waste (40), Liquid Nitrogen (80), Cryonic Extract (125)、
+适用冷却剂(每份减少热量)
+有毒废弃物(10)，盐水(30)，水(30)，液氮(80)，低温提取物(125)
