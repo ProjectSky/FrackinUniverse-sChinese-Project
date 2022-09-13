@@ -2940,7 +2940,7 @@
       },
       "itemdescriptions": {
         "armornew.itemdescription.json": 1,
-        "shared_.itemdescription.json": 8,
+        "shared_.itemdescription.json": 7,
         "shared_new.itemdescription.json": 1
       },
       "kheAA": {
@@ -3091,7 +3091,8 @@
         "shared_.tooltip.json": 7,
         "shared_fuammogun.json": 1,
         "shared_fuammoitem.json": 1,
-        "shared_unique.tooltip.json": 1
+        "shared_unique.tooltip.json": 1,
+        "staffunique.tooltip.json": 3
       },
       "warping": {
         "fu_outpostteleporter.config.json": 1,
@@ -3152,7 +3153,7 @@
         "xenostation.config.json": 2
       }
     },
-    "interface.json": 14,
+    "interface.json": 15,
     "items": {
       "active": {
         "crewcontracts": {
@@ -4021,7 +4022,7 @@
             },
             "hammer": {
               "advalloyhammer.activeitem.json": 2,
-              "aetheriumhammer.activeitem.json": 3,
+              "aetheriumhammer.activeitem.json": 4,
               "cutehammer.activeitem.json": 2,
               "dolphinhammer": {
                 "dolphinhammer.activeitem.json": 2
@@ -4050,13 +4051,12 @@
                 "rockethammer.activeitem.json": 2
               },
               "shared_.activeitem.json": 2,
-              "shared_hammer.activeitem.json": 1,
               "solarihammer.activeitem.json": 2,
               "soulreader.activeitem.json": 2,
               "stonehammer.activeitem.json": 1,
               "telebriumhammer.activeitem.json": 2,
               "uraniumhammer.activeitem.json": 2,
-              "xithricitehammer.activeitem.json": 1,
+              "xithricitehammer.activeitem.json": 2,
               "zerchesiumhammer.activeitem.json": 2
             },
             "katana": {
@@ -8680,6 +8680,7 @@
         "fu_blueslopedhullpanel.matitem.json": 2,
         "fu_copperplatform.matitem.json": 1,
         "fu_slopedglitchhull01.matitem.json": 1,
+        "fuaccentedwoodwall.matitem.json": 1,
         "fuaetherstone.matitem.json": 1,
         "fualiengrass.matitem.json": 2,
         "fudarkironbars.matitem.json": 2,
@@ -11351,46 +11352,43 @@
       },
       "backgrounddoor": {
         "ancientbackgrounddoor": {
-          "ancientbackgrounddoor.object.json": 1
+          "ancientbackgrounddoor.object.json": 2
         },
         "apexbackgrounddoor": {
-          "apexbackgrounddoor.object.json": 1
+          "apexbackgrounddoor.object.json": 2
         },
         "avianbackgroundoor": {
-          "avianbackgrounddoor.object.json": 1
+          "avianbackgrounddoor.object.json": 2
         },
         "cultistbackgrounddoor": {
-          "cultistbackgrounddoor.object.json": 1
+          "cultistbackgrounddoor.object.json": 2
         },
         "cutebackgrounddoor": {
-          "cutebackgrounddoor.object.json": 1
+          "cutebackgrounddoor.object.json": 2
         },
         "doombackgrounddoor": {
-          "doombackgrounddoor.object.json": 1
+          "doombackgrounddoor.object.json": 2
         },
         "elduukharbackgrounddoor": {
-          "elduukharbackgrounddoor.object.json": 1
+          "elduukharbackgrounddoor.object.json": 2
         },
         "glitchbackgrounddoor": {
-          "glitchbackgrounddoor.object.json": 1
+          "glitchbackgrounddoor.object.json": 2
         },
         "gothicbackgrounddoor": {
-          "gothicbackgrounddoor.object.json": 1
+          "gothicbackgrounddoor.object.json": 2
         },
         "hightechbackgrounddoor": {
-          "hightechbackgrounddoor.object.json": 1
+          "hightechbackgrounddoor.object.json": 2
         },
         "hylotlbackgrounddoor": {
-          "hylotlbackgrounddoor.object.json": 1
+          "hylotlbackgrounddoor.object.json": 2
         },
         "novakidbackgrounddoor": {
-          "novakidbackgrounddoor.object.json": 1
-        },
-        "shared_background": {
-          "shared_backgrounddoor.json": 1
+          "novakidbackgrounddoor.object.json": 2
         },
         "shared_barredbackgrounddoor": {
-          "shared_barredbackgrounddoor.json": 1
+          "shared_barredbackgrounddoor.json": 2
         }
       },
       "bees": {
@@ -14201,7 +14199,7 @@
           "shared_fu_harvestTurret.json": 2
         },
         "kheAA_capacitySensor": {
-          "kheAA_capacitySensor.object.json": 2
+          "kheAA_capacitySensor.object.json": 3
         },
         "kheAA_containerLink": {
           "kheAA_containerLink.object.json": 1,
@@ -14676,6 +14674,9 @@
           "catacombs5.object.json": 1,
           "catacombs6.object.json": 1,
           "cthulhuplush.object.json": 2,
+          "cultaltar": {
+            "cultaltar.object.json": 2
+          },
           "dungeondeco": {
             "bgdoor_deco_facility.object.json": 1,
             "bloodycar.object.json": 2,
@@ -22229,8 +22230,7 @@
             "aether": {
               "aetherweathernew.animation.json": 1,
               "aetherweathernew.statuseffect.json": 1,
-              "aetherweathernew2.statuseffect.json": 1,
-              "aetherweathernew3.statuseffect.json": 1
+              "shared_aetherweathernew.json": 1
             },
             "cold": {
               "coldweathernew.animation.json": 1,
@@ -22240,8 +22240,9 @@
               "ffbiomecold2.statuseffect.json": 1,
               "ffbiomecold3.statuseffect.json": 1,
               "ffbiomecold4.statuseffect.json": 1,
-              "shared_.statuseffect.json": 1,
-              "suddenchill1.statuseffect.json": 1
+              "suddenchill1.statuseffect.json": 1,
+              "suddenchill2.statuseffect.json": 1,
+              "suddenchill3.statuseffect.json": 1
             },
             "desert": {
               "desertweathernew.statuseffect.json": 1,
@@ -22296,10 +22297,9 @@
             },
             "shared_tweathernew.animation.json": 1,
             "sulphuric": {
+              "shared_sulphuricweathernew.json": 1,
               "sulphuricweathernew.animation.json": 1,
               "sulphuricweathernew.statuseffect.json": 1,
-              "sulphuricweathernew2.statuseffect.json": 1,
-              "sulphuricweathernew3.statuseffect.json": 1,
               "sulphuricweathernew4.statuseffect.json": 1,
               "sulphuricweatherstorm.statuseffect.json": 1,
               "sulphuricweatherstorm2.statuseffect.json": 1,
@@ -22560,6 +22560,7 @@
         },
         "thorns": {
           "ghostburst.statuseffect.json": 1,
+          "iceburst.statuseffect.json": 1,
           "novax10.statuseffect.json": 1,
           "shared_.statuseffect.json": 2
         },
@@ -22859,6 +22860,7 @@
         "frozenstone.material.json": 1,
         "fu_blueslopedhullpanel.material.json": 2,
         "fu_slopedglitchhull01.material.json": 2,
+        "fuaccentedwoodwall.material.json": 1,
         "fuaetherstone.material.json": 1,
         "fualiengrass.material.json": 2,
         "fublueslime.material.json": 2,

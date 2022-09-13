@@ -625,8 +625,14 @@
   "cinematics/respawn/pegasus/respawnhardcore.cinematic": {
     "/panels/2/text": "texts/cinematics/respawn/respawnhardcore.cinematic.json"
   },
+  "cinematics/respawn/peglaci/respawncasual.cinematic": {
+    "/panels/2/text": "texts/cinematics/respawn/shared_.cinematic.json"
+  },
   "cinematics/respawn/peglaci/respawnhardcore.cinematic": {
     "/panels/2/text": "texts/cinematics/respawn/respawnhardcore.cinematic.json"
+  },
+  "cinematics/respawn/peglaci/respawnsurvival.cinematic": {
+    "/panels/2/text": "texts/cinematics/respawn/shared_.cinematic.json"
   },
   "cinematics/respawn/pengukin/respawnhardcore.cinematic": {
     "/panels/2/text": "texts/cinematics/respawn/shared_.cinematic.json"
@@ -2133,7 +2139,7 @@
     "/forceTitleLabel/value": "texts/interface/shared_boomerang.json",
     "/knockbackTitleLabel/value": "texts/interface.json",
     "/levelTitleLabel/value": "texts/interface.json",
-    "/maxDamageTitleLabel/value": "texts/interface/itemdescriptions/shared_.itemdescription.json",
+    "/maxDamageTitleLabel/value": "texts/interface.json",
     "/priceLabel/value": "texts/interface.json"
   },
   "interface/itemdescriptions/boomerangaetherium.itemdescription": {
@@ -2142,7 +2148,7 @@
     "/forceTitleLabel/value": "texts/interface/shared_boomerang.json",
     "/knockbackTitleLabel/value": "texts/interface.json",
     "/levelTitleLabel/value": "texts/interface.json",
-    "/maxDamageTitleLabel/value": "texts/interface/itemdescriptions/shared_.itemdescription.json",
+    "/maxDamageTitleLabel/value": "texts/interface.json",
     "/priceLabel/value": "texts/interface.json"
   },
   "interface/itemdescriptions/bow2.itemdescription": {
@@ -2211,7 +2217,7 @@
     "/distanceTitleLabel/value": "texts/interface/shared_chakram.json",
     "/knockbackTitleLabel/value": "texts/interface.json",
     "/levelTitleLabel/value": "texts/interface.json",
-    "/maxDamageTitleLabel/value": "texts/interface/itemdescriptions/shared_.itemdescription.json",
+    "/maxDamageTitleLabel/value": "texts/interface.json",
     "/priceLabel/value": "texts/interface.json"
   },
   "interface/itemdescriptions/fist2.itemdescription": {
@@ -2390,7 +2396,7 @@
     "/critChanceTitleLabel/value": "texts/interface.json",
     "/forceTitleLabel/value": "texts/interface.json",
     "/levelTitleLabel/value": "texts/interface.json",
-    "/maxDamageTitleLabel/value": "texts/interface/itemdescriptions/shared_.itemdescription.json",
+    "/maxDamageTitleLabel/value": "texts/interface.json",
     "/priceLabel/value": "texts/interface.json",
     "/shieldHealthTitleLabel/value": "texts/interface.json",
     "/shieldPowerTitleLabel/value": "texts/interface/shared_magnorb..json"
@@ -3066,6 +3072,11 @@
     "/priceLabel/value": "texts/interface.json",
     "/shieldbashTitleLabel/value": "texts/interface/shared_shieldnew..json",
     "/stamTitleLabel/value": "texts/interface/shared_shieldnew..json"
+  },
+  "interface/tooltips/staffunique.tooltip": {
+    "/levelLabelTitle/value": "texts/interface/tooltips/shared_.tooltip.json",
+    "/priceLabel/value": "texts/interface.json",
+    "/staffDamageTitleLabel/value": "texts/interface.json"
   },
   "interface/tooltips/sword2.tooltip": {
     "/critBonusTitleLabel/value": "texts/interface.json",
@@ -4009,9 +4020,6 @@
   "items/active/weapons/melee/greataxe/stonegreataxe.activeitem": {
     "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
   },
-  "items/active/weapons/melee/hammer/aetheriumhammer.activeitem": {
-    "/description": "texts/items/active/weapons/melee/hammer/shared_hammer.activeitem.json"
-  },
   "items/active/weapons/melee/hammer/effigiumhammer.activeitem": {
     "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
   },
@@ -4035,9 +4043,6 @@
   "items/active/weapons/melee/hammer/tealstratocaster.activeitem": {
     "/description": "texts/items/active/weapons/melee/hammer/shared_.activeitem.json",
     "/shortdescription": "texts/items/active/weapons/melee/hammer/shared_.activeitem.json"
-  },
-  "items/active/weapons/melee/hammer/xithricitehammer.activeitem": {
-    "/description": "texts/items/active/weapons/melee/hammer/shared_hammer.activeitem.json"
   },
   "items/active/weapons/melee/katana/ironkatana.activeitem": {
     "/description": "texts/items/active/weapons/melee/katana/shared_.activeitem.json"
@@ -7669,6 +7674,13 @@
   },
   "items/materials/fu_slopedglitchhull01.matitem": {
     "/description": "texts/materials/shared_fu_slopedglitchhull01.mat.json"
+  },
+  "items/materials/fuaccentedwoodwall.matitem": {
+    "/description": "texts/materials/shared_wood.json",
+    "/florandescription": "texts/materials/shared_wood.json",
+    "/glitchdescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchdescription/glitchEmotedText": "texts/materials/shared_wood.json",
+    "/novakiddescription": "texts/materials/shared_wood.json"
   },
   "items/materials/fuaetherbrick.matitem": {
     "/description": "texts/materials/shared_fuaetherbrick.mat.json",
@@ -15145,49 +15157,13 @@
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/objects/avian/tribalshopcounter/tribalshopcounter.object.json"
   },
-  "objects/backgrounddoor/ancientbackgrounddoor/ancientbackgrounddoor.object": {
-    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json"
-  },
-  "objects/backgrounddoor/apexbackgrounddoor/apexbackgrounddoor.object": {
-    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json"
-  },
-  "objects/backgrounddoor/avianbackgroundoor/avianbackgrounddoor.object": {
-    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json"
-  },
   "objects/backgrounddoor/barredbackgrounddoor/barredbackgrounddoor.object": {
-    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json",
+    "/description": "texts/objects/backgrounddoor/shared_barredbackgrounddoor/shared_barredbackgrounddoor.json",
     "/shortdescription": "texts/objects/backgrounddoor/shared_barredbackgrounddoor/shared_barredbackgrounddoor.json"
   },
   "objects/backgrounddoor/barredbackgrounddoor2/barredbackgrounddoor2.object": {
-    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json",
+    "/description": "texts/objects/backgrounddoor/shared_barredbackgrounddoor/shared_barredbackgrounddoor.json",
     "/shortdescription": "texts/objects/backgrounddoor/shared_barredbackgrounddoor/shared_barredbackgrounddoor.json"
-  },
-  "objects/backgrounddoor/cultistbackgrounddoor/cultistbackgrounddoor.object": {
-    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json"
-  },
-  "objects/backgrounddoor/cutebackgrounddoor/cutebackgrounddoor.object": {
-    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json"
-  },
-  "objects/backgrounddoor/doombackgrounddoor/doombackgrounddoor.object": {
-    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json"
-  },
-  "objects/backgrounddoor/elduukharbackgrounddoor/elduukharbackgrounddoor.object": {
-    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json"
-  },
-  "objects/backgrounddoor/glitchbackgrounddoor/glitchbackgrounddoor.object": {
-    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json"
-  },
-  "objects/backgrounddoor/gothicbackgrounddoor/gothicbackgrounddoor.object": {
-    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json"
-  },
-  "objects/backgrounddoor/hightechbackgrounddoor/hightechbackgrounddoor.object": {
-    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json"
-  },
-  "objects/backgrounddoor/hylotlbackgrounddoor/hylotlbackgrounddoor.object": {
-    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json"
-  },
-  "objects/backgrounddoor/novakidbackgrounddoor/novakidbackgrounddoor.object": {
-    "/description": "texts/objects/backgrounddoor/shared_background/shared_backgrounddoor.json"
   },
   "objects/bees/beestation/beestation.object": {
     "/description": "texts/shared_beestation.json"
@@ -40192,11 +40168,11 @@
   "stats/effects/fu_weaponeffects/gravgun/gravgun2.statuseffect": {
     "/label": "texts/shared_weapon.json"
   },
-  "stats/effects/fu_weathereffects/new/cold/suddenchill2.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/new/cold/shared_.statuseffect.json"
+  "stats/effects/fu_weathereffects/new/aether/aetherweathernew2.statuseffect": {
+    "/label": "texts/stats/effects/fu_weathereffects/new/aether/shared_aetherweathernew.json"
   },
-  "stats/effects/fu_weathereffects/new/cold/suddenchill3.statuseffect": {
-    "/label": "texts/stats/effects/fu_weathereffects/new/cold/shared_.statuseffect.json"
+  "stats/effects/fu_weathereffects/new/aether/aetherweathernew3.statuseffect": {
+    "/label": "texts/stats/effects/fu_weathereffects/new/aether/shared_aetherweathernew.json"
   },
   "stats/effects/fu_weathereffects/new/desert/desertweathernew.animation": {
     "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects/fu_weathereffects/new/shared_tweathernew.animation.json"
@@ -40209,6 +40185,12 @@
   },
   "stats/effects/fu_weathereffects/new/heat/heatweathernew.animation": {
     "/particleEmitters/statustext/particles/0/particle/text": "texts/stats/effects/fu_weathereffects/new/shared_tweathernew.animation.json"
+  },
+  "stats/effects/fu_weathereffects/new/sulphuric/sulphuricweathernew2.statuseffect": {
+    "/label": "texts/stats/effects/fu_weathereffects/new/sulphuric/shared_sulphuricweathernew.json"
+  },
+  "stats/effects/fu_weathereffects/new/sulphuric/sulphuricweathernew3.statuseffect": {
+    "/label": "texts/stats/effects/fu_weathereffects/new/sulphuric/shared_sulphuricweathernew.json"
   },
   "stats/effects/heal/healingbonus.statuseffect": {
     "/label": "texts/stats/effects/heal/shared_.statuseffect.json"
@@ -40373,9 +40355,6 @@
     "/label": "texts/stats/effects/thorns/shared_.statuseffect.json"
   },
   "stats/effects/thorns/fireburstmonster.statuseffect": {
-    "/label": "texts/stats/effects/thorns/shared_.statuseffect.json"
-  },
-  "stats/effects/thorns/iceburst.statuseffect": {
     "/label": "texts/stats/effects/thorns/shared_.statuseffect.json"
   },
   "stats/effects/thorns/thornsstranglevine.statuseffect": {
@@ -41107,6 +41086,13 @@
     "/description": "texts/materials/shared_fu_slopedglitchhull01.mat.json",
     "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
     "/glitchDescription/glitchEmotedText": "texts/tiles/materials/fu_slopedglitchhull01.material.json"
+  },
+  "tiles/materials/fuaccentedwoodwall.material": {
+    "/description": "texts/materials/shared_wood.json",
+    "/floranDescription": "texts/materials/shared_wood.json",
+    "/glitchDescription/glitchEmote": "texts/glitchEmotes.json",
+    "/glitchDescription/glitchEmotedText": "texts/materials/shared_wood.json",
+    "/novakidDescription": "texts/materials/shared_wood.json"
   },
   "tiles/materials/fuaetherbrick.material": {
     "/description": "texts/materials/shared_fuaetherbrick.mat.json",
