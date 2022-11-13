@@ -853,6 +853,12 @@
   "codex/documents/agarans.codex": {
     "/contentPages/0": "texts/codex/documents/shared_.codex.json"
   },
+  "codex/documents/bees/bees1.codex": {
+    "/contentPages/0": "texts/codex/documents/bees/shared_.codex.json"
+  },
+  "codex/documents/bees/bees2.codex": {
+    "/contentPages/0": "texts/codex/documents/bees/shared_.codex.json"
+  },
   "codex/documents/blank_template_codex.codex": {
     "/description": "texts/codex/documents/shared_.codex.json"
   },
@@ -2995,6 +3001,7 @@
     "/critChanceTitleLabel/value": "texts/interface.json",
     "/damagePerShotTitleLabel/value": "texts/interface/tooltips/shared_.tooltip.json",
     "/levelTitleLabel/value": "texts/interface.json",
+    "/priceLabel/value": "texts/interface.json",
     "/shiftClickLabel/value": "texts/interface/shared_fist2.json",
     "/speedTitleLabel/value": "texts/interface.json"
   },
@@ -3977,6 +3984,7 @@
     "/description": "texts/items/active/weapons/melee/shared_sword/shared_sword.activeitem.json"
   },
   "items/active/weapons/melee/broadsword/fuatropusbroadsword.activeitem": {
+    "/altAbility/name": "texts/items/active/weapons/melee/shared_.activeitem.json",
     "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
   },
   "items/active/weapons/melee/broadsword/metalliccleaver.activeitem": {
@@ -4074,7 +4082,7 @@
     "/shortdescription": "texts/items/active/weapons/melee/greataxe/shared_fuatropusgreataxe.json"
   },
   "items/active/weapons/melee/greataxe/fuatropusgreataxenpc.activeitem": {
-    "/description": "texts/items/active/weapons/melee/shared_.activeitem.json",
+    "/description": "texts/items/active/weapons/melee/greataxe/shared_.activeitem.json",
     "/shortdescription": "texts/items/active/weapons/melee/greataxe/shared_fuatropusgreataxe.json"
   },
   "items/active/weapons/melee/greataxe/fucommongreataxe.activeitem": {
@@ -4087,7 +4095,7 @@
     "/description": "texts/items/active/weapons/melee/greataxe/shared_greataxe.activeitem.json"
   },
   "items/active/weapons/melee/greataxe/quietusgreataxe.activeitem": {
-    "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
+    "/description": "texts/items/active/weapons/melee/greataxe/shared_.activeitem.json"
   },
   "items/active/weapons/melee/greataxe/stonegreataxe.activeitem": {
     "/description": "texts/items/active/weapons/melee/shared_.activeitem.json"
@@ -4200,10 +4208,7 @@
     "/description": "texts/items/active/weapons/melee/shared_r.activeitem.json"
   },
   "items/active/weapons/melee/scythe/fuatropusscythe.activeitem": {
-    "/shortdescription": "texts/items/active/weapons/melee/scythe/shared_scythe.activeitem.json"
-  },
-  "items/active/weapons/melee/scythe/fucultistscythe.activeitem": {
-    "/shortdescription": "texts/items/active/weapons/melee/scythe/shared_scythe.activeitem.json"
+    "/altAbility/name": "texts/items/active/weapons/melee/shared_.activeitem.json"
   },
   "items/active/weapons/melee/shortspear/advalloyshortspear.activeitem": {
     "/description": "texts/items/active/weapons/melee/shortspear/shared_shortspear.activeitem.json"
@@ -4505,9 +4510,6 @@
   "items/active/weapons/ranged/assaultrifle/epicbattlerifle.activeitem": {
     "/description": "texts/items/active/weapons/ranged/assaultrifle/shared_battlerifle.activeitem.json"
   },
-  "items/active/weapons/ranged/assaultrifle/floranneedler.activeitem": {
-    "/shortdescription": "texts/items/active/weapons/ranged/shared_.activeitem.json"
-  },
   "items/active/weapons/ranged/assaultrifle/swtjc_ewg_commonbattlerifle.activeitem": {
     "/description": "texts/items/active/weapons/ranged/assaultrifle/shared_battlerifle.activeitem.json"
   },
@@ -4698,9 +4700,6 @@
   },
   "items/active/weapons/ranged/unique/fuplasmagun.activeitem": {
     "/description": "texts/items/active/weapons/ranged/unique/shared_n.activeitem.json"
-  },
-  "items/active/weapons/ranged/unique/fuspawngun.activeitem": {
-    "/shortdescription": "texts/items/active/weapons/ranged/shared_.activeitem.json"
   },
   "items/active/weapons/ranged/unique/invisiswarmgun.activeitem": {
     "/shortdescription": "texts/items/active/weapons/ranged/unique/shared_swarmgun.activeitem.json"
@@ -6831,9 +6830,6 @@
   },
   "items/generic/crafting/xenostation/gene_resist.item": {
     "/shortdescription": "texts/items.json"
-  },
-  "items/generic/crafting/xenostation/gene_stealth.item": {
-    "/shortdescription": "texts/shared_ost.json"
   },
   "items/generic/desserts/fuapplehoneypie.consumable": {
     "/shortdescription": "texts/shared_fuapplehoneypie.json"
@@ -9528,14 +9524,6 @@
   },
   "items/throwables/particlegrenade.thrownitem": {
     "/description": "texts/items/throwables/shared_.thrownitem.json"
-  },
-  "items/throwables/peglaciball.thrownitem": {
-    "/description": "texts/items/throwables/shared_.thrownitem.json",
-    "/shortdescription": "texts/items/throwables/shared_.thrownitem.json"
-  },
-  "items/throwables/peglacitier0knife.thrownitem": {
-    "/description": "texts/items/throwables/shared_.thrownitem.json",
-    "/shortdescription": "texts/items/throwables/shared_.thrownitem.json"
   },
   "items/throwables/purpleglowstick.thrownitem": {
     "/description": "texts/items/throwables/shared_glowstick.thrownitem.json"
@@ -40034,9 +40022,6 @@
   },
   "stats/effects/fu_effects/percenthealthboost/percenthealthbooststim.statuseffect": {
     "/label": "texts/stats/effects/fu_effects/percenthealthboost/shared_percenthealthboost.json"
-  },
-  "stats/effects/fu_effects/powerboost/phaseattackstat.statuseffect": {
-    "/label": "texts/shared_ost.json"
   },
   "stats/effects/fu_effects/radienGeneBonus/radienGeneBonus.statuseffect": {
     "/label": "texts/stats/effects/fu_effects/radienGeneBonus/shared_radienGeneBonus.json"
