@@ -1837,6 +1837,9 @@
       "floran.species.json": 1,
       "fragmentedruin.species.json": 1,
       "gardevan.species.json": 1,
+      "gic_realisticfloran.species.json": 1,
+      "gic_realisticglitch.species.json": 1,
+      "gic_realistichuman.species.json": 1,
       "glitch.species.json": 1,
       "greckan.species.json": 1,
       "gyrusen.species.json": 1,
@@ -7564,6 +7567,7 @@
           },
           "cinnabarore.item.json": 1,
           "circuitboard.item.json": 2,
+          "cocainium.item.json": 1,
           "corruptionore.item.json": 1,
           "darkmatter.item.json": 1,
           "densiniumore.item.json": 2,
@@ -8248,6 +8252,7 @@
           "portaljuice.consumable.json": 2,
           "powderednarcotics.consumable.json": 2,
           "protostim.consumable.json": 2,
+          "purecocainium.consumable.json": 2,
           "serumstim.consumable.json": 2,
           "shieldpatch.consumable.json": 2,
           "thesauce.consumable.json": 2,
@@ -9830,12 +9835,6 @@
         }
       },
       "flyers": {
-        "alienqueenminion": {
-          "alienqueenminion.monstertype.json": 2
-        },
-        "alienqueenminionsmall": {
-          "alienqueenminionsmall.monstertype.json": 2
-        },
         "bighairyfrank": {
           "bighairyfrank.monstertype.json": 1
         },
@@ -10951,7 +10950,7 @@
         "crewmemberwarrior3.npctype.json": 1,
         "fu_crewmember.npctype.json": 57,
         "shared_a_crewmembertemplate.json": 9,
-        "shared_crewmember.json": 132,
+        "shared_crewmember.json": 133,
         "shared_crewmember.npctype.json": 2,
         "shared_crewmemberchef.json": 12,
         "shared_crewmembercounsellor.json": 10,
@@ -22022,6 +22021,11 @@
             "energyregenfu75neg.statuseffect.json": 1
           },
           "energytickup": {
+            "fuenergytickupcrew1.statuseffect.json": 1,
+            "fuenergytickupcrew2.statuseffect.json": 1,
+            "fuenergytickupcrew3.statuseffect.json": 1,
+            "fuenergytickupcrew4.statuseffect.json": 1,
+            "fuenergytickupcrew5.statuseffect.json": 1,
             "shared_.statuseffect.json": 1
           },
           "entropicward": {
@@ -22496,14 +22500,16 @@
           "heal_tier5.statuseffect.json": 1,
           "heal_tier6.statuseffect.json": 1,
           "heal_tier7.statuseffect.json": 1,
-          "healingbonus2.statuseffect.json": 1,
           "healingbonus3.statuseffect.json": 1,
+          "healingbonuscrew1.statuseffect.json": 1,
+          "healingbonuscrew3.statuseffect.json": 1,
+          "healingbonuscrew5.statuseffect.json": 1,
           "healingpenalty10.statuseffect.json": 1,
           "healingpenalty2.statuseffect.json": 1,
           "healingpenalty3.statuseffect.json": 1,
           "honeysilkheal.statuseffect.json": 1,
           "mutaviskheal.statuseffect.json": 1,
-          "shared_.statuseffect.json": 1
+          "shared_.statuseffect.json": 2
         },
         "iceblock": {
           "iceblock1.statuseffect.json": 1,
@@ -22669,8 +22675,14 @@
           "foodregen.animation.json": 1,
           "fucrewmedicregeneration1.statuseffect.json": 1,
           "fucrewmedicregeneration2.statuseffect.json": 1,
+          "fucrewmedicregeneration3.statuseffect.json": 1,
+          "fucrewmedicregeneration4.statuseffect.json": 1,
+          "fucrewmedicregeneration5.statuseffect.json": 1,
           "fucrewmedicshipregeneration1.statuseffect.json": 1,
           "fucrewmedicshipregeneration2.statuseffect.json": 1,
+          "fucrewmedicshipregeneration3.statuseffect.json": 1,
+          "fucrewmedicshipregeneration4.statuseffect.json": 1,
+          "fucrewmedicshipregeneration5.statuseffect.json": 1,
           "indixregen.statuseffect.json": 1,
           "lightregen.statuseffect.json": 1,
           "psionicregeneration.statuseffect.json": 1,
@@ -23288,6 +23300,7 @@
         "cinnabar.matmod.json": 1,
         "claygrass2.matmod.json": 1,
         "cloud.matmod.json": 3,
+        "cocainium.matmod.json": 1,
         "corruption.matmod.json": 1,
         "darkgrass.matmod.json": 1,
         "deadleaves.matmod.json": 1,
@@ -23357,7 +23370,7 @@
         "sturdyplatform.material.json": 2
       }
     },
-    "wide_spread_fields.json": 146,
+    "wide_spread_fields.json": 147,
     "zb": {
       "newSail": {
         "data.config.json": 26,
