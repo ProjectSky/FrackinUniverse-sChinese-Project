@@ -2518,7 +2518,7 @@
         "ffguide5.codex.json": 3,
         "ffguide6.codex.json": 2,
         "ffguidebattle.codex.json": 3,
-        "ffguidepower.codex.json": 3,
+        "ffguidepower.codex.json": 2,
         "fleshweave.codex.json": 3,
         "foodprep.codex.json": 3,
         "lotus1.codex.json": 8,
@@ -3363,7 +3363,8 @@
           "fuhylotlblueprints.activeitem.json": 2,
           "funovakidblueprinta.activeitem.json": 2,
           "funovakidblueprintm.activeitem.json": 2,
-          "funovakidblueprints.activeitem.json": 2
+          "funovakidblueprints.activeitem.json": 2,
+          "necrontirblueprint.activeitem.json": 0
         },
         "shields": {
           "arconshield.activeitem.json": 2,
@@ -5616,7 +5617,7 @@
                 "energyback.back.json": 2
               },
               "lightning": {
-                "lightningbackunique.back.json": 2
+                "lightningbackunique.back.json": 1
               },
               "power": {
                 "powerback.back.json": 2
@@ -7917,7 +7918,7 @@
           "rums": {
             "agedrum.consumable.json": 1,
             "amberrum.consumable.json": 1,
-            "ambrosia.consumable.json": 2,
+            "ambrosia.consumable.json": 1,
             "darkrum.consumable.json": 1,
             "shared_rum.consumable.json": 1,
             "whiterum.consumable.json": 1
@@ -8031,7 +8032,7 @@
           "applecinnamonpie.consumable.json": 2,
           "avikanmeal.consumable.json": 2,
           "awfuloffalsmoothie.consumable.json": 2,
-          "bananapudding.consumable.json": 2,
+          "bananapudding.consumable.json": 1,
           "bigbreakfast.consumable.json": 2,
           "blam.consumable.json": 2,
           "bloodyboogerbread.consumable.json": 2,
@@ -8487,7 +8488,7 @@
           "garpberry.consumable.json": 2,
           "gazelemon.consumable.json": 2,
           "gemglow.consumable.json": 2,
-          "genesiberry.consumable.json": 2,
+          "genesiberry.consumable.json": 1,
           "ghostmushroom.consumable.json": 2,
           "ginseng.consumable.json": 2,
           "glarestalkeye.consumable.json": 2,
@@ -9180,6 +9181,7 @@
       "shared_campbigpole.mat.json": 1,
       "shared_chromadirt.json": 1,
       "shared_claytile.mat.json": 4,
+      "shared_coppersloppedpanel.mat.json": 0,
       "shared_dark.json": 9,
       "shared_darkwatercoral.mat.json": 1,
       "shared_darkwood.json": 7,
@@ -9338,6 +9340,7 @@
       "shared_shingles.mat.json": 5,
       "shared_shroomblock.json": 1,
       "shared_shroomblockglow.mat.json": 1,
+      "shared_silversloppedpanel.mat.json": 0,
       "shared_skath.json": 37,
       "shared_slime.json": 1,
       "shared_slimedirt.json": 1,
@@ -10333,25 +10336,25 @@
       },
       "space": {
         "chiropterror": {
-          "chiropterror.monstertype.json": 1
+          "chiropterror.monstertype.json": 2
         },
         "cosmostache": {
           "cosmostache.monstertype.json": 2
         },
         "fuchiropterror": {
-          "fuchiropterror.monstertype.json": 1
+          "fuchiropterror.monstertype.json": 0
         },
         "fuheavydrone": {
-          "fuheavydrone.monstertype.json": 2
+          "fuheavydrone.monstertype.json": 1
         },
         "fuomnicannon": {
           "shared_fuomnicannon.json": 1
         },
         "futrifangle": {
-          "futrifangle.monstertype.json": 2
+          "futrifangle.monstertype.json": 0
         },
         "futwigun": {
-          "futwigunpet.monstertype.json": 1,
+          "futwigunpet.monstertype.json": 0,
           "shared_.monstertype.json": 2
         },
         "heavydrone": {
@@ -10374,9 +10377,6 @@
         },
         "rustick": {
           "rustick.monstertype.json": 2
-        },
-        "shared_chiropterror": {
-          "shared_chiropterror.monstertype.json": 1
         },
         "shared_masteroid": {
           "shared_.monstertype.json": 1
@@ -11392,30 +11392,28 @@
           "avianWallLamp2.object.json": 5
         },
         "sarcoavian1": {
-          "sarcoavian1.object.json": 2,
-          "sarcoavian1deco.object.json": 0,
-          "shared_sarcoavian1.json": 1
+          "sarcoavian1.object.json": 3,
+          "sarcoavian1deco.object.json": 0
         },
         "sarcoavian2": {
-          "sarcoavian2.object.json": 1,
-          "sarcoavian2deco.object.json": 0,
-          "shared_sarcoavian2.json": 2
+          "sarcoavian2.object.json": 3,
+          "sarcoavian2deco.object.json": 0
         },
         "sarcobunny": {
-          "sarcobunny.object.json": 3,
-          "sarcobunnydeco.object.json": 0,
-          "shared_sarcobunny.json": 6
+          "sarcobunny.object.json": 9,
+          "sarcobunnydeco.object.json": 0
         },
         "sarcohuman": {
-          "sarcohuman.object.json": 4,
-          "sarcohumandeco.object.json": 0,
-          "shared_sarcohuman.json": 5
+          "sarcohuman.object.json": 9,
+          "sarcohumandeco.object.json": 0
         },
         "shared_avianWallLamp": {
           "shared_avianWallLamp.json": 4
         },
+        "shared_sarco": {
+          "shared_deco.object.json": 0
+        },
         "shared_sarcoavian": {
-          "shared_deco.object.json": 0,
           "shared_sarcoavian.json": 6
         },
         "tribalkitchencounter": {
@@ -22047,7 +22045,7 @@
             "dietpill.statuseffect.json": 1,
             "feedpack.statuseffect.json": 1,
             "feedpackneg.statuseffect.json": 1,
-            "genesifeed.statuseffect.json": 1,
+            "genesifeed.statuseffect.json": 0,
             "shared_feedpackcrew1.json": 1,
             "shared_feedpackcrew2.json": 1,
             "shared_feedpackcrew3.json": 1
